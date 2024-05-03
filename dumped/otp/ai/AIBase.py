@@ -21,9 +21,11 @@ class AIBase:
 
     def __init__(self):
         self.config = getConfigShowbase()
-        __builtins__['__dev__']= self.config.GetBool('want-dev', 0)
-        if self.config.GetBool('want-variable-dump', 0):
-            ExceptionVarDump.install()
+        __builtins__['__dev__'] = self.config.GetBool('want-dev', 0)
+        logStackDump = (self.config.GetBool('log-stack-dump', (not __dev__)) or self.config.GetBool('ai-log-stack-dump', (not __dev__)))
+        uploadStackDump = self.config.GetBool('upload-stack-dump', 0)
+        if logStackDump or uploadStackDump:
+            ExceptionVarDump.install(logStackDump, uploadStackDump)
         if self.config.GetBool('use-vfs', 1):
             vfs = VirtualFileSystem.getGlobalPtr()
         else:
@@ -86,7 +88,7 @@ class AIBase:
         self.sqlAvailable = self.config.GetBool('sql-available', 1)
         self.createStats()
         self.restart()
-
+	    
 
     def setupCpuAffinities(self, minChannel):
         if game.name == 'uberDog':
