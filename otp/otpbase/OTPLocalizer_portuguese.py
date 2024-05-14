@@ -148,26 +148,26 @@ grey = TextProperties()
 grey.setTextColor(0.5, 0.5, 0.5, 1)
 TextPropertiesManager.getGlobalPtr().setProperties('cinza', grey)
 
-ActivateChat = """Secret Friends allows one member to chat with another member only by means of a Secret Friend Code that must be communicated outside of the game. True Friends is not moderated or supervised.
+ActivateChat = """The Secret Friends feature allows one member to chat with another member only by means of a Secret Friend Code that must be communicated outside of the game. The Secret Friends feature is not moderated or supervised.
 
-Please choose one of Toontown's True Friends options:
+Please choose one of Toontown's The Secret Friends feature options:
 
-      \1shadow\1No True Friends\2 - Ability to make True Friends is disabled.
+      \1shadow\1No The Secret Friends feature\2 - Ability to make The Secret Friends feature is disabled.
       This offers the highest level of control.
 
-      \1shadow\1Restricted True Friends\2 - Requires the Parent Account Password to make
-      each new True Friend.
+      \1shadow\1Restricted The Secret Friends feature\2 - Requires the Parent Account Password to make
+      each new Secret Friend feature.
 
-      \1shadow\1Unrestricted True Friends\2 - Once enabled with the Parent Account Password,
+      \1shadow\1Unrestricted The Secret Friends feature\2 - Once enabled with the Parent Account Password,
       it is not required to supply the Parent Account Password to make each new
-      True Friend. \1red\1This option is not recommended for children under 13.\2
+      The Secret Friend feature. \1red\1This option is not recommended for children under 13.\2
 
 
 
 
 
 
-By enabling the True Friends feature, you acknowledge that there are some risks inherent in the True Friends feature and that you have been informed of, and agree to accept, any such risks."""
+By enabling the secret Friends feature, you acknowledge that there are some risks inherent in the Secret Friends feature and that you have been informed of, and agree to accept, any such risks."""
 
 ActivateChatYes = "Atualizar"
 ActivateChatNo = lCancel
