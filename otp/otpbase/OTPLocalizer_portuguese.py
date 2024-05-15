@@ -29,11 +29,11 @@ DialogOK = lOK
 DialogCancel = lCancel
 DialogYes = lYes
 DialogNo = lNo
-DialogDoNotShowAgain = "Não faça\nShow Novamente"
+DialogDoNotShowAgain = "Não\nMostrar de Novo"
 
 # DistributedAvatar.py
 WhisperNoLongerFriend = "%s saiu da sua lista de amigos."
-WhisperNowSpecialFriend = "%s agora é seu amigo secreto!"
+WhisperNowSpecialFriend = "%s agora é seu amigo verdadeiro!"
 WhisperComingToVisit = "%s está vindo visitar você."
 WhisperFailedVisit = "%s tentou visitar você."
 WhisperTargetLeftVisit = "%s foi para outro lugar. Tente novamente!"
@@ -61,6 +61,7 @@ SCEmoteNoAccessMsg = "Você não tem acesso\na esta emoção ainda."
 SCEmoteNoAccessOK = lOK
 
 ParentLogin = "Login dos Pais"
+#ParentPassword = "Senha dos Pais"
 ParentPassword = "Senha da conta dos pais"
 
 # ChatGarbler.py
@@ -72,12 +73,15 @@ ChatManagerWhisperTo = "Cochichar com:"
 ChatManagerWhisperToName = "Cochichar com:\n%s"
 ChatManagerCancel = lCancel
 ChatManagerWhisperOffline = "%s está off-line."
-OpenChatWarning = 'Para se tornarem amigos secretos com alguém, clique neles, e selecione "Amigos secretos" a partir do painel de detalhes.\n\nBate-papoRápido Plus também pode ser habilitado, que permitem aos usuários para bater um papo digitando palavras encontradas no dicionário Disney Bate-papoRápido Plus.\n\nPara ativar esses recursos ou para aprender mais, saia do Toontown e então clique em Filiação e selecione Gerenciar Conta. Faça login para editar suas "Configurações da comunidade".\n\nSe você tem menos de 18 anos, precisa de uma conta dos pais para gerenciar essas configurações.'
+#OpenChatWarning = 'Você ainda não tem nenhum "Amigo secreto"! Você não pode conversar com outros Toons a menos que eles sejam seus Amigos secretos.\n\nPara se tornar Amigo secreto de alguém, clique nele e selecione "Segredos" no painel de detalhes. Claro, você sempre pode conversar com qualquer pessoa pelo Bate-papoRápido.'
+OpenChatWarning = 'Para se tornarem amigos verdadeiros com alguém, clique neles, e selecione "Amigos verdadeiros" a partir do painel de detalhes.\n\nBate-papoRápido Plus também pode ser habilitado, que permitem aos usuários para bater um papo digitando palavras encontradas no dicionário Disney Bate-papoRápido Plus.\n\nPara ativar esses recursos ou para aprender mais, saia do Toontown e então clique em Filiação e selecione Gerenciar Conta. Faça login para editar suas "Configurações da comunidade".\n\nSe você tem menos de 18 anos, precisa de uma conta dos pais para gerenciar essas configurações.'
 OpenChatWarningOK = lOK
-UnpaidChatWarning = 'Depois que você assinar o serviço, poderá ativar este botão para conversar com seus amigos usando o teclado. Até lá, você deve conversar com os outros Toons usando o Chat rápido.'
-UnpaidChatWarningPay = "Assine já!"
+UnpaidChatWarning = 'Depois de se inscrever, você pode usar este botão para conversar com seus amigos usando o teclado. Até então, você deve conversar com os outros Toons usando o Bate-papoRápido.'
+#UnpaidChatWarningPay = "Inscreva-se já!"
+UnpaidChatWarningPay = "Inscreva-se"
 UnpaidChatWarningContinue = "Continuar avaliação gratuita"
 PaidNoParentPasswordWarning = 'Depois que você definir a sua senha de pais, poderá ativar este botão para conversar com seus amigos usando o teclado. Até lá, você deve conversar com os outros Toons usando o Chat rápido.'
+#UnpaidNoParentPasswordWarning = 'Once you have set your parent password, you can enable this button to chat with your friends using the keyboard. To set your parent password, exit Toontown and then click on "Preferences" under Member Services on the Toontown web page. Until then, you should chat with other Toons using SpeedChat.'
 UnpaidNoParentPasswordWarning = 'This is for SpeedChat Plus, which allows users to chat by typing words found in the Disney SpeedChat Plus dictionary. To activate this feature, exit Toontown and click on Membership. Select Manage Account and log in to edit your "Community Settings." If you are under 18, you need a Parent Account to manage these settings.'
 PaidNoParentPasswordWarningSet = "Definir senha de pais agora!"
 PaidNoParentPasswordWarningContinue = "Continuar jogando"
