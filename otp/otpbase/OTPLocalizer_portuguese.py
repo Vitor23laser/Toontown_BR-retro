@@ -378,9 +378,9 @@ SCMenuToontasksINeedMore = "Preciso de mais..."
 SCMenuBattleGags = "PIADAS"
 SCMenuBattleTaunts = "PROVOCAÇÕES"
 SCMenuBattleStrategy = "ESTRATÉGIA"
-SCMenuBoardingGroup              = "BOARDING"
-SCMenuParties                    = "PARTIES"
-SCMenuAprilToons                 = "APRIL TOONS'"
+SCMenuBoardingGroup = "ABORDAGEM"
+SCMenuParties = "FESTAS"
+SCMenuAprilToons = "TOONS DA MENTIRA"
 
 # FriendSecret.py
 FriendSecretNeedsPasswordWarningTitle = "Controles disponíveis aos pais"
@@ -391,21 +391,21 @@ FriendSecretNeedsPasswordWarningCancel = lCancel
 FriendSecretNeedsPasswordWarningWrongUsername = """Esse não é o nome de usuário correto. Digite o nome de usuário da conta de pais. Esse não é o mesmo nome de usuário que é usado para jogar."""
 FriendSecretNeedsPasswordWarningWrongPassword = """Esta não é a senha correta. Insira a Senha de pais criada na compra desta conta. Não é a mesma senha usada para os jogos."""
 FriendSecretIntro = "Se você estiver jogando Toontown Online da Disney com alguém que conhece no mundo real, poderá tornar-se Amigo secreto dessa pessoa. Você pode conversar com seus Amigos secretos usando o teclado. Os outros Toons não entenderão o que vocês estiverem falando.\n\nVocê pode conseguir isto obtendo um segredo. Conte o segredo só ao seu amigo, e a mais ninguém. Quando o seu amigo digitar o seu segredo na tela, vocês dois serão Amigos secretos em Toontown!"
-FriendSecretGetSecret = "Obter um segredo"
+FriendSecretGetSecret = "Obter um código de amigo secreto"
 FriendSecretEnterSecret = "Se você tiver um segredo de alguém conhecido, digite-o aqui."
 FriendSecretOK = lOK
-FriendSecretEnter = "Inserir segredo"
+FriendSecretEnter = "Inserir código de amigo secreto"
 FriendSecretCancel = lCancel
-FriendSecretGettingSecret = "Obtendo segredo. . ."
-FriendSecretGotSecret = "Este é o seu novo segredo. Não deixe de anotá-lo em algum lugar!\n\nVocê só pode dar este segredo a uma pessoa. Depois que alguém digitar o seu segredo, ele não funcionará para nenhuma outra pessoa. Se você quiser dar um segredo para mais de uma pessoa, obtenha outro.\n\nO segredo só funcionará nos próximos dois dias. O seu amigo terá que digitá-lo antes que expire, caso contrário, não funcionará.\n\nO segredo é:"
-FriendSecretTooMany = "Sinto muito, você não pode ter mais segredos hoje. Você já obteve mais do que a parte que lhe cabia!\n\nTente novamente amanhã."
-FriendSecretTryingSecret = "Tentando usar segredo. . ."
+FriendSecretGettingSecret = "Obtendo código de amigo secreto. . ."
+FriendSecretGotSecret = "Este é o seu novo código de amigo secreto. Não deixe de anotá-lo em algum lugar!\n\nVocê só pode dar este código de amigo secreto a uma pessoa. Depois que alguém digitar o seu código de amigo secreto, ele não funcionará para nenhuma outra pessoa. Se você quiser dar um código de amigo secreto para mais de uma pessoa, obtenha outro.\n\nO código de amigo secreto só funcionará nos próximos dois dias. O seu amigo terá que digitá-lo antes que expire, caso contrário, não funcionará.\n\nO código de amigo secreto é:"
+FriendSecretTooMany = "Sinto muito, você não pode ter mais códigos de amigo secretos hoje. Você já obteve mais do que a parte que lhe cabia!\n\nTente novamente amanhã."
+FriendSecretTryingSecret = "Tentando usar código de amigo secreto. . ."
 FriendSecretEnteredSecretSuccess = "Agora, você é Amigo secreto de %s!"
-FriendSecretTimeOut = "Sorry, secrets are not working right now."
-FriendSecretEnteredSecretUnknown = "Este segredo não existe. Tem certeza de que digitou certo?\n\nSe você tiver digitado certo, ele pode ter expirado. Peça ao seu amigo para pegar outro segredo para você (ou pegue um novo você mesmo e dê ao seu amigo)."
+FriendSecretTimeOut = "Sinto muito, código de amigo secreto não estão funcionando agora."
+FriendSecretEnteredSecretUnknown = "Este código de amigo secreto não existe. Tem certeza de que digitou certo?\n\nSe você tiver digitado certo, ele pode ter expirado. Peça ao seu amigo para pegar outro segredo para você (ou pegue um novo você mesmo e dê ao seu amigo)."
 FriendSecretEnteredSecretFull = "Você não pode fazer amizade com %s porque um de vocês dois possui amigos demais na lista."
 FriendSecretEnteredSecretFullNoName = "Vocês não podem fazer amizade porque um de vocês dois possui amigos demais na lista."
-FriendSecretEnteredSecretSelf = "Você acabou de digitar seu próprio segredo! Agora, ninguém mais poderá usar este segredo."
+FriendSecretEnteredSecretSelf = "Você acabou de digitar seu próprio código de amigo secreto! Agora, ninguém mais poderá usar este código de amigo secreto."
 FriendSecretEnteredSecretWrongProduct = "Você digitou o tipo errado de Código de Amigo Verdadeiro.\nEste jogo utiliza códigos que começam com '%s'."
 FriendSecretNowFriends = "Agora, você é Amigo secreto de %s!"
 FriendSecretNowFriendsNoName = "Agora, vocês são Amigos secretos!"
@@ -3058,6 +3058,19 @@ WhiteListMenu = [
 "LISTA DE PERMISSÕES"
 ]
 
+SellbotInvasionMenuSections = [
+ -1,
+]
+
+SellbotFieldOfficeMenuSections = [
+ -1,
+ 'ESTRATÉGIA',
+]
+
+IdesOfMarchMenuSections = [
+ -1,
+]
+
 
 # TTAccount.py
 # Fill in %s with phone number from account server
@@ -3065,3 +3078,23 @@ TTAccountCallCustomerService = "Favor entrar em contato com o Atendimento ao Con
 # Fill in %s with phone number from account server
 TTAccountCustomerServiceHelp = "\nSe precisar de ajuda, favor entrar em contato com o Atendimento ao Comsumidor em %s."
 TTAccountIntractibleError = "Um erro ocorreu."
+
+def timeElapsedString(timeDelta):
+    timeDelta = abs(timeDelta)
+    if timeDelta.days > 0:
+        if timeDelta.days == 1:
+            return "1 dia atrás"
+        else:
+            return "%s dias atrás" % timeDelta.days
+
+    elif timeDelta.seconds / 3600 > 0:
+        if timeDelta.seconds / 3600 == 1:
+            return "1 hora atrás"
+        else:
+            return "%s horas atrás" % (timeDelta.seconds / 3600)
+
+    else:
+        if timeDelta.seconds / 60 < 2:
+            return "1 minuto atrás"
+        else:
+            return "%s minutos atrás" % (timeDelta.seconds / 60)
