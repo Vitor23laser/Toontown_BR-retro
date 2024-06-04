@@ -151,6 +151,7 @@ TextPropertiesManager.getGlobalPtr().setProperties('preto', black)
 grey = TextProperties()
 grey.setTextColor(0.5, 0.5, 0.5, 1)
 TextPropertiesManager.getGlobalPtr().setProperties('cinza', grey)
+#ActivateChat = """O recurso Amigos secretos só permite que um associado converse com outro mediante um código secreto que deve ser comunicado fora do jogo. Para obter uma descrição completa do recurso, clique aqui: O recurso Amigos secretos não é moderado nem supervisionado. Se os pais deixarem seus filhos usarem a conta com o recurso Amigos secretos ativado, aconselhamos que eles mesmos supervisionem os filhos durante a brincadeira. Depois que for ativado, o recurso Amigos secretos ficará disponível até que alguém o desative. Ao ativar o recurso Amigos secretos, você reconhece que, apesar de haver alguns riscos inerentes a ele, você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los, quaisquer desses riscos."""
 ActivateChat = """O recurso Amigos Secretos permite que um membro converse com outro membro apenas por meio de um código secreto que deve ser comunicado fora do jogo. O recurso Amigos Secretos não é moderado ou supervisionado.
 
 Por favor, escolha uma das opções do recurso Amigos Secretos de Toontown:
