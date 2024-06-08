@@ -2539,12 +2539,12 @@ SpeedChatStaticTextToontown = {
 
     # Phrases for Ides Of March
     30450: "It's easy to be green!",
-    30451: "Visit Green Bean Jeans and you can be green too!",
+    30451: "Visite Verde Feijão Jeans e você também pode ser verde!",
     30452: "Fica na Rua dos Carvalhos nos Jardins da Margarida.",
     }
 
 SpeedChatStaticTextPirates = {
-    # Expressions Pirates
+    # PIRATES ROOT - TOP LEVEL
     50001 : 'Sim',
     50002 : 'Não',
     50003 : 'Arrr!',
@@ -2638,19 +2638,19 @@ SpeedChatStaticTextPirates = {
     50404 : "Let's get out of here.",
 
     # PLACES - LETS SAIL...
-    51500 : "Let's sail to Port Royal.",
-    51501 : "Let's sail to Tortuga.",
-    51502 : "Let's sail to Padres Del Fuego.",
-    51503 : "Let's sail to Devil's Anvil.",
-    51504 : "Let's sail to Kingshead.",
-    51505 : "Let's sail to Isla Perdida.",
-    51506 : "Let's sail to Cuba.",
-    51507 : "Let's sail to Tormenta.",
-    51508 : "Let's sail to Outcast Isle.",
-    51509 : "Let's sail to Driftwood.",
-    51510 : "Let's sail to Cutthroat.",
-    51511 : "Let's sail to Rumrunner's Isle.",
-    51512 : "Let's sail to Isla Cangrejos.",
+    51500 : "Vamos navegar para Port Royal.",
+    51501 : "Vamos navegar para Tortuga.",
+    51502 : "Vamos navegar para Padres Del Fuego.",
+    51503 : "Vamos navegar para Devil's Anvil.",
+    51504 : "Vamos navegar para Kingshead.",
+    51505 : "Vamos navegar para Isla Perdida.",
+    51506 : "Vamos navegar para Cuba.",
+    51507 : "Vamos navegar para Tormenta.",
+    51508 : "Vamos navegar para Outcast Isle.",
+    51509 : "Vamos navegar para Driftwood.",
+    51510 : "Vamos navegar para Cutthroat.",
+    51511 : "Vamos navegar para Rumrunner's Isle.",
+    51512 : "Vamos navegar para Isla Cangrejos.",
     
     # PLACES - LETS HEAD TO...
     51600 : "Let's head into town.",
