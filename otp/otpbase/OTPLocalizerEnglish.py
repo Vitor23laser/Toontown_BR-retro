@@ -108,8 +108,8 @@ WhisperFromFormatName = "%s whispers"
 ThoughtOtherFormatName = "%s thinks"
 ThoughtSelfFormatName = "You think"
 
-from otp.otpbase.OTPModules import TextProperties
-from otp.otpbase.OTPModules import TextPropertiesManager
+from pandac.PandaModules import TextProperties
+from pandac.PandaModules import TextPropertiesManager
 
 shadow = TextProperties()
 shadow.setShadow(-0.025, -0.025)
@@ -3783,12 +3783,6 @@ SellbotNerfMenuSections = [
  -1, 
  'GROUPING', 
  'SELLBOT TOWERS/VP',
-]
-
-LawbotNerfMenuSections = [
- -1, 
- 'GROUPING',
- 'COURTHOUSE/CJ',
 ]
 
 JellybeanJamMenuSections = [
