@@ -805,6 +805,20 @@ GuildInviterSelf = "You are already in the guild!"
 GuildInviterIgnored = "%s is ignoring you."
 GuildInviterAsking = "Asking %s to join the guild."
 GuildInviterGuildSaidYes = "%s will join!"
+GuildInviterFriendKickedOut = "%s has kicked out %s from the Guild."
+GuildInviterFriendKickedOutP = "%s have kicked out %s from the Guild."
+GuildInviterFriendInvited = "%s has invited %s to the Guild."
+GuildInviterFriendInvitedP = "%s have invited %s to the Guild."
+GuildInviterFriendPromoted = "%s has promoted %s to the rank of %s."
+GuildInviterFriendPromotedP = "%s have promoted %s to the rank of %s."
+GuildInviterFriendDemoted = "%s has demoted %s to the rank of %s."
+GuildInviterFriendDemotedP = "%s have demoted %s to the rank of %s."
+GuildInviterFriendPromotedGM = "%s has named %s as the new %s"
+GuildInviterFriendPromotedGMP = "%s have named %s as the new %s"
+GuildInviterFriendDemotedGM = "%s has been named by %s as the new GuildMaster who became the rank of %s"
+GuildInviterFriendDemotedGMP = "%s have been named by %s as the new GuildMaster who beaome the rank of %s"
+
+# FriendInviter.py
 
 # FriendInviter.py
 FriendOnline = "entrou on-line."
