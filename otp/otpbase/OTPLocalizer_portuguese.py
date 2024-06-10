@@ -536,25 +536,25 @@ SecretFriendsInfoPanelText = [""" O recurso Abrir chat com Amigos verdadeiros
 
 O recurso Abrir chat com Amigos verdadeiros ativa um membro para conversar diretamente com outro no Toontown On-line da Disney (o "Serviço") depois que os membros estabelecerem uma conexão de Amigos verdadeiros. Quando o seu filho tentar usar o recurso Abrir chat com Amigos verdadeiros, solicitaremos que você insira a sua Senha conta de pais para indicar seu consentimento para que a criança use o recurso. Esta é uma descrição detalhada do processo de criação de uma conexão de Abrir chat com Amigos verdadeiros entre os membros fictícios chamados "Sandra" e "Marcos". 
 1. O responsável por Sandra e o responsável por Marcos ativam o recurso Abrir chat com Amigos verdadeiros inserindo suas respectivas Senhas conta de pais (a) nas áreas de Opções da conta do Serviço ou (b) quando for solicitado no jogo, em uma janela pop-up de Controles disponíveis aos pais.
-2. Sandra pede um Código de Amigo Secreto (descrito abaixo) no Serviço.
+2. Sandra pede um Código de Amigo verdadeiro (descrito abaixo) no Serviço.
 """,""" 
-3. O Código de Amigo Secreto de Sandra é comunicado a Marcos fora do Serviço. (O Código de Amigo Secreto de Sandra pode ser comunicado a Marcos diretamente por Sandra ou indiretamente, se Sandra revelar o Código de Amigo Secreto a outra pessoa.) 
-4. Marcos envia o Código de Amigo Secreto de Sandra ao Serviço dentro de 48 horas a partir da hora em que Sandra solicitou o Código de Amigo Secreto ao Serviço. 
-5. Em seguida, o Serviço notifica Marcos de que Sandra tornou-se sua Amiga secreta. Da mesma forma, o Serviço notifica Sandra de que Marcos tornou-se seu Amigo secreto. 
-6. Sandra e Marcos podem agora bater um papo aberto diretamente um com o outro até um deles escolher cancelar o seu relacionamento como Amigo secreto, ou até que o recurso Abrir Chat com Amigos verdadeiros seja desativado para Sandra ou Marcos por um dos responsáveis. Então, a conexão de Amigos verdadeiros pode ser desativada a qualquer momento: (a) por um membro, que remove o Amigo secreto de sua lista de amigos (conforme descrito no Serviço), ou (b) pelo responsável pelo membro, que desativa o recurso Abrir chat com """,""" 
+3. O Código de Amigo verdadeiro de Sandra é comunicado a Marcos fora do Serviço. (O Código de Amigo verdadeiro de Sandra pode ser comunicado a Marcos diretamente por Sandra ou indiretamente, se Sandra revelar o Código de Amigo verdadeiro a outra pessoa.) 
+4. Marcos envia o Código de Amigo verdadeiro de Sandra ao Serviço dentro de 48 horas a partir da hora em que Sandra solicitou o Código de Amigo verdadeiro ao Serviço. 
+5. Em seguida, o Serviço notifica Marcos de que Sandra tornou-se sua Amiga verdadeira. Da mesma forma, o Serviço notifica Sandra de que Marcos tornou-se seu Amigo verdadeiro. 
+6. Sandra e Marcos podem agora bater um papo aberto diretamente um com o outro até um deles escolher cancelar o seu relacionamento como Amigo verdadeiro, ou até que o recurso Abrir Chat com Amigos verdadeiros seja desativado para Sandra ou Marcos por um dos responsáveis. Então, a conexão de Amigos verdadeiros pode ser desativada a qualquer momento: (a) por um membro, que remove o Amigo verdadeiro de sua lista de amigos (conforme descrito no Serviço), ou (b) pelo responsável pelo membro, que desativa o recurso Abrir chat com """,""" 
 Amigos verdadeiros na área Opções da conta do Serviço, seguindo as etapas definidas no recurso. 
 
-O Código de Amigo secreto é um código aleatório, gerado por computador, que é atribuído a um membro específico. O Código de Amigo secreto precisa ser usado para ativar a conexão de Amigo secreto dentro de 48 horas a partir da hora em que o membro solicitou o Código de Amigo secreto; caso contrário, o Código de Amigo secreto expirará e não poderá ser usado. Além disso, só se pode usar um único Código de Amigo secreto para estabelecer uma conexão de Amigo secreto. Para fazer conexões adicionais de Amigos verdadeiros, o membro precisará solicitar mais códigos de Amigo verdadeiros, um para cada Amigo secreto que quiser incluir. 
+O Código de Amigo verdadeiro é um código aleatório, gerado por computador, que é atribuído a um membro específico. O Código de Amigo verdadeiro precisa ser usado para ativar a conexão de Amigo verdadeiro dentro de 48 horas a partir da hora em que o membro solicitou o Código de Amigo verdadeiro; caso contrário, o Código de Amigo verdadeiro expirará e não poderá ser usado. Além disso, só se pode usar um único Código de Amigo verdadeiro para estabelecer uma conexão de Amigo verdadeiro. Para fazer conexões adicionais de Amigos verdadeiros, o membro precisará solicitar mais códigos de Amigo verdadeiros, um para cada Amigo verdadeiro que quiser incluir. 
 
-As Amizades secretas não podem ser transferidas. Por exemplo, se Sandra se tornar Amiga secreta de Marcos, e Marcos se tornar Amigo secreto de Jéssica, Sandra não se tornará automaticamente Amiga secreta de Jéssica. Para que Sandra e Jéssica 
+As Amizades verdadeiras não podem ser transferidas. Por exemplo, se Sandra se tornar Amiga verdadeira de Marcos, e Marcos se tornar Amigo verdadeiro de Jéssica, Sandra não se tornará automaticamente Amiga verdadeira de Jéssica. Para que Sandra e Jéssica 
 """,""" 
-se tornem Amigas secretas, uma delas terá que solicitar um novo Código de Amigo secreto ao Serviço e comunicar à outra. 
+se tornem Amigas verdadeiras, uma delas terá que solicitar um novo Código de Amigo verdadeiro ao Serviço e comunicar à outra. 
 
 Os Amigos verdadeiros se comunicam entre si por meio de uma conversa interativa em formato livre. O conteúdo da conversa é inserido diretamente pelo membro participante e é processado pelo Serviço, cuja operação é realizada pelo Walt Disney Internet Group ("WDIG"), 500 S. Buena Vista St., Burbank, CA 91521-7691.  Embora aconselhamos os membros não trocarem informações pessoais como nome e sobrenome, e-mails, endereço postal ou números de telefone ao usarem o recurso Abrir Chat com Amigos verdadeiros, não podemos garantir que os membros seguirão a recomendação e que tais informações sejam preservadas. Embora o chat Amigos verdadeiros seja automaticamente filtrado para maioria dos palavrões, Abrir chat com amigos verdadeiros pode ser moderado e a Disney reserva-se o direito de moderar qualquer parte do Serviço que a Disney 
 """,""" 
 a seu exclusivo e absoluto critério, julgar necessário. No entanto, como Abrir chat com Amigos verdadeiros nem sempre será moderado, se a conta de pais deixarem seus filhos usarem a conta com o recurso Abrir chat com Amigos verdadeiros ativado no Serviço, aconselhamos que eles mesmos supervisionem os filhos durante a brincadeira. Ao ativar o recurso Abrir chat com Amigos verdadeiros, a conta de pais reconhece que, apesar de haver alguns riscos inerentes ao recurso Abrir chat com amigos verdadeiros, a conta de pais foi informada de todos os riscos mencionados aqui, concordando em aceitá-los, seja previsível ou não. 
 
-O WDIG não usa o conteúdo do chat Amigos verdadeiros para nenhum fim que não seja a comunicação do conteúdo ao amigo secreto do membro, e não revela tal conteúdo a terceiros, exceto: (1) se exigido por lei; por exemplo, para cumprir uma ordem ou intimação judicial; (2) para fazer com que os Termos de Uso 
+O WDIG não usa o conteúdo do chat Amigos verdadeiros para nenhum fim que não seja a comunicação do conteúdo ao amigo verdadeiro do membro, e não revela tal conteúdo a terceiros, exceto: (1) se exigido por lei; por exemplo, para cumprir uma ordem ou intimação judicial; (2) para fazer com que os Termos de Uso 
 """,""" 
 aplicáveis ao Serviço (que podem ser acessados na página principal do Serviço) sejam respeitados; ou (3) para proteger a segurança dos Membros do Serviço e o Serviço propriamente dito. Mediante solicitação ao WDIG, o responsável por uma criança-membro pode analisar e mandar apagar qualquer conteúdo do recurso de chat Amigos verdadeiros fornecidos pela criança em questão, desde que tal conteúdo já não tenha sido excluído dos registros pelo WDIG. Obedecendo à Children's Online Privacy Protection Act, uma lei americana de proteção à privacidade on-line para as crianças, estamos proibidos de condicionar a participação da criança em qualquer tipo de atividade (inclusive o recurso Abrir chat com Amigos verdadeiros) ao fornecimento, por parte da criança, de mais informações pessoais do que o estritamente necessário para que ela participe de tais atividades. 
 
@@ -574,13 +574,18 @@ LeaveToEnableChatUKYes = "Ativar chat"
 LeaveToEnableChatUKNo = lCancel
 
 ChatMoreInfoOK = lOK
+#SecretChatDeactivated = 'O recurso "Amigos secretos" foi desativado.'
 SecretChatDeactivated = 'O recurso "Amigos verdadeiros" foi desativado.'
+#RestrictedSecretChatActivated = 'O recurso "Amigos secretos restritos" foi ativado!'
 RestrictedSecretChatActivated = 'O recurso "Amigos verdadeiros restritos" foi ativado!'
+#SecretChatActivated = 'O sistema "Amigos secretos" foi ativado!\n\nSe você mudar de idéia e decidir desativar este recurso mais tarde, clique em "Opções da conta" na página da web de Toontown.'
 SecretChatActivated = 'O recurso "Amigos verdadeiros irrestritos" foi ativado!\n\nSe você mudar de idéia e decidir desativar este recurso mais tarde, clique em "Opções da conta" na página da web de Toontown.'
 SecretChatActivatedOK = lOK
 SecretChatActivatedChange = "Alterar Opções"
+#ProblemActivatingChat = 'Ops! Não foi possível ativar o recurso de chat "Amigos secretos".\n\n%s\n\nTente novamente mais tarde.'
 ProblemActivatingChat = 'Ops! Não foi possível ativar o recurso de chat "Amigos verdadeiros".\n\n%s\n\nTente novamente mais tarde.'
 ProblemActivatingChatOK = lOK
+
 
 # MultiPageTextFrame.py
 MultiPageTextFrameNext = lNext
@@ -726,46 +731,71 @@ SCMenuBattleStrategy = "ESTRATÉGIA"
 SCMenuBoardingGroup  = "ABORDAGEM"
 SCMenuParties = "FESTAS"
 SCMenuAprilToons = "DIA DA MENTIRA TOONS"
+SCMenuSingingGroup = "CANTORIA"
+SCMenuCarol = "CANTANDO"
+SCMenuSillyHoliday = "MEDIDOR DE BOBAGEM"
+SCMenuVictoryParties = "FESTAS DA VITÓRIAS"
+SCMenuSellbotNerf = "TEMPESTADE DOS RÔBOS VENDEDORES"
+SCMenuJellybeanJam = "SEMANA DAS BALINHAS"
+SCMenuHalloween = "DIAS DAS BRUXAS"
+SCMenuWinter = "INVERNO"
+SCMenuSellbotInvasion = "INVASÃO DOS RÔBOS VENDEDORES"
+SCMenuFieldOffice = "ESCRITÓRIO DE CAMPO"
+SCMenuIdesOfMarch = "VERDE"
 
 # FriendSecret.py
 FriendSecretNeedsPasswordWarningTitle = "Controles disponíveis aos pais"
 FriendSecretNeedsParentLoginWarning = """Para conseguir ou digitar um Código de Amigo Verdadeiro, um dos seus pais ou responsáveis precisa fazer o login. Você pode desativar esta pergunta alterando suas opções de Amigos Verdadeiros."""
+#FriendSecretNeedsPasswordWarning = """Para pegar ou digitar um segredo, você deve inserir a Senha de pais. Você pode desativar esta solicitação alterando as suas opções de Amigos secretos."""
 FriendSecretNeedsPasswordWarning = """Para pegar ou digitar um Código de Amigos Verdadeiros, você deve inserir a Senha conta de pais. Você pode desativar esta solicitação alterando as suas opções de Amigos verdadadeiros."""
 FriendSecretNeedsPasswordWarningOK = lOK
 FriendSecretNeedsPasswordWarningCancel = lCancel
 FriendSecretNeedsPasswordWarningWrongUsername = """Esse não é o nome de usuário correto. Digite o nome de usuário da conta de pais. Esse não é o mesmo nome de usuário que é usado para jogar."""
 FriendSecretNeedsPasswordWarningWrongPassword = """Esta não é a senha correta. Insira a Senha conta de pais criada na compra desta conta. Não é a mesma senha usada para os jogos."""
+#FriendSecretIntro = "Se você estiver jogando Toontown Online da Disney com alguém que conhece no mundo real, poderá tornar-se Amigo secreto dessa pessoa. Você pode conversar com seus Amigos secretos usando o teclado. Os outros Toons não entenderão o que vocês estiverem falando.\n\nVocê pode conseguir isto obtendo um segredo. Conte o segredo só ao seu amigo, e a mais ninguém. Quando o seu amigo digitar o seu segredo na tela, vocês dois serão Amigos secretos em Toontown!"
 FriendSecretIntro = "Se você estiver jogando Toontown Online da Disney com alguém que conhece no mundo real, poderá tornar-se Amigo verdadeiro dessa pessoa. Você pode conversar com seus Amigos verdadeiros usando o teclado. Os outros Toons não entenderão o que vocês estiverem falando.\n\nVocê pode conseguir isto obtendo um Código de Amigos Verdadeiros. Conte o Código de Amigos Verdadeiros só ao seu amigo, e a mais ninguém. Quando o seu amigo digitar o seu Código de Amigos Verdadeiros na tela, vocês dois serão Amigos verdadeiros em Toontown!"
+#FriendSecretGetSecret = "Obter um segredo"
 FriendSecretGetSecret = "Obter um Código de Amigos Verdadeiros"
+#FriendSecretEnterSecret = "Se você tiver um segredo de alguém conhecido, digite-o aqui."
 FriendSecretEnterSecret = "Se você tiver um Código de Amigos Verdadeiros de alguém conhecido, digite-o aqui."
 FriendSecretOK = lOK
+#FriendSecretEnter = "Inserir segredo"
 FriendSecretEnter = "Inserir Código de Amigos Verdadeiros"
 FriendSecretCancel = lCancel
+#FriendSecretGettingSecret = "Obtendo segredo. . ."
 FriendSecretGettingSecret = "Obtendo Código de Amigos Verdadeiros. . ."
+#FriendSecretGotSecret = "Este é o seu novo segredo. Não deixe de anotá-lo em algum lugar!\n\nVocê só pode dar este segredo a uma pessoa. Depois que alguém digitar o seu segredo, ele não funcionará para nenhuma outra pessoa. Se você quiser dar um segredo para mais de uma pessoa, obtenha outro.\n\nO segredo só funcionará nos próximos dois dias. O seu amigo terá que digitá-lo antes que expire, caso contrário, não funcionará.\n\nO segredo é:"
 FriendSecretGotSecret = "Este é o seu novo Código de Amigos Verdadeiros. Não deixe de anotá-lo em algum lugar!\n\nVocê só pode dar este Código de Amigos Verdadeiros a uma pessoa. Depois que alguém digitar o seu Código de Amigos Verdadeiros, ele não funcionará para nenhuma outra pessoa. Se você quiser dar um Código de Amigos Verdadeiros para mais de uma pessoa, obtenha outro.\n\nO Código de Amigos Verdadeiros só funcionará nos próximos dois dias. O seu amigo terá que digitá-lo antes que expire, caso contrário, não funcionará.\n\nO Código de Amigos Verdadeiros é:"
+#FriendSecretTooMany = "Sinto muito, você não pode ter mais segredos hoje. Você já obteve mais do que a parte que lhe cabia!\n\nTente novamente amanhã."
 FriendSecretTooMany = "Sinto muito, você não pode ter mais código de Amigos Verdadeiros hoje. Você já obteve mais do que a parte que lhe cabia!\n\nTente novamente amanhã."
+#FriendSecretTryingSecret = "Tentando usar segredo. . ."
 FriendSecretTryingSecret = "Tentando usar Código de Amigos Verdadeiros. . ."
+#FriendSecretEnteredSecretSuccess = "Agora, você é Amigo secreto de %s!"
 FriendSecretEnteredSecretSuccess = "Agora, você é Amigo verdadeiro de %s!"
 FriendSecretTimeOut = "Sinto muitos, segredos não estão funcionando agora."
+#FriendSecretEnteredSecretUnknown = "Este segredo não existe. Tem certeza de que digitou certo?\n\nSe você tiver digitado certo, ele pode ter expirado. Peça ao seu amigo para pegar outro segredo para você (ou pegue um novo você mesmo e dê ao seu amigo)."
 FriendSecretEnteredSecretUnknown = "Este Código de Amigos Verdadeiros não existe. Tem certeza de que digitou certo?\n\nSe você tiver digitado certo, ele pode ter expirado. Peça ao seu amigo para pegar outro Código de Amigos Verdadeiros para você (ou pegue um novo você mesmo e dê ao seu amigo)."
 FriendSecretEnteredSecretFull = "Você não pode fazer amizade com %s porque um de vocês dois possui amigos demais na lista."
 FriendSecretEnteredSecretFullNoName = "Vocês não podem fazer amizade porque um de vocês dois possui amigos demais na lista."
+#FriendSecretEnteredSecretSelf = "Você acabou de digitar seu próprio segredo! Agora, ninguém mais poderá usar este segredo."
 FriendSecretEnteredSecretSelf = "Você acabou de digitar seu próprio Código de Amigos Verdadeiros! Agora, ninguém mais poderá usar este Código de Amigos Verdadeiros."
 FriendSecretEnteredSecretWrongProduct = "Você digitou o tipo errado de Código de Amigo Verdadeiro.\nEste jogo utiliza códigos que começam com '%s'."
+#FriendSecretNowFriends = "Agora, você é Amigo secreto de %s!"
 FriendSecretNowFriends = "Agora, você é Amigo Verdadeiro de %s!"
+#FriendSecretNowFriendsNoName = "Agora, vocês são Amigos secretos!"
 FriendSecretNowFriendsNoName = "Agora, vocês são Amigos verdadeiros!"
 FriendSecretDetermineSecret = "Que tipo de Amigo Verdadeiro você quer ter?"
 FriendSecretDetermineSecretAvatar = "Avatar"
 FriendSecretDetermineSecretAvatarRollover = "Um amigo somente neste jogo"
 FriendSecretDetermineSecretAccount = "Conta"
-FriendSecretDetermineSecretAccountRollover = "Um amigo em toda a rede Disney.com"
+FriendSecretDetermineSecretAccountRollover = "Um amigo em toda a rede Disney.com.br"
 
 # GuildMember.py
 GuildMemberTitle = "Opções de Membros"
 GuildMemberPromote = "Fazer Oficial"
 GuildMemberGM = "Fazer Mestre da  Guilda"
 GuildMemberDemote = "Rebaixar"
-GuildMemberKick = "Eject Member"
+GuildMemberKick = "Ejeitar Membro"
 GuildMemberCancel = lCancel
 GuildMemberOnline = "%s has come online."
 GuildMemberOffline = "%s has gone offline."
@@ -919,7 +949,7 @@ EmoteWhispers = [
  "%s aplaude.",
  "%s está surpreso.",
  "%s está confuso.",
- "%s debochou de você por cair numa casca de banana.",
+ "%s escorregou numa casca de banana.",
  "%s saúda você.",
  "%s está muito triste.",
  "%s sorri.",
@@ -962,6 +992,15 @@ EmoteFuncDict = {
     "Delighted" : 22,
     "Furious" : 23,
     "Laugh" : 24,
+    "Sing Note G1" : 25,
+    "Sing Note A" : 26,
+    "Sing Note B" : 27,
+    "Sing Note C" : 28,
+    "Sing Note D" : 29,
+    "Sing Note E" : 30,
+    "Sing Note F" : 31,
+    "Sing Note G2" : 32,
+    }
     }
 
 # SuitDialog.py
@@ -1637,7 +1676,7 @@ SpeedChatStaticTextToontown = {
     1804 : "Estou no Salão.",
     1805 : "Estou no corredor fora do Salão.",
     1806 : "Estou no corredor fora do Salão.",
-    1807 : "Estou na Sala de engrenagens.",
+    1807 : "Estou na Sala de cogs.",
     1808 : "Estou na Sala da caldeira.",
     1809 : "Estou na Passarela leste.",
     1810 : "Estou no Misturador de tinta.",
@@ -1676,7 +1715,7 @@ SpeedChatStaticTextToontown = {
     1904 : "Vamos nos encontrar no Salão.",
     1905 : "Vamos nos encontrar no corredor fora do salão.",
     1906 : "Vamos nos encontrar no corredor fora do salão.",
-    1907 : "Vamos nos encontrar na Sala de engrenagens.",
+    1907 : "Vamos nos encontrar na Sala de cogs.",
     1908 : "Vamos nos encontrar na Sala da caldeira.",
     1909 : "Vamos nos encontrar na Passarela leste.",
     1910 : "Vamos nos encontrar no Misturador de tinta.",
@@ -2408,178 +2447,179 @@ SpeedChatStaticTextToontown = {
     21205: 'Dança!',
     21206: 'Fala!',
     
-    30100 : "Feliz dia de semana de mentira Toons!",
-    30101 : "Bem-vindo à minha festa da Semana Dia da Mentira Toons!",
-    30102 : "O medidor de bobagem está de volta em Prefeitoona!",
-    30110 : "Mickey está nos Jardins da Margarida.",
-    30111 : "Margarida está no Centro de Toontown.",
-    30112 : "Minnie está no Brrrgh.",
-    30113 : "Pluto está na Melodialândia.",
-    30114 : "Donald, sonâmbulo, está perambulando no Circuito.",
-    30115 : "Pateta está na Sonholândia.",
+    # Phrases for April Toon's week
+    30100: "Feliz Semana da mentira Toons!",
+    30101: "Bem-vindo à minha festa da Semana da mentira dos Toons!",
+    30102: "O Medidor de Bobagem está de volta ao Prefeitoona!",
+    30110: "Mickey está no Jardim da Margarida.",
+    30111: "Margarida está em Centro de Toontown.",
+    30112: "Minnie está no Brrrgh.",
+    30113: "Pluto está na Melodilândia.",
+    30114: "Donald está sonâmbulo no autódromo.",
+    30115: "O Pateta está na Sonholândia.",
 
-    30120 : "Mickey está imitando Margarida!",
-    30121 : "Margarida está imitando Mickey!",
-    30122 : "Minnie está imitando Pluto!",
-    30123 : "Pluto está imitando Minnie!",
-    30124 : "Pluto está falando!",
-    30125 : "Pateta está imitando Donald!",
-    30126 : "Donald está sonhando que é o Pateta!",
+    30120: "Mickey está agindo como Margarida!",
+    30121: "Margarida está agindo como Mickey!",
+    30122: "Minnie está agindo como Pluto!",
+    30123: "Pluto está agindo como Minnie!",
+    30124: "Pluto está falando!",
+    30125: "Pateta está agindo como Donald!",
+    30126: "Donald está sonhando que é o Pateta!",
 
-    30130 : "Veja como posso saltar longe.",
-    30131 : "Uau, você saltou realmente longe!",
-    30132 : "Ei, Rabicos podem falar!",
-    30133 : "O seu Rabisco acabou de falar?",
-    30140 : "As coisas certamente são bobinhas por aqui!",
-    30141 : "As coisas são bobinhas mesmo, hein?",
+    30130: "Observe até onde consigo pular.",
+    30131: "Nossa, você pulou muito longe!",
+    30132: "Ei, Rabiscos podem, falar!",
+    30133: "Seu Rabisco acabou de falar?",
+    30140: "As coisas com certeza são bobas por aqui!",
+    30141: "Quão mais bobas as coisas poderiam ficar?",
 
     # Phrases for Sellbot Nerf Event
-    30150 : "Aqui está a Operação: Robô Vendedor Tempestade!",
-    30151 : "As Torres dos Robôs Vendedores tiveram seus poderes sugados por Rabicos!",
-    30152 : "O VP teve seus poderes sugados por Rabicos",
-    30153 : "Todos podem lutar contra o VP agora!",
-    30154 : "Você não precisa de um Traje de Robô Vendedor para lutar contra o VP!",
-    30155 : "Você ganha um Traje de Aluguel quando entrar nas Torres dos Robôs Vendedores.",
-    30156 : "Você gosta do meu Traje de Aluguel? Desculpe-me pelos alfinetes!",
-    30157 : "É melhor ter oito Toons para lutar contra o VP.",
-    30158 : "Você vai me ajudar a lutar contra o VP?",
-    30159 : "Você quer lutar contra o VP junto comigo?",
-    30160 : "Você gostaria de se juntar ao meu grupo Robô Vendedor VP?",
-    30161 : "Eu estou procurando por um Toon com um Traje de Aluguel para lutar contra o VP.",
-    30162 : "Eu tenho um Traje de Aluguel, e estou ansioso para lutar contra o VP.",
-    30163 : "Passe pelas portas e consiga o Traje de Aluguel.",
-    30164 : "Evite os Cogs na recepção! Poupe seus itens para os de dentro!",
-    30165 : "Temos que derrotar estes Cogs antes!",
-    30166 : "Bata nos barris para conquistar suas piadas.",
-    30167 : "Bata no barril para ganhar um Toonar.",
-    30168 : "Agora temos que combater alguns Esqueletocogs!",
-    30169 : "Pule e toque na gaiola do Toon para ganhar tortas!",
-    30170 : "Agora vamos lutar contra o VP!",
-    30171 : "Mire suas tortas apertando a tecla Del.",
-    30172 : "Dois Toons devem arremessar tortas pelas portas abertas do VP.!",
-    30173 : "Eu surpreendo o VP pela frente.",
-    30174 : "Eu surpreendo o VP por trás.",
-    30175 : "Salte quando o VP salta!",
+    30150: "Operação: Tempestade dos Robôs Vendedores está aqui!",
+    30151: "Torres dos Robôs Vendedores teve sua energia drenada por Rabiscos!",
+    30152: "O Sênior VP teve seu poder drenado por Rabiscos!",
+    30153: "Todos podem lutar contra o  Sênior VP agora mesmo!",
+    30154: "Você não precisa de um disfarce de Robô Vendedores para lutar contra o VP!",
+    30155: "Você ganha um Terno Alugado quando entra nas Torres dos Robôs Vendedores.",
+    30156: "Você gostou do meu traje de aluguel? Desculpe pelos alfinetes de segurança!",
+    30157: "É melhor ter oito Toons para lutar contra o sênior VP.",
+    30158: "Você vai me ajudar a lutar contra o sênior VP?",
+    30159: "Você quer lutar contra o sênior VP comigo?",
+    30160: "Você gostaria de se juntar ao meu grupo Robôs Vendedores sênior VP?",
+    30161: "Estou procurando um Toon com Traje Alugado para lutar contra o sênior VP.",
+    30162: "Eu tenho um traje de aluguel e estou querendo lutar contra o  sênior VP.",
+    30163: "Basta passar pelas portas para pegar seu traje de aluguel.",
+    30164: "Guarde suas piadas para os Cogs lá dentro!",
+    30165: "Temos que derrotar esses Cogs primeiro!",
+    30166: "Bata nos barris para piada subir.",
+    30167: "Bata no cano para conseguir um Toonar.",
+    30168: "Agora temos que lutar contra alguns EsqueletosCogs!",
+    30169: "Salte e toque na gaiola do Toon para pegar tortas!",
+    30170: "Agora lutamos contra o sênior VP!",
+    30171: "Mire suas tortas pressionando o botão Delete.",
+    30172: "Dois Toons deveriam jogar tortas pelas portas abertas do VP!",
+    30173: "Vou atordoar o sênior VP pela frente.",
+    30174: "Vou atordoar o sênior VP pelas costas.",
+    30175: "Pule quando o sênior VP pular!",
 
     # Phrases for Jellybean Jam
-    30180 : "Meu banco contém 12.000 balinhas!",
-    30181 : "Preciso encher meu novo banco de balinha!",
-    30182 : "Quer pegar balinhas?",
-    30183 : "Consegui balinhas em dobro no Bonde!",
-    30184 : "Consegui balinhas em dobro na pescaria!",
-    30185 : "Consegui balinhas em dobro em um grupo!",
-    30186 : "Quero adotar um Rabisco!",
-    30187 : "Eu adotei um Rabisco!",
-    30188 : "Vou adotar um Rabisco com todas essas balinhas!",
-    30189 : "Há novas camisetas Cattlelog para grupos de balinhas!",
-    30190 : "A Tropa Toon está lançando grupos de balinhas no Bosque de Bolotas!",
-    30191 : "Balinhas, por favor!",
-    30192 : "Não seja mau, me dê uma bala!",
-    30193 : "Quem quer balinhas?",
-    30194 : "Dance por balinhas!",
+    30180: "Tenho balinhas duplas no carrinho!",
+    30181: "Ganhei balinhas duplas na pesca!",
+    30182: "Ganhei Balinhas duplas em uma festa!",
+    30183: "Balinhas  balinhas balinhas!",
+    30184: "Estou com muita vontade de ganhar uma bala!",
+    30185: "Não seja fedorento, pegue balinha!",
+    30186: "Vou adotar um Rasbico com todas essas balinhas!",
+    30187: "Em que vou gastar todas essas balinhas?",
+    30188: "Vou dar uma grande festa!",
+    30189: "Vou decorar toda a minha propriedade!",
+    30190: "Vou comprar um guarda-roupa totalmente novo!",
+    30191: "Balinhas, por favor!",
+    30192: "Não seja mau, dê um feijão!",
+    30193: "Quem quer balinhas?",
+    30194: "Dance para balinhas!",
 
     # Phrases for caroling
-    30200 : "Decore os salões... ",
-    30201 : "Faça muitas tortas...",
-    30202 : "Toons alegres...",
-    30203 : "Cabeças de bonecos de neve...",
-    30204 : "A felicidade de Toontown...",
-    30205 : "Atraia alegria...",
+    30200: "Hoje é dia de Alegria...",
+    30201: "Coloque algumas tortas...",
+    30202: "Toons alegres...",
+    30203: "Cabeças de boneco de neve...",
+    30204: "Toontown é alegre...",
+    30205: "Isca bom ânimo...",
 
-    30220 : "Decore os salões com neve em spray!\nBoas Festas!",
-    30221 : "Carregue seu trenó com tortas!\nBoas Festas!",
-    30222 : "Toons alegres derrotam a maldade dos Cogs!\nBoas Festas!",
-    30223 : "Os bonecos de neve estão de cabeça quente hoje!\nBoas Festas!",
-    30224 : "Toontown está feliz. Que venha o que vier!\nBoas Festas!",
-    30225 : "Atraia alegria para Toontown!\nBoas Festas!",
+    30220: "Hoje é dia de Alegria com spray de água com gás!\nBoas festas de inverno!",
+    30221: "Coloque algumas tortas em seu trenó!\nBoas festas de inverno!",
+    30222: "Toons alegres trazem consternação aos Cogs!\nBoas festas de inverno!",
+    30223: "As cabeças dos bonecos de neve estão quentes hoje!\nBoas férias de inverno!",
+    30224: "Toontown é alegre, aconteça o que acontecer!\nBoas festas de inverno!",
+    30225: "Isca a alegria do jeito Toontown!\nBoas férias de inverno!",
 
     # Phrases for Halloween
-    30250: "Bu!",
+    30250: "Buu!",
     30251: "Feliz Dia das Bruxas!",
     30252: "Assustador!",
 
     # Phrases for Christmas
-    30275: "Boas-festas!",
-    30276: "Feliz Ano-Novo!",
+    30275: "Boas festas!",
+    30276: "Cumprimentos de temporada!",
     30277: "Tenha um inverno maravilhoso!",
 
     # Phrases for Silly Story
-    30301 : "Você viu o Medidor de Bobagens?",
-    30302 : "O Medidor de Bobagens está na Prefeitoona",
-    30303 : "As coisas certamente são bobinhas por aqui!",
-    30304 : "Eu vi um hidrante se mexendo!",
-    30305 : "Toontown está ganhando vida!",
-    30306 : "Já esteve no novo escritório do Flippy?",
-    30307 : "Eu causei uma Onda de Bobagem na batalha!",
-    30308 : "Vamos derrotar alguns Cogs para deixar Toontown mais bobinha!",
+    30301: "Você viu o Medidor de Bobagem?",
+    30302: "O medidor de bobagem está na Prefeitoona.",
+    30303: "As coisas com certeza estão ficando bobas por aqui!",
+    30304: "Eu vi um hidrante se mexendo!",
+    30305: "Toontown está ganhando vida!",
+    30306: "Você já esteve no novo escritório do Flippy?",
+    30307: "Eu causei um Surto Bobo em batalha!",
+    30308: "Vamos derrotar alguns Cogs para deixar Toontown mais boba!",
 
-    30309 : "O Medidor de Bobagens está maior e mais doido do que nunca!",
-    30310 : "Um monte de hidrantes ganhou vida!",
-    30311 : "Eu vi uma caixa de correio se mexendo!",
-    30312 : "Eu vi uma lixeira acordando!",
-    30313 : "Quão bobo pode ser isso?",
-    30314 : "O que vai acontecer a seguir?",
-    30315 : "Algo bobinho, aposto!",
-    30316 : "Já causou uma Onda de Bobagem?",
-    30317 : "Vamos derrotar alguns Cogs para deixar Toontown mais bobinha!",
+    30309: "O Medidor de Bobagem está maior e mais louco do que nunca!",
+    30310: "Muitos hidrantes ganharam vida!",
+    30311: "Vi uma caixa de correio se mexendo!",
+    30312: "Eu vi uma lata de lixo acordar!",
+    30313: "Quão bobo isso pode ser?",
+    30314: "O que vai acontecer a seguir?",
+    30315: "Algo bobo, aposto!",
+    30316: "Você já causou um Surto Bobo?",
+    30317: "Vamos derrotar alguns Cogs para deixar Toontown mais boba!",
 
-    30318 : "Invasão de Cogs!",
-    30319 : "Chegando!",
-    30320 : "Vamos impedir esses Cogs de avançarem!",
-    30321 : "Errei as Ondas de Bobagens!",
-    30322 : "Vamos impedir a Invasão!",
-    30323 : "Agora Toontown está mais bobinha do que nunca!",
-    30324 : "Você viu alguma coisa ganhar vida?",
-    30325 : "Meus favoritos são os hidrantes!",
-    30326 : "Minhas favoritas são as caixas de correio!",
-    30327 : "Minhas favoritas são as lixeiras!",
+    30318: "Invasão da cog!",
+    30319: "Chegando!",
+    30320: "Vamos parar esses cogs!",
+    30321: "Sinto falta dos Surtos Bobos!",
+    30322: "Vamos impedir uma invasão!",
+    30323: "Toontown está mais bobo do que nunca!",
+    30324: "Você viu algo ganhar vida?",
+    30325: "Meus favoritos são os hidrantes!",
+    30326: "Minhas favoritas são as caixas de correio!",
+    30327: "Meus favoritos são as latas de lixo!",
 
-    30328 : "Viva! Impedimos a Invasão de Cogs",
-    30329 : "Um hidrante me ajudou na batalha!",
-    30330 : "Um hidrante reforçou meus Itens de Esguicho!",
-    30331 : "Uma lixeira me deu um Toon-Up!",
-    30332 : "Uma caixa de correio ajudou com os Itens de Arremesso!",
+    30328: "Viva! Paramos as invasões dos Cogs!",
+    30329: "Um hidrante me ajudou na batalha!",
+    30330: "Um hidrante impulsionou minhas Piadas de Esguicho!",
+    30331: "Uma lata de lixo impulsionou minhas Piadas de Toonar!",
+    30332: "Uma caixa de correio ajudou minhas Piadas de Lançamento!",
 
     # Phrases for Victory Parties (warning 30400 is in use)
-    30350 : "Bem-vindos à minha festa da vitória!",
-    30351 : "Esta é uma ótima festa da vitória!",
-    30352 : "Mostramos àqueles Cogs quem é que manda!",
-    30353 : "Bom trabalho em ajudar a impedir as invasões de Cogs!",
-    30354 : "Aposto que isto está deixando os Cogs doidos!",
+    30350: "Bem-vindo à minha Festa da Vitória!",
+    30351: "Esta é uma grande Festa da Vitória!",
+    30352: "Mostramos àqueles Cogs quem manda!",
+    30353: "Bom trabalho ajudando a acabar com as invasões Cog!",
+    30354: "Aposto que isso está deixando os Cogs loucos!",
 
-    30355 : "Vamos encarar um Cog-A-Guerra!",
-    30356 : "Minha equipe venceu na Cog-O-War!",
-    30357 : "É legal ter hidrantes, lixeiras e caixas de correio aqui!",
-    30358 : "Gosto quando o balão do Rabisco morde o Cog!",
-    30359 : "Gosto do balão do Cog coberto de sorvete!",
-    30360 : "Gosto quando o Cog agita seus braços!",
-    30361 : "Pulei na cara de um Cog!",
+    30355: "Vamos jogar Cog-O-Guerra!",
+    30356: "Meu time venceu o Cog-O-Guerra!",
+    30357: "É bom ter hidrantes, latas de lixo e caixas de correio aqui!",
+    30358: "Gosto do balão do Rabisco mordendo o cog!",
+    30359: "Gosto do balão do Cog coberto de sorvete!",
+    30360: "Gosto do cog ondulado que bate os braços!",
+    30361: "Eu pulei na cara de um Cog!",
 
-    # Phrases for Sellbot Field Offices
-    30400: "The Sellbots are invading!",
-    30401: "The V.P. was hopping mad about Operation: Storm Sellbot ...",
-    30402: "He's sending the Sellbots in to invade Toontown!",
-    30403: "Let's go fight some Sellbots!",
-    30404: "There's a new kind of building in Toontown!",
-    30405: "Have you seen the Mover & Shaker Field Offices?",
-    30406: "The V.P. created them as a reward for the Movers & Shakers.",
-    30407: "Let's go defeat a Field Office!",
-    30408: "I got an SOS Card for defeating a Field Office!",
-    30409: "Clear the map by exploring the maze.",
-    30410: "Destroy the Cogs by hitting them with water balloons!",
-    30411: "Movers & Shakers take two balloons to destroy.",
-    30412: "Look out for falling objects!",
-    30413: "Watch out for the Cogs!",
-    30414: "Collect Jokes to get a Toon-up at the end!",
-    30415: "When the room shakes, a Mover & Shaker is nearby.",
-    30416: "Detorra todos os quatros Agitadores gigantes para a abrir a saída!",
+    # Phrases for Sellbot Field Office
+    30400: "Os Robôs Vendedores estão invadindo!",
+    30401: "O sênior VP estava louco com a Operação: Storm Sellbot ...",
+    30402: "Ele está enviando os Robôs Vendedores para invadir Toontown!",
+    30403: "Vamos lutar contra alguns Robôs Vendedores!",
+    30404: "Há um novo tipo de construção em Toontown!",
+    30405: "Você viu os escritórios de campo dos Agitadores?",
+    30406: "O sênior VP os criou como uma recompensa para os Agitadores.",
+    30407: "Vamos derrotar um Escritório de Campo!",
+    30408: "Recebi um cartão SOS por derrotar um Escritório de Campo!",
+    30409: "Limpe o mapa explorando o labirinto.",
+    30410: "Destrua os cogs acertando-as com balões de água!",
+    30411: "Agitadores levam dois balões para destruir.",
+    30412: "Cuidado com a queda de objetos!",
+    30413: "Cuidado com as cogs!",
+    30414: "Colete piadas para obter um Toonar no final!",
+    30415: "Quando a sala treme, um Agitador está por perto.",
+    30416: "Derrote todos os quatros Agitadores para abrir a saída!",
     30417: "A saída está aberta!",
-    30418: 'Isto é o Chefe!',
+    30418: "É o chefe!",
 
-    # Phrases for Ides Of March
-    30450: "It's easy to be green!",
-    30451: "Visite Verde Feijão Jeans e você também pode ser verde!",
-    30452: "Fica na Rua dos Carvalhos nos Jardins da Margarida.",
+    # Phrases for Ides March
+    30450: "É fácil ser verde!",
+    30451: "Visite Jeans Feijão Verde e você também pode ser verde!",
+    30452: "Fica na Rua dos Carvalhos em Jardins da Margarida.",
     }
 
 SpeedChatStaticTextPirates = {
@@ -2604,11 +2644,11 @@ SpeedChatStaticTextPirates = {
     50110 : "Não vai sobrar ninguém para contar a história....",
 
     # EXPRESSIONS - GREETINGS
-    50700 : "Ahoy!",
-    50701 : "Ahoy, matey!",
+    50700 : "Ah!",
+    50701 : "Ah, amigo!",
     50702 : "Yo-Ho-Ho",
     50703 : "Avast!",
-    50704 : "Hey Bucko.",
+    50704 : "Ei, Bucko.",
 
     # EXPRESSIONS - GOODBYES
     50800 : "Until next time.",
@@ -2755,11 +2795,11 @@ SpeedChatStaticTextPirates = {
     52201 : "Fight some crabs?",
 
     # Invitations - Versus
-    52300 : "How about a game of Mayhem?",
-    52301 : "Join my Mayhem game.",
-    52302 : "Want to start a Mayhem game?",
-    52303 : "Want to start a team battle game?",
-    52304 : "Join my team battle game.",
+    52300 : "Que tal um jogo de Mayhem?",
+    52301 : "Junte-se ao meu jogo Mayhem.",
+    52302 : "Quer iniciar um jogo Mayhem?",
+    52303 : "Quer iniciar um jogo de batalha em equipe?",
+    52304 : "Junte-se ao meu jogo de batalha em equipe.",
 
 
     # PLACES - WHERE IS..? - PORT ROYAL (LEGACY)
