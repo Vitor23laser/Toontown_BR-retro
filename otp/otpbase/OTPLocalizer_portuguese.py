@@ -793,12 +793,12 @@ FriendSecretDetermineSecretAccountRollover = "Um amigo em toda a rede Disney.com
 # GuildMember.py
 GuildMemberTitle = "Opções de Membros"
 GuildMemberPromote = "Fazer Oficial"
-GuildMemberGM = "Fazer Mestre da  Guilda"
+GuildMemberGM = "Fazer Mestre da Guilda"
 GuildMemberDemote = "Rebaixar"
 GuildMemberKick = "Ejeitar Membro"
 GuildMemberCancel = lCancel
-GuildMemberOnline = "%s has come online."
-GuildMemberOffline = "%s has gone offline."
+GuildMemberOnline = "%s tem chegado online."
+GuildMemberOffline = "%s tem perdido offline."
 GuildPrefix = "(G):"
 GuildNewMember = "New Guild Member"
 
