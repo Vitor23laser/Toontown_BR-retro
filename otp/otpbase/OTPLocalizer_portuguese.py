@@ -699,7 +699,7 @@ SCMenuBye = "TCHAU"
 SCMenuHappy = "FELIZ"
 SCMenuSad = "TRISTE"
 SCMenuFriendly = "AMIGÁVEL"
-SCMenuSorry = "DESCULPE"
+SCMenuSinto muito = "DESCULPE"
 SCMenuStinky = "FEDIDO"
 SCMenuPlaces = "LUGARES"
 SCMenuToontasks = "TAREFAS TOON"
@@ -797,58 +797,64 @@ GuildMemberGM = "Fazer Mestre da Guilda"
 GuildMemberDemote = "Rebaixar"
 GuildMemberKick = "Ejeitar Membro"
 GuildMemberCancel = lCancel
-GuildMemberOnline = "%s tem chegado online."
-GuildMemberOffline = "%s tem perdido offline."
+#GuildMemberOnline = "%s tem entrado online."
+#GuildMemberOffline = "%s tem indo offline."
+GuildMemberOnline = "tem entrado online."
+GuildMemberOffline = "tem indo off-line."
 GuildPrefix = "(G):"
-GuildNewMember = "New Guild Member"
+GuildNewMember = "Novo Membro da Guilda"
+GuildMemberUnknown = "Desconhecido"
+GuildMemberGMMessage = "Aviso! Você gostaria de desistir da liderança da sua guilda e tornar %s seu mestre da guilda?\n\nVocê se tornará um oficial"
 
 # GuildInvitee.py
 GuildInviteeOK = lOK
 GuildInviteeNo = lNo
-GuildInviteeInvitation = "%s is inviting you to join %s."
+GuildInviteeInvitation = "%s está convidando você para se juntar a %s."
+
+GuildRedeemErrorInvalidToken = "Sinto muito, que o código está invalido. Por Favor tente novamente."
+GuildRedeemErrorGuildFull = "Sinto muito, esta guilda já tem muitos membros."
 
 # FriendInvitee.py
 FriendInviteeTooManyFriends = "%s quer fazer amizade com você, mas você já tem muitos amigos em sua lista!"
 FriendInviteeInvitation = "%s quer fazer amizade com você."
-FriendNotifictation = "%s is now your friend."
+FriendNotifictation = "%s é agora seu amigo."
 FriendInviteeOK = lYes
 FriendInviteeNo = lNo
-GuildInviterWentAway = "%s is no longer present."
-GuildInviterAlready = "%s is already in a guild."
-GuildInviterBusy = "%s is busy right now."
-GuildInviterNotYet = "Invite %s to join your guild?"
-GuildInviterCheckAvailability = "Inviting %s to join your guild."
+GuildInviterWentAway = "%s não está mais presente."
+GuildInviterAlready = "%s já está em uma guilda."
+GuildInviterBusy = "%s está ocupado agora certo."
+GuildInviterNotYet = "Convidar %s para entrar na sua guilda?"
+GuildInviterCheckAvailability = "Convidando %s para ingressar na sua guilda."
 GuildInviterOK = lOK
 GuildInviterNo = lNo
 GuildInviterCancel = lCancel
 GuildInviterYes = lYes
-GuildInviterTooFull = "Guild has reached maximum size."
+GuildInviterTooFull = "A guilda atingiu o tamanho máximo."
 GuildInviterNo = lNo
-GuildInviterClickToon = "Click on the pirate you would like to invite."
-GuildInviterTooMany = "This is a bug"
-GuildInviterNotAvailable = "%s is busy right now; try again later."
-GuildInviterGuildSaidNo = "%s does not wish to join."
-GuildInviterAlreadyInvited = "%s has already been invited."
-GuildInviterEndGuildship = "Eject %s from the guild?"
-GuildInviterFriendsNoMore = "%s has left the guild."
-GuildInviterSelf = "You are already in the guild!"
-GuildInviterIgnored = "%s is ignoring you."
-GuildInviterAsking = "Asking %s to join the guild."
-GuildInviterGuildSaidYes = "%s will join!"
-GuildInviterFriendKickedOut = "%s has kicked out %s from the Guild."
-GuildInviterFriendKickedOutP = "%s have kicked out %s from the Guild."
-GuildInviterFriendInvited = "%s has invited %s to the Guild."
-GuildInviterFriendInvitedP = "%s have invited %s to the Guild."
-GuildInviterFriendPromoted = "%s has promoted %s to the rank of %s."
-GuildInviterFriendPromotedP = "%s have promoted %s to the rank of %s."
-GuildInviterFriendDemoted = "%s has demoted %s to the rank of %s."
-GuildInviterFriendDemotedP = "%s have demoted %s to the rank of %s."
-GuildInviterFriendPromotedGM = "%s has named %s as the new %s"
-GuildInviterFriendPromotedGMP = "%s have named %s as the new %s"
-GuildInviterFriendDemotedGM = "%s has been named by %s as the new GuildMaster who became the rank of %s"
-GuildInviterFriendDemotedGMP = "%s have been named by %s as the new GuildMaster who beaome the rank of %s"
+GuildInviterClickToon = "Clique no pirata que você deseja convidar."
+GuildInviterTooMany = "Isto é um bug"
+GuildInviterNotAvailable = "%s está ocupado agora correto; tente novamente mais tarde."
+GuildInviterGuildSaidNo = "%s não deseja para se juntar."
+GuildInviterAlreadyInvited = "%s já foi convidado."
+GuildInviterEndGuildship = "Ejetar %s da guilda?"
+GuildInviterFriendsNoMore = "%s tenha saído da guilda."
+GuildInviterSelf = "Você já está na guilda!"
+GuildInviterIgnored = "%s está ignorando você."
+GuildInviterAsking = "Pedindo para %s entrar na guilda."
+GuildInviterGuildSaidYes = "%s irá participar!"
+GuildInviterFriendKickedOut = "%s tenha expulsado %s da Guilda."
+GuildInviterFriendKickedOutP = "%s tenham expulsado %s da Guilda."
+GuildInviterFriendInvited = "%s tenha convidando %s para a Guilda."
+GuildInviterFriendInvitedP = "%s tenham convidados %s para a Guilda."
+GuildInviterFriendPromoted = "%s tenha promovido o %s  para o ranque de %s."
+GuildInviterFriendPromotedP = "%s tenham promovidos o %s para o ranque de %s."
+GuildInviterFriendDemoted = "%s tenha rebaixado o %s para o rank de %s."
+GuildInviterFriendDemotedP = "%s tenham rebaixado o %s para o rank de %s."
+GuildInviterFriendPromotedGM = "%s tenha nomeado o %s como o novo %s"
+GuildInviterFriendPromotedGMP = "%s tenham nomearam o %s como o novo %s"
+GuildInviterFriendDemotedGM = "%s foi nomeado por %s como o novo Mestre da Guilda que se tornou o ranque de %s"
+GuildInviterFriendDemotedGMP = "%s foram nomeados por %s como o novo Mestre da Guilda que alcançou o ranque de %s"
 
-# FriendInviter.py
 
 # FriendInviter.py
 FriendOnline = "entrou on-line."
@@ -1001,7 +1007,6 @@ EmoteFuncDict = {
     "Sing Note F" : 31,
     "Sing Note G2" : 32,
     }
-    }
 
 # SuitDialog.py
 SuitBrushOffs = {
@@ -1015,7 +1020,8 @@ SuitBrushOffs = {
            "Acho que você está no escritório errado.",
            "Fale para o seu pessoal falar com o meu.",
            "Você não tem cacife para se encontrar comigo.",
-           "Fale com o meu assistente."]
+           "Fale com o meu assistente."
+          ]
     }
 
 SuitFaceoffTaunts = {
@@ -1497,7 +1503,7 @@ SpeedChatStaticTextToontown = {
     704 : "Gosto do seu short.",
     705 : "Gosto deste jogo!",
 
-    # Sorry
+    # Sinto muito
     800 : "Desculpe!",
     801 : "Ops!",
     802 : "Desculpe, agora estou lutando com Cogs!",
@@ -2667,7 +2673,7 @@ SpeedChatStaticTextPirates = {
     # EXPRESSIONS - SAD
     51100 : "Eu estive navegando em águas agitadas neste dia.",
 
-    # EXPRESSIONS - SORRY
+    # EXPRESSIONS - Sinto muito
     51200 : "Minhas desculpas, cara.",
     51201 : "Desculpe.",
     51202 : "Desculpe, eu estava ocupado antes.",
@@ -3446,7 +3452,7 @@ PSCMenuGoodbyes = "DESPEDIDAS"
 PSCMenuFriendly = "AMIGÁVEL"
 PSCMenuHappy = "FELIZ"
 PSCMenuSad = "TRISTE"
-PSCMenuSorry = "DESCULPA"
+PSCMenuSinto muito = "DESCULPA"
 PSCMenuCombat = "COMBATE"
 PSCMenuSeaCombat = "COMBATE NO MAR"
 PSCMenuPlaces = "LUGARES"
