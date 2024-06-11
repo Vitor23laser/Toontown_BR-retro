@@ -2651,70 +2651,70 @@ SpeedChatStaticTextPirates = {
     50704 : "Ei, Bucko.",
 
     # EXPRESSIONS - GOODBYES
-    50800 : "Until next time.",
-    50801 : "May fair winds find you.",
-    50802 : "Godspeed.",
+    50800 : "Até a próxima.",
+    50801 : "Que bons ventos encontrem você.",
+    50802 : "Boa velocidade.",
 
 
     # EXPRESSIONS - FRIENDLY
-    50900 : "How are ya, matey?",
+    50900 : "Como vai, amigo?",
     50901 : "",
 
     # EXPRESSIONS - HAPPY
-    51000 : "It's like the sky is raining gold doubloons!",
+    51000 : "É como se o céu estivesse chovendo dobrões de ouro!",
     51001 : "",
 
     # EXPRESSIONS - SAD
-    51100 : "I've been sailing some rough waters this day.",
+    51100 : "Eu estive navegando em águas agitadas neste dia.",
 
     # EXPRESSIONS - SORRY
-    51200 : "My apologies, mate.",
-    51201 : "Sorry.",
-    51202 : "Sorry, I was busy before.",
-    51203 : "Sorry, I already have plans.",
-    51204 : "Sorry, I don't need to do that.",
+    51200 : "Minhas desculpas, cara.",
+    51201 : "Desculpe.",
+    51202 : "Desculpe, eu estava ocupado antes.",
+    51203 : "Desculpe, já tenho planos.",
+    51204 : "Desculpe, não preciso fazer isso.",
 
     # COMBAT
-    51300 : "Attack the weakest one!",
-    51301 : "Attack the strongest one!",
-    51302 : "Attack my target!",
-    51303 : "I need help!",
-    51304 : "I can't do any damage!",
-    51305 : "I think we're in trouble.",
-    51306 : "Surround the most powerful one.",
-    51307 : "We should retreat.",
-    51308 : "Run for it!",
+    51300 : "Ataque o mais fraco!",
+    51301 : "Ataque o mais forte!",
+    51302 : "Ataque meu alvo!",
+    51303 : "Preciso de ajuda!",
+    51304 : "Não posso causar nenhum dano!",
+    51305 : "Acho que estamos com problemas.",
+    51306 : "Cerque o mais poderoso.",
+    51307 : "Devíamos recuar.",
+    51308 : "Corra!",
 
     # SEA COMBAT
-    51400 : "Fire a Broadside!",
-    51401 : "Port Side! (left)",
-    51402 : "Starboard Side! (right)",
-    51403 : "Incoming!",
-    51404 : "Come about!",
-    51405 : "Broadside! Take Cover!",
-    51406 : "To the Cannons!",
-    51407 : "Open fire!",
-    51408 : "Hold your fire!",
-    51409 : "Aim for the masts!",
-    51410 : "Aim for the hull!",
-    51411 : "Prepare to board!",
-    51412 : "She's coming about.",
-    51413 : "Ramming speed!",
-    51414 : "We've got her on the run.",
-    51415 : "We're taking on water.",
-    51416 : "We can't take anymore.",
-    51417 : "I don't have a shot!",
-    51418 : "Let's find port for repair.",
-    51419 : "Man overboard!",
-    51420 : "Enemy spotted.",
-    51421 : "Handsomely now, men!",
-
+    51400 : "Dispare um Broadside!",
+    51401 : "Bombordo! (esquerda)",
+    51402 : "Lado de estibordo! (direita)",
+    51403 : "Chegando!",
+    51404 : "Vamos lá!",
+    51405 : "Broadside! Proteja-se!",
+    51406 : "Para os Canhões!",
+    51407 : "Abra fogo!",
+    51408 : "Segure o fogo!",
+    51409 : "Mire nos mastros!",
+    51410 : "Mire no casco!",
+    51411 : "Prepare-se para embarcar!",
+    51412 : "Ela está chegando.",
+    51413 : "Velocidade de força!",
+    51414 : "Nós a temos em fuga.",
+    51415 : "Estamos entrando na água.",
+    51416 : "Não aguentamos mais.",
+    51417 : "Não tenho chance!",
+    51418 : "Vamos encontrar uma porta para reparo.",
+    51419 : "Homem ao mar!",
+    51420 : "Inimigo avistado.",
+    51421 : "Bonito agora, homens!",
+      
     # PLACES
-    50400 : "Let's set sail.",
-    50401 : "Let's get out of here.",
-    50402 : "Let's get out of here.",
-    50403 : "Let's get out of here.",
-    50404 : "Let's get out of here.",
+    50400 : "Vamos zarpar.",
+    50401 : "Vamos sair daqui.",
+    50402 : "Vamos sair daqui.",
+    50403 : "Vamos sair daqui.",
+    50404 : "Vamos sair daqui.",
 
     # PLACES - LETS SAIL...
     51500 : "Vamos navegar para Port Royal.",
@@ -2732,26 +2732,26 @@ SpeedChatStaticTextPirates = {
     51512 : "Vamos navegar para Isla Cangrejos.",
     
     # PLACES - LETS HEAD TO...
-    51600 : "Let's head into town.",
-    51601 : "Let's go to the docks.",
-    51602 : "Let's go to the bar.",    
+    51600 : "Vamos para a cidade.",
+    51601 : "Vamos para as docas.",
+    51602 : "Vamos para o bar.",  
 
     # PLACES - LETS HEAD TO... - PORT ROYAL
-    51800 : "Let's go to Fort Charles.",
-    51801 : "Let's go to the Governor's Mansion.",
+    51800 : "Vamos para o Forte Charles.",
+    51801 : "Vamos para a Mansão do Governador.",
 
     # PLACES - WHERE IS ..?
-    52500 : "Where am I?",
+    52500 : "Onde estou?",
 
     # DIRECTIONS
-    51700 : "You're already there.",
-    51701 : "I don't know.",
-    51702 : "You're on the wrong island.",
-    51703 : "That's in town.",
-    51704 : "Look just outside of town.",
-    51705 : "You'll have to search through the jungle.",
-    51706 : "Deeper inland.",
-    51707 : "Oh, that's by the coast.",
+    51700 : "Você já está lá.",
+    51701 : "Não sei.",
+    51702 : "Você está na ilha errada.",
+    51703 : "Isso é na cidade.",
+    51704 : "Olhe fora da cidade.",
+    51705 : "Você terá que procurar na selva.",
+    51706 : "Mais fundo no interior.",
+    51707 : "Ah, isso é perto da costa.",
 
     # Insults
     50200 : "Seu rato de porão!",
@@ -2762,37 +2762,37 @@ SpeedChatStaticTextPirates = {
     50205 : "Addle-minded fool!",
 
     # Compliments
-    50300 : "Nice shootin' matey!",
-    50301 : "A well placed blow!",
-    50302 : "Nice shot!",
-    50303 : "Well met!",
-    50304 : "We showed them!",
-    50305 : "Yer not so bad yerself!",
-    50306 : "A fine plunder haul!",
+    50300 : "Bom tiro, amigo!",
+    50301 : "Um golpe bem dado!",
+    50302 : "Belo tiro!",
+    50303 : "Muito bem!",
+    50304 : "Nós mostramos a eles!",
+    50305 : "Você não é tão ruim assim!",
+    50306 : "Uma bela pilhagem!",
 
     # Card Games
-    52400 : "May luck be my lady.",
-    52401 : "I think these cards are marked!",
-    52402 : "Blimey cheater!",
+    52400 : "Que a sorte esteja minha senhora.",
+    52401 : "Acho que essas cartas estão marcadas!",
+    52402 : "Caramba, trapaceiro!",
 
     # Card Games - Poker
-    51900 : "That's a terrible flop!",
-    51901 : "Trying to buy the hand, are you?",
-    51902 : "You're bluffing.",
-    51903 : "I don't think you had it.",
-    51904 : "Saved by the river.",
+    51900 : "Isso é um fracasso terrível!",
+    51901 : "Tentando comprar a mão, não é?",
+    51902 : "Você está blefando.",
+    51903 : "Acho que você não entendeu.",
+    51904 : "Salvo pelo rio.",
 
     # Card Games - Blackjack
-    52600 : "Hit me.",
-    52601 : "Can I get another dealer?",
+    52600 : "Bata em mim.",
+    52601 : "Posso contratar outro revendedor?",
 
     # Invitations
-    52100 : "Want to group up?",
-    52101 : "Join my crew?",
+    52100 : "Quer se agrupar?",
+    52101 : "Juntar-se à minha tripulação?",
 
     # Invitations - Hunting
-    52200 : "Fight some skeletons?",
-    52201 : "Fight some crabs?",
+    52200 : "Lute contra alguns esqueletos?",
+    52201 : "Lute contra alguns caranguejos?",
 
     # Invitations - Versus
     52300 : "Que tal um jogo de Mayhem?",
@@ -3560,7 +3560,8 @@ AvatarDetailPanelOffline = "Região: off-line\nLocal: off-line"
 # AvatarPanel.py
 AvatarPanelFriends = "Amigos"
 AvatarPanelWhisper = "Cochichar"
-AvatarPanelSecrets = "Segredos"
+#AvatarPanelSecrets = "Segredos"
+AvatarPanelSecrets = "Amigos Verdadeiros"
 AvatarPanelGoTo = "Ir para"
 AvatarPanelIgnore = "Ignorar"
 AvatarPanelStopIgnore = "Parar de Ignorar"
