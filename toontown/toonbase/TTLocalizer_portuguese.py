@@ -1,10 +1,17 @@
-import string
-import time
+#import string
+#import time
 from toontown.toonbase.TTLocalizer_portuguese_Property import *
+from toontown.catalog import CatalogAcessoryItemGlobals
+from otp.otpbase import OTPLocalizer as OL
+OL.SpeedChatStaticText = OL.SpeedChatStaticTextToontown.copy()
+for key in OL.SpeedChatStaticTextCommon.keys():
+    OL.SpeedChatStaticText[key] = OL.SpeedChatStaticTextCommon[key]
 
 # To make sure the language checker is working
 # DO NOT TRANSLATE THIS
 ExtraKeySanityCheck = "Ignore-me"
+
+commitmantst = "kptmptest - removable"
 
 InterfaceFont = 'phase_3/models/fonts/ImpressBT.ttf'
 ToonFont = 'phase_3/models/fonts/ImpressBT.ttf'
@@ -47,6 +54,12 @@ NametagLabel = "Nome"
 
 UnpaidNameTag = "Basico"
 
+GM_NAMES = ("CONSELHO DE TOONS",
+                        "TROPA DE TOONS", 
+                        "GUARDA FLORESTAL DA RESISTÊNCIA",
+                        "GC",
+                        )
+                        
 BuildingNametagFont = 'phase_3/models/fonts/MickeyFont'
 BuildingNametagShadow = None
 
@@ -68,6 +81,8 @@ WesternPluto = "WesternPluto"
 Flippy = "Flippy"
 Chip   = "Tico"
 Dale   = "Teco"
+JailbirdDale = "JailbirdDale"
+PoliceChip = "PoliceChip"
 
 # common locations
 lTheBrrrgh = 'O Brrrgh'
@@ -77,82 +92,16 @@ lDonaldsDreamland = "Sonholândia do Donald"
 lMinniesMelodyland = "Melodilândia da Minnie"
 lToontownCentral = 'Centro de Toontown'
 lToonHQ = 'Quartel dos Toons'
-lSellbotHQ = 'Sellbot HQ'
+lSellbotHQ = 'Quartel do Robô Vendedor'
 lGoofySpeedway = "Autódromo do Pateta"
-lOutdoorZone = "Bosque de Bolotas de Tico e Teco"
+lOutdoorZone = "Bosque de Bolotats de Tico e Teco"
 lGolfZone = "Minigolfe de Tico e Teco"
-lPartyHood = "Party Grounds"
+lPartyHood = "Terra das Festas"
 
-lGagShop = 'Loja de Piadas'
-lClothingShop = 'Loja de Roupas'
-lPetShop = 'Loja de Animais'
+#lGagShop = 'Loja de Piadas'
+#lClothingShop = 'Loja de Roupas'
+#lPetShop = 'Loja de Animais'
 
-# common strings
-lCancel = 'Cancelar'
-lClose = 'Fechar'
-lOK = 'OK'
-lNext = 'Próximo'
-lQuit = 'Sair'
-lYes = 'Sim'
-lNo = 'Não'
-lBack = 'Voltar'
-
-sleep_auto_reply = "%s is sleeping right now"
-lHQ = 'Oficial'
-
-lHQOfficerF = 'Oficial do Quartel'
-lHQOfficerM = 'Oficial do Quartel'
-
-MickeyMouse = "Mickey Mouse"
-
-AIStartDefaultDistrict = "Vila dos Idiotas"
-
-Cog  = "Cog"
-Cogs = "Cogs"
-ACog = "um Cog"
-TheCogs = "os Cogs"
-ASkeleton = "um Esqueletocog"
-Skeleton = "Esqueletocogs"
-SkeletonP = "Esqueletocogs"
-Av2Cog = "um Cog Versão 2.0"
-v2Cog = "Cog Versão 2.0"
-v2CogP = "Cogs Versão 2.0"
-ASkeleton = "um Esqueletocog"
-Foreman = "Supervisor da fábrica"
-ForemanP = "Supervisores da fábrica"
-AForeman = "um Supervisor da fábrica"
-CogVP = Cog + " VP"
-CogVPs = "Cogs VPs"
-ACogVP = ACog + " VP"
-Supervisor = "Supervisor da Casa da Moeda"
-SupervisorP = "Supervisores da Casa da Moeda"
-ASupervisor = "um Supervisor da Casa da Moeda"
-CogCFO = Cog + "Diretor Financeiro"
-CogCFOs = "Diretores Financeiros Cogs"
-ACogCFO = ACog + "Diretor Financeiro"
-
-# AvatarDNA.py
-Bossbot = "Robô-chefe"
-Lawbot = "Robô da Lei"
-Cashbot = "Robô Mercenário"
-Sellbot = "Robô Vendedor"
-BossbotS = "um Robô-chefe"
-LawbotS = "um Robô da Lei"
-CashbotS = "um Robô Mercenário"
-SellbotS = "um Robô Vendedor"
-BossbotP = "Robôs-chefe"
-LawbotP = "Robôs da Lei"
-CashbotP = "Robôs Mercenários"
-SellbotP = "Robôs Vendedores"
-BossbotSkelS = "um Esqueletocog %s" % (Bossbot)
-LawbotSkelS = "um Esqueletocog %s" % (Lawbot)
-CashbotSkelS = "um Esqueletocog %s" % (Cashbot)
-SellbotSkelS = "um Esqueletocog %s" % (Sellbot)
-BossbotSkelP = "Esqueletocogs %s" % (BossbotP)
-LawbotSkelP = "Esqueletocogs %s" % (LawbotP)
-CashbotSkelP = "Esqueletocogs %s" % (CashbotP)
-SellbotSkelP = "Esqueletocogs %s" % (SellbotP)
-SkeleRevivePostFix = " v2.0"
 
 lBossbotHQ = 'Quartel do Robô-chefe'
 lLawbotHQ = 'Quartel do Robô da Lei'
@@ -194,28 +143,28 @@ GlobalStreetNames = {
     9000  : ("para o",  "no", "Parque"),
     9100  : ("para a",  "na", "Travessa da Canção de Ninar"),
     9200  : ("para o",  "no", "Pedaço do Pijama"),
-    10000 : ("","", ""),
+    10000 : ("para o",  "no", "Clube de Campo do "+lBossbotHQ),
     10100 : ("para o",  "no", "Salão do "+lBossbotHQ),
     10200 : ("para a", "na", "Sede do Clube"),
     10500 : ("para o", "no", "Três da Frente"),
     10600 : ("para o", "no", "Seis do Meio"),
     10700 : ("para o", "no", "Nove de Trás"),
-    11000 : ("","", ""),
+    11000 : ("para o",  "no", "Pátio do "+lSellbotHQ),
     11100 : ("para o",  "no", "Salão do "+lSellbotHQ),
     11200 : ("para a",  "na", "Fábrica do "+Sellbot),
     11500 : ("para a",  "na", "Fábrica do "+Sellbot),
-    12000 : ("","", ""),
+    12000 : ("para o",  "no", "Pátio de Trens do " +Cashbot),
     12100 : ("para o",  "no", "Salão do "+lCashbotHQ),
     12500 : ("para a",  "na", "Casa da Moeda"),
     12600 : ("para a",  "na", "Casa da Moeda de Dólar"),
     12700 : ("para a",  "na", "Casa da Moeda de Barras de Ouro"),
-    13000 : ("","", ""),
+    13000 : ("para o",  "no", "Pátio do "+lLawbotHQ),
     13100 : ("para o",  "no", "Salão do "+lLawbotHQ),
     13200 : ("para o", "no", "Lobby do Escritório do Promotor"),
-    13300 : ("para o", "no", "Escritório da Lei A"),
-    13400 : ("para o", "no", "Escritório da Lei B"),
-    13500 : ("para o", "no", "Escritório da Lei C"),
-    13600 : ("para o", "no", "Escritório da Lei D"),
+    13300 : ("para o", "no", "Escritório do Robô da Lei A"),
+    13400 : ("para o", "no", "Escritório do Robô da Lei B"),
+    13500 : ("para o", "no", "Escritório do Robô da Lei C"),
+    13600 : ("para o", "no", "Escritório do Robô da Lei D"),
     }
 
 # reference the location name as [-1]; it's guaranteed to be the last entry
@@ -224,6 +173,7 @@ ToontownCentral   = ("para o",  "no",    lToontownCentral)
 TheBrrrgh         = ("para",    "em",    lTheBrrrgh)
 MinniesMelodyland = ("para a",  "na",    lMinniesMelodyland)
 DaisyGardens      = ("para os", "nos",   lDaisyGardens)
+ConstructionZone = ("para a", "na", "Zona de Construção")
 OutdoorZone       = ("para a",  "na",    lOutdoorZone)
 FunnyFarm         = ("para a",  "na",    "Fazenda Divertida")
 GoofySpeedway     = ("para o",  "no",    lGoofySpeedway)
@@ -247,7 +197,7 @@ Office = 'Escritório'
 FactoryNames = {
     0 : 'Molde da fábrica',
     11500 : 'Fábrica do Cog '+Sellbot,
-    13300 : 'Escritório de Cogs Policiais', #remove me JML
+    13300 : 'Escritório de Cogs' +Lawbot #remove me JML
     }
 
 FactoryTypeLeg = 'Perna'
@@ -255,6 +205,50 @@ FactoryTypeArm = 'Braço'
 FactoryTypeTorso = 'Busto'
 
 MintFloorTitle = 'Andar %s'
+
+# common strings
+lCancel = 'Cancelar'
+lClose = 'Fechar'
+lOK = 'OK'
+lNext = 'Próximo'
+lQuit = 'Sair'
+lYes = 'Sim'
+lNo = 'Não'
+lBack = 'Voltar'
+
+sleep_auto_reply = "%s está dormindo agora"
+lHQ = 'Oficial'
+
+lHQOfficerF = 'Oficial do Quartel'
+lHQOfficerM = 'Oficial do Quartel'
+
+MickeyMouse = "Mickey Mouse"
+
+AIStartDefaultDistrict = "Vila dos Idiotas"
+
+Cog  = "Cog"
+Cogs = "Cogs"
+ACog = "um Cog"
+TheCogs = "os Cogs"
+ASkeleton = "um Esqueletocog"
+Skeleton = "Esqueletocogs"
+SkeletonP = "Esqueletocogs"
+Av2Cog = "um Cog Versão 2.0"
+v2Cog = "Cog Versão 2.0"
+v2CogP = "Cogs Versão 2.0"
+ASkeleton = "um Esqueletocog"
+Foreman = "Supervisor da fábrica"
+ForemanP = "Supervisores da fábrica"
+AForeman = "um Supervisor da fábrica"
+CogVP = Cog + " VP"
+CogVPs = "Cogs VPs"
+ACogVP = ACog + " VP"
+Supervisor = "Supervisor da Casa da Moeda"
+SupervisorP = "Supervisores da Casa da Moeda"
+ASupervisor = "um Supervisor da Casa da Moeda"
+CogCFO = Cog + "Diretor Financeiro"
+CogCFOs = "Diretores Financeiros Cogs"
+ACogCFO = ACog + "Diretor Financeiro"
 
 # Quests.py
 TheFish = "o Peixe"
@@ -758,34 +752,68 @@ QuestDialog_2910 = {
     }
 
 QuestDialogDict = {
+    #160 : {GREETING : "",
+           #QUEST : "Ok, agora acho que você está pronto para um desafio maior.\aDerrote 3 Robôs-chefe.",
+           #INCOMPLETE_PROGRESS : "Os "+ Cogs +" estão soltos pelas ruas e pelos túneis.",
+           #INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs-chefe. Vá agora para o Quartel dos Toons para receber sua recompensa!",
+           #COMPLETE : QuestsDefaultComplete,
+           #LEAVING : QuestsDefaultLeaving,
+           #},
     160 : {GREETING : "",
-           QUEST : "Ok, agora acho que você está pronto para um desafio maior.\aDerrote 3 Robôs-chefe.",
-           INCOMPLETE_PROGRESS : "Os "+ Cogs +" estão soltos pelas ruas e pelos túneis.",
-           INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs-chefe. Vá agora para o Quartel dos Toons para receber sua recompensa!",
+      QUEST : "Ok, agora acho que você está pronto para um recompensador maior.\aSe você poder derrotar 3 Robôs-chefe eu te darei um pequeno bônus.",
+      INCOMPLETE_PROGRESS : TheCogs +" estão soltos pelas ruas e pelos túneis.",
+      INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs-chefe. Vá agora para o Quartel dos Toons para sua próxima etapa!",
            COMPLETE : QuestsDefaultComplete,
            LEAVING : QuestsDefaultLeaving,
            },
-    161 : {GREETING : "",
-           QUEST : "Ok, agora acho que você está pronto para um desafio maior.\aDerrote 3 Robôs da Lei.",
-           INCOMPLETE_PROGRESS : "Os "+ Cogs +" estão soltos pelas rua e pelos túneis.",
-           INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs da Lei. Vá agora para o Quartel dos Toons para receber sua recompensa!",
+    #161 : {GREETING : "",
+           #QUEST : "Ok, agora acho que você está pronto para um desafio maior.\aDerrote 3 Robôs da Lei.",
+           #INCOMPLETE_PROGRESS : "Os "+ Cogs +" estão soltos pelas rua e pelos túneis.",
+           #INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs da Lei. Vá agora para o Quartel dos Toons para receber sua recompensa!",
+           #COMPLETE : QuestsDefaultComplete,
+           #LEAVING : QuestsDefaultLeaving,
+           #},
+           
+      161 : {GREETING : "",
+           QUEST : "Ok, agora acho que você está pronto para um recompensador maior.\aVolte depois de derrotar 3 Robôs da Lei e terei uma coisinha nova.",
+           INCOMPLETE_PROGRESS : TheCogs +" estão soltos pelas rua e pelos túneis.",
+           INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs da Lei. Vá agora para o Quartel dos Toons para sua próxima etapa!",
            COMPLETE : QuestsDefaultComplete,
            LEAVING : QuestsDefaultLeaving,
            },
-    162 : {GREETING : "",
-           QUEST : "Ok, agora acho que você está pronto para um desafio maior.\aDerrote 3 Robôs Mercenários.",
-           INCOMPLETE_PROGRESS : "Os "+ Cogs +" estão soltos pelas ruas e pelos túneis.",
-           INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs Mercenários. Vá agora para o Quartel dos Toons para receber sua recompensa!",
+           
+    #162 : {GREETING : "",
+           #QUEST : "Ok, agora acho que você está pronto para um desafio maior.\aDerrote 3 Robôs Mercenários.",
+           #INCOMPLETE_PROGRESS : "Os "+ Cogs +" estão soltos pelas ruas e pelos túneis.",
+           #INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs Mercenários. Vá agora para o Quartel dos Toons para receber sua recompensa!",
+           #COMPLETE : QuestsDefaultComplete,
+           #LEAVING : QuestsDefaultLeaving,
+           #},
+           
+           162 : {GREETING : "",
+           QUEST : "Ok, agora acho que você está pronto para um recompensador maior.\aDerrote 3 Robôs Mercenários e volte aqui para resgatar a recompensa.",
+           INCOMPLETE_PROGRESS : TheCogs +" estão soltos pelas ruas e pelos túneis.",
+           INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs Mercenários. Vá agora para o Quartel dos Toons para sua próxima etapa!",
            COMPLETE : QuestsDefaultComplete,
            LEAVING : QuestsDefaultLeaving,
            },
+           
+    #163 : {GREETING : "",
+           #QUEST : "Ok, agora acho que você está pronto para um desafio maior.\aDerrote 3 Robôs Vendedores.",
+          # INCOMPLETE_PROGRESS : "Os "+ Cogs +" estão soltos pelas ruas e pelos túneis.",
+           #INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs Vendedores. Vá agora para o Quartel dos Toons para receber sua recompensa!",
+           #COMPLETE : QuestsDefaultComplete,
+           #LEAVING : QuestsDefaultLeaving,
+           #},
+    
     163 : {GREETING : "",
-           QUEST : "Ok, agora acho que você está pronto para um desafio maior.\aDerrote 3 Robôs Vendedores.",
-           INCOMPLETE_PROGRESS : "Os "+ Cogs +" estão soltos pelas ruas e pelos túneis.",
-           INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs Vendedores. Vá agora para o Quartel dos Toons para receber sua recompensa!",
+           QUEST : "Ok, agora acho que você está pronto para um recompesador maior.\aVenha nos ver depois de derrotar 3 Robôs Vendedores e nós o conectaremos.",
+           INCOMPLETE_PROGRESS : TheCogs +" estão soltos pelas ruas e pelos túneis.",
+           INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs Vendedores. Vá agora para o Quartel dos Toons para sua próxima etapa!",
            COMPLETE : QuestsDefaultComplete,
            LEAVING : QuestsDefaultLeaving,
            },
+           
     164 : {QUEST : "Parece que você precisa de novas piadas.\aVisite o Flippy, talvez ele possa ajudá-lo._where_" },
     165 : {QUEST : "Olá.\aParece que você precisa praticar suas piadas.\aToda vez que você atinge um Cog com uma de suas piadas, sua experiência aumenta.\aQuando tiver experiência suficiente, você será capaz de usar uma piada ainda melhor.\aVá praticar suas piadas derrotando 4 Cogs."},
     166 : {QUEST : "Bom trabalho com aqueles Cogs.\aSabia que existem quatro tipos diferentes de Cogs?\aEles são os Robôs da Lei, os Robôs Mercenários, os Robôs Vendedores e os Robôs-chefe.\aVocê pode diferenciá-los pela cor e pelas etiquetas com os nomes.\aPara praticar, derrote 4 Robôs-chefe."},
@@ -2379,6 +2407,29 @@ ChatGarblerBear = ["grrrau", "grrr"]
 ChatGarblerPig = ["oinc", "oic", "rrroinc"]
 ChatGarblerDefault = ["blá"]
 
+# AvatarDNA.py
+Bossbot = "Robô-chefe"
+Lawbot = "Robô da Lei"
+Cashbot = "Robô Mercenário"
+Sellbot = "Robô Vendedor"
+BossbotS = "um Robô-chefe"
+LawbotS = "um Robô da Lei"
+CashbotS = "um Robô Mercenário"
+SellbotS = "um Robô Vendedor"
+BossbotP = "Robôs-chefe"
+LawbotP = "Robôs da Lei"
+CashbotP = "Robôs Mercenários"
+SellbotP = "Robôs Vendedores"
+BossbotSkelS = "um Esqueletocog %s" % (Bossbot)
+LawbotSkelS = "um Esqueletocog %s" % (Lawbot)
+CashbotSkelS = "um Esqueletocog %s" % (Cashbot)
+SellbotSkelS = "um Esqueletocog %s" % (Sellbot)
+BossbotSkelP = "Esqueletocogs %s" % (BossbotP)
+LawbotSkelP = "Esqueletocogs %s" % (LawbotP)
+CashbotSkelP = "Esqueletocogs %s" % (CashbotP)
+SellbotSkelP = "Esqueletocogs %s" % (SellbotP)
+SkeleRevivePostFix = " v2.0"
+
 # AvatarDetailPanel.py
 AvatarDetailPanelOK = lOK
 AvatarDetailPanelCancel = lCancel
@@ -2404,7 +2455,8 @@ PlayerPanelDetail = "Detalhes do jogador"
 # AvatarPanel.py
 AvatarPanelFriends = "Amigos"
 AvatarPanelWhisper = "Cochichar"
-AvatarPanelSecrets = "Segredos"
+#AvatarPanelSecrets = "Segredos"
+AvatarPanelSecrets = "Amigos Verdadeiros"
 AvatarPanelGoTo = "Ir para"
 AvatarPanelPet = "Mostrar Rabisco"
 AvatarPanelIgnore = "Ignorar"
@@ -8690,7 +8742,8 @@ TipDict = {
     "Se você estiver em plena atividade de salvamento de edifícios, ganhará uma estrela de bronze, prata ou ouro, que ficará acima de seu Toon.",
     "Se você salvar um número suficiente de edifícios para obter uma estrela acima da cabeça, seu nome pode estar no quadro-negro de um Quartel Toon.",
     "Os edifícios salvos, às vezes, são recuperados pelos Cogs. A única maneira de manter a sua estrela é sair em campo e salvar mais edifícios!",
-    "Os nomes dos seus Amigos secretos aparecerão na cor azul.",
+    #"Os nomes dos seus Amigos secretos aparecerão na cor azul.",
+    "Os nomes dos seus Amigos verdadeiros aparecerão na cor azul."
     # Fishing
     "Veja se você consegue pegar todos os peixes de Toontown!",
     "Há peixes diferentes nos diversos lagos. Tente todos!",
