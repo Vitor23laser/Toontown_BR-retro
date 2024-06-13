@@ -1,18 +1,12 @@
-import string
-import time
+#import string
+#import time
 from toontown.toonbase.TTLocalizerEnglishProperty import *
 from toontown.catalog import CatalogAccessoryItemGlobals
 from otp.otpbase import OTPLocalizer as OL
 OL.SpeedChatStaticText = dict(OL.SpeedChatStaticTextToontown)
 OL.SpeedChatStaticText.update(OL.SpeedChatStaticTextCommon)
 
-# To make sure the language checker is working
-# DO NOT TRANSLATE THIS
-#ExtraKeySanityCheck = "Ignore me"
-
 # commit strings
-#commitmanString = "bugfix! I changed this"
-#commitmanSting2 = "another string!"
 commitmantst = "kptmptest - removable"
 
 InterfaceFont = 'phase_3/models/fonts/ImpressBT.ttf'
