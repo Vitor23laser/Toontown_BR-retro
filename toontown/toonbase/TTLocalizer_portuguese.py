@@ -55,10 +55,10 @@ NametagLabel = "Nome"
 UnpaidNameTag = "Basico"
 
 GM_NAMES = ("CONSELHO DE TOONS",
-                        "TROPA DE TOONS", 
-                        "GUARDA FLORESTAL DA RESISTÊNCIA",
-                        "GC",
-                        )
+            "TROPA DE TOONS", 
+            "GUARDA FLORESTAL DA RESISTÊNCIA",
+            "GC",
+            )
                         
 BuildingNametagFont = 'phase_3/models/fonts/MickeyFont'
 BuildingNametagShadow = None
