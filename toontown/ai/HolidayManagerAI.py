@@ -980,6 +980,11 @@ class HolidayManagerAI:
     
     if not simbase.config.GetBool('want-silly-test', False):
         del holidaysCommon[ToontownGlobals.SILLY_TEST]
+	    
+    holidaysPortuguese = {
+
+    
+	    
 
         ToontownGlobals.TRICK_OR_TREAT: HolidayInfo_Yearly(
         TrickOrTreatMgrAI.TrickOrTreatMgrAI,
@@ -1440,10 +1445,7 @@ class HolidayManagerAI:
          (2010, Month.AUGUST, 17, 23, 59, 59)],
         displayOnCalendar = True,
         ),
-    }
-
-
-    holidaysJapanese = {
+	     holidaysJapanese = {
         ToontownGlobals.NEWYEARS_FIREWORKS: HolidayInfo_Yearly(
         FireworkManagerAI.FireworkManagerAI,
         [(Month.DECEMBER, 30, 6, 0, 0),
@@ -1584,33 +1586,28 @@ class HolidayManagerAI:
         displayOnCalendar = False,
         )
     }
-
-    holidaysPortuguese = {
-
-    }
-
-    holidaysFrench = {
-        ToontownGlobals.JULY4_FIREWORKS: HolidayInfo_Yearly(
+    holidaysEnglish = {
+	ToontownGlobals.JULY4_FIREWORKS: HolidayInfo_Yearly(
         FireworkManagerAI.FireworkManagerAI,
-        # Bastille Day
-        [(Month.JULY, 14, 0, 0, 0),
-        # Stop them in the middle of the final hour so we do not interrupt a show in the middle
-          (Month.JULY, 15, 0, 30, 0)],
+        # Fourth of July Fireworks - for 16 days
+        # Time1: 12am PST on June 30th to 11:59pm PST on July 15th
+        [(Month.JUNE, 30, 0, 0, 1),
+          (Month.JULY, 15, 23, 59, 59)],
         displayOnCalendar = False,
         ),
-
+	        # Winter Decorations - runs for fifteen days.
+        # time1: 12:01am PST on December 19th to 11:59pm PST on January 2nd
         ToontownGlobals.WINTER_DECORATIONS: HolidayInfo_Yearly(
-        None, # No class defined, we just want the news manager to be called
-        # 4pm December 1st - Midnight December 29th
-        [(Month.DECEMBER, 1, 0, 0, 0),
-          (Month.DECEMBER, 30, 0, 0, 0)],
-        displayOnCalendar = False,
-        )
+        None,
+        [(Month.DECEMBER, 8, 0, 0, 1),
+          (Month.JANUARY, 3, 23, 58, 00)],
+        displayOnCalendar = True,
+        ),	    
     }
 
-    language = simbase.config.GetString('language', 'english')
-    if language == 'english':
-        holidaysCommon.update(holidaysEnglish)
+    language = simbase.config.GetString('language', 'portuguese')
+    if language == 'portuguese':
+        holidaysCommon.update(holidaysPortuguese)
     elif language == 'japanese':
         holidaysCommon.update(holidaysJapanese)
     elif language == 'german':
@@ -1618,10 +1615,10 @@ class HolidayManagerAI:
     elif language == 'french':
         holidaysCommon.update(holidaysFrench)
     else:
-        holidaysCommon.update(holidaysEnglish)
+        holidaysCommon.update(holidaysPortuguese)
     holidays = holidaysCommon
 
-    if not language in ['japanese', 'german', 'portuguese', 'french'] :
+    if not language in ['japanese', 'german', 'english', 'french'] :
         if simbase.wantBingo:
             holidays[ToontownGlobals.FISH_BINGO_NIGHT] = HolidayInfo_Weekly(
                 BingoNightHolidayAI.BingoNightHolidayAI,
