@@ -699,7 +699,7 @@ SCMenuBye = "TCHAU"
 SCMenuHappy = "FELIZ"
 SCMenuSad = "TRISTE"
 SCMenuFriendly = "AMIGÁVEL"
-SCMenuSinto muito = "DESCULPE"
+SCMenuSorry = "DESCULPE"
 SCMenuStinky = "FEDIDO"
 SCMenuPlaces = "LUGARES"
 SCMenuToontasks = "TAREFAS TOON"
@@ -1506,7 +1506,7 @@ SpeedChatStaticTextToontown = {
     704 : "Gosto do seu short.",
     705 : "Gosto deste jogo!",
 
-    # Sinto muito
+    # Sorry
     800 : "Desculpe!",
     801 : "Ops!",
     802 : "Desculpe, agora estou lutando com Cogs!",
@@ -2023,13 +2023,14 @@ SpeedChatStaticTextToontown = {
     5305 : "Esta festa tem regras!", 
     5306 : "Sua festa é divertida!", 
     5307 : "É hora da festa!", 
-    5308 : "O tempo está ficando para fora!",            5309 : "Nenhum Cogs são permitidos!",
+    5308 : "O tempo está ficando para fora!",            
+    5309 : "Nenhum Cogs são permitidos!",
     5310 : "Eu gosto dessa música!", 
-    5311  : "Esta música é ótima!", 
+    5311 : "Esta música é ótima!", 
     5312 : "Canhões são uma explosão!", 
     5313 : "Vê-me salto!", 
-    5314 :  "Trampolines são divertidos!", 
-    5315 :  "Deixe-nos Pegar jogo!", 
+    5314 : "Trampolines são divertidos!", 
+    5315 : "Deixe-nos Pegar jogo!", 
     5316 : "Vamos dançar!", 
     5317 : "Para a pista de dança!", 
     5318 : "Vamos brincar de guerra!", 
@@ -2675,7 +2676,7 @@ SpeedChatStaticTextPirates = {
     # EXPRESSIONS - SAD
     51100 : "Eu estive navegando em águas agitadas neste dia.",
 
-    # EXPRESSIONS - Sinto muito
+    # EXPRESSIONS - Sorry
     51200 : "Minhas desculpas, cara.",
     51201 : "Desculpe.",
     51202 : "Desculpe, eu estava ocupado antes.",
@@ -3454,7 +3455,7 @@ PSCMenuGoodbyes = "DESPEDIDAS"
 PSCMenuFriendly = "AMIGÁVEL"
 PSCMenuHappy = "FELIZ"
 PSCMenuSad = "TRISTE"
-PSCMenuSinto muito = "DESCULPA"
+PSCMenuSorry = "DESCULPA"
 PSCMenuCombat = "COMBATE"
 PSCMenuSeaCombat = "COMBATE NO MAR"
 PSCMenuPlaces = "LUGARES"
