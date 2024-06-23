@@ -62,7 +62,7 @@ SCEmoteNoAccessOK = lOK
 
 ParentLogin = "Login de Pais"
 #ParentPassword = "Senha de pais"
-ParentPassword = "Senha conta de pais"
+ParentPassword = "Senha da conta de pais"
 # ChatGarbler.py
 ChatGarblerDefault = ["blá"]
 
@@ -109,7 +109,7 @@ NoSecretChatAtAllOK = lOK
 #ChangeSecretFriendsOptions = "Alterar opções de Amigos secretos"
 ChangeSecretFriendsOptions = "Alterar opções de Amigos Verdadeiros"
 #ChangeSecretFriendsOptionsWarning = "\nInsira a senha de pais para alterar suas opções de Amigos secretos."
-ChangeSecretFriendsOptionsWarning = "\nInsira a senha conta de pais para alterar suas opções de Amigos verdadeiros."
+ChangeSecretFriendsOptionsWarning = "\nInsira a senha da conta de pais para alterar suas opções de Amigos verdadeiros."
 #ActivateChatTitle = "Opções de Amigos secretos"
 ActivateChatTitle = "Opções de Amigos verdadeiros"
 WhisperToFormat = "Para %s %s"
@@ -165,12 +165,12 @@ Por favor, escolha uma das opções do recurso Amigos Verdadeiros de Toontown:
       \x01shadow\x01Sem O recurso Amigos Verdadeiros\x02 - Capacidade para fazer o recurso Amigos Verdadeiros é desativado.
       Isso oferece o mais alto nível de controle.
       
-      \x01shadow\x01O recurso Amigos Verdadeiros restritos\x2 - Requer a senha conta de pais para fazer
-      cada novo recurso Amigo Secreto.
+      \x01shadow\x01O recurso Amigos Verdadeiros restritos\x02 - Requer a senha da conta de pais para fazer
+      cada novo recurso Amigo Verdadeiro.
 
-      \x01shadow\x1O recurso Amigos Verdadeiros irrestritos\x02 - Depois de habilitado com a senha conta de pais,
-      não é necessário fornecer a senha de pais para fazer cada novo
-      o recurso Amigos Verdadeiros . \x01red\x01Esta opção não é recomendada para menores de 13 anos.\x2
+      \x01shadow\x1O recurso Amigos Verdadeiros irrestritos\x02 - Depois de habilitado com a senha da conta de pais,
+      não é necessário fornecer a senha da conta de pais para fazer cada novo
+      recurso Amigos Verdadeiros . \x01red\x01Esta opção não é recomendada para menores de 13 anos.\x2
 
 
 
@@ -534,7 +534,7 @@ SecretFriendsInfoPanelClose = lClose
 #]
 SecretFriendsInfoPanelText = [""" O recurso Abrir chat com Amigos verdadeiros 
 
-O recurso Abrir chat com Amigos verdadeiros ativa um membro para conversar diretamente com outro no Toontown On-line da Disney (o "Serviço") depois que os membros estabelecerem uma conexão de Amigos verdadeiros. Quando o seu filho tentar usar o recurso Abrir chat com Amigos verdadeiros, solicitaremos que você insira a sua Senha conta de pais para indicar seu consentimento para que a criança use o recurso. Esta é uma descrição detalhada do processo de criação de uma conexão de Abrir chat com Amigos verdadeiros entre os membros fictícios chamados "Sandra" e "Marcos". 
+O recurso Abrir chat com Amigos verdadeiros ativa um membro para conversar diretamente com outro no Toontown On-line da Disney (o "Serviço") depois que os membros estabelecerem uma conexão de Amigos verdadeiros. Quando o seu filho tentar usar o recurso Abrir chat com Amigos verdadeiros, solicitaremos que você insira a sua Senha da conta de pais para indicar seu consentimento para que a criança use o recurso. Esta é uma descrição detalhada do processo de criação de uma conexão de Abrir chat com Amigos verdadeiros entre os membros fictícios chamados "Sandra" e "Marcos". 
 1. O responsável por Sandra e o responsável por Marcos ativam o recurso Abrir chat com Amigos verdadeiros inserindo suas respectivas Senhas conta de pais (a) nas áreas de Opções da conta do Serviço ou (b) quando for solicitado no jogo, em uma janela pop-up de Controles disponíveis aos pais.
 2. Sandra pede um Código de Amigo verdadeiro (descrito abaixo) no Serviço.
 """,""" 
@@ -566,7 +566,7 @@ LeaveToPay = """Clica comprar para sair do jogo e compra um Seja um Super Toon n
 LeaveToPayYes = "Comprar"
 LeaveToPayNo = lCancel
 
-LeaveToSetParentPassword = """Para configurar a Senha conta de pais, o jogo sairá para Toontown.com.br"""
+LeaveToSetParentPassword = """Para configurar a Senha da conta de pais, o jogo sairá para Toontown.com.br"""
 LeaveToSetParentPasswordYes = "Definir senha"
 LeaveToSetParentPasswordNo = lCancel
 
@@ -749,11 +749,11 @@ SCMenuIdesOfMarch = "VERDE"
 FriendSecretNeedsPasswordWarningTitle = "Controles disponíveis aos pais"
 FriendSecretNeedsParentLoginWarning = """Para conseguir ou digitar um Código de Amigo Verdadeiro, um dos seus pais ou responsáveis precisa fazer o login. Você pode desativar esta pergunta alterando suas opções de Amigos Verdadeiros."""
 #FriendSecretNeedsPasswordWarning = """Para pegar ou digitar um segredo, você deve inserir a Senha de pais. Você pode desativar esta solicitação alterando as suas opções de Amigos secretos."""
-FriendSecretNeedsPasswordWarning = """Para pegar ou digitar um Código de Amigos Verdadeiros, você deve inserir a Senha conta de pais. Você pode desativar esta solicitação alterando as suas opções de Amigos verdadadeiros."""
+FriendSecretNeedsPasswordWarning = """Para pegar ou digitar um Código de Amigos Verdadeiros, você deve inserir a Senha da conta de pais. Você pode desativar esta solicitação alterando as suas opções de Amigos verdadadeiros."""
 FriendSecretNeedsPasswordWarningOK = lOK
 FriendSecretNeedsPasswordWarningCancel = lCancel
 FriendSecretNeedsPasswordWarningWrongUsername = """Esse não é o nome de usuário correto. Digite o nome de usuário da conta de pais. Esse não é o mesmo nome de usuário que é usado para jogar."""
-FriendSecretNeedsPasswordWarningWrongPassword = """Esta não é a senha correta. Insira a Senha conta de pais criada na compra desta conta. Não é a mesma senha usada para os jogos."""
+FriendSecretNeedsPasswordWarningWrongPassword = """Esta não é a senha correta. Insira a Senha da conta de pais criada na compra desta conta. Não é a mesma senha usada para os jogos."""
 #FriendSecretIntro = "Se você estiver jogando Toontown Online da Disney com alguém que conhece no mundo real, poderá tornar-se Amigo secreto dessa pessoa. Você pode conversar com seus Amigos secretos usando o teclado. Os outros Toons não entenderão o que vocês estiverem falando.\n\nVocê pode conseguir isto obtendo um segredo. Conte o segredo só ao seu amigo, e a mais ninguém. Quando o seu amigo digitar o seu segredo na tela, vocês dois serão Amigos secretos em Toontown!"
 FriendSecretIntro = "Se você estiver jogando Toontown Online da Disney com alguém que conhece no mundo real, poderá tornar-se Amigo verdadeiro dessa pessoa. Você pode conversar com seus Amigos verdadeiros usando o teclado. Os outros Toons não entenderão o que vocês estiverem falando.\n\nVocê pode conseguir isto obtendo um Código de Amigos Verdadeiros. Conte o Código de Amigos Verdadeiros só ao seu amigo, e a mais ninguém. Quando o seu amigo digitar o seu Código de Amigos Verdadeiros na tela, vocês dois serão Amigos verdadeiros em Toontown!"
 #FriendSecretGetSecret = "Obter um segredo"
