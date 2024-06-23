@@ -162,15 +162,15 @@ TextPropertiesManager.getGlobalPtr().setProperties('cinza', grey)
 ActivateChat = """O recurso Amigos Verdadeiros permite que um membro converse com outro membro apenas por meio de um código amigo verdadeiro que deve ser comunicado fora do jogo. O recurso Amigos Verdadeiros não é moderado ou supervisionado.
 
 Por favor, escolha uma das opções do recurso Amigos Verdadeiros de Toontown:
-      \x1shadow\x1Sem O recurso Amigos Verdadeiros\x2 - Capacidade para fazer o recurso Amigos Verdadeiros é desativado.
+      \x01shadow\x01Sem O recurso Amigos Verdadeiros\x02 - Capacidade para fazer o recurso Amigos Verdadeiros é desativado.
       Isso oferece o mais alto nível de controle.
       
-      \x1shadow\x1O recurso Amigos Verdadeiros restritos\x2 - Requer a senha conta de pais para fazer
+      \x01shadow\x01O recurso Amigos Verdadeiros restritos\x2 - Requer a senha conta de pais para fazer
       cada novo recurso Amigo Secreto.
 
-      \x1shadow\x1O recurso Amigos Verdadeiros irrestritos\x2 - Depois de habilitado com a senha conta de pais,
+      \x01shadow\x1O recurso Amigos Verdadeiros irrestritos\x02 - Depois de habilitado com a senha conta de pais,
       não é necessário fornecer a senha de pais para fazer cada novo
-      o recurso Amigos Verdadeiros . \x1red\x1Esta opção não é recomendada para menores de 13 anos.\x2
+      o recurso Amigos Verdadeiros . \x01red\x01Esta opção não é recomendada para menores de 13 anos.\x2
 
 
 
@@ -551,7 +551,7 @@ As Amizades verdadeiras não podem ser transferidas. Por exemplo, se Sandra se t
 """,""" 
 se tornem Amigas verdadeiras, uma delas terá que solicitar um novo Código de Amigo verdadeiro ao Serviço e comunicar à outra. 
 
-Os Amigos verdadeiros se comunicam entre si por meio de uma conversa interativa em formato livre. O conteúdo da conversa é inserido diretamente pelo membro participante e é processado pelo Serviço, cuja operação é realizada pelo Walt Disney Internet Group ("WDIG"), 500 S. Buena Vista St., Burbank, CA 91521-7691.  Embora aconselhamos os membros não trocarem informações pessoais como nome e sobrenome, e-mails, endereço postal ou números de telefone ao usarem o recurso Abrir Chat com Amigos verdadeiros, não podemos garantir que os membros seguirão a recomendação e que tais informações sejam preservadas. Embora o chat Amigos verdadeiros seja automaticamente filtrado para maioria dos palavrões, Abrir chat com amigos verdadeiros pode ser moderado e a Disney reserva-se o direito de moderar qualquer parte do Serviço que a Disney 
+Os Amigos verdadeiros se comunicam entre si por meio de uma conversa interativa em formato livre. O conteúdo da conversa é inserido diretamente pelo membro participante e é processado pelo Serviço, cuja operação é realizada pelo Walt Disney Internet Group ("WDIG"), 500 S. Buena Vista St., Burbank, CA 91521-7691.  Embora aconselhamos os membros não trocarem informações pessoais como nome e sobrenome, e-mails, endereço postal ou números de telefone ao usarem o recurso Abrir Chat com Amigos verdadeiros, não podemos garantir que os membros seguirão a recomendação e que tais informações sejam preservadas. Embora o chat Amigos verdadeiros seja automaticamente filtrado para maioria dos palavrões, Abrir chat com amigos verdadeiros pode ser moderado e a Disney reserva-se o direito de moderar qualquer parte do Serviço que a Disney, 
 """,""" 
 a seu exclusivo e absoluto critério, julgar necessário. No entanto, como Abrir chat com Amigos verdadeiros nem sempre será moderado, se a conta de pais deixarem seus filhos usarem a conta com o recurso Abrir chat com Amigos verdadeiros ativado no Serviço, aconselhamos que eles mesmos supervisionem os filhos durante a brincadeira. Ao ativar o recurso Abrir chat com Amigos verdadeiros, a conta de pais reconhece que, apesar de haver alguns riscos inerentes ao recurso Abrir chat com amigos verdadeiros, a conta de pais foi informada de todos os riscos mencionados aqui, concordando em aceitá-los, seja previsível ou não. 
 
