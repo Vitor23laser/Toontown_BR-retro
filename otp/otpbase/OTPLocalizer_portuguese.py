@@ -1243,312 +1243,289 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
  3110: 'O ponto de encontro é a Loja do kart!',
  3130: 'Onde a gente se encontra?',
  3200: 'Onde você quer correr?',
-    3201: 'Vamos escolher uma corrida diferente.',
-    3210: 'Vamos fazer uma corrida de aquecimento.',
-    3211: 'Vamos fazer um campeonato de corrida.',
-    3220: 'Eu gosto da corrida do Estádio dos Nerds!',
-    3221: 'Eu gosto da corrida do Autódromo Rústico!',
-    3222: 'Eu gosto da corrida do Circuito da Cidade!',
-    3223: 'Eu gosto da corrida do Coliseu Saca-Rolhas!',
-    3224: 'Eu gosto da corrida da Pista de Pulos!',
-    3222: 'Eu gosto da corrida do Circuito da Cidade!',
-    3230: 'Vamos correr no Estádio dos Nerds!',
-    3231: 'Vamos correr no Autódromo Rústico!',
-    3232: 'Vamos correr no Circuito da Cidade!',
-    3233: 'Vamos correr no Coliseu Saca-Rolhas!',
-    3234: 'Vamos correr na Pista de Pulos!',
-    3235: 'Vamos correr na Avenida da Neve!',
-    3600: 'Em que pista você quer correr?',
-    3601: 'Escolha uma pista!',
-    3602: 'A gente pode correr em uma pista diferente?',
-    3603: 'Vamos escolher uma pista diferente!',
-    3640: 'Quero correr na primeira pista!',
-    3641: 'Quero correr na segunda pista!',
-    3642: 'Quero correr na terceira pista!',
-    3643: 'Quero correr na quarta pista!',
-    3660: 'Não quero correr na primeira pista!',
-    3661: 'Não quero correr na segunda pista!',
-    3662: 'Não quero correr na terceira pista!',
-    3663: 'Não quero correr na quarta pista!',
-    3300: 'Uau! Você é RÁPIDO!',
-    3301: 'Você é muito rápido para mim!',
-    3310: 'Boa corrida!',
-    3320: 'Eu me amarrei no seu kart!',
-    3330: 'Uma corrida maravilhosa!',
-    3340: 'Seu kart é muito maneiro!',
-    3350: 'Seu kart é incrível!',
-    3360: 'Seu kart é maravilhoso!',
-    3400: 'Tá com medo de me enfrentar?',
-    3410: 'Vejo você na linha de chegada!',
-    3430: 'Sou rápido como um raio!',
-    3450: 'Você nunca vai me alcançar!',
-    3451: 'Você nunca vai me derrotar!',
-    3452: 'Ninguém consegue bater o meu tempo!',
-    3453: 'Vamos embora, molenga!',
-    3460: 'Me dá outra chance!',
-    3461: 'Foi sorte a sua!',
-    3462: 'Uh-huu! Essa foi perto!',
-    3470: 'Uau, pensei que você tinha me vencido!',
-    4000: 'Vamos jogar minigolfe!',
-    4001: 'Vamos jogar de novo!',
-    4002: 'Quer jogar golfe?',
-    4100: 'Vamos jogar no "Tacada e Caminhada".',
-    4101: 'Vamos jogar no "Tacadas Divertidas".',
-    4102: 'Vamos jogar no "Todas as Tacadas".',
-    4103: 'Esse percurso é fácil demais.',
-    4104: 'Esse percurso é difícil demais.',
-    4105: 'Esse percurso está ótimo.',
-    4200: 'Tente ficar mais para a esquerda.',
-    4201: 'Tente ficar mais para a direita.',
-    4202: 'Tente ficar bem no meio.',
-    4203: 'Tente bater mais forte.',
-    4204: 'Tente bater mais fraco.',
-    4205: 'Tente mirar mais para a esquerda.',
-    4206: 'Tente mirar mais para a direita.',
-    4207: 'Tente mirar bem no meio.',
-    4300: 'Por pouco!',
-    4301: 'Que tacada sensacional!',
-    4302: 'Essa foi uma tacada de sorte.',
-    4303: 'Quero mais uma chance...',
-    4304: 'Essa é muito fácil.',
-    4305: 'Bola!',
-    4306: 'Shhhh!',
-    4307: 'Grande jogo!',
-    5000: 'Vamos formar um Grupo de Abordagem.',
-    5001: 'Junte-se ao meu Grupo de Abordagem.',
-    5002: 'Você pode me convidar para o seu Grupo de Abordagem',
-    5003: 'Eu já estou em um Grupo de Embarque.',
-    5004: 'Deixar o seu Grupo de Abordagem.',
-    5005: 'Estamos embarcando agora.',
-    5006: 'Onde estamos indo?',
-    5007: 'Estamos prontos?',
-    5008: 'Vamos!',
-    5009: 'Não saia desta área ou sairá do Grupo de Abordagem.',
-    5100: 'Vamos para o Três da Frente.',
-    5101: 'Vamos para o Seis do Meio.',
-    5102: 'Vamos para o Nove de Trás.',
-    5103: 'Vamos para a Batalha do Presidente',
-    5104: 'Vamos para a Batalha do Sênior V.P..',
-    5105: 'Vamos para a Entrada Principal.',
-    5106: 'Vamos para a Entrada dos Fundos.',
-    5107: 'Vamos para a Mina de Moedas.',
-    5108: 'Vamos para a Mina de Dinheiro',
-    5109: 'Vamos para a Mina de Ouro.',
-    5110: 'Vamos para a Batalha do C.F.O.',
-    5111: 'Vamos para a Batalha do Juiz-Chefe.',
-    5112: 'Vamos para o Escritório dos Robôs da Lei A.',
-    5113: 'Vamos para o Escritório dos Robôs da Lei B.',
-    5114: 'Vamos para o Escritório dos Robôs da Lei C.',
-    5115: 'Vamos para o Escritório dos Rôbos da Lei D',
-    5200: 'Estamos indo para o Três da Frente.',
-    5201: 'Estamos indo para o Seis do Meio.',
-    5202: 'Estamos indo para o Nove de Trás.',
-    5203: 'Estamos indo para a Batalha do Presidente.',
-    5204: 'Estamos indo para a Batalha do Sênior V.P..',
-    5205: 'Estamos indo para a Entrada Principal.',
-    5206: 'Estamos indo para a Entrada dos Fundos.',
-    5207: 'Estamos indo para a Mina de Moedas.',
-    5208: 'Estamos indo para a Mina de Dinheiro.',
-    5209: 'Estamos indo para a Mina de Ouro',
-    5210: 'Estamos indo para a Batalha do C.F.O.',
-    5211: 'Estamos indo para a Batalha do Juiz-Chefe.',
-    5212: 'Estamos indo para o Escritório do Rôbos da Lei A.',
-    5213: 'Estamos indo para o Escritório do Rôbos da Lei B.',
-    5214: 'Estamos indo para o Escritório do Rôbos da Lei C.',
-    5215: 'Estamos indo para o Escritório do Rôbos da Lei D.',
-    5300: 'Vamos para uma festa.',
-    5301: 'Vejo você na festa!',
-    5302: 'Minha festa começou!',
-    5303: 'Venha para a minha festa!',
-
-    # Parties Phrases when inside a party
-    5304: 'Bem-vindo à minha festa!',
-    5305: 'Esta festa tem regras!',
-    5306: 'Sua festa é divertida!',
-    5307: 'É hora da festa!',
-    5308: 'O tempo está ficando para fora!',
-    5309: 'Nenhum Cogs são permitidos!',
-    5310: 'Eu gosto dessa música!',
-    5311: 'Esta música é ótima!',
-    5312: 'Canhões são uma explosão!',
-    5313: 'Vê-me salto!',
-    5314: 'Trampolines são divertidos!',
-    5315: 'Deixe-nos Pegar jogo!',
-    5316: 'Vamos dançar!',
-    5317: 'Para a pista de dança!',
-    5318: 'Vamos brincar de guerra!',
-    5319: 'Comece os fogos de artifício!',
-    5320: 'Estes fogos de artifício são lindos',
-    5321: 'Decorações agradáveis.',
-    5322: 'Eu gostaria de poder comer este bolo!',
-
-    # Promotional Considerations
-    10000: 'A escolha é sua!',
-    10001: 'Você vai votar em quem?',
-    10002: 'A minha candidata é a Galinha!',
-    10003: 'Nada de caca! Vote na Vaca!',
-    10004: 'Não fique no vácuo! Vote no Macaco!',
-    10005: 'Mantenha o curso! Vote no Urso!',
-    10006: 'Pense gordo! Vote no Porco!',
-    10007: 'Vote no Bode - com ele a gente pode!',
-
-    # cog phrases for disguised toons
-    # (just references to cog dialog above)
-
-    # common cog phrases
-    20000: SuitBrushOffs[None][0],
-    20001: SuitBrushOffs[None][1],
-    20002: SuitBrushOffs[None][2],
-    20003: SuitBrushOffs[None][3],
-    20004: SuitBrushOffs[None][4],
-
-    # specific cog phrases
-    20005: SuitFaceoffTaunts['bf'][0],
-    20006: SuitFaceoffTaunts['bf'][1],
-    20007: SuitFaceoffTaunts['bf'][2],
-    20008: SuitFaceoffTaunts['bf'][3],
-    20009: SuitFaceoffTaunts['bf'][4],
-    20010: SuitFaceoffTaunts['bf'][5],
-    20011: SuitFaceoffTaunts['bf'][6],
-    20012: SuitFaceoffTaunts['bf'][7],
-    20013: SuitFaceoffTaunts['bf'][8],
-    20014: SuitFaceoffTaunts['bf'][9],
-
-    20015: SuitFaceoffTaunts['nc'][0],
-    20016: SuitFaceoffTaunts['nc'][1],
-    20017: SuitFaceoffTaunts['nc'][2],
-    20018: SuitFaceoffTaunts['nc'][3],
-    20019: SuitFaceoffTaunts['nc'][4],
-    20020: SuitFaceoffTaunts['nc'][5],
-    20021: SuitFaceoffTaunts['nc'][6],
-    20022: SuitFaceoffTaunts['nc'][7],
-    20023: SuitFaceoffTaunts['nc'][8],
-    20024: SuitFaceoffTaunts['nc'][9],
-
-    20025: SuitFaceoffTaunts['ym'][0],
-    20026: SuitFaceoffTaunts['ym'][1],
-    20027: SuitFaceoffTaunts['ym'][2],
-    20028: SuitFaceoffTaunts['ym'][3],
-    20029: SuitFaceoffTaunts['ym'][4],
-    20030: SuitFaceoffTaunts['ym'][5],
-    20031: SuitFaceoffTaunts['ym'][6],
-    20032: SuitFaceoffTaunts['ym'][7],
-    20033: SuitFaceoffTaunts['ym'][8],
-    20034: SuitFaceoffTaunts['ym'][9],
-    20035: SuitFaceoffTaunts['ym'][10],
-
-    20036: SuitFaceoffTaunts['ms'][0],
-    20037: SuitFaceoffTaunts['ms'][1],
-    20038: SuitFaceoffTaunts['ms'][2],
-    20039: SuitFaceoffTaunts['ms'][3],
-    20040: SuitFaceoffTaunts['ms'][4],
-    20041: SuitFaceoffTaunts['ms'][5],
-    20042: SuitFaceoffTaunts['ms'][6],
-    20043: SuitFaceoffTaunts['ms'][7],
-    20044: SuitFaceoffTaunts['ms'][8],
-    20045: SuitFaceoffTaunts['ms'][9],
-    20046: SuitFaceoffTaunts['ms'][10],
-
-    20047: SuitFaceoffTaunts['bc'][0],
-    20048: SuitFaceoffTaunts['bc'][1],
-    20049: SuitFaceoffTaunts['bc'][2],
-    20050: SuitFaceoffTaunts['bc'][3],
-    20051: SuitFaceoffTaunts['bc'][4],
-    20052: SuitFaceoffTaunts['bc'][5],
-    20053: SuitFaceoffTaunts['bc'][6],
-    20054: SuitFaceoffTaunts['bc'][7],
-    20055: SuitFaceoffTaunts['bc'][8],
-    20056: SuitFaceoffTaunts['bc'][9],
-    20057: SuitFaceoffTaunts['bc'][10],
-
-    20058: SuitFaceoffTaunts['cc'][0],
-    20059: SuitFaceoffTaunts['cc'][1],
-    20060: SuitFaceoffTaunts['cc'][2],
-    20061: SuitFaceoffTaunts['cc'][3],
-    20062: SuitFaceoffTaunts['cc'][4],
-    20063: SuitFaceoffTaunts['cc'][5],
-    20064: SuitFaceoffTaunts['cc'][6],
-    20065: SuitFaceoffTaunts['cc'][7],
-    20066: SuitFaceoffTaunts['cc'][8],
-    20067: SuitFaceoffTaunts['cc'][9],
-    20068: SuitFaceoffTaunts['cc'][10],
-    20069: SuitFaceoffTaunts['cc'][11],
-    20070: SuitFaceoffTaunts['cc'][12],
-
-    20071: SuitFaceoffTaunts['nd'][0],
-    20072: SuitFaceoffTaunts['nd'][1],
-    20073: SuitFaceoffTaunts['nd'][2],
-    20074: SuitFaceoffTaunts['nd'][3],
-    20075: SuitFaceoffTaunts['nd'][4],
-    20076: SuitFaceoffTaunts['nd'][5],
-    20077: SuitFaceoffTaunts['nd'][6],
-    20078: SuitFaceoffTaunts['nd'][7],
-    20079: SuitFaceoffTaunts['nd'][8],
-    20080: SuitFaceoffTaunts['nd'][9],
-
-    20081: SuitFaceoffTaunts['ac'][0],
-    20082: SuitFaceoffTaunts['ac'][1],
-    20083: SuitFaceoffTaunts['ac'][2],
-    20084: SuitFaceoffTaunts['ac'][3],
-    20085: SuitFaceoffTaunts['ac'][4],
-    20086: SuitFaceoffTaunts['ac'][5],
-    20087: SuitFaceoffTaunts['ac'][6],
-    20088: SuitFaceoffTaunts['ac'][7],
-    20089: SuitFaceoffTaunts['ac'][8],
-    20090: SuitFaceoffTaunts['ac'][9],
-    20091: SuitFaceoffTaunts['ac'][10],
-    20092: SuitFaceoffTaunts['ac'][11],
-
-    20093: SuitFaceoffTaunts['tf'][0],
-    20094: SuitFaceoffTaunts['tf'][1],
-    20095: SuitFaceoffTaunts['tf'][2],
-    20096: SuitFaceoffTaunts['tf'][3],
-    20097: SuitFaceoffTaunts['tf'][4],
-    20098: SuitFaceoffTaunts['tf'][5],
-    20099: SuitFaceoffTaunts['tf'][6],
-    20100: SuitFaceoffTaunts['tf'][7],
-    20101: SuitFaceoffTaunts['tf'][8],
-    20102: SuitFaceoffTaunts['tf'][9],
-    20103: SuitFaceoffTaunts['tf'][10],
-
-    20104: SuitFaceoffTaunts['hh'][0],
-    20105: SuitFaceoffTaunts['hh'][1],
-    20106: SuitFaceoffTaunts['hh'][2],
-    20107: SuitFaceoffTaunts['hh'][3],
-    20108: SuitFaceoffTaunts['hh'][4],
-    20109: SuitFaceoffTaunts['hh'][5],
-    20110: SuitFaceoffTaunts['hh'][6],
-    20111: SuitFaceoffTaunts['hh'][7],
-    20112: SuitFaceoffTaunts['hh'][8],
-    20113: SuitFaceoffTaunts['hh'][9],
-    20114: SuitFaceoffTaunts['hh'][10],
-
-    20115: SuitFaceoffTaunts['le'][0],
-    20116: SuitFaceoffTaunts['le'][1],
-    20117: SuitFaceoffTaunts['le'][2],
-    20118: SuitFaceoffTaunts['le'][3],
-    20119: SuitFaceoffTaunts['le'][4],
-    20120: SuitFaceoffTaunts['le'][5],
-    20121: SuitFaceoffTaunts['le'][6],
-    20122: SuitFaceoffTaunts['le'][7],
-    20123: SuitFaceoffTaunts['le'][8],
-    20124: SuitFaceoffTaunts['le'][9],
-
-    20125: SuitFaceoffTaunts['bs'][0],
-    20126: SuitFaceoffTaunts['bs'][1],
-    20127: SuitFaceoffTaunts['bs'][2],
-    20128: SuitFaceoffTaunts['bs'][3],
-    20129: SuitFaceoffTaunts['bs'][4],
-    20130: SuitFaceoffTaunts['bs'][5],
-    20131: SuitFaceoffTaunts['bs'][6],
-    20132: SuitFaceoffTaunts['bs'][7],
-    20133: SuitFaceoffTaunts['bs'][8],
-    20134: SuitFaceoffTaunts['bs'][9],
-    20135: SuitFaceoffTaunts['bs'][10],
-
-    20136: SuitFaceoffTaunts['cr'][0],
-    20137: SuitFaceoffTaunts['cr'][1],
-    20138: SuitFaceoffTaunts['cr'][2],
+ 3201: 'Vamos escolher uma corrida diferente.',  
+ 3210: 'Vamos fazer uma corrida de aquecimento.',
+ 3211: 'Vamos fazer um campeonato de corrida.',
+ 3220: 'Eu gosto da corrida do Estádio dos Nerds!',
+ 3221: 'Eu gosto da corrida do Autódromo Rústico!',
+ 3222: 'Eu gosto da corrida do Circuito da Cidade!',
+ 3223: 'Eu gosto da corrida do Coliseu Saca-Rolhas!',
+ 3224: 'Eu gosto da corrida da Pista de Pulos!',
+ 3222: 'Eu gosto da corrida do Circuito da Cidade!',
+ 3230: 'Vamos correr no Estádio dos Nerds!',
+ 3231: 'Vamos correr no Autódromo Rústico!',
+ 3232: 'Vamos correr no Circuito da Cidade!',
+ 3233: 'Vamos correr no Coliseu Saca-Rolhas!',
+ 3234: 'Vamos correr na Pista de Pulos!',
+ 3235: 'Vamos correr na Avenida da Neve!',
+ 3600: 'Em que pista você quer correr?',
+ 3601: 'Escolha uma pista!',
+ 3602: 'A gente pode correr em uma pista diferente?',
+ 3603: 'Vamos escolher uma pista diferente!',
+ 3640: 'Quero correr na primeira pista!',
+ 3641: 'Quero correr na segunda pista!',
+ 3642: 'Quero correr na terceira pista!',
+ 3643: 'Quero correr na quarta pista!',
+ 3660: 'Não quero correr na primeira pista!',
+ 3661: 'Não quero correr na segunda pista!',
+ 3662: 'Não quero correr na terceira pista!',
+ 3663: 'Não quero correr na quarta pista!',
+ 3300: 'Uau! Você é RÁPIDO!',
+ 3301: 'Você é muito rápido para mim!',
+ 3310: 'Boa corrida!',
+ 3320: 'Eu me amarrei no seu kart!',
+ 3330: 'Uma corrida maravilhosa!',
+ 3340: 'Seu kart é muito maneiro!',
+ 3350: 'Seu kart é incrível!',
+ 3360: 'Seu kart é maravilhoso!',
+ 3400: 'Tá com medo de me enfrentar?',
+ 3410: 'Vejo você na linha de chegada!',
+ 3430: 'Sou rápido como um raio!',
+ 3450: 'Você nunca vai me alcançar!',
+ 3451: 'Você nunca vai me derrotar!',
+ 3452: 'Ninguém consegue bater o meu tempo!',
+ 3453: 'Vamos embora, molenga!',
+ 3460: 'Me dá outra chance!',
+ 3461: 'Foi sorte a sua!',
+ 3462: 'Uh-huu! Essa foi perto!',
+ 3470: 'Uau, pensei que você tinha me vencido!',
+ 4000: 'Vamos jogar minigolfe!',
+ 4001: 'Vamos jogar de novo!',
+ 4002: 'Quer jogar golfe?',
+ 4100: 'Vamos jogar no "Tacada e Caminhada".',
+ 4101: 'Vamos jogar no "Tacadas Divertidas".',
+ 4102: 'Vamos jogar no "Todas as Tacadas".',
+ 4103: 'Esse percurso é fácil demais.',
+ 4104: 'Esse percurso é difícil demais.',
+ 4105: 'Esse percurso está ótimo.',
+ 4200: 'Tente ficar mais para a esquerda.',
+ 4201: 'Tente ficar mais para a direita.',
+ 4202: 'Tente ficar bem no meio.',
+ 4203: 'Tente bater mais forte.',
+ 4204: 'Tente bater mais fraco.',
+ 4205: 'Tente mirar mais para a esquerda.',
+ 4206: 'Tente mirar mais para a direita.',
+ 4207: 'Tente mirar bem no meio.',
+ 4300: 'Por pouco!',
+ 4301: 'Que tacada sensacional!',
+ 4302: 'Essa foi uma tacada de sorte.',
+ 4303: 'Quero mais uma chance...',
+ 4304: 'Essa é muito fácil.',
+ 4305: 'Bola!',
+ 4306: 'Shhhh!',
+ 4307: 'Grande jogo!',
+ 5000: 'Vamos formar um Grupo de Abordagem.',
+ 5001: 'Junte-se ao meu Grupo de Abordagem.',
+ 5002: 'Você pode me convidar para o seu Grupo de Abordagem',
+ 5003: 'Eu já estou em um Grupo de Embarque.',
+ 5004: 'Deixar o seu Grupo de Abordagem.',
+ 5005: 'Estamos embarcando agora.',
+ 5006: 'Onde estamos indo?',
+ 5007: 'Estamos prontos?',
+ 5008: 'Vamos!',
+ 5009: 'Não saia desta área ou sairá do Grupo de Abordagem.',
+ 5100: 'Vamos para o Três da Frente.',
+ 5101: 'Vamos para o Seis do Meio.',
+ 5102: 'Vamos para o Nove de Trás.',
+ 5103: 'Vamos para a Batalha do Presidente',
+ 5104: 'Vamos para a Batalha do Sênior V.P..',
+ 5105: 'Vamos para a Entrada Principal.',
+ 5106: 'Vamos para a Entrada dos Fundos.',
+ 5107: 'Vamos para a Mina de Moedas.',
+ 5108: 'Vamos para a Mina de Dinheiro',
+ 5109: 'Vamos para a Mina de Ouro.',
+ 5110: 'Vamos para a Batalha do C.F.O.',
+ 5111: 'Vamos para a Batalha do Juiz-Chefe.',
+ 5112: 'Vamos para o Escritório dos Robôs da Lei A.',
+ 5113: 'Vamos para o Escritório dos Robôs da Lei B.',
+ 5114: 'Vamos para o Escritório dos Robôs da Lei C.',
+ 5115: 'Vamos para o Escritório dos Rôbos da Lei D',
+ 5200: 'Estamos indo para o Três da Frente.',
+ 5201: 'Estamos indo para o Seis do Meio.',
+ 5202: 'Estamos indo para o Nove de Trás.',
+ 5203: 'Estamos indo para a Batalha do Presidente.',
+ 5204: 'Estamos indo para a Batalha do Sênior V.P..',
+ 5205: 'Estamos indo para a Entrada Principal.',
+ 5206: 'Estamos indo para a Entrada dos Fundos.',
+ 5207: 'Estamos indo para a Mina de Moedas.',
+ 5208: 'Estamos indo para a Mina de Dinheiro.',
+ 5209: 'Estamos indo para a Mina de Ouro',
+ 5210: 'Estamos indo para a Batalha do C.F.O.',
+ 5211: 'Estamos indo para a Batalha do Juiz-Chefe.',
+ 5212: 'Estamos indo para o Escritório do Rôbos da Lei A.',
+ 5213: 'Estamos indo para o Escritório do Rôbos da Lei B.',
+ 5214: 'Estamos indo para o Escritório do Rôbos da Lei C.',
+ 5215: 'Estamos indo para o Escritório do Rôbos da Lei D.',
+ 5300: 'Vamos para uma festa.',
+ 5301: 'Vejo você na festa!',
+ 5302: 'Minha festa começou!',
+ 5303: 'Venha para a minha festa!',
+ 5304: 'Bem-vindo à minha festa!',
+ 5305: 'Esta festa tem regras!',
+ 5306: 'Sua festa é divertida!',
+ 5307: 'É hora da festa!',
+ 5308: 'O tempo está ficando para fora!',
+ 5309: 'Nenhum Cogs são permitidos!',
+ 5310: 'Eu gosto dessa música!',
+ 5311: 'Esta música é ótima!',
+ 5312: 'Canhões são uma explosão!',
+ 5313: 'Vê-me salto!',
+ 5314: 'Trampolines são divertidos!',
+ 5315: 'Deixe-nos Pegar jogo!',
+ 5316: 'Vamos dançar!',
+ 5317: 'Para a pista de dança!',
+ 5318: 'Vamos brincar de Cabo de guerra!',
+ 5319: 'Comece os fogos de artifício!',
+ 5320: 'Estes fogos de artifício são lindos',
+ 5321: 'Decorações agradáveis.',
+ 5322: 'Eu gostaria de poder comer este bolo!',
+ 10000: 'A escolha é sua!',
+ 10001: 'Você vai votar em quem?',
+ 10002: 'A minha candidata é a Galinha!',
+ 10003: 'Nada de caca! Vote na Vaca!',
+ 10004: 'Não fique no vácuo! Vote no Macaco!',
+ 10005: 'Mantenha o curso! Vote no Urso!',
+ 10006: 'Pense gordo! Vote no Porco!',
+ 10007: 'Vote no Bode - com ele a gente pode!',
+ 20000: SuitBrushOffs[None][0],
+ 20001: SuitBrushOffs[None][1],
+ 20002: SuitBrushOffs[None][2],
+ 20003: SuitBrushOffs[None][3],
+ 20004: SuitBrushOffs[None][4],
+ 20005: SuitFaceoffTaunts['bf'][0],
+ 20006: SuitFaceoffTaunts['bf'][1],
+ 20007: SuitFaceoffTaunts['bf'][2],
+ 20008: SuitFaceoffTaunts['bf'][3],
+ 20009: SuitFaceoffTaunts['bf'][4],
+ 20010: SuitFaceoffTaunts['bf'][5],
+ 20011: SuitFaceoffTaunts['bf'][6],
+ 20012: SuitFaceoffTaunts['bf'][7],
+ 20013: SuitFaceoffTaunts['bf'][8],
+ 20014: SuitFaceoffTaunts['bf'][9],
+ 20015: SuitFaceoffTaunts['nc'][0],
+ 20016: SuitFaceoffTaunts['nc'][1],
+ 20017: SuitFaceoffTaunts['nc'][2],
+ 20018: SuitFaceoffTaunts['nc'][3],
+ 20019: SuitFaceoffTaunts['nc'][4],
+ 20020: SuitFaceoffTaunts['nc'][5],
+ 20021: SuitFaceoffTaunts['nc'][6],
+ 20022: SuitFaceoffTaunts['nc'][7],
+ 20023: SuitFaceoffTaunts['nc'][8],
+ 20024: SuitFaceoffTaunts['nc'][9],
+ 20025: SuitFaceoffTaunts['ym'][0],
+ 20026: SuitFaceoffTaunts['ym'][1],
+ 20027: SuitFaceoffTaunts['ym'][2],
+ 20028: SuitFaceoffTaunts['ym'][3],
+ 20029: SuitFaceoffTaunts['ym'][4],
+ 20030: SuitFaceoffTaunts['ym'][5],
+ 20031: SuitFaceoffTaunts['ym'][6],
+ 20032: SuitFaceoffTaunts['ym'][7],
+ 20033: SuitFaceoffTaunts['ym'][8],
+ 20034: SuitFaceoffTaunts['ym'][9],
+ 20035: SuitFaceoffTaunts['ym'][10],
+ 20036: SuitFaceoffTaunts['ms'][0],
+ 20037: SuitFaceoffTaunts['ms'][1],
+ 20038: SuitFaceoffTaunts['ms'][2],
+ 20039: SuitFaceoffTaunts['ms'][3],
+ 20040: SuitFaceoffTaunts['ms'][4],
+ 20041: SuitFaceoffTaunts['ms'][5],
+ 20042: SuitFaceoffTaunts['ms'][6],
+ 20043: SuitFaceoffTaunts['ms'][7],
+ 20044: SuitFaceoffTaunts['ms'][8],
+ 20045: SuitFaceoffTaunts['ms'][9],
+ 20046: SuitFaceoffTaunts['ms'][10],
+ 20047: SuitFaceoffTaunts['bc'][0],
+ 20048: SuitFaceoffTaunts['bc'][1],
+ 20049: SuitFaceoffTaunts['bc'][2],
+ 20050: SuitFaceoffTaunts['bc'][3],
+ 20051: SuitFaceoffTaunts['bc'][4],
+ 20052: SuitFaceoffTaunts['bc'][5],
+ 20053: SuitFaceoffTaunts['bc'][6],
+ 20054: SuitFaceoffTaunts['bc'][7],
+ 20055: SuitFaceoffTaunts['bc'][8],
+ 20056: SuitFaceoffTaunts['bc'][9],
+ 20057: SuitFaceoffTaunts['bc'][10],
+ 20058: SuitFaceoffTaunts['cc'][0],
+ 20059: SuitFaceoffTaunts['cc'][1],
+ 20060: SuitFaceoffTaunts['cc'][2],
+ 20061: SuitFaceoffTaunts['cc'][3],
+ 20062: SuitFaceoffTaunts['cc'][4],
+ 20063: SuitFaceoffTaunts['cc'][5],
+ 20064: SuitFaceoffTaunts['cc'][6],
+ 20065: SuitFaceoffTaunts['cc'][7],
+ 20066: SuitFaceoffTaunts['cc'][8],
+ 20067: SuitFaceoffTaunts['cc'][9],
+ 20068: SuitFaceoffTaunts['cc'][10],
+ 20069: SuitFaceoffTaunts['cc'][11],
+ 20070: SuitFaceoffTaunts['cc'][12],
+ 20071: SuitFaceoffTaunts['nd'][0],
+ 20072: SuitFaceoffTaunts['nd'][1],
+ 20073: SuitFaceoffTaunts['nd'][2],
+ 20074: SuitFaceoffTaunts['nd'][3],
+ 20075: SuitFaceoffTaunts['nd'][4],
+ 20076: SuitFaceoffTaunts['nd'][5],
+ 20077: SuitFaceoffTaunts['nd'][6],
+ 20078: SuitFaceoffTaunts['nd'][7],
+ 20079: SuitFaceoffTaunts['nd'][8],
+ 20080: SuitFaceoffTaunts['nd'][9],
+ 20081: SuitFaceoffTaunts['ac'][0],
+ 20082: SuitFaceoffTaunts['ac'][1],
+ 20083: SuitFaceoffTaunts['ac'][2],
+ 20084: SuitFaceoffTaunts['ac'][3],
+ 20085: SuitFaceoffTaunts['ac'][4],
+ 20086: SuitFaceoffTaunts['ac'][5],
+ 20087: SuitFaceoffTaunts['ac'][6],
+ 20088: SuitFaceoffTaunts['ac'][7],
+ 20089: SuitFaceoffTaunts['ac'][8],
+ 20090: SuitFaceoffTaunts['ac'][9],
+ 20091: SuitFaceoffTaunts['ac'][10],
+ 20092: SuitFaceoffTaunts['ac'][11],
+ 20093: SuitFaceoffTaunts['tf'][0],
+ 20094: SuitFaceoffTaunts['tf'][1],
+ 20095: SuitFaceoffTaunts['tf'][2],
+ 20096: SuitFaceoffTaunts['tf'][3],
+ 20097: SuitFaceoffTaunts['tf'][4],
+ 20098: SuitFaceoffTaunts['tf'][5],
+ 20099: SuitFaceoffTaunts['tf'][6],
+ 20100: SuitFaceoffTaunts['tf'][7],
+ 20101: SuitFaceoffTaunts['tf'][8],
+ 20102: SuitFaceoffTaunts['tf'][9],
+ 20103: SuitFaceoffTaunts['tf'][10],
+ 20104: SuitFaceoffTaunts['hh'][0],
+ 20105: SuitFaceoffTaunts['hh'][1],
+ 20106: SuitFaceoffTaunts['hh'][2],
+ 20107: SuitFaceoffTaunts['hh'][3],
+ 20108: SuitFaceoffTaunts['hh'][4],
+ 20109: SuitFaceoffTaunts['hh'][5],
+ 20110: SuitFaceoffTaunts['hh'][6],
+ 20111: SuitFaceoffTaunts['hh'][7],
+ 20112: SuitFaceoffTaunts['hh'][8],
+ 20113: SuitFaceoffTaunts['hh'][9],
+ 20114: SuitFaceoffTaunts['hh'][10],
+ 20115: SuitFaceoffTaunts['le'][0],
+ 20116: SuitFaceoffTaunts['le'][1],
+ 20117: SuitFaceoffTaunts['le'][2],
+ 20118: SuitFaceoffTaunts['le'][3],
+ 20119: SuitFaceoffTaunts['le'][4],
+ 20120: SuitFaceoffTaunts['le'][5],
+ 20121: SuitFaceoffTaunts['le'][6],
+ 20122: SuitFaceoffTaunts['le'][7],
+ 20123: SuitFaceoffTaunts['le'][8],
+ 20124: SuitFaceoffTaunts['le'][9],
+ 20125: SuitFaceoffTaunts['bs'][0],
+ 20126: SuitFaceoffTaunts['bs'][1],
+ 20127: SuitFaceoffTaunts['bs'][2],
+ 20128: SuitFaceoffTaunts['bs'][3],
+ 20129: SuitFaceoffTaunts['bs'][4],
+ 20130: SuitFaceoffTaunts['bs'][5],
+ 20131: SuitFaceoffTaunts['bs'][6],
+ 20132: SuitFaceoffTaunts['bs'][7],
+ 20133: SuitFaceoffTaunts['bs'][8],
+ 20134: SuitFaceoffTaunts['bs'][9],
+ 20135: SuitFaceoffTaunts['bs'][10],
+ 20136: SuitFaceoffTaunts['cr'][0],
+ 20137: SuitFaceoffTaunts['cr'][1],
+ 20138: SuitFaceoffTaunts['cr'][2],
     20139: SuitFaceoffTaunts['cr'][3],
     20140: SuitFaceoffTaunts['cr'][4],
     20141: SuitFaceoffTaunts['cr'][5],
@@ -1556,7 +1533,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     20143: SuitFaceoffTaunts['cr'][7],
     20144: SuitFaceoffTaunts['cr'][8],
     20145: SuitFaceoffTaunts['cr'][9],
-
     20146: SuitFaceoffTaunts['tbc'][0],
     20147: SuitFaceoffTaunts['tbc'][1],
     20148: SuitFaceoffTaunts['tbc'][2],
@@ -1568,7 +1544,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     20154: SuitFaceoffTaunts['tbc'][8],
     20155: SuitFaceoffTaunts['tbc'][9],
     20156: SuitFaceoffTaunts['tbc'][10],
-
     20157: SuitFaceoffTaunts['ds'][0],
     20158: SuitFaceoffTaunts['ds'][1],
     20159: SuitFaceoffTaunts['ds'][2],
@@ -1577,7 +1552,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     20162: SuitFaceoffTaunts['ds'][5],
     20163: SuitFaceoffTaunts['ds'][6],
     20164: SuitFaceoffTaunts['ds'][7],
-
     20165: SuitFaceoffTaunts['gh'][0],
     20166: SuitFaceoffTaunts['gh'][1],
     20167: SuitFaceoffTaunts['gh'][2],
@@ -1591,7 +1565,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     20175: SuitFaceoffTaunts['gh'][10],
     20176: SuitFaceoffTaunts['gh'][11],
     20177: SuitFaceoffTaunts['gh'][12],
-
     20178: SuitFaceoffTaunts['pp'][0],
     20179: SuitFaceoffTaunts['pp'][1],
     20180: SuitFaceoffTaunts['pp'][2],
@@ -1602,7 +1575,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     20185: SuitFaceoffTaunts['pp'][7],
     20186: SuitFaceoffTaunts['pp'][8],
     20187: SuitFaceoffTaunts['pp'][9],
-
     20188: SuitFaceoffTaunts['b'][0],
     20189: SuitFaceoffTaunts['b'][1],
     20190: SuitFaceoffTaunts['b'][2],
@@ -1615,7 +1587,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     20197: SuitFaceoffTaunts['b'][9],
     20198: SuitFaceoffTaunts['b'][10],
     20199: SuitFaceoffTaunts['b'][11],
-
     20200: SuitFaceoffTaunts['f'][0],
     20201: SuitFaceoffTaunts['f'][1],
     20202: SuitFaceoffTaunts['f'][2],
@@ -1627,7 +1598,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     20208: SuitFaceoffTaunts['f'][8],
     20209: SuitFaceoffTaunts['f'][9],
     20210: SuitFaceoffTaunts['f'][10],
-
     20211: SuitFaceoffTaunts['mm'][0],
     20212: SuitFaceoffTaunts['mm'][1],
     20213: SuitFaceoffTaunts['mm'][2],
@@ -1642,7 +1612,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     20222: SuitFaceoffTaunts['mm'][11],
     20223: SuitFaceoffTaunts['mm'][12],
     20224: SuitFaceoffTaunts['mm'][13],
-
     20225: SuitFaceoffTaunts['tw'][0],
     20226: SuitFaceoffTaunts['tw'][1],
     20227: SuitFaceoffTaunts['tw'][2],
@@ -1654,7 +1623,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     20233: SuitFaceoffTaunts['tw'][8],
     20234: SuitFaceoffTaunts['tw'][9],
     20235: SuitFaceoffTaunts['tw'][10],
-
     20236: SuitFaceoffTaunts['mb'][0],
     20237: SuitFaceoffTaunts['mb'][1],
     20238: SuitFaceoffTaunts['mb'][2],
@@ -1665,7 +1633,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     20243: SuitFaceoffTaunts['mb'][7],
     20244: SuitFaceoffTaunts['mb'][8],
     20245: SuitFaceoffTaunts['mb'][9],
-
     20246: SuitFaceoffTaunts['m'][0],
     20247: SuitFaceoffTaunts['m'][1],
     20248: SuitFaceoffTaunts['m'][2],
@@ -1675,7 +1642,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     20252: SuitFaceoffTaunts['m'][6],
     20253: SuitFaceoffTaunts['m'][7],
     20254: SuitFaceoffTaunts['m'][8],
-
     20255: SuitFaceoffTaunts['mh'][0],
     20256: SuitFaceoffTaunts['mh'][1],
     20257: SuitFaceoffTaunts['mh'][2],
@@ -1688,7 +1654,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     20264: SuitFaceoffTaunts['mh'][9],
     20265: SuitFaceoffTaunts['mh'][10],
     20266: SuitFaceoffTaunts['mh'][11],
-
     20267: SuitFaceoffTaunts['dt'][0],
     20268: SuitFaceoffTaunts['dt'][1],
     20269: SuitFaceoffTaunts['dt'][2],
@@ -1699,7 +1664,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     20274: SuitFaceoffTaunts['dt'][7],
     20275: SuitFaceoffTaunts['dt'][8],
     20276: SuitFaceoffTaunts['dt'][9],
-
     20277: SuitFaceoffTaunts['p'][0],
     20278: SuitFaceoffTaunts['p'][1],
     20279: SuitFaceoffTaunts['p'][2],
@@ -1711,7 +1675,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     20285: SuitFaceoffTaunts['p'][8],
     20286: SuitFaceoffTaunts['p'][9],
     20287: SuitFaceoffTaunts['p'][10],
-
     20288: SuitFaceoffTaunts['tm'][0],
     20289: SuitFaceoffTaunts['tm'][1],
     20290: SuitFaceoffTaunts['tm'][2],
@@ -1723,7 +1686,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     20296: SuitFaceoffTaunts['tm'][8],
     20297: SuitFaceoffTaunts['tm'][9],
     20298: SuitFaceoffTaunts['tm'][10],
-
     20299: SuitFaceoffTaunts['bw'][0],
     20300: SuitFaceoffTaunts['bw'][1],
     20301: SuitFaceoffTaunts['bw'][2],
@@ -1734,7 +1696,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     20306: SuitFaceoffTaunts['bw'][7],
     20307: SuitFaceoffTaunts['bw'][8],
     20308: SuitFaceoffTaunts['bw'][9],
-
     20309: SuitFaceoffTaunts['ls'][0],
     20310: SuitFaceoffTaunts['ls'][1],
     20311: SuitFaceoffTaunts['ls'][2],
@@ -1746,7 +1707,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     20317: SuitFaceoffTaunts['ls'][8],
     20318: SuitFaceoffTaunts['ls'][9],
     20319: SuitFaceoffTaunts['ls'][10],
-
     20320: SuitFaceoffTaunts['rb'][0],
     20321: SuitFaceoffTaunts['rb'][1],
     20322: SuitFaceoffTaunts['rb'][2],
@@ -1757,7 +1717,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     20327: SuitFaceoffTaunts['rb'][7],
     20328: SuitFaceoffTaunts['rb'][8],
     20329: SuitFaceoffTaunts['rb'][9],
-
     20330: SuitFaceoffTaunts['sc'][0],
     20331: SuitFaceoffTaunts['sc'][1],
     20332: SuitFaceoffTaunts['sc'][2],
@@ -1769,7 +1728,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     20338: SuitFaceoffTaunts['sc'][8],
     20339: SuitFaceoffTaunts['sc'][9],
     20340: SuitFaceoffTaunts['sc'][10],
-
     20341: SuitFaceoffTaunts['sd'][0],
     20342: SuitFaceoffTaunts['sd'][1],
     20343: SuitFaceoffTaunts['sd'][2],
@@ -1780,8 +1738,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     20348: SuitFaceoffTaunts['sd'][7],
     20349: SuitFaceoffTaunts['sd'][8],
     20350: SuitFaceoffTaunts['sd'][9],
-
-    # Pets/Doodles
     21000: 'Aqui, amigão!',
     21001: 'Aqui, amigona!',
     21002: 'Parado.',
@@ -1805,7 +1761,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     30113: 'Pluto está na Melodilândia.',
     30114: 'Donald está sonâmbulo no autódromo.',
     30115: 'O Pateta está na Sonholândia.',
-
     30120: 'Mickey está agindo como Margarida!',
     30121: 'Margarida está agindo como Mickey!',
     30122: 'Minnie está agindo como Pluto!',
@@ -1813,15 +1768,12 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     30124: 'Pluto está falando!',
     30125: 'Pateta está agindo como Donald!',
     30126: 'Donald está sonhando que é o Pateta!',
-
     30130: 'Observe até onde consigo pular.',
     30131: 'Nossa, você pulou muito longe!',
     30132: 'Ei, Rabiscos podem, falar!',
     30133: 'Seu Rabisco acabou de falar?',
     30140: 'As coisas com certeza são bobas por aqui!',
     30141: 'Quão mais bobas as coisas poderiam ficar?',
-
-    # Phrases for Sellbot Nerf Event
     30150: 'Operação: Tempestade dos Robôs Vendedores está aqui!',
     30151: 'Torres dos Robôs Vendedores teve sua energia drenada por Rabiscos!',
     30152: 'O Sênior VP teve seu poder drenado por Rabiscos!',
@@ -1848,8 +1800,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     30173: 'Vou atordoar o sênior VP pela frente.',
     30174: 'Vou atordoar o sênior VP pelas costas.',
     30175: 'Pule quando o sênior VP pular!',
-
-    # Phrases for Jellybean Jam
     30180: 'Tenho balinhas duplas no carrinho!',
     30181: 'Ganhei balinhas duplas na pesca!',
     30182: 'Ganhei Balinhas duplas em uma festa!',
@@ -1865,33 +1815,24 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     30192: 'Não seja mau, dê um feijão!',
     30193: 'Quem quer balinhas?',
     30194: 'Dance para balinhas!',
-
-    # Phrases for caroling
     30200: 'Hoje é dia de Alegria...',
     30201: 'Coloque algumas tortas...',
     30202: 'Toons alegres...',
     30203: 'Cabeças de boneco de neve...',
     30204: 'Toontown é alegre...',
     30205: 'Isca bom ânimo...',
-
     30220: 'Hoje é dia de Alegria com spray de água com gás!\nBoas festas de inverno!',
     30221: 'Coloque algumas tortas em seu trenó!\nBoas festas de inverno!',
     30222: 'Toons alegres trazem consternação aos Cogs!\nBoas festas de inverno!',
     30223: 'As cabeças dos bonecos de neve estão quentes hoje!\nBoas férias de inverno!',
     30224: 'Toontown é alegre, aconteça o que acontecer!\nBoas festas de inverno!',
     30225: 'Isca a alegria do jeito Toontown!\nBoas férias de inverno!',
-
-    # Phrases for Halloween
     30250: 'Buu!',
     30251: 'Feliz Dia das Bruxas!',
     30252: 'Assustador!',
-
-    # Phrases for Christmas
     30275: 'Boas festas!',
     30276: 'Cumprimentos de temporada!',
     30277: 'Tenha um inverno maravilhoso!',
-
-    # Phrases for Silly Story
     30301: 'Você viu o Medidor de Bobagem?',
     30302: 'O medidor de bobagem está na Prefeitoona.',
     30303: 'As coisas com certeza estão ficando bobas por aqui!',
@@ -1900,7 +1841,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     30306: 'Você já esteve no novo escritório do Flippy?',
     30307: 'Eu causei um Surto Bobo em batalha!',
     30308: 'Vamos derrotar alguns Cogs para deixar Toontown mais boba!',
-
     30309: 'O Medidor de Bobagem está maior e mais louco do que nunca!',
     30310: 'Muitos hidrantes ganharam vida!',
     30311: 'Vi uma caixa de correio se mexendo!',
@@ -1910,7 +1850,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     30315: 'Algo bobo, aposto!',
     30316: 'Você já causou um Surto Bobo?',
     30317: 'Vamos derrotar alguns Cogs para deixar Toontown mais boba!',
-
     30318: 'Invasão da cog!',
     30319: 'Chegando!',
     30320: 'Vamos parar esses cogs!',
@@ -1921,29 +1860,22 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     30325: 'Meus favoritos são os hidrantes!',
     30326: 'Minhas favoritas são as caixas de correio!',
     30327: 'Meus favoritos são as latas de lixo!',
-
     30328: 'Viva! Paramos as invasões dos Cogs!',
     30329: 'Um hidrante me ajudou na batalha!',
     30330: 'Um hidrante impulsionou minhas Piadas de Esguicho!',
     30331: 'Uma lata de lixo impulsionou minhas Piadas de Toonar!',
     30332: 'Uma caixa de correio ajudou minhas Piadas de Lançamento!',
-
-    # Phrases for Victory Parties (warning 30400 is in use)
     30350: 'Bem-vindo à minha Festa da Vitória!',
     30351: 'Esta é uma grande Festa da Vitória!',
     30352: 'Mostramos àqueles Cogs quem manda!',
     30353: 'Bom trabalho ajudando a acabar com as invasões Cog!',
     30354: 'Aposto que isso está deixando os Cogs loucos!',
-
-    30355: 'Vamos jogar Cog-O-Guerra!',
     30356: 'Meu time venceu o Cog-O-Guerra!',
     30357: 'É bom ter hidrantes, latas de lixo e caixas de correio aqui!',
     30358: 'Gosto do balão do Rabisco mordendo o cog!',
     30359: 'Gosto do balão do Cog coberto de sorvete!',
     30360: 'Gosto do cog ondulado que bate os braços!',
     30361: 'Eu pulei na cara de um Cog!',
-
-    # Phrases for Sellbot Field Office
     30400: 'Os Robôs Vendedores estão invadindo!',
     30401: 'O sênior VP estava louco com a Operação: Storm Sellbot ...',
     30402: 'Ele está enviando os Robôs Vendedores para invadir Toontown!',
@@ -1963,22 +1895,14 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
     30416: 'Derrote todos os quatros Agitadores para abrir a saída!',
     30417: 'A saída está aberta!',
     30418: 'É o chefe!',
-
-    # Phrases for Ides March
     30450: 'É fácil ser verde!',
     30451: 'Visite Jeans Feijão Verde e você também pode ser verde!',
-    30452: 'Fica na Rua dos Carvalhos em Jardins da Margarida.',
-}
-
-SpeedChatStaticTextPirates = {
-    # PIRATES ROOT - TOP LEVEL
-    50001: 'Sim',
+    30452: 'Fica na Rua dos Carvalhos em Jardins da Margarida.'}
+SpeedChatStaticTextPirates = {50001: 'Sim',
     50002: 'Não',
     50003: 'Arrr!',
     50004: 'Sim, sim, Capitão!',
     50005: 'Ok',
-
-    # Common Expressions
     50100: 'Todos a bordo!',
     50101: 'Ei, marujo!',
     50102: 'Alto lá!',
@@ -1990,38 +1914,24 @@ SpeedChatStaticTextPirates = {
     50108: 'Ande na prancha!',
     50109: 'Continue!',
     50110: 'Não vai sobrar ninguém para contar a história....',
-
-    # EXPRESSIONS - GREETINGS
     50700: 'Ah!',
     50701: 'Ah, amigo!',
     50702: 'Yo-Ho-Ho',
     50703: 'Avast!',
     50704: 'Ei, Bucko.',
-
-    # EXPRESSIONS - GOODBYES
     50800: 'Até a próxima.',
     50801: 'Que bons ventos encontrem você.',
     50802: 'Boa velocidade.',
-
-    # EXPRESSIONS - FRIENDLY
     50900: 'Como vai, amigo?',
     50901: '',
-
-    # EXPRESSIONS - HAPPY
     51000: 'É como se o céu estivesse chovendo dobrões de ouro!',
     51001: '',
-
-    # EXPRESSIONS - SAD
     51100: 'Eu estive navegando em águas agitadas neste dia.',
-
-    # EXPRESSIONS - Sinto muito
     51200: 'Minhas desculpas, cara.',
     51201: 'Desculpe.',
     51202: 'Desculpe, eu estava ocupado antes.',
     51203: 'Desculpe, já tenho planos.',
     51204: 'Desculpe, não preciso fazer isso.',
-
-    # COMBAT
     51300: 'Ataque o mais fraco!',
     51301: 'Ataque o mais forte!',
     51302: 'Ataque meu alvo!',
@@ -2031,8 +1941,6 @@ SpeedChatStaticTextPirates = {
     51306: 'Cerque o mais poderoso.',
     51307: 'Devíamos recuar.',
     51308: 'Corra!',
-
-    # SEA COMBAT
     51400: 'Dispare um Broadside!',
     51401: 'Bombordo! (esquerda)',
     51402: 'Lado de estibordo! (direita)',
@@ -2055,15 +1963,11 @@ SpeedChatStaticTextPirates = {
     51419: 'Homem ao mar!',
     51420: 'Inimigo avistado.',
     51421: 'Bonito agora, homens!',
-
-    # PLACES
     50400: 'Vamos zarpar.',
     50401: 'Vamos sair daqui.',
     50402: 'Vamos sair daqui.',
     50403: 'Vamos sair daqui.',
     50404: 'Vamos sair daqui.',
-
-    # PLACES - LETS SAIL...
     51500: 'Vamos navegar para Port Royal.',
     51501: 'Vamos navegar para Tortuga.',
     51502: 'Vamos navegar para Padres Del Fuego.',
@@ -2077,20 +1981,12 @@ SpeedChatStaticTextPirates = {
     51510: 'Vamos navegar para Cutthroat.',
     51511: "Vamos navegar para Rumrunner's Isle.",
     51512: 'Vamos navegar para Isla Cangrejos.',
-
-    # PLACES - LETS HEAD TO...
     51600: 'Vamos para a cidade.',
     51601: 'Vamos para as docas.',
     51602: 'Vamos para o bar.',
-
-    # PLACES - LETS HEAD TO... - PORT ROYAL
     51800: 'Vamos para o Forte Charles.',
     51801: 'Vamos para a Mansão do Governador.',
-
-    # PLACES - WHERE IS ..?
     52500: 'Onde estou?',
-
-    # DIRECTIONS
     51700: 'Você já está lá.',
     51701: 'Não sei.',
     51702: 'Você está na ilha errada.',
@@ -2099,16 +1995,12 @@ SpeedChatStaticTextPirates = {
     51705: 'Você terá que procurar na selva.',
     51706: 'Mais fundo no interior.',
     51707: 'Ah, isso é perto da costa.',
-
-    # Insults
     50200: 'Seu rato de porão!',
     50201: 'Seu cão sarnento!',
     50202: 'Te vejo no fundo do mar!',
     50203: 'Patife!',
     50204: 'Marujo de terra firme!',
-    50205: 'Addle-minded fool!',
-
-    # Compliments
+    50205: 'Tolo distraído!',
     50300: 'Bom tiro, amigo!',
     50301: 'Um golpe bem dado!',
     50302: 'Belo tiro!',
@@ -2116,63 +2008,33 @@ SpeedChatStaticTextPirates = {
     50304: 'Nós mostramos a eles!',
     50305: 'Você não é tão ruim assim!',
     50306: 'Uma bela pilhagem!',
-
-    # Card Games
     52400: 'Que a sorte esteja minha senhora.',
     52401: 'Acho que essas cartas estão marcadas!',
     52402: 'Caramba, trapaceiro!',
-
-    # Card Games - Poker
     51900: 'Isso é um fracasso terrível!',
     51901: 'Tentando comprar a mão, não é?',
     51902: 'Você está blefando.',
     51903: 'Acho que você não entendeu.',
     51904: 'Salvo pelo rio.',
-
-    # Card Games - Blackjack
     52600: 'Bata em mim.',
     52601: 'Posso contratar outro revendedor?',
-
-    # Invitations
     52100: 'Quer se agrupar?',
     52101: 'Juntar-se à minha tripulação?',
-
-    # Invitations - Hunting
     52200: 'Lute contra alguns esqueletos?',
     52201: 'Lute contra alguns caranguejos?',
-
-    # Invitations - Versus
     52300: 'Que tal um jogo de Mayhem?',
     52301: 'Junte-se ao meu jogo Mayhem.',
     52302: 'Quer iniciar um jogo Mayhem?',
     52303: 'Quer iniciar um jogo de batalha em equipe?',
     52304: 'Junte-se ao meu jogo de batalha em equipe.',
-
-    # PLACES - WHERE IS..? - PORT ROYAL (LEGACY)
     52000: '',
-
-    # PLACES - WHERE IS..? - PORT ROYAL (Legacy)
     52000: '',
-
-    # PLACES - WHERE IS..? - TORTUGA (Legacy)
     52700: '',
-
-    # PLACES - WHERE IS..? - PADRES DEL FUEGO (Legacy)
     53000: '',
-
-    # PLACES - WHERE IS..? - PADRES DEL FUEGO - LOS PADRES (Legacy)
     52800: '',
-
-    # PLACES  - WHERE IS..? - PADRES DEL FUEGO - LAS PULGAS (Legacy)
     52900: '',
-
-    # Adventures (LEGACY)
     50500: '',
-
-    # Ships (LEGACY)
     50600: '',
-
-    # Greetings
     60100: 'Oi',
     60101: 'Olá!',
     60102: 'Oi!',
@@ -2180,15 +2042,11 @@ SpeedChatStaticTextPirates = {
     60104: 'Oi pessoal!',
     60105: 'Como é que tá?',
     60106: 'Qual é?',
-
-    # Bye
     60200: 'Tchau!',
     60201: 'Até mais!',
     60202: 'Te vejo por aí!',
     60203: 'Volto já!',
     60204: 'Tenho que ir.',
-
-    # Happy
     60300: ':-)',
     60301: 'Legal!',
     60302: 'É isso aí!',
@@ -2199,22 +2057,16 @@ SpeedChatStaticTextPirates = {
     60307: 'Irado!',
     60308: 'Incrível!',
     60309: 'Uau!',
-
-    # Sad
     60400: ':-(',
     60401: 'Aahh!',
     60402: 'Pôxa, cara!',
     60403: 'Ai!',
     60404: 'Pôxa!',
-
-    # Places
     60500: 'Cadê você?',
     60501: 'Vamos para a Loja da Entrada!',
     60502: 'Vamos para a Discoteca!',
     60503: 'Vamos para Toontown.',
     60504: 'Vamos para os Piratas do Caribe!',
-
-    # Animated Emotes
     60505: 'Girar moeda',
     60506: 'Dançar',
     60507: 'Canto 1',
@@ -2257,21 +2109,14 @@ SpeedChatStaticTextPirates = {
     60676: 'Flertar',
     60677: 'Dança do Zumbi',
     60678: 'Barulhento',
-
-    # Valentines day emote string options
     60671: 'Olá, sou um Pirata e estou aqui para roubar seu coração.',
     60672: 'Acabo de encontrar o tesouro que procurava.',
     60673: 'Se você fosse uma meleca te pegava primeiro.',
     60674: 'Vem sempre aqui em Tortuga?',
     60675: 'Você tem um mapa? Acabo de me perder em seu olhar.',
-
     65000: 'Sim',
     65001: 'Não',
-
-    60909: 'Verifique a mão',
-}
-
-# Emote IDs - These are used in SC to determine if a msg is a animated emote
+    60909: 'Verifique a mão'}
 Emotes_Root = 'EMOÇÕES'
 Emotes_Dances = 'Danças'
 Emotes_General = 'Geral'
@@ -2283,31 +2128,15 @@ Emote_CombatDenied = 'Não é possível se emocionar ao lutar.'
 Emote_CannonDenied = 'Não é possível se emocionar ao usar um canhão.'
 Emote_SwimDenied = 'Não é possível se emocionar ao nadar.'
 Emote_ParlorGameDenied = 'Não é possível se emocionar durante um jogo de salão.'
-Emotes = (
-60505, 60506, 60509, 60510, 60511, 60516, 60519, 60520, 60521, 60522, 60523, 60524, 60525, 60526, 60527, 60528, 60529,
+Emotes = (60505, 60506, 60509, 60510, 60511, 60516, 60519, 60520, 60521, 60522, 60523, 60524, 60525, 60526, 60527, 60528, 60529,
 60530, 60602, 60668, 60614, 60622, 60640, 60644, 60652, 60657, 60664, 60665, 60666, 60669, 60612, 60661, 60645, 60629,
 60641, 60654, 60630, 60670, 60633,
-# Valentines Day Emote
 60676,
-# Yes/No
-65000, 65001
-)
-
-# These indexes, defined above, will construct a submenu in the FACTORY menu
-# to allow the user to describe all the places he might want to meet
+65000, 65001)
 SCFactoryMeetMenuIndexes = (1903, 1904, 1906, 1907, 1908, 1910, 1913,
                             1915, 1916, 1917, 1919, 1922, 1923,
                             1924, 1932, 1940, 1941)
-
-# CustomSCStrings: SpeedChat phrases available for purchase.  It is
-# safe to remove entries from this list, which will disable them for
-# use from any toons who have already purchased them.  Note that the
-# index numbers are stored directly in the database, so once assigned
-# to a particular phrase, a given index number should never be
-# repurposed to any other phrase.
-CustomSCStrings = {
-    # Series 1
-    10: 'Bom...',
+CustomSCStrings = {10: 'Bom...',
     20: 'Por que não?',
     30: 'Claro!',
     40: 'É assim que se faz isso.',
@@ -2408,7 +2237,6 @@ CustomSCStrings = {
     990: 'Todos a bordo!',
     1000: 'Caramba!',
     1010: 'A curiosidade matou o gato.',
-    # Series 2
     2000: 'Tome juízo!',
     2010: 'Que bom ver você!',
     2020: 'Você que sabe.',
@@ -2498,7 +2326,6 @@ CustomSCStrings = {
     2860: 'Você me faz rir!',
     2870: 'Vai direto.',
     2880: 'Você está decaindo!',
-    # Series 3
     3000: 'O que quiser.',
     3010: 'Você se importa se eu me juntar a vocês?',
     3020: 'Verifique, OK?',
@@ -2553,8 +2380,6 @@ CustomSCStrings = {
     3510: 'Bem que você queria!',
     3520: 'Você está com problemas!',
     3530: 'Você é demais!',
-
-    # Series 4
     4000: 'Os Tonns mandam na área!',
     4010: 'Besteirol de Cog!',
     4020: 'Toons de todo o mundo, uni-vos!',
@@ -2595,7 +2420,6 @@ CustomSCStrings = {
     4370: 'Tire esse peso das costas.',
     4380: 'Que paisagem maravilhosa!',
     4390: 'Você vai ver só!',
-    # Series 6
     6000: 'Quero doce!',
     6010: 'Sou que nem formiga com doce.',
     6020: 'Foi feito no grito.',
@@ -2626,7 +2450,6 @@ CustomSCStrings = {
     6270: 'Não vamos enfeitar o bolo não.',
     6280: 'Toc, toc, toc...',
     6290: 'Quem é?',
-    # Series 7
     7000: 'Pára de macaquice!',
     7010: 'Entrou areia.',
     7020: 'Macaco de imitação.',
@@ -2653,8 +2476,6 @@ CustomSCStrings = {
     7230: 'Acabei numa furada.',
     7230: 'Pé na tábua.',
     7240: 'Balinhas não crescem em árvores!',
-
-    # Halloween
     10000: 'Este lugar é uma cidade-fantasma.',
     10001: 'Bonita roupa!',
     10002: 'Acho que este lugar é assombrado.',
@@ -2675,8 +2496,6 @@ CustomSCStrings = {
     10017: 'Isso foi muito estranho....',
     10018: 'Esqueletos no seu armário?',
     10019: 'Assustei você?',
-
-    # Fall Festivus
     11000: 'Ah! Marmelada!',
     11001: 'Melhor desamarrar a cara!',
     11002: 'Brrr!',
@@ -2697,8 +2516,6 @@ CustomSCStrings = {
     11017: 'Com \'nataleza\'!',
     11018: 'Até o Natal, tudo bem!',
     11019: 'Você vai se \'arrenapender\'!',
-
-    # Valentines
     12000: 'Fica comigo!',
     12001: 'Vem ser meu amorzinho!',
     12002: 'Feliz Dia dos Namorados!',
@@ -2716,8 +2533,6 @@ CustomSCStrings = {
     12014: 'Batatinha quando nasce...',
     12015: 'Esparrama pelo chão...',
     12016: 'Que gracinha!',
-
-    # St. Patricks Day
     13000: 'Tenho você no coração!',
     13001: 'Feliz Páscoa!',
     13002: 'Você não está vestindo marrom-chocolate!',
@@ -2726,8 +2541,6 @@ CustomSCStrings = {
     13005: 'Seu sortudo!',
     13006: 'Você é o meu trevo de quatro folhas!',
     13007: 'Você é o meu talismã!',
-
-    # Summer Estate Party phrases (seasonal catalog)
     14000: 'Vamos dar uma festa de verão na Propriedade!',
     14001: 'É hora da festa!',
     14002: 'O último a chegar ao lago é um Cog do padre!',
@@ -2739,16 +2552,9 @@ CustomSCStrings = {
     14008: 'O Pinball de Canhão é demais!',
     14009: 'Sua Propriedade é demais!',
     14010: 'Seu Jardim é legal!',
-    14011: 'Sua Propriedade é legal!',
-
-    # Potential racing phrases for purchase
-
-}
-
-# indices into cog phrase arrays
+    14011: 'Sua Propriedade é legal!'}
 SCMenuCommonCogIndices = (20000, 20004)
-SCMenuCustomCogIndices = {
-    'bf': (20005, 20014),
+SCMenuCustomCogIndices = {'bf': (20005, 20014),
     'nc': (20015, 20024),
     'ym': (20025, 20035),
     'ms': (20036, 20046),
@@ -2779,10 +2585,7 @@ SCMenuCustomCogIndices = {
     'ls': (20309, 20319),
     'rb': (20320, 20329),
     'sc': (20330, 20331),
-    'sd': (20341, 20350),
-}
-
-# Pirates Speedchat
+    'sd': (20341, 20350)}
 PSCMenuExpressions = 'EXPRESSÕES'
 PSCMenuGreetings = 'CUMPRIMENTOS'
 PSCMenuGoodbyes = 'DESPEDIDAS'
@@ -2818,34 +2621,26 @@ PSCMenuVersusPlayer = 'VERSUS'
 PSCMenuHunting = 'CAÇANDO'
 PSCMenuQuests = 'MISSÕES'
 PSCMenuGM = 'GM'
-
-# Grandfathered Speedchat Headers
 PSCMenuShips = 'NAVIOS'
 PSCMenuAdventures = 'AVENTURA'
-
-# Gateway Speedchat
 GWSCMenuHello = 'CUMPRIMENTOS'
 GWSCMenuBye = 'DESPEDIDAS'
 GWSCMenuHappy = 'FELIZ'
 GWSCMenuSad = 'TRISTE'
 GWSCMenuPlaces = 'LUGARES'
-
-# NamePanel.py - PickAName/TypeAName
 RandomButton = 'Aleatório'
 TypeANameButton = 'Digite um nome'
 PickANameButton = 'Escolha um nome'
 NameShopSubmitButton = 'Enviar'
 RejectNameText = 'Este nome não é permitido. Tente novamente.'
 WaitingForNameSubmission = 'Enviando o seu nome...'
-
 NameShopNameMaster = 'NameMaster_portuguese.txt'
 NameShopPay = 'Assine já!'
 NameShopPlay = 'Avaliação gratuita'
 NameShopOnlyPaid = 'Somente usuários pagantes\npodem dar nomes aos seus Toons.\nAté que você se inscreva\nseu nome será\n'
 NameShopContinueSubmission = 'Continuar envio'
 NameShopChooseAnother = 'Escolha outro nome'
-NameShopToonCouncil = 'O Conselho de Toons\nanalisará o seu\nnome.' + \
-                      'A análise pode\nlevar alguns dias.\nEnquanto você espera\nseu nome será\n'
+NameShopToonCouncil = 'O Conselho de Toons\nanalisará o seu\nnome.' + 'A análise pode\nlevar alguns dias.\nEnquanto você espera\nseu nome será\n'
 PleaseTypeName = 'Digite o seu nome:'
 AllNewNames = 'Todos os novos nomes\ndevem ser aprovados\npelo Conselho de Toons.'
 NameShopNameRejected = 'O nome\nenviado foi\nrejeitado.'
@@ -2855,8 +2650,7 @@ PeriodOnlyAfterLetter = 'Você pode usar um ponto no nome, mas apenas depois de 
 ApostropheOnlyAfterLetter = 'Você pode usar um apóstrofo no nome, mas apenas depois de uma letra.'
 NoNumbersInTheMiddle = 'Dígitos numéricos podem não aparecer no meio da palavra.'
 ThreeWordsOrLess = 'Seu nome deve ter três palavras ou menos.'
-CopyrightedNames = (
-    'mickey',
+CopyrightedNames = ('mickey',
     'mickey mouse',
     'mickeymouse',
     'minnie',
@@ -2866,10 +2660,7 @@ CopyrightedNames = (
     'donald duck',
     'donaldduck',
     'pluto',
-    'pateta',
-)
-
-# NameCheck.py
+    'pateta')
 NCTooShort = 'Este nome é muito curto.'
 NCNoDigits = 'O nome não pode conter números.'
 NCNeedLetters = 'Cada palavra do nome deve conter algumas letras.'
@@ -2880,16 +2671,12 @@ NCBadCharacter = "O seu nome não pode conter o caractere '%s'"
 NCRepeatedChar = "Seu nome tem muitos caracteres '%s'"
 NCGeneric = 'Sinto muito, este nome não vai funcionar.'
 NCTooManyWords = 'O seu nome não pode ter mais de quatro palavras.'
-NCDashUsage = ("Hífens podem ser usados apenas para ligar duas palavras (como em 'Bu-Bu').")
+NCDashUsage = "Hífens podem ser usados apenas para ligar duas palavras (como em 'Bu-Bu')."
 NCCommaEdge = 'O seu nome não pode começar ou terminar com vírgula.'
 NCCommaAfterWord = 'Você não pode começar uma palavra com vírgula.'
-NCCommaUsage = (
-    'Este nome não usa vírgulas corretamente. As vírgulas devem juntar duas palavras, como no nome "Dr. Quack, MD". As vírgulas devem também ser seguidas por um espaço.')
-NCPeriodUsage = (
-    'Este nome não usa pontos corretamente. Os pontos são permitidos somente em palavras como "Sr.", "Sra.", "J.P." etc.')
+NCCommaUsage = 'Este nome não usa vírgulas corretamente. As vírgulas devem juntar duas palavras, como no nome "Dr. Quack, MD". As vírgulas devem também ser seguidas por um espaço.'
+NCPeriodUsage = 'Este nome não usa pontos corretamente. Os pontos são permitidos somente em palavras como "Sr.", "Sra.", "J.P." etc.'
 NCApostrophes = 'Este nome tem muitos apóstrofos.'
-
-# AvatarDetailPanel.py
 AvatarDetailPanelOK = lOK
 AvatarDetailPanelCancel = lCancel
 AvatarDetailPanelClose = 'Fechar'
@@ -2898,22 +2685,16 @@ AvatarDetailPanelFailedLookup = 'Não foi possível obter detalhes de %s.'
 AvatarDetailPanelPlayer = 'Jogador: %(player)s\Mundo: %(world)s\nLocal: %(location)s'
 AvatarDetailPanelOnline = 'Região: %(district)s\nLocation: %(location)s'
 AvatarDetailPanelOffline = 'Região: off-line\nLocal: off-line'
-
-# AvatarPanel.py
 AvatarPanelFriends = 'Amigos'
 AvatarPanelWhisper = 'Cochichar'
-# AvatarPanelSecrets = 'Segredos'
 AvatarPanelSecrets = 'Amigos Verdadeiros'
 AvatarPanelGoTo = 'Ir para'
 AvatarPanelIgnore = 'Ignorar'
 AvatarPanelStopIgnore = 'Parar de Ignorar'
 AvatarPanelEndIgnore = 'Encerrar Ignorar'
 AvatarPanelTrade = 'Trocar'
-# AvatarPanelCogDetail = 'Dept: %s\nNível: %s\n'
 AvatarPanelCogLevel = 'Nível: %s'
 AvatarPanelCogDetailClose = 'Fechar'
-
-# TeleportPanel.py
 TeleportPanelOK = lOK
 TeleportPanelCancel = lCancel
 TeleportPanelYes = lYes
@@ -2927,105 +2708,40 @@ TeleportPanelUnknownHood = 'Você não sabe ir para %s!'
 TeleportPanelUnavailableHood = '%s não está disponível agora; tente novamente mais tarde.'
 TeleportPanelDenySelf = 'Você não pode ir lá por conta própria!'
 TeleportPanelOtherShard = '%(avName)s está na região %(shardName)s, e você está na região %(myShardName)s. Deseja ir para %(shardName)s?'
-
-KartRacingMenuSections = [
-    -1,
-    'LUGARES',
-    'CORRIDAS',
-    'PISTAS',
-    'ELOGIOS',
-    'PROVOCAÇÕES'
-]
-
-# AprilToonsMenuSections = [
-# -1,
-# 'CUMPRIMENTOS',
-# 'PROPRIEDADE',
-# 'QUESTÕES',
-# 'RESPOSTAS'
-# ]
-
-AprilToonsMenuSections = [
-    -1,
-    'CUMPRIMENTOS',
-    'PARQUES',
-    'PERSONAGENS',
-    'PROPRIEDADES',
-]
-
-SillyHolidayMenuSections = [
-    -1,
-    'MUNDO',
-    'BATALHA',
-]
-
-CarolMenuSections = [
-    -1
-]
-
-VictoryPartiesMenuSections = [
-    -1,
-    'FESTA',
-    'ITENS',
-]
-
-GolfMenuSections = [
-    -1,
-    'PERCURSOS',
-    'DICAS',
-    'COMENTÁRIOS',
-]
-
-BoardingMenuSections = [
-    'GRUPO',
-    'Vamos para...',
-    'Estava indo para...',
-    -1,
-]
-
-SellbotNerfMenuSections = [
-    -1,
-    'REUNINDO',
-    'TORRES/VP Robô Vendedor',
-]
-
-JellybeanJamMenuSections = [
-    'OBTER BALINHAS',
-    'GASTAR BALINHAS',
-]
-
-WinterMenuSections = [
-    'CANTANDO',
-    -1,
-]
-
-HalloweenMenuSections = [
-    -1
-]
-
-SingingMenuSections = [
-    -1
-]
-
-WhiteListMenu = [
-    -1,
-    'LISTA DE PERMISSÕES'
-]
-
-SellbotInvasionMenuSections = [
-    -1,
-]
-
-SellbotFieldOfficeMenuSections = [
-    -1,
-    'ESTRATÉGIA',
-]
-
+KartRacingMenuSections = [-1,
+ 'LUGARES',
+ 'CORRIDAS',
+ 'PISTAS',
+ 'ELOGIOS',
+ 'PROVOCAÇÕES']
+AprilToonsMenuSections = [-1,
+ 'CUMPRIMENTOS',
+ 'PARQUES',
+ 'PERSONAGENS',
+ 'PROPRIEDADES']
+SillyHolidayMenuSections = [-1, 'MUNDO', 'BATALHA']
+CarolMenuSections = [-1]
+VictoryPartiesMenuSections = [-1, 'FESTA', 'ITENS']
+GolfMenuSections = [-1, 
+ 'PERCURSOS',
+ 'DICAS',
+ 'COMENTÁRIOS']
+BoardingMenuSections = ['GRUPO',
+ 'Vamos para...',
+ 'Estava indo para...',
+ -1]
+SellbotNerfMenuSections = [-1, 'REUNINDO', 'TORRES/VP Robô Vendedor']
+JellybeanJamMenuSections = ['OBTER BALINHAS', 'GASTAR BALINHAS']
+WinterMenuSections = ['CANTANDO', -1]
+HalloweenMenuSections = [-1]
+SingingMenuSections = [-1]
+WhiteListMenu = [-1, 'LISTA DE PERMISSÕES']
+SellbotInvasionMenuSections = [-1]
+SellbotFieldOfficeMenuSections = [-1, 'ESTRATÉGIA']
 IdesOfMarchMenuSections = [-1]
 TTAccountCallCustomerService = 'Favor entrar em contato com o Atendimento ao Consumidor em %s.'
 TTAccountCustomerServiceHelp = '\nSe precisar de ajuda, favor entrar em contato com o Atendimento ao Comsumidor em %s.'
 TTAccountIntractibleError = 'Um erro ocorreu.'
-
 
 def timeElapsedString(timeDelta):
     timeDelta = abs(timeDelta)
