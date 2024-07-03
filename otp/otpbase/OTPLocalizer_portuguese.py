@@ -856,7 +856,7 @@ SuitFaceoffTaunts = {'b': ['Você tem uma doação para mim?',
 SpeedChatStaticText = {1: lYes,
  2: lNo,
  3: lOK,
- 4: 'CHAT RÁPIDO PLUS'}
+ 4: 'CHAT RÁPIDO PLUS',
  100: 'Oi!',
  101: 'Olá!',
  102: 'E aí?',
@@ -1897,7 +1897,7 @@ SpeedChatStaticText = {1: lYes,
  30418: 'É o chefe!',
  30450: 'É fácil ser verde!',
  30451: 'Visite Jeans Feijão Verde e você também pode ser verde!',
- 30452: 'Fica na Rua dos Carvalhos em Jardins da Margarida.'
+ 30452: 'Fica na Rua dos Carvalhos em Jardins da Margarida.',
  50001: 'Sim',
  50002: 'Não',
  50003: 'Arrr!',
@@ -2117,7 +2117,6 @@ SpeedChatStaticText = {1: lYes,
  65000: 'Sim',
  65001: 'Não',
  60909: 'Verifique a mão'}
-SpeedChatStaticText = SpeedChatStaticTextCommon
 Emotes_Root = 'EMOÇÕES'
 Emotes_Dances = 'Danças'
 Emotes_General = 'Geral'
