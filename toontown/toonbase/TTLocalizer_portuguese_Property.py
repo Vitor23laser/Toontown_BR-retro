@@ -201,6 +201,7 @@ PstatusLabel = 0.05
 PBstatusLabel = 0.07
 
 #makeatoon/NameShop.py
+CStoonFrame = 0.0575
 NSmaxNameWidth = 13
 NSdirectScrolleList = 0.1
 NSmakeLabel = 0.08
