@@ -12703,6 +12703,7 @@ HolidayNamesInCalendar = {
    99: ("Semana da Balinha", "Comemore a Semana da Balinha como recompensa em Dobro de Balinhas"),
    101: ("Maratona de Ano-Novo dos Toons", "Chances de vencer a toda hora! "),
    # Translate
+   #105: ("Idos de Março", "Os Idos de Março estão aqui!"),
    105: ("Toons go GREEN!", "Toons make a green scene at Green Bean Jeans on Oak Street in Daisy Gardens!"),
 
     }
@@ -12714,23 +12715,22 @@ HolidayFormat = "%m/%d "
 TimeZone = "Brazil/West"
 
 # Cogdo Memos
-CogdoMemoGuiTitle = "Memos:"
-CogdoMemoNames = "Barrel-Destruction Memos"
+CogdoMemoGuiTitle = "Memorando:"
+CogdoMemoNames = "Memorandos de destruição-de-barril"
 
 # Cogdo Stomper Game
-CogdoStomperName = "Stomp-O-Matic"
+CogdoStomperName = "Pisar-A-Matemática"
 
 # Cogdo Boardroom Game
-BoardroomGameTitle = "Boardroom Hijinks"
-BoardroomGameInstructions = ("The COGS are having a meeting to decide what to do with stolen gags. "
-                             "Slide on through and grab as many gag-destruction memos as you can!")
+BoardroomGameTitle = "Sala de Quadro de Caminhas"
+BoardroomGameInstructions = ("Os cogs estão tendo uma reunião para decidir o que fazer com as piadas roubadas."
+                             "Deslize através e pegue como muitos memorandos de destruição da piada que você pode!")
 
 # Cogdo Crane Game
-CogdoCraneGameTitle = "Vend-A-Stomper"
+CogdoCraneGameTitle = "Vender-Um-Sinistro"
 CogdoCraneGameInstructions = ("The COGS are using a coin-operated machine to destroy laff barrels. "
                               "Use the cranes to pick up and throw money bags, in order to prevent "
                               "barrel destruction!")
-
 
 # Cogdo Maze Game
 # No longer in use.
@@ -12800,7 +12800,7 @@ CogdoFlyingGamePressCtrlToFly = "Press 'Ctrl' to fly up!"
 CogdoFlyingGameYouAreInvincible = "Red Tape protects you!"
 CogdoFlyingGameTimeIsRunningOut = "Time is running out!"
 CogdoFlyingGameMinimapIntro = "This meter shows your progress!\nX marks the finish line."
-CogdoFlyingGameMemoIntro = "Memos prevent Laff Barrels in\nthe Stomper Room from being destroyed!"
+CogdoFlyingGameMemoIntro = "Memos prevent Laff Barrels in\nthe Sinistro Room from being destroyed!"
 CogdoFlyingGameOutOfTime = "Oh No! You ran out of time!"
 CogdoFlyingGameYouMadeIt = "You made it on time!"
 CogdoFlyingGameYouMadeIt = "Good work, you made it on time!"
@@ -12813,7 +12813,7 @@ CogdoElevatorRewardLaff = "Great job, Toons!\nYou get a Toon-Up from the jokes y
 CogdoExecutiveSuiteTitle = "Executive Suite"
 CogdoExecutiveSuiteIntroMessage = "Oh no, they've got the shop keeper!\nDefeat the Cogs and free the captive."
 CogdoExecutiveSuiteToonThankYou = "Thanks for the rescue!\nIf you need help in a fight, use this SOS card to call my friend %s."
-CogdoExecutiveSuiteToonBye = "Bye!"
+CogdoExecutiveSuiteToonBye = "Tchau!"
 
 # Silly Surge Terms
 SillySurgeTerms = {
