@@ -8902,7 +8902,7 @@ TipDict = {
     "Você sabia que a cor da sua casa combina com a cor do seu painel Pegar um Toon?",
     ),
    TIP_KARTING : (
-    # Goofy Speedway zone specific
+    # Autódromo do Patetazone specific
     "Compre um Conversível, Utilitário Toon ou Cruzeiro na Loja do Kart do Pateta.",
     "Personalize o seu kart com decalques, calotas e muito mais na Loja do Kart do Pateta.",
     "Ganhe bilhetes correndo de kart no Autódromo do Pateta.",
@@ -10192,13 +10192,10 @@ PartyRewardDoubledJellybean = "Balinhas em Dobro!"
 GrandPrixWeekendHolidayStart = "É o Fim de Semana do Grande Prêmio no Autódromo do Pateta! Quem jogar gratuitamente ou pagando pode obter a maioria dos pontos em três corridas consecutivas."
 GrandPrixWeekendHolidayEnd = "O Fim de Semana do Grande Prêmio acabou. Vejo você no ano que vem."
 
-KartRace_DoubleTickets = "Double Tickets"
+KartRace_DoubleTickets = "Bilhetes Duplo"
 
-SellbotNerfHolidayStart = "Operation: Storm Sellbot is happening now! Battle the VP today!"
-SellbotNerfHolidayEnd = "Operation: Storm Sellbot has ended. Great work, Toons!"
-
-LawbotNerfHolidayStart = "Operation: Lawbots Lose is happening now! Battle the CJ today!"
-LawbotNerfHolidayEnd = "Operation: Lawbots Lose has ended. Great work, Toons!"
+SellbotNerfHolidayStart = "Operação: Robô Vendedor Tempestade está acontecendo agora! Batalha o Sênior Vice Presidente hoje!"
+SellbotNerfHolidayEnd = "Operação: Robô Vendedor Tempestade terminou. Ótimo trabalho, Toons!"
 
 JellybeanTrolleyHolidayStart = "Double Bean Days for Trolley Games have begun!"
 JellybeanTrolleyHolidayEnd = "Double Bean Days for Trolley Games have ended!"
@@ -10229,15 +10226,13 @@ TopToonsMarathonEnd = "The Top Toons New Year's Day Marathon has ended."
 WinterDecorationsStart = "It's Winter Holiday time in Toontown!"
 WinterDecorationsEnd = "Winter Holiday is over - Happy New Year!"
 
-WackyWinterDecorationsStart = "Brrr! The Silly Meter goes from silly to chilly!"
-
 WinterCarolingStart = "Caroling has come to Toontown. Sing for your Snowman Head - see the Blog for details!"
 
-ExpandedClosetsStart = "Attention Toons: For a limited time, Members can purchase the new 50 item Closet from the Cattlelog for the low price of 50 jellybeans!"
+ExpandedClosetsStart = "Atenção Toons: Por um tempo limitado, Membros podem comprar 50 itens novos no Armário do Catálogo por um preço baixo de 50 balinhas!"
 
-KartingTicketsHolidayStart = "Get double tickets from Practice races at Goofy Speedway today!"
+KartingTicketsHolidayStart = "Pega Bilhetes Duplos de corridas Práticas no Autódromo do Pateta hoje!"
 
-IdesOfMarchStart = "Toons go GREEN!"
+IdesOfMarchStart = "Toons agora VERDES!"
 
 LogoutForced = "Você fez algo errado\n e estamos fazendo seu logout automaticamente,\n sua conta também pode estar congelada.\n Experimente dar uma volta lá fora, é divertido."
 
