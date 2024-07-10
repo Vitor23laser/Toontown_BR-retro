@@ -169,7 +169,11 @@ class LocalAvatar(DistributedAvatar.DistributedAvatar,
         # we only have to change this flag and also add a hook to
         # call self.clickedNametag.
         self.setPickable(0)
-
+        
+        #Toontown Schoolhouse
+        self.neverSleep = False
+        self.cameraLerp = None
+                      
     def useSwimControls(self):
         self.controlManager.use("swim", self)
 
