@@ -37,6 +37,7 @@ print("from " + _languageModule + " import *")
 #exec("from " + _languageModule + " import *")
 from otp.otpbase.OTPLocalizer_portuguese import *
 #from otp.otpbase.OTPLocalizerEnglish import *
+#from otp.otpbase.japonês.OTPlocalizer import *
 
 if checkLanguage:
     l = {}
