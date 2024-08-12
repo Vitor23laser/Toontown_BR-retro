@@ -1,5 +1,3 @@
-# File: T (Python 2.4)
-
 from toontown.toonbase.TTLocalizerEnglishProperty import *
 from otp.otpbase import OTPLocalizer as OL
 OL.SpeedChatStaticText = OL.SpeedChatStaticTextToontown.copy()
@@ -54,8 +52,7 @@ lGoofySpeedway = 'Goofy Speedway'
 lOutdoorZone = "Chip 'n Dale's Acorn Acres"
 lGolfZone = "Chip 'n Dale's MiniGolf"
 lPartyHood = 'Party Grounds'
-GlobalStreetNames = {
-    20000: ('to', 'on', 'Tutorial Terrace'),
+GlobalStreetNames = {20000: ('to', 'on', 'Tutorial Terrace'),
     1000: ('to the', 'in the', 'Playground'),
     1100: ('to', 'on', 'Barnacle Boulevard'),
     1200: ('to', 'on', 'Seaweed Street'),
