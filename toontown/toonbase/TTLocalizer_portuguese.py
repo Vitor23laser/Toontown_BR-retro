@@ -6046,7 +6046,7 @@ PatternGameImprov = "You did great!  Now Improv!"
 # DistributedRaceGame.py
 RaceGameTitle = "Jogo de corrida"
 RaceGameInstructions = "Clique em um número. Escolha bem! Você só avançará se ninguém mais escolher o mesmo número."
-RaceGameWaitingChoices = "Esperando os outros jogadores escolherem..."
+RaceGameWaitingChoices = "Aguardando os outros jogadores escolherem..."
 RaceGameCardText = "%(name)s aposta: %(reward)s"
 RaceGameCardTextBeans = "%(name)s recebe: %(reward)s"
 RaceGameCardTextHi1 = "%(name)s é um Toon fabuloso!"  # this category might eventually have secret game hints, etc
@@ -9955,7 +9955,7 @@ TravelGameVoteToGo = "voto restante"
 TravelGameUp = "PARA CIMA."
 TravelGameDown = "PARA BAIXO."
 TravelGameVoteWithExclamation = "Vote!"
-TravelGameWaitingChoices = "Esperando que outros jogadores votem..."
+TravelGameWaitingChoices = "Aguardando que outros jogadores votem..."
 # cross the bridge later when the first choice is different for each node,
 # e.g. NorthWest, NorthEast, etc.
 TravelGameDirections = ['PARA CIMA', 'PARA BAIXO']
@@ -10174,8 +10174,6 @@ GolfTieBreakWinner = "%(name)s venceu o desempate aleatório!"
 GolfSeconds = " -  %(time).2f segundos"
 GolfTimeTieBreakWinner = "%(name)s venceu o desempate por tempo total de mira!!!"
 
-
-
 RoamingTrialerWeekendStart = "Está começando a Tour por Toontown! Jogadores podem entrar em qualquer vizinhança de graça!"
 RoamingTrialerWeekendOngoing = "Boas-vindas ao Tour por Toontown! Jogadores podem entrar gratuitamente em qualquer vizinhança!"
 RoamingTrialerWeekendEnd = "Terminamos com o Tour por Toontown."
@@ -10213,12 +10211,8 @@ BankUpgradeHolidayStart = "Something Toontastic happened to your Jellybean Bank!
 HalloweenPropsHolidayStart = "It's Halloween in Toontown!"
 HalloweenPropsHolidayEnd = "Halloween has ended. Boo!"
 
-SpookyPropsHolidayStart = "The Silly Meter spins Toontown into spooky mode!"
-
 BlackCatHolidayStart = "Create a Black Cat - Today only!"
 BlackCatHolidayEnd = "Black Cat day has ended!"
-
-SpookyBlackCatHolidayStart = "Friday 13th means a Black Cat blast!"
 
 TopToonsMarathonStart = "The Top Toons New Year's Day Marathon has begun!"
 TopToonsMarathonEnd = "The Top Toons New Year's Day Marathon has ended."
@@ -10231,8 +10225,6 @@ WinterCarolingStart = "Caroling has come to Toontown. Sing for your Snowman Head
 ExpandedClosetsStart = "Atenção Toons: Por um tempo limitado, Membros podem comprar 50 itens novos no Armário do Catálogo por um preço baixo de 50 balinhas!"
 
 KartingTicketsHolidayStart = "Pega Bilhetes Duplos de corridas Práticas no Autódromo do Pateta hoje!"
-
-IdesOfMarchStart = "Toons agora VERDES!"
 
 LogoutForced = "Você fez algo errado\n e estamos fazendo seu logout automaticamente,\n sua conta também pode estar congelada.\n Experimente dar uma volta lá fora, é divertido."
 
@@ -10384,8 +10376,8 @@ DaysToGo = "Espere\n%s Dias"
 IceGameTitle = "Escorregador de Gelo"
 IceGameInstructions = "Chegue o mais perto do centro ao final da segunda rodada. Use as teclas de seta para mudar a direção e a força. Aperte Ctrl para lançar seu Toon. Acerte os barris para ganhar mais pontos, e evite a dinamite!"
 IceGameInstructionsNoTnt = "Chegue o mais perto do centro ao final da segunda rodada. Use as teclas de seta para mudar a direção e a força. Aperte Ctrl para lançar seu Toon. Acerte os barris para ganhar mais pontos."
-IceGameWaitingForPlayersToFinishMove = "Esperando outros jogadores..."
-IceGameWaitingForAISync = "Esperando outros jogadores..."
+IceGameWaitingForPlayersToFinishMove = "Aguardando outros jogadores..."
+IceGameWaitingForAISync = "Aguardando outros jogadores..."
 IceGameInfo= "Partida %(curMatch)d/%(numMatch)d, Rodada %(curRound)d/%(numRound)d"
 IceGameControlKeyWarning="Lembre-se de apertar a tecla Ctrl!"
 
@@ -10439,7 +10431,6 @@ CheckersPage3 = "Para capturar uma peça do oponente, você deve saltar sobre el
 CheckersPage4 = "Uma peça se torna dama quando chegar à última linha do tabuleiro. Uma peça que acaba de se tornar dama não pode saltar de novo até o próximo turno. Além disso, damas podem se mover para todas as direções e podem mudar de direção ao saltar."
 
 
-
 #DistributedCheckers.py
 CheckersGetUpButton = "Levantar-se"
 CheckersStartButton = "Iniciar Jogo"
@@ -10459,6 +10450,9 @@ MailNotifyNewItems = "Chegou correio para você!"
 MailNewMailButton = "Correio"
 MailSimpleMail = "Bilhete"
 MailFromTag = "Bilhete de: %s"
+
+AwardNotifyNewItems = 'Você tem um novo prêmio em sua caixa de correio!'
+AwardNotifyOldItems = 'Ainda há prêmios esperando em sua caixa de correio para você pegar!'
 
 # MailboxScreen.py
 InviteInvitation = "o convite"
@@ -10557,9 +10551,8 @@ HolidayNamesInCalendar = {
    98: ("Dias dos Feijões em Duplo - Pescaria", ""),
    99: ("Semana da Balinha", "Comemore a Semana da Balinha como recompensa em Dobro de Balinhas"),
    101: ("Maratona de Ano-Novo dos Toons", "Chances de vencer a toda hora! "),
-   # Translate
-   #105: ("Idos de Março", "Os Idos de Março estão aqui!"),
-   105: ("Toons de Verde!", "Toons faz uma cena verrde com as Balinhas Verdes na Rua do Carvalho nos Jardins Da Margarida !"),
+   105: ("Idos de Março", "Os Idos de Março estão aqui!"),
+   #105: ("Toons de Verde!", "Toons faz uma cena verrde com as Balinhas Verdes na Rua do Carvalho nos Jardins Da Margarida !"),
 
     }
 
@@ -10596,15 +10589,15 @@ CogdoMazeIntroMovieDialogue = (("Esta é a Resistência Toon! Os Agitadores\ntê
                                )
 CogdoMazeGameDoorOpens = "A SAÍDA ESTÁ ABERTA POR 60 SEGUNDOS!\nCHEGUE LÁ RAPIDAMENTE PARA UM TOONAR MAIOR!"
 CogdoMazeGameLocalToonFoundExit = "A saída será aberta quando\nvocê tiver destruído todos os quatro GRANDES COGS!"
-CogdoMazeGameWaitingForToons = "Esperando por outros Toons..."
-CogdoMazeGameTimeOut = "Ah não, o tempo acabou! Você perdeu suas piadas."
+CogdoMazeGameWaitingForToons = "Aguardando por outros Toons..."
+CogdoMazeGameTimeOut = "Oh não, o tempo se esgostou! Você perdeu suas piadas."
 CogdoMazeGameTimeAlert = "Se apresse! Faltam 60 segundos!"
 CogdoMazeGameBossGuiTitle = "GRANDES COGS:"
-CogdoMazeFindHint = "Encontre um Cooler de Água!"
+CogdoMazeFindHint = "Encontre um Galão de Água!"
 CogdoMazeThrowHint = "Pressiona 'Ctrl' para lançar seu balão de água!"
-CogdoMazeSquashHint = "Objetos caindo estouram seu balão!"
+CogdoMazeSquashHint = "Objetos caindo pop seu balão!"
 CogdoMazeBossHint = "Grandes Cogs levam DOIS golpes para derrotar!"
-CogdoMazeMinionHint = "Cogs menores dropam piadas!"
+CogdoMazeMinionHint = "Pequenos Cogs derrubam piadas!"
 
 # Cogdo Flying Game
 CogdoFlyingGameTitle = "Escritórios do Macaco Velho"
