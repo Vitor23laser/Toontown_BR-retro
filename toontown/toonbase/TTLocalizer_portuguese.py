@@ -6046,7 +6046,7 @@ PatternGameImprov = "You did great!  Now Improv!"
 # DistributedRaceGame.py
 RaceGameTitle = "Jogo de corrida"
 RaceGameInstructions = "Clique em um número. Escolha bem! Você só avançará se ninguém mais escolher o mesmo número."
-RaceGameWaitingChoices = "Esperando os outros jogadores escolherem..."
+RaceGameWaitingChoices = "Aguardando os outros jogadores escolherem..."
 RaceGameCardText = "%(name)s aposta: %(reward)s"
 RaceGameCardTextBeans = "%(name)s recebe: %(reward)s"
 RaceGameCardTextHi1 = "%(name)s é um Toon fabuloso!"  # this category might eventually have secret game hints, etc
@@ -9955,7 +9955,7 @@ TravelGameVoteToGo = "voto restante"
 TravelGameUp = "PARA CIMA."
 TravelGameDown = "PARA BAIXO."
 TravelGameVoteWithExclamation = "Vote!"
-TravelGameWaitingChoices = "Esperando que outros jogadores votem..."
+TravelGameWaitingChoices = "Aguardando que outros jogadores votem..."
 # cross the bridge later when the first choice is different for each node,
 # e.g. NorthWest, NorthEast, etc.
 TravelGameDirections = ['PARA CIMA', 'PARA BAIXO']
@@ -10384,8 +10384,8 @@ DaysToGo = "Espere\n%s Dias"
 IceGameTitle = "Escorregador de Gelo"
 IceGameInstructions = "Chegue o mais perto do centro ao final da segunda rodada. Use as teclas de seta para mudar a direção e a força. Aperte Ctrl para lançar seu Toon. Acerte os barris para ganhar mais pontos, e evite a dinamite!"
 IceGameInstructionsNoTnt = "Chegue o mais perto do centro ao final da segunda rodada. Use as teclas de seta para mudar a direção e a força. Aperte Ctrl para lançar seu Toon. Acerte os barris para ganhar mais pontos."
-IceGameWaitingForPlayersToFinishMove = "Esperando outros jogadores..."
-IceGameWaitingForAISync = "Esperando outros jogadores..."
+IceGameWaitingForPlayersToFinishMove = "Aguardando outros jogadores..."
+IceGameWaitingForAISync = "Aguardando outros jogadores..."
 IceGameInfo= "Partida %(curMatch)d/%(numMatch)d, Rodada %(curRound)d/%(numRound)d"
 IceGameControlKeyWarning="Lembre-se de apertar a tecla Ctrl!"
 
@@ -10596,15 +10596,15 @@ CogdoMazeIntroMovieDialogue = (("Esta é a Resistência Toon! Os Agitadores\ntê
                                )
 CogdoMazeGameDoorOpens = "A SAÍDA ESTÁ ABERTA POR 60 SEGUNDOS!\nCHEGUE LÁ RAPIDAMENTE PARA UM TOONAR MAIOR!"
 CogdoMazeGameLocalToonFoundExit = "A saída será aberta quando\nvocê tiver destruído todos os quatro GRANDES COGS!"
-CogdoMazeGameWaitingForToons = "Esperando por outros Toons..."
-CogdoMazeGameTimeOut = "Ah não, o tempo acabou! Você perdeu suas piadas."
+CogdoMazeGameWaitingForToons = "Aguardando por outros Toons..."
+CogdoMazeGameTimeOut = "Oh não, o tempo se esgostou! Você perdeu suas piadas."
 CogdoMazeGameTimeAlert = "Se apresse! Faltam 60 segundos!"
 CogdoMazeGameBossGuiTitle = "GRANDES COGS:"
-CogdoMazeFindHint = "Encontre um Cooler de Água!"
+CogdoMazeFindHint = "Encontre um Galão de Água!"
 CogdoMazeThrowHint = "Pressiona 'Ctrl' para lançar seu balão de água!"
-CogdoMazeSquashHint = "Objetos caindo estouram seu balão!"
+CogdoMazeSquashHint = "Objetos caindo pop seu balão!"
 CogdoMazeBossHint = "Grandes Cogs levam DOIS golpes para derrotar!"
-CogdoMazeMinionHint = "Cogs menores dropam piadas!"
+CogdoMazeMinionHint = "Pequenos Cogs derrubam piadas!"
 
 # Cogdo Flying Game
 CogdoFlyingGameTitle = "Escritórios do Macaco Velho"
@@ -10641,7 +10641,7 @@ CogdoElevatorRewardLaff = "Great job, Toons!\nYou get a Toon-Up from the jokes y
 CogdoExecutiveSuiteTitle = "Executive Suite"
 CogdoExecutiveSuiteIntroMessage = "Oh no, they've got the shop keeper!\nDefeat the Cogs and free the captive."
 CogdoExecutiveSuiteToonThankYou = "Obrigado pelo resgate!\nSe precisar de ajuda em uma briga, use este cartão SOS para ligar para meu amigo %s."
-#toontown/toonbase/portuguese/TTLocalizer_portuguese.py 
+#SchoolHouse toontown/toonbase/portuguese/TTLocalizer_portuguese.py 
 CogdoExecutiveSuiteToonThankYouLawbot = "Obrigado pelo resgate!\nOs Rôbos da Lei tenham deixado para trás alguns prêmios de dente de roda que vocês podem usar para comprar coisas novas em seu catálogo!"
 CogdoExecutiveSuiteToonBye = "Tchau!"
 
