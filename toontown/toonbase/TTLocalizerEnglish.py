@@ -736,7 +736,7 @@ QuestDialog_2910 = {
     QUEST : "Back so soon?\aGreat job on the spring.\aThe final item is a counter weight.\aStop by and see _toNpcName_ and bring back whatever you can get._where_"
     }
 #QuestDialogDict 2003 and portuguese
- QuestDialogDict = {
+ #QuestDialogDict = {
     #160 : {GREETING: '',
         #QUEST: 'Ok, now I think you are ready for something more challenging.\x7Defeat 3 Bossbots.',
         #INCOMPLETE_PROGRESS: 'The ' + Cogs + ' are out in the streets, through the tunnels.',
