@@ -10641,8 +10641,6 @@ CogdoElevatorRewardLaff = "Great job, Toons!\nYou get a Toon-Up from the jokes y
 CogdoExecutiveSuiteTitle = "Executive Suite"
 CogdoExecutiveSuiteIntroMessage = "Oh no, they've got the shop keeper!\nDefeat the Cogs and free the captive."
 CogdoExecutiveSuiteToonThankYou = "Obrigado pelo resgate!\nSe precisar de ajuda em uma briga, use este cartão SOS para ligar para meu amigo %s."
-#SchoolHouse toontown/toonbase/portuguese/TTLocalizer_portuguese.py 
-CogdoExecutiveSuiteToonThankYouLawbot = "Obrigado pelo resgate!\nOs Rôbos da Lei tenham deixado para trás alguns prêmios de dente de roda que vocês podem usar para comprar coisas novas em seu catálogo!"
 CogdoExecutiveSuiteToonBye = "Tchau!"
 
 # Silly Surge Terms
@@ -10672,33 +10670,3 @@ InteractivePropTrackBonusTerms = {
 }
 
 PlayingCardUnknown = "Nome de Cartão desconhecido"
-
-#SchoolHouse toontown/spellbook/MagicWordConfig.py
-SpellbookPageTitle = 'Spellbook'
-WordPageTabTitle = 'Spellbook'
-WordPageHelp = 'This page contains a list of all of the Magic Words that can be used in-game.'
-WordPageSearch = 'Search'
-WordPageActivator = 'Activator: '
-WordPageTotal = 'Total Words: '
-WordPageCurrent = 'Selected: '
-WordPageNA = 'N/A'
-WordPageCopyToChat = 'Copy To Chat'
-WordPageMoreInfo = 'More Info'
-WordPageDescription = 'Description: '
-WordPageExample = 'Example: '
-WordPageAliases = 'Aliases: '
-WordPageAccessLevel = 'Required Access Level: '
-ClothingPageTitle = 'Clothing'
-ClothingPageShirt = 'Shirt IDs'
-ClothingPageSleeve = 'Sleeve IDs'
-ClothingPageShort = 'Shorts IDs'
-AccessoriesPageHeadTab = 'Head\nAccessories'
-AccessoriesPageBodyTab = 'Body\nAccessories'
-AccessoriesPageHead = 'Head Accessories'
-AccessoriesPageBody = 'Body Accessories'
-AccessoriesPageHat = 'Hat IDs'
-AccessoriesPageGlasses = 'Glasses IDs'
-AccessoriesPageBackpack = 'Backpack IDs'
-AccessoriesPageShoes = 'Shoes IDs'
-TeleportGUITitle = 'Teleport'
-TeleportGUITeleport = 'Go!'
