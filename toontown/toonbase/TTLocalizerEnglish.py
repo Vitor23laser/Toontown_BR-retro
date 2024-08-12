@@ -735,7 +735,35 @@ QuestDialog_3225 = {
 QuestDialog_2910 = {
     QUEST : "Back so soon?\aGreat job on the spring.\aThe final item is a counter weight.\aStop by and see _toNpcName_ and bring back whatever you can get._where_"
     }
-
+#QuestDialogDict 2003 and portuguese
+ QuestDialogDict = {
+    #160 : {GREETING: '',
+        #QUEST: 'Ok, now I think you are ready for something more challenging.\x7Defeat 3 Bossbots.',
+        #INCOMPLETE_PROGRESS: 'The ' + Cogs + ' are out in the streets, through the tunnels.',
+        #INCOMPLETE_WRONG_NPC: 'Good job defeating those Bossbots. Now go to the Toon Headquarters for your reward!',
+        #COMPLETE: QuestsDefaultComplete,
+        #LEAVING: QuestsDefaultLeaving },
+    #161 : {GREETING: '',
+        #QUEST: 'Ok, now I think you are ready for something more challenging.\x7Defeat 3 Lawbots.',
+        #INCOMPLETE_PROGRESS: 'The ' + Cogs + ' are out in the streets, through the tunnels.',
+        #INCOMPLETE_WRONG_NPC: 'Good job defeating those Lawbots. Now go to the Toon Headquarters for your reward!',
+        #COMPLETE: QuestsDefaultComplete,
+        #LEAVING: QuestsDefaultLeaving,
+        #},
+    #162 : {GREETING: '',
+        #QUEST: 'Ok, now I think you are ready for something more challenging.\x7Defeat 3 Cashbots.',
+        #INCOMPLETE_PROGRESS: 'The ' + Cogs + ' are out in the streets, through the tunnels.',
+        #INCOMPLETE_WRONG_NPC: 'Good job defeating those Cashbots. Now go to the Toon Headquarters for your reward!',
+        #COMPLETE: QuestsDefaultComplete,
+        #LEAVING: QuestsDefaultLeaving,
+        #},
+    #163 : {GREETING: '',
+        #QUEST: 'Ok, now I think you are ready for something more challenging.\x7Defeat 3 Sellbots.',
+        #INCOMPLETE_PROGRESS: 'The ' + Cogs + ' are out in the streets, through the tunnels.',
+        #INCOMPLETE_WRONG_NPC: 'Good job defeating those Sellbots. Now go to the Toon Headquarters for your reward!',
+        #COMPLETE: QuestsDefaultComplete,
+        #LEAVING: QuestsDefaultLeaving, 
+        #},
 QuestDialogDict = {
     160 : {GREETING : "",
            QUEST : "Ok, now I think you are ready for something more rewarding.\aIf you can defeat 3 Bossbots I'll give you a little bonus.",
