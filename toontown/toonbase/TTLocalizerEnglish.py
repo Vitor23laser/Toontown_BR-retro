@@ -12388,8 +12388,6 @@ GolfTieBreakWinner = "%(name)s wins the random tie breaker!"
 GolfSeconds = " -  %(time).2f seconds"
 GolfTimeTieBreakWinner = "%(name)s wins the total aiming time tie breaker!!!"
 
-
-
 RoamingTrialerWeekendStart = "Tour Toontown is starting! Free players may now enter any neighborhood!"
 RoamingTrialerWeekendOngoing = "Welcome to Tour Toontown! Free players may now enter any neighborhood!"
 RoamingTrialerWeekendEnd = "That's all for Tour Toontown."
@@ -12835,34 +12833,6 @@ CogdoCraneGameInstructions = ("The COGS are using a coin-operated machine to des
                               "Use the cranes to pick up and throw money bags, in order to prevent "
                               "barrel destruction!")
 
-
-# Cogdo Maze Game
-# No longer in use.
-"""
-CogdoMazeGameTitle = "Moving & Shaking Dept."
-CogdoMazeGameInstructions = "The big Mover & Shaker Cogs have the code to open the door. Defeat them with your water balloons in order to get it!"
-CogdoMazeIntroMovieDialogue = (("This should give you Toons a shiver! We're powering our offices with your Laff, and you're powerless to stop us!",
-                                "This will make you Toons quake! We're destroying barrels of your Laff, and you cannot stop us!",
-                                "This may come as an aftershock, but we're crushing barrels of Toon Laff in our %s, and there's nothing you can do about it!" % CogdoStomperName),
-                                ("Don't get rattled, Toons! Fill your water balloons, splash the BIG Cogs, and retrieve the PASS CODE that opens the exit! Good luck from the Toon Resistance!",
-                                "Are you ready to rumble, Toons? Go to the water coolers and fill up balloons to throw at Cogs. Hit the BIG Cogs to get the pass code for the exit! Toon Resistance out!",
-                                "Want some good vibrations? Fill your balloons at the water coolers, splash the BIG Movers & Shakers, complete the PASS CODE, and find the way out! Good luck, Toons!"),
-                                ("Hmph! I'm a Silver Sprocket Award winner, I don't need this!",
-                                "You're on shaky ground, Toons!",
-                                "Before you know it, you'll all be trembling!"),
-                                )
-CogdoMazeGameDoorOpens = "The Pass Code opened the Exit!\nGet there before it's too late!"
-CogdoMazeGameLocalToonFoundExit = "This Exit will open when\nyou get the Pass Code from the Big Cogs!"
-CogdoMazeGameWaitingForToons = "Waiting for %d other Toons..."
-CogdoMazeGameTimeOut = "Oh No! Time ran out!\nYou lost your Memos!"
-CogdoMazeGameBossGuiTitle = "Pass Code:"
-CogdoMazeFindHint = "Find a Water Cooler!"
-CogdoMazeThrowHint = "Press 'Ctrl' to throw your water balloon!"
-CogdoMazeSquashHint = "Careful! Falling objects pop your balloon!"
-CogdoMazeBossHint = "Big Cogs take %i hits to take them down!"
-CogdoMazeMinionHint = "Minions will drop bonus Memos!"
-"""
-
 # Cogdo Maze Game
 CogdoMazeGameTitle = "Mover & Shaker\nField Office"
 CogdoMazeGameInstructions = "The big Mover & Shaker Cogs have the code to open the door. Defeat them with your water balloons in order to get it!"
@@ -12946,7 +12916,3 @@ InteractivePropTrackBonusTerms = {
 }
 
 PlayingCardUnknown = "Card Name is unknown"
-
-# No longer in use.
-#AllTrickOrTreatFounded = "Trick or Treat"
-#TrickOrTreatScavengerHuntCompleted = "Trick or Treat"
