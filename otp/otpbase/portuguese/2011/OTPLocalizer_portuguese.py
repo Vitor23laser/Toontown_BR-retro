@@ -115,7 +115,7 @@ grey = TextProperties()
 grey.setTextColor(0.5, 0.5, 0.5, 1)
 TextPropertiesManager.getGlobalPtr().setProperties('cinza', grey)
 ActivateChat = 'O recurso Amigos Secretos permite que um membro converse com outro membro apenas por meio de um código secreto que deve ser comunicado fora do jogo. O recurso Amigos Secretos não é moderado ou supervisionado.\n\nPor favor, escolha uma das opções do recurso Amigos Secretos de Toontown:\n\n      \x01shadow\x01Sem O recurso Amigos Secretos\x02 - Capacidade para fazer o recurso Amigos Secretos é desativado.\n      Isso oferece o mais alto nível de controle.\n      \x01shadow\x01O recurso Amigos Secretos restritos\x02 - Requer a senha de pais para fazer\n      cada novo recurso Amigo Secreto.\n\n      \x01shadow\x01O recurso Amigos Secretos irrestritos\x02 - Depois de habilitado com a senha de pais,\n      não é necessário fornecer a senha de pais para fazer cada novo\n      o recurso Amigos Secretos . \x01red\x01Esta opção não é recomendada para menores de 13 anos.\x02\n\n\n\n\n\n\nAo ativar o recurso Amigos secretos, você reconhece que, apesar de haver alguns riscos inerentes a ele, você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los.'
-ActivateChatYes = 'Atualizar'
+ActivateChatYes = 'Ativar'
 ActivateChatNo = lCancel
 ActivateChatMoreInfo = 'Mais informações'
 ActivateChatPrivacyPolicy = 'Política de Privacidade'
