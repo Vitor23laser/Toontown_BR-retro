@@ -2668,7 +2668,11 @@ ReportPanelCategoryPii = 'Sharing/Requesting Personal Info'
 ReportPanelCategoryRude = 'Rude or Mean Behavior'
 ReportPanelCategoryName = 'Bad Name'
 ReportPanelCategoryHacking = 'Hacking'
-ReportPanelConfirmations = ('You are about to report that %s has used obscene, bigoted or sexually explicit language.', 'You are about to report that %s is being unsafe by giving out or requesting a phone number, address, last name, email address, password or account name.', 'You are about to report that %s is bullying, harassing, or using extreme behavior to disrupt the game.', "You are about to report that %s has created a name that does not follow Disney's House Rules.", 'You are about to report that %s has hacked/tampered with the game or used third party software.')
+ReportPanelConfirmations = ('You are about to report that %s has used obscene, bigoted or sexually explicit language.',
+ 'You are about to report that %s is being unsafe by giving out or requesting a phone number, address, last name, email address, password or account name.',
+ 'You are about to report that %s is bullying, harassing, or using extreme behavior to disrupt the game.',
+ "You are about to report that %s has created a name that does not follow Disney's House Rules.",
+ 'You are about to report that %s has hacked/tampered with the game or used third party software.')
 ReportPanelWarning = "We take reporting very seriously. Your report will be viewed by a Moderator who will take appropriate action for anyone breaking our rules. If your account is found to have participated in breaking the rules, or if you make false reports or abuse the 'Report a Player' system, a Moderator may take action against your account. Are you absolutely sure you want to report this player?"
 ReportPanelThanks = 'Thank you! Your report has been sent to a Moderator for review. There is no need to contact us again about the issue. The moderation team will take appropriate action for a player found breaking our rules.'
 ReportPanelRemovedFriend = 'We have automatically removed %s from your Toon Friends List.'
