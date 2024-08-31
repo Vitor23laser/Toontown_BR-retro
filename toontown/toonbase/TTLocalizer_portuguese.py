@@ -2489,6 +2489,7 @@ ReportPanelConfirmations = (
     "Você está prestes a denunciar %s está promovendo insegurança ao divulgar ou solicitar um número de telefone, sobrenome, endereço de e-mail, senha ou nome de conta.",
     "Você está prestes a relatar que %s está importunando, atormentando ou usando de comportamento radical para atrapalhar o jogo.",
     "Você está prestes a relatar que %s criou um nome que não segue as regras da Disney.",
+    "Você está prestes a denunciar que %s invadiu/adulterou o jogo ou usou software de terceiros."
     )
 
 # Put on confirmation screen!
@@ -2549,21 +2550,54 @@ PetMoodAdjectives = {
     }
 
 SpokenMoods = {
-    'neutral': 'neutro',
-    'hunger': 'Eu\estou cansado de Balinhas! Que tal me dar uma fatia de torta?',
-    'boredom': 'Você não\ achou que eu entenderia, hein?', 
-    'excitement': 'Toontástico!',
-    'sadness': 'Eu quero ser rabisco de qualidade',
-    'restlessness': 'Eu\estou tãooo inquieto',
-    'playfulness': 'Brinque comigo ou eu\vou desenterrar algumas flores!',
-    'loneliness': 'Quero lutar com os Cogs com você!',
-    'fatigue': 'É muito cansativo fazer truques de rabisco! Que\tal dar um tempinho?',
-    'confusion': 'Onde estou? Quem é mesmo você?',
-    'anger': 'Você sempre me deixa para trás',
-    'surprise': 'Opa, de onde você surgiu?',
-    'affection': 'Você é um ótimo toon',
-    }
-
+    'neutral': 'neutral',
+    'hunger': ["Estou cansado de Balinhas! Que tal me dar um pedaço de torta?",
+               "Que tal uma Balinha Vermelha? Estou enjoado das Verdes!",
+               "Ah, aquelas balinhas eram para plantar? Mas eu estou com fome!",
+               ],
+    'boredom': ["Estou morrendo de tédio aqui!",
+                "Você não achou que eu te entendi você, né?",
+                "Poderíamos, tipo, FAZER algo já?",
+                ],
+    'excitement': ["UAU, é você, é você, é você!",
+                   "hmmm, balinhas, hmmm!",
+                   "FICA melhor do que isso?",
+                   "Feliz Semana da Mentira Toons!",
+                   ],
+    'sadness': ["Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá...",
+                "Vou ficar bem. Eu juro!",
+                "Eu não sei POR QUE estou triste. Apenas estou!!!",
+                ],
+    'restlessness': ["Estou tãooo impaciente!!!",],
+    'playfulness': ["Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar...",
+                    "Brinque comigo ou eu arrancarei algumas flores!",
+                    "Vamos dar uma volta por aí e aí e aí e aí e aí e aí...",
+                    ],
+    'loneliness': ["Onde você esteve?",
+                   "Quer um abraço?",
+                   "Eu quero ir junto quando você for lutar com os Cogs!",
+                   ],
+    'fatigue': ["Aquele mergulho no lago realmente me cansou!",
+                "Ser um Doodle é cansativo!",
+                "Eu preciso ir para a Terra do Sonho!",
+                ],
+    'confusion': ["Onde estou? De novo, quem é você?",
+                  "De novo, o que é Toonar?",
+                  "Opa, eu estou entre você e os Cogs! Fuja!",
+                  ],
+    'anger': ["... e você ainda se pergunta por que eu nunca lhe dei um Toonar?!!!",
+              "Você sempre se esquece de mim!",
+              "Você ama suas piadas mais do que a mim!",
+              ],
+    'surprise': ["Claro, Doodles podem falar!",
+                 "Toons podem falar?!!",
+                 "Opa, de onde você surgiu?",
+                 ],
+    'affection': ["Você é o melhor Toon que já EXISTIU!!!!!!!!!!",
+                  "Você tem NOÇÃO do quanto é bacana?",
+                  "Eu tenho MUITA sorte de estar com você!!!",
+                  ]
+        }
 # DistributedAvatar.py
 DialogExclamation = "!"
 DialogQuestion = '?'
