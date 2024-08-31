@@ -112,8 +112,7 @@ lYes = 'Sim'
 lNo = 'Não'
 lBack = 'Voltar'
 
-sleep_auto_reply = "%s está dormindo agora"
-lHQ = 'Oficial'
+sleep_auto_reply = "%s está dormindo certo agora"
 
 lHQOfficerF = 'Oficial do Quartel'
 lHQOfficerM = 'Oficial do Quartel'
