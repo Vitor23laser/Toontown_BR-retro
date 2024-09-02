@@ -859,8 +859,8 @@ SuitFaceoffTaunts = {'b': ['Voc\xc3\xaa tem uma doa\xc3\xa7\xc3\xa3o para mim?',
 SpeedChatStaticText = {1: lYes,
  2: lNo,
  3: lOK,
- 4: 'CHAT R\xc3\x81PIDO PLUS',
- 100: 'Oi!',
+ 4: 'CHAT R\xc3\x81PIDO PLUS'}
+SpeedChatStaticTextToontown = {100: 'Oi!',
  101: 'Ol\xc3\xa1!',
  102: 'E a\xc3\xad?',
  103: '\xc3\x94pa!',
@@ -1900,8 +1900,8 @@ SpeedChatStaticText = {1: lYes,
  30418: '\xc3\x89 o chefe!',
  30450: '\xc3\x89 f\xc3\xa1cil ser verde!',
  30451: 'Visite Jeans Feij\xc3\xa3o Verde e voc\xc3\xaa tamb\xc3\xa9m pode ser verde!',
- 30452: 'Fica na Rua dos Carvalhos em Jardins da Margarida.',
- 50001: 'Sim',
+ 30452: 'Fica na Rua dos Carvalhos em Jardins da Margarida.'}
+SpeedChatStaticTextPirates = {50001: 'Sim',
  50002: 'N\xc3\xa3o',
  50003: 'Arrr!',
  50004: 'Sim, sim, Capit\xc3\xa3o!',
@@ -2120,6 +2120,7 @@ SpeedChatStaticText = {1: lYes,
  65000: 'Sim',
  65001: 'N\xc3\xa3o',
  60909: 'Verifique a m\xc3\xa3o'}
+SpeedChatStaticText = SpeedChatStaticTextCommon
 Emotes_Root = 'EMO\xc3\x87\xc3\x95ES'
 Emotes_Dances = 'Dan\xc3\xa7as'
 Emotes_General = 'Geral'
