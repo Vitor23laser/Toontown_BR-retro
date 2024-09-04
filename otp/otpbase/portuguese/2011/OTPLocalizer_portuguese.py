@@ -193,7 +193,7 @@ CRBootedReasons = {1: 'Houve um problema inesperado. A conex\xc3\xa3o falhou, ma
  349: 'Sinto muito, mas voc\xc3\xaa usou todos os seus minutos dispon\xc3\xadveis deste m\xc3\xaas na Toontown.'}
 CRBootedReasonUnknownCode = 'Houve um problema inesperado (c\xc3\xb3digo de erro %s). A conex\xc3\xa3o falhou, mas voc\xc3\xaa ainda deve conseguir conectar-se novamente para voltar ao jogo.'
 CRTryConnectAgain = '\n\nTentar conectar-se novamente?'
-CRToontownUnavailable = 'Toontown parece estar temporariamente indispon\xc3\xadvel, ainda tentando...'
+CRToontownUnavailable = 'O servidor parece estar temporariamente indispon\xc3\xadvel, ainda tentando...'
 CRToontownUnavailableCancel = lCancel
 CRNameCongratulations = 'PARAB\xc3\x89NS!!'
 CRNameAccepted = 'O seu nome foi\naprovado pelo Conselho de Toons.\n\nA partir de agora,\nvoc\xc3\xaa ter\xc3\xa1 o nome\n\'%s\''
@@ -204,7 +204,7 @@ CRServerDateTryAgain = 'N\xc3\xa3o foi poss\xc3\xadvel obter a data do servidor 
 AfkForceAcknowledgeMessage = 'O seu Toon ficou com sono e foi para a cama.'
 PeriodTimerWarning = 'O seu limite de tempo em Toontown neste m\xc3\xaas est\xc3\xa1 quase no fim!'
 PeriodForceAcknowledgeMessage = 'Voc\xc3\xaa usou todos os seus minutos dispon\xc3\xadveis em Toontown neste m\xc3\xaas. Volte e jogue mais no pr\xc3\xb3ximo m\xc3\xaas!'
-CREnteringToontown = 'Entrando em Toontown...'
+CREnteringToontown = 'Entrando...'
 DownloadWatcherUpdate = 'Fazendo o download de %s'
 DownloadWatcherInitializing = 'Inicializando Download...'
 LoginScreenUserName = 'Nome da Conta'
@@ -279,6 +279,9 @@ SCMenuSellbotNerf = 'Rob\xc3\xb4 Vendedor TEMPESTADE'
 SCMenuJellybeanJam = 'Dan\xc3\xa7a de Balinhas'
 SCMenuHalloween = 'DIA DAS BRUXAS'
 SCMenuWinter = 'INVERNO'
+SCMenuSellbotInvasion = 'Invas\xc3\xa3o De R\xc3\xb4bos Vendedores'
+SCMenuFieldOffice = 'Escrit\xc3\xb3rios de Campo'
+SCMenuIdesOfMarch = 'VERDE'
 FriendSecretNeedsPasswordWarningTitle = 'Controles dispon\xc3\xadveis aos pais'
 FriendSecretNeedsParentLoginWarning = 'Para conseguir ou digitar um C\xc3\xb3digo de Amigo Verdadeiro, um dos seus pais ou respons\xc3\xa1veis precisa fazer o login. Voc\xc3\xaa pode desativar esta pergunta alterando suas op\xc3\xa7\xc3\xb5es de Amigos Verdadeiros.'
 FriendSecretNeedsPasswordWarning = 'Para pegar ou digitar um Segredo, voc\xc3\xaa deve inserir a Senha de pais. Voc\xc3\xaa pode desativar esta solicita\xc3\xa7\xc3\xa3o alterando as suas op\xc3\xa7\xc3\xb5es de Amigos secretos.'
@@ -312,8 +315,11 @@ FriendSecretDetermineSecretAccount = 'Conta'
 FriendSecretDetermineSecretAccountRollover = 'Um amigo em toda a rede Disney.com.br'
 GuildMemberTitle = 'Op\xc3\xa7\xc3\xb5es de Membros'
 GuildMemberPromote = 'Fazer Oficial'
+GuildMemberPromoteInvite = 'Fazer Veterano'
+GuildMemberDemoteInvite = 'Rebaixar para Veterano'
 GuildMemberGM = 'Fazer Mestre da Guilda'
-GuildMemberDemote = 'Rebaixar'
+GuildMemberGMConfirm = 'Confirmar'
+GuildMemberDemote = 'Rebaixar para Membro'
 GuildMemberKick = 'Ejeitar Membro'
 GuildMemberCancel = lCancel
 GuildMemberOnline = 'tem entrado online.'
@@ -329,8 +335,9 @@ GuildRedeemErrorInvalidToken = 'Sinto muito, que o c\xc3\xb3digo est\xc3\xa1 inv
 GuildRedeemErrorGuildFull = 'Sinto muito, esta guilda j\xc3\xa1 tem muitos membros.'
 FriendInviteeTooManyFriends = '%s quer fazer amizade com voc\xc3\xaa, mas voc\xc3\xaa j\xc3\xa1 tem muitos amigos em sua lista!'
 FriendInviteeInvitation = '%s quer fazer amizade com voc\xc3\xaa.'
+FriendInviteeInvitationPlayer = "O jogador de %s gostaria de ser seu amigo."
 FriendNotifictation = '%s \xc3\xa9 agora seu amigo.'
-FriendInviteeOK = lYes
+FriendInviteeOK = lOK
 FriendInviteeNo = lNo
 GuildInviterWentAway = '%s n\xc3\xa3o est\xc3\xa1 mais presente.'
 GuildInviterAlready = '%s j\xc3\xa1 est\xc3\xa1 em uma guilda.'
@@ -371,6 +378,7 @@ FriendOffline = 'saiu e est\xc3\xa1 off-line.'
 FriendInviterOK = lOK
 FriendInviterCancel = lCancel
 FriendInviterStopBeingFriends = 'Interromper amizade'
+FriendInviterConfirmRemove = 'Remover'
 FriendInviterYes = lYes
 FriendInviterNo = lNo
 FriendInviterClickToon = 'Clique no Toon com o qual deseja fazer amizade.'
@@ -380,6 +388,8 @@ FriendInviterPlayerTooMany = 'Voc\xc3\xaa tem amigos jogadores demais em sua lis
 FriendInviterNotYet = 'Deseja fazer amizade com %s?'
 FriendInviterCheckAvailability = 'Verificando se %s est\xc3\xa1 dispon\xc3\xadvel.'
 FriendInviterNotAvailable = '%s est\xc3\xa1 ocupado(a) agora; tente novamente mais tarde.'
+FriendInviterCantSee = 'Isto s\xc3\xb3 funciona se voc\xc3\xaa puder ver %s.'
+FriendInviterNotOnline = 'Isto s\xc3\xb3 funciona se %s estiver online'
 FriendInviterNotOpen = '%s n\xc3\xa3o tem um bate-papo aberto, use segredos para fazer amigos'
 FriendInviterWentAway = '%s saiu.'
 FriendInviterAlready = '%s j\xc3\xa1 \xc3\xa9 seu(sua) amigo(a).'
@@ -983,7 +993,7 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
  1108: 'Vamos para os Jardins da Margarida!'
  1109: 'Vamos para O Brrrgh!'
  1110: 'Vamos para a Sonhol\xc3\xa2ndia do Donald!'
- 1111: 'Vamos para a minha casa!',
+ 1111: 'Vamos para o Aut\xc3\xb3dromo do Pateta',
  1112: 'Vamos para a minha casa!',
  1113: 'Vamos para a sua casa!',
  1114: 'Vamos para o Quartel do Rob\xc3\xb4 Vendedor!',
@@ -1002,6 +1012,7 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
  1127: 'Vamos para o Quartel do Rob\xc3\xb4 Chefe!',
  1128: 'Vamos lutar com o Presidente!',
  1129: 'Vamos para o Campo de Golfe Cog!',
+ 1130: "Vamos assumir um escrit\xc3\xb3rio de campo!",
  1200: 'Em que Tarefa Toon voc\xc3\xaa est\xc3\xa1 trabalhando?',
  1201: 'Vamos trabalhar nisto.',
  1202: 'Isto n\xc3\xa3o \xc3\xa9 o que estou procurando.',
@@ -1867,7 +1878,8 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
  30352: 'Mostramos \xc3\xa0queles Cogs quem manda!',
  30353: 'Bom trabalho ajudando a acabar com as invas\xc3\xb5es Cog!',
  30354: 'Aposto que isso est\xc3\xa1 deixando os Cogs loucos!',
- 30356: 'Meu time venceu o Cog-O-Guerra!',
+ 30355: "Vamos jogar Cog-de-Guerra"
+ 30356: 'Meu time venceu o Cog-de-Guerra!',
  30357: '\xc3\x89 bom ter hidrantes, latas de lixo e caixas de correio aqui!',
  30358: 'Gosto do bal\xc3\xa3o do Rabisco mordendo o cog!',
  30359: 'Gosto do bal\xc3\xa3o do Cog coberto de sorvete!',
