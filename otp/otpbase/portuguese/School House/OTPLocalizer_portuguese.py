@@ -195,8 +195,9 @@ CRBootedReasons = {
  BootedOutOfTime: 'Desculpe, voc\xc3\xaa ficou sem tempo para jogar.'
 }
 CRBootedReasonUnknownCode = 'Houve um problema inesperado (c\xc3\xb3digo de erro %s). A conex\xc3\xa3o falhou, mas voc\xc3\xaa ainda deve conseguir conectar-se novamente para voltar ao jogo.'
+CRBootedAdditionalInfo = '\n\nInforma\xc3\xa7\xc3\xb5es adicionais\n{}'
 CRTryConnectAgain = '\n\nTentar conectar-se novamente?'
-CRToontownUnavailable = 'Toontown parece estar temporariamente indispon\xc3\xadvel, ainda tentando...'
+CRToontownUnavailable = 'O servidor parece estar temporariamente indispon\xc3\xadvel, ainda tentando...'
 CRToontownUnavailableCancel = lCancel
 CRNameCongratulations = 'PARAB\xc3\x89NS!!'
 CRNameAccepted = 'O seu nome foi\naprovado pelo Conselho de Toons.\n\nA partir de agora,\nvoc\xc3\xaa ter\xc3\xa1 o nome\n\'%s\''
@@ -206,7 +207,7 @@ CRServerConstantsTryAgain = 'N\xc3\xa3o foi poss\xc3\xadvel contatar %s.\n\nO se
 CRServerDateTryAgain = 'N\xc3\xa3o foi poss\xc3\xadvel obter a data do servidor de %s. Tentar novamente?'
 AfkForceAcknowledgeMessage = 'O seu Toon ficou com sono e foi para a cama.'
 PeriodTimerWarning = 'O seu limite de tempo em Toontown neste m\xc3\xaas est\xc3\xa1 quase no fim!'
-PeriodForceAcknowledgeMessage = 'Voc\xc3\xaa usou todos os seus minutos dispon\xc3\xadveis em Toontown neste m\xc3\xaas. Volte e jogue mais no pr\xc3\xb3ximo m\xc3\xaas!'
+PeriodForceAcknowledgeMessage = 'Desculpe, voc\xc3\xaa usou todo o seu tempo dispon\xc3\xadvel. Por favor, saia para comprar mais.'
 CREnteringToontown = 'Entrando em Toontown...'
 DownloadWatcherUpdate = 'Fazendo o download de %s'
 DownloadWatcherInitializing = 'Inicializando Download...'
@@ -303,7 +304,8 @@ FriendSecretGotSecret = 'Este \xc3\xa9 o seu novo C\xc3\xb3digo de Amigos Verdad
 FriendSecretTooMany = 'Sinto muito, voc\xc3\xaa n\xc3\xa3o pode ter mais c\xc3\xb3digo de Amigos Verdadeiros hoje. Voc\xc3\xaa j\xc3\xa1 obteve mais do que a parte que lhe cabia!\n\nTente novamente amanh\xc3\xa3.'
 FriendSecretTryingSecret = 'Tentando usar C\xc3\xb3digo de Amigos Verdadeiros. . .'
 FriendSecretEnteredSecretSuccess = 'Agora, voc\xc3\xaa \xc3\xa9 Amigo verdadeiro de %s!'
-FriendSecretTimeOut = 'Sinto muitos, segredos n\xc3\xa3o est\xc3\xa3o funcionando agora.'
+FriendSecretTimeOut = 'Sinto muitos, c\xc3\xb3digos de amigos verdadadeiros n\xc3\xa3o est\xc3\xa3o funcionando agora.'
+FriendSecretTimeOutRetro = 'Sinto muitos, segredos n\xc3\xa3o est\xc3\xa3o funcionando agora.'
 FriendSecretEnteredSecretUnknown = 'Este C\xc3\xb3digo de Amigos Verdadeiros n\xc3\xa3o existe. Tem certeza de que digitou certo?\n\nSe voc\xc3\xaa tiver digitado certo, ele pode ter expirado. Pe\xc3\xa7a ao seu amigo para pegar outro C\xc3\xb3digo de Amigos Verdadeiros para voc\xc3\xaa (ou pegue um novo voc\xc3\xaa mesmo e d\xc3\xaa ao seu amigo).'
 FriendSecretEnteredSecretFull = 'Voc\xc3\xaa n\xc3\xa3o pode fazer amizade com %s porque um de voc\xc3\xaas dois possui amigos demais na lista.'
 FriendSecretEnteredSecretFullNoName = 'Voc\xc3\xaas n\xc3\xa3o podem fazer amizade porque um de voc\xc3\xaas dois possui amigos demais na lista.'
@@ -321,6 +323,7 @@ GuildMemberPromote = 'Fazer Oficial'
 GuildMemberPromoteInvite = 'Fazer Veterano'
 GuildMemberDemoteInvite = 'Rebaixar para Veterano'
 GuildMemberGM = 'Fazer Mestre da Guilda'
+GuildMemberGMConfirm = 'Confirmado'
 GuildMemberDemote = 'Rebaixar para Membro'
 GuildMemberKick = 'Ejeitar Membro'
 GuildMemberCancel = lCancel
@@ -379,6 +382,7 @@ FriendOffline = 'saiu e est\xc3\xa1 off-line.'
 FriendInviterOK = lOK
 FriendInviterCancel = lCancel
 FriendInviterStopBeingFriends = 'Interromper amizade'
+FriendInviterConfirmRemove = 'Remova'
 FriendInviterYes = lYes
 FriendInviterNo = lNo
 FriendInviterClickToon = 'Clique no Toon com o qual deseja fazer amizade.'
@@ -388,6 +392,8 @@ FriendInviterPlayerTooMany = 'Voc\xc3\xaa tem amigos jogadores demais em sua lis
 FriendInviterNotYet = 'Deseja fazer amizade com %s?'
 FriendInviterCheckAvailability = 'Verificando se %s est\xc3\xa1 dispon\xc3\xadvel.'
 FriendInviterNotAvailable = '%s est\xc3\xa1 ocupado(a) agora; tente novamente mais tarde.'
+FriendInviterCantSee = 'Isso s\xc3\xb3 funciona se voc\xc3\xaa puder ver %s.'
+FriendInviterNotOnline = 'Isso s\xc3\xb3 funciona se %s estiver online'
 FriendInviterNotOpen = '%s n\xc3\xa3o tem um bate-papo aberto, use segredos para fazer amigos'
 FriendInviterWentAway = '%s saiu.'
 FriendInviterAlready = '%s j\xc3\xa1 \xc3\xa9 seu(sua) amigo(a).'
@@ -991,7 +997,7 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
  1108: 'Vamos para o %s!' % lDaisyGardens,
  1109: 'Vamos para %s!' % lTheBrrrgh,
  1110: 'Vamos para a %s!' % lDonaldsDreamland,
- 1111: 'Vamos para a minha casa!',
+ 1111: 'Vamos para o %s!' % lGoofySpeedway,
  1112: 'Vamos para a minha casa!',
  1113: 'Vamos para a sua casa!',
  1114: 'Vamos para o Quartel do Rob\xc3\xb4 Vendedor!',
@@ -1010,6 +1016,7 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
  1127: 'Vamos para o Quartel do Rob\xc3\xb4 Chefe!',
  1128: 'Vamos lutar com o Presidente!',
  1129: 'Vamos para o Campo de Golfe Cog!',
+ 1130: 'Vamos assumir um Escrit\xc3\xb3rio de Campo!',
  1200: 'Em que Tarefa Toon voc\xc3\xaa est\xc3\xa1 trabalhando?',
  1201: 'Vamos trabalhar nisto.',
  1202: 'Isto n\xc3\xa3o \xc3\xa9 o que estou procurando.',
@@ -1020,9 +1027,9 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
  1207: 'Preciso de mais pe\xc3\xa7as de vestimentas de Cogs.',
  1208: 'N\xc3\xa3o \xc3\xa9 disso que voc\xc3\xaa precisa.',
  1209: 'Achei o que voc\xc3\xaa precisa.',
- 1210: 'Eu preciso de mais Cograna.',
+ 1210: 'Eu preciso de mais d\xc3\xb3aleres de Cog.',
  1211: 'Eu preciso de mais Avisos ao J\xc3\xbari.',
- 1212: 'Preciso de mais A\xc3\xa7\xc3\xb5es.',
+ 1212: 'Eu preciso de mais O\xc3\xa7\xc3\xb5es de Estoque.',
  1213: 'Eu preciso de mais Pe\xc3\xa7as de Vestimenta de Rob\xc3\xb4 Mercen\xc3\xa1rio.',
  1214: 'Eu preciso de mais Pe\xc3\xa7as de Vestimenta de Rob\xc3\xb4 da Lei.',
  1215: 'Preciso de mais Pe\xc3\xa7as de Rob\xc3\xb4 Chefe.',
@@ -1126,7 +1133,7 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
  1904: 'Vamos nos encontrar no Sal\xc3\xa3o.',
  1905: 'Vamos nos encontrar no corredor fora do sal\xc3\xa3o.',
  1906: 'Vamos nos encontrar no corredor fora do sal\xc3\xa3o.',
- 1907: 'Vamos nos encontrar na Sala de cogs.',
+ 1907: 'Vamos nos encontrar na Sala de Cogs.',
  1908: 'Vamos nos encontrar na Sala da caldeira.',
  1909: 'Vamos nos encontrar na Passarela leste.',
  1910: 'Vamos nos encontrar no Misturador de tinta.',
@@ -1875,7 +1882,8 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
  30352: 'Mostramos \xc3\xa0queles Cogs quem manda!',
  30353: 'Bom trabalho ajudando a acabar com as invas\xc3\xb5es Cog!',
  30354: 'Aposto que isso est\xc3\xa1 deixando os Cogs loucos!',
- 30356: 'Meu time venceu o Cog-O-Guerra!',
+ 30355: 'Vamos jogar Cog-De-Guerra!'
+ 30356: 'Meu time venceu o Cog-De-Guerra!',
  30357: '\xc3\x89 bom ter hidrantes, latas de lixo e caixas de correio aqui!',
  30358: 'Gosto do bal\xc3\xa3o do Rabisco mordendo o cog!',
  30359: 'Gosto do bal\xc3\xa3o do Cog coberto de sorvete!',
@@ -1917,8 +1925,6 @@ SpeedChatStaticTextPirates = {50001: 'Sim',
  50106: 'Ei, voc\xc3\xaa!',
  50107: 'Claro, claro, Capit\xc3\xa3o!',
  50108: 'Ande na prancha!',
- 50109: 'Continue!',
- 50110: 'N\xc3\xa3o vai sobrar ningu\xc3\xa9m para contar a hist\xc3\xb3ria....',
  50700: 'Ah!',
  50701: 'Ah, amigo!',
  50702: 'Yo-Ho-Ho',
@@ -2819,3 +2825,4 @@ def timeElapsedString(timeDelta):
             return '1 minuto atr\xc3\xa1s'
         else:
             return '%s minutos atr\xc3\xa1s' % (timeDelta.seconds / 60)
+            
