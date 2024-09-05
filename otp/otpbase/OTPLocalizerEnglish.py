@@ -24,7 +24,7 @@ DialogYes = lYes
 DialogNo = lNo
 DialogDoNotShowAgain = 'Do Not\nShow Again'
 WhisperNoLongerFriend = '%s left your friends list.'
-WhisperNowSpecialFriend = '%s is now your Secret Friend!'
+WhisperNowSpecialFriend = '%s is now your True Friend!'
 WhisperComingToVisit = '%s is coming to visit you.'
 WhisperFailedVisit = '%s tried to visit you.'
 WhisperTargetLeftVisit = '%s has gone somewhere else. Try again!'
@@ -46,14 +46,14 @@ ChatInputWhisperLabel = 'To %s'
 SCEmoteNoAccessMsg = 'You do not have access\nto this emotion yet.'
 SCEmoteNoAccessOK = lOK
 ParentLogin = 'Parent Login'
-ParentPassword = 'Parent Password'
+ParentPassword = 'Parent Account Password'
 ChatGarblerDefault = ['blah']
 ChatManagerChat = 'Chat'
 ChatManagerWhisperTo = 'Whisper to:'
 ChatManagerWhisperToName = 'Whisper To:\n%s'
 ChatManagerCancel = lCancel
 ChatManagerWhisperOffline = '%s is offline.'
-OpenChatWarning = 'To become Secret Friends with somebody, click on them, and select "Secret Friends" from the detail panel.\n\nSpeedChat Plus can also be enabled, which allow users to chat by typing words found in the Disney SpeedChat Plus dictionary.\n\nTo activate these features or to learn more, exit Toontown and then click on Membership and select Manage Account.  Log in to edit your "Community Settings."\n\nIf you are under 18, you need a Parent Account to manage these settings.'
+OpenChatWarning = 'To become True Friends with somebody, click on them, and select "True Friends" from the detail panel.\n\nSpeedChat Plus can also be enabled, which allow users to chat by typing words found in the Disney SpeedChat Plus dictionary.\n\nTo activate these features or to learn more, exit Toontown and then click on Membership and select Manage Account.  Log in to edit your "Community Settings."\n\nIf you are under 18, you need a Parent Account to manage these settings.'
 OpenChatWarningOK = lOK
 UnpaidChatWarning = 'Once you have subscribed, you can use this button to chat with your friends using the keyboard.  Until then, you should chat with other Toons using SpeedChat.'
 UnpaidChatWarningPay = 'Subscribe'
@@ -66,19 +66,19 @@ PaidParentPasswordUKWarning = 'Once you have Enabled Chat, you can enable this b
 PaidParentPasswordUKWarningSet = 'Enable Chat Now!'
 PaidParentPasswordUKWarningContinue = 'Continue Playing Game'
 NoSecretChatWarningTitle = 'Parental Controls'
-NoSecretChatWarning = 'To chat with a friend, the Secret Friends feature must first be enabled.  Kids, have your parent visit the Toontown Web site to learn about Secret Friends.'
-RestrictedSecretChatWarning = 'To get or enter a Secret, log in with the Parent Account. You can disable this prompt by changing your Secret Friends options.'
+NoSecretChatWarning = 'To chat with a friend, the True Friends feature must first be enabled.  Kids, have your parent visit the Toontown Web site to learn about True Friends.'
+RestrictedSecretChatWarning = 'To get or enter a True Friend Code, log in with the Parent Account. You can disable this prompt by changing your True Friends options.'
 NoSecretChatWarningOK = lOK
 NoSecretChatWarningCancel = lCancel
 NoSecretChatWarningWrongPassword = "That's not the correct Parent Account.  Please log in with the Parent Account that is linked to this account."
-NoSecretChatAtAllTitle = 'Open Chat With Secret Friends'
-NoSecretChatAtAll = 'Open Chat with Secret Friends allows real-life friends to chat openly with each other by means of a Secret that must be shared outside of the game.\n\nTo activate these features or to learn more, exit Toontown and then click on Membership and select Manage Account. Log in to edit your "Community Settings." If you are under 18, you need a Parent Account to manage these settings.'
+NoSecretChatAtAllTitle = 'Open Chat With True Friends'
+NoSecretChatAtAll = 'Open Chat with True Friends allows real-life friends to chat openly with each other by means of a True Friend Code that must be shared outside of the game.\n\nTo activate these features or to learn more, exit Toontown and then click on Membership and select Manage Account. Log in to edit your "Community Settings." If you are under 18, you need a Parent Account to manage these settings.'
 NoSecretChatAtAllAndNoWhitelistTitle = 'Chat button'
-NoSecretChatAtAllAndNoWhitelist = 'You can use the blue Chat button to communicate with other Toons by using Speechat Plus or Open Chat with Secret Friends.\n\nSpeedchat Plus is a form of type chat that allows users to communicate by using the Disney SpeedChat Plus dictionary.\n\nOpen Chat with Secret Friends allows real-life friends to chat openly with each other by means of a Secret that must be shared outside of the game.\n\nTo activate these features or to learn more, exit Toontown and then click on Membership and select Manage Account.  Log in to edit your "Community Settings." If you are under 18, you need a Parent Account to manage these settings.'
+NoSecretChatAtAllAndNoWhitelist = 'You can use the blue Chat button to communicate with other Toons by using Speechat Plus or Open Chat with True Friends.\n\nSpeedchat Plus is a form of type chat that allows users to communicate by using the Disney SpeedChat Plus dictionary.\n\nOpen Chat with True Friends allows real-life friends to chat openly with each other by means of a True Friend Code that must be shared outside of the game.\n\nTo activate these features or to learn more, exit Toontown and then click on Membership and select Manage Account.  Log in to edit your "Community Settings." If you are under 18, you need a Parent Account to manage these settings.'
 NoSecretChatAtAllOK = lOK
-ChangeSecretFriendsOptions = 'Change Secret Friends Options'
-ChangeSecretFriendsOptionsWarning = '\nPlease enter the Parent Password to change your Secret Friends options.'
-ActivateChatTitle = 'Secret Friends Options'
+ChangeSecretFriendsOptions = 'Change True Friends Options'
+ChangeSecretFriendsOptionsWarning = '\nPlease enter the Parent Account Password to change your True Friends options.'
+ActivateChatTitle = 'True Friends Options'
 WhisperToFormat = 'To %s %s'
 WhisperToFormatName = 'To %s'
 WhisperFromFormatName = '%s whispers'
@@ -114,7 +114,7 @@ TextPropertiesManager.getGlobalPtr().setProperties('black', black)
 grey = TextProperties()
 grey.setTextColor(0.5, 0.5, 0.5, 1)
 TextPropertiesManager.getGlobalPtr().setProperties('grey', grey)
-ActivateChat = "Secret Friends allows one member to chat with another member only by means of a Secret that must be communicated outside of the game. Secret Friends is not moderated or supervised.\n\nPlease choose one of Toontown's Secret Friends options:\n\n      \x01shadow\x01No Secret Friends\x02 - Ability to make Secret Friends is disabled.\n      This offers the highest level of control.\n\n      \x01shadow\x01Restricted Secret Friends\x02 - Requires the Parent Password to make\n      each new Secret Friend.\n\n      \x01shadow\x01Unrestricted Secret Friends\x02 - Once enabled with the Parent Password,\n      it is not required to supply the Parent Password to make each new\n      Secret Friend. \x01red\x01This option is not recommended for children under 13.\x02\n\n\n\n\n\n\nBy enabling the Secret Friends feature, you acknowledge that there are some risks inherent in the Secret Friends feature and that you have been informed of, and agree to accept, any such risks."
+ActivateChat = "True Friends allows one member to chat with another member only by means of a True Friend Code that must be communicated outside of the game. True Friends is not moderated or supervised.\n\nPlease choose one of Toontown's True Friends options:\n\n      \x01shadow\x01No True Friends\x02 - Ability to make True Friends is disabled.\n      This offers the highest level of control.\n\n      \x01shadow\x01Restricted True Friends\x02 - Requires the Parent Account Password to make\n      each new True Friend.\n\n      \x01shadow\x01Unrestricted True Friends\x02 - Once enabled with the Parent Account Password,\n      it is not required to supply the Parent Account Password to make each new\n      True Friend. \x01red\x01This option is not recommended for children under 13.\x02\n\n\n\n\n\n\nBy enabling the True Friends feature, you acknowledge that there are some risks inherent in the True Friends feature and that you have been informed of, and agree to accept, any such risks."
 ActivateChatYes = 'Update'
 ActivateChatNo = lCancel
 ActivateChatMoreInfo = 'More Info'
@@ -131,28 +131,23 @@ PrivacyPolicyText_Intro = [' ']
 PrivacyPolicyClose = lClose
 SecretFriendsInfoPanelOk = lOK
 SecretFriendsInfoPanelClose = lClose
-SecretFriendsInfoPanelText = ['\nThe Open Chat with Secret Friends Feature\n\nThe Open Chat with Secret Friends feature enables a member to chat directly with another member within Disney\'s Toontown Online (the "Service") once the members establish a Secret Friends connection.  When your child attempts to use the Open Chat with Secret Friends feature, we will require that you indicate your consent to your child\'s use of this feature by entering your Parent Password.  Here is a detailed description of the process of creating an Open Chat with Secret Friends connection between members whom we will call "Sally" and "Mike."\n1. Sally\'s parent and Mike\'s parent each enable the Open Chat with Secret Friends feature by entering their respective Parent Passwords either (a) in the Account Options areas within the Service, or (b) when prompted within the game by a Parental Controls pop-up.\n2. Sally requests a Secret (described below) from within the Service.\n',
- "\n3. Sally's Secret is communicated to Mike outside of the Service. (Sally's Secret may be communicated to Mike either directly by Sally, or indirectly through Sally's disclosure of the Secret to another person.)\n4. Mike submits Sally's Secret to the Service within 48 hours of the time that Sally requested the Secret from the Service.\n5. The Service then notifies Mike that Sally has become Mike's Secret Friend.  The Service similarly notifies Sally that Mike has become Sally's Secret Friend.\n6. Sally and Mike can now open chat directly with each other until either one chooses to terminate the other as a Secret Friend, or until the Open Chat with Secret Friends feature is disabled for either Sally or Mike by their respective parent.  The Secret Friends connection can thus be disabled anytime by either: (a) a member removing the Secret Friend from his or her friends list (as described in the Service); or, (b) the parent of that member disabling the Open Chat with ",
- "\nSecret Friends feature by going to the Account Options area within the Service and following the steps set forth there.\n\nA Secret is a computer-generated random code assigned to a particular member. The Secret must be used to activate a Secret Friend connection within 48 hours of the time that the member requests the Secret; otherwise, the Secret expires and cannot be used.  Moreover, a single Secret can only be used to establish one Secret Friend connection.  To make additional Secret Friend connections, a member must request an additional Secret for each additional Secret Friend.\n\nSecret Friendships do not transfer.  For example, if Sally becomes a Secret Friend of Mike, and Mike becomes a Secret Friend of Jessica, Sally does not automatically become Jessica's Secret Friend.  In order for Sally and Jessica to\n",
- '\nbecome Secret Friends, one of them must request a new Secret from the Service and communicate it to the other.\n\nSecret Friends communicate with one another in a free-form interactive open chat.  The content of this chat is directly entered by the participating member and is processed through the Service, which is operated by the Walt Disney Internet Group ("WDIG"), 500 S. Buena Vista St., Burbank, CA 91521-7691.  While we advise members not to exchange personal information such as first and last names, e-mail addresses, postal addresses, or phone numbers while using Open Chat with Secret Friends, we cannot guarantee that such exchanges of personal information will not happen. Although the Secret Friends chat is automatically filtered for most bad words, Open Chat with Secret Friends may be moderated, and Disney reserves the right to moderate any part of the Service that Disney,\n',
- "\nin its sole and absolute discretion, deems necessary. However, because Open Chat with Secret Friends will not always be moderated, if the Parent Account allows a child to use his or her account with the Open Chat with Secret Friends feature enabled, we strongly encourage parents to supervise their child or children while they play in the Service. By enabling the Open Chat with Secret Friends feature, the Parent Account acknowledges that there are some risks inherent in the Open Chat with Secret Friends feature and that the Parent Account has been informed of, and agrees to accept, any such risks, whether foreseeable or otherwise. \n\nWDIG does not use the content of Secret Friends chat for any purpose other than communicating that content to the member's Secret Friend, and does not disclose that content to any third party except: (1) if required by law, for example, to comply with a court order or subpoena; (2) to enforce the Terms of Use\n",
- "\napplicable to the Service (which may be accessed on the home page of the Service); or, (3) to protect the safety and security of Members of the Service and the Service itself. In accordance with the Children's Online Privacy Protection Act, we are prohibited from conditioning, and do not condition, a child's participation in any activity (including Open Chat with Secret Friends) on the child's disclosing more personal information than is reasonably necessary to participate in such activity.\n\nIn addition, as noted above, we recognize the right of a parent to refuse to permit us to continue to allow a child to use the Secret Friends feature. By enabling the Open Chat with Secret Friends feature, you acknowledge that there are some risks inherent in the ability of members to open chat with one another through the Open Chat with Secret Friends feature, and that you have been informed of, and agree to accept, any such risks, whether foreseeable or otherwise.\n"]
+SecretFriendsInfoPanelText = ['\nThe Open Chat with True Friends Feature\n\nThe Open Chat with True Friends feature enables a member to chat directly with another member within Disney\'s Toontown Online (the "Service") once the members establish a True Friends connection.  When your child attempts to use the Open Chat with True Friends feature, we will require that you indicate your consent to your child\'s use of this feature by entering your Parent Account Password.  Here is a detailed description of the process of creating an Open Chat with True Friends connection between members whom we will call "Sally" and "Mike."\n1. Sally\'s parent and Mike\'s parent each enable the Open Chat with True Friends feature by entering their respective Parent Account Passwords either (a) in the Account Options areas within the Service, or (b) when prompted within the game by a Parental Controls pop-up.\n2. Sally requests a True Friend Code (described below) from within the Service.\n', "\n3. Sally's True Friend Code is communicated to Mike outside of the Service. (Sally's True Friend Code may be communicated to Mike either directly by Sally, or indirectly through Sally's disclosure of the True Friend Code to another person.)\n4. Mike submits Sally's True Friend Code to the Service within 48 hours of the time that Sally requested the True Friend Code from the Service.\n5. The Service then notifies Mike that Sally has become Mike's True Friend.  The Service similarly notifies Sally that Mike has become Sally's True Friend.\n6. Sally and Mike can now open chat directly with each other until either one chooses to terminate the other as a True Friend, or until the Open Chat with True Friends feature is disabled for either Sally or Mike by their respective parent.  The True Friends connection can thus be disabled anytime by either: (a) a member removing the True Friend from his or her friends list (as described in the Service); or, (b) the parent of that member disabling the Open Chat with ", "\nTrue Friends feature by going to the Account Options area within the Service and following the steps set forth there.\n\nA True Friend Code is a computer-generated random code assigned to a particular member. The True Friend Code must be used to activate a True Friend connection within 48 hours of the time that the member requests the True Friend Code; otherwise, the True Friend Code expires and cannot be used.  Moreover, a single True Friend Code can only be used to establish one True Friend connection.  To make additional True Friend connections, a member must request an additional True Friend Code for each additional True Friend.\n\nTrue Friendships do not transfer.  For example, if Sally becomes a True Friend of Mike, and Mike becomes a True Friend of Jessica, Sally does not automatically become Jessica's True Friend.  In order for Sally and Jessica to\n", '\nbecome True Friends, one of them must request a new True Friend Code from the Service and communicate it to the other.\n\nTrue Friends communicate with one another in a free-form interactive open chat.  The content of this chat is directly entered by the participating member and is processed through the Service, which is operated by the Walt Disney Internet Group ("WDIG"), 500 S. Buena Vista St., Burbank, CA 91521-7691.  While we advise members not to exchange personal information such as first and last names, e-mail addresses, postal addresses, or phone numbers while using Open Chat with True Friends, we cannot guarantee that such exchanges of personal information will not happen. Although the True Friends chat is automatically filtered for most bad words, Open Chat with True Friends may be moderated, and Disney reserves the right to moderate any part of the Service that Disney,\n', "\nin its sole and absolute discretion, deems necessary. However, because Open Chat with True Friends will not always be moderated, if the Parent Account allows a child to use his or her account with the Open Chat with True Friends feature enabled, we strongly encourage parents to supervise their child or children while they play in the Service. By enabling the Open Chat with True Friends feature, the Parent Account acknowledges that there are some risks inherent in the Open Chat with True Friends feature and that the Parent Account has been informed of, and agrees to accept, any such risks, whether foreseeable or otherwise. \n\nWDIG does not use the content of True Friends chat for any purpose other than communicating that content to the member's true friend, and does not disclose that content to any third party except: (1) if required by law, for example, to comply with a court order or subpoena; (2) to enforce the Terms of Use\n", "\napplicable to the Service (which may be accessed on the home page of the Service); or, (3) to protect the safety and security of Members of the Service and the Service itself. In accordance with the Children's Online Privacy Protection Act, we are prohibited from conditioning, and do not condition, a child's participation in any activity (including Open Chat with True Friends) on the child's disclosing more personal information than is reasonably necessary to participate in such activity.\n\nIn addition, as noted above, we recognize the right of a parent to refuse to permit us to continue to allow a child to use the True Friends feature. By enabling the Open Chat with True Friends feature, you acknowledge that there are some risks inherent in the ability of members to open chat with one another through the Open Chat with True Friends feature, and that you have been informed of, and agree to accept, any such risks, whether foreseeable or otherwise.\n"]
 LeaveToPay = 'Click Purchase to exit the game and buy a Membership at toontown.com'
 LeaveToPayYes = 'Purchase'
 LeaveToPayNo = lCancel
-LeaveToSetParentPassword = 'In order to set Parent Password, the game will exit to the Toontown website.'
+LeaveToSetParentPassword = 'In order to set parent account password, the game will exit to the Toontown website.'
 LeaveToSetParentPasswordYes = 'Set Password'
 LeaveToSetParentPasswordNo = lCancel
 LeaveToEnableChatUK = 'In order to enable chat, the game will exit to the Toontown website.'
 LeaveToEnableChatUKYes = 'Enable Chat'
 LeaveToEnableChatUKNo = lCancel
 ChatMoreInfoOK = lOK
-SecretChatDeactivated = 'The "Secret Friends" feature has been disabled.'
-RestrictedSecretChatActivated = 'The "Restricted Secret Friends" feature has been enabled!'
-SecretChatActivated = 'The "Unrestricted Secret Friends" feature has been enabled!'
+SecretChatDeactivated = 'The "True Friends" feature has been disabled.'
+RestrictedSecretChatActivated = 'The "Restricted True Friends" feature has been enabled!'
+SecretChatActivated = 'The "Unrestricted True Friends" feature has been enabled!'
 SecretChatActivatedOK = lOK
 SecretChatActivatedChange = 'Change Options'
-ProblemActivatingChat = 'Oops!  We were unable to activate the "Secret Friends" chat feature.\n\n%s\n\nPlease try again later.'
+ProblemActivatingChat = 'Oops!  We were unable to activate the "True Friends" chat feature.\n\n%s\n\nPlease try again later.'
 ProblemActivatingChatOK = lOK
 MultiPageTextFrameNext = lNext
 MultiPageTextFramePrev = 'Previous'
@@ -179,18 +174,7 @@ CRMissingGameRootObject = 'Missing some root game objects.  (May be a failed net
 CRNoDistrictsTryAgain = 'No Districts are available. Try again?'
 CRRejectRemoveAvatar = 'The avatar was not able to be deleted, try again another time.'
 CRLostConnection = 'Your internet connection to the servers has been unexpectedly broken.'
-CRBootedReasons = {1: 'An unexpected problem has occurred.  Your connection has been lost, but you should be able to connect again and go right back into the game.',
- 100: 'You have been disconnected because someone else just logged in using your account on another computer.',
- 120: 'You have been disconnected because of a problem with your authorization to use keyboard chat.',
- 122: 'There has been an unexpected problem logging you in.  Please contact customer support.',
- 125: 'Your installed files appear to be invalid.  Please use the Play button on the official website to run.',
- 126: 'You are not authorized to use administrator privileges.',
- 127: 'A problem has occurred with your Toon.  Please contact Member Services via phone or email and reference Error Code 127.  Thank you.',
- 151: 'You have been logged out by an administrator working on the servers.',
- 152: "There has been a reported violation of our Terms of Use connected to '%(name)s'. For more details, please review the message sent to the e-mail address associated with '%(name)s'.",
- 153: 'The district you were playing on has been reset.  Everyone who was playing on that district has been disconnected.  However, you should be able to connect again and go right back into the game.',
- 288: 'Sorry, you have used up all of your available minutes this month.',
- 349: 'Sorry, you have used up all of your available minutes this month.'}
+CRBootedReasons = {1: 'An unexpected problem has occurred.  Your connection has been lost, but you should be able to connect again and go right back into the game.', 100: 'You have been disconnected because someone else just logged in using your account on another computer.', 120: 'You have been disconnected because of a problem with your authorization to use keyboard chat.', 122: 'There has been an unexpected problem logging you in.  Please contact customer support.', 125: 'Your installed files appear to be invalid.  Please use the Play button on the official website to run.', 126: 'You are not authorized to use administrator privileges.', 127: 'A problem has occurred with your Toon.  Please contact Member Services via phone, email or  live chat and reference Error Code 127.  Thank you.', 151: 'You have been logged out by an administrator working on the servers.', 152: "There has been a reported violation of our Terms of Use connected to '%(name)s'. For more details, please review the message sent to the e-mail address associated with '%(name)s'.", 153: 'The district you were playing on has been reset.  Everyone who was playing on that district has been disconnected.  However, you should be able to connect again and go right back into the game.', 288: 'Sorry, you have used up all of your available minutes this month.', 349: 'Sorry, you have used up all of your available minutes this month.'}
 CRBootedReasonUnknownCode = 'An unexpected problem has occurred (error code %s).  Your connection has been lost, but you should be able to connect again and go right back into the game.'
 CRTryConnectAgain = '\n\nTry to connect again?'
 CRToontownUnavailable = 'The server appears to be temporarily unavailable, still trying...'
@@ -283,32 +267,32 @@ SCMenuSellbotInvasion = 'SELLBOT INVASION'
 SCMenuFieldOffice = 'FIELD OFFICES'
 SCMenuIdesOfMarch = 'GREEN'
 FriendSecretNeedsPasswordWarningTitle = 'Parental Controls'
-FriendSecretNeedsParentLoginWarning = 'To get or enter a Secret, log in with the Parent Account.  You can disable this prompt by changing your Secret Friend options.'
-FriendSecretNeedsPasswordWarning = 'To get or enter a Secret, you must enter the Parent Password.  You can disable this prompt by changing your Secret Friends options.'
+FriendSecretNeedsParentLoginWarning = 'To get or enter a True Friend Code, log in with the Parent Account.  You can disable this prompt by changing your True Friend options.'
+FriendSecretNeedsPasswordWarning = 'To get or enter a True Friend Code, you must enter the Parent Account Password.  You can disable this prompt by changing your True Friends options.'
 FriendSecretNeedsPasswordWarningOK = lOK
 FriendSecretNeedsPasswordWarningCancel = lCancel
 FriendSecretNeedsPasswordWarningWrongUsername = "That's not the correct username.  Please enter the username of the parental account.  This is not the same username used to play the game."
 FriendSecretNeedsPasswordWarningWrongPassword = "That's not the correct password.  Please enter the password of the parental account.  This is not the same password used to play the game."
-FriendSecretIntro = "If you are playing Disney's Toontown Online with someone you know in the real world, you can become Secret Friends.  You can chat using the keyboard with your Secret Friends.  Other Toons won't understand what you're saying.\n\nYou do this by getting a Secret.  Tell the Secret to your friend, but not to anyone else.  When your friend types in your Secret on his or her screen, you'll be Secret Friends in Toontown!"
-FriendSecretGetSecret = 'Get a Secret'
-FriendSecretEnterSecret = 'If you have a Secret from someone you know, type it here.'
+FriendSecretIntro = "If you are playing Disney's Toontown Online with someone you know in the real world, you can become True Friends.  You can chat using the keyboard with your True Friends.  Other Toons won't understand what you're saying.\n\nYou do this by getting a True Friend Code.  Tell the True Friend Code to your friend, but not to anyone else.  When your friend types in your True Friend Code on his or her screen, you'll be True Friends in Toontown!"
+FriendSecretGetSecret = 'Get a True Friend Code'
+FriendSecretEnterSecret = 'If you have a True Friend Code from someone you know, type it here.'
 FriendSecretOK = lOK
-FriendSecretEnter = 'Enter Secret'
+FriendSecretEnter = 'Enter True Friend Code'
 FriendSecretCancel = lCancel
-FriendSecretGettingSecret = 'Getting Secret. . .'
-FriendSecretGotSecret = "Here is your new Secret.  Be sure to write it down!\n\nYou may give this Secret to one person only.  Once someone types in your Secret, it will not work for anyone else.  If you want to give a Secret to more than one person, get another Secret.\n\nThe Secret will only work for the next two days.  Your friend will have to type it in before it goes away, or it won't work.\n\nYour Secret is:"
-FriendSecretTooMany = "Sorry, you can't have any more Secrets today.  You've already had more than your fair share!\n\nTry again tomorrow."
-FriendSecretTryingSecret = 'Trying Secret. . .'
-FriendSecretEnteredSecretSuccess = 'You are now Secret Friends with %s!'
+FriendSecretGettingSecret = 'Getting True Friend Code. . .'
+FriendSecretGotSecret = "Here is your new True Friend Code.  Be sure to write it down!\n\nYou may give this True Friend Code to one person only.  Once someone types in your True Friend Code, it will not work for anyone else.  If you want to give a True Friend Code to more than one person, get another True Friend Code.\n\nThe True Friend Code will only work for the next two days.  Your friend will have to type it in before it goes away, or it won't work.\n\nYour True Friend Code is:"
+FriendSecretTooMany = "Sorry, you can't have any more True Friend Codes today.  You've already had more than your fair share!\n\nTry again tomorrow."
+FriendSecretTryingSecret = 'Trying True Friend Code. . .'
+FriendSecretEnteredSecretSuccess = 'You are now True Friends with %s!'
 FriendSecretTimeOut = 'Sorry, secrets are not working right now.'
-FriendSecretEnteredSecretUnknown = "That's not anyone's Secret.  Are you sure you spelled it correctly?\n\nIf you did type it correctly, it may have expired.  Ask your friend to get a new Secret for you (or get a new one yourself and give it to your friend)."
+FriendSecretEnteredSecretUnknown = "That's not anyone's True Friend Code.  Are you sure you spelled it correctly?\n\nIf you did type it correctly, it may have expired.  Ask your friend to get a new True Friend Code for you (or get a new one yourself and give it to your friend)."
 FriendSecretEnteredSecretFull = "You can't be friends with %s because one of you has too many friends on your friends list."
 FriendSecretEnteredSecretFullNoName = "You can't be friends because one of you has too many friends on your friends list."
-FriendSecretEnteredSecretSelf = 'You just typed in your own Secret!  Now no one else can use that Secret.'
-FriendSecretEnteredSecretWrongProduct = "You have entered the wrong type of Secret.\nThis game uses codes that begin with '%s'."
-FriendSecretNowFriends = 'You are now Secret Friends with %s!'
-FriendSecretNowFriendsNoName = 'You are now Secret Friends!'
-FriendSecretDetermineSecret = 'What type of Secret Friend would you like to make?'
+FriendSecretEnteredSecretSelf = 'You just typed in your own True Friend Code!  Now no one else can use that True Friend Code.'
+FriendSecretEnteredSecretWrongProduct = "You have entered the wrong type of True Friend Code.\nThis game uses codes that begin with '%s'."
+FriendSecretNowFriends = 'You are now True Friends with %s!'
+FriendSecretNowFriendsNoName = 'You are now True Friends!'
+FriendSecretDetermineSecret = 'What type of True Friend would you like to make?'
 FriendSecretDetermineSecretAvatar = 'Avatar'
 FriendSecretDetermineSecretAvatarRollover = 'A friend only in this game'
 FriendSecretDetermineSecretAccount = 'Account'
@@ -2819,7 +2803,7 @@ AvatarDetailPanelOnline = 'District: %(district)s\nLocation: %(location)s'
 AvatarDetailPanelOffline = 'District: offline\nLocation: offline'
 AvatarPanelFriends = 'Friends'
 AvatarPanelWhisper = 'Whisper'
-AvatarPanelSecrets = 'Secret Friends'
+AvatarPanelSecrets = 'True Friends'
 AvatarPanelGoTo = 'Go To'
 AvatarPanelIgnore = 'Ignore'
 AvatarPanelStopIgnore = 'Stop Ignoring'
