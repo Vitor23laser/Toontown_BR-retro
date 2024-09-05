@@ -33,7 +33,8 @@ DialogDoNotShowAgain = "Não\nExibir de Novo"
 
 # DistributedAvatar.py
 WhisperNoLongerFriend = "%s saiu da sua lista de amigos."
-WhisperNowSpecialFriend = "%s agora é seu amigo secreto!"
+#WhisperNowSpecialFriend = "%s agora é seu amigo secreto!"
+WhisperNowSpecialFriend = "%s agora é seu amigo verdadeiro!"
 WhisperComingToVisit = "%s está vindo visitar você."
 WhisperFailedVisit = "%s tentou visitar você."
 WhisperTargetLeftVisit = "%s foi para algum outro lugar. Tente novamente!"
@@ -44,7 +45,7 @@ WhisperFriendComingOnline = "%s está entrando on-line!"
 WhisperFriendLoggedOut = "%s fez logout."
 WhisperPlayerOnline = "%s on-line em %s"
 WhisperPlayerOffline = "%s está off-line."
-WhisperUnavailable = "Aquele jogador já não está disponível para cochichos."
+WhisperUnavailable = "That player is no longer available for whispers."
 
 DialogSpecial = "ooo"
 DialogExclamation = "!"
@@ -61,19 +62,18 @@ SCEmoteNoAccessMsg = "Você não tem acesso\na esta emoção ainda."
 SCEmoteNoAccessOK = lOK
 
 ParentLogin = "Login de Pais"
-ParentPassword = "Senha de pais"
-#ParentPassword = "Senha da conta de pais"
+#ParentPassword = "Senha de pais"
+ParentPassword = "Senha da conta de pais"
 # ChatGarbler.py
 ChatGarblerDefault = ["blá"]
 
-# ChatManager.py
 ChatManagerChat = "Chat"
 ChatManagerWhisperTo = "Cochichar com:"
 ChatManagerWhisperToName = "Cochichar com:\n%s"
 ChatManagerCancel = lCancel
 ChatManagerWhisperOffline = "%s está off-line."
 #OpenChatWarning = 'Você ainda não tem nenhum "Amigo secreto"! Você não pode conversar com outros Toons a menos que eles sejam seus Amigos secretos.\n\nPara se tornar Amigo secreto de alguém, clique na pessoa e selecione "Segredos" no painel de detalhes. É claro que você sempre poderá conversar com alguém pelo Chat rápido.'
-OpenChatWarning = 'Para se tornar Amigo secreto de alguém, clique na pessoa e selecione "Amigos Secretos" no painel de detalhes.\n\nO recurso Chat rápido Plus pode também estar ativado, qual permite usários para bater um papo por digitando palavras encontrado no Dicionário Chat Rápido Plus.\n\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em "Opções da conta" na página da web de Toontown.  '
+OpenChatWarning = 'Para se tornar Amigo secreto de alguém, clique na pessoa e selecione "Segredos" no painel de detalhes.\n\nO recurso Chat rápido Plus pode também estar ativado, qual permite usários para bater um papo por digitando palavras encontrado no Dicionário Chat Rápido Plus.\n\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em "Opções da conta" na página da web de Toontown.  '
 OpenChatWarningOK = lOK
 UnpaidChatWarning = 'Depois que você assinar o serviço, poderá ativar este botão para conversar com seus amigos usando o teclado. Até lá, você deve conversar com os outros Toons usando o Chat rápido.'
 UnpaidChatWarningPay = "Assine já!"
@@ -117,8 +117,8 @@ WhisperFromFormatName = "%s cochichos"
 ThoughtOhterFormatName = "%s pensa"
 ThoughtSelfFormatName = "Você pensa"
 
-from pandac.PandaModules import TextProperties
-from pandac.PandaModules import TextPropertiesManager
+from otp.otpbase.OTPModules import TextProperties
+from otp.otpbase.OTPModules import TextPropertiesManager
 
 shadow = TextProperties()
 shadow.setShadow(-0.025, -0.025)
@@ -156,8 +156,9 @@ TextPropertiesManager.getGlobalPtr().setProperties('preto', black)
 grey = TextProperties()
 grey.setTextColor(0.5, 0.5, 0.5, 1)
 TextPropertiesManager.getGlobalPtr().setProperties('cinza', grey)
-#ActivateChat 2006 = """O recurso Amigos secretos só permite que um associado converse com outro mediante um código secreto que deve ser comunicado fora do jogo. Para obter uma descrição completa do recurso, clique aqui: O recurso Amigos secretos não é moderado nem supervisionado. Se os pais deixarem seus filhos usarem a conta com o recurso Amigos secretos ativado, aconselhamos que eles mesmos supervisionem os filhos durante a brincadeira. Depois que for ativado, o recurso Amigos secretos ficará disponível até que alguém o desative. Ao ativar o recurso Amigos secretos, você reconhece que, apesar de haver alguns riscos inerentes a ele, você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los."""
-#ActivateChat = """O recurso Amigos secretos permite que um membro converse com outro membro apenas por meio de um código amigo secreto que deve ser comunicado fora do jogo. O recurso Amigos secretos não é moderado ou supervisionado.
+
+#ActivateChat = """O recurso Amigos secretos só permite que um associado converse com outro mediante um código secreto que deve ser comunicado fora do jogo. Para obter uma descrição completa do recurso, clique aqui: O recurso Amigos secretos não é moderado nem supervisionado. Se os pais deixarem seus filhos usarem a conta com o recurso Amigos secretos ativado, aconselhamos que eles mesmos supervisionem os filhos durante a brincadeira. Depois que for ativado, o recurso Amigos secretos ficará disponível até que alguém o desative. Ao ativar o recurso Amigos secretos, você reconhece que, apesar de haver alguns riscos inerentes a ele, você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los."""
+#ActivateChat2010 = """O recurso Amigos secretos permite que um membro converse com outro membro apenas por meio de um código amigo secreto que deve ser comunicado fora do jogo. O recurso Amigos secretos não é moderado ou supervisionado.
 
 #Por favor, escolha uma das opções do recurso Amigos secretos de Toontown:
       #\x01shadow\x01Sem O recurso Amigos secretos\x02 - Capacidade para fazer o recurso Amigos secretos é desativado.
@@ -207,6 +208,7 @@ ActivateChatPrivacyPolicy_Button1A = "Version 1"
 ActivateChatPrivacyPolicy_Button1K = "Version 1"
 ActivateChatPrivacyPolicy_Button2A = "Version 2"
 ActivateChatPrivacyPolicy_Button2K = "Version 2"
+
 PrivacyPolicyText_1A = [""" """]
 PrivacyPolicyText_1K = [""" """]
 PrivacyPolicyText_2A = [""" """]
@@ -217,7 +219,27 @@ PrivacyPolicyClose = lClose
 # SecretFriendsInfoPanel.py
 SecretFriendsInfoPanelOk = lOK
 SecretFriendsInfoPanelClose = lClose
-#SecretFriendsInfoPanelText = [""" O recurso Amigos secretos O recurso Amigos secretos permite que um membro converse diretamente com outro no Toontown On-line da Disney (o "Serviço") depois que os membros estabelecerem uma conexão de Amigos secretos. Quando o seu filho tentar usar o recurso Amigos secretos, solicitaremos que você insira a sua Senha de pais para indicar seu consentimento para que a criança use o recurso. Esta é uma descrição detalhada do processo de criação de uma conexão de Amigos secretos entre os membros fictícios chamados "Sandra" e "Marcos". 1. O responsável por Sandra e o responsável por Marcos ativam o recurso Amigos secretos inserindo suas respectivas Senhas de pais (a) nas áreas de Opções da conta do Serviço ou (b) quando for solicitado no jogo, em uma janela pop-up de Controles disponíveis aos pais. 2. Sandra pede um Segredo (descrito abaixo) no Serviço.""",""" 3. O Segredo de Sandra é comunicado a Marcos fora do Serviço. (O Segredo de Sandra pode ser comunicado a Marcos diretamente por Sandra ou indiretamente, se Sandra revelar o Segredo a outra pessoa.) 4. Marcos envia o Segredo de Sandra ao Serviço dentro de 48 horas a partir da hora em que Sandra solicitou o Segredo ao Serviço. 5. Em seguida, o Serviço notifica Marcos de que Sandra tornou-se sua Amiga secreta. Da mesma forma, o Serviço notifica Sandra de que Marcos tornou-se seu Amigo secreto. 6. Sandra e Marcos podem agora conversar diretamente um com o outro até um deles escolher cancelar o seu relacionamento como Amigo secreto, ou até que o recurso de Amigos secretos seja desativado para Sandra ou Marcos por um dos responsáveis por essas crianças. Então, a conexão de Amigos secretos pode ser desativada a qualquer momento: (a) por um membro, que remove o Amigo secreto de sua lista de amigos (conforme descrito no Serviço), ou (b) pelo responsável pelo membro, que desativa o recurso Amigos secretos na área Opções da conta do Serviço, seguindo as etapas definidas no recurso.""",""" O Segredo é um código aleatório, gerado por computador, que é atribuído a um membro específico. O Segredo precisa ser usado para ativar a conexão de Amigo secreto dentro de 48 horas a partir da hora em que o membro solicitou o Segredo; caso contrário, o Segredo expirará e não poderá ser usado. Além disso, só se pode usar um único Segredo para estabelecer uma conexão de Amigo secreto. Para fazer conexões adicionais de Amigos secretos, o membro precisará solicitar mais segredos, um para cada Amigo secreto que quiser incluir. As Amizades secretas não podem ser transferidas. Por exemplo, se Sandra se tornar Amiga secreta de Marcos, e Marcos se tornar Amigo secreto de Jéssica, Sandra não se tornará automaticamente Amiga secreta de Jéssica. Para que Sandra e Jéssica se tornem Amigas secretas, uma delas terá que solicitar um novo Segredo ao Serviço e comunicar à outra.""",""" Os Amigos secretos se comunicam entre si por meio de uma conversa interativa em formato livre. O conteúdo da conversa é inserido diretamente pelo membro participante e é processado pelo Serviço, cuja operação é realizada pelo Walt Disney Internet Group ("WDIG"), 506 2nd Avenue, Suite 2100, Seattle, WA 98104, EUA (telefone +1 (509) 742-4698; e-mail ms_support@help.go.com). Apesar de recomendarmos aos membros não trocarem com outros membros informações pessoais como nome e sobrenome, e-mails, endereço postal ou números de telefone ao usarem o recurso Amigos secretos, não podemos garantir que os membros seguirão a recomendação e que tais informações sejam preservadas. Embora o chat Amigos secretos seja automaticamente filtrado para evitar o uso da maioria dos palavrões, não há moderação nem supervisão de nossa parte. Se os pais deixarem seus filhos usarem a conta com o recurso Amigos secretos ativado no Serviço, aconselhamos que eles mesmos supervisionem os filhos durante a brincadeira.""",""" O WDIG não usa o conteúdo do chat Amigos secretos para nenhum fim que não seja a comunicação do conteúdo ao amigo secreto do membro, e não revela tal conteúdo a terceiros, exceto: (1) se exigido por lei; por exemplo, para cumprir uma ordem ou intimação judicial; (2) para fazer com que os Termos de Uso aplicáveis ao Serviço (que podem ser acessados na página principal do Serviço) sejam respeitados; ou (3) para proteger a segurança dos Membros do Serviço e o Serviço propriamente dito. Mediante solicitação ao WDIG, o responsável por uma criança-membro pode analisar e mandar apagar qualquer conteúdo do recurso de chat Amigos secretos fornecidos pela criança em questão, desde que tal conteúdo já não tenha sido excluído dos registros pelo WDIG. Obedecendo à Children's Online Privacy Protection Act, uma lei americana de proteção à privacidade on-line para as crianças, estamos proibidos de condicionar a participação da criança em qualquer tipo de atividade (inclusive o recurso Amigos secretos) ao fornecimento, por parte da criança, de mais informações pessoais do que o estritamente necessário para que ela participe de tais atividades.""",""" Além disso, conforme observado acima, reconhecemos o direito do responsável pela criança de não permitir que continuemos a deixar que a criança use o recurso Amigos secretos. Ao ativar o recurso Amigos secretos, você reconhece que há alguns riscos inerentes ao chat, no qual os membros podem conversar uns com os outros usando o recurso Amigos secretos, sendo que você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los."""
+#SecretFriendsInfoPanelText = ["""
+#O recurso Amigos secretos
+#
+#O recurso Amigos secretos permite que um membro converse diretamente com outro no Toontown On-line da Disney (o "Serviço") depois que os membros estabelecerem uma conexão de Amigos secretos. Quando o seu filho tentar usar o recurso Amigos secretos, solicitaremos que você insira a sua Senha de pais para indicar seu consentimento para que a criança use o recurso. Esta é uma descrição detalhada do processo de criação de uma conexão de Amigos secretos entre os membros fictícios chamados "Sandra" e "Marcos".
+#1. O responsável por Sandra e o responsável por Marcos ativam o recurso Amigos secretos inserindo suas respectivas Senhas de pais (a) nas áreas de Opções da conta do Serviço ou (b) quando for solicitado no jogo, em uma janela pop-up de Controles disponíveis aos pais.
+#2. Sandra pede um Segredo (descrito abaixo) no Serviço.
+#""","""
+#3. O Segredo de Sandra é comunicado a Marcos fora do Serviço. (O Segredo de Sandra pode ser comunicado a Marcos diretamente por Sandra ou indiretamente, se Sandra revelar o Segredo a outra pessoa.)
+#4. Marcos envia o Segredo de Sandra ao Serviço dentro de 48 horas a partir da hora em que Sandra solicitou o Segredo ao Serviço.
+#5. Em seguida, o Serviço notifica Marcos de que Sandra tornou-se sua Amiga secreta. Da mesma forma, o Serviço notifica Sandra de que Marcos tornou-se seu Amigo secreto.
+#6. Sandra e Marcos podem agora conversar diretamente um com o outro até um deles escolher cancelar o seu relacionamento como Amigo secreto, ou até que o recurso de Amigos secretos seja desativado para Sandra ou Marcos por um dos responsáveis por essas crianças. Então, a conexão de Amigos secretos pode ser desativada a qualquer momento: (a) por um membro, que remove o Amigo secreto de sua lista de amigos (conforme descrito no Serviço), ou (b) pelo responsável pelo membro, que desativa o recurso Amigos secretos na área Opções da conta do Serviço, seguindo as etapas definidas no recurso.
+#""","""
+#O Segredo é um código aleatório, gerado por computador, que é atribuído a um membro específico. O Segredo precisa ser usado para ativar a conexão de Amigo secreto dentro de 48 horas a partir da hora em que o membro solicitou o Segredo; caso contrário, o Segredo expirará e não poderá ser usado. Além disso, só se pode usar um único Segredo para estabelecer uma conexão de Amigo secreto. Para fazer conexões adicionais de Amigos secretos, o membro precisará solicitar mais segredos, um para cada Amigo secreto que quiser incluir.
+#
+#As Amizades secretas não podem ser transferidas. Por exemplo, se Sandra se tornar Amiga secreta de Marcos, e Marcos se tornar Amigo secreto de Jéssica, Sandra não se tornará automaticamente Amiga secreta de Jéssica. Para que Sandra e Jéssica se tornem Amigas secretas, uma delas terá que solicitar um novo Segredo ao Serviço e comunicar à outra.
+#""","""
+#Os Amigos secretos se comunicam entre si por meio de uma conversa interativa em formato livre. O conteúdo da conversa é inserido diretamente pelo membro participante e é processado pelo Serviço, cuja operação é realizada pelo Walt Disney Internet Group ("WDIG"), 506 2nd Avenue, Suite 2100, Seattle, WA 98104, EUA (telefone +1 (509) 742-4698; e-mail ms_support@help.go.com). Apesar de recomendarmos aos membros não trocarem com outros membros informações pessoais como nome e sobrenome, e-mails, endereço postal ou números de telefone ao usarem o recurso Amigos secretos, não podemos garantir que os membros seguirão a recomendação e que tais informações sejam preservadas. Embora o chat Amigos secretos seja automaticamente filtrado para evitar o uso da maioria dos palavrões, não há moderação nem supervisão de nossa parte. Se os pais deixarem seus filhos usarem a conta com o recurso Amigos secretos ativado no Serviço, aconselhamos que eles mesmos supervisionem os filhos durante a brincadeira.
+#""","""
+#O WDIG não usa o conteúdo do chat Amigos secretos para nenhum fim que não seja a comunicação do conteúdo ao amigo secreto do membro, e não revela tal conteúdo a terceiros, exceto: (1) se exigido por lei; por exemplo, para cumprir uma ordem ou intimação judicial; (2) para fazer com que os Termos de Uso aplicáveis ao Serviço (que podem ser acessados na página principal do Serviço) sejam respeitados; ou (3) para proteger a segurança dos Membros do Serviço e o Serviço propriamente dito. Mediante solicitação ao WDIG, o responsável por uma criança-membro pode analisar e mandar apagar qualquer conteúdo do recurso de chat Amigos secretos fornecidos pela criança em questão, desde que tal conteúdo já não tenha sido excluído dos registros pelo WDIG. Obedecendo à Children's Online Privacy Protection Act, uma lei americana de proteção à privacidade on-line para as crianças, estamos proibidos de condicionar a participação da criança em qualquer tipo de atividade (inclusive o recurso Amigos secretos) ao fornecimento, por parte da criança, de mais informações pessoais do que o estritamente necessário para que ela participe de tais atividades.
+#""","""
+#Além disso, conforme observado acima, reconhecemos o direito do responsável pela criança de não permitir que continuemos a deixar que a criança use o recurso Amigos secretos. Ao ativar o recurso Amigos secretos, você reconhece que há alguns riscos inerentes ao chat, no qual os membros podem conversar uns com os outros usando o recurso Amigos secretos, sendo que você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los."""
 #]
 SecretFriendsInfoPanelText = [""" O recurso Abrir chat com Amigos secretos 
 
@@ -249,13 +271,14 @@ aplicáveis ao Serviço (que podem ser acessados na página principal do Serviç
 Além disso, conforme observado acima, reconhecemos o direito do responsável pela criança de não permitir que continuemos a deixar que a criança use o recurso Amigos secretos. Ao ativar o recurso Abrir chat com Amigos secretos, você reconhece que há alguns riscos inerentes ao chat aberto, no qual os membros podem conversar uns com os outros usando o recurso Abrir chat com Amigos secretos, sendo que você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los, seja previsível ou não.
 """
 ]
+
 #LeaveToPay = """Para efetuar a compra, o jogo sairá para Toontown.com.br"""
 LeaveToPay = """Clica comprar para sair do jogo e compra um Seja um Super Toon no site Toontown.com.br"""
 LeaveToPayYes = "Comprar"
 LeaveToPayNo = lCancel
 
-LeaveToSetParentPassword = """Para configurar a Senha da conta de pais, o jogo sairá para Toontown.com.br"""
 #LeaveToSetParentPassword = """Para configurar a Senha de pais, o jogo sairá para Toontown.com.br"""
+LeaveToSetParentPassword = """Para configurar a Senha da conta de pais, o jogo sairá para Toontown.com.br"""
 LeaveToSetParentPasswordYes = "Definir senha"
 LeaveToSetParentPasswordNo = lCancel
 
@@ -268,11 +291,9 @@ SecretChatDeactivated = 'O recurso "Amigos secretos" foi desativado.'
 RestrictedSecretChatActivated = 'O recurso "Amigos secretos restritos" foi ativado!'
 #SecretChatActivated = 'O sistema "Amigos secretos" foi ativado!\n\nSe você mudar de idéia e decidir desativar este recurso mais tarde, clique em "Opções da conta" na página da web de Toontown.'
 SecretChatActivated = 'O recurso "Amigos secretos irrestritos" foi ativado!
-SecretChatActivatedOK = lOK
 SecretChatActivatedChange = "Alterar Opções"
 ProblemActivatingChat = 'Ops! Não foi possível ativar o recurso de chat "Amigos secretos".\n\n%s\n\nTente novamente mais tarde.'
 ProblemActivatingChatOK = lOK
-
 
 # MultiPageTextFrame.py
 MultiPageTextFrameNext = lNext
@@ -304,23 +325,23 @@ CRConnecting = "Conectando..."
 # host, port
 CRNoConnectTryAgain = "Não foi possível conectar-se a %s:%s. Tentar novamente?"
 CRNoConnectProxyNoPort = "Não foi possível conectar-se a %s:%s.\n\nVocê está se comunicando com a Internet por via proxy, mas o seu proxy não permite conexões na porta %s.\n\nVocê deve abrir esta porta, ou desativar o proxy, para poder jogar na Toontown. Se o proxy foi fornecido pelo seu provedor, é preciso entrar em contato com ele para abrir esta porta."
-CRMissingGameRootObject = "Há alguns objetos do jogo raiz ausentes. (A causa pode ser uma conexão de rede com falhas). Saindo do jogo."
+CRMissingGameRootObject = "Há alguns objetos do jogo principal ausentes. (A causa pode ser uma conexão de rede com falhas). Saindo do jogo."
 CRNoDistrictsTryAgain = "Não há Regiões de Toontown disponíveis. Tentar novamente?"
 CRRejectRemoveAvatar = "O Toon não pôde ser excluído, tente novamente mais tarde."
 CRLostConnection = "A sua conexão de Internet à Toontown foi interrompida inesperadamente."
 CRBootedReasons = {
-    1: "Houve um problema inesperado. A conexão falhou, mas você ainda deve conseguir conectar-se novamente para voltar ao jogo.",
+    1: "Houve um problema inesperado. A conexão falhou, e você precisa se conectar novamente para voltar ao jogo.",
     100: "Você foi desconectado porque outra pessoa acabou de fazer login usando a sua conta em outro computador.",
-    120: "Você foi desconectado porque houve um problema com sua autorização para usar o chat de teclado.",
-    122: "Houve um problema inesperado quando você fez login na Toontown. Entre em contato com o Suporte ao Cliente da Toontown.",
-    125: "Os arquivos da Toontown que você tem instalados parecem ser inválidos. Use o botão Jogar, no site da web oficial da Toontown, para executar a Toontown.",
+    120: "Você foi desconectado porque houve um problema com sua autorização para usar o chat.",
+    122: "Houve um problema inesperado quando você fez login em Toontown. Entre em contato com o Suporte ao Cliente de Toontown.",
+    125: "Os arquivos de Toontown que você tem instalados parecem ser inválidos. Use o botão Jogar, no site oficial de Toontown na web, para executar Toontown.",
     126: "Você não está autorizado a usar privilégios administrativos.",
-    127: "Ocorreu um problema com seu Toon. Entre em contato com o Atendimento aos Membros por telefone ou e-mail e indique o Código de Erro 127. Obrigado.",
+    127: "Ocorreu um problema com seu Toon. Entre em contato com o Atendimento aos Membros por telefone ou e-mail e indique o Código de Erro 127. Obrigado.",  Thank you.",
     151: "O administrador responsável pelos servidores de Toontown fez logout na sua conta.",
-    152: "Foi relatada uma violação dos nossos termos de uso, com relação a '%(name)s'. Por segurança, colocamos uma restrição temporária na conta. Para obter mais detalhes, leia a mensagem enviada ao endereço de e-mail associado a '%(name)s'.", 
-    153: "A região de Toontown em que você estava jogando foi reiniciada. Todas as pessoas que estavam jogando nesta região foram desconectadas. Entretanto, você poderá conectar-se novamente e voltar direto ao jogo.",
-    288: "Sinto muito, mas você usou todos os seus minutos disponíveis deste mês na Toontown.",
-    349: "Sinto muito, mas você usou todos os seus minutos disponíveis deste mês na Toontown.",
+    152: "Foi relatada uma violação dos nossos termos de uso, com relação a '%(name)s'. Por segurança, colocamos uma restrição temporária na conta. Para obter mais detalhes, leia a mensagem enviada ao endereço de e-mail associado a '%(name)s'.",
+    153: "A região de Toontown onde você estava jogando foi reiniciada. Todas as pessoas que estavam jogando nessa região foram desconectadas. Entretanto, você poderá conectar-se novamente e voltar direto ao jogo.",
+    288: "Sinto muito, mas você usou todos os seus minutos disponíveis deste mês em Toontown.",
+    349: "Sinto muito, mas você usou todos os seus minutos disponíveis deste mês em Toontown.",
     }
 CRBootedReasonUnknownCode = "Houve um problema inesperado (código de erro %s). A conexão falhou, mas você ainda deve conseguir conectar-se novamente para voltar ao jogo."
 CRTryConnectAgain = "\n\nTentar conectar-se novamente?"
@@ -432,6 +453,7 @@ SCMenuFieldOffice = "ESCRITÓRIO DE CAMPO"
 SCMenuIdesOfMarch = "VERDE"
 
 # FriendSecret.py
+# FriendSecret.py
 FriendSecretNeedsPasswordWarningTitle = "Controles disponíveis aos pais"
 FriendSecretNeedsParentLoginWarning = """Para conseguir ou digitar um Código de Amigo Secreto, um dos seus pais ou responsáveis precisa fazer o login. Você pode desativar esta pergunta alterando suas opções de Amigos Secretos."""
 #FriendSecretNeedsPasswordWarning = """Para pegar ou digitar um segredo, você deve inserir a Senha de pais. Você pode desativar esta solicitação alterando as suas opções de Amigos secretos."""
@@ -478,8 +500,11 @@ FriendSecretDetermineSecretAccountRollover = "Um amigo em toda a rede Disney.com
 
 # GuildMember.py
 GuildMemberTitle = "Opções de Membros"
-GuildMemberPromote = "Fazer Oficial"
+GuildMemberPromote = "Tornar-se Oficial"
+GuildMemberPromoteInvite = "Fazer Veteran"
+GuildMemberDemoteInvite = "Rebaixar para Veterano"
 GuildMemberGM = "Fazer Mestre da Guilda"
+GuildMemberGMConfirm = "Confirma"
 GuildMemberDemote = "Rebaixar"
 GuildMemberKick = "Ejeitar Membro"
 GuildMemberCancel = lCancel
@@ -495,10 +520,10 @@ GuildMemberGMMessage = "Aviso! Você gostaria de desistir da liderança da sua g
 # GuildInvitee.py
 GuildInviteeOK = lOK
 GuildInviteeNo = lNo
-GuildInviteeInvitation = "%s está convidando você para se juntar a %s."
+GuildInviteeInvitation = "%s convida você para se juntar a %s."
 
-GuildRedeemErrorInvalidToken = "Sinto muito, que o código está invalido. Por Favor tente novamente."
-GuildRedeemErrorGuildFull = "Sinto muito, esta guilda já tem muitos membros."
+GuildRedeemErrorInvalidToken = "Sinto muito, esse código é inválido. Por favor, tente novamente."
+GuildRedeemErrorGuildFull = "Sinto muito, a guilda já tem muitos associados."
 
 # FriendInvitee.py
 FriendInviteeTooManyFriends = "%s quer fazer amizade com você, mas você já tem muitos amigos em sua lista!"
@@ -542,7 +567,6 @@ GuildInviterFriendPromotedGMP = "%s tenham nomearam o %s como o novo %s"
 GuildInviterFriendDemotedGM = "%s foi nomeado por %s como o novo Mestre da Guilda que se tornou o ranque de %s"
 GuildInviterFriendDemotedGMP = "%s foram nomeados por %s como o novo Mestre da Guilda que alcançou o ranque de %s"
 
-
 # FriendInviter.py
 FriendOnline = "entrou on-line."
 FriendOffline = "saiu e está off-line."
@@ -554,12 +578,13 @@ FriendInviterYes = lYes
 FriendInviterNo = lNo
 FriendInviterClickToon = "Clique no Toon com o qual deseja fazer amizade."
 FriendInviterTooMany = "Você tem amigos demais na lista e não pode adicionar mais nenhum agora. Você terá que remover alguns amigos se desejar fazer amizade com %s."
-FriendInviterToonTooMany = "Você tem amigos Toons demais em sua lista para poder acrescentar um agora. Remova alguns amigos Tonns se quiser fazer amizade com %s."
+FriendInviterToonTooMany = "Você tem amigos Tonns demais em sua lista para poder acrescentar um agora. Remova alguns amigos Tonns se quiser fazer amizade com %s."
 FriendInviterPlayerTooMany = "Você tem amigos jogadores demais em sua lista para poder acrescentar um agora. Remova alguns amigos jogadores se quiser fazer amizade com %s."
 FriendInviterNotYet = "Deseja fazer amizade com %s?"
 FriendInviterCheckAvailability = "Verificando se %s está disponível."
 FriendInviterNotAvailable = "%s está ocupado(a) agora; tente novamente mais tarde."
-FriendInviterCantSee = "Isso só funciona se você puder ver %s."
+FriendInviterCantSee = "Isso só funciona se puder ver %s."
+FriendInviterNotOnline = "Isso só funciona se %s estiver on-line"
 FriendInviterNotOpen = "%s não tem um bate-papo aberto, use segredos para fazer amigos"
 FriendInviterWentAway = "%s saiu."
 FriendInviterAlready = "%s já é seu(sua) amigo(a)."
@@ -586,7 +611,7 @@ TalkParty = "P"
 TalkPVP = "PVP"
 
 #Spam Blocked Message
-AntiSpamInChat = "***Envio de Spam***"
+AntiSpamInChat = '***Envio de Spam***'
 
 #IgnoreConfirm.py
 IgnoreConfirmOK = lOK
@@ -616,7 +641,7 @@ EmoteList = [
  "Palmas",
  "Surpreso",
  "Confuso",
- "Casca de Banana",
+ "Debochar",
  "Saudar",
  "Muito triste",
  "Sorrisão",
@@ -644,7 +669,7 @@ EmoteWhispers = [
  "%s aplaude.",
  "%s está surpreso.",
  "%s está confuso.",
- "%s escorregou numa casca de banana.",
+ "%s debocha de você.",
  "%s saúda você.",
  "%s está muito triste.",
  "%s sorri.",
@@ -712,8 +737,7 @@ SuitBrushOffs = {
            "Acho que você está no escritório errado.",
            "Fale para o seu pessoal falar com o meu.",
            "Você não tem cacife para se encontrar comigo.",
-           "Fale com o meu assistente."
-          ]
+           "Fale com o meu assistente."]
     }
 
 SuitFaceoffTaunts = {
@@ -1099,7 +1123,7 @@ SuitFaceoffTaunts = {
 
 # These are all the standard SpeedChat phrases.
 # The indices must fit into 16 bits (0..65535)
-SpeedChatStaticText = {
+SpeedChatStaticTextCommon = {
     # top-level
     1 : lYes,
     2 : lNo,
@@ -1236,7 +1260,7 @@ SpeedChatStaticTextToontown = {
     1006 : "Siga-me.",
     1007 : "Espere por mim!",
     1008 : "Vamos esperar pelo meu amigo.",
-    1009 : "Vamos encontrar outros Toons.",
+    1009 : "Vamos encontrar outros Tonns.",
     1010 : "Espere aqui.",
     1011 : "Espere um minuto.",
     1012 : "Vamos nos encontrar aqui.",
@@ -1249,17 +1273,16 @@ SpeedChatStaticTextToontown = {
     # Places "Vamos..."
     1100 : "Vamos pegar o bondinho!",
     1101 : "Vamos voltar para o pátio!",
-    1102 : "Vamos lutar com %s!" % Cogs,
+    1102 : "Vamos lutar com %s!" % Cogs,.
     1103 : "Vamos tomar um edifício %s!" % Cog,
     1104 : "Vamos entrar no elevador!",
-    1105 : "Vamos para o %s!" % lToontownCentral,
-    1106 : "Vamos para o %s!" % lDonaldsDock ,
-    1107 : "Vamos para a %s!" % lMinniesMelodyland,
-    1108 : "Vamos para o %s!" % lDaisyGardens,
-    1109 : "Vamos para %s!" % lTheBrrrgh,
-    1110 : "Vamos para a %s!" % lDonaldsDreamland,
-    #1111 : "Vamos para a minha casa!",
-    1111 : "Vamos para a %s!" % lGoofySpeedway,
+    1105 : "Vamos para o Centro de Toontown!",
+    1106 : "Vamos para o Porto do Donald!",
+    1107 : "Vamos para a Melodilândia da Minnie!",
+    1108 : "Vamos para os Jardins da Margarida!",
+    1109 : "Vamos para O Brrrgh!",
+    1110 : "Vamos para a Sonholândia do Donald!",
+    1111 : "Vamos para a %s !" % lGoofySpeedway,
     1112 : "Vamos para a minha casa!",
     1113 : "Vamos para a sua casa!",
     1114 : "Vamos para o Quartel do Robô Vendedor!",
@@ -1415,7 +1438,7 @@ SpeedChatStaticTextToontown = {
     1904 : "Vamos nos encontrar no Salão.",
     1905 : "Vamos nos encontrar no corredor fora do salão.",
     1906 : "Vamos nos encontrar no corredor fora do salão.",
-    1907 : "Vamos nos encontrar na Sala de cogs.",
+    1907 : "Vamos nos encontrar na Sala de engrenagens.",
     1908 : "Vamos nos encontrar na Sala da caldeira.",
     1909 : "Vamos nos encontrar na Passarela leste.",
     1910 : "Vamos nos encontrar no Misturador de tinta.",
@@ -1474,7 +1497,6 @@ SpeedChatStaticTextToontown = {
     2108 : "O cofre vai virar o novo capacete dele.",
     2109 : "Não consigo chegar a nenhum cofre.",
     2110 : "Não consigo chegar a nenhum brutamontes.",
-
     2120 : "Desative os brutamontes.",
     2121 : "Prefiro desativar os brutamontes.",
     2122 : "Preciso de prática para desativar brutamontes.",
@@ -1482,7 +1504,6 @@ SpeedChatStaticTextToontown = {
     2124 : "Fique circulando.",
     2125 : "Preciso circular.",
     2126 : "Procure alguém que precise de ajuda.",
-
     2130 : "Guarde os tesouros.",
     2131 : "Pegue os tesouros.",
     2132 : "Preciso de tesouros!",
@@ -1533,8 +1554,8 @@ SpeedChatStaticTextToontown = {
     2315 : "Depressa, seu Cog está com fome!",
     2316 : "Reserve os lanches para Toons mais tristes.",
     2317 : "Pegue os lanches antes que eles caiam.",
- 
- 
+
+
     #Kart Racing Phrases
     #IMPORTANT: if you change numbers or add/subtract lines here than be
     # sure to adjust the kart racing menu guid dict below
@@ -1650,78 +1671,78 @@ SpeedChatStaticTextToontown = {
 
     5000 : "Vamos formar um Grupo de Abordagem.",
     5001 : "Junte-se ao meu Grupo de Abordagem.",
-    5002 : "Você pode me convidar para o seu Grupo de Abordagem",
-    5003 : "Eu já estou em um Grupo de Embarque.",
-    5004 : "Deixar o seu Grupo de Abordagem.",
-    5005 : "Estamos embarcando agora.",
-    5006 : "Onde estamos indo?",
-    5007 : "Estamos prontos?",    
+    5002 : "Você pode me convidar para o seu Grupo de Abordagem?",
+    5003 : "Já faço parte de um Grupo de Abordagem.",
+    5004 : "Sair do seu Grupo de Abordagem.",
+    5005 : "Estamos abordando agora.",
+    5006 : "Aonde vamos?",
+    5007 : "Preparados?",
     5008 : "Vamos!",
-    5009 : "Não saia desta área ou sairá do Grupo de Abordagem.",
+    5009 : "Não saia dessa área ou sairá do Grupo de Abordagem.",
 
     # Let's Go to...
     5100 : "Vamos para o Três da Frente.",
     5101 : "Vamos para o Seis do Meio.",
-    5102 : "Vamos para o Nove de Trás.",
-    5103 : "Vamos para a Batalha do Presidente",
-    5104 : "Vamos para a Batalha do Sênior V.P..",
-    5105 : "Vamos para a Entrada Principal.",
-    5106 : "Vamos para a Entrada dos Fundos.",    
-    5107 : "Vamos para a Mina de Moedas.",
-    5108 : "Vamos para a Mina de Dinheiro",
-    5109 : "Vamos para a Mina de Ouro.",
-    5110 : "Vamos para a Batalha do C.F.O.",
+    5102 : "Vamos para o Nove dos Fundos.",
+    5103 : "Vamos para a Batalha do Presidente.",
+    5104 : "Vamos para a Batalha do V. P. Sênior.",
+    5105 : "Vamos para a Entrada da Frente.",
+    5106 : "Vamos para a Entrada dos Fundos.",
+    5107 : "Vamos para a Casa da Moeda.",
+    5108 : "Vamos para a Casa da Moeda de Dólar.",
+    5109 : "Vamos para a Casa da Moeda de Barras de Ouro.",
+    5110 : "Vamos para a Batalha do Diretor Financeiro.",
     5111 : "Vamos para a Batalha do Juiz-Chefe.",
-    5112 : "Vamos para o Escritório dos Robôs da Lei A.",
-    5113 : "Vamos para o Escritório dos Robôs da Lei B.",
-    5114 : "Vamos para o Escritório dos Robôs da Lei C.',
-    5115: "Vamos para o Escritório dos Rôbos da Lei D",
+    5112 : "Vamos para o Escritório da Lei A.",
+    5113 : "Vamos para o Escritório da Lei B.",
+    5114 : "Vamos para o Escritório da Lei C.",
+    5115 : "Vamos para o Escritório da Lei D.",
 
     # We're going to...
     5200 : "Estamos indo para o Três da Frente.",
     5201 : "Estamos indo para o Seis do Meio.",
-    5202 : "Estamos indo para o Nove de Trás.",
+    5202 : "Estamos indo para o Nove dos Fundos.",
     5203 : "Estamos indo para a Batalha do Presidente.",
-    5204 : "Estamos indo para a Batalha do Sênior V.P..",
-    5205 : "Estamos indo para a Entrada Principal.",
+    5204 : "Estamos indo para a Batalha do V. P. Sênior.",
+    5205 : "Estamos indo para a Entrada da Frente.",
     5206 : "Estamos indo para a Entrada dos Fundos.",
-    5207 : "Estamos indo para a Mina de Moedas.",
-    5208 : "Estamos indo para a Mina de Dinheiro.",     
-    5209 : "Estamos indo para a Mina de Ouro",
-    5210 : "Estamos indo para a Batalha do C.F.O.",
+    5207 : "Estamos indo para a Casa da Moeda.",
+    5208 : "Estamos indo para a Casa da Moeda de Dólar.",
+    5209 : "Estamos indo para a Casa da Moeda de Barras de Ouro.",
+    5210 : "Estamos indo para a Batalha do Diretor Financeiro.",
     5211 : "Estamos indo para a Batalha do Juiz-Chefe.",
-    5212 : "Estamos indo para o Escritório do Rôbos da Lei A.",
-    5213 : "Estamos indo para o Escritório do Rôbos da Lei B.",
-    5214 : "Estamos indo para o Escritório do Rôbos da Lei C.",
-    5215 : "Estamos indo para o Escritório do Rôbos da Lei D.",
+    5212 : "Estamos indo para o Escritório da Lei A.",
+    5213 : "Estamos indo para o Escritório da Lei B.",
+    5214 : "Estamos indo para o Escritório da Lei C.",
+    5215 : "Estamos indo para o Escritório da Lei D.",
 
     # Parties General Phrases
     5300 : "Vamos para uma festa.",
-    5301 : "Vejo você na festa!", 
-    5302 : "Minha festa começou!", 
-    5303 : "Venha para a minha festa!",
-    
+    5301 : "Vejo você na festa!",
+    5302 : "Minha festa começou!",
+    5303 : "Venha para minha festa!",
+
     # Parties Phrases when inside a party
-    5304 : "Bem-vindo à minha festa!", 
-    5305 : "Esta festa tem regras!", 
-    5306 : "Sua festa é divertida!", 
-    5307 : "É hora da festa!", 
-    5308 : "O tempo está ficando para fora!",            
-    5309 : "Nenhum Cogs são permitidos!",
-    5310 : "Eu gosto dessa música!", 
-    5311 : "Esta música é ótima!", 
-    5312 : "Canhões são uma explosão!", 
-    5313 : "Vê-me salto!", 
-    5314 : "Trampolines são divertidos!", 
-    5315 : "Deixe-nos Pegar jogo!", 
-    5316 : "Vamos dançar!", 
-    5317 : "Para a pista de dança!", 
-    5318 : "Vamos brincar de guerra!", 
-    5319 : "Comece os fogos de artifício!", 
-    5320 : "Estes fogos de artifício são lindos", 
-    5321 : "Decorações agradáveis.", 
-    5322 : "Eu gostaria de poder comer este bolo!",
-        
+    5304 : "Vamos brincar de Cabo de Guerra!",
+    5305 : "Vamos brincar de Pega-pega!",
+    5306 : "Vamos dançar!",
+    5307 : "Para a pista de dança!",
+    5308 : "Lançar fogos de artifício!",
+    5309 : "Veja como eu pulo!",
+    5310 : "Gosto dessa música!",
+    5311 : "Essa música é legal!",
+    5312 : "Esta festa é maneira!",
+    5313 : "Sua festa é animada!",
+    5314 : "Trampolins são divertidos!",
+    5315 : "É hora da diversão!",
+    5316 : "Canhões são uma curtição!",
+    5317 : "O tempo está acabando!",
+    5318 : "Decoração bacana.",
+    5319 : "Eu queria comer esse bolo!",
+    5320 : "Esses fogos de artifício são lindos!",
+    5321 : "Cogs não entram!",
+    5322 : "Queria comer este bolo!",
+
     # Promotional Considerations
     10000 : "A escolha é sua!",
     10001 : "Você vai votar em quem?",
@@ -2131,36 +2152,36 @@ SpeedChatStaticTextToontown = {
     21006: 'Por favor, não me chateie.',
 
     # Pet/Doodle Tricks
-    21200: 'Pula!',
-    21201: 'Dá a pata!',
-    21202: 'Finge de morto!',
-    21203: 'Rola!',
-    21204: 'Faz cambalhota!',
-    21205: 'Dança!',
-    21206: 'Fala!',
+    21200: 'Pule!',
+    21201: 'Dê a pata!',
+    21202: 'Finja de morto!',
+    21203: 'Role!',
+    21204: 'Dê cambalhota!',
+    21205: 'Dance!',
+    21206: 'Fale!',
 
     # Phrases for April Toon's week 2009  
-#    60100 : "Happy April Toons' Day!",
-#    60101 : "Happy April Toons' Week!",
-#    60102 : "Welcome to my April Toons' Day party!",
-#    60103 : "Welcome to my April Toons' Week party!",
-#    60110 : "Watch how far I can jump.",
-#    60111 : "Wow, you jumped really far!",
-#    60112 : "Hey, Doodles can talk!",
-#    60113 : "Did your Doodle just talk?",
-#    60120 : "Where's Mickey?",
-#    60121 : "Where's Minnie?",
-#    60122 : "Where's Pluto?",
-#    60123 : "Where's Donald?",
-#    60124 : "Where's Goofy?",
-#    60125 : "Where's Daisy?",
-#    60130 : "In Daisy's Garden.",
-#    60131 : "In Toontown Central.",
-#    60132 : "In The Brrrgh.",
-#    60133 : "In Minnie's Melodyland.",
-#    60134 : "In Goofy's Speedway.",
-#    60135 : "In Donald's Dreamland.",
-#    61040 : "Wow, look where that kart landed!",
+#    30100 : "Happy April Toons' Day!",
+#    30101 : "Happy April Toons' Week!",
+#    30102 : "Welcome to my April Toons' Day party!",
+#    30103 : "Welcome to my April Toons' Week party!",
+#    30110 : "Watch how far I can jump.",
+#    30111 : "Wow, you jumped really far!",
+#    30112 : "Hey, Doodles can talk!",
+#    30113 : "Did your Doodle just talk?",
+#    30120 : "Where's Mickey?",
+#    30121 : "Where's Minnie?",
+#    30122 : "Where's Pluto?",
+#    30123 : "Where's Donald?",
+#    30124 : "Where's Goofy?",
+#    30125 : "Where's Daisy?",
+#    30130 : "In Daisy's Garden.",
+#    30131 : "In Toontown Central.",
+#    30132 : "In The Brrrgh.",
+#    30133 : "In Minnie's Melodyland.",
+#    30134 : "In Goofy's Speedway.",
+#    30135 : "In Donald's Dreamland.",
+#    31040 : "Wow, look where that kart landed!",
 
     # Phrases for April Toon's week
     30100: "Feliz Semana da mentira Toons!",
@@ -2249,14 +2270,14 @@ SpeedChatStaticTextToontown = {
     30225: "Isca a alegria do jeito Toontown!\nBoas férias de inverno!",
 
     # Phrases for Halloween
-    30250: "Buu!",
-    30251: "Feliz Dia das Bruxas!",
+    30250: "Bu!",
+    30251: "Feliz Halloween!",
     30252: "Assustador!",
 
     # Phrases for Christmas
-    30275: "Boas festas!",
-    30276: "Cumprimentos de temporada!",
-    30277: "Tenha um inverno maravilhoso!",
+    30250: "Buu!",
+    30251: "Feliz Dia das Bruxas!",
+    30252: "Assustador!",
 
     # Phrases for Silly Story
     30301: "Você viu o Medidor de Bobagem?",
@@ -2310,7 +2331,7 @@ SpeedChatStaticTextToontown = {
     30360: "Gosto do cog ondulado que bate os braços!",
     30361: "Eu pulei na cara de um Cog!",
 
-    # Phrases for Sellbot Field Office
+    # Phrases for Sellbot Field Offices
     30400: "Os Robôs Vendedores estão invadindo!",
     30401: "O sênior VP estava louco com a Operação: Storm Sellbot ...",
     30402: "Ele está enviando os Robôs Vendedores para invadir Toontown!",
@@ -2331,21 +2352,20 @@ SpeedChatStaticTextToontown = {
     30417: "A saída está aberta!",
     30418: "É o chefe!",
 
-    # Phrases for Ides March
+    # Phrases for Ides Of March
     30450: "É fácil ser verde!",
     30451: "Visite Jeans Feijão Verde e você também pode ser verde!",
     30452: "Fica na Rua dos Carvalhos em Jardins da Margarida.",
-    }
-
+}
 SpeedChatStaticTextPirates = {
     # PIRATES ROOT - TOP LEVEL
     50001 : 'Sim',
     50002 : 'Não',
     50003 : 'Arrr!',
-    50004 : "Sim, sim, Capitão!",
+    50004 : 'Sim, sim, Capitão!',
     50005 : 'Ok',
 
-    # Common Expressions
+    # EXPRESSIONS
     50100 : "Todos a bordo!",
     50101 : "Ei, marujo!",
     50102 : "Alto lá!",
@@ -2443,15 +2463,15 @@ SpeedChatStaticTextPirates = {
     51510 : "Vamos navegar para Cutthroat.",
     51511 : "Vamos navegar para Rumrunner's Isle.",
     51512 : "Vamos navegar para Isla Cangrejos.",
-    
+      
     # PLACES - LETS HEAD TO...
     51600 : "Vamos para a cidade.",
     51601 : "Vamos para as docas.",
-    51602 : "Vamos para o bar.",  
+    51602 : "Vamos para o bar.",
 
     # PLACES - LETS HEAD TO... - PORT ROYAL
     51800 : "Vamos para o Forte Charles.",
-    51801 : "Vamos para a Mansão do Governador.",
+    51801 : "Vamos para o Palácio do Governador.",
 
     # PLACES - WHERE IS ..?
     52500 : "Onde estou?",
@@ -2481,15 +2501,47 @@ SpeedChatStaticTextPirates = {
     50211 : "Você é uma lona tímida de uma vela cheia, não é, companheiro?",
 
     # Compliments
-    50300 : "Bom tiro, amigo!",
+    50300 : "Belo disparo, colega!",
     50301 : "Um golpe bem dado!",
-    50302 : "Belo tiro!",
-    50303 : "Muito bem!",
-    50304 : "Nós mostramos a eles!",
-    50305 : "Você não é tão ruim assim!",
-    50306 : "Uma bela pilhagem!",
+    50302 : "Boa tentativa!",
+    50303 : "Que bom ver você!",
+    50304 : "Mostramos a eles!",
+    50305 : "Vocês não são tão ruins assim!",
+    50306 : "Que bela pilhagem fizemos!",
 
-    # Card Games
+    # Adventures
+    50500 : "Vamos içar velas!",
+    50501 : "Suba a bordo! Estamos zarpando!",
+    50502 : "Vamos saquear!",
+    50503 : "Vamos navegar até Bilgewater!",
+    50504 : "Vamos navegar até Port Royale.",
+    50505 : "Vamos usar um Mapa do Tesouro!",
+    50506 : "Vamos retornar ao Porto.",
+
+    # Ships
+    50600 : "Bombordo! (esquerda)",
+    50601 : "Estibordo! (direita)",
+    50602 : "Chegando!",
+    50603 : "Costado! Protejam-se!",
+    50604 : "Armar canhões!",
+    50605 : "Disparar!",
+    50606 : "Cessar fogo!",
+    50607 : "Mire no mastro!",
+    50608 : "Mire no casco!",
+    50609 : "Preparar para abordar!",
+    50610 : "Ela está virando de lado!",
+    50611 : "Disparar a toda carga!",
+    50612 : "A toda vela!",
+    50613 : "Arrr! Estamos indo!",
+    50614 : "Está escapando!",
+    50615 : "Temos uma inundação!",
+    50616 : "Não podemos continuar!",
+    50617 : "Precisamos de reparos!",
+    50618 : "Recuar!",
+    50619 : "Homem ao mar!",
+    50620 : "Basta! Uma Esquadra Ligeira imunda!",
+
+       # Card Games
     52400 : "Que a sorte esteja minha senhora.",
     52401 : "Acho que essas cartas estão marcadas!",
     52402 : "Caramba, trapaceiro!",
@@ -2507,7 +2559,7 @@ SpeedChatStaticTextPirates = {
 
  # Minigames
 
-   # Minigames - Pesca
+    # Minigames - Pesca
     53101 : "Peguei um peixe!",
     53102 : "Vi um peixe lendário!",
     53103 : "O que você pescou?",
@@ -2521,7 +2573,7 @@ SpeedChatStaticTextPirates = {
     53113 : "Onde está o Mestre da Pesca?",
     53114 : "Você completou sua coleção de peixes?",
 
-   # Minijogos - Defesa de Canhão
+    # Minijogos - Defesa de Canhão
     53120 : "Atire no meu alvo!",
     53121 : "Atire no navio mais próximo da costa!",
     53122 : "Tem um navio fugindo!",
@@ -2541,7 +2593,7 @@ SpeedChatStaticTextPirates = {
     53145 : "Esta poção foi fácil o suficiente.",
     53146 : "Esta poção foi difícil de preparar, eu te digo!",
 
-   # Minigames - Reparo
+    # Minigames - Reparo
     53160 : "Precisamos de alguém para bombear o porão!",
     53161 : "Precisamos de alguém para esfregar!",
     53162 : "Precisamos de alguém para serrar!",
@@ -2551,8 +2603,6 @@ SpeedChatStaticTextPirates = {
     53166 : "Eu faço isso!",
     53167 : "Continue assim, este navio não vai se consertar sozinho!",
     53168 : "Ótimo trabalho consertando o navio!",
-    
-    # Invitations
     52100 : "Quer se agrupar?",
     52101 : "Juntar-se à minha tripulação?",
 
@@ -2567,6 +2617,16 @@ SpeedChatStaticTextPirates = {
     52303 : "Quer iniciar um jogo de batalha em equipe?",
     52304 : "Junte-se ao meu jogo de batalha em equipe.",
 
+    # Invitations - Versus Cannon Defense
+    52350 : "Junte-se à minha Defesa de Canhão.",
+    52351 : "Quer começar uma Defesa de Canhão?",
+    52352 : "Você pode me dar uma mão com o Reparo?',
+    52353 : "Precisamos consertar o navio agora!',
+    52354 : "Quer pescar?",
+    52355 : "Quer ir pescar comigo?',
+    52356 : "Junte-se à minha tripulação para pescar?',
+    52357 : "Hora de preparar algumas poções!',
+    52358 : "Você deveria tentar preparar poções.',
 
     # PLACES - WHERE IS..? - PORT ROYAL (LEGACY)
     52000 : "",
@@ -2597,14 +2657,14 @@ SpeedChatStaticTextPirates = {
     60101 : "Olá!",
     60102 : "Oi!",
     60103 : "Ei!",
-    60104 : "Oi pessoal!",
-    60105 : "Como é que tá?",
+    60104 : "Oi, pessoal!",
+    60105 : "Como é que está?",
     60106 : "Qual é?",
 
     # Bye
     60200 : "Tchau!",
     60201 : "Até mais!",
-    60202 : "Te vejo por aí!",
+    60202 : "Vejo você por aí!",
     60203 : "Volto já!",
     60204 : "Tenho que ir.",
 
@@ -2623,9 +2683,9 @@ SpeedChatStaticTextPirates = {
     # Sad
     60400 : ":-(",
     60401 : "Aahh!",
-    60402 : "Pôxa, cara!",
+    60402 : "Poxa, cara!",
     60403 : "Ai!",
-    60404 : "Pôxa!",
+    60404 : "Poxa!",
 
     # Places
     60500 : "Cadê você?",
@@ -2634,7 +2694,7 @@ SpeedChatStaticTextPirates = {
     60503 : "Vamos para Toontown.",
     60504 : "Vamos para os Piratas do Caribe!",
 
-   # Animated Emotes
+    # Animated Emotes
     60505 : "Girar moeda",
     60506 : "Dançar",
     60507 : "Canto 1",
@@ -2688,8 +2748,10 @@ SpeedChatStaticTextPirates = {
     65000 : "Sim",
     65001 : "Não",
 
-    60909 : "Verifique a mão",
+    60909 : "Check Hand",
     }
+
+SpeedChatStaticText = SpeedChatStaticTextCommon
 
 # Emote IDs - These are used in SC to determine if a msg is a animated emote
 Emotes_Root = "EMOÇÕES"
@@ -2971,8 +3033,6 @@ CustomSCStrings = {
     3510 : "Bem que você queria!",
     3520 : "Você está com problemas!",
     3530 : "Você é demais!",
-
-    # Series 4
     4000 : "Os Tonns mandam na área!",
     4010 : "Besteirol de Cog!",
     4020 : "Toons de todo o mundo, uni-vos!",
@@ -3115,6 +3175,9 @@ CustomSCStrings = {
     11017 : "Com \"nataleza\"!",
     11018 : "Até o Natal, tudo bem!",
     11019 : "Você vai se \"arrenapender\"!",
+    11020 : "Tenha um inverno maravilhoso!",
+    11021 : "As decorações da festa de fim de ano são Toontastico!",
+    11022 : "Soldados Toons estão organizando festas de fim de ano!",
 
     # Valentines
     12000 : "Fica comigo!",
@@ -3134,6 +3197,11 @@ CustomSCStrings = {
     12014 : "Batatinha quando nasce...",
     12015 : "Esparrama pelo chão...",
     12016 : "Que gracinha!",
+    12050 : "EU AMO acabar com Cogs!",
+    12051 : "Você é um estouro!",
+    12052 : "Só tenho olhos para você!",
+    12053 : "Você é mais doce do que uma bala!",
+    12054 : "Eu ADORARIA ter você em minha Festa Dia dos namorados!",
 
     # St. Patricks Day
     13000 : "Tenho você no coração!",
@@ -3200,7 +3268,7 @@ SCMenuCustomCogIndices = {
     'bw' : (20299, 20308),
     'ls' : (20309, 20319),
     'rb' : (20320, 20329),
-    'sc' : (20330, 20331),
+    'sc' : (20330, 20340),
     'sd' : (20341, 20350),
     }
 
@@ -3230,22 +3298,22 @@ PSCMenuInsults = "INSULTOS"
 PSCMenuCompliments = "ELOGIOS"
 PSCMenuCardGames = "JOGOS DE CARTAS"
 PSCMenuPoker = "PÔQUER"
-PSCMenuBlackjack = "O JOGO DE VINTE-E-UM"
+PSCMenuBlackjack = "VINTE E UM"
 PSCMenuMinigames = "MINIGAMES"
 PSCMenuFishing = "FISHING"
-PSCMenuCannonDefense = "CANHÃO DE DEFESA"
-PSCMenuPotions = "POÇÃO DE FERMENTAÇÃO"
-PSCMenuRepair = "REPARAR"
+PSCMenuCannonDefense = "CANNON DEFENSE"
+PSCMenuPotions = "POTION BREWING"
+PSCMenuRepair = "REPAROS"
 PSCMenuInvitations = "CONVITES"
 PSCMenuVersusPlayer = "VERSUS"
-PSCMenuHunting = "CAÇANDO"
+PSCMenuHunting = "PERSEGUIÇÃO"
 PSCMenuQuests = "MISSÕES"
 PSCMenuGM = "GM"
 
 
 
 # Grandfathered Speedchat Headers
-PSCMenuShips      = "NAVIOS"
+PSCMenuShips = "NAVIOS"
 PSCMenuAdventures = "AVENTURA"
 
 
@@ -3300,16 +3368,16 @@ NCTooShort = 'Este nome é muito curto.'
 NCNoDigits = 'O nome não pode conter números.'
 NCNeedLetters = 'Cada palavra do nome deve conter algumas letras.'
 NCNeedVowels = 'Cada palavra do nome deve conter algumas vogais.'
-NCAllCaps = 'O seu nome não pode estar todo em maiúscula.'
-NCMixedCase = 'Este nome tem muitas letras em minúscula.'
+NCAllCaps = 'O seu nome não pode estar todo em maiúsculas.'
+NCMixedCase = 'Este nome tem muitas letras em minúsculas.'
 NCBadCharacter = "O seu nome não pode conter o caractere '%s'"
-NCRepeatedChar = "Seu nome tem muitos caracteres '%s'"
+NCRepeatedChar = "Your name has too many of the character '%s'"
 NCGeneric = 'Sinto muito, este nome não vai funcionar.'
 NCTooManyWords = 'O seu nome não pode ter mais de quatro palavras.'
-NCDashUsage = ("Hífens podem ser usados apenas para ligar duas palavras (como em 'Bu-Bu').")
+NCDashUsage = ("Hifens podem ser usados apenas para ligar duas palavras (como em 'Bu-Bu').")
 NCCommaEdge = "O seu nome não pode começar ou terminar com vírgula."
 NCCommaAfterWord = "Você não pode começar uma palavra com vírgula."
-NCCommaUsage = ('Este nome não usa vírgulas corretamente. As vírgulas devem juntar duas palavras, como no nome "Dr. Quack, MD". As vírgulas devem também ser seguidas por um espaço.')
+NCCommaUsage = ('Este nome não usa vírgulas corretamente. As vírgulas devemintercalar duas palavras, como no nome "Dr. Quack, MD".As vírgulas devem também ser seguidas por um espaço.')
 NCPeriodUsage = ('Este nome não usa pontos corretamente. Os pontos são permitidos somente em palavras como "Sr.", "Sra.", "J.P." etc.')
 NCApostrophes = 'Este nome tem muitos apóstrofos.'
 
@@ -3326,8 +3394,7 @@ AvatarDetailPanelOffline = "Região: off-line\nLocal: off-line"
 # AvatarPanel.py
 AvatarPanelFriends = "Amigos"
 AvatarPanelWhisper = "Cochichar"
-#AvatarPanelSecrets = "Secretos"
-AvatarPanelSecrets = "Amigos Secretos"
+AvatarPanelSecrets = "Segredos"
 AvatarPanelGoTo = "Ir para"
 AvatarPanelIgnore = "Ignorar"
 AvatarPanelStopIgnore = "Parar de Ignorar"
@@ -3361,26 +3428,18 @@ KartRacingMenuSections = [
  "PROVOCAÇÕES"
 ]
 
-#AprilToonsMenuSections = [
- #-1,
- #"CUMPRIMENTOS",
- #"PROPRIEDADE",
- #"QUESTÕES",
- #"RESPOSTAS"
-#]
-
 AprilToonsMenuSections = [
  -1,
  "CUMPRIMENTOS",
- "PARQUES",
- "PERSONAGENS",
- "PROPRIEDADES",
- ]
+ "PROPRIEDADE",
+ "PERGUNTAS",
+ "RESPOSTAS"
+]
 
 SillyHolidayMenuSections = [
--1,
-"MUNDO",
-"BATALHA",
+ -1,
+ "Mundo",
+ "Batalha",
 ]
 
 CarolMenuSections = [
@@ -3389,8 +3448,8 @@ CarolMenuSections = [
 
 VictoryPartiesMenuSections = [
  -1,
- "FESTA",
- "ITENS",
+ "PARTY",
+ "ITEMS",
 ]
 
 GolfMenuSections = [
@@ -3403,7 +3462,7 @@ GolfMenuSections = [
 BoardingMenuSections = [
 "GRUPO",
 "Vamos para...",
-"Estava indo para...",
+"Estamos indo para...",
 -1,
 ]
 
@@ -3413,13 +3472,20 @@ SellbotNerfMenuSections = [
  'TORRES/VP Robô Vendedor',
 ]
 
+LawbotNerfMenuSections = [
+ -1,
+ 'REUNINDO',
+ 'COURTHOUSE/CJ',
+]
+
 JellybeanJamMenuSections = [
  'OBTER BALINHAS',
  'GASTAR BALINHAS',
+# 'GRUPOS DE BALINHAS',
 ]
 
 WinterMenuSections = [
- 'CANTANDO',
+ 'CANÇÕES NATALINAS',
  -1,
 ]
 
@@ -3436,14 +3502,13 @@ WhiteListMenu = [
 "LISTA DE PERMISSÕES"
 ]
 
-
 SellbotInvasionMenuSections = [
  -1,
 ]
 
 SellbotFieldOfficeMenuSections = [
  -1,
- 'ESTRATÉGIA',
+ 'STRATEGY',
 ]
 
 IdesOfMarchMenuSections = [
@@ -3456,6 +3521,7 @@ TTAccountCallCustomerService = "Favor entrar em contato com o Atendimento ao Con
 # Fill in %s with phone number from account server
 TTAccountCustomerServiceHelp = "\nSe precisar de ajuda, favor entrar em contato com o Atendimento ao Comsumidor em %s."
 TTAccountIntractibleError = "Um erro ocorreu."
+
 
 def timeElapsedString(timeDelta):
     timeDelta = abs(timeDelta)
