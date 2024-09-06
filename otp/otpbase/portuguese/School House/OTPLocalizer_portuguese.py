@@ -2247,7 +2247,7 @@ Emotes = (60505,
  60517,
  60678,
  60909)
-SCFactoryMeetMenuIndexes = {1903,
+SCFactoryMeetMenuIndexes = (1903,
  1904,
  1906,
  1907,
