@@ -6341,7 +6341,8 @@ NCPeriodUsage = ('Este nome não usa pontos corretamente. Os pontos são'
 NCApostrophes = 'Este nome tem excesso de apóstrofos.'
 
 # DistributedTrophyMgrAI.py
-RemoveTrophy = "Quartel dos Toons: Os "+ Cogs +" dominaram um dos edifícios que você salvou!"
+#RemoveTrophy = "Quartel dos Toons: Os "+ Cogs +" dominaram um dos edifícios que você salvou!"
+RemoveTrophy = lToonHQ + ': '+ TheCogs +' dominaram um dos edifícios que você salvou!'
 
 # toon\DistributedNPCTailor/Clerk/Fisherman.py
 STOREOWNER_TOOKTOOLONG = 'Precisa de mais tempo para pensar?'
