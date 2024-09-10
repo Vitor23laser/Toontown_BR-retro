@@ -54,12 +54,16 @@ NametagLabel = "Nome"
 
 UnpaidNameTag = "Basico"
 
-# GM nametags 
-GM_1 = "CONSELHO TOON"
-GM_2 = "TOONS SOLDADOS"
-GM_3 = "GUARDA FLORESTAL DA RESISTÊNCIA"
-GM_4 = "GC"
-                        
+# GM nametags 2011
+#GM_1 = "CONSELHO TOON"
+#GM_2 = "TOONS SOLDADOS"
+#GM_3 = "GUARDA FLORESTAL DA RESISTÊNCIA"
+#GM_4 = "GC"
+#GM nametags
+GM_Names = (CONSELHO TOON, 
+TOONS SOLDADOS, 	 
+GUARDA FLORESTAL DA RESISTÊNCIA,
+GM)
 BuildingNametagFont = 'phase_3/models/fonts/MickeyFont'
 BuildingNametagShadow = None
 
