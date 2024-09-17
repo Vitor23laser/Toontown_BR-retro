@@ -1,4 +1,3 @@
-#battle/PlayByPlayText.py
 PBPTonscreenText = 0.15
 
 #battle/RewardPanel.py
@@ -279,13 +278,13 @@ PPinstructionLabel = 0.07
 PPelementPrice = 0.065
 
 #parties/DistributedParty.py
-DPpartyCountdownClockTextScale = 0.8
-DPpartyCountdownClockMinutesScale = 0.8
-DPpartyCountdownClockColonScale = 0.8
-DPpartyCountdownClockSecondScale = 0.8
-DPpartyCountdownClockMinutesPosY = -0.9
-DPpartyCountdownClockColonPosY = -0.9
-DPpartyCountdownClockSecondPosY = -0.9
+DPtimerTextLabel = 0.8
+DPtimerMinute = 0.8
+DPtimerColon = 0.8
+DPtimerSecond = 0.8
+DPtimerMinutesPos = (-1.2, -0.9, 0.0)
+DPtimerColonPos = (0.0, -0.9, 0.0)
+DPtimerSecondPos = (0.0, -0.9, 0.0)
 
 #parties/PublicPartyGui.py
 PPGpartyStartButton = 0.065
