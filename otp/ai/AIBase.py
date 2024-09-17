@@ -164,7 +164,7 @@ class AIBase:
         self.createStats()
 
         self.restart()
-
+        return
         ## ok lets over ride the time yieldFunction
         #self.MaxEpockSpeed = 1.0/60.0;        
         #taskMgr.doYield = self.taskManagerDoYield;
