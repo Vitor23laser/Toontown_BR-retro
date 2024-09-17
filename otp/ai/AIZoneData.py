@@ -37,8 +37,6 @@ class AIZoneDataObj:
     DefaultCTravName = 'default'
 
     def __init__(self, parentId, zoneId):
-        assert self.notify.debug(
-            'AIZoneDataObj.__init__(%s, %s)' % (parentId, zoneId))
         self._parentId = parentId
         self._zoneId = zoneId
         self._refCount = 0
@@ -103,9 +101,7 @@ class AIZoneDataObj:
             render = self.getRender()
             self._nonCollidableParent = render.attachNewNode('nonCollidables')
         if __dev__:
-            assert self._nonCollidableParent.getCollideMask() == BitMask32().allOff(),\
-                   "collidable geometry under non-collidable parent node for location "\
-                   "(%s,%s)" % (self._parentId, self._zoneId)
+            pass
         return self._nonCollidableParent
 
     def getParentMgr(self):
@@ -121,12 +117,12 @@ class AIZoneDataObj:
         return name in self._collTravs
     
     def getCollTrav(self, name=None):
-        #assert self.notify.debug('getCollTrav(%s, %s)' % (self._parentId, self._zoneId))
         if name is None:
             name = AIZoneDataObj.DefaultCTravName
         if name not in self._collTravs:
             self._collTravs[name] = CollisionTraverser('cTrav-%s-%s-%s' % (name, self._parentId, self._zoneId))
         return self._collTravs[name]
+        
     def removeCollTrav(self, name):
         if (self._collTravs.has_key(name)):
             del self._collTravs[name]
@@ -161,7 +157,6 @@ class AIZoneDataObj:
     def doCollTrav(self, topNode=None, cTravName=None):
         # call this method to do a one-shot collision traversal (instead of starting up a task
         # to traverse every frame)
-        assert self.notify.debug('doCollTrav(%s, %s)' % (self._parentId, self._zoneId))
         self.getCollTrav(cTravName)
         self._doCollisions(topNode=topNode, cTravName=cTravName)
 
@@ -183,10 +178,9 @@ class AIZoneDataObj:
                         priority=OTPGlobals.AICollisionPriority,
                         extraArgs=[self._zoneId])
             self._collTravsStarted.add(cTravName)
-            assert self.notify.debug(
-                'adding %s collision traversal for (%s, %s)' % (cTravName, self._parentId, self._zoneId))
         self.setRespectPrevTransform(respectPrevTransform, cTravName=cTravName)
-
+        return
+        
     def stopCollTrav(self, cTravName=None):
         """frees resources used by collision traverser for this zone"""
         assert self.notify.debugStateCall(self)
@@ -198,11 +192,14 @@ class AIZoneDataObj:
                 'removing %s collision traversal for (%s, %s)' % (cTravName, self._parentId, self._zoneId))
             taskMgr.remove(self._getCTravTaskName(name=cTravName))
             self._collTravsStarted.remove(cTravName)
-
+        return
+        
     def setRespectPrevTransform(self, flag, cTravName=None):
         if cTravName is None:
             cTravName = AIZoneDataObj.DefaultCTravName
         self._collTravs[cTravName].setRespectPrevTransform(flag)
+        return
+    
     def getRespectPrevTransform(self, cTravName=None):
         if cTravName is None:
             cTravName = AIZoneDataObj.DefaultCTravName
@@ -215,13 +212,16 @@ class AIZoneDataStore:
     def __init__(self):
         # table of (parentId, zoneId) -> AIZoneDataObj
         self._zone2data = {}
+        
     def destroy(self):
         for zone, data in self._zone2data.items():
             data.destroy()
         del self._zone2data
+        
     def hasDataForZone(self, parentId, zoneId):
         key = (parentId, zoneId)
         return key in self._zone2data
+        
     def getDataForZone(self, parentId, zoneId):
         key = (parentId, zoneId)
         if key not in self._zone2data:
@@ -230,6 +230,7 @@ class AIZoneDataStore:
         data = self._zone2data[key]
         data._incRefCount()
         return data
+        
     def releaseDataForZone(self, parentId, zoneId):
         key = (parentId, zoneId)
         data = self._zone2data[key]
@@ -240,6 +241,7 @@ class AIZoneDataStore:
             del self._zone2data[key]
             data.destroy()
             self.printStats()
+            
     def printStats(self):
         self.notify.debug('%s zones have zone data allocated' % len(self._zone2data))
         
