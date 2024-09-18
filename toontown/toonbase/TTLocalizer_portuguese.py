@@ -54,12 +54,16 @@ NametagLabel = "Nome"
 
 UnpaidNameTag = "Basico"
 
-# GM nametags 
-GM_1 = "CONSELHO TOON"
-GM_2 = "TOONS SOLDADOS"
-GM_3 = "GUARDA FLORESTAL DA RESISTÊNCIA"
-GM_4 = "GC"
-                        
+# GM nametags 2011
+#GM_1 = "CONSELHO TOON"
+#GM_2 = "TOONS SOLDADOS"
+#GM_3 = "GUARDA FLORESTAL DA RESISTÊNCIA"
+#GM_4 = "GC"
+#GM nametags
+GM_Names = (CONSELHO TOON, 
+TOONS SOLDADOS, 	 
+GUARDA FLORESTAL DA RESISTÊNCIA,
+GM)
 BuildingNametagFont = 'phase_3/models/fonts/MickeyFont'
 BuildingNametagShadow = None
 
@@ -73,7 +77,9 @@ Minnie = "Minnie"
 WitchMinnie = "WitchMinnie"
 Donald = "Donald"
 DonaldDock = "DonaldDock"
+FrankenDonald = "FrankenDonald"
 Daisy  = "Margarida"
+SockHopDaisy = "SockHopDaisy"
 Goofy  = "Pateta"
 SuperGoofy = "SuperGoofy"
 Pluto  = "Pluto"
@@ -97,84 +103,6 @@ lGoofySpeedway = "Autódromo do Pateta"
 lOutdoorZone = "Bosque de Bolotats de Tico e Teco"
 lGolfZone = "Minigolfe de Tico e Teco"
 lPartyHood = "Terra das Festas"
-
-lGagShop = 'Loja de Piadas'
-lClothingShop = 'Loja de Roupas'
-lPetShop = 'Loja de Animais'
-
-# common strings
-lCancel = 'Cancelar'
-lClose = 'Fechar'
-lOK = 'OK'
-lNext = 'Próximo'
-lQuit = 'Sair'
-lYes = 'Sim'
-lNo = 'Não'
-lBack = 'Voltar'
-
-sleep_auto_reply = "%s está dormindo certo agora"
-
-lHQOfficerF = 'Oficial do Quartel'
-lHQOfficerM = 'Oficial do Quartel'
-
-MickeyMouse = "Mickey Mouse"
-
-AIStartDefaultDistrict = "Vila dos Idiotas"
-
-Cog  = "Cog"
-Cogs = "Cogs"
-ACog = "um Cog"
-TheCogs = "os Cogs"
-ASkeleton = "um Esqueletocog"
-Skeleton = "Esqueletocogs"
-SkeletonP = "Esqueletocogs"
-Av2Cog = "um Cog Versão 2.0"
-v2Cog = "Cog Versão 2.0"
-v2CogP = "Cogs Versão 2.0"
-ASkeleton = "um Esqueletocog"
-Foreman = "Supervisor da fábrica"
-ForemanP = "Supervisores da fábrica"
-AForeman = "um Supervisor da fábrica"
-CogVP = Cog + " VP"
-CogVPs = "Cogs VPs"
-ACogVP = ACog + " VP"
-Supervisor = "Supervisor da Casa da Moeda"
-SupervisorP = "Supervisores da Casa da Moeda"
-ASupervisor = "um Supervisor da Casa da Moeda"
-CogCFO = Cog + "Diretor Financeiro"
-CogCFOs = "Diretores Financeiros Cogs"
-ACogCFO = ACog + "Diretor Financeiro"
-
-# AvatarDNA.py
-Bossbot = "Robô-chefe"
-Lawbot = "Robô da Lei"
-Cashbot = "Robô Mercenário"
-Sellbot = "Robô Vendedor"
-BossbotS = "um Robô-chefe"
-LawbotS = "um Robô da Lei"
-CashbotS = "um Robô Mercenário"
-SellbotS = "um Robô Vendedor"
-BossbotP = "Robôs-chefe"
-LawbotP = "Robôs da Lei"
-CashbotP = "Robôs Mercenários"
-SellbotP = "Robôs Vendedores"
-BossbotSkelS = "um Esqueletocog %s" % (Bossbot)
-LawbotSkelS = "um Esqueletocog %s" % (Lawbot)
-CashbotSkelS = "um Esqueletocog %s" % (Cashbot)
-SellbotSkelS = "um Esqueletocog %s" % (Sellbot)
-BossbotSkelP = "Esqueletocogs %s" % (BossbotP)
-LawbotSkelP = "Esqueletocogs %s" % (LawbotP)
-CashbotSkelP = "Esqueletocogs %s" % (CashbotP)
-SellbotSkelP = "Esqueletocogs %s" % (SellbotP)
-SkeleRevivePostFix = " v2.0"
-
-lBossbotHQ = 'Quartel do Robô-chefe'
-lLawbotHQ = 'Quartel do Robô da Lei'
-lCashbotHQ = 'Quartel do Robô Mercenário'
-lSellbotHQ = 'Quartel do Robô Vendedor'
-lTutorial = 'Toon-torial'
-lMyEstate = 'sua casa'
-lWelcomeValley = 'Vale Boas-vindas'
 
 # ToontownGlobals.py
 
@@ -208,23 +136,23 @@ GlobalStreetNames = {
     9000  : ("para o",  "no", "Parque"),
     9100  : ("para a",  "na", "Travessa da Canção de Ninar"),
     9200  : ("para o",  "no", "Pedaço do Pijama"),
-    10000 : ("para o",  "no", "Clube de Campo do "+lBossbotHQ),
-    10100 : ("para o",  "no", "Salão do "+lBossbotHQ),
+    10000 : ("para o",  "no", "Clube de Campo do Quartel do Robô-chefe"),
+    10100 : ("para o",  "no", "Salão do Quartel do Robô-chefe"),
     10200 : ("para a", "na", "Sede do Clube"),
     10500 : ("para o", "no", "Três da Frente"),
     10600 : ("para o", "no", "Seis do Meio"),
     10700 : ("para o", "no", "Nove de Trás"),
-    11000 : ("para o",  "no", "Parque do "+lSellbotHQ),
+    11000 : ("para o",  "no", "Pátio do "+lSellbotHQ),
     11100 : ("para o",  "no", "Salão do "+lSellbotHQ),
     11200 : ("para a",  "na", "Fábrica do Robô Vendedor"),
     11500 : ("para a",  "na", "Fábrica do Robô Vendedor"),
-    12000 : ("para o",  "no", "Parque de Trens do " +Cashbot),
-    12100 : ("para o",  "no", "Salão do "+lCashbotHQ),
+    12000 : ("para o",  "no", "Pátio de Trens do Robô Mercenário"),
+    12100 : ("para o",  "no", "Salão do Quartel do Robô Mercenário"),
     12500 : ("para a",  "na", "Casa da Moeda"),
     12600 : ("para a",  "na", "Casa da Moeda de Dólar"),
     12700 : ("para a",  "na", "Casa da Moeda de Barras de Ouro"),
-    13000 : ("para o",  "no", "Parque do "+lLawbotHQ),
-    13100 : ("para o",  "no", "Salão do "+lLawbotHQ),
+    13000 : ("para o",  "no", "Pátio do Quartel do Robô da Lei"),
+    13100 : ("para o",  "no", "Salão do Quartel do Robô da Lei"),
     13200 : ("para o", "no", "Lobby do Escritório do Promotor"),
     13300 : ("para o", "no", "Escritório do Robô da Lei A"),
     13400 : ("para o", "no", "Escritório do Robô da Lei B"),
@@ -243,13 +171,13 @@ OutdoorZone       = ("para a",  "na",    lOutdoorZone)
 FunnyFarm         = ("para a",  "na",    "Fazenda Divertida")
 GoofySpeedway     = ("para o",  "no",    lGoofySpeedway)
 DonaldsDreamland  = ("para a",  "na",    lDonaldsDreamland)
-BossbotHQ         = ("para o",  "no",    lBossbotHQ)
+BossbotHQ         = ("para o",  "no",    "Quartel do Robô-chefe")
 SellbotHQ         = ("para o",  "no",    lSellbotHQ)
-CashbotHQ         = ("para o",  "no",    lCashbotHQ)
-LawbotHQ          = ("para o",  "no",    lLawbotHQ)
-Tutorial          = ("para o",  "no",    lTutorial)
-MyEstate          = ("para a",  "na",    lMyEstate)
-WelcomeValley     = ("para o",  "no",    lWelcomeValley)
+CashbotHQ         = ("para o",  "no",    "Quartel do Robô Mercenário")
+LawbotHQ          = ("para o",  "no",    "Quartel do Robô da Lei")
+Tutorial          = ("para o",  "no",    "Toon-torial")
+MyEstate          = ("para a",  "na",    "sua casa")
+WelcomeValley     = ("para o",  "no",    "Vale Boas-vindas")
 GolfZone          = ("para a",  "na",    lGolfZone)
 PartyHood         = ("to the", "in the", lPartyHood)
 
@@ -261,8 +189,8 @@ Office = 'Escritório'
 
 FactoryNames = {
     0 : 'Molde da fábrica',
-    11500 : 'Fábrica do Cog  '+Sellbot,
-    13300 : 'Escritório dos Cogs  '+LawbotP #remove me JML
+    11500 : 'Fábrica do Cog Robô Vendedor',
+    13300 : 'Escritório dos Cogs Robôs da Lei', #remove me JML
     }
 
 FactoryTypeLeg = 'Perna'
@@ -270,6 +198,49 @@ FactoryTypeArm = 'Braço'
 FactoryTypeTorso = 'Busto'
 
 MintFloorTitle = 'Andar %s'
+
+# common strings
+lCancel = 'Cancelar'
+lClose = 'Fechar'
+lOK = 'OK'
+lNext = 'Próximo'
+lQuit = 'Sair'
+lYes = 'Sim'
+lNo = 'Não'
+lBack = 'Voltar'
+
+sleep_auto_reply = "%s está dormindo agora"
+
+lHQOfficerF = 'Oficial do Quartel'
+lHQOfficerM = 'Oficial do Quartel'
+
+MickeyMouse = "Mickey Mouse"
+
+AIStartDefaultDistrict = "Vila dos Idiotas"
+
+Cog  = "Cog"
+Cogs = "Cogs"
+ACog = "um Cog"
+TheCogs = "os Cogs"
+ASkeleton = "um Esqueletocog"
+Skeleton = "Esqueletocogs"
+SkeletonP = "Esqueletocogs"
+Av2Cog = "um Cog Versão 2.0"
+v2Cog = "Cog Versão 2.0"
+v2CogP = "Cogs Versão 2.0"
+ASkeleton = "um Esqueletocog"
+Foreman = "Supervisor da fábrica"
+ForemanP = "Supervisores da fábrica"
+AForeman = "um Supervisor da fábrica"
+CogVP = Cog + " VP"
+CogVPs = "Cogs VPs"
+ACogVP = ACog + " VP"
+Supervisor = "Supervisor da Casa da Moeda"
+SupervisorP = "Supervisores da Casa da Moeda"
+ASupervisor = "um Supervisor da Casa da Moeda"
+CogCFO = Cog + "Diretor Financeiro"
+CogCFOs = "Diretores Financeiros Cogs"
+ACogCFO = ACog + "Diretor Financeiro"
 
 # Quests.py
 TheFish = "o Peixe"
@@ -700,7 +671,7 @@ QuestsItemDict = {
     3027 : ["Termômetro Externo", "Termômetros Externos", "um "],
     
     #Dreamland Quests
-    6001 : ["Plano do "+lCashbotHQ, "Planos do "+lCashbotHQ, "algum "],
+    6001 : ["Plano do "+Quartel do Robô Mercenário, "Planos do "+Quartel do Robô Mercenário, "algum "],
     6002 : ["Vara de pescar", "Varas de pescar", "uma "],
     6003 : ["Cinto de segurança", "Cintos de segurança", "um "],
     6004 : ["Par de pinças", "Pares de pinças", "um "],
@@ -2426,6 +2397,29 @@ ChatGarblerBear = ["grrrau", "grrr"]
 ChatGarblerPig = ["oinc", "oic", "rrroinc"]
 ChatGarblerDefault = ["blá"]
 
+# AvatarDNA.py
+Bossbot = "Robô-chefe"
+Lawbot = "Robô da Lei"
+Cashbot = "Robô Mercenário"
+Sellbot = "Robô Vendedor"
+BossbotS = "um Robô-chefe"
+LawbotS = "um Robô da Lei"
+CashbotS = "um Robô Mercenário"
+SellbotS = "um Robô Vendedor"
+BossbotP = "Robôs-chefe"
+LawbotP = "Robôs da Lei"
+CashbotP = "Robôs Mercenários"
+SellbotP = "Robôs Vendedores"
+BossbotSkelS = "um Esqueletocog %s" % (Bossbot)
+LawbotSkelS = "um Esqueletocog %s" % (Lawbot)
+CashbotSkelS = "um Esqueletocog %s" % (Cashbot)
+SellbotSkelS = "um Esqueletocog %s" % (Sellbot)
+BossbotSkelP = "Esqueletocogs %s" % (BossbotP)
+LawbotSkelP = "Esqueletocogs %s" % (LawbotP)
+CashbotSkelP = "Esqueletocogs %s" % (CashbotP)
+SellbotSkelP = "Esqueletocogs %s" % (SellbotP)
+SkeleRevivePostFix = " v2.0"
+
 # AvatarDetailPanel.py
 AvatarDetailPanelOK = lOK
 AvatarDetailPanelCancel = lCancel
@@ -2489,7 +2483,6 @@ ReportPanelConfirmations = (
     "Você está prestes a denunciar %s está promovendo insegurança ao divulgar ou solicitar um número de telefone, sobrenome, endereço de e-mail, senha ou nome de conta.",
     "Você está prestes a relatar que %s está importunando, atormentando ou usando de comportamento radical para atrapalhar o jogo.",
     "Você está prestes a relatar que %s criou um nome que não segue as regras da Disney.",
-    "Você está prestes a denunciar que %s invadiu/adulterou o jogo ou usou software de terceiros."
     )
 
 # Put on confirmation screen!
@@ -2550,54 +2543,21 @@ PetMoodAdjectives = {
     }
 
 SpokenMoods = {
-    'neutral': 'neutral',
-    'hunger': ["Estou cansado de Balinhas! Que tal me dar um pedaço de torta?",
-               "Que tal uma Balinha Vermelha? Estou enjoado das Verdes!",
-               "Ah, aquelas balinhas eram para plantar? Mas eu estou com fome!",
-               ],
-    'boredom': ["Estou morrendo de tédio aqui!",
-                "Você não achou que eu te entendi você, né?",
-                "Poderíamos, tipo, FAZER algo já?",
-                ],
-    'excitement': ["UAU, é você, é você, é você!",
-                   "hmmm, balinhas, hmmm!",
-                   "FICA melhor do que isso?",
-                   "Feliz Semana da Mentira Toons!",
-                   ],
-    'sadness': ["Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá...",
-                "Vou ficar bem. Eu juro!",
-                "Eu não sei POR QUE estou triste. Apenas estou!!!",
-                ],
-    'restlessness': ["Estou tãooo impaciente!!!",],
-    'playfulness': ["Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar...",
-                    "Brinque comigo ou eu arrancarei algumas flores!",
-                    "Vamos dar uma volta por aí e aí e aí e aí e aí e aí...",
-                    ],
-    'loneliness': ["Onde você esteve?",
-                   "Quer um abraço?",
-                   "Eu quero ir junto quando você for lutar com os Cogs!",
-                   ],
-    'fatigue': ["Aquele mergulho no lago realmente me cansou!",
-                "Ser um Doodle é cansativo!",
-                "Eu preciso ir para a Terra do Sonho!",
-                ],
-    'confusion': ["Onde estou? De novo, quem é você?",
-                  "De novo, o que é Toonar?",
-                  "Opa, eu estou entre você e os Cogs! Fuja!",
-                  ],
-    'anger': ["... e você ainda se pergunta por que eu nunca lhe dei um Toonar?!!!",
-              "Você sempre se esquece de mim!",
-              "Você ama suas piadas mais do que a mim!",
-              ],
-    'surprise': ["Claro, Doodles podem falar!",
-                 "Toons podem falar?!!",
-                 "Opa, de onde você surgiu?",
-                 ],
-    'affection': ["Você é o melhor Toon que já EXISTIU!!!!!!!!!!",
-                  "Você tem NOÇÃO do quanto é bacana?",
-                  "Eu tenho MUITA sorte de estar com você!!!",
-                  ]
-        }
+    'neutral': 'neutro',
+    'hunger': 'Eu\estou cansado de Balinhas! Que tal me dar uma fatia de torta?',
+    'boredom': 'Você não\ achou que eu entenderia, hein?', 
+    'excitement': 'Toontástico!',
+    'sadness': 'Eu quero ser rabisco de qualidade',
+    'restlessness': 'Eu\estou tãooo inquieto',
+    'playfulness': 'Brinque comigo ou eu\vou desenterrar algumas flores!',
+    'loneliness': 'Quero lutar com os Cogs com você!',
+    'fatigue': 'É muito cansativo fazer truques de rabisco! Que\tal dar um tempinho?',
+    'confusion': 'Onde estou? Quem é mesmo você?',
+    'anger': 'Você sempre me deixa para trás',
+    'surprise': 'Opa, de onde você surgiu?',
+    'affection': 'Você é um ótimo toon',
+    }
+
 # DistributedAvatar.py
 DialogExclamation = "!"
 DialogQuestion = '?'
@@ -3926,7 +3886,7 @@ SuitAttackTaunts = {
     }
 
 # DistributedBuilding.py
-BuildingWaitingForVictors = "Aguardando outros jogadores...",
+BuildingWaitingForVictors = "Aguardando outros Toons...",
 
 # Elevator.py
 ElevatorHopOff = "Descer"
@@ -5571,8 +5531,8 @@ QuestPosterTailorBuildingName = "Loja de Roupas"
 QuestPosterTailorStreetName = "Qualquer pátio"
 QuestPosterTailorLocationName = "Qualquer bairro"
 QuestPosterPlayground = "No pátio"
-QuestPosterAtHome = "Na "+lMyEstate
-QuestPosterInHome = "Em "+lMyEstate
+QuestPosterAtHome = "Na "+"sua casa"
+QuestPosterInHome = "Em "+"sua casa"
 QuestPosterOnPhone = "No seu telefone"
 QuestPosterEstate = "Na sua propriedade"
 QuestPosterAnywhere = "Qualquer lugar"
@@ -6374,7 +6334,8 @@ NCPeriodUsage = ('Este nome não usa pontos corretamente. Os pontos são'
 NCApostrophes = 'Este nome tem excesso de apóstrofos.'
 
 # DistributedTrophyMgrAI.py
-RemoveTrophy = "Quartel dos Toons: Os "+ Cogs +" dominaram um dos edifícios que você salvou!"
+#RemoveTrophy = "Quartel dos Toons: Os "+ Cogs +" dominaram um dos edifícios que você salvou!"
+RemoveTrophy = lToonHQ + ': '+ TheCogs +' dominaram um dos edifícios que você salvou!'
 
 # toon\DistributedNPCTailor/Clerk/Fisherman.py
 STOREOWNER_TOOKTOOLONG = 'Precisa de mais tempo para pensar?'
@@ -8065,10 +8026,10 @@ zone2TitleDict = {
     2514 : ("Banco de Toontown", ""),
     2516 : ("Escola de Toontown", ""),
     2518 : ("Biblioteca de Toontown", ""),
-    2519 : (lGagShop, ""),
+    2519 : (Loja de Piadas, ""),
     2520 : (lToonHQ, ""),
-    2521 : (lClothingShop, ""),
-    2522 : (lPetShop, ""),
+    2521 : (Loja de Roupas, ""),
+    2522 : (Loja de Animais, ""),
     # titles for: phase_5/dna/toontown_central_2100.dna
     2601 : ("Restaurações Dentárias Todo Sorrisos", ""),
     2602 : ("", ""),
@@ -8166,10 +8127,10 @@ zone2TitleDict = {
     2839 : ("Grude Massas", ""),
     2841 : ("", ""),
     # titles for: phase_6/dna/donalds_dock_sz.dna
-    1506 : (lGagShop, ""),
+    1506 : (Loja de Piadas, ""),
     1507 : (lToonHQ, ""),
-    1508 : (lClothingShop, ""),
-    1510 : (lPetShop, ""),
+    1508 : (Loja de Roupas, ""),
+    1510 : (Loja de Animais, ""),
     # titles for: phase_6/dna/donalds_dock_1100.dna
     1602 : ("Salva-vidas Usados", ""),
     1604 : ("Lavagem a Seco Roupa de Mergulho", ""),
@@ -8246,10 +8207,10 @@ zone2TitleDict = {
     1834 : ("Ridíquilhas!", ""),
     1835 : ("", ""),
     # titles for: phase_6/dna/minnies_melody_land_sz.dna
-    4503 : (lGagShop, ""),
+    4503 : (Loja de Piadas, ""),
     4504 : (lToonHQ, ""),
-    4506 : (lClothingShop, ""),
-    4508 : (lPetShop, ""),
+    4506 : (Loja de Roupas, ""),
+    4508 : (Loja de Animais, ""),
     # titles for: phase_6/dna/minnies_melody_land_4100.dna
     4603 : ("Baterias do Tomtom", ""),
     4604 : ("A Quatro Mãos", ""),
@@ -8364,10 +8325,10 @@ zone2TitleDict = {
     4872 : ("Braços sem Estresse do Estevão Expresso", ""),
     4873 : ("", ""),
     # titles for: phase_8/dna/daisys_garden_sz.dna
-    5501 : (lGagShop, ""),
+    5501 : (Loja de Piadas, ""),
     5502 : (lToonHQ, ""),
-    5503 : (lClothingShop, ""),
-    5505 : (lPetShop, ""),
+    5503 : (Loja de Roupas, ""),
+    5505 : (Loja de Animais, ""),
     # titles for: phase_8/dna/daisys_garden_5100.dna
     5601 : ("Exames de Vista Olho do Alho", ""),
     5602 : ("Gravatas do Sérgio Sufocado", ""),
@@ -8442,10 +8403,10 @@ zone2TitleDict = {
     # titles for: phase_8/dna/donalds_dreamland_sz.dna
     9501 : ("Biblioteca da Canção de Ninar", ""),
     9503 : ("O Bar da Soneca", ""),
-    9504 : (lGagShop, ""),
+    9504 : (Loja de Piadas, ""),
     9505 : (lToonHQ, ""),
-    9506 : (lClothingShop, ""),
-    9508 : (lPetShop, ""),
+    9506 : (Loja de Roupas, ""),
+    9508 : (Loja de Animais, ""),
     # titles for: phase_8/dna/donalds_dreamland_9100.dna
     9601 : ("Pousada A. Ninho", ""),
     9602 : ("Dois Dedos de Prosa com Morfeu pelo Preço de Um", ""),
@@ -8517,10 +8478,10 @@ zone2TitleDict = {
     9756 : ("", ""),
     9759 : ("Salão de Beleza Bela Adormecida", ""),
     # titles for: phase_8/dna/the_burrrgh_sz.dna
-    3507 : (lGagShop, ""),
+    3507 : (Loja de Piadas, ""),
     3508 : (lToonHQ, ""),
-    3509 : (lClothingShop, ""),
-    3511 : (lPetShop, ""),
+    3509 : (Loja de Roupas, ""),
+    3511 : (Loja de Animais, ""),
     # titles for: phase_8/dna/the_burrrgh_3100.dna
     3601 : ("Companhia Elétrica Esplendor do Norte", ""),
     3602 : ("Gorros do Pólo Norte", ""),
@@ -8935,7 +8896,7 @@ TipDict = {
     "Você sabia que a cor da sua casa combina com a cor do seu painel Pegar um Toon?",
     ),
    TIP_KARTING : (
-    # Autódromo do Patetazone specific
+    # Goofy Speedway zone specific
     "Compre um Conversível, Utilitário Toon ou Cruzeiro na Loja do Kart do Pateta.",
     "Personalize o seu kart com decalques, calotas e muito mais na Loja do Kart do Pateta.",
     "Ganhe bilhetes correndo de kart no Autódromo do Pateta.",
@@ -10207,6 +10168,9 @@ GolfTieBreakWinner = "%(name)s venceu o desempate aleatório!"
 GolfSeconds = " -  %(time).2f segundos"
 GolfTimeTieBreakWinner = "%(name)s venceu o desempate por tempo total de mira!!!"
 
+
+
+
 RoamingTrialerWeekendStart = "Está começando a Tour por Toontown! Jogadores podem entrar em qualquer vizinhança de graça!"
 RoamingTrialerWeekendOngoing = "Boas-vindas ao Tour por Toontown! Jogadores podem entrar gratuitamente em qualquer vizinhança!"
 RoamingTrialerWeekendEnd = "Terminamos com o Tour por Toontown."
@@ -10223,41 +10187,52 @@ PartyRewardDoubledJellybean = "Balinhas em Dobro!"
 GrandPrixWeekendHolidayStart = "É o Fim de Semana do Grande Prêmio no Autódromo do Pateta! Quem jogar gratuitamente ou pagando pode obter a maioria dos pontos em três corridas consecutivas."
 GrandPrixWeekendHolidayEnd = "O Fim de Semana do Grande Prêmio acabou. Vejo você no ano que vem."
 
-KartRace_DoubleTickets = "Bilhetes Duplo"
+KartRace_DoubleTickets = "Bilhetes em Dobro"
 
-SellbotNerfHolidayStart = "Operação: Robô Vendedor Tempestade está acontecendo agora! Batalha o Sênior Vice Presidente hoje!"
-SellbotNerfHolidayEnd = "Operação: Robô Vendedor Tempestade terminou. Ótimo trabalho, Toons!"
+SellbotNerfHolidayStart = "Operação: Tempestade de Robôs Vendedores está acontecendo agora! Batalha o VP hoje!"
+SellbotNerfHolidayEnd = "Operação: Tempestade de Robôs Vendedores tinha acabado. Bom trabalho, Toons!"
 
-JellybeanTrolleyHolidayStart = "Double Bean Days for Trolley Games have begun!"
-JellybeanTrolleyHolidayEnd = "Double Bean Days for Trolley Games have ended!"
+#LawbotNerfHolidayStart = "Operação: Perdem os  happening now! Battlethe CJ today!"
+#LawbotNerfHolidayEnd = "Operation: Lawbots Lose has ended. Great work, Toons!"
 
-JellybeanFishingHolidayStart = "Double Bean Days for Fishing have begun!"
-JellybeanFishingHolidayEnd = "Double Bean Days for Fishing have ended!"
+JellybeanTrolleyHolidayStart = "Dia das Balinhas em Dobro para o Bodinho dos Jogos começem!"
+JellybeanTrolleyHolidayEnd = "Dia das Balinhas em Dobro para o Bodinho dos Jogos terminou!"
 
-JellybeanPartiesHolidayStart = "It's Jellybean Week! Get Double Jellybean rewards!"
-JellybeanPartiesHolidayEnd = "That's all for Jellybean Week. See you next year."
+JellybeanFishingHolidayStart = "Dia das Balinhas em Dobro para Pescaria começem!"
+JellybeanFishingHolidayEnd = "Dia das Balinhas em Dobro para Pescaria terminou!"
 
-JellybeanMonthHolidayStart = "Celebrate Toontown with double beans, Cattlelog items and silly surprises!"
+JellybeanDayHolidayStart = "É Dia das Balinhas! Ganhe prêmios de Balinhas em dobro nas Festas!"
+JellybeanDayHolidayEnd = "Acabou o Dia das Balinhas. Vejo você no ano que vem."
 
-BankUpgradeHolidayStart = "Something Toontastic happened to your Jellybean Bank!"
+JellybeanMonthHolidayStart = "Comemorar Toontown com balinhas em dobro,  itens no Catálogo e supresas bobas!"
 
-HalloweenPropsHolidayStart = "It's Halloween in Toontown!"
-HalloweenPropsHolidayEnd = "Halloween has ended. Boo!"
+BankUpgradeHolidayStart = "Algo incrível aconteceu com seu Banco de Balinha!"
 
-BlackCatHolidayStart = "Create a Black Cat - Today only!"
-BlackCatHolidayEnd = "Black Cat day has ended!"
+HalloweenPropsHolidayStart = "É Halloween em Toontown!"
+HalloweenPropsHolidayEnd = "Halloween terminou. Boo!"
 
-TopToonsMarathonStart = "The Top Toons New Year's Day Marathon has begun!"
-TopToonsMarathonEnd = "The Top Toons New Year's Day Marathon has ended."
+#SpookyPropsHolidayStart = "O Medidor de Bobagem gira Toontown em modo de assustador!"
 
-WinterDecorationsStart = "It's Winter Holiday time in Toontown!"
-WinterDecorationsEnd = "Winter Holiday is over - Happy New Year!"
+BlackCatHolidayStart = "Cria um Gato Preto - só Hoje!"
+BlackCatHolidayEnd = "O Dia do Gato Preto terminou!"
 
-WinterCarolingStart = "Caroling has come to Toontown. Sing for your Snowman Head - see the Blog for details!"
+#SpookyBlackCatHolidayStart = "Sexta-feira 13 significa uma explosão de Gato Preto!"
 
-ExpandedClosetsStart = "Atenção Toons: Por um tempo limitado, Membros podem comprar 50 itens novos no Armário do Catálogo por um preço baixo de 50 balinhas!"
+TopToonsMarathonStart = "A Maratona de Ano Novo dos Tops Toons começem!"
+TopToonsMarathonEnd = "A Maratona de Ano Novo dos Tops Toons terminou."
 
-KartingTicketsHolidayStart = "Pega Bilhetes Duplos de corridas Práticas no Autódromo do Pateta hoje!"
+WinterDecorationsStart = "É o tempo de férias de inverno em Toontown!"
+WinterDecorationsEnd = "As férias de inverno acabaram - Feliz Ano Novo!"
+
+WackyWinterDecorationsStart = "Brrr! O Medidor de bobagem vai de bobeira para frio!"
+
+WinterCarolingStart = "Canções de natal chegou para Toontown. Cante para sua Cabeça de Boneco de Neve - veja o Blog para mais detalhes!"
+
+ExpandedClosetsStart = "Atenção Toons: Para um limite de tempo, Membros podem comprar o novo item de 50 Armários do Catálogo para um preço baixo de 50 balinhas!"
+
+KartingTicketsHolidayStart = "Pega bilhetes em dobro de Praticar corridas no Autodrómo do Pateta hoje!"
+
+IdesOfMarchStart = "Toons agora VERDE!"
 
 LogoutForced = "Você fez algo errado\n e estamos fazendo seu logout automaticamente,\n sua conta também pode estar congelada.\n Experimente dar uma volta lá fora, é divertido."
 
@@ -10464,6 +10439,7 @@ CheckersPage3 = "Para capturar uma peça do oponente, você deve saltar sobre el
 CheckersPage4 = "Uma peça se torna dama quando chegar à última linha do tabuleiro. Uma peça que acaba de se tornar dama não pode saltar de novo até o próximo turno. Além disso, damas podem se mover para todas as direções e podem mudar de direção ao saltar."
 
 
+
 #DistributedCheckers.py
 CheckersGetUpButton = "Levantar-se"
 CheckersStartButton = "Iniciar Jogo"
@@ -10484,8 +10460,8 @@ MailNewMailButton = "Correio"
 MailSimpleMail = "Bilhete"
 MailFromTag = "Bilhete de: %s"
 
-AwardNotifyNewItems = 'Você tem um novo prêmio em sua caixa de correio!'
-AwardNotifyOldItems = 'Ainda há prêmios esperando em sua caixa de correio para você pegar!'
+AwardNotifyNewItems = "Você tem um novo prêmio em sua caixa-de-correiro!"
+AwardNotifyOldItems = "Há ainda prêmios aguardando na sua caixa-de-correiro para você escolher!"
 
 # MailboxScreen.py
 InviteInvitation = "o convite"
@@ -10554,7 +10530,7 @@ HolidayNamesInCalendar = {
    53: ("Invasão Reis da Incerta", "Impeça que os Cogs  Reis da Incerta invadam Toontown!"),
    54: ("Invasão Conta-moedinha", "Impeça que os Cogs  Conta-moedinhas invadam Toontown!"),
    55: ("Invasão Duplo Sentido", "Impeça que os Cogs  Duplo Sentido invadam Toontown!"),
-   57: ("Toon Cantando", "Celebra Feriado Congelante por cantando em volta Toontown para uma recompesa \"gelada\" !"),
+  57: ("Toon Cantando", "Celebra Feriado Congelante por cantando em volta Toontown para uma recompesa \"gelada\" !"),
    59: ("Dia dos namorados", "Dia dos namorados de Junho 05 a Junho 14!"),
    72: ("Invasão de Vaquinha de Presépio", "Impeça que os Cogs Vaquinha de Presépios invadam Toontown!"),
    73: ("Invasão de Pão-duro", "Impeça que os Cogs Pães-duros invadam Toontown!"),
@@ -10580,12 +10556,13 @@ HolidayNamesInCalendar = {
    93: ("Invasão de Destruidores de Números", "Impeça que os Cogs Destruidores de Números invadam Toontown!"),
    95: ("Festas da vitória", "Comemore nosso triunfo histórico contra os Cogs!"), # placeholder
    96: ("Operação: Robô Vendedor Tempestade!", "Quartel do Robô Vendedor está aberto para todos. Vamos lutar com o VP"),
-   97: ("Dia dos Feijões em Duplo - Bondinho dos Jogos", ""),
-   98: ("Dias dos Feijões em Duplo - Pescaria", ""),
+   97: ("Dia das Balinhas em Dobro - Bondinho dos Jogos", ""),
+   98: ("Dias das Balinhas em Dobro - Pescaria", ""),
    99: ("Semana da Balinha", "Comemore a Semana da Balinha como recompensa em Dobro de Balinhas"),
    101: ("Maratona de Ano-Novo dos Toons", "Chances de vencer a toda hora! "),
-   105: ("Idos de Março", "Os Idos de Março estão aqui!"),
-   #105: ("Toons de Verde!", "Toons faz uma cena verrde com as Balinhas Verdes na Rua do Carvalho nos Jardins Da Margarida !"),
+   # Translate
+   #105: ("Idos de Março", "Os Idos de Março estão aqui!"),
+   105: ("Toons de Verde!", "Toons faz uma cena verrde com as Balinhas Verdes na Rua do Carvalho nos Jardins Da Margarida !"),
 
     }
 
@@ -10609,63 +10586,62 @@ BoardroomGameInstructions = ("Os cogs estão tendo uma reunião para decidir o q
 
 # Cogdo Crane Game
 CogdoCraneGameTitle = "Vender-Um-Sinistro"
-CogdoCraneGameInstructions = ("Os COGS está usando uma máquina de operação-de-moedas para destruir barris de Risadas. "
-                              "Use os guindastes para pegar e jogar sacos de dinheiro, a fim de evitar "
-                              "a destruição de barril!")
+CogdoCraneGameInstructions = ("Os COGS estão usando uma operação-moeda da máquina para destruir barris de risadas."
+                              "Usa os guindastes para pegar e lançar sacos de dinheiros, na ordem para evitar"                              "destruções de Barris!")
 
 # Cogdo Maze Game
-CogdoMazeGameTitle = "Escritório de Campo do\nAgitador"
-CogdoMazeGameInstructions = "Os grandes Agitadores Cogs tem o codigo para abrir a porta. Derrota eles com seus balões de água em ordem para pegar isso!"
-CogdoMazeIntroMovieDialogue = (("Esta é a Resistência Toon! Os Agitadores\ntêm suas piadas e trancaram a saída!",),
-                               ("Pegue balões de água nos refrigeradores, e lançam eles nos Cogs!\nPequenos Cogs dropam piadas, GRANDES COGS abrem a saída.",),
-                               ("Quanto mais piadas você resgatar, maior será o seu Toonar\nno final. Boa sorte!",),
+CogdoMazeGameTitle = "Escritórios de Campo do\nAgitador"
+CogdoMazeGameInstructions = "Os Grandes Agitadores Cogs tem o código para abrir a porta. Detorra eles com seus balões de água na ordem para pegar eles!"
+CogdoMazeIntroMovieDialogue = (("Esse é a Resistência Toon! Os Agitadores\ntem nossas Piadas, e eles tem bloqueado a saída!",),
+                               ("Agarra balões de água nos galões, e lança eles nos Cogs!\nPequenos Cogs dropam Piadas, GRANDES COGS abrem a saída.",),
+                               ("A mais Piadas você resgasta, o maior seu Toonar\nno fim. Boa sorte!",),
                                )
-CogdoMazeGameDoorOpens = "A SAÍDA ESTÁ ABERTA POR 60 SEGUNDOS!\nCHEGUE LÁ RAPIDAMENTE PARA UM TOONAR MAIOR!"
-CogdoMazeGameLocalToonFoundExit = "A saída será aberta quando\nvocê tiver destruído todos os quatro GRANDES COGS!"
-CogdoMazeGameWaitingForToons = "Aguardando por outros Toons..."
+CogdoMazeGameDoorOpens = "A SAÍDA ESTÁ ABRERTA PARA 60 SEGUNDOS!\nPEGA LÁ RÁPIDO PARA UM MAIOR TOONAR!"
+CogdoMazeGameLocalToonFoundExit = "A saída vai abrir quando\nvocê tiver pegado todos quatros GRANDES COGS!"
+CogdoMazeGameWaitingForToons = "Aguardando para outros Toons..."
 CogdoMazeGameTimeOut = "Oh não, o tempo se esgostou! Você perdeu suas piadas."
-CogdoMazeGameTimeAlert = "Se apresse! Faltam 60 segundos!"
+CogdoMazeGameTimeAlert = "Se Apresse! 60 segundos para ir!"
 CogdoMazeGameBossGuiTitle = "GRANDES COGS:"
-CogdoMazeFindHint = "Encontre um Galão de Água!"
+CogdoMazeFindHint = "Encontra um Galão de Água!"
 CogdoMazeThrowHint = "Pressiona 'Ctrl' para lançar seu balão de água!"
 CogdoMazeSquashHint = "Objetos caindo pop seu balão!"
-CogdoMazeBossHint = "Grandes Cogs levam DOIS golpes para derrotar!"
+CogdoMazeBossHint = "Grandes Cogs leva DOIS golpes para derrotar"
 CogdoMazeMinionHint = "Pequenos Cogs derrubam piadas!"
 
 # Cogdo Flying Game
 CogdoFlyingGameTitle = "Escritórios do Macaco Velho"
-CogdoFlyingGameInstructions = "Voe pelo covil dos Macacos velhos. Cuidado com os obstáculos e com os cogs ao longo do caminho, e não se esqueça de reabastecer seu helicóptero!"
-CogdoFlyingIntroMovieDialogue = (("Vocês não vai irritar nossas penas, Toons! Estamos destruindo barris da suas Risadas, e vocês não podem nos impedir!",
-				  "Um bando de Toons! Estamos esmagando barris de sua risada em nossos %s e não há nada que vocês possam fazer a respeito!"% CogdoStomperName,
-                                  "Você não pode nos incitar, Toons! Estamos abastecendo nos nossos escritórios com sua Risada, e você é impotente para nos impedir!"),
-                                 ("Esta é a Resistência Toon! Um passarinho me disse que você pode usar hélices para voar ao redor, agarrar os Memorandos de Destruição de Barris e evitar que a Risada seja destruída! Boa sorte, Toons!",
-                                  "Atenção Toons! Voe com uma hélice e colete Barris de Destruição de Memorandos para evitar que a nossa Risada seja pisoteada! Resistência Toon desliga!",
-                                  "Resistência Toon aqui! Causa uma orla de procurado de hélices, voando para os Barris de Destruição de Memorandos, e toma cuidado que a nossa Risada seja esmagada! Divirta-se!"),
-                                 ("Grasnido! Sou um vencedor do Prêmio de Prata de Dente de Roda, não preciso disso!",
-                                  "Faça o seu melhor, Toons! Vocês iram encontrar nós para ser bastante unhas-compridas-secas!",
-                                  "Nós decidimos ensinar vocês obedecer a ordem debicar, Toons!"),
+CogdoFlyingGameInstructions = "Voe pelo covil dos Macacos Velhos. Cuidado com obstáculos e com os cogs pelo caminho, e não se esqueça de reabastecer seu helicóptero!"
+CogdoFlyingIntroMovieDialogue = (("Vocês não vão babar na nossas penas, Toons! Nós estavamos destruindo seus barris da sua Risada, e vocês não podem nos impedir!",
+                                  "Um rebanho de Toons! Nós estamos esmagando seus barris da sua Risadas em nossos %s, e não há nada que vocês possam fazer sobre isso!" % CogdoStomperName,
+                                  "Vocês não podem sob nos inicitar, Toons! Nós estamos abastecendo nossos escritórios com suas risadas, e vocês não tem poder para nos impedir!"),
+                                 ("Esta é a Resistência Toon falando! Um passarinho me disse que você pode usar hélices para voar por aí, pegar Barris de Destruição de Memorados e evitar que Risada seja destruída! Boa sorte, Toons!",
+                                  "Atenção Toons! Voe com uma hélice e colete Barris de Destruição de Memorados para evitar que nossa Risada seja pisoteada! Resistência Toon desligando!",
+                                  "Resistência Toon aqui de novo! Cause uma aba por procurar hélices, vôo para os Barris de Destruição de Memorados, e mantendo nossa Risada de ser esmagada! Tenha Diversão!"),
+                                 ("Squawk! Eu sou ganhador do prêmio Roda dentada de Prata, não preciso disso!",
+                                  "Faça o seu melhor, Toons! Vocês vão encontrar nos para ser bastante garratão!",
+                                  "Nós vamos ensinar vocês para obedecer a ordem de bicando, Toons!"),
                                   )
-CogdoFlyingGameWaiting = "Waiting for other Toons%s"
-CogdoFlyingGameFuelLabel = "Fuel"
-CogdoFlyingGameLegalEagleTargeting = "A Legal Eagle has noticed you!"
-CogdoFlyingGameLegalEagleAttacking = "Incoming Eagle!"
-CogdoFlyingGamePickUpAPropeller = "You need a propeller to fly!"
-CogdoFlyingGamePressCtrlToFly = "Press 'Ctrl' to fly up!"
-CogdoFlyingGameYouAreInvincible = "Red Tape protects you!"
-CogdoFlyingGameTimeIsRunningOut = "Time is running out!"
-CogdoFlyingGameMinimapIntro = "This meter shows your progress!\nX marks the finish line."
-CogdoFlyingGameMemoIntro = "Memos prevent Laff Barrels in\nthe Sinistro Room from being destroyed!"
-CogdoFlyingGameOutOfTime = "Oh No! You ran out of time!"
-CogdoFlyingGameYouMadeIt = "You made it on time!"
-CogdoFlyingGameYouMadeIt = "Good work, you made it on time!"
-CogdoFlyingGameTakingMemos = "The legal eagles took all your memos!"
+CogdoFlyingGameWaiting = "Aguardando outros Toons%s"
+CogdoFlyingGameFuelLabel = "Combustível"
+CogdoFlyingGameLegalEagleTargeting = "Um Macaco Velho tem percebido vocês!"
+CogdoFlyingGameLegalEagleAttacking = "Entrada Velha!"
+CogdoFlyingGamePickUpAPropeller = "Você precisa de uma hélice para voar!"
+CogdoFlyingGamePressCtrlToFly = "Pressiona 'Ctrl' para voar para cima!"
+CogdoFlyingGameYouAreInvincible = "Burocracia proteta você!"
+CogdoFlyingGameTimeIsRunningOut = "O Tempo está acabando!"
+CogdoFlyingGameMinimapIntro = "O medidor exiba seu progresso!\nA marca X é final da linha."
+CogdoFlyingGameMemoIntro = "Memorandos evitando em Barris de Risadas\nna sala Sinistra de ser destruída!"
+CogdoFlyingGameOutOfTime = "Oh Não! Você ficou sem tempo!"
+CogdoFlyingGameYouMadeIt = "Você chegou na hora certa!"
+CogdoFlyingGameYouMadeIt = "Bom trabalho, você chegou na hora certa!"
+CogdoFlyingGameTakingMemos = "Os macacos velhos pegaram todos os seus memorandos!"
 
 # Cogdo Elevator Reward
-CogdoElevatorRewardLaff = "Great job, Toons!\nYou get a Toon-Up from the jokes you saved!"
+CogdoElevatorRewardLaff = "Ótimo trabalho, Toons!\nVocês pegaram um Toonar das piadas que vocês salvaram!"
 
 # Cogdo Executive Suite
-CogdoExecutiveSuiteTitle = "Executive Suite"
-CogdoExecutiveSuiteIntroMessage = "Oh no, they've got the shop keeper!\nDefeat the Cogs and free the captive."
+CogdoExecutiveSuiteTitle = "Suíte Executiva"
+CogdoExecutiveSuiteIntroMessage = "Ah não, eles pegaram o lojista!\nDerrote os Cogs e liberte o prisioneiro."
 CogdoExecutiveSuiteToonThankYou = "Obrigado pelo resgate!\nSe precisar de ajuda em uma briga, use este cartão SOS para ligar para meu amigo %s."
 CogdoExecutiveSuiteToonBye = "Tchau!"
 
