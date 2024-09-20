@@ -53,13 +53,13 @@ ChatManagerWhisperTo = 'Cochichar com:'
 ChatManagerWhisperToName = 'Cochichar com:\n%s'
 ChatManagerCancel = lCancel
 ChatManagerWhisperOffline = '%s está off-line.'
-OpenChatWarning = 'Para se tornar Amigo verdadeiro de alguém, clique na pessoa e selecione "Amigos Verdadeiros" no painel de detalhes.\n\nO recurso Chat rápido Plus pode também estar ativado, qual permite usários para bater um papo por digitando palavras encontrado no Dicionário Chat Rápido Plus.\n\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em "Opções da conta" na página da web de Toontown.  '
+OpenChatWarning = 'Para se tornar Amigo verdadeiro de alguém, clique na pessoa e selecione 'Amigos Verdadeiros' no painel de detalhes.\n\nO recurso Chat rápido Plus pode também estar ativado, qual permite usários para bater um papo por digitando palavras encontrado no Dicionário Chat Rápido Plus.\n\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em 'Opções da conta' na página da web de Toontown.  '
 OpenChatWarningOK = lOK
 UnpaidChatWarning = 'Depois que você assinar o serviço, poderá ativar este botão para conversar com seus amigos usando o teclado. Até lá, você deve conversar com os outros Toons usando o Chat rápido.'
 UnpaidChatWarningPay = 'Assine já!'
 UnpaidChatWarningContinue = 'Continuar avaliação gratuita'
 PaidNoParentPasswordWarning = 'Use este botão para conversar com seus amigos usando o teclado, ative-o através das suas Opções de Contas no site de Toontown. Até lá, você pode conversar por usando o Chat rápido '
-UnpaidNoParentPasswordWarning = 'Este é para o recurso Chat Rápido Plus, qual permite usários para bater um papo por digitando palavras encontradas no Dicionário Chat Rápido Plus da Disney. Para ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em "Opções da conta" na página da web de Toontown.'
+UnpaidNoParentPasswordWarning = 'Este é para o recurso Chat Rápido Plus, qual permite usários para bater um papo por digitando palavras encontradas no Dicionário Chat Rápido Plus da Disney. Para ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em 'Opções da conta' na página da web de Toontown.'
 PaidNoParentPasswordWarningSet = 'Atualizar Opções de Chat'
 PaidNoParentPasswordWarningContinue = 'Continuar jogando'
 PaidParentPasswordUKWarning = 'Depois que o Chat estiver ativado, você poderá usar este botão para conversar com seus amigos usando o teclado. Até lá, você deve conversar com os outros Toons usando o Chat rápido.'
@@ -72,9 +72,9 @@ NoSecretChatWarningOK = lOK
 NoSecretChatWarningCancel = lCancel
 NoSecretChatWarningWrongPassword = 'Esta não é a conta de pais. Faça login com a conta de pais que é vinculada para esta conta.'
 NoSecretChatAtAllTitle = 'Abrir Chat com Amigos Verdadeiros'
-NoSecretChatAtAll = 'O recurso Abrir Chat com Amigos Verdadeiros permite amigos da vida-real para conversar abertamente com uns aos outros por meio de um código de amigo verdadeiro que deve ser compartilhado fora do jogo\n\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em "Opções da conta" na página da web de Toontown.'
+NoSecretChatAtAll = 'O recurso Abrir Chat com Amigos Verdadeiros permite amigos da vida-real para conversar abertamente com uns aos outros por meio de um código de amigo verdadeiro que deve ser compartilhado fora do jogo\n\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em 'Opções da conta' na página da web de Toontown.'
 NoSecretChatAtAllAndNoWhitelistTitle = 'Botão de Chat'
-NoSecretChatAtAllAndNoWhitelist = 'Você pode usar o botão azul de chat para se comunicar com outros Toons usando o recurso Chat Rápido Plus ou o recurso Abrir Chat com Amigos Verdadeiros.\n\nO recurso Chat rápido Plus é uma forma de tipo de chat que permitem usuários para comunicarem por usar o dicionário Disney Chat Rápido Plus.\n\nO recurso Abrir Chat com Amigos Verdadeiros é uma forma de tipo de chat que permite amigos da vida-real para conversar abertamente com uns aos outros por meio de um código de amigo verdadeiro que deve ser compartilhado fora do jogo.\n\nPara ativar estes recursos ou para aprender mais sobre ele, saia de Toontown e clique em "Opções da conta" na página da web de Toontown.'
+NoSecretChatAtAllAndNoWhitelist = 'Você pode usar o botão azul de chat para se comunicar com outros Toons usando o recurso Chat Rápido Plus ou o recurso Abrir Chat com Amigos Verdadeiros.\n\nO recurso Chat rápido Plus é uma forma de tipo de chat que permitem usuários para comunicarem por usar o dicionário Disney Chat Rápido Plus.\n\nO recurso Abrir Chat com Amigos Verdadeiros é uma forma de tipo de chat que permite amigos da vida-real para conversar abertamente com uns aos outros por meio de um código de amigo verdadeiro que deve ser compartilhado fora do jogo.\n\nPara ativar estes recursos ou para aprender mais sobre ele, saia de Toontown e clique em 'Opções da conta' na página da web de Toontown.'
 NoSecretChatAtAllOK = lOK
 ChangeSecretFriendsOptions = 'Alterar opções de Amigos Verdadeiros'
 ChangeSecretFriendsOptionsWarning = '\nInsira a senha conta de pais para alterar suas opções de Amigos verdadeiros.'
@@ -131,12 +131,12 @@ PrivacyPolicyText_Intro = [' ']
 PrivacyPolicyClose = lClose
 SecretFriendsInfoPanelOk = lOK
 SecretFriendsInfoPanelClose = lClose
-SecretFriendsInfoPanelText = ['\nO recurso Abrir chat com Amigos verdadeiros\n\nO recurso Abrir chat com Amigos verdadeiros ativa um membro para conversar diretamente com outro no Toontown On-line da Disney (o "Serviço") depois que os membros estabelecerem uma conexão de Amigos verdadeiros. Quando o seu filho tentar usar o recurso Abrir chat com Amigos verdadeiros, solicitaremos que você insira a sua Senha conta de pais para indicar seu consentimento para que a criança use o recurso. Esta é uma descrição detalhada do processo de criação de uma conexão de Abrir chat com Amigos verdadeiros entre os membros fictícios chamados "Sandra" e "Marcos". \n1. O responsável por Sandra e o responsável por Marcos ativam o recurso Abrir chat com Amigos verdadeiros inserindo suas respectivas Senhas conta de pais (a) nas áreas de Opções da conta do Serviço ou (b) quando for solicitado no jogo, em uma janela pop-up de Controles disponíveis aos pais.\n2. Sandra pede um Código de Amigo verdadeiro (descrito abaixo) no Serviço.', 
+SecretFriendsInfoPanelText = ['\nO recurso Abrir chat com Amigos verdadeiros\n\nO recurso Abrir chat com Amigos verdadeiros ativa um membro para conversar diretamente com outro no Toontown On-line da Disney (o 'Serviço') depois que os membros estabelecerem uma conexão de Amigos verdadeiros. Quando o seu filho tentar usar o recurso Abrir chat com Amigos verdadeiros, solicitaremos que você insira a sua Senha conta de pais para indicar seu consentimento para que a criança use o recurso. Esta é uma descrição detalhada do processo de criação de uma conexão de Abrir chat com Amigos verdadeiros entre os membros fictícios chamados 'Sandra' e 'Marcos'. \n1. O responsável por Sandra e o responsável por Marcos ativam o recurso Abrir chat com Amigos verdadeiros inserindo suas respectivas Senhas conta de pais (a) nas áreas de Opções da conta do Serviço ou (b) quando for solicitado no jogo, em uma janela pop-up de Controles disponíveis aos pais.\n2. Sandra pede um Código de Amigo verdadeiro (descrito abaixo) no Serviço.', 
  '\n3. O Código de Amigo verdadeiro de Sandra é comunicado a Marcos fora do Serviço. (O Código de Amigo verdadeiro de Sandra pode ser comunicado a Marcos diretamente por Sandra ou indiretamente, se Sandra revelar o Código de Amigo verdadeiro a outra pessoa.)\n4. Marcos envia o Código de Amigo verdadeiro de Sandra ao Serviço dentro de 48 horas a partir da hora em que Sandra solicitou o Código de Amigo verdadeiro ao Serviço.\n5. Em seguida, o Serviço notifica Marcos de que Sandra tornou-se sua Amiga verdadeira. Da mesma forma, o Serviço notifica Sandra de que Marcos tornou-se seu Amigo verdadeiro. \n6. Sandra e Marcos podem agora bater um papo aberto diretamente um com o outro até um deles escolher cancelar o seu relacionamento como Amigo verdadeiro, ou até que o recurso Abrir Chat com Amigos verdadeiros seja desativado para Sandra ou Marcos por um dos responsáveis. Então, a conexão de Amigos verdadeiros pode ser desativada a qualquer momento: (a) por um membro, que remove o Amigo verdadeiro de sua lista de amigos (conforme descrito no Serviço), ou (b) pelo responsável pelo membro, que desativa o recurso Abrir chat com ', 
  '\nAmigos verdadeiros na área Opções da conta do Serviço, seguindo as etapas definidas no recurso.\n\nUm Código de Amigo verdadeiro é um código aleatório, gerado por computador, que é atribuído a um membro específico. O Código de Amigo verdadeiro precisa ser usado para ativar a conexão de Amigo verdadeiro dentro de 48 horas a partir da hora em que o membro solicitou o Código de Amigo verdadeiro; caso contrário, o Código de Amigo verdadeiro expirará e não poderá ser usado. Além disso, só se pode usar um simples Código de Amigo verdadeiro para estabelecer uma conexão de Amigo verdadeiro. Para fazer conexões adicionais de Amigos verdadeiros, o membro precisará solicitar mais códigos de Amigo verdadeiros, um para cada Amigo verdadeiro que quiser incluir.\n\nAs Amizades verdadeiras não podem ser transferidas. Por exemplo, se Sandra se tornar Amiga verdadeira de Marcos, e Marcos se tornar Amigo verdadeiro de Jéssica, Sandra não se tornará automaticamente Amiga verdadeira de Jéssica. Para que Sandra e Jéssica\n',
- "\nse tornem Amigas verdadeiras, uma delas terá que solicitar um novo Código de Amigo verdadeiro ao Serviço e comunicar à outra.\n\nOs Amigos verdadeiros se comunicam entre si por meio de uma conversa interativa em formato livre. O conteúdo da conversa é inserido diretamente pelo membro participante e é processado pelo Serviço, cuja operação é realizada pelo Walt Disney Internet Group ('WDIG'), 500 S. Buena Vista St., Burbank, CA 91521-7691.  Embora aconselhamos os membros não trocarem informações pessoais como nome e sobrenome, e-mails, endereço postal ou números de telefone ao usarem o recurso Abrir Chat com Amigos verdadeiros, não podemos garantir que os membros seguirão a recomendação e que tais informações sejam preservadas. Embora o chat Amigos verdadeiros seja automaticamente filtrado para maioria dos palavrões, Abrir chat com amigos verdadeiros pode ser moderado e a Disney reserva-se o direito de moderar qualquer parte do Serviço que a Disney,\n",
+ '\nse tornem Amigas verdadeiras, uma delas terá que solicitar um novo Código de Amigo verdadeiro ao Serviço e comunicar à outra.\n\nOs Amigos verdadeiros se comunicam entre si por meio de uma conversa interativa em formato livre. O conteúdo da conversa é inserido diretamente pelo membro participante e é processado pelo Serviço, cuja operação é realizada pelo Walt Disney Internet Group ('WDIG'), 500 S. Buena Vista St., Burbank, CA 91521-7691.  Embora aconselhamos os membros não trocarem informações pessoais como nome e sobrenome, e-mails, endereço postal ou números de telefone ao usarem o recurso Abrir Chat com Amigos verdadeiros, não podemos garantir que os membros seguirão a recomendação e que tais informações sejam preservadas. Embora o chat Amigos verdadeiros seja automaticamente filtrado para maioria dos palavrões, Abrir chat com amigos verdadeiros pode ser moderado e a Disney reserva-se o direito de moderar qualquer parte do Serviço que a Disney,\n',
  '\na seu exclusivo e absoluto critério, julgar necessário. No entanto, como Abrir chat com Amigos verdadeiros nem sempre será moderado, se a conta de pais deixarem seus filhos usarem a conta com o recurso Abrir chat com Amigos verdadeiros ativado no Serviço, aconselhamos que eles mesmos supervisionem os filhos durante a brincadeira. Ao ativar o recurso Abrir chat com Amigos verdadeiros, a conta de pais reconhece que, apesar de haver alguns riscos inerentes ao recurso Abrir chat com amigos verdadeiros, a conta de pais foi informada de todos os riscos mencionados aqui, concordando em aceitá-los, seja previsível ou não. \n\nO WDIG não usa o conteúdo do chat Amigos verdadeiros para nenhum fim que não seja a comunicação do conteúdo ao amigo verdadeiro do membro, e não revela tal conteúdo a terceiros, exceto: (1) se exigido por lei; por exemplo, para cumprir uma ordem ou intimação judicial; (2) para fazer com que os Termos de Uso\n', 
- "\naplicáveis ao Serviço (que podem ser acessados na página principal do Serviço) sejam respeitados; ou (3) para proteger a segurança dos Membros do Serviço e o Serviço propriamente dito. Mediante solicitação ao WDIG, o responsável por uma criança-membro pode analisar e mandar apagar qualquer conteúdo do recurso de chat Amigos verdadeiros fornecidos pela criança em questão, desde que tal conteúdo já não tenha sido excluído dos registros pelo WDIG. Obedecendo à Children's Online Privacy Protection Act, uma lei americana de proteção à privacidade on-line para as crianças, estamos proibidos de condicionar a participação da criança em qualquer tipo de atividade (inclusive o recurso Abrir chat com Amigos verdadeiros) ao fornecimento, por parte da criança, de mais informações pessoais do que o estritamente necessário para que ela participe de tais atividades.\n\nAlém disso, conforme observado acima, reconhecemos o direito do responsável pela criança de não permitir que continuemos a deixar que a criança use o recurso Amigos verdadeiros. Ao ativar o recurso Abrir chat com Amigos verdadeiros, você reconhece que há alguns riscos inerentes ao chat aberto, no qual os membros podem conversar uns com os outros usando o recurso Abrir chat com Amigos verdadeiros, sendo que você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los, seja previsível ou não.\n"]
+ '\naplicáveis ao Serviço (que podem ser acessados na página principal do Serviço) sejam respeitados; ou (3) para proteger a segurança dos Membros do Serviço e o Serviço propriamente dito. Mediante solicitação ao WDIG, o responsável por uma criança-membro pode analisar e mandar apagar qualquer conteúdo do recurso de chat Amigos verdadeiros fornecidos pela criança em questão, desde que tal conteúdo já não tenha sido excluído dos registros pelo WDIG. Obedecendo à Children's Online Privacy Protection Act, uma lei americana de proteção à privacidade on-line para as crianças, estamos proibidos de condicionar a participação da criança em qualquer tipo de atividade (inclusive o recurso Abrir chat com Amigos verdadeiros) ao fornecimento, por parte da criança, de mais informações pessoais do que o estritamente necessário para que ela participe de tais atividades.\n\nAlém disso, conforme observado acima, reconhecemos o direito do responsável pela criança de não permitir que continuemos a deixar que a criança use o recurso Amigos verdadeiros. Ao ativar o recurso Abrir chat com Amigos verdadeiros, você reconhece que há alguns riscos inerentes ao chat aberto, no qual os membros podem conversar uns com os outros usando o recurso Abrir chat com Amigos verdadeiros, sendo que você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los, seja previsível ou não.\n']
 LeaveToPay = 'Clica comprar para sair do jogo e compra um Seja um Super Toon no site Toontown.com.br'
 LeaveToPayYes = 'Comprar'
 LeaveToPayNo = lCancel
@@ -147,12 +147,12 @@ LeaveToEnableChatUK = 'Para ativar o chat, o jogo sairá para o site Toontown.'
 LeaveToEnableChatUKYes = 'Ativar chat'
 LeaveToEnableChatUKNo = lCancel
 ChatMoreInfoOK = lOK
-SecretChatDeactivated = 'O recurso "Amigos verdadeiros" foi desativado.'
-RestrictedSecretChatActivated = 'O recurso "Amigos verdadeiros restritos" foi ativado!'
-SecretChatActivated = 'O recurso "Amigos verdadeiros irrestritos" foi ativado!'
+SecretChatDeactivated = 'O recurso 'Amigos verdadeiros' foi desativado.'
+RestrictedSecretChatActivated = 'O recurso 'Amigos verdadeiros restritos' foi ativado!'
+SecretChatActivated = 'O recurso 'Amigos verdadeiros irrestritos' foi ativado!'
 SecretChatActivatedOK = lOK
 SecretChatActivatedChange = 'Alterar Opções'
-ProblemActivatingChat = 'Ops! Não foi possível ativar o recurso de chat "Amigos verdadeiros".\n\n%s\n\nTente novamente mais tarde.'
+ProblemActivatingChat = 'Ops! Não foi possível ativar o recurso de chat 'Amigos verdadeiros'.\n\n%s\n\nTente novamente mais tarde.'
 ProblemActivatingChatOK = lOK
 MultiPageTextFrameNext = lNext
 MultiPageTextFramePrev = 'Anterior'
@@ -187,7 +187,7 @@ CRBootedReasons = {1: 'Houve um problema inesperado. A conexão falhou, mas voc�
  126: 'Você não está autorizado a usar privilégios administrativos.',
  127: 'Ocorreu um problema com seu Toon. Entre em contato com o Atendimento aos Membros por telefone ou e-mail e indique o Código de Erro 127. Obrigado.',
  151: 'O administrador responsável pelos servidores de Toontown fez logout na sua conta.',
- 152: "Foi relatada uma violação dos nossos termos de uso, com relação a '%(name)s'. Por segurança, colocamos uma restrição temporária na conta. Para obter mais detalhes, leia a mensagem enviada ao endereço de e-mail associado a '%(name)s'.",
+ 152: 'Foi relatada uma violação dos nossos termos de uso, com relação a '%(name)s'. Por segurança, colocamos uma restrição temporária na conta. Para obter mais detalhes, leia a mensagem enviada ao endereço de e-mail associado a '%(name)s'.',
  153: 'A região de Toontown em que você estava jogando foi reiniciada. Todas as pessoas que estavam jogando nesta região foram desconectadas. Entretanto, você poderá conectar-se novamente e voltar direto ao jogo.',
  288: 'Sinto muito, mas você usou todos os seus minutos disponíveis deste mês na Toontown.',
  349: 'Sinto muito, mas você usou todos os seus minutos disponíveis deste mês na Toontown.'}
@@ -305,7 +305,7 @@ FriendSecretEnteredSecretUnknown = 'Este código de amigo verdadeiro não existe
 FriendSecretEnteredSecretFull = 'Você não pode fazer amizade com %s porque um de vocês dois possui amigos demais na lista.'
 FriendSecretEnteredSecretFullNoName = 'Vocês não podem fazer amizade porque um de vocês dois possui amigos demais na lista.'
 FriendSecretEnteredSecretSelf = 'Você acabou de digitar seu próprio código de amigo verdadeiro! Agora, ninguém mais poderá usar este código de amigo verdadeiro.'
-FriendSecretEnteredSecretWrongProduct = "Você digitou o tipo errado de Código de Amigo Verdadeiro.\nEste jogo utiliza códigos que começam com '%s'."
+FriendSecretEnteredSecretWrongProduct = 'Você digitou o tipo errado de Código de Amigo Verdadeiro.\nEste jogo utiliza códigos que começam com '%s'.'
 FriendSecretNowFriends = 'Agora, você é Amigo Verdadeiro de %s!'
 FriendSecretNowFriendsNoName = 'Agora, vocês são Amigos verdadeiros!'
 FriendSecretDetermineSecret = 'Que tipo de Amigo Verdadeiro você quer ter?'
@@ -461,9 +461,9 @@ EmoteWhispers = ['%s acena.',
  '%s está muito triste.',
  '%s sorriu.',
  '%s dá risada.',
- "%s diz '" + lYes + "'.",
- "%s diz '" + lNo + "'.",
- "%s diz '" + lOK + "'.",
+ '%s diz '' + lYes + ''.',
+ '%s diz '' + lNo + ''.',
+ '%s diz '' + lOK + ''.',
  '%s se surpreende.',
  '%s está chorando.',
  '%s está alegre.',
@@ -513,8 +513,8 @@ SuitBrushOffs = {'f': ['Estou atrasado para uma reunião.'],
 SuitFaceoffTaunts = {'b': ['Você tem uma doação para mim?',
        'Você vai detestar perder a parada.',
        'Você não vai ter salvação.',
-       'Sou "A Positivo", portanto, vou ganhar.',
-       '"O" não seja tão "Negativo".',
+       'Sou 'A Positivo', portanto, vou ganhar.',
+       ''O' não seja tão 'Negativo'.',
        'É uma surpresa você ter me achado; não tenho parada.',
        'Vou precisar fazer uma rápida contagem em você.',
        'Em breve, você vai precisar comer biscoito e tomar um suco.',
@@ -983,13 +983,13 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
  1102: 'Vamos lutar com %s!' % Cogs,
  1103: 'Vamos tomar um edifício %s!' % Cog,
  1104: 'Vamos entrar no elevador!',
- 1105: 'Vamos para o %s!' % lToontownCentral,
+ 1105: 'Vamos para o Centro de Toontown!',
  1106: 'Vamos para o %s!' % lDonaldsDock,
  1107: 'Vamos para a %s!' % lMinniesMelodyland,
  1108: 'Vamos para o %s!' % lDaisyGardens,
  1109: 'Vamos para %s!' % lTheBrrrgh,
  1110: 'Vamos para a %s!' % lDonaldsDreamland,
- 1111: 'Vamos para a %s!' % lGoofySpeedway,
+ 1111: 'Vamos para a Autódromo!',
  1112: 'Vamos para a minha casa!',
  1113: 'Vamos para a sua casa!',
  1114: 'Vamos para o Quartel do Robô Vendedor!',
@@ -1296,9 +1296,9 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
  4000: 'Vamos jogar minigolfe!',
  4001: 'Vamos jogar de novo!',
  4002: 'Quer jogar golfe?',
- 4100: 'Vamos jogar no "Tacada e Caminhada".',
- 4101: 'Vamos jogar no "Tacadas Divertidas".',
- 4102: 'Vamos jogar no "Todas as Tacadas".',
+ 4100: 'Vamos jogar no 'Tacada e Caminhada'.',
+ 4101: 'Vamos jogar no 'Tacadas Divertidas'.',
+ 4102: 'Vamos jogar no 'Todas as Tacadas'.',
  4103: 'Esse percurso é fácil demais.',
  4104: 'Esse percurso é difícil demais.',
  4105: 'Esse percurso está ótimo.',
@@ -1970,9 +1970,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
  51421: 'Bonito agora, homens!',
  50400: 'Vamos zarpar.',
  50401: 'Vamos sair daqui.',
- 50402: 'Vamos sair daqui.',
- 50403: 'Vamos sair daqui.',
- 50404: 'Vamos sair daqui.',
  51500: 'Vamos navegar para Port Royal.',
  51501: 'Vamos navegar para Tortuga.',
  51502: 'Vamos navegar para Padres Del Fuego.',
@@ -1984,7 +1981,7 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
  51508: 'Vamos navegar para Outcast Isle.',
  51509: 'Vamos navegar para Driftwood.',
  51510: 'Vamos navegar para Cutthroat.',
- 51511: "Vamos navegar para Rumrunner's Isle.",
+ 51511: 'Vamos navegar para Rumrunner's Isle.',
  51512: 'Vamos navegar para Isla Cangrejos.',
  51600: 'Vamos para a cidade.',
  51601: 'Vamos para as docas.',
@@ -2009,9 +2006,9 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
  50206: 'Você precisa de uma espada afiada e inteligência mais afiada.'
  50207: 'Você está a um dobrão de um companheiro de casco completo!'
  50208: 'Cuidado com sua língua ou vou conservá-la com sal marinho!',
- 50209: "Toca-me e saqueie e você ganha a bota!"
- 50210: "O horizonte está tão vazio quanto sua cabeça.",
- 50211: "Você é uma lona tímida de uma vela cheia, não é, companheiro?",
+ 50209: 'Toca-me e saqueie e você ganha a bota!'
+ 50210: 'O horizonte está tão vazio quanto sua cabeça.',
+ 50211: 'Você é uma lona tímida de uma vela cheia, não é, companheiro?',
  50300: 'Bom tiro, amigo!',
  50301: 'Um golpe bem dado!',
  50302: 'Belo tiro!',
@@ -2031,43 +2028,41 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
  52601: 'Posso contratar outro revendedor?',
  53101: 'Peguei um peixe!',
  53102: 'Vi um peixe lendário!',
- 53103: "O que você pescou?",
- 53104: "Isso vai virar uma história de baleia!",
- 53105: "Foi uma beleza!",
- 53106: "Arr, o mar está traiçoeiro hoje.",
- 53107: "Que farta pesca!", 
- 53110: "Você tem a isca lendária?",
- 53111: "Você já pescou um peixe lendário?",
- 53112: "Você sabe navegar em um barco de pesca?",
-    53113 : "Onde está o Mestre da Pesca?",
-    53114 : "Você completou sua coleção de peixes?",
-
-   # Minijogos - Defesa de Canhão
-    53120 : "Atire no meu alvo!",
-    53121 : "Atire no navio mais próximo da costa!",
-    53122 : "Tem um navio fugindo!",
-    53123 : "Atire nos navios grandes!",
-    53124 : "Atire nos navios pequenos!",
-    53125 : "Mais estão chegando!",
-    53126 : "Não vamos durar muito mais!",
-    53127 : "Atire nos barris!",
-    53128 : "Temos munição nova!",
-    53129 : "Defesa resistente, companheiros!",
- 53141 : "Olhe a poção que eu fiz!",
- 53142 : "Você completou sua coleção de poções?",
- 53143 : "Onde está o cigano?",
- 53144 : "Que poção é essa?",
- 53145 : "Esta poção foi fácil o suficiente.",
- 53146 : "Esta poção foi difícil de preparar, eu te digo!",
- 53160 : "Precisamos de alguém para bombear o porão!",
- 53161 : "Precisamos de alguém para esfregar!",
- 53162 : "Precisamos de alguém para serrar!",
- 53163 : "Precisamos de alguém para reforçar!",
- 53164 : "Precisamos de alguém para martelar!",
- 53165 : "Precisamos de alguém para remendar!",
- 53166 : "Eu faço isso!",
- 53167: "Continue assim, este navio não vai se consertar sozinho!",
- 53168: "Ótimo trabalho consertando o navio!",
+ 53103: 'O que você pescou?',
+ 53104: 'Isso vai virar uma história de baleia!',
+ 53105: 'Foi uma beleza!',
+ 53106: 'Arr, o mar está traiçoeiro hoje.',
+ 53107: 'Que farta pesca!', 
+ 53110: 'Você tem a isca lendária?',
+ 53111: 'Você já pescou um peixe lendário?',
+ 53112: 'Você sabe navegar em um barco de pesca?',
+ 53113: 'Onde está o Mestre da Pesca?',
+ 53114: 'Você completou sua coleção de peixes?',
+ 53120: 'Atire no meu alvo!',
+ 53121: 'Atire no navio mais próximo da costa!',
+ 53122: 'Tem um navio fugindo!',
+ 53123: 'Atire nos navios grandes!',
+ 53124: 'Atire nos navios pequenos!',
+ 53125: 'Mais estão chegando!',
+ 53126: 'Não vamos durar muito mais!',
+ 53127: 'Atire nos barris!',
+ 53128: 'Temos munição nova!',
+ 53129: 'Defesa resistente, companheiros!',
+ 53141: 'Olhe a poção que eu fiz!',
+ 53142: 'Você completou sua coleção de poções?',
+ 53143: 'Onde está o cigano?',
+ 53144: 'Que poção é essa?',
+ 53145: 'Esta poção foi fácil o suficiente.',
+ 53146: 'Esta poção foi difícil de preparar, eu te digo!',
+ 53160: 'Precisamos de alguém para bombear o porão!',
+ 53161: 'Precisamos de alguém para esfregar!',
+ 53162: 'Precisamos de alguém para serrar!',
+ 53163: 'Precisamos de alguém para reforçar!',
+ 53164: 'Precisamos de alguém para martelar!',
+ 53165: 'Precisamos de alguém para remendar!',
+ 53166: 'Eu faço isso!',
+ 53167: 'Continue assim, este navio não vai se consertar sozinho!',
+ 53168: 'Ótimo trabalho consertando o navio!',
  52100: 'Quer se agrupar?',
  52101: 'Juntar-se à minha tripulação?',
  52200: 'Lute contra alguns esqueletos?',
@@ -2167,6 +2162,7 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
  65000: 'Sim',
  65001: 'Não',
  60909: 'Verifique a mão'}
+SpeedChatStaticText = SpeedChatStaticTextCommon
 Emotes_Root = 'EMOÇÕES'
 Emotes_Dances = 'Danças'
 Emotes_General = 'Geral'
@@ -2219,7 +2215,9 @@ Emotes = (60505,
  60633,
  60676,
  65000,
- 65001)
+ 65001,
+ 60517,
+ 60909)
 SCFactoryMeetMenuIndexes = (1903, 
  1904,
  1906,
@@ -2257,7 +2255,7 @@ CustomSCStrings = {10: 'Bom...',
  180: 'Vejo você amanhã.',
  190: 'Até a próxima.',
  200: 'Tchau-tchau, pica-pau.',
- 210: "Até outra hora, galinha d'angola.",
+ 210: 'Até outra hora, galinha d'angola.',
  220: 'Vou precisar ir daqui a pouco.',
  230: 'Não conheço isso!',
  240: 'Você está fora daqui!',
@@ -2609,14 +2607,17 @@ CustomSCStrings = {10: 'Bom...',
  11009: 'Um bom feriado para você!',
  11010: 'Feliz Dia do Peru!',
  11011: 'Ho! Ho! Ho!',
- 11012: '\'Noel\' problema.',
- 11013: '\'Noel\' surpresa nenhuma.',
+ 11012: 'Noel problema.',
+ 11013: 'Noel surpresa nenhuma.',
  11014: 'Deixa bater o sino, pequenino!',
  11015: 'Raspa o tacho.',
  11016: 'Feliz Natal!',
- 11017: 'Com \'nataleza\'!',
+ 11017: 'Com nataleza!',
  11018: 'Até o Natal, tudo bem!',
- 11019: 'Você vai se \'arrenapender\'!',
+ 11019: 'Você vai se arrenapender!',
+ 11020: 'Tenha um inverno maravilhoso!',
+ 11021: 'As decorações da festa de fim de ano são Toontastico!',
+ 11022: 'Soldados Toons estão organizando festas de fim de ano!',
  12000: 'Fica comigo!',
  12001: 'Vem ser meu amorzinho!',
  12002: 'Feliz Dia dos Namorados!',
@@ -2634,6 +2635,11 @@ CustomSCStrings = {10: 'Bom...',
  12014: 'Batatinha quando nasce...',
  12015: 'Esparrama pelo chão...',
  12016: 'Que gracinha!',
+ 12050: 'EU AMO acabar com Cogs!',
+ 12051: 'Você é um estouro!',
+ 12052: 'Só tenho olhos para você!',
+ 12053: 'Você é mais doce do que uma bala!',
+ 12054: 'Eu ADORARIA ter você em minha Festa Dia dos namorados!',
  13000: 'Tenho você no coração!',
  13001: 'Feliz Páscoa!',
  13002: 'Você não está vestindo marrom-chocolate!',
@@ -2768,15 +2774,15 @@ NCNeedLetters = 'Cada palavra do nome deve conter algumas letras.'
 NCNeedVowels = 'Cada palavra do nome deve conter algumas vogais.'
 NCAllCaps = 'O seu nome não pode estar todo em maiúscula.'
 NCMixedCase = 'Este nome tem muitas letras em minúscula.'
-NCBadCharacter = "O seu nome não pode conter o caractere '%s'"
-NCRepeatedChar = "Seu nome tem muitos caracteres '%s'"
+NCBadCharacter = 'O seu nome não pode conter o caractere '%s''
+NCRepeatedChar = 'Seu nome tem muitos caracteres '%s''
 NCGeneric = 'Sinto muito, este nome não vai funcionar.'
 NCTooManyWords = 'O seu nome não pode ter mais de quatro palavras.'
-NCDashUsage = "Hífens podem ser usados apenas para ligar duas palavras (como em 'Bu-Bu')."
+NCDashUsage = 'Hífens podem ser usados apenas para ligar duas palavras (como em 'Bu-Bu').'
 NCCommaEdge = 'O seu nome não pode começar ou terminar com vírgula.'
 NCCommaAfterWord = 'Você não pode começar uma palavra com vírgula.'
-NCCommaUsage = 'Este nome não usa vírgulas corretamente. As vírgulas devem juntar duas palavras, como no nome "Dr. Quack, MD". As vírgulas devem também ser seguidas por um espaço.'
-NCPeriodUsage = 'Este nome não usa pontos corretamente. Os pontos são permitidos somente em palavras como "Sr.", "Sra.", "J.P." etc.'
+NCCommaUsage = 'Este nome não usa vírgulas corretamente. As vírgulas devem juntar duas palavras, como no nome 'Dr. Quack, MD'. As vírgulas devem também ser seguidas por um espaço.'
+NCPeriodUsage = 'Este nome não usa pontos corretamente. Os pontos são permitidos somente em palavras como 'Sr.', 'Sra.', 'J.P.' etc.'
 NCApostrophes = 'Este nome tem muitos apóstrofos.'
 AvatarDetailPanelOK = lOK
 AvatarDetailPanelCancel = lCancel
