@@ -31,8 +31,8 @@ WhisperTargetLeftVisit = '%s foi para algum outro lugar. Tente novamente!'
 WhisperGiveupVisit = '%s não conseguiu encontrá-lo porque você está se movendo!'
 WhisperIgnored = '%s está ignorando você!'
 TeleportGreeting = 'Oi, %s.'
-WhisperFriendComingOnline = '%s está entrando on-line!'
-WhisperFriendLoggedOut = '%s fez logout.'
+WhisperComingOnline = '%s está entrando on-line!'
+WhisperLoggedOut = '%s fez logout.'
 WhisperPlayerOnline = '%s on-line em %s'
 WhisperPlayerOffline = '%s está off-line.'
 WhisperUnavailable = 'Aquele jogador já não está disponível para cochichos.'
@@ -76,8 +76,8 @@ NoSecretChatAtAll = 'O recurso Abrir Chat com Amigos Verdadeiros permite amigos 
 NoSecretChatAtAllAndNoWhitelistTitle = 'Botão de Chat'
 NoSecretChatAtAllAndNoWhitelist = 'Você pode usar o botão azul de chat para se comunicar com outros Toons usando o recurso Chat Rápido Plus ou o recurso Abrir Chat com Amigos Verdadeiros.\n\nO recurso Chat rápido Plus é uma forma de tipo de chat que permitem usuários para comunicarem por usar o dicionário Disney Chat Rápido Plus.\n\nO recurso Abrir Chat com Amigos Verdadeiros é uma forma de tipo de chat que permite amigos da vida-real para conversar abertamente com uns aos outros por meio de um código de amigo verdadeiro que deve ser compartilhado fora do jogo.\n\nPara ativar qualquer um desses recursos ou para saber mais sobre eles, saia do Toontown e clique em "Preferências" em Serviços para Membros no site do Toontown.'
 NoSecretChatAtAllOK = lOK
-ChangeSecretFriendsOptions = 'Alterar opções de Amigos Verdadeiros'
-ChangeSecretFriendsOptionsWarning = '\nInsira a senha conta de pais para alterar suas opções de Amigos verdadeiros.'
+ChangeSecretsOptions = 'Alterar opções de Amigos Verdadeiros'
+ChangeSecretsOptionsWarning = '\nInsira a senha conta de pais para alterar suas opções de Amigos verdadeiros.'
 ActivateChatTitle = 'Opções de Amigos verdadeiros'
 WhisperToFormat = 'Para %s %s'
 WhisperToFormatName = 'Para %s'
@@ -129,9 +129,9 @@ PrivacyPolicyText_2A = [' ']
 PrivacyPolicyText_2K = [' ']
 PrivacyPolicyText_Intro = [' ']
 PrivacyPolicyClose = lClose
-SecretFriendsInfoPanelOk = lOK
-SecretFriendsInfoPanelClose = lClose
-SecretFriendsInfoPanelText = ['\nO recurso Abrir chat com Amigos verdadeiros\n\nO recurso Abrir chat com Amigos verdadeiros ativa um membro para conversar diretamente com outro no Toontown On-line da Disney (o 'Serviço') depois que os membros estabelecerem uma conexão de Amigos verdadeiros. Quando o seu filho tentar usar o recurso Abrir chat com Amigos verdadeiros, solicitaremos que você insira a sua Senha conta de pais para indicar seu consentimento para que a criança use o recurso. Esta é uma descrição detalhada do processo de criação de uma conexão de Abrir chat com Amigos verdadeiros entre os membros fictícios chamados 'Sandra' e 'Marcos'. \n1. O responsável por Sandra e o responsável por Marcos ativam o recurso Abrir chat com Amigos verdadeiros inserindo suas respectivas Senhas conta de pais (a) nas áreas de Opções da conta do Serviço ou (b) quando for solicitado no jogo, em uma janela pop-up de Controles disponíveis aos pais.\n2. Sandra pede um Código de Amigo verdadeiro (descrito abaixo) no Serviço.', 
+SecretsInfoPanelOk = lOK
+SecretsInfoPanelClose = lClose
+SecretsInfoPanelText = ['\nO recurso Abrir chat com Amigos verdadeiros\n\nO recurso Abrir chat com Amigos verdadeiros ativa um membro para conversar diretamente com outro no Toontown On-line da Disney (o 'Serviço') depois que os membros estabelecerem uma conexão de Amigos verdadeiros. Quando o seu filho tentar usar o recurso Abrir chat com Amigos verdadeiros, solicitaremos que você insira a sua Senha conta de pais para indicar seu consentimento para que a criança use o recurso. Esta é uma descrição detalhada do processo de criação de uma conexão de Abrir chat com Amigos verdadeiros entre os membros fictícios chamados 'Sandra' e 'Marcos'. \n1. O responsável por Sandra e o responsável por Marcos ativam o recurso Abrir chat com Amigos verdadeiros inserindo suas respectivas Senhas conta de pais (a) nas áreas de Opções da conta do Serviço ou (b) quando for solicitado no jogo, em uma janela pop-up de Controles disponíveis aos pais.\n2. Sandra pede um Código de Amigo verdadeiro (descrito abaixo) no Serviço.', 
  '\n3. O Código de Amigo verdadeiro de Sandra é comunicado a Marcos fora do Serviço. (O Código de Amigo verdadeiro de Sandra pode ser comunicado a Marcos diretamente por Sandra ou indiretamente, se Sandra revelar o Código de Amigo verdadeiro a outra pessoa.)\n4. Marcos envia o Código de Amigo verdadeiro de Sandra ao Serviço dentro de 48 horas a partir da hora em que Sandra solicitou o Código de Amigo verdadeiro ao Serviço.\n5. Em seguida, o Serviço notifica Marcos de que Sandra tornou-se sua Amiga verdadeira. Da mesma forma, o Serviço notifica Sandra de que Marcos tornou-se seu Amigo verdadeiro. \n6. Sandra e Marcos podem agora bater um papo aberto diretamente um com o outro até um deles escolher cancelar o seu relacionamento como Amigo verdadeiro, ou até que o recurso Abrir Chat com Amigos verdadeiros seja desativado para Sandra ou Marcos por um dos responsáveis. Então, a conexão de Amigos verdadeiros pode ser desativada a qualquer momento: (a) por um membro, que remove o Amigo verdadeiro de sua lista de amigos (conforme descrito no Serviço), ou (b) pelo responsável pelo membro, que desativa o recurso Abrir chat com ', 
  '\nAmigos verdadeiros na área Opções da conta do Serviço, seguindo as etapas definidas no recurso.\n\nUm Código de Amigo verdadeiro é um código aleatório, gerado por computador, que é atribuído a um membro específico. O Código de Amigo verdadeiro precisa ser usado para ativar a conexão de Amigo verdadeiro dentro de 48 horas a partir da hora em que o membro solicitou o Código de Amigo verdadeiro; caso contrário, o Código de Amigo verdadeiro expirará e não poderá ser usado. Além disso, só se pode usar um simples Código de Amigo verdadeiro para estabelecer uma conexão de Amigo verdadeiro. Para fazer conexões adicionais de Amigos verdadeiros, o membro precisará solicitar mais códigos de Amigo verdadeiros, um para cada Amigo verdadeiro que quiser incluir.\n\nAs Amizades verdadeiras não podem ser transferidas. Por exemplo, se Sandra se tornar Amiga verdadeira de Marcos, e Marcos se tornar Amigo verdadeiro de Jéssica, Sandra não se tornará automaticamente Amiga verdadeira de Jéssica. Para que Sandra e Jéssica\n',
  '\nse tornem Amigas verdadeiras, uma delas terá que solicitar um novo Código de Amigo verdadeiro ao Serviço e comunicar à outra.\n\nOs Amigos verdadeiros se comunicam entre si por meio de uma conversa interativa em formato livre. O conteúdo da conversa é inserido diretamente pelo membro participante e é processado pelo Serviço, cuja operação é realizada pelo Walt Disney Internet Group ('WDIG'), 500 S. Buena Vista St., Burbank, CA 91521-7691.  Embora aconselhamos os membros não trocarem informações pessoais como nome e sobrenome, e-mails, endereço postal ou números de telefone ao usarem o recurso Abrir Chat com Amigos verdadeiros, não podemos garantir que os membros seguirão a recomendação e que tais informações sejam preservadas. Embora o chat Amigos verdadeiros seja automaticamente filtrado para maioria dos palavrões, Abrir chat com amigos verdadeiros pode ser moderado e a Disney reserva-se o direito de moderar qualquer parte do Serviço que a Disney,\n',
@@ -238,7 +238,7 @@ SCMenuHello = 'OLÁ'
 SCMenuBye = 'TCHAU'
 SCMenuHappy = 'FELIZ'
 SCMenuSad = 'TRISTE'
-SCMenuFriendly = 'AMIGÁVEL'
+SCMenuly = 'AMIGÁVEL'
 SCMenuSorry = 'DESCULPE'
 SCMenuStinky = 'FEDIDO'
 SCMenuPlaces = 'LUGARES'
@@ -259,8 +259,8 @@ SCMenuPlacesPlayground = 'PÁTIO'
 SCMenuPlacesEstate = 'PROPRIEDADE'
 SCMenuPlacesCogs = 'COGS'
 SCMenuPlacesWait = 'ESPERE'
-SCMenuFriendlyYou = 'Você...'
-SCMenuFriendlyILike = 'Eu gosto de...'
+SCMenulyYou = 'Você...'
+SCMenulyILike = 'Eu gosto de...'
 SCMenuPlacesLetsGo = 'Vamos...'
 SCMenuToontasksMyTasks = 'MINHAS TAREFAS'
 SCMenuToontasksYouShouldChoose = 'Eu acho que você deveria escolher...'
@@ -282,24 +282,24 @@ SCMenuWinter = 'INVERNO'
 SCMenuSellbotInvasion = 'INVASÃO DOS RÔBOS VENDEDORES'
 SCMenuFieldOffice = 'ESCRITÓRIO DE CAMPO'
 SCMenuIdesOfMarch = 'VERDE'
-FriendSecretNeedsPasswordWarningTitle = 'Controles disponíveis aos pais'
-FriendSecretNeedsParentLoginWarning = 'Para conseguir ou digitar um Código de Amigo Verdadeiro, um dos seus pais ou responsáveis precisa fazer o login. Você pode desativar esta pergunta alterando suas opções de Amigos Verdadeiros.'
-FriendSecretNeedsPasswordWarning = 'Para pegar ou digitar um código de amigo verdadeiro, você deve inserir a Senha conta de pais. Você pode desativar esta solicitação alterando as suas opções de Amigos verdadadeiros.'
-FriendSecretNeedsPasswordWarningOK = lOK
-FriendSecretNeedsPasswordWarningCancel = lCancel
-FriendSecretNeedsPasswordWarningWrongUsername = 'Esse não é o nome de usuário correto. Digite o nome de usuário da conta de pais. Esse não é o mesmo nome de usuário que é usado para jogar.'''
-FriendSecretNeedsPasswordWarningWrongPassword = 'Esta não é a senha correta. Insira a Senha conta de pais criada na compra desta conta. Não é a mesma senha usada para os jogos.'''
-FriendSecretIntro = 'Se você estiver jogando Toontown Online da Disney com alguém que conhece no mundo real, poderá tornar-se Amigo verdadeiro dessa pessoa. Você pode conversar com seus Amigos verdadeiros usando o teclado. Os outros Toons não entenderão o que vocês estiverem falando.\n\nVocê pode conseguir isto obtendo um código de amigo verdadeiro. Conte o código de amigo verdadeiro só ao seu amigo, e a mais ninguém. Quando o seu amigo digitar o seu código de amigo verdadeiro na tela, vocês dois serão Amigos verdadeiros em Toontown!'
-FriendSecretGetSecret = 'Obter um código de amigo verdadeiro'
-FriendSecretEnterSecret = 'Se você tiver um código de amigo verdadeiro de alguém conhecido, digite-o aqui.'
-FriendSecretOK = lOK
-FriendSecretEnter = 'Inserir código de amigo verdadeiro'
-FriendSecretCancel = lCancel
-FriendSecretGettingSecret = 'Obtendo código de amigo verdadeiro. . .'
-FriendSecretGotSecret = 'Este é o seu novo código de amigo verdadeiro. Não deixe de anotá-lo em algum lugar!\n\nVocê só pode dar este código de amigo verdadeiro a uma pessoa. Depois que alguém digitar o seu código de amigo verdadeiro, ele não funcionará para nenhuma outra pessoa. Se você quiser dar um código de amigo verdadeiro para mais de uma pessoa, obtenha outro.\n\nO código de amigo verdadeiro só funcionará nos próximos dois dias. O seu amigo terá que digitá-lo antes que expire, caso contrário, não funcionará.\n\nO código de amigo verdadeiro é:'
-FriendSecretTooMany = 'Sinto muito, você não pode ter mais código de amigo verdadeiro hoje. Você já obteve mais do que a parte que lhe cabia!\n\nTente novamente amanhã.'
-FriendSecretTryingSecret = 'Tentando usar código de amigo verdadeiro. . .'
-FriendSecretEnteredSecretSuccess = 'Agora, você é Amigo verdadeiro de %s!'
+SecretNeedsPasswordWarningTitle = 'Controles disponíveis aos pais'
+SecretNeedsParentLoginWarning = 'Para conseguir ou digitar um Código de Amigo Verdadeiro, um dos seus pais ou responsáveis precisa fazer o login. Você pode desativar esta pergunta alterando suas opções de Amigos Verdadeiros.'
+SecretNeedsPasswordWarning = 'Para pegar ou digitar um código de amigo verdadeiro, você deve inserir a Senha conta de pais. Você pode desativar esta solicitação alterando as suas opções de Amigos verdadadeiros.'
+SecretNeedsPasswordWarningOK = lOK
+SecretNeedsPasswordWarningCancel = lCancel
+SecretNeedsPasswordWarningWrongUsername = 'Esse não é o nome de usuário correto. Digite o nome de usuário da conta de pais. Esse não é o mesmo nome de usuário que é usado para jogar.'''
+SecretNeedsPasswordWarningWrongPassword = 'Esta não é a senha correta. Insira a Senha conta de pais criada na compra desta conta. Não é a mesma senha usada para os jogos.'''
+SecretIntro = 'Se você estiver jogando Toontown Online da Disney com alguém que conhece no mundo real, poderá tornar-se Amigo verdadeiro dessa pessoa. Você pode conversar com seus Amigos verdadeiros usando o teclado. Os outros Toons não entenderão o que vocês estiverem falando.\n\nVocê pode conseguir isto obtendo um código de amigo verdadeiro. Conte o código de amigo verdadeiro só ao seu amigo, e a mais ninguém. Quando o seu amigo digitar o seu código de amigo verdadeiro na tela, vocês dois serão Amigos verdadeiros em Toontown!'
+SecretGetSecret = 'Obter um código de amigo verdadeiro'
+SecretEnterSecret = 'Se você tiver um código de amigo verdadeiro de alguém conhecido, digite-o aqui.'
+SecretOK = lOK
+SecretEnter = 'Inserir código de amigo verdadeiro'
+SecretCancel = lCancel
+SecretGettingSecret = 'Obtendo código de amigo verdadeiro. . .'
+SecretGotSecret = 'Este é o seu novo código de amigo verdadeiro. Não deixe de anotá-lo em algum lugar!\n\nVocê só pode dar este código de amigo verdadeiro a uma pessoa. Depois que alguém digitar o seu código de amigo verdadeiro, ele não funcionará para nenhuma outra pessoa. Se você quiser dar um código de amigo verdadeiro para mais de uma pessoa, obtenha outro.\n\nO código de amigo verdadeiro só funcionará nos próximos dois dias. O seu amigo terá que digitá-lo antes que expire, caso contrário, não funcionará.\n\nO código de amigo verdadeiro é:'
+SecretTooMany = 'Sinto muito, você não pode ter mais código de amigo verdadeiro hoje. Você já obteve mais do que a parte que lhe cabia!\n\nTente novamente amanhã.'
+SecretTryingSecret = 'Tentando usar código de amigo verdadeiro. . .'
+SecretEnteredSecretSuccess = 'Agora, você é Amigo verdadeiro de %s!'
 FriendSecretTimeOut = 'Sinto muitos, segredos não estão funcionando agora.'
 FriendSecretEnteredSecretUnknown = 'Este código de amigo verdadeiro não existe. Tem certeza de que digitou certo?\n\nSe você tiver digitado certo, ele pode ter expirado. Peça ao seu amigo para pegar outro código de amigo verdadeiro para você (ou pegue um novo você mesmo e dê ao seu amigo).'
 FriendSecretEnteredSecretFull = 'Você não pode fazer amizade com %s porque um de vocês dois possui amigos demais na lista.'
@@ -316,7 +316,8 @@ FriendSecretDetermineSecretAccountRollover = 'Um amigo em toda a rede Disney.com
 GuildMemberTitle = 'Opções de Membros'
 GuildMemberPromote = 'Fazer Oficial'
 GuildMemberGM = 'Fazer Mestre da Guilda'
-GuildMemberDemote = 'Rebaixar'
+GuildMemberConfirm = 'Confirmar'
+GuildMemberDemote = 'Rebaixar para membro'
 GuildMemberKick = 'Ejeitar Membro'
 GuildMemberCancel = lCancel
 GuildMemberOnline = 'tem entrado online.'
@@ -386,6 +387,7 @@ FriendInviterNotYet = 'Deseja fazer amizade com %s?'
 FriendInviterCheckAvailability = 'Verificando se %s está disponível.'
 FriendInviterNotAvailable = '%s está ocupado(a) agora; tente novamente mais tarde.'
 FriendInviterCantSee = 'Isso só funciona se puder ver %s.'
+FriendInviterNotOnline = 'Isso só funciona se %s estiver on-line'
 FriendInviterNotOpen = '%s não tem um bate-papo aberto, use amigos verdadeiros para fazer amigos'
 FriendInviterWentAway = '%s saiu.'
 FriendInviterAlready = '%s já é seu(sua) amigo(a).'
@@ -2857,15 +2859,12 @@ def timeElapsedString(timeDelta):
             return '1 dia atrás'
         else:
             return '%s dias atrás' % timeDelta.days
-
     elif timeDelta.seconds / 3600 > 0:
         if timeDelta.seconds / 3600 == 1:
             return '1 hora atrás'
         else:
             return '%s horas atrás' % (timeDelta.seconds / 3600)
-
-    else:
-        if timeDelta.seconds / 60 < 2:
+    elif timeDelta.seconds / 60 < 2:
             return '1 minuto atrás'
         else:
             return '%s minutos atrás' % (timeDelta.seconds / 60)
