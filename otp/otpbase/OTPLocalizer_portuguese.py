@@ -514,8 +514,8 @@ GuildMemberPromote = "Tornar-se Oficial"
 GuildMemberPromoteInvite = "Fazer Veteran"
 GuildMemberDemoteInvite = "Rebaixar para Veterano"
 GuildMemberGM = "Fazer Mestre da Guilda"
-GuildMemberGMConfirm = "Confirma"
-GuildMemberDemote = "Rebaixar"
+GuildMemberGMConfirm = "Confirmar"
+GuildMemberDemote = "Rebaixar para Membro"
 GuildMemberKick = "Ejeitar Membro"
 GuildMemberCancel = lCancel
 #GuildMemberOnline = "%s tem entrado online."
@@ -674,15 +674,15 @@ EmoteWhispers = [
  "%s está sonolento.",
  "%s dá de ombros.",
  "%s dança.",
- "%s pisca.",
+ "%s pensa.",
  "%s está entediado.",
  "%s aplaude.",
  "%s está surpreso.",
  "%s está confuso.",
- "%s debocha de você.",
- "%s saúda você.",
- "%s está muito triste.",
- "%s sorri.",
+ "%s faz um flop de barriga.",
+ "%s se curva para você.',
+ "%s escorregou numa casca de banana.",
+ "%s dá a saudação de resistência.",
  "%s dá risada.",
  "%s diz '"+lYes+"'.",
  "%s diz '"+lNo+"'.",
@@ -1292,7 +1292,7 @@ SpeedChatStaticTextToontown = {
     1108 : "Vamos para os Jardins da Margarida!",
     1109 : "Vamos para O Brrrgh!",
     1110 : "Vamos para a Sonholândia do Donald!",
-    1111 : "Vamos para a %s !" % lGoofySpeedway,
+    1111 : "Vamos para ao Autódromo do Pateta!",
     1112 : "Vamos para a minha casa!",
     1113 : "Vamos para a sua casa!",
     1114 : "Vamos para o Quartel do Robô Vendedor!",
