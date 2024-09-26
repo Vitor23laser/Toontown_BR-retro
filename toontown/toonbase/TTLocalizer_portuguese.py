@@ -142,16 +142,16 @@ GlobalStreetNames = {
     10500 : ("para o", "no", "Três da Frente"),
     10600 : ("para o", "no", "Seis do Meio"),
     10700 : ("para o", "no", "Nove de Trás"),
-    11000 : ("para o",  "no", "Pátio do "+lSellbotHQ),
+    11000 : ("para o",  "no", "Parque do "+lSellbotHQ),
     11100 : ("para o",  "no", "Salão do "+lSellbotHQ),
     11200 : ("para a",  "na", "Fábrica do Robô Vendedor"),
     11500 : ("para a",  "na", "Fábrica do Robô Vendedor"),
-    12000 : ("para o",  "no", "Pátio de Trens do Robô Mercenário"),
+    12000 : ("para o",  "no", "Parque de Trens do Robô Mercenário"),
     12100 : ("para o",  "no", "Salão do Quartel do Robô Mercenário"),
     12500 : ("para a",  "na", "Casa da Moeda"),
     12600 : ("para a",  "na", "Casa da Moeda de Dólar"),
     12700 : ("para a",  "na", "Casa da Moeda de Barras de Ouro"),
-    13000 : ("para o",  "no", "Pátio do Quartel do Robô da Lei"),
+    13000 : ("para o",  "no", "Parque do Quartel do Robô da Lei"),
     13100 : ("para o",  "no", "Salão do Quartel do Robô da Lei"),
     13200 : ("para o", "no", "Lobby do Escritório do Promotor"),
     13300 : ("para o", "no", "Escritório do Robô da Lei A"),
@@ -166,7 +166,7 @@ ToontownCentral   = ("para o",  "no",    lToontownCentral)
 TheBrrrgh         = ("para",    "em",    lTheBrrrgh)
 MinniesMelodyland = ("para a",  "na",    lMinniesMelodyland)
 DaisyGardens      = ("para os", "nos",   lDaisyGardens)
-ConstructionZone = ("para a", "na", "Zona de Construção")
+ConstructionZone  = ("para a", "na",     "Zona de Construção")
 OutdoorZone       = ("para a",  "na",    lOutdoorZone)
 FunnyFarm         = ("para a",  "na",    "Fazenda Divertida")
 GoofySpeedway     = ("para o",  "no",    lGoofySpeedway)
@@ -179,7 +179,7 @@ Tutorial          = ("para o",  "no",    "Toon-torial")
 MyEstate          = ("para a",  "na",    "sua casa")
 WelcomeValley     = ("para o",  "no",    "Vale Boas-vindas")
 GolfZone          = ("para a",  "na",    lGolfZone)
-PartyHood         = ("to the", "in the", lPartyHood)
+PartyHood         = ("para a",  "na",    lPartyHood)
 
 Factory = 'Fábrica'
 Headquarters = 'Quartel'
@@ -190,7 +190,8 @@ Office = 'Escritório'
 FactoryNames = {
     0 : 'Molde da fábrica',
     11500 : 'Fábrica do Cog Robô Vendedor',
-    13300 : 'Escritório dos Cogs Robôs da Lei', #remove me JML
+    13300 : 'Escritório do
+    Cog Robô da Lei', #remove me JML
     }
 
 FactoryTypeLeg = 'Perna'
