@@ -6,71 +6,51 @@ from otp.otpbase import OTPLocalizer as OL
 OL.SpeedChatStaticText = OL.SpeedChatStaticTextToontown.copy()
 for key in OL.SpeedChatStaticTextCommon.keys():
     OL.SpeedChatStaticText[key] = OL.SpeedChatStaticTextCommon[key]
-
-# To make sure the language checker is working
-# DO NOT TRANSLATE THIS
 ExtraKeySanityCheck = "Ignore-me"
-
 commitmantst = "kptmptest - removable"
-
 InterfaceFont = 'phase_3/models/fonts/ImpressBT.ttf'
 ToonFont = 'phase_3/models/fonts/ImpressBT.ttf'
 SuitFont = 'phase_3/models/fonts/vtRemingtonPortable.ttf'
 SignFont = 'phase_3/models/fonts/MickeyFont'
 MinnieFont = 'phase_3/models/fonts/MinnieFont'
 FancyFont = 'phase_3/models/fonts/Comedy'
-NametagFonts = ('phase_3/models/fonts/AnimGothic',      #0 *
-                'phase_3/models/fonts/Aftershock',      #1 *
-                'phase_3/models/fonts/JiggeryPokery',   #2 *
-                'phase_3/models/fonts/Ironwork',        #3 *
-                'phase_3/models/fonts/HastyPudding',    #4 *
-                'phase_3/models/fonts/Comedy',          #5 *
-                'phase_3/models/fonts/Humanist',        #6 *
-                'phase_3/models/fonts/Portago',         #7 *
-                'phase_3/models/fonts/Musicals',        #8 *
-                'phase_3/models/fonts/Scurlock',        #9 *
-                'phase_3/models/fonts/Danger',          #10 *
-                'phase_3/models/fonts/Alie',            #11 *
-                'phase_3/models/fonts/OysterBar',       #12 *
-                'phase_3/models/fonts/RedDogSaloon',    #13 *
-                )
-NametagFontNames = ('Usuário',      #0 *
-                'Tremido',         #1 *
-                'Arrepiante',      #2 *
-                'Exorbitante',     #3 *
-                'Bobo',            #4 *
-                'Doido',           #5 *
-                'Pratico',         #6 *
-                'Nautico',         #7 *
-                'Caprichoso',      #8 *
-                'Estremecer',      #9 *
-                'Ação',            #10 *
-                'Poético',         #11 *
-                'Passeio',         #12 *
-                'Ocidental',       #13 *
-                )
-
+NametagFonts = ('phase_3/models/fonts/AnimGothic',
+ 'phase_3/models/fonts/Aftershock',
+ 'phase_3/models/fonts/JiggeryPokery',
+ 'phase_3/models/fonts/Ironwork',
+ 'phase_3/models/fonts/HastyPudding',
+ 'phase_3/models/fonts/Comedy',
+ 'phase_3/models/fonts/Humanist',
+ 'phase_3/models/fonts/Portago',
+ 'phase_3/models/fonts/Musicals',
+ 'phase_3/models/fonts/Scurlock',
+ 'phase_3/models/fonts/Danger',
+ 'phase_3/models/fonts/Alie',
+ 'phase_3/models/fonts/OysterBar',
+ 'phase_3/models/fonts/RedDogSaloon')
+NametagFontNames = ('Usuário',
+ 'Tremido',
+ 'Arrepiante',
+ 'Exorbitante',
+ 'Bobo',
+ 'Doido',
+ 'Pratico',
+ 'Nautico',
+ 'Caprichoso',
+ 'Estremecer',
+ 'Ação',
+ 'Poético',
+ 'Passeio',
+ 'Ocidental')
 NametagLabel = "Nome"
-
 UnpaidNameTag = "Basico"
-
-# GM nametags 2011
-#GM_1 = "CONSELHO TOON"
-#GM_2 = "TOONS SOLDADOS"
-#GM_3 = "GUARDA FLORESTAL DA RESISTÊNCIA"
-#GM_4 = "GC"
-#GM nametags
 GM_Names = (CONSELHO TOON, 
 TOONS SOLDADOS, 	 
 GUARDA FLORESTAL DA RESISTÊNCIA,
 GM)
 BuildingNametagFont = 'phase_3/models/fonts/MickeyFont'
 BuildingNametagShadow = None
-
-# Product prefix
 ProductPrefix = 'TT'
-
-# common names
 Mickey = "Mickey"
 VampireMickey = "VampireMickey"
 Minnie = "Minnie"
@@ -89,8 +69,6 @@ Chip   = "Tico"
 Dale   = "Teco"
 JailbirdDale = "JailbirdDale"
 PoliceChip = "PoliceChip"
-
-# common locations
 lTheBrrrgh = 'O Brrrgh'
 lDaisyGardens = 'Jardim da Margarida'
 lDonaldsDock = "Porto do Donald"
@@ -102,13 +80,83 @@ lSellbotHQ = 'Quartel do Robô Vendedor'
 lGoofySpeedway = "Autódromo do Pateta"
 lOutdoorZone = "Bosque de Bolotats de Tico e Teco"
 lGolfZone = "Minigolfe de Tico e Teco"
-lPartyHood = "Terra das Festas"
-
-lGagShop = 'Loja de Piadas'
-lClothingShop = 'Loja de Roupas'
-lPetShop = 'Loja de Animais'
-
-# common strings
+lPartyHood = "Terras das Festas"
+GlobalStreetNames = {20000: ("para o",  "no", "Terraço do Tutorial"),
+ 1000: ("para o",  "no", "Parque"),
+ 1100: ("para o",  "no", "Boulevard das Cracas"),
+ 1200: ("para a",  "na", "Rua da Alga Marinha"),
+ 1300: ("para a",  "na", "Travessa do Farol"),
+ 2000: ("para o",  "no", "Parque"),
+ 2100: ("para a",  "na", "Rua da Bobeira"),
+ 2200: ("para a",  "na", "Travessa dos Tontos"),
+ 2300: ("para o",  "no", "Largo do Auge da Graça"),
+ 3000: ("para o",  "no", "Parque"),
+ 3100: ("para a",  "na", "Via dos Leões Marinhos"),
+ 3200: ("para a",  "na", "Rua da Chuva de Neve"),
+ 3300: ("para o",  "no", "Lugar Polar"),
+ 4000: ("para o",  "no", "Parque"),
+ 4100: ("para a",  "na", "Avenida do Tom Alto"),
+ 4200: ("para o",  "no", "Boulevard do Barítono"),
+ 4300: ("para o",  "no", "Terraço do Tenor"),
+ 5000: ("para o",  "no", "Parque"),
+ 5100: ("para a",  "na", "Rua das Nogueiras"),
+ 5200: ("para a",  "na", "Rua das Amendoeiras"),
+ 5300: ("para a",  "na", "Rua dos Carvalhos"),
+ 9000: ("para o",  "no", "Parque"),
+ 9100: ("para a",  "na", "Travessa da Canção de Ninar"),
+ 9200: ("para o",  "no", "Pedaço do Pijama"),
+ 10000: ("para o",  "no", "Clube de Campo do Quartel do Robô-chefe"),
+ 10100: ("para o",  "no", "Salão do Quartel do Robô-chefe"),
+ 10200: ("para a", "na", "Sede do Clube"),
+ 10500: ("para o", "no", "Três da Frente"),
+ 10600: ("para o", "no", "Seis do Meio"),
+ 10700: ("para o", "no", "Nove de Trás"),
+ 11000: ("para o",  "no", "Parque do "+lSellbotHQ),
+ 11100: ("para o",  "no", "Salão do "+lSellbotHQ),
+ 11200: ("para a",  "na", "Fábrica do Robô Vendedor"),
+ 11500: ("para a",  "na", "Fábrica do Robô Vendedor"),
+ 12000: ("para o",  "no", "Parque de Trens do Robô Mercenário"),
+ 12100: ("para o",  "no", "Salão do Quartel do Robô Mercenário"),
+ 12500: ("para a",  "na", "Casa da Moeda"),
+ 12600: ("para a",  "na", "Casa da Moeda de Dólar"),
+ 12700: ("para a",  "na", "Casa da Moeda de Barras de Ouro"),
+ 13000: ("para o",  "no", "Parque do Quartel do Robô da Lei"),
+ 13100: ("para o",  "no", "Salão do Quartel do Robô da Lei"),
+ 13200: ("para o", "no", "Lobby do Escritório do Promotor"),
+ 13300: ("para o", "no", "Escritório do Robô da Lei A"),
+ 13400: ("para o", "no", "Escritório do Robô da Lei B"),
+ 13500: ("para o", "no", "Escritório do Robô da Lei C"),
+ 13600: ("para o", "no", "Escritório do Robô da Lei D")}
+DonaldsDock = ("para o",  "no",    lDonaldsDock)
+ToontownCentral = ("para o",  "no",    lToontownCentral)
+TheBrrrgh = ("para",    "em",    lTheBrrrgh)
+MinniesMelodyland = ("para a",  "na",    lMinniesMelodyland)
+DaisyGardens = ("para os", "nos",   lDaisyGardens)
+OutdoorZone = ("para a",  "na",    lOutdoorZone)
+FunnyFarm = ("para a",  "na",    "Fazenda Divertida")
+GoofySpeedway = ("para o",  "no",    lGoofySpeedway)
+DonaldsDreamland = ("para a",  "na",    lDonaldsDreamland)
+BossbotHQ = ("para o",  "no",    "Quartel do Robô-chefe")
+SellbotHQ = ("para o",  "no",    lSellbotHQ)
+CashbotHQ = ("para o",  "no",    "Quartel do Robô Mercenário")
+LawbotHQ = ("para o",  "no",    "Quartel do Robô da Lei")
+Tutorial = ("para o",  "no",    "Toon-torial")
+MyEstate = ("para a",  "na",    "sua casa")
+WelcomeValley = ("para o",  "no",    "Vale Boas-vindas")
+GolfZone = ("para a",  "na",    lGolfZone)
+PartyHood = ("para a",  "nas",    lPartyHood)
+Factory = 'Fábrica'
+Headquarters = 'Quartel'
+SellbotFrontEntrance = 'Entrada principal'
+SellbotSideEntrance = 'Entrada lateral'
+Office = 'Escritório'
+FactoryNames = {0: 'Molde da fábrica',
+ 11500: 'Fábrica do Cog Robô Vendedor',
+ 13300: 'Escritório do Cog Robô da Lei'}
+FactoryTypeLeg = 'Perna'
+FactoryTypeArm = 'Braço'
+FactoryTypeTorso = 'Busto'
+MintFloorTitle = 'Andar %s'
 lCancel = 'Cancelar'
 lClose = 'Fechar'
 lOK = 'OK'
@@ -117,17 +165,11 @@ lQuit = 'Sair'
 lYes = 'Sim'
 lNo = 'Não'
 lBack = 'Voltar'
-
 sleep_auto_reply = "%s está dormindo agora"
-lHQ = 'Oficial'
-
 lHQOfficerF = 'Oficial do Quartel'
 lHQOfficerM = 'Oficial do Quartel'
-
 MickeyMouse = "Mickey Mouse"
-
 AIStartDefaultDistrict = "Vila dos Idiotas"
-
 Cog  = "Cog"
 Cogs = "Cogs"
 ACog = "um Cog"
@@ -151,157 +193,22 @@ ASupervisor = "um Supervisor da Casa da Moeda"
 CogCFO = Cog + "Diretor Financeiro"
 CogCFOs = "Diretores Financeiros Cogs"
 ACogCFO = ACog + "Diretor Financeiro"
-
-# AvatarDNA.py
-Bossbot = "Robô-chefe"
-Lawbot = "Robô da Lei"
-Cashbot = "Robô Mercenário"
-Sellbot = "Robô Vendedor"
-BossbotS = "um Robô-chefe"
-LawbotS = "um Robô da Lei"
-CashbotS = "um Robô Mercenário"
-SellbotS = "um Robô Vendedor"
-BossbotP = "Robôs-chefe"
-LawbotP = "Robôs da Lei"
-CashbotP = "Robôs Mercenários"
-SellbotP = "Robôs Vendedores"
-BossbotSkelS = "um Esqueletocog %s" % (Bossbot)
-LawbotSkelS = "um Esqueletocog %s" % (Lawbot)
-CashbotSkelS = "um Esqueletocog %s" % (Cashbot)
-SellbotSkelS = "um Esqueletocog %s" % (Sellbot)
-BossbotSkelP = "Esqueletocogs %s" % (BossbotP)
-LawbotSkelP = "Esqueletocogs %s" % (LawbotP)
-CashbotSkelP = "Esqueletocogs %s" % (CashbotP)
-SellbotSkelP = "Esqueletocogs %s" % (SellbotP)
-SkeleRevivePostFix = " v2.0"
-
-lBossbotHQ = 'Quartel do Robô-chefe'
-lLawbotHQ = 'Quartel do Robô da Lei'
-lCashbotHQ = 'Quartel do Robô Mercenário'
-lSellbotHQ = 'Quartel do Robô Vendedor'
-lTutorial = 'Toon-torial'
-lMyEstate = 'sua casa'
-lWelcomeValley = 'Vale Boas-vindas'
-
-# ToontownGlobals.py
-
-# (to, in, location)
-# reference the location name as [-1]; it's guaranteed to be the last entry
-# This table may contain names for hood zones (N*1000) that are not
-# appropriate when referring to the hood as a whole. See the list of
-# names below this table for hood names.
-GlobalStreetNames = {
-    20000 : ("para o",  "no", "Terraço do Tutorial"), # Tutorial
-    1000  : ("para o",  "no", "Parque"),
-    1100  : ("para o",  "no", "Boulevard das Cracas"),
-    1200  : ("para a",  "na", "Rua da Alga Marinha"),
-    1300  : ("para a",  "na", "Travessa do Farol"),
-    2000  : ("para o",  "no", "Parque"),
-    2100  : ("para a",  "na", "Rua da Bobeira"),
-    2200  : ("para a",  "na", "Travessa dos Tontos"),
-    2300  : ("para o",  "no", "Largo do Auge da Graça"),
-    3000  : ("para o",  "no", "Parque"),
-    3100  : ("para a",  "na", "Via dos Leões Marinhos"),
-    3200  : ("para a",  "na", "Rua da Chuva de Neve"),
-    3300  : ("para o",  "no", "Lugar Polar"),
-    4000  : ("para o",  "no", "Parque"),
-    4100  : ("para a",  "na", "Avenida do Tom Alto"),
-    4200  : ("para o",  "no", "Boulevard do Barítono"),
-    4300  : ("para o",  "no", "Terraço do Tenor"),
-    5000  : ("para o",  "no", "Parque"),
-    5100  : ("para a",  "na", "Rua das Nogueiras"),
-    5200  : ("para a",  "na", "Rua das Amendoeiras"),
-    5300  : ("para a",  "na", "Rua dos Carvalhos"),
-    9000  : ("para o",  "no", "Parque"),
-    9100  : ("para a",  "na", "Travessa da Canção de Ninar"),
-    9200  : ("para o",  "no", "Pedaço do Pijama"),
-    10000 : ("para o",  "no", "Clube de Campo do "+lBossbotHQ),
-    10100 : ("para o",  "no", "Salão do "+lBossbotHQ),
-    10200 : ("para a", "na", "Sede do Clube"),
-    10500 : ("para o", "no", "Três da Frente"),
-    10600 : ("para o", "no", "Seis do Meio"),
-    10700 : ("para o", "no", "Nove de Trás"),
-    11000 : ("para o",  "no", "Pátio do "+lSellbotHQ),
-    11100 : ("para o",  "no", "Salão do "+lSellbotHQ),
-    11200 : ("para a",  "na", "Fábrica do Robô Vendedor"),
-    11500 : ("para a",  "na", "Fábrica do Robô Vendedor"),
-    12000 : ("para o",  "no", "Pátio de Trens do " +Cashbot),
-    12100 : ("para o",  "no", "Salão do "+lCashbotHQ),
-    12500 : ("para a",  "na", "Casa da Moeda"),
-    12600 : ("para a",  "na", "Casa da Moeda de Dólar"),
-    12700 : ("para a",  "na", "Casa da Moeda de Barras de Ouro"),
-    13000 : ("para o",  "no", "Pátio do "+lLawbotHQ),
-    13100 : ("para o",  "no", "Salão do "+lLawbotHQ),
-    13200 : ("para o", "no", "Lobby do Escritório do Promotor"),
-    13300 : ("para o", "no", "Escritório do Robô da Lei A"),
-    13400 : ("para o", "no", "Escritório do Robô da Lei B"),
-    13500 : ("para o", "no", "Escritório do Robô da Lei C"),
-    13600 : ("para o", "no", "Escritório do Robô da Lei D"),
-    }
-
-# reference the location name as [-1]; it's guaranteed to be the last entry
-DonaldsDock       = ("para o",  "no",    lDonaldsDock)
-ToontownCentral   = ("para o",  "no",    lToontownCentral)
-TheBrrrgh         = ("para",    "em",    lTheBrrrgh)
-MinniesMelodyland = ("para a",  "na",    lMinniesMelodyland)
-DaisyGardens      = ("para os", "nos",   lDaisyGardens)
-ConstructionZone = ("para a", "na", "Zona de Construção")
-OutdoorZone       = ("para a",  "na",    lOutdoorZone)
-FunnyFarm         = ("para a",  "na",    "Fazenda Divertida")
-GoofySpeedway     = ("para o",  "no",    lGoofySpeedway)
-DonaldsDreamland  = ("para a",  "na",    lDonaldsDreamland)
-BossbotHQ         = ("para o",  "no",    lBossbotHQ)
-SellbotHQ         = ("para o",  "no",    lSellbotHQ)
-CashbotHQ         = ("para o",  "no",    lCashbotHQ)
-LawbotHQ          = ("para o",  "no",    lLawbotHQ)
-Tutorial          = ("para o",  "no",    lTutorial)
-MyEstate          = ("para a",  "na",    lMyEstate)
-WelcomeValley     = ("para o",  "no",    lWelcomeValley)
-GolfZone          = ("para a",  "na",    lGolfZone)
-PartyHood         = ("to the", "in the", lPartyHood)
-
-Factory = 'Fábrica'
-Headquarters = 'Quartel'
-SellbotFrontEntrance = 'Entrada principal'
-SellbotSideEntrance = 'Entrada lateral'
-Office = 'Escritório'
-
-FactoryNames = {
-    0 : 'Molde da fábrica',
-    11500 : 'Fábrica do Cog  '+Sellbot,
-    13300 : 'Escritório dos Cogs  '+LawbotP, #remove me JML
-    }
-
-FactoryTypeLeg = 'Perna'
-FactoryTypeArm = 'Braço'
-FactoryTypeTorso = 'Busto'
-
-MintFloorTitle = 'Andar %s'
-
-# Quests.py
 TheFish = "o Peixe"
 AFish = "um peixe"
 Level = "nível"
 QuestsCompleteString = "Concluir"
 QuestsNotChosenString = "Não escolhido"
 Period = "."
-
 Laff = "Risada"
-
 QuestInLocationString = " %(inPhrase)s %(location)s"
-
-# _avName_ gets replaced with the avatar (player's) name
-# _toNpcName_ gets replaced with the npc's name we are being sent to
-# _where_ gets replaced with a description of where to find the npc, with a leading \a
 QuestsDefaultGreeting = ("Olá, _avName_!",
-                         "Oi, _avName_!",
-                         "E aí, _avName_?",
-                         "Diga aí, _avName_!",
-                         "Bem-vindo, _avName_!",
-                         "Tudo certo, _avName_?",
-                         "Como vai você, _avName_?",
-                         "Olá _avName_!",
-                         )
+ "Oi, _avName_!",
+ "E aí, _avName_?",
+ "Diga aí, _avName_!",
+ "Bem-vindo, _avName_!",
+ "Tudo certo, _avName_?",
+ "Como vai você, _avName_?",
+ "Olá _avName_!")
 QuestsDefaultIncomplete = ("Como está indo aquela tarefa, _avName_?",
                            "Parece que você ainda tem mais trabalho a fazer naquela tarefa!",
                            "Continue com o bom trabalho, _avName_!",
@@ -707,7 +614,7 @@ QuestsItemDict = {
     3027 : ["Termômetro Externo", "Termômetros Externos", "um "],
     
     #Dreamland Quests
-    6001 : ["Plano do "+lCashbotHQ, "Planos do "+lCashbotHQ, "algum "],
+    6001 : ["Plano do "+Quartel do Robô Mercenário, "Planos do "+Quartel do Robô Mercenário, "algum "],
     6002 : ["Vara de pescar", "Varas de pescar", "uma "],
     6003 : ["Cinto de segurança", "Cintos de segurança", "um "],
     6004 : ["Par de pinças", "Pares de pinças", "um "],
@@ -2433,6 +2340,29 @@ ChatGarblerBear = ["grrrau", "grrr"]
 ChatGarblerPig = ["oinc", "oic", "rrroinc"]
 ChatGarblerDefault = ["blá"]
 
+# AvatarDNA.py
+Bossbot = "Robô-chefe"
+Lawbot = "Robô da Lei"
+Cashbot = "Robô Mercenário"
+Sellbot = "Robô Vendedor"
+BossbotS = "um Robô-chefe"
+LawbotS = "um Robô da Lei"
+CashbotS = "um Robô Mercenário"
+SellbotS = "um Robô Vendedor"
+BossbotP = "Robôs-chefe"
+LawbotP = "Robôs da Lei"
+CashbotP = "Robôs Mercenários"
+SellbotP = "Robôs Vendedores"
+BossbotSkelS = "um Esqueletocog %s" % (Bossbot)
+LawbotSkelS = "um Esqueletocog %s" % (Lawbot)
+CashbotSkelS = "um Esqueletocog %s" % (Cashbot)
+SellbotSkelS = "um Esqueletocog %s" % (Sellbot)
+BossbotSkelP = "Esqueletocogs %s" % (BossbotP)
+LawbotSkelP = "Esqueletocogs %s" % (LawbotP)
+CashbotSkelP = "Esqueletocogs %s" % (CashbotP)
+SellbotSkelP = "Esqueletocogs %s" % (SellbotP)
+SkeleRevivePostFix = " v2.0"
+
 # AvatarDetailPanel.py
 AvatarDetailPanelOK = lOK
 AvatarDetailPanelCancel = lCancel
@@ -2516,108 +2446,52 @@ IgnorePanelRemoveIgnore = "Deseja parar de ignorar %s?"
 IgnorePanelEndIgnore = "Você não está mais ignorando %s."
 IgnorePanelAddFriendAvatar = "%s está entre seus amigos, você não pode ignorá-lo(la)enquanto forem amigos(as)."
 IgnorePanelAddFriendPlayer = "%s (%s)está entre seus amigos, você não pode ignorá-lo(la) enquanto forem amigos(as)."
-
-# PetAvatarPanel.py
 PetPanelFeed = "Alimentar"
 PetPanelCall = "Chamar"
 PetPanelGoTo = "Ir para"
 PetPanelOwner = "Mostrar dono"
 PetPanelDetail = "Detalhes do bichinho"
 PetPanelScratch = "Coçar"
-
-# PetDetailPanel.py
 PetDetailPanelTitle = "Adestramento"
-# NOTE: these are replicated from OTPLocalizerEnglish sans "!"
-PetTrickStrings = {
-    0: 'Pular',
-    1: 'Dar a pata',
-    2: 'Fingir de morto',
-    3: 'Rolar',
-    4: 'Dar cambalhota',
-    5: 'Dançar',
-    6: 'Falar',
-    }
-
-# PetMood.py
-PetMoodAdjectives = {
-    'neutral': 'neutro',
-    'hunger': 'faminto',
-    'boredom': 'chateado',
-    'excitement': 'animado',
-    'sadness': 'triste',
-    'restlessness': 'inquieto',
-    'playfulness': 'brincalhão',
-    'loneliness': 'solitário',
-    'fatigue': 'cansado',
-    'confusion': 'confuso',
-    'anger': 'zangado',
-    'surprise': 'surpreso',
-    'affection': 'carinhoso',
-    }
-
-SpokenMoods = {
-    'neutral': 'neutro',
-    'hunger':['Eu\estou cansado de Balinhas! Que tal me dar uma fatia de torta?',
-    "Que tal uma Balinha vermelha? Estou cansado das verdes!",
-        "Ah, essas Balinhas eram para plantar?!! Mas eu estou com fome!",
-        ],
-    'boredom': ["Estou morrendo de tédio aqui!",
-     'Você não\ achou que eu entenderia, hein?', 
-     'Poderíamos, tipo, FAZER algo já?',
-     ],
-   # 'excitement': 'Toontástico!',
-   'excitement': ["Uau, é você, é você, é você!",
-   "mmm, balinhas, mmm",
-   'Tem algo melhor que isso?',
-   "Feliz dia da Semana Mentirosa Toons!",
-   ],
-    #'sadness': 'Eu quero ser rabisco de qualidade',
-    'sadness': ["Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá...",
-    "Eu serei bom, eu prometo!",
-    "Não sei POR QUE estou triste, eu simplesmente estou!!!",
-    ],
-    'restlessness': ['Eu\estou tãooo inquieto',
-    ],
-    'playfulness': ["Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar...",
-    'Brinque comigo ou eu\vou desenterrar algumas flores!',
-    'Vamos correr em volta e em volta e em volta e em volta e em volta e em volta...', 
-    ],
-    'loneliness': ['Onde você esteve?',
-      'Quer abraçar?',
-      'Quero lutar com os Cogs com você!',
-    ],
-    #'fatigue': 'É muito cansativo fazer truques de rabisco! Que\tal dar um tempinho?',
-    'fatigue': ['Aquele mergulho na lagoa realmente me cansou!',
-    'Ser um Rabisco é exaustivo',
-    'Eu tenho que ir para a Sonholândia!',
-    ],
-    'confusion':  ['Onde estou? Quem é mesmo você?',
-    "O que é um Toon-ar mesmo?",
-    "Uau, estou entre você e os Cogs! Fuja!",
-    ],
-    'anger': ['... e você se pergunta por que eu nunca te dou um Toon-ar?!!!',
-    'Você sempre me deixa para trás',
-    'Você ama suas piadas mais do que a mim',
-    ],
-    'surprise': ['Claro que os Rabiscos podem falar!',
-    'Toons podem falar?!!',
-    'Opa, de onde você surgiu?',
-    ],
-    #'affection': 'Você é um ótimo toon',
-    'affection': ['Você é o melhor Toon de SEMPRE!!!!!!!!!!',
-    'Você ao menos SABE o quão incrível você é?!?',
-    'Tenho TANTA sorte de estar com você!!!',
-    ],
-    }
-
-# DistributedAvatar.py
-#DialogExclamation = "!"
+PetTrickStrings = {0: 'Pular',
+ 1: 'Dar a pata',
+ 2: 'Fingir de morto',
+ 3: 'Rolar',
+ 4: 'Dar cambalhota',
+ 5: 'Dançar',
+ 6: 'Falar'}
+PetMoodAdjectives = {'neutral': 'neutro',
+ 'hunger': 'faminto',
+ 'boredom': 'chateado',
+ 'excitement': 'animado',
+ 'sadness': 'triste',
+ 'restlessness': 'inquieto',
+ 'playfulness': 'brincalhão',
+ 'loneliness': 'solitário',
+ 'fatigue': 'cansado',
+ 'confusion': 'confuso',
+ 'anger': 'zangado',
+ 'surprise': 'surpreso',
+ 'affection': 'carinhoso'}
+SpokenMoods = {'neutral': 'neutro',
+ 'hunger': ['Eu\estou cansado de Balinhas! Que tal me dar uma fatia de torta?', "Que tal uma Balinha vermelha? Estou cansado das verdes!", "Ah, essas Balinhas eram para plantar?!! Mas eu estou com fome!"],
+ 'boredom': ["Estou morrendo de tédio aqui!", 'Você não\ achou que eu entenderia, hein?', 'Poderíamos, tipo, FAZER algo já?'],
+ 'excitement': ["Uau, é você, é você, é você!",
+                "mmm, balinhas, mmm",
+                'Tem algo melhor que isso?',
+                "Feliz dia da Semana Mentirosa Toons!"],
+ 'sadness': ["Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá...", "Eu serei bom, eu prometo!", "Não sei POR QUE estou triste, eu simplesmente estou!!!"],
+ 'restlessness': ['Eu estou tãooo inquieto!!!'],
+ 'playfulness': ["Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar...", 'Brinque comigo ou eu\vou desenterrar algumas flores!', 'Vamos correr em volta e em volta e em volta e em volta e em volta e em volta...'],
+ 'loneliness': ['Onde você esteve?', 'Quer abraçar?', 'Quero lutar com os Cogs com você!'],
+ 'fatigue': ['Aquele mergulho na lagoa realmente me cansou!', 'Ser um Rabisco é exaustivo', 'Eu tenho que ir para a Sonholândia!'],
+ 'confusion': ['Onde estou? Quem é mesmo você?', "O que é um Toon-ar mesmo?", "Uau, estou entre você e os Cogs! Fuja!"],
+ 'anger': ['... e você se pergunta por que eu nunca te dou um Toon-ar?!!!', 'Você sempre me deixa para trás', 'Você ama suas piadas mais do que a mim'],
+ 'surprise': ['Claro que os Rabiscos podem falar!', 'Toons podem falar?!!', 'Opa, de onde você surgiu?'],
+ 'affection': ['Você é o melhor Toon de SEMPRE!!!!!!!!!!', 'Você ao menos SABE o quão incrível você é?!?', 'Tenho TANTA sorte de estar com você!!!']}
+DialogExclamation = "!"
 DialogQuestion = '?'
-
-# LocalAvatar.py
 FriendsListLabel = "Amigos"
-
-# TeleportPanel.py
 TeleportPanelOK = lOK
 TeleportPanelCancel = lCancel
 TeleportPanelYes = lYes
@@ -2632,11 +2506,7 @@ TeleportPanelUnavailableHood = "%s não está disponível agora; tente novamente
 TeleportPanelDenySelf = "Você não pode ir lá por conta própria!"
 TeleportPanelOtherShard = "%(avName)s está na região %(shardName)s, e você está na região %(myShardName)s. Deseja ir para %(shardName)s?"
 TeleportPanelBusyShard = "%(avName)s está em uma Região lotada. Jogar em uma Região lotada pode afetar severamente o desempenho do jogo. Tem certeza de que quer mudar de região?"
-
-# DistributedBattleBldg.py
 BattleBldgBossTaunt = "Sou o chefe."
-
-# DistributedBattleFactory.py
 FactoryBossTaunt = "Sou o Supervisor."
 FactoryBossBattleTaunt = "Deixe-me te apresentar ao Supervisor."
 MintBossTaunt = "Sou o Supervisor."
@@ -2687,6 +2557,8 @@ ToonHealJokes = [
      'Porque era uma bola de Mariposa'],
     #["O que é um vulcão?",
      #"Uma montanha com soluço."],
+    ["What's gray and squirts jam at you?",
+     'A mouse eating a doughnut.'],
     ["O que é um pontinho vermelho, um azul e um rosa em cima de uma árvore?",
      "Um morangotango com urublue num pinkenick."],
     ["Por que o elefante não consegue tirar carteira de motorista?",
@@ -2935,40 +2807,70 @@ ToonHealJokes = [
      "Tomar um ônibus."],
     ["O que que faz ABC...Slurp...DEF...Slurp?",
      "Alguém tomando sopa de letrinhas."],
-    ["O que é que é verde e fica saltando sem parar em cima do sofá?",
-     "Uma ervilha que saiu do castigo."],
-    ["O que é que o tomate foi fazer no banco?",
-     "Tirar extrato."],
-    ["Por que o médico que trabalha à noite se veste de verde?",
-     "Porque ele está de plantão."],
+    #["O que é que é verde e fica saltando sem parar em cima do sofá?",
+    # "Uma ervilha que saiu do castigo."],
+    ["What's green and jumps up and down?",
+     'Lettuce at a dance.'],
+    #["O que é que o tomate foi fazer no banco?",
+     #"Tirar extrato."],
+    ["What's a cow after she gives birth?",
+     'De-calf-inated.'],
+    #["Por que o médico que trabalha à noite se veste de verde?",
+    # "Porque ele está de plantão."],
+    ['What do you get if you cross a cow and a camel?',
+    'Lumpy milk shakes.'], 
     ["O que é que é branco com pontinhos pretos e vermelhos?",
      "Um dálmata com catapora."],
-    ["O que a galinha foi fazer na igreja?",
-     "Assistir à missa do galo."],
-    ["O que é o que é? Cai em pé e corre deitado?",
-     "Não é a chuva não! É uma minhoca de paraquedas."],
-    ["Por que é que não é bom guardar o quibe no freezer?",
-     "Porque lá dentro ele esfirra."],
-    ["O que o advogado do frango foi fazer na delegacia?",
-     "Foi soltar a franga"],
-    ["Por que o galo canta de olhos fechados?",
-     "Porque ele já sabe a música de cor."],
-    ["Um peixe foi jogado de cima de um prédio de vinte andares. Que peixe era esse?",
-     "Um atum, porque quando ele caiu fez: Aaaaaaaaaaaa Tum!"],
-    ["Como se faz omelete de chocolate?",
-     "Com ovos de Páscoa."],
-    ["Para que servem óculos verdes?",
-     "Para verde perto."],
-    ["Para que servem óculos vermelhos?",
-     "Para 'vermelhor'."],
+    #["O que a galinha foi fazer na igreja?",
+     #"Assistir à missa do galo."],
+    ["o que é marrom tem quatros pernas e um tronco?",
+     "Um rato voltando das férias."],
+    #["O que é o que é? Cai em pé e corre deitado?",
+     #"Não é a chuva não! É uma minhoca de paraquedas."],
+    ["O que um gambá faz quando está com raiva?",
+     "Isso levanta um fedor."],
+    #["Por que é que não é bom guardar o quibe no freezer?",
+     #"Porque lá dentro ele esfirra."],
+    ["What's gray, weighs 200 pounds and says, Here Kitty, kitty?",
+     "A 200 pound mouse."], 
+    #["O que o advogado do frango foi fazer na delegacia?",
+     #"Foi soltar a franga"],
+    ["What's the best way to catch a squirrel?", 
+    "Climb a tree and act like a nut."] 
+    #["Por que o galo canta de olhos fechados?",
+     #"Porque ele já sabe a música de cor."],
+    ["What's the best way to catch a rabbit?",
+     'Hide in a bush and make a noise like lettuce.'],
+    #["Um peixe foi jogado de cima de um prédio de vinte andares. Que peixe era esse?",
+     #"Um atum, porque quando ele caiu fez: Aaaaaaaaaaaa Tum!"],
+    ['What do you call a spider that just got married?',
+     'A newly web.'],
+    #["Como se faz omelete de chocolate?",
+    # "Com ovos de Páscoa."],
+    ['What do you call a duck that robs banks?',
+     'A safe quacker.'],
+    #["Para que servem óculos verdes?",
+     #"Para verde perto."],
+    ["What's furry, meows and chases mice underwater?",
+     "A catfish."],
+    #["Para que servem óculos vermelhos?",
+     #"Para 'vermelhor'."],
+    ["O que é um ovo chamado engraçado?",
+    "Uma gema prática."],
     ["O que é verde por fora e amarela por dentro?",
      "Uma banana disfarçada de pepino."],
-    ["Qual é a parte do carro que se originou no Antigo Egito?",
-     "Os faraóis."],
-    ["Como é que a bruxa sai na chuva?",
-     "De rodo."],
-    ["Por que o cachorro entrou na igreja?",
-     "Porque ele é um cão pastor."],
+    #["Qual é a parte do carro que se originou no Antigo Egito?",
+     #"Os faraóis."],
+    ["o que o elefante diz para o limão?",
+     "Vamos brincar de abóbora."],
+    #["Como é que a bruxa sai na chuva?",
+     #"De rodo."],
+     ["o que pesa 4 toneladas, tem um tronco e é vermelho brilhante?",
+     "Um elefante envergonhado."],
+   # ["Por que o cachorro entrou na igreja?",
+    # "Porque ele é um cão pastor."],
+    ["O que é cinza, pesa 4 toneladas e usa sapatinhos de cristal?", 
+    "Cinderelelefante."],
     #["Quem é o pai do volante?",
      #"O painel."],
      ["Como se chama um elefante na geladeira?",
@@ -3060,7 +2962,6 @@ ToonHealJokes = [
       ['Por que o ' + MickeyMouse + ' fez uma viagem ao espaço sideral?',
       'Ele queria encontrar '+ Pluto + '. '],
     ]
-
 # MovieHeal.py
 MovieHealLaughterMisses = ("hmm","hehe","ah","Rá rá")
 MovieHealLaughterHits1= ("Ah ah ah","Ri, ri, ri","Ré, ré","Ah, ah")
@@ -5637,8 +5538,8 @@ QuestPosterTailorBuildingName = "Loja de Roupas"
 QuestPosterTailorStreetName = "Qualquer pátio"
 QuestPosterTailorLocationName = "Qualquer bairro"
 QuestPosterPlayground = "No pátio"
-QuestPosterAtHome = "Na "+lMyEstate
-QuestPosterInHome = "Em "+lMyEstate
+QuestPosterAtHome = "Na "+"sua casa"
+QuestPosterInHome = "Em "+"sua casa"
 QuestPosterOnPhone = "No seu telefone"
 QuestPosterEstate = "Na sua propriedade"
 QuestPosterAnywhere = "Qualquer lugar"
@@ -8132,10 +8033,10 @@ zone2TitleDict = {
     2514 : ("Banco de Toontown", ""),
     2516 : ("Escola de Toontown", ""),
     2518 : ("Biblioteca de Toontown", ""),
-    2519 : (lGagShop, ""),
+    2519 : (Loja de Piadas, ""),
     2520 : (lToonHQ, ""),
-    2521 : (lClothingShop, ""),
-    2522 : (lPetShop, ""),
+    2521 : (Loja de Roupas, ""),
+    2522 : (Loja de Animais, ""),
     # titles for: phase_5/dna/toontown_central_2100.dna
     2601 : ("Restaurações Dentárias Todo Sorrisos", ""),
     2602 : ("", ""),
@@ -8233,10 +8134,10 @@ zone2TitleDict = {
     2839 : ("Grude Massas", ""),
     2841 : ("", ""),
     # titles for: phase_6/dna/donalds_dock_sz.dna
-    1506 : (lGagShop, ""),
+    1506 : (Loja de Piadas, ""),
     1507 : (lToonHQ, ""),
-    1508 : (lClothingShop, ""),
-    1510 : (lPetShop, ""),
+    1508 : (Loja de Roupas, ""),
+    1510 : (Loja de Animais, ""),
     # titles for: phase_6/dna/donalds_dock_1100.dna
     1602 : ("Salva-vidas Usados", ""),
     1604 : ("Lavagem a Seco Roupa de Mergulho", ""),
@@ -8313,10 +8214,10 @@ zone2TitleDict = {
     1834 : ("Ridíquilhas!", ""),
     1835 : ("", ""),
     # titles for: phase_6/dna/minnies_melody_land_sz.dna
-    4503 : (lGagShop, ""),
+    4503 : (Loja de Piadas, ""),
     4504 : (lToonHQ, ""),
-    4506 : (lClothingShop, ""),
-    4508 : (lPetShop, ""),
+    4506 : (Loja de Roupas, ""),
+    4508 : (Loja de Animais, ""),
     # titles for: phase_6/dna/minnies_melody_land_4100.dna
     4603 : ("Baterias do Tomtom", ""),
     4604 : ("A Quatro Mãos", ""),
@@ -8431,10 +8332,10 @@ zone2TitleDict = {
     4872 : ("Braços sem Estresse do Estevão Expresso", ""),
     4873 : ("", ""),
     # titles for: phase_8/dna/daisys_garden_sz.dna
-    5501 : (lGagShop, ""),
+    5501 : (Loja de Piadas, ""),
     5502 : (lToonHQ, ""),
-    5503 : (lClothingShop, ""),
-    5505 : (lPetShop, ""),
+    5503 : (Loja de Roupas, ""),
+    5505 : (Loja de Animais, ""),
     # titles for: phase_8/dna/daisys_garden_5100.dna
     5601 : ("Exames de Vista Olho do Alho", ""),
     5602 : ("Gravatas do Sérgio Sufocado", ""),
@@ -8509,10 +8410,10 @@ zone2TitleDict = {
     # titles for: phase_8/dna/donalds_dreamland_sz.dna
     9501 : ("Biblioteca da Canção de Ninar", ""),
     9503 : ("O Bar da Soneca", ""),
-    9504 : (lGagShop, ""),
+    9504 : (Loja de Piadas, ""),
     9505 : (lToonHQ, ""),
-    9506 : (lClothingShop, ""),
-    9508 : (lPetShop, ""),
+    9506 : (Loja de Roupas, ""),
+    9508 : (Loja de Animais, ""),
     # titles for: phase_8/dna/donalds_dreamland_9100.dna
     9601 : ("Pousada A. Ninho", ""),
     9602 : ("Dois Dedos de Prosa com Morfeu pelo Preço de Um", ""),
@@ -8584,10 +8485,10 @@ zone2TitleDict = {
     9756 : ("", ""),
     9759 : ("Salão de Beleza Bela Adormecida", ""),
     # titles for: phase_8/dna/the_burrrgh_sz.dna
-    3507 : (lGagShop, ""),
+    3507 : (Loja de Piadas, ""),
     3508 : (lToonHQ, ""),
-    3509 : (lClothingShop, ""),
-    3511 : (lPetShop, ""),
+    3509 : (Loja de Roupas, ""),
+    3511 : (Loja de Animais, ""),
     # titles for: phase_8/dna/the_burrrgh_3100.dna
     3601 : ("Companhia Elétrica Esplendor do Norte", ""),
     3602 : ("Gorros do Pólo Norte", ""),
