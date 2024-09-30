@@ -4042,7 +4042,9 @@ KartMinLaff = "Você precisa de %s pontos de risada para poder andar neste carte
 # DistributedElevatorExt.py
 CogsIncExt = ", Ltda."
 CogsIncModifier = "%s" + CogsIncExt
-CogsInc = string.upper(Cogs) + CogsIncExt
+#CogsInc = string.upper(Cogs) + CogsIncExt
+CogsInc = Cogs.upper + CogsIncExt
+CogdominiumsExt = " Escritório de Campo"
 
 # DistributedKnockKnockDoor.py
 DoorKnockKnock = "Toc, toc."
@@ -4069,36 +4071,38 @@ FADoorCodes_BB_DISGUISE_INCOMPLETE = "Você vai ser pego se entrar lá como Toon
 
 # KnockKnock joke contest winners
 KnockKnockContestJokes = {
-    2100 : ["Jaque",
+2100 : ["Wally", "Wally não está olhando, joga torta nele!"],
+	#2010	
+    #2100 : ["Jaque",
             "Jaque não está olhando, joga uma torta nele!"],
 
     # 2009 April fools contest Jokes. First few doors of Loopy lane
-    2200 : {28:["Biscuit (Biscoito)",
-            "Biscuitos (Biscoitos) me mordam, os Cogs vêm aí!"],
-            41:["Dewey",
-            "Dewemos ir detonar mais alguns Cogs?"],
-            40:["Minnie",
-            "Minnie-pessoas falaram comigo, e isso está me enlouquecendo!"], 
+    #2200 : {28:["Biscuit (Biscoito)",
+   #         "Biscuitos (Biscoitos) me mordam, os Cogs vêm aí!"],
+    #        41:["Dewey",
+     #       "Dewemos ir detonar mais alguns Cogs?"],
+      #      40:["Minnie",
+       #     "Minnie-pessoas falaram comigo, e isso está me enlouquecendo!"], 
 ##            25:["Biscuit25 (Biscoito25)",
 ##            "Biscuitos (Biscoitos) me mordam, os Cogs vêm aí!"],
-            27:["Disguise",
-            "A Disguisetante perseguição aos Cogs!"]}, 
+        #    27:["Disguise",
+         #   "A Disguisetante perseguição aos Cogs!"]}, 
 
-    2300: ["Justa",
+#    2300: ["Justa",
            "Justa gora peguei uns dois pedaços de Cogs, pronto!"],
 
     # Polar Place has multiple jokes so they are in a dict keyed of the propId of the door
-    3300: { 10: ["Aladdin",
-                   "Aladdinheiro no chão."],
-            6 : ["Adon",
-                 "Adondé que esses Cogs tão saindo?"],
-            30 : ["Bacon",
-                  "Bacon uma torta ia bem."],
-            28: ["Isaías",
-                 "Isaías mas voltou-se."],
-            12: ["Julieta",
-                 "Julieta me chamando praquele prédio Cog com você pra eu te Toonar."],
-            },
+ #   3300: { 10: ["Aladdin",
+   #                "Aladdinheiro no chão."],
+  #          6 : ["Adon",
+    #             "Adondé que esses Cogs tão saindo?"],
+     #       30 : ["Bacon",
+      #            "Bacon uma torta ia bem."],
+      #      28: ["Isaías",
+       #          "Isaías mas voltou-se."],
+        #    12: ["Julieta",
+         #        "Julieta me chamando praquele prédio Cog com você pra eu te Toonar."],
+          #  },
      }
 
 # KnockKnockJokes.py
