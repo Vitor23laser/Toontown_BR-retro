@@ -104,6 +104,85 @@ lOutdoorZone = "Bosque de Bolotats de Tico e Teco"
 lGolfZone = "Minigolfe de Tico e Teco"
 lPartyHood = "Terra das Festas"
 
+lGagShop = 'Loja de Piadas'
+lClothingShop = 'Loja de Roupas'
+lPetShop = 'Loja de Animais'
+
+# common strings
+lCancel = 'Cancelar'
+lClose = 'Fechar'
+lOK = 'OK'
+lNext = 'Próximo'
+lQuit = 'Sair'
+lYes = 'Sim'
+lNo = 'Não'
+lBack = 'Voltar'
+
+sleep_auto_reply = "%s está dormindo agora"
+lHQ = 'Oficial'
+
+lHQOfficerF = 'Oficial do Quartel'
+lHQOfficerM = 'Oficial do Quartel'
+
+MickeyMouse = "Mickey Mouse"
+
+AIStartDefaultDistrict = "Vila dos Idiotas"
+
+Cog  = "Cog"
+Cogs = "Cogs"
+ACog = "um Cog"
+TheCogs = "os Cogs"
+ASkeleton = "um Esqueletocog"
+Skeleton = "Esqueletocogs"
+SkeletonP = "Esqueletocogs"
+Av2Cog = "um Cog Versão 2.0"
+v2Cog = "Cog Versão 2.0"
+v2CogP = "Cogs Versão 2.0"
+ASkeleton = "um Esqueletocog"
+Foreman = "Supervisor da fábrica"
+ForemanP = "Supervisores da fábrica"
+AForeman = "um Supervisor da fábrica"
+CogVP = Cog + " VP"
+CogVPs = "Cogs VPs"
+ACogVP = ACog + " VP"
+Supervisor = "Supervisor da Casa da Moeda"
+SupervisorP = "Supervisores da Casa da Moeda"
+ASupervisor = "um Supervisor da Casa da Moeda"
+CogCFO = Cog + "Diretor Financeiro"
+CogCFOs = "Diretores Financeiros Cogs"
+ACogCFO = ACog + "Diretor Financeiro"
+
+# AvatarDNA.py
+Bossbot = "Robô-chefe"
+Lawbot = "Robô da Lei"
+Cashbot = "Robô Mercenário"
+Sellbot = "Robô Vendedor"
+BossbotS = "um Robô-chefe"
+LawbotS = "um Robô da Lei"
+CashbotS = "um Robô Mercenário"
+SellbotS = "um Robô Vendedor"
+BossbotP = "Robôs-chefe"
+LawbotP = "Robôs da Lei"
+CashbotP = "Robôs Mercenários"
+SellbotP = "Robôs Vendedores"
+BossbotSkelS = "um Esqueletocog %s" % (Bossbot)
+LawbotSkelS = "um Esqueletocog %s" % (Lawbot)
+CashbotSkelS = "um Esqueletocog %s" % (Cashbot)
+SellbotSkelS = "um Esqueletocog %s" % (Sellbot)
+BossbotSkelP = "Esqueletocogs %s" % (BossbotP)
+LawbotSkelP = "Esqueletocogs %s" % (LawbotP)
+CashbotSkelP = "Esqueletocogs %s" % (CashbotP)
+SellbotSkelP = "Esqueletocogs %s" % (SellbotP)
+SkeleRevivePostFix = " v2.0"
+
+lBossbotHQ = 'Quartel do Robô-chefe'
+lLawbotHQ = 'Quartel do Robô da Lei'
+lCashbotHQ = 'Quartel do Robô Mercenário'
+lSellbotHQ = 'Quartel do Robô Vendedor'
+lTutorial = 'Toon-torial'
+lMyEstate = 'sua casa'
+lWelcomeValley = 'Vale Boas-vindas'
+
 # ToontownGlobals.py
 
 # (to, in, location)
@@ -136,23 +215,23 @@ GlobalStreetNames = {
     9000  : ("para o",  "no", "Parque"),
     9100  : ("para a",  "na", "Travessa da Canção de Ninar"),
     9200  : ("para o",  "no", "Pedaço do Pijama"),
-    10000 : ("para o",  "no", "Clube de Campo do Quartel do Robô-chefe"),
-    10100 : ("para o",  "no", "Salão do Quartel do Robô-chefe"),
+    10000 : ("para o",  "no", "Clube de Campo do "+lBossbotHQ),
+    10100 : ("para o",  "no", "Salão do "+lBossbotHQ),
     10200 : ("para a", "na", "Sede do Clube"),
     10500 : ("para o", "no", "Três da Frente"),
     10600 : ("para o", "no", "Seis do Meio"),
     10700 : ("para o", "no", "Nove de Trás"),
-    11000 : ("para o",  "no", "Parque do "+lSellbotHQ),
+    11000 : ("para o",  "no", "Pátio do "+lSellbotHQ),
     11100 : ("para o",  "no", "Salão do "+lSellbotHQ),
     11200 : ("para a",  "na", "Fábrica do Robô Vendedor"),
     11500 : ("para a",  "na", "Fábrica do Robô Vendedor"),
-    12000 : ("para o",  "no", "Parque de Trens do Robô Mercenário"),
-    12100 : ("para o",  "no", "Salão do Quartel do Robô Mercenário"),
+    12000 : ("para o",  "no", "Pátio de Trens do " +Cashbot),
+    12100 : ("para o",  "no", "Salão do "+lCashbotHQ),
     12500 : ("para a",  "na", "Casa da Moeda"),
     12600 : ("para a",  "na", "Casa da Moeda de Dólar"),
     12700 : ("para a",  "na", "Casa da Moeda de Barras de Ouro"),
-    13000 : ("para o",  "no", "Parque do Quartel do Robô da Lei"),
-    13100 : ("para o",  "no", "Salão do Quartel do Robô da Lei"),
+    13000 : ("para o",  "no", "Pátio do "+lLawbotHQ),
+    13100 : ("para o",  "no", "Salão do "+lLawbotHQ),
     13200 : ("para o", "no", "Lobby do Escritório do Promotor"),
     13300 : ("para o", "no", "Escritório do Robô da Lei A"),
     13400 : ("para o", "no", "Escritório do Robô da Lei B"),
@@ -166,20 +245,20 @@ ToontownCentral   = ("para o",  "no",    lToontownCentral)
 TheBrrrgh         = ("para",    "em",    lTheBrrrgh)
 MinniesMelodyland = ("para a",  "na",    lMinniesMelodyland)
 DaisyGardens      = ("para os", "nos",   lDaisyGardens)
-ConstructionZone  = ("para a", "na",     "Zona de Construção")
+ConstructionZone = ("para a", "na", "Zona de Construção")
 OutdoorZone       = ("para a",  "na",    lOutdoorZone)
 FunnyFarm         = ("para a",  "na",    "Fazenda Divertida")
 GoofySpeedway     = ("para o",  "no",    lGoofySpeedway)
 DonaldsDreamland  = ("para a",  "na",    lDonaldsDreamland)
-BossbotHQ         = ("para o",  "no",    "Quartel do Robô-chefe")
+BossbotHQ         = ("para o",  "no",    lBossbotHQ)
 SellbotHQ         = ("para o",  "no",    lSellbotHQ)
-CashbotHQ         = ("para o",  "no",    "Quartel do Robô Mercenário")
-LawbotHQ          = ("para o",  "no",    "Quartel do Robô da Lei")
-Tutorial          = ("para o",  "no",    "Toon-torial")
-MyEstate          = ("para a",  "na",    "sua casa")
-WelcomeValley     = ("para o",  "no",    "Vale Boas-vindas")
+CashbotHQ         = ("para o",  "no",    lCashbotHQ)
+LawbotHQ          = ("para o",  "no",    lLawbotHQ)
+Tutorial          = ("para o",  "no",    lTutorial)
+MyEstate          = ("para a",  "na",    lMyEstate)
+WelcomeValley     = ("para o",  "no",    lWelcomeValley)
 GolfZone          = ("para a",  "na",    lGolfZone)
-PartyHood         = ("para a",  "na",    lPartyHood)
+PartyHood         = ("to the", "in the", lPartyHood)
 
 Factory = 'Fábrica'
 Headquarters = 'Quartel'
@@ -189,9 +268,8 @@ Office = 'Escritório'
 
 FactoryNames = {
     0 : 'Molde da fábrica',
-    11500 : 'Fábrica do Cog Robô Vendedor',
-    13300 : 'Escritório do
-    Cog Robô da Lei', #remove me JML
+    11500 : 'Fábrica do Cog  '+Sellbot,
+    13300 : 'Escritório dos Cogs  '+LawbotP, #remove me JML
     }
 
 FactoryTypeLeg = 'Perna'
@@ -199,49 +277,6 @@ FactoryTypeArm = 'Braço'
 FactoryTypeTorso = 'Busto'
 
 MintFloorTitle = 'Andar %s'
-
-# common strings
-lCancel = 'Cancelar'
-lClose = 'Fechar'
-lOK = 'OK'
-lNext = 'Próximo'
-lQuit = 'Sair'
-lYes = 'Sim'
-lNo = 'Não'
-lBack = 'Voltar'
-
-sleep_auto_reply = "%s está dormindo agora"
-
-lHQOfficerF = 'Oficial do Quartel'
-lHQOfficerM = 'Oficial do Quartel'
-
-MickeyMouse = "Mickey Mouse"
-
-AIStartDefaultDistrict = "Vila dos Idiotas"
-
-Cog  = "Cog"
-Cogs = "Cogs"
-ACog = "um Cog"
-TheCogs = "os Cogs"
-ASkeleton = "um Esqueletocog"
-Skeleton = "Esqueletocogs"
-SkeletonP = "Esqueletocogs"
-Av2Cog = "um Cog Versão 2.0"
-v2Cog = "Cog Versão 2.0"
-v2CogP = "Cogs Versão 2.0"
-ASkeleton = "um Esqueletocog"
-Foreman = "Supervisor da fábrica"
-ForemanP = "Supervisores da fábrica"
-AForeman = "um Supervisor da fábrica"
-CogVP = Cog + " VP"
-CogVPs = "Cogs VPs"
-ACogVP = ACog + " VP"
-Supervisor = "Supervisor da Casa da Moeda"
-SupervisorP = "Supervisores da Casa da Moeda"
-ASupervisor = "um Supervisor da Casa da Moeda"
-CogCFO = Cog + "Diretor Financeiro"
-CogCFOs = "Diretores Financeiros Cogs"
-ACogCFO = ACog + "Diretor Financeiro"
 
 # Quests.py
 TheFish = "o Peixe"
@@ -672,7 +707,7 @@ QuestsItemDict = {
     3027 : ["Termômetro Externo", "Termômetros Externos", "um "],
     
     #Dreamland Quests
-    6001 : ["Plano do "+Quartel do Robô Mercenário, "Planos do "+Quartel do Robô Mercenário, "algum "],
+    6001 : ["Plano do "+lCashbotHQ, "Planos do "+lCashbotHQ, "algum "],
     6002 : ["Vara de pescar", "Varas de pescar", "uma "],
     6003 : ["Cinto de segurança", "Cintos de segurança", "um "],
     6004 : ["Par de pinças", "Pares de pinças", "um "],
@@ -2398,29 +2433,6 @@ ChatGarblerBear = ["grrrau", "grrr"]
 ChatGarblerPig = ["oinc", "oic", "rrroinc"]
 ChatGarblerDefault = ["blá"]
 
-# AvatarDNA.py
-Bossbot = "Robô-chefe"
-Lawbot = "Robô da Lei"
-Cashbot = "Robô Mercenário"
-Sellbot = "Robô Vendedor"
-BossbotS = "um Robô-chefe"
-LawbotS = "um Robô da Lei"
-CashbotS = "um Robô Mercenário"
-SellbotS = "um Robô Vendedor"
-BossbotP = "Robôs-chefe"
-LawbotP = "Robôs da Lei"
-CashbotP = "Robôs Mercenários"
-SellbotP = "Robôs Vendedores"
-BossbotSkelS = "um Esqueletocog %s" % (Bossbot)
-LawbotSkelS = "um Esqueletocog %s" % (Lawbot)
-CashbotSkelS = "um Esqueletocog %s" % (Cashbot)
-SellbotSkelS = "um Esqueletocog %s" % (Sellbot)
-BossbotSkelP = "Esqueletocogs %s" % (BossbotP)
-LawbotSkelP = "Esqueletocogs %s" % (LawbotP)
-CashbotSkelP = "Esqueletocogs %s" % (CashbotP)
-SellbotSkelP = "Esqueletocogs %s" % (SellbotP)
-SkeleRevivePostFix = " v2.0"
-
 # AvatarDetailPanel.py
 AvatarDetailPanelOK = lOK
 AvatarDetailPanelCancel = lCancel
@@ -2545,22 +2557,61 @@ PetMoodAdjectives = {
 
 SpokenMoods = {
     'neutral': 'neutro',
-    'hunger': 'Eu\estou cansado de Balinhas! Que tal me dar uma fatia de torta?',
-    'boredom': 'Você não\ achou que eu entenderia, hein?', 
-    'excitement': 'Toontástico!',
-    'sadness': 'Eu quero ser rabisco de qualidade',
-    'restlessness': 'Eu\estou tãooo inquieto',
-    'playfulness': 'Brinque comigo ou eu\vou desenterrar algumas flores!',
-    'loneliness': 'Quero lutar com os Cogs com você!',
-    'fatigue': 'É muito cansativo fazer truques de rabisco! Que\tal dar um tempinho?',
-    'confusion': 'Onde estou? Quem é mesmo você?',
-    'anger': 'Você sempre me deixa para trás',
-    'surprise': 'Opa, de onde você surgiu?',
-    'affection': 'Você é um ótimo toon',
+    'hunger':['Eu\estou cansado de Balinhas! Que tal me dar uma fatia de torta?',
+    "Que tal uma Balinha vermelha? Estou cansado das verdes!",
+        "Ah, essas Balinhas eram para plantar?!! Mas eu estou com fome!",
+        ],
+    'boredom': ["Estou morrendo de tédio aqui!",
+     'Você não\ achou que eu entenderia, hein?', 
+     'Poderíamos, tipo, FAZER algo já?',
+     ],
+   # 'excitement': 'Toontástico!',
+   'excitement': ["Uau, é você, é você, é você!",
+   "mmm, balinhas, mmm",
+   'Tem algo melhor que isso?',
+   "Feliz dia da Semana Mentirosa Toons!",
+   ],
+    #'sadness': 'Eu quero ser rabisco de qualidade',
+    'sadness': ["Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá...",
+    "Eu serei bom, eu prometo!",
+    "Não sei POR QUE estou triste, eu simplesmente estou!!!",
+    ],
+    'restlessness': ['Eu\estou tãooo inquieto',
+    ],
+    'playfulness': ["Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar...",
+    'Brinque comigo ou eu\vou desenterrar algumas flores!',
+    'Vamos correr em volta e em volta e em volta e em volta e em volta e em volta...', 
+    ],
+    'loneliness': ['Onde você esteve?',
+      'Quer abraçar?',
+      'Quero lutar com os Cogs com você!',
+    ],
+    #'fatigue': 'É muito cansativo fazer truques de rabisco! Que\tal dar um tempinho?',
+    'fatigue': ['Aquele mergulho na lagoa realmente me cansou!',
+    'Ser um Rabisco é exaustivo',
+    'Eu tenho que ir para a Sonholândia!',
+    ],
+    'confusion':  ['Onde estou? Quem é mesmo você?',
+    "O que é um Toon-ar mesmo?",
+    "Uau, estou entre você e os Cogs! Fuja!",
+    ],
+    'anger': ['... e você se pergunta por que eu nunca te dou um Toon-ar?!!!',
+    'Você sempre me deixa para trás',
+    'Você ama suas piadas mais do que a mim',
+    ],
+    'surprise': ['Claro que os Rabiscos podem falar!',
+    'Toons podem falar?!!',
+    'Opa, de onde você surgiu?',
+    ],
+    #'affection': 'Você é um ótimo toon',
+    'affection': ['Você é o melhor Toon de SEMPRE!!!!!!!!!!',
+    'Você ao menos SABE o quão incrível você é?!?',
+    'Tenho TANTA sorte de estar com você!!!',
+    ],
     }
 
 # DistributedAvatar.py
-DialogExclamation = "!"
+#DialogExclamation = "!"
 DialogQuestion = '?'
 
 # LocalAvatar.py
@@ -2600,28 +2651,42 @@ ForcedLeaveCountryClubAckMsg = "O Presidente do Clube foi derrotado antes que vo
 ToonHealJokes = [
     ["O que faz TIQUE-TIQUE-TIQUE-AU?",
      "Um cãonômetro!"],
-    ["Por que o louco toma banho com o chuveiro desligado?",
-     "Porque ele comprou xampú para cabelos secos!"],
+    #["Por que o louco toma banho com o chuveiro desligado?",
+     #"Porque ele comprou xampú para cabelos secos!"],
+     ['Por que os cervos machos precisam de aparelho?',
+"Porque eles têm 'dentes salientes'!"],
     ["Por que é difícil para o fantasma contar mentiras?",
      "Porque seus pensamentos são transparentes."],
     ["Do que a bailarina é chamada quando machuca o pé e se recusa a dançar?",
-     "Pé-nóstica!"],
-    ["O que a vaca foi fazer no espaço?",
-     "Foi se encontrar com o vácuo!"],
-    ["Por que o gato mia para a Lua e a Lua não mia para o gato?",
-     "Porque astro-no-mia!"],
-    ["Por que as tartarugas não ficam bêbadas?",
-     "Porque elas só têm um casco!"],
-    ["Por que o elefante usa tênis vermelhos?",
-     "Porque os branquinhos sujam muito."],
-    ["Por que a galinha atravessa a rua?",
-     "Para chegar ao outro lado!"],
-    ["Qual é a maior injustiça do Natal?",
-     "O peru morre e a missa é do galo."],
-    ["Qual é o cúmulo dos trabalhos manuais?",
-     "Tricotar com a linha do trem."],
-    ["O que é um vulcão?",
-     "Uma montanha com soluço."],
+     "Ela chama de Pé-nóstica!"],
+   #["O que a vaca foi fazer no espaço?",
+   #  "Foi se encontrar com o vácuo!"],
+   ['O que tem um chifre e dá leite?',
+   'Um caminhão de leite!'],
+    #["Por que o gato mia para a Lua e a Lua não mia para o gato?",
+     #"Porque astro-no-mia!"],
+     ["Por que as bruxas não andam de vassoura quando estão com raiva?",
+"Elas não querem perder o controle!"],
+    #["Por que as tartarugas não ficam bêbadas?",
+     #"Porque elas só têm um casco!"],
+     ['Por que o golfinho atravessou o oceano?',
+'Para chegar à outra maré.'],
+    #["Por que o elefante usa tênis vermelhos?",
+     #"Porque os branquinhos sujam muito."],
+     ['Que tipo de erros os fantasmas cometem?'
+'Buu buus.'],
+    ["Por que a galinha atravessa o pátio?",
+     "Para chegar ao outro slide!"],
+    #["Qual é a maior injustiça do Natal?",
+     #"O peru morre e a missa é do galo."],
+     ["Por que o esqueleto não atravessou a rua?",
+"Ele não teve coragem."],
+    #["Qual é o cúmulo dos trabalhos manuais?",
+     #"Tricotar com a linha do trem."],
+     ["Por que não deixaram a borboleta entrar na dança?",
+     'Porque era uma bola de Mariposa'],
+    #["O que é um vulcão?",
+     #"Uma montanha com soluço."],
     ["O que é um pontinho vermelho, um azul e um rosa em cima de uma árvore?",
      "Um morangotango com urublue num pinkenick."],
     ["Por que o elefante não consegue tirar carteira de motorista?",
@@ -2904,56 +2969,96 @@ ToonHealJokes = [
      "De rodo."],
     ["Por que o cachorro entrou na igreja?",
      "Porque ele é um cão pastor."],
-    ["Quem é o pai do volante?",
-     "O painel."],
-    ["Como chamamos uma mulher que visitou uma plantação de uva?",
-     "Viúva."],
+    #["Quem é o pai do volante?",
+     #"O painel."],
+     ["Como se chama um elefante na geladeira?",
+      "Um aperto muito apertado."],
+    #["Como chamamos uma mulher que visitou uma plantação de uva?",
+     #"Viúva."],
+     ['O que o elefante disse para sua criança impertinente?',
+     'Tusk! Tusk!']
     ["O que o amendoim falou para o elefante?",
      "Nada, o amendoim não fala."],
     ["O que os elefantes falam quando se esbarram?",
      "Mundo pequeno esse, né?"],
     ["O que o caixa falou para a registradora?",
      "Estou contando com você."],
-    ["Por que o caminhão de frigorífico não sobe a ladeira?",
-     "Porque 'elinguiça'."],
-    ["Qual é a comida que liga e desliga?",
-     "É o strogON-OFF."],
-    ["O que a vaca foi fazer na Argentina?",
-     "Foi ver o Boi nos Ares."],
-    ["Qual é o peixe mais salgado que existe?",
-     "O sal-mão."],
-    ["O que é um cão indeciso?",
-     "É um 'cão-fuso'."],
-    ["Sabe por que o italiano não come churrasco?",
-     "Porque o macarrão não cabe no espeto."],
-    ["Qual é o cúmulo da rapidez?",
-     "Ir ao enterro de um parente e ainda encontrá-lo vivo."],
-    ["Qual é o cúmulo do azar?",
-     "Ser atropelado por um carro funerário."],
-    ["Por que o jacaré tomou o cartão de crédito do jacarezinho?",
-     "Porque o jacarezinho gastou muito e mandou o jacarepaguá."],
-    ["Qual é o cúmulo da burrice?",
-     "Olhar pelo buraco da fechadura numa porta de vidro."],
-    ["Qual é o cúmulo da confiança?",
-     "Jogar par-ou-ímpar pelo telefone?"],
-    ["Qual é o cúmulo da paciência?",
-     "Esvaziar uma piscina com conta-gotas."],
-    ["Qual é o cúmulo da traição?",
-     "Suicidar-se com uma punhalada nas costas."],
-    ["O que uma nuvem disse pra outra?",
-     "'Nu-vem' não."],
-    ["Qual é o cúmulo da moleza?",
-     "Correr sozinho e chegar em segundo."],
-    ["Por que o jacaré tirou o jacarezinho da escola?",
-     "Porque ele 'reptil'."],
-    ["Qual é o fim da picada?",
-     "Quando o mosquito vai embora."],
-    ["O que o paraquedas disse para o paraquedista?",
-     "Tô contigo e não abro."],
-    ["Qual é a cor mais barulhenta?",
-     "A corneta."],
-    ["O que é um pontinho amarelo no céu?",
-     "Um yellowcóptero."],
+    #["Por que o caminhão de frigorífico não sobe a ladeira?",
+    # "Porque 'elinguiça'."],
+    ['O que a pulga disse para a outra pulga?',
+        'Vamos andar ou pegar o gato?'],        
+    #["Qual é a comida que liga e desliga?",
+     #"É o strogON-OFF."],
+     ["O que a mão grande disse para a mão pequena?",
+      "Tem um minuto."],
+    ["O que o mar diz para a areia?",
+      "Não muito. Geralmente ondas."],
+    #["O que a vaca foi fazer na Argentina?",
+     #"Foi ver o Boi nos Ares."],
+    #["Qual é o peixe mais salgado que existe?",
+     #"O sal-mão."],
+     ["O que a meia disse ao sapato?",
+     "Vejo você mais tarde, eu tenho que correr."],
+   #["O que é um cão indeciso?",
+     #"É um 'cão-fuso'."],
+     ["O que uma tonsila disse à outra amiga?", "Deve ser primavera, aqui vem uma andorinha."],
+    #["Sabe por que o italiano não come churrasco?",
+    #"Porque o macarrão não cabe no espeto."],
+    ["O que o solo dizia à chuva?" 
+     "Pare ou meu nome é lama."],
+    #["Qual é o cúmulo da rapidez?",
+    # "Ir ao enterro de um parente e ainda encontrá-lo vivo."],
+    ["O que a poça disse à chuva?", 
+    "Queda em algum momento. "],
+    #["Qual é o cúmulo do azar?",
+     #"Ser atropelado por um carro funerário."],
+     ["O que a abelha disse para a rosa?", 
+     "Olá, Botão. "],
+    #["Por que o jacaré tomou o cartão de crédito do jacarezinho?",
+     #"Porque o jacarezinho gastou muito e mandou o jacarepaguá."],
+     ["O que o apêndice disse ao rim?" 
+     "O médico está me tirando esta noite."],
+    #["Qual é o cúmulo da burrice?",
+    # "Olhar pelo buraco da fechadura numa porta de vidro."],
+    #["Qual é o cúmulo da confiança?",
+    # "Jogar par-ou-ímpar pelo telefone?"],
+    ["O que a janela disse para as persianas venezianas?", 
+    "Se não fosse por você, seria cortinas para mim. "],
+    #["Qual é o cúmulo da paciência?",
+     #"Esvaziar uma piscina com conta-gotas."],
+     ["O que o médico disse para a laranja doente?", 
+     "Você está descascando bem? "],
+    #["Qual é o cúmulo da traição?",
+     #"Suicidar-se com uma punhalada nas costas."],
+     ["O que você consegue se você atravessar uma galinha com um banjo?", 
+     "Uma galinha auto-arrancada."],
+    #["O que uma nuvem disse pra outra?",
+    # "'Nu-vem' não."],
+   # ["Qual é o cúmulo da moleza?",
+     #"Correr sozinho e chegar em segundo."],
+     ["O que você consegue se você cruzar uma hiena com um cubo de caldo?", 
+     "Um animal que faz um estoque rindo de si mesmo."],
+     ["O que você consegue se cruzar um coelho com uma aranha?", 
+     "Uma rede de lebre. "],
+    #["Por que o jacaré tirou o jacarezinho da escola?",
+     #"Porque ele 'reptil'."],
+     ["O que você consegue se cruzar um germe com um comediante?", 
+     "Piadas doentes. "],
+    #["Qual é o fim da picada?",
+     #"Quando o mosquito vai embora."],
+     ["O que você consegue se você cruzar uma hiena com um pássaro mynah?", "Um animal que ri de suas próprias piadas."],
+    #["O que o paraquedas disse para o paraquedista?",
+     #"Tô contigo e não abro."],
+     ["O que você consegue se você cruzar um motor ferroviário com um pedaço de goma?", "Um trem mastigável."],
+    #["Qual é a cor mais barulhenta?",
+     #"A corneta."],
+     ["O que você conseguiria se cruzar um elefante com um computador?", "Um grande conhecimento-lhe-tudo. "],
+    #["O que é um pontinho amarelo no céu?",
+     #"Um amarelocóptero."],
+     ["O que você conseguiria se cruzar um elefante com um jaritataca?",
+      "Um grande fedorento. "],
+      ['Por que o ' + MickeyMouse + ' fez uma viagem ao espaço sideral?',
+      'Ele queria encontrar '+ Pluto + '. '],
     ]
 
 # MovieHeal.py
@@ -5532,8 +5637,8 @@ QuestPosterTailorBuildingName = "Loja de Roupas"
 QuestPosterTailorStreetName = "Qualquer pátio"
 QuestPosterTailorLocationName = "Qualquer bairro"
 QuestPosterPlayground = "No pátio"
-QuestPosterAtHome = "Na "+"sua casa"
-QuestPosterInHome = "Em "+"sua casa"
+QuestPosterAtHome = "Na "+lMyEstate
+QuestPosterInHome = "Em "+lMyEstate
 QuestPosterOnPhone = "No seu telefone"
 QuestPosterEstate = "Na sua propriedade"
 QuestPosterAnywhere = "Qualquer lugar"
@@ -8027,10 +8132,10 @@ zone2TitleDict = {
     2514 : ("Banco de Toontown", ""),
     2516 : ("Escola de Toontown", ""),
     2518 : ("Biblioteca de Toontown", ""),
-    2519 : (Loja de Piadas, ""),
+    2519 : (lGagShop, ""),
     2520 : (lToonHQ, ""),
-    2521 : (Loja de Roupas, ""),
-    2522 : (Loja de Animais, ""),
+    2521 : (lClothingShop, ""),
+    2522 : (lPetShop, ""),
     # titles for: phase_5/dna/toontown_central_2100.dna
     2601 : ("Restaurações Dentárias Todo Sorrisos", ""),
     2602 : ("", ""),
@@ -8128,10 +8233,10 @@ zone2TitleDict = {
     2839 : ("Grude Massas", ""),
     2841 : ("", ""),
     # titles for: phase_6/dna/donalds_dock_sz.dna
-    1506 : (Loja de Piadas, ""),
+    1506 : (lGagShop, ""),
     1507 : (lToonHQ, ""),
-    1508 : (Loja de Roupas, ""),
-    1510 : (Loja de Animais, ""),
+    1508 : (lClothingShop, ""),
+    1510 : (lPetShop, ""),
     # titles for: phase_6/dna/donalds_dock_1100.dna
     1602 : ("Salva-vidas Usados", ""),
     1604 : ("Lavagem a Seco Roupa de Mergulho", ""),
@@ -8208,10 +8313,10 @@ zone2TitleDict = {
     1834 : ("Ridíquilhas!", ""),
     1835 : ("", ""),
     # titles for: phase_6/dna/minnies_melody_land_sz.dna
-    4503 : (Loja de Piadas, ""),
+    4503 : (lGagShop, ""),
     4504 : (lToonHQ, ""),
-    4506 : (Loja de Roupas, ""),
-    4508 : (Loja de Animais, ""),
+    4506 : (lClothingShop, ""),
+    4508 : (lPetShop, ""),
     # titles for: phase_6/dna/minnies_melody_land_4100.dna
     4603 : ("Baterias do Tomtom", ""),
     4604 : ("A Quatro Mãos", ""),
@@ -8326,10 +8431,10 @@ zone2TitleDict = {
     4872 : ("Braços sem Estresse do Estevão Expresso", ""),
     4873 : ("", ""),
     # titles for: phase_8/dna/daisys_garden_sz.dna
-    5501 : (Loja de Piadas, ""),
+    5501 : (lGagShop, ""),
     5502 : (lToonHQ, ""),
-    5503 : (Loja de Roupas, ""),
-    5505 : (Loja de Animais, ""),
+    5503 : (lClothingShop, ""),
+    5505 : (lPetShop, ""),
     # titles for: phase_8/dna/daisys_garden_5100.dna
     5601 : ("Exames de Vista Olho do Alho", ""),
     5602 : ("Gravatas do Sérgio Sufocado", ""),
@@ -8404,10 +8509,10 @@ zone2TitleDict = {
     # titles for: phase_8/dna/donalds_dreamland_sz.dna
     9501 : ("Biblioteca da Canção de Ninar", ""),
     9503 : ("O Bar da Soneca", ""),
-    9504 : (Loja de Piadas, ""),
+    9504 : (lGagShop, ""),
     9505 : (lToonHQ, ""),
-    9506 : (Loja de Roupas, ""),
-    9508 : (Loja de Animais, ""),
+    9506 : (lClothingShop, ""),
+    9508 : (lPetShop, ""),
     # titles for: phase_8/dna/donalds_dreamland_9100.dna
     9601 : ("Pousada A. Ninho", ""),
     9602 : ("Dois Dedos de Prosa com Morfeu pelo Preço de Um", ""),
@@ -8479,10 +8584,10 @@ zone2TitleDict = {
     9756 : ("", ""),
     9759 : ("Salão de Beleza Bela Adormecida", ""),
     # titles for: phase_8/dna/the_burrrgh_sz.dna
-    3507 : (Loja de Piadas, ""),
+    3507 : (lGagShop, ""),
     3508 : (lToonHQ, ""),
-    3509 : (Loja de Roupas, ""),
-    3511 : (Loja de Animais, ""),
+    3509 : (lClothingShop, ""),
+    3511 : (lPetShop, ""),
     # titles for: phase_8/dna/the_burrrgh_3100.dna
     3601 : ("Companhia Elétrica Esplendor do Norte", ""),
     3602 : ("Gorros do Pólo Norte", ""),
