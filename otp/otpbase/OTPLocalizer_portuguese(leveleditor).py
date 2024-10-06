@@ -62,8 +62,8 @@ SCEmoteNoAccessMsg = "Você não tem acesso\na esta emoção ainda."
 SCEmoteNoAccessOK = lOK
 
 ParentLogin = "Login de Pais"
-#ParentPassword = "Senha de pais"
-ParentPassword = "Senha da conta de pais"
+ParentPassword = "Senha de pais"
+#ParentPassword = "Senha da conta de pais"
 # ChatGarbler.py
 ChatGarblerDefault = ["blá"]
 
@@ -72,7 +72,7 @@ ChatManagerWhisperTo = "Cochichar com:"
 ChatManagerWhisperToName = "Cochichar com:\n%s"
 ChatManagerCancel = lCancel
 ChatManagerWhisperOffline = "%s está off-line."
-#OpenChatWarning = 'Você ainda não tem nenhum "Amigo secreto"! Você não pode conversar com outros Toons a menos que eles sejam seus Amigos secretos.\n\nPara se tornar Amigo secreto de alguém, clique na pessoa e selecione "Segredos" no painel de detalhes. É claro que você sempre poderá conversar com alguém pelo Chat rápido.'
+OpenChatWarning = 'Você ainda não tem nenhum "Amigo secreto"! Você não pode conversar com outros Toons a menos que eles sejam seus Amigos secretos.\n\nPara se tornar Amigo secreto de alguém, clique na pessoa e selecione "Segredos" no painel de detalhes. É claro que você sempre poderá conversar com alguém pelo Chat rápido.'
 OpenChatWarning = 'Para se tornar Amigo secreto de alguém, clique na pessoa e selecione "Segredos" no painel de detalhes.\n\nO recurso Chat rápido Plus pode também estar ativado, qual permite usários para bater um papo por digitando palavras encontrado no Dicionário Chat Rápido Plus.\n\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em "Opções da conta" na página da web de Toontown.  '
 OpenChatWarningOK = lOK
 UnpaidChatWarning = 'Depois que você assinar o serviço, poderá ativar este botão para conversar com seus amigos usando o teclado. Até lá, você deve conversar com os outros Toons usando o Chat rápido.'
@@ -303,7 +303,6 @@ MultiPageTextFramePage = 'Página %s/%s'
 # GuiScreen.py
 GuiScreenToontownUnavailable = "Toontown parece estar temporariamente indisponível, ainda tentando..."
 GuiScreenCancel = lCancel
-
 
 # CreateAccountScreen.py
 CreateAccountScreenUserName = "Nome da conta"
@@ -2375,6 +2374,8 @@ SpeedChatStaticTextPirates = {
     50106 : "Ei, você!",
     50107 : "Claro, claro, Capitão!",
     50108 : "Ande na prancha!",
+    #50109 : 'Continue!',
+    #50110 : 'Não vai sobrar ninguém para contar a história....',
 
     # EXPRESSIONS - GREETINGS
     50700 : "Ah!",
@@ -2542,89 +2543,90 @@ SpeedChatStaticTextPirates = {
     50620 : "Basta! Uma Esquadra Ligeira imunda!",
 
     # Card Games
-    52400  : "May luck be my lady.",
-    52401 : "I think these cards be marked!",
-    52402 : "Blimey cheater!",
+    52400 : "Que a sorte esteja minha dama.",
+    52401 : 'Acho que essas cartas estão marcadas!',
+    52402 : 'Caramba, trapaceiro!',
 
-    # Card Games - Poker
-    51900 : "That's a terrible flop!",
-    51901 : "Trying to buy the hand, are ye?",
-    51902 : "Ye be bluffing.",
-    51903 : "I don't think ye had it.",
-    51904 : "Saved by the river.",
+   # Card Games - Poker
+    51900 : 'Isso é um fracasso terrível!',
+    51901 : 'Tentando comprar a mão, não é?',
+    51902 : 'Você está blefando.',
+    51903 : 'Acho que você não entendeu.',
+    51904 : 'Salvo pelo rio.',
 
-    # Card Games - Blackjack
-    52600 : "Hit me.",
-    52601 : "Can I get another dealer?",
+  # Card Games - Blackjack
+    52600 : 'Bata em mim.',
+    52601 : 'Posso contratar outro revendedor?',
 
-    # Minigames
+# Minigames
     # Minigames - Fishing
-    53101 : "I caught a fish!",
-    53102 : "I saw a Legendary Fish!",
-    53103 : "What did you catch?",
-    53104 : "This will make a whale of a tale!",
-    53105 : "That was a beauty!",
-    53106 : "Arr, the sea is treacherous today.",
-    53107 : "What a bountiful haul of fish!",
-    53110 : "Do you have the Legendary Lure?",
-    53111 : "Have you ever caught a Legendary Fish?",
-    53112 : "Can you sail on a fishing boat?",
-    53113 : "Where is the Fishing Master?",
-    53114 : "Have you completed your fish collection?",
-    # Minigames - Cannon Defense
-    53120 : "Fire at my target!",
-    53121 : "Fire at the ship closest to the shore!",
-    53122 : "There's a ship getting away!",
-    53123 : "Fire at the big ships!",
-    53124 : "Fire at the small ships!",
-    53125 : "More are coming!",
-    53126 : "We're not going to last much longer!",
-    53127 : "Shoot the barrels!",
-    53128 : "We've got new ammo!",
-    53129 : "Sturdy defense, mates!",
+    53101 : 'Peguei um peixe!',
+    53102 : 'Vi um peixe lendário!',
+    53103 : 'O que você pescou?',
+    53104 : 'Isso vai virar uma história de baleia!',
+    53105 : 'Foi uma beleza!',
+    53106 : 'Arr, o mar está traiçoeiro hoje.',
+    53107 : 'Que farta pesca!', 
+    53110 : 'Você tem a isca lendária?',
+    53111 : 'Você já pescou um peixe lendário?',
+    53112 : 'Você sabe navegar em um barco de pesca?',
+    53113 : 'Onde está o Mestre da Pesca?',
+    53114 : 'Você completou sua coleção de peixes?',
+
+# Minigames - Cannon Defense
+    53120 : 'Atire no meu alvo!',
+    53121 : 'Atire no navio mais próximo da costa!',
+    53122 : 'Tem um navio fugindo!',
+    53123 : 'Atire nos navios grandes!',
+    53124 : 'Atire nos navios pequenos!',
+    53125 : 'Mais estão chegando!',
+    53126 : 'Não vamos durar muito mais!',
+    53127 : 'Atire nos barris!',
+    53128 : 'Temos munição nova!',
+    53129 : 'Defesa resistente, companheiros!',
     # Minigames - Potion Brewing
-    53141 : "Look at the potion I made!",
-    53142 : "Have you completed your potion collection?",
-    53143 : "Where is the Gypsy?",
-    53144 : "What potion is that?",
-    53145 : "This potion was easy enough.",
-    53146 : "This potion was hard brewin', I tell ye!",
-    # Minigames - Repair
-    53160 : "We need someone to bilge pump!",
-    53161 : "We need someone to scrub!",
-    53162 : "We need someone to saw!",
-    53163 : "We need someone to brace!",
-    53164 : "We need someone to hammer!",
-    53165 : "We need someone to patch!",
-    53166 : "I'll do it!",
-    53167 : "Keep it up, this ship won't repair itself!",
-    53168 : "Great job repairing the ship!",
+    53141 : 'Olhe a poção que eu fiz!',
+    53142 : 'Você completou sua coleção de poções?',
+    53143 : 'Onde está o cigano?',
+    53144 : 'Que poção é essa?',
+    53145 : 'Esta poção foi fácil o suficiente.',
+    53146 : 'Esta poção foi difícil de preparar, eu te digo!',
+   # Minigames - Repair
+    53160 : 'Precisamos de alguém para bombear o porão!',
+    53161 : 'Precisamos de alguém para esfregar!',
+    53162 : 'Precisamos de alguém para serrar!',
+    53163 : 'Precisamos de alguém para reforçar!',
+    53164 : 'Precisamos de alguém para martelar!',
+    53165 : 'Precisamos de alguém para remendar!',
+    53166 : 'Eu faço isso!',
+    53167 : 'Continue assim, este navio não vai se consertar sozinho!',
+    53168 : 'Ótimo trabalho consertando o navio!',
 
-    # Invitations
-    52100 : "Want to group up?",
-    52101 : "Join me crew?",
+  # Invitations
+    52100 : 'Quer se agrupar?',
+    52101 : 'Juntar-se à minha tripulação?',
 
-    # Invitations - Hunting
-    52200 : "Fight some skeletons?",
-    52201 : "Fight some crabs?",
+  # Invitations - Hunting
+    52200 : 'Lute contra alguns esqueletos?',
+    52201 : 'Lute contra alguns caranguejos?',
 
-    # Invitations - Versus
-    52300 : "How 'bout a game of Mayhem?",
-    52301 : "Join me Mayhem game.",
-    52302 : "Want to start a Mayhem game?",
-    52303 : "Want to start a team battle game?",
-    52304 : "Join me team battle game.",
+   # Invitations - Versus
+    52300 : 'Que tal um jogo de Mayhem?',
+    52301 : 'Junte-se ao meu jogo Mayhem.',
+    52302 : 'Quer iniciar um jogo Mayhem?',
+    52303 : 'Quer iniciar um jogo de batalha em equipe?',
+    52304 : 'Junte-se ao meu jogo de batalha em equipe.',
 
     # Invitations - Minigames
-    52350 : "Join my Cannon Defense.",
-    52351 : "Want to start a Cannon Defense?",
-    52352 : "Can you lend me a hand with Repair?",
-    52353 : "We need to Repair the ship now!",
-    52354 : "Care to catch some fish?",
-    52355 : "Want to go fishing with me?",
-    52356 : "Join me crew for some fishin'?",
-    52357 : "Time to brew some potions!",
-    52358 : "You should try your hand at brewing potions.",
+    52350 : "Junte-se à minha defesa de canhão.",
+    52351 : "Quer iniciar uma Defesa de Canhão?",
+    52352 : "Você pode me ajudar com o Reparo?",
+    52353 : "Precisamos consertar o navio agora!",
+    52354 : "Quer pegar alguns peixes?",
+    52355 : "Quer pescar comigo?",
+    52356 : "Junte-se à minha tripulação para pescar?",
+    52357 : "Hora de preparar algumas poções!",
+    52358 : "Você deveria tentar preparar poções.",
 
     # PLACES - WHERE IS..? - PORT ROYAL (LEGACY)
     52000 : "",
