@@ -63,17 +63,18 @@ SCEmoteNoAccessOK = lOK
 
 ParentLogin = "Login de Pais"
 ParentPassword = "Senha de pais"
-#ParentPassword = "Senha da conta de pais"
+ParentPassword = "Senha da conta de pais"
 # ChatGarbler.py
 ChatGarblerDefault = ["blá"]
 
+# ChatManager.py
 ChatManagerChat = "Chat"
 ChatManagerWhisperTo = "Cochichar com:"
 ChatManagerWhisperToName = "Cochichar com:\n%s"
 ChatManagerCancel = lCancel
 ChatManagerWhisperOffline = "%s está off-line."
-OpenChatWarning = 'Você ainda não tem nenhum "Amigo secreto"! Você não pode conversar com outros Toons a menos que eles sejam seus Amigos secretos.\n\nPara se tornar Amigo secreto de alguém, clique na pessoa e selecione "Segredos" no painel de detalhes. É claro que você sempre poderá conversar com alguém pelo Chat rápido.'
-OpenChatWarning = 'Para se tornar Amigo secreto de alguém, clique na pessoa e selecione "Segredos" no painel de detalhes.\n\nO recurso Chat rápido Plus pode também estar ativado, qual permite usários para bater um papo por digitando palavras encontrado no Dicionário Chat Rápido Plus.\n\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em "Opções da conta" na página da web de Toontown.  '
+#OpenChatWarning = 'Você ainda não tem nenhum "Amigo secreto"! Você não pode conversar com outros Toons a menos que eles sejam seus Amigos secretos.\n\nPara se tornar Amigo secreto de alguém, clique na pessoa e selecione "Segredos" no painel de detalhes. É claro que você sempre poderá conversar com alguém pelo Chat rápido.'
+OpenChatWarning = 'Para se tornar Amigo verdadeiro de alguém, clique na pessoa e selecione "Amigos Verdadeiros" no painel de detalhes.\n\nO recurso Chat rápido Plus pode também estar ativado, qual permite usários para bater um papo por digitando palavras encontrado no Dicionário Chat Rápido Plus.\n\nPara ativar ou obter uma descrição completa de cada um desses recursos, saia do Toontown e, em Serviços de Membros, no site do Toontown, clique em "Preferêcias".'
 OpenChatWarningOK = lOK
 UnpaidChatWarning = 'Depois que você assinar o serviço, poderá ativar este botão para conversar com seus amigos usando o teclado. Até lá, você deve conversar com os outros Toons usando o Chat rápido.'
 UnpaidChatWarningPay = "Assine já!"
@@ -117,8 +118,8 @@ WhisperFromFormatName = "%s cochichos"
 ThoughtOhterFormatName = "%s pensa"
 ThoughtSelfFormatName = "Você pensa"
 
-from otp.otpbase.OTPModules import TextProperties
-from otp.otpbase.OTPModules import TextPropertiesManager
+from pandac.pandaModules import TextProperties
+from pandac.pandaModules import TextPropertiesManager
 
 shadow = TextProperties()
 shadow.setShadow(-0.025, -0.025)
@@ -161,13 +162,13 @@ TextPropertiesManager.getGlobalPtr().setProperties('cinza', grey)
 #ActivateChat2010 = """O recurso Amigos secretos permite que um membro converse com outro membro apenas por meio de um código amigo secreto que deve ser comunicado fora do jogo. O recurso Amigos secretos não é moderado ou supervisionado.
 
 #Por favor, escolha uma das opções do recurso Amigos secretos de Toontown:
-      #\x01shadow\x01Sem O recurso Amigos secretos\x02 - Capacidade para fazer o recurso Amigos secretos é desativado.
+      #\x1shadow\x1Sem O recurso Amigos secretos\x2 - Capacidade para fazer o recurso Amigos secretos é desativado.
       #Isso oferece o mais alto nível de controle.
       
-      #\x01shadow\x01O recurso Amigos secretos restritos\x02 - Requer a senha de pais para fazer
+      #\x1shadow\x1O recurso Amigos secretos restritos\x2 - Requer a senha de pais para fazer
       #cada novo recurso Amigo secreto.
 
-      #\x01shadow\x1O recurso Amigos secretos irrestritos\x02 - Depois de habilitado com a senha de pais,
+      #\x1shadow\x1O recurso Amigos secretos irrestritos\x2 - Depois de habilitado com a senha de pais,
       #não é necessário fornecer a senha de pais para fazer cada novo
       #recurso Amigos secretos. \x01red\x01Esta opção não é recomendada para menores de 13 anos.\x2
 
@@ -178,15 +179,15 @@ TextPropertiesManager.getGlobalPtr().setProperties('cinza', grey)
 #Ao ativar o recurso Amigos secretos, você reconhece que, apesar de haver alguns riscos inerentes a ele, você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los."""
 ActivateChat = """O recurso Amigos Secretos permite que um membro converse com outro membro apenas por meio de um código amigo secreto que deve ser comunicado fora do jogo. O recurso Amigos Secretos não é moderado ou supervisionado.
    Por favor, escolha uma das opções do recurso Amigos Secretos de Toontown:
-    \x01shadow\x01Sem O recurso Amigos Secretos\x02 - Capacidade para fazer o recurso Amigos Secretos é desativado.
+    \x1shadow\x1Sem O recurso Amigos Secretos\x2 - Capacidade para fazer o recurso Amigos Secretos é desativado.
    Isso oferece o mais alto nível de controle.
       
-      \x01shadow\x01O recurso Amigos Secretos restritos\x02 - Requer a senha da conta de pais para fazer
+      \x1shadow\x1O recurso Amigos Secretos restritos\x2 - Requer a senha da conta de pais para fazer
       cada novo recurso Amigo Secreto.
 
       \x01shadow\x1O recurso Amigos Secretos irrestritos\x02 - Depois de habilitado com a senha da conta de pais,
       não é necessário fornecer a senha da conta de pais para fazer cada novo
-      recurso Amigos Secretos. \x01red\x01Esta opção não é recomendada para menores de 13 anos.\x2
+      recurso Amigos Secretos. \x1red\x1Esta opção não é recomendada para menores de 13 anos.\x2
 
 
 
@@ -301,7 +302,8 @@ MultiPageTextFramePrev = 'Anterior'
 MultiPageTextFramePage = 'Página %s/%s'
 
 # GuiScreen.py
-GuiScreenToontownUnavailable = "Toontown parece estar temporariamente indisponível, ainda tentando..."
+#GuiScreenToontownUnavailable = "Toontown parece estar temporariamente indisponível, ainda tentando..."
+GuiScreenToontownUnavailable = "O servidor parece estar temporariamente indisponível, ainda tentando..."
 GuiScreenCancel = lCancel
 
 # CreateAccountScreen.py
@@ -324,9 +326,10 @@ CRConnecting = "Conectando..."
 # host, port
 CRNoConnectTryAgain = "Não foi possível conectar-se a %s:%s. Tentar novamente?"
 CRNoConnectProxyNoPort = "Não foi possível conectar-se a %s:%s.\n\nVocê está se comunicando com a Internet por via proxy, mas o seu proxy não permite conexões na porta %s.\n\nVocê deve abrir esta porta, ou desativar o proxy, para poder jogar na Toontown. Se o proxy foi fornecido pelo seu provedor, é preciso entrar em contato com ele para abrir esta porta."
-CRMissingGameRootObject = "Há alguns objetos do jogo principal ausentes. (A causa pode ser uma conexão de rede com falhas). Saindo do jogo."
+CRMissingGameRootObject = """Há alguns objetos do jogo principal ausentes. (A causa pode ser uma conexão de rede com falhas). Saindo do jogo."""
 CRNoDistrictsTryAgain = "Não há Regiões de Toontown disponíveis. Tentar novamente?"
-CRRejectRemoveAvatar = "O Toon não pôde ser excluído, tente novamente mais tarde."
+#CRRejectRemoveAvatar = "O Toon não pôde ser excluído, tente novamente mais tarde."
+CRRejectRemoveAvatar = "O Avatar não pôde ser excluído, tente novamente mais tarde."
 CRLostConnection = "A sua conexão de Internet à Toontown foi interrompida inesperadamente."
 CRBootedReasons = {
     1: "Houve um problema inesperado. A conexão falhou, e você precisa se conectar novamente para voltar ao jogo.",
@@ -335,7 +338,7 @@ CRBootedReasons = {
     122: "Houve um problema inesperado quando você fez login em Toontown. Entre em contato com o Suporte ao Cliente de Toontown.",
     125: "Os arquivos de Toontown que você tem instalados parecem ser inválidos. Use o botão Jogar, no site oficial de Toontown na web, para executar Toontown.",
     126: "Você não está autorizado a usar privilégios administrativos.",
-    127: "Ocorreu um problema com seu Toon. Entre em contato com o Atendimento aos Membros por telefone ou e-mail e indique o Código de Erro 127. Obrigado.",  Thank you.",
+    127: "Ocorreu um problema com seu Toon. Entre em contato com o Atendimento aos Membros por telefone ou e-mail e indique o Código de Erro 127. Obrigado.",      
     151: "O administrador responsável pelos servidores de Toontown fez logout na sua conta.",
     152: "Foi relatada uma violação dos nossos termos de uso, com relação a '%(name)s'. Por segurança, colocamos uma restrição temporária na conta. Para obter mais detalhes, leia a mensagem enviada ao endereço de e-mail associado a '%(name)s'.",
     153: "A região de Toontown onde você estava jogando foi reiniciada. Todas as pessoas que estavam jogando nessa região foram desconectadas. Entretanto, você poderá conectar-se novamente e voltar direto ao jogo.",
@@ -479,7 +482,6 @@ FriendSecretGotSecret = "Este é o seu novo Código de Amigos Secretos. Não dei
 FriendSecretTooMany = "Sinto muito, você não pode ter mais código de Amigos Secretos hoje. Você já obteve mais do que a parte que lhe cabia!\n\nTente novamente amanhã."
 #FriendSecretTryingSecret = "Tentando usar segredo. . ."
 FriendSecretTryingSecret = "Tentando usar Código de Amigos Secretos. . ."
-#FriendSecretEnteredSecretSuccess = "Agora, você é Amigo secreto de %s!"
 FriendSecretEnteredSecretSuccess = "Agora, você é Amigo secreto de %s!"
 FriendSecretTimeOut = "Sinto muitos, segredos não estão funcionando agora."
 #FriendSecretEnteredSecretUnknown = "Este segredo não existe. Tem certeza de que digitou certo?\n\nSe você tiver digitado certo, ele pode ter expirado. Peça ao seu amigo para pegar outro segredo para você (ou pegue um novo você mesmo e dê ao seu amigo)."
@@ -503,7 +505,7 @@ GuildMemberPromote = "Tornar-se Oficial"
 GuildMemberPromoteInvite = "Fazer Veteran"
 GuildMemberDemoteInvite = "Rebaixar para Veterano"
 GuildMemberGM = "Fazer Mestre da Guilda"
-GuildMemberGMConfirm = "Confirma"
+GuildMemberGMConfirm = "Confirmar"
 GuildMemberDemote = "Rebaixar"
 GuildMemberKick = "Ejeitar Membro"
 GuildMemberCancel = lCancel
@@ -522,7 +524,7 @@ GuildInviteeNo = lNo
 GuildInviteeInvitation = "%s convida você para se juntar a %s."
 
 GuildRedeemErrorInvalidToken = "Sinto muito, esse código é inválido. Por favor, tente novamente."
-GuildRedeemErrorGuildFull = "Sinto muito, a guilda já tem muitos associados."
+GuildRedeemErrorGuildFull = "Sinto muito, a guilda já tem muitos membros."
 
 # FriendInvitee.py
 FriendInviteeTooManyFriends = "%s quer fazer amizade com você, mas você já tem muitos amigos em sua lista!"
@@ -2160,30 +2162,30 @@ SpeedChatStaticTextToontown = {
     21206: 'Fale!',
 
     # Phrases for April Toon's week 2009  
-#    30100 : "Happy April Toons' Day!",
-#    30101 : "Happy April Toons' Week!",
-#    30102 : "Welcome to my April Toons' Day party!",
-#    30103 : "Welcome to my April Toons' Week party!",
-#    30110 : "Watch how far I can jump.",
-#    30111 : "Wow, you jumped really far!",
-#    30112 : "Hey, Doodles can talk!",
-#    30113 : "Did your Doodle just talk?",
-#    30120 : "Where's Mickey?",
-#    30121 : "Where's Minnie?",
-#    30122 : "Where's Pluto?",
-#    30123 : "Where's Donald?",
-#    30124 : "Where's Goofy?",
-#    30125 : "Where's Daisy?",
-#    30130 : "In Daisy's Garden.",
-#    30131 : "In Toontown Central.",
-#    30132 : "In The Brrrgh.",
-#    30133 : "In Minnie's Melodyland.",
-#    30134 : "In Goofy's Speedway.",
-#    30135 : "In Donald's Dreamland.",
-#    31040 : "Wow, look where that kart landed!",
+#    30100 : "Feliz Dia da Mentira do Toon!",
+#    30101 : "Feliz Dia da Semana da mentira do Toon!",
+#    30102 : "Bem-vindo à minha festa do dia da mentira dos Toons!",
+#    30103 : "Bem-vindo à minha festa da Semana da mentira dos Toons!",
+#    30110 : "Veja como longe eu posso pular..",
+#    30111 : "Uau, você pulou muito longe!",
+#    30112 : "Ei, Rabiscos podem, falar!",
+#    30113 : "Seu Rabisco acabou de falar?",
+#    30120 : "Onde está o Mickey?",
+#    30121 : "Onde está a Minnie?",
+#    30122 : "Onde está o Pluto?",
+#    30123 : "Onde está o Donald?",
+#    30124 : "Onde está o Pateta?",
+#    30125 : "Onde está a Margarida?",
+#    30130 : "Nos Jardins da Margarida.",
+#    30131 : "No Centro de Toontown.",
+#    30132 : "Em O Brrrgh.",
+#    30133 : "Na Melodilândia da Minnie.",
+#    30134 : "No Autódromo do Pateta.",
+#    30135 : "Na Sonholândia do Donald.",
+#    31040 : "Uau, olha onde aquele kart pousou!",
 
     # Phrases for April Toon's week
-    30100: "Feliz Semana da mentira Toons!",
+    30100: "Feliz Dia da Semana da mentira do Toons!",
     30101: "Bem-vindo à minha festa da Semana da mentira dos Toons!",
     30102: "O Medidor de Bobagem está de volta ao Prefeitoona!",
     30110: "Mickey está no Jardim da Margarida.",
@@ -2206,7 +2208,7 @@ SpeedChatStaticTextToontown = {
     30132: "Ei, Rabiscos podem, falar!",
     30133: "Seu Rabisco acabou de falar?",
     30140: "As coisas com certeza são bobas por aqui!",
-    30141: "Quão mais bobas as coisas poderiam ficar?",
+    30141: "Como mais bobas as coisas poderiam ficar?",
 
     # Phrases for Sellbot Nerf Event
     30150: "Operação: Tempestade dos Robôs Vendedores está aqui!",
@@ -2446,9 +2448,6 @@ SpeedChatStaticTextPirates = {
     # PLACES
     50400 : "Vamos zarpar.",
     50401 : "Vamos sair daqui.",
-    50402 : "Vamos sair daqui.",
-    50403 : "Vamos sair daqui.",
-    50404 : "Vamos sair daqui.",
 
     # PLACES - LETS SAIL...
     51500 : "Vamos navegar para Port Royal.",
@@ -2475,7 +2474,7 @@ SpeedChatStaticTextPirates = {
     51801 : "Vamos para o Palácio do Governador.",
 
     # PLACES - WHERE IS ..?
-    52500 : "Onde estou?",
+    52500 : "Onde estou, companheiro?",
 
     # DIRECTIONS
     51700 : "Você já está lá.",
@@ -2749,6 +2748,15 @@ SpeedChatStaticTextPirates = {
     65001 : "Não",
 
     60909 : "Check Hand",
+    # Phrases for Singing
+##    9000 : 'Middle ' + 'G1',
+##    9001 : 'Middle ' + 'A',
+##    9002 : 'Middle ' + 'B',
+##    9003 : 'Middle ' + 'C',
+##    9004 : 'Middle ' + 'D',
+##    9005 : 'Middle ' + 'E',
+##    9006 : 'Middle ' + 'F',
+##    9007 : 'Middle ' + 'G2',
     }
 
 SpeedChatStaticText = SpeedChatStaticTextCommon
@@ -2770,6 +2778,10 @@ Emotes = (60505, 60506, 60509, 60510, 60511, 60516, 60519, 60520, 60521, 60522, 
           60676,
           # Yes/No
           65000, 65001
+          # Kneel
+          60517,
+          # New Years Emote
+          60678,
           )
 
 # These indexes, defined above, will construct a submenu in the FACTORY menu
@@ -3177,6 +3189,7 @@ CustomSCStrings = {
     11017 : "Com \"nataleza\"!",
     11018 : "Até o Natal, tudo bem!",
     11019 : "Você vai se \"arrenapender\"!",
+    11020 : "Tenha um inverno maravilhoso!"
 
     # Valentines
     12000 : "Fica comigo!",
@@ -3370,7 +3383,7 @@ NCNeedVowels = 'Cada palavra do nome deve conter algumas vogais.'
 NCAllCaps = 'O seu nome não pode estar todo em maiúsculas.'
 NCMixedCase = 'Este nome tem muitas letras em minúsculas.'
 NCBadCharacter = "O seu nome não pode conter o caractere '%s'"
-NCRepeatedChar = "Your name has too many of the character '%s'"
+NCRepeatedChar = "Seu nome tem muitos caracteres '%s'"
 NCGeneric = 'Sinto muito, este nome não vai funcionar.'
 NCTooManyWords = 'O seu nome não pode ter mais de quatro palavras.'
 NCDashUsage = ("Hifens podem ser usados apenas para ligar duas palavras (como em 'Bu-Bu').")
@@ -3393,7 +3406,8 @@ AvatarDetailPanelOffline = "Região: off-line\nLocal: off-line"
 # AvatarPanel.py
 AvatarPanelFriends = "Amigos"
 AvatarPanelWhisper = "Cochichar"
-AvatarPanelSecrets = "Segredos"
+#AvatarPanelSecrets = "Segredos"
+AvatarPanelSecrets = "Amigios Verdadeiros"
 AvatarPanelGoTo = "Ir para"
 AvatarPanelIgnore = "Ignorar"
 AvatarPanelStopIgnore = "Parar de Ignorar"
