@@ -2870,8 +2870,8 @@ def timeElapsedString(timeDelta):
         if timeDelta.seconds / 3600 == 1:
             return '1 hora atr\xc3\xa1s'
         else:
-            return '%s horas atr\xc3\xa1s' % (timeDelta.seconds / 3600)
+            return '%s horas atr\xc3\xa1s' % timeDelta.seconds / 3600
     elif timeDelta.seconds / 60 < 2:
-            return '1 minuto atr\xc3\xa1s'
-        else:
-            return '%s minutos atr\xc3\xa1s' % (timeDelta.seconds / 60)
+        return '1 minuto atr\xc3\xa1s'
+    else:
+        return '%s minutos atr\xc3\xa1s' % timeDelta.seconds / 60
