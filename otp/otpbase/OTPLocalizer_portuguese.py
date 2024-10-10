@@ -33,7 +33,6 @@ DialogDoNotShowAgain = "Não\nExibir de Novo"
 
 # DistributedAvatar.py
 WhisperNoLongerFriend = "%s saiu da sua lista de amigos."
-#WhisperNowSpecialFriend = "%s agora é seu amigo verdadeiro!"
 WhisperNowSpecialFriend = "%s agora é seu amigo verdadeiro!"
 WhisperComingToVisit = "%s está vindo visitar você."
 WhisperFailedVisit = "%s tentou visitar você."
@@ -45,7 +44,7 @@ WhisperFriendComingOnline = "%s está entrando on-line!"
 WhisperFriendLoggedOut = "%s fez logout."
 WhisperPlayerOnline = "%s on-line em %s"
 WhisperPlayerOffline = "%s está off-line."
-WhisperUnavailable = "That player is no longer available for whispers."
+WhisperUnavailable = "Aquele jogador já não está disponível para cochichos."
 
 DialogSpecial = "ooo"
 DialogExclamation = "!"
