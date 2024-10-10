@@ -2,24 +2,24 @@ import string
 from otp.otpbase.OTPLocalizer_portuguese_Property import *
 
 # common locations
-lTheBrrrgh = 'O Brrrgh'
-lDaisyGardens = 'Jardim da Margarida'
+lTheBrrrgh = "O Brrrgh"
+lDaisyGardens = "Jardim da Margarida"
 lDonaldsDock = "Porto do Donald"
 lDonaldsDreamland = "Sonholândia do Donald"
 lMinniesMelodyland = "Melodilândia da Minnie"
-lToontownCentral = 'Centro de Toontown'
+lToontownCentral = "Centro de Toontown"
 lGoofySpeedway = "Autódromo do Pateta"
 lOutdoorZone = "Bosque de Bolotas de Tico e Teco"
 lGolfZone = "Minigolfe de Tico e Teco"
 
 # common strings
-lCancel = 'Cancelar'
-lClose = 'Fechar'
-lOK = 'OK'
-lNext = 'Próximo'
-lNo = 'Não'
-lQuit = 'Sair'
-lYes = 'Sim'
+lCancel = "Cancelar"
+lClose = "Fechar"
+lOK = "OK"
+lNext = "Próximo"
+lNo = "Não"
+lQuit = "Sair"
+lYes = "Sim"
 
 Cog = "Cog"
 Cogs = "Cogs"
