@@ -847,8 +847,8 @@ SuitFaceoffTaunts = {'b': ['Do you have a donation for me?',
 SpeedChatStaticTextCommon = {1: lYes,
  2: lNo,
  3: lOK,
- 4: 'SPEEDCHAT PLUS'}
-SpeedChatStaticTextToontown = {100: 'Hi!',
+ 4: 'SPEEDCHAT PLUS',
+ 100: 'Hi!',
  101: 'Hello!',
  102: 'Hi there!',
  103: 'Hey!',
@@ -1890,8 +1890,8 @@ SpeedChatStaticTextToontown = {100: 'Hi!',
  30418: "It's the Boss!",
  30450: "It's easy to be green!",
  30451: 'Visit Green Bean Jeans and you can be green too!',
- 30452: "It's on Oak Street in Daisy Gardens."}
-SpeedChatStaticTextPirates = {50001: 'Aye',
+ 30452: "It's on Oak Street in Daisy Gardens.",
+ 50001: 'Aye',
  50002: 'Nay',
  50003: 'Yes',
  50004: 'No',
@@ -2157,7 +2157,6 @@ SpeedChatStaticTextPirates = {50001: 'Aye',
  65000: 'Yes',
  65001: 'No',
  60909: 'Check Hand'}
-SpeedChatStaticText = SpeedChatStaticTextCommon
 Emotes_Root = 'EMOTES'
 Emotes_Dances = 'Dances'
 Emotes_General = 'General'
