@@ -53,7 +53,7 @@ ChatManagerWhisperTo = 'Cochichar com:'
 ChatManagerWhisperToName = 'Cochichar com:\n%s'
 ChatManagerCancel = lCancel
 ChatManagerWhisperOffline = '%s est\xc3\xa1 off-line.'
-OpenChatWarning = 'Voc\xc3\xaa ainda n\xc3\xa3o tem nenhum "Amigo secreto"! Voc\xc3\xaa n\xc3\xa3o pode conversar com outros Toons a menos que eles sejam seus Amigos secretos.\n\nPara se tornar Amigo secreto de algu\xc3\xa9m, clique na pessoa e selecione "Segredos" no painel de detalhes. \xc3\x89 claro que voc\xc3\xaa sempre poder\xc3\xa1 conversar com algu\xc3\xa9m pelo Chat r\xc3\xa1pido.'
+OpenChatWarning = 'Voc\xc3\xaa ainda n\xc3\xa3o tem nenhum "Secretos"! Voc\xc3\xaa n\xc3\xa3o pode conversar com outros Toons a menos que eles sejam seus Amigos secretos.\n\nPara se tornar Amigo secreto de algu\xc3\xa9m, clique na pessoa e selecione "Segredos" no painel de detalhes. \xc3\x89 claro que voc\xc3\xaa sempre poder\xc3\xa1 conversar com algu\xc3\xa9m pelo Chat r\xc3\xa1pido.'
 OpenChatWarningOK = lOK
 UnpaidChatWarning = 'Depois que voc\xc3\xaa assinar o servi\xc3\xa7o, poder\xc3\xa1 ativar este bot\xc3\xa3o para conversar com seus amigos usando o teclado. At\xc3\xa9 l\xc3\xa1, voc\xc3\xaa deve conversar com os outros Toons usando o Chat r\xc3\xa1pido.'
 UnpaidChatWarningPay = 'Assine j\xc3\xa1!'
@@ -115,7 +115,7 @@ grey = TextProperties()
 grey.setTextColor(0.5, 0.5, 0.5, 1)
 TextPropertiesManager.getGlobalPtr().setProperties('cinza', grey)
 ActivateChat = 'O recurso Amigos Secretos permite que um membro converse com outro membro apenas por meio de um c\xc3\xb3digo secreto que deve ser comunicado fora do jogo. O recurso Amigos Secretos n\xc3\xa3o \xc3\xa9 moderado ou supervisionado.\n\nPor favor, escolha uma das op\xc3\xa7\xc3\xb5es do recurso Amigos Secretos de Toontown:\n\n      \x01shadow\x01Sem O recurso Amigos Secretos\x02 - Capacidade para fazer o recurso Amigos Secretos \xc3\xa9 desativado.\n      Isso oferece o mais alto n\xc3\xadvel de controle.\n      \x01shadow\x01O recurso Amigos Secretos restritos\x02 - Requer a senha de pais para fazer\n      cada novo recurso Amigo Secreto.\n\n      \x01shadow\x01O sistema Amigos Secretos irrestritos\x02 - Depois de habilitado com a senha de pais,\n      n\xc3\xa3o \xc3\xa9 necess\xc3\xa1rio fornecer a senha de pais para fazer cada novo\n      o recurso Amigos Secretos . \x01red\x01Esta op\xc3\xa7\xc3\xa3o n\xc3\xa3o \xc3\xa9 recomendada para menores de 13 anos.\x02\n\n\n\n\n\n\nAo ativar o recurso Amigos secretos, voc\xc3\xaa reconhece que, apesar de haver alguns riscos inerentes a ele, voc\xc3\xaa foi informado de todos os riscos mencionados aqui, concordando em aceit\xc3\xa1-los.'
-ActivateChatYes = 'Ativar'
+ActivateChatYes = 'Atualizar       '
 ActivateChatNo = lCancel
 ActivateChatMoreInfo = 'Mais informa\xc3\xa7\xc3\xb5es'
 ActivateChatPrivacyPolicy = 'Pol\xc3\xadtica de Privacidade'
@@ -864,7 +864,7 @@ SpeedChatStaticText = {1: lYes,
  2: lNo,
  3: lOK,
  4: 'CHAT R\xc3\x81PIDO PLUS'
-SpeedChatStaticTextToontown = {100: 'Oi!',
+ 100: 'Oi!',
  101: 'Ol\xc3\xa1!',
  102: 'E a\xc3\xad?',
  103: '\xc3\x93pa!',
@@ -1906,8 +1906,8 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
  30418: '\xc3\x89 o chefe!',
  30450: '\xc3\x89 f\xc3\xa1cil ser verde!',
  30451: 'Visite Jeans Feij\xc3\xa3o Verde e voc\xc3\xaa tamb\xc3\xa9m pode ser verde!',
- 30452: 'Fica na Rua dos Carvalhos nos Jardins da Margarida.'}
- SpeedChatStaticTextPirates = {50001: 'Sim',
+ 30452: 'Fica na Rua dos Carvalhos nos Jardins da Margarida.',
+ 50001: 'Sim',
  50002: 'N\xc3\xa3o',
  50003: 'Arrr!',
  50004: 'Sim, sim, Capit\xc3\xa3o!',
@@ -2173,7 +2173,6 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
  65000: 'Sim',
  65001: 'N\xc3\xa3o',
  60909: 'Verifique a m\xc3\xa3o'}
-SpeedChatStaticText = SpeedChatStaticTextCommon    
 Emotes_Root = 'EMO\xc3\x87\xc3\x95ES'
 Emotes_Dances = 'Dan\xc3\xa7as'
 Emotes_General = 'Geral'
@@ -2819,7 +2818,7 @@ AvatarDetailPanelOnline = 'Regi\xc3\xa3o: %(district)s\nLocation: %(location)s'
 AvatarDetailPanelOffline = 'Regi\xc3\xa3o: off-line\nLocal: off-line'
 AvatarPanelFriends = 'Amigos'
 AvatarPanelWhisper = 'Cochichar'
-AvatarPanelSecrets = 'Segredos'
+AvatarPanelSecrets = 'Secretos'
 AvatarPanelGoTo = 'Ir para'
 AvatarPanelIgnore = 'Ignorar'
 AvatarPanelStopIgnore = 'Parar de Ignorar'
