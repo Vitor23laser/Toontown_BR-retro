@@ -98,7 +98,6 @@ NoSecretChatAtAllAndNoWhitelist = 'Você pode usar o botão azul de chat para se
 NoSecretChatAtAllOK = lOK
 ChangeSecretFriendsOptions = "Alterar opções de Amigos verdadeiros"
 CangeSecretFriendsOptionsWarning = "\nInsira a senha da conta de pais para alterar suas opções de Amigos verdadeiros."
-#ActivateChatTitle = "Opções de Amigos verdadeiros"
 ActivateChatTitle = "Opções de Amigos verdadeiros"
 WhisperToFormat = "Para %s %s"
 WhisperToFormatName = "Para %s"
@@ -107,8 +106,8 @@ WhisperFromFormatName = "%s cochichos"
 ThoughtOhterFormatName = "%s pensa"
 ThoughtSelfFormatName = "Você pensa"
 
-from panda3d.core import TextProperties
-from panda3d.core import TextPropertiesManager
+from pandac.PandaModules import TextProperties
+from pandac.PandaModules import TextPropertiesManager
 
 shadow = TextProperties()
 shadow.setShadow(-0.025, -0.025)
@@ -214,7 +213,6 @@ MultiPageTextFramePage = 'Página %s/%s'
 # GuiScreen.py
 GuiScreenToontownUnavailable = "Toontown parece estar temporariamente indisponível, ainda tentando..."
 GuiScreenCancel = lCancel
-
 
 # CreateAccountScreen.py
 CreateAccountScreenUserName = "Nome da conta"
