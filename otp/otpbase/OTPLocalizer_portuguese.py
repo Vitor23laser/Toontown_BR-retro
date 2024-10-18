@@ -2638,7 +2638,7 @@ CustomSCStrings = {10: 'Bom...',
  11017: 'Com \'nataleza\'!',
  11018: 'Até o Natal, tudo bem!',
  11019: 'Você vai se \'arrenapender\'!',
- 11020: 'Tenha um inverno maravilhoso!'
+ 11020: 'Tenha um inverno maravilhoso!',
  11021: 'As decorações da Festa de Natal são Toontastico!',
  11022: 'Soldados Toons estão organizando festas de fim de ano!',
  12000: 'Fica comigo!',
