@@ -2658,7 +2658,7 @@ CustomSCStrings = {10: 'Bom...',
  12014: 'Rosas são vermelhas...',
  12015: 'Violetas são azuis...',
  12016: 'Que gracinha!',
- 12050: 'EU AMO acabar com Cogs!'
+ 12050: 'EU AMO acabar com Cogs!',
  12051: 'Você é um estouro!',
  12052: 'Só tenho olhos para você!',
  12053: 'Você é mais doce do que uma bala!',
