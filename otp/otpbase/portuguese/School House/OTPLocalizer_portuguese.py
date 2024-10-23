@@ -55,7 +55,7 @@ ChatManagerWhisperTo = 'Cochichar com:'
 ChatManagerWhisperToName = 'Cochichar com:\n%s'
 ChatManagerCancel = lCancel
 ChatManagerWhisperOffline = '%s est\xc3\xa1 off-line.'
-OpenChatWarning = 'Para se tornar Amigo secreto de algu\xc3\xa9m, clique na pessoa e selecione "Amigos Secretos" no painel de detalhes.\n\nO recurso Chat r\xc3\xa1pido Plus pode tamb\xc3\xa9m estar ativado, qual permite us\xc3\xa1rios para bater um papo por digitando palavras encontrado no Dicion\xc3\xa1rio Chat R\xc3\xa1pido Plus.\n\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em "Op\xc3\xa7\xc3\xb5es da conta" na p\xc3\xa1gina da web de Toontown.  '
+OpenChatWarning = 'Para se tornar Amigo secreto de algu\xc3\xa9m, clique na pessoa e selecione "Secretos" no painel de detalhes.\n\nO recurso Chat r\xc3\xa1pido Plus pode tamb\xc3\xa9m estar ativado, qual permite us\xc3\xa1rios para bater um papo por digitando palavras encontrado no Dicion\xc3\xa1rio Chat R\xc3\xa1pido Plus.\n\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em "Op\xc3\xa7\xc3\xb5es da conta" na p\xc3\xa1gina da web de Toontown.  '
 OpenChatWarningOK = lOK
 UnpaidChatWarning = 'Depois que voc\xc3\xaa assinar o servi\xc3\xa7o, poder\xc3\xa1 ativar este bot\xc3\xa3o para conversar com seus amigos usando o teclado. At\xc3\xa9 l\xc3\xa1, voc\xc3\xaa deve conversar com os outros Toons usando o Chat r\xc3\xa1pido.'
 UnpaidChatWarningPay = 'Assine j\xc3\xa1!'
@@ -86,8 +86,7 @@ WhisperToFormatName = 'Para %s'
 WhisperFromFormatName = '%s cochichos'
 ThoughtOhterFormatName = '%s pensa'
 ThoughtSelfFormatName = 'Voc\xc3\xaa pensa'
-from panda3d.core import TextProperties
-from panda3d.core import TextPropertiesManager
+from panda3d.core import TextProperties, TextPropertiesManager
 shadow = TextProperties()
 shadow.setShadow(-0.025, -0.025)
 shadow.setShadowColor(0, 0, 0, 1)
@@ -868,8 +867,8 @@ SuitFaceoffTaunts = {'b': ['Voc\xc3\xaa tem uma doa\xc3\xa7\xc3\xa3o para mim?',
 SpeedChatStaticText = {1: lYes,
  2: lNo,
  3: lOK,
- 4: 'CHAT R\xc3\x81PIDO PLUS'}
-SpeedChatStaticTextToontown = {100: 'Oi!',
+ 4: 'CHAT R\xc3\x81PIDO PLUS',
+ 100: 'Oi!',
  101: 'Ol\xc3\xa1!',
  102: 'E a\xc3\xad?',
  103: '\xc3\x94pa!',
@@ -1911,8 +1910,8 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
  30418: '\xc3\x89 o chefe!',
  30450: '\xc3\x89 f\xc3\xa1cil ser verde!',
  30451: 'Visite Jeans Feij\xc3\xa3o Verde e voc\xc3\xaa tamb\xc3\xa9m pode ser verde!',
- 30452: 'Fica na Rua dos Carvalhos em Jardins da Margarida.'}
-SpeedChatStaticTextPirates = {50001: 'Sim',
+ 30452: 'Fica na Rua dos Carvalhos em Jardins da Margarida.',
+ 50001: 'Sim',
  50002: 'N\xc3\xa3o',
  50003: 'Arrr!',
  50004: 'Sim, sim, Capit\xc3\xa3o!',
@@ -2178,7 +2177,6 @@ SpeedChatStaticTextPirates = {50001: 'Sim',
  65000: 'Sim',
  65001: 'N\xc3\xa3o',
  60909: 'Verifique a m\xc3\xa3o'}
-SpeedChatStaticText = SpeedChatStaticTextCommon
 Emotes_Root = 'EMO\xc3\x87\xc3\x95ES'
 Emotes_Dances = 'Dan\xc3\xa7as'
 Emotes_General = 'Geral'
@@ -2263,7 +2261,7 @@ SCFactoryMeetMenuIndexes = (1903,
  1924,
  1932,
  1940, 
- 1941)}
+ 1941)
 CustomSCStrings = {10: 'Bom...',
  20: 'Por que n\xc3\xa3o?',
  30: 'Claro!',
@@ -2824,7 +2822,7 @@ AvatarDetailPanelOnline = 'Regi\xc3\xa3o: %(district)s\nLocation: %(location)s'
 AvatarDetailPanelOffline = 'Regi\xc3\xa3o: off-line\nLocal: off-line'
 AvatarPanelFriends = 'Amigos'
 AvatarPanelWhisper = 'Cochichar'
-AvatarPanelSecrets = 'Amigos Secretos'
+AvatarPanelSecrets = 'Secretos'
 AvatarPanelGoTo = 'Ir para'
 AvatarPanelIgnore = 'Ignorar'
 AvatarPanelStopIgnore = 'Parar de Ignorar'
@@ -2894,5 +2892,6 @@ def timeElapsedString(timeDelta):
             return '%s horas atr\xc3\xa1s' % (timeDelta.seconds / 3600)
     elif timeDelta.seconds / 60 < 2:
             return '1 minuto atr\xc3\xa1s'
-        else:
-            return '%s minutos atr\xc3\xa1s' % (timeDelta.seconds / 60)
+    else:
+        return '%s minutos atr\xc3\xa1s' % (timeDelta.seconds / 60)
+    
