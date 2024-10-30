@@ -2747,7 +2747,7 @@ SpeedChatStaticTextPirates = {
     65000 : "Sim",
     65001 : "Não",
 
-    60909 : "Check Hand",
+    60909 : "Verificar Mão",
     # Phrases for Singing
 ##    9000 : 'Middle ' + 'G1',
 ##    9001 : 'Middle ' + 'A',
@@ -3047,7 +3047,7 @@ CustomSCStrings = {
     3530 : "Você é demais!",
 
     # Series 4
- 4000 : "Os Tonns mandam na área!",
+    4000 : "Os Tonns mandam na área!",
     4010 : "Besteirol de Cog!",
     4020 : "Toons de todo o mundo, uni-vos!",
     4030 : "E aí, parceiro!",
@@ -3406,7 +3406,6 @@ AvatarDetailPanelOffline = "Região: off-line\nLocal: off-line"
 # AvatarPanel.py
 AvatarPanelFriends = "Amigos"
 AvatarPanelWhisper = "Cochichar"
-#AvatarPanelSecrets = "Segredos"
 AvatarPanelSecrets = "Amigios Verdadeiros"
 AvatarPanelGoTo = "Ir para"
 AvatarPanelIgnore = "Ignorar"
@@ -3494,7 +3493,6 @@ LawbotNerfMenuSections = [
 JellybeanJamMenuSections = [
  'OBTER BALINHAS',
  'GASTAR BALINHAS',
-# 'GRUPOS DE BALINHAS',
 ]
 
 WinterMenuSections = [
@@ -3521,7 +3519,7 @@ SellbotInvasionMenuSections = [
 
 SellbotFieldOfficeMenuSections = [
  -1,
- 'STRATEGY',
+ 'ESTRATÉGIA',
 ]
 
 IdesOfMarchMenuSections = [
