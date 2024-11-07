@@ -3,10 +3,15 @@ import time
 from toontown.toonbase.TTLocalizer_portuguese_Property import *
 from toontown.catalog import CatalogAcessoryItemGlobals
 from otp.otpbase import OTPLocalizer as OL
+OL.SpeedChatStaticText = OL.SpeedChatStaticTextToontown.copy()
+for key in OL.SpeedChatStaticTextCommon.iterkeys():
+    OL.SpeedChatStaticText[key] = OL.SpeedChatStaticTextCommon[key]
 
 # To make sure the language checker is working
 # DO NOT TRANSLATE THIS
 ExtraKeySanityCheck = "Ignore-me"
+commitmanString = 'bugfix! I changed this'
+commitmanSting2 = 'another string!'
 
 commitmantst = "kptmptest - removable"
 
@@ -57,10 +62,10 @@ UnpaidNameTag = "Basico"
 #GM_3 = "GUARDA FLORESTAL DA RESISTÊNCIA"
 #GM_4 = "GC"
 #GM nametags
-GM_Names = (CONSELHO TOON, 
-TOONS SOLDADOS, 	 
-GUARDA FLORESTAL DA RESISTÊNCIA,
-GM)
+GM_Names = ('CONSELHO TOON', 
+'TOONS SOLDADOS', 	 
+'GUARDA FLORESTAL DA RESISTÊNCIA',
+'GM')
 BuildingNametagFont = 'phase_3/models/fonts/MickeyFont'
 BuildingNametagShadow = None
 
@@ -2487,12 +2492,14 @@ ReportPanelCategoryLanguage = "Linguagem Rude"
 ReportPanelCategoryPii = "Compartilhar/Solicitar Informações Pessoais"
 ReportPanelCategoryRude = "Comportamento Rude ou Mau"
 ReportPanelCategoryName = "Nome Ruim"
+ReportPanelCategoryHacking = "Hackear"
 
 ReportPanelConfirmations = (
     "Você está prestes a denunciar que %s usou linguagem obscena, intolerante, preconceituosa ou sexualmente explícita.",
     "Você está prestes a denunciar %s está promovendo insegurança ao divulgar ou solicitar um número de telefone, sobrenome, endereço de e-mail, senha ou nome de conta.",
     "Você está prestes a relatar que %s está importunando, atormentando ou usando de comportamento radical para atrapalhar o jogo.",
     "Você está prestes a relatar que %s criou um nome que não segue as regras da Disney.",
+    "Você está prestes a denunciar que %s hackeou/adulterou o jogo ou usou software de terceiros.",
     )
 
 # Put on confirmation screen!
@@ -2556,8 +2563,8 @@ SpokenMoods = {
     'neutral': 'neutro',
     'hunger':['Eu\estou cansado de Balinhas! Que tal me dar uma fatia de torta?',
     "Que tal uma Balinha vermelha? Estou cansado das verdes!",
-        "Ah, essas Balinhas eram para plantar?!! Mas eu estou com fome!",
-        ],
+    "Ah, essas Balinhas eram para plantar?!! Mas eu estou com fome!",
+    ],
     'boredom': ["Estou morrendo de tédio aqui!",
      'Você não\ achou que eu entenderia, hein?', 
      'Poderíamos, tipo, FAZER algo já?',
