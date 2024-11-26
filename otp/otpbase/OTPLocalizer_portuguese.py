@@ -2173,6 +2173,7 @@ SpeedChatStaticTextPirates = {50001: 'Sim',
  65000: 'Sim',
  65001: 'Não',
  60909: 'Verifique a mão'}
+SpeedChatStaticText = SpeedChatStaticTextCommon
 Emotes_Root = 'EMOÇÕES'
 Emotes_Dances = 'Danças'
 Emotes_General = 'Geral'
