@@ -2362,8 +2362,8 @@ SpeedChatStaticTextPirates = {
     # PIRATES ROOT - TOP LEVEL
     50001 : 'Sim',
     50002 : 'Não',
-    50003 : 'Arrr!',
-    50004 : 'Sim, sim, Capitão!',
+    50003 : 'Sim',
+    50004 : 'Não',
     50005 : 'Ok',
 
     # EXPRESSIONS
@@ -2376,8 +2376,11 @@ SpeedChatStaticTextPirates = {
     50106 : "Ei, você!",
     50107 : "Claro, claro, Capitão!",
     50108 : "Ande na prancha!",
-    #50109 : 'Continue!',
-    #50110 : 'Não vai sobrar ninguém para contar a história....',
+    50109 : "Ah well, some days you win, some days you swim.",
+    50110 : 'Não vai sobrar ninguém para contar a história....',
+    50111 : "A finer bunch of Scoundrels yarrr eyes have never seen!",
+    50112 : "Fool me once, shame on me. Fool me twice, good luck in Davy Jones' Locker.",
+    50113 : "Ready your bravery, hoist the sails, a Caribbean Pirate never fails!",
 
     # EXPRESSIONS - GREETINGS
     50700 : "Ah!",
