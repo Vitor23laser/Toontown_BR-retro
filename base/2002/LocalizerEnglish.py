@@ -1,5 +1,3 @@
-# File: L (Python 2.2)
-
 import string
 Mickey = 'Mickey'
 Minnie = 'Minnie'
@@ -16,31 +14,13 @@ TheCogs = 'the Cogs'
 TheFish = 'the Fish'
 AFish = 'a fish'
 Level = 'level'
-ChatGarblerDog = [
-    'woof',
-    'arf',
-    'rruff']
-ChatGarblerCat = [
-    'meow',
-    'mew']
-ChatGarblerMouse = [
-    'squeak',
-    'squeaky',
-    'squeakity']
-ChatGarblerHorse = [
-    'neigh',
-    'brrr']
-ChatGarblerRabbit = [
-    'eek',
-    'eepr',
-    'eepy',
-    'eeky']
-ChatGarblerFowl = [
-    'quack',
-    'quackity',
-    'quacky']
-ChatGarblerDefault = [
-    'blah']
+ChatGarblerDog = ['woof', 'arf', 'rruff']
+ChatGarblerCat = ['meow', 'mew']
+ChatGarblerMouse = ['squeak', 'squeaky', 'squeakity']
+ChatGarblerHorse = ['neigh', 'brrr']
+ChatGarblerRabbit = ['eek', 'eepr', 'eepy', 'eeky']
+ChatGarblerFowl = ['quack','quackity', 'quacky']
+ChatGarblerDefault = ['blah']
 Bossbot = 'Bossbot'
 Lawbot = 'Lawbot'
 Cashbot = 'Cashbot'
@@ -95,32 +75,15 @@ TeleportPanelUnavailableHood = '%s is not available right now; try again later.'
 TeleportPanelDenySelf = "You can't go to yourself!"
 TeleportPanelOtherShard = "%s is in district %s, and you're in district %s.  Do you want to switch to %s?"
 BattleBldgBossTaunt = "I'm the boss"
-ToonHealJokes = [
-    [
-        'What goes TICK-TICK-TICK-WOOF?',
-        'A watchdog! '],
-    [
-        'Why do male deer need braces?',
-        "Because they have 'buck teeth'!"],
-    [
-        'Why is it hard for a ghost to tell a lie?',
-        'Because you can see right through him.'],
-    [
-        'What did the ballerina do when she hurt her foot?',
-        'She called the toe truck!'],
-    [
-        'What has one horn and gives milk?',
-        'A milk truck!'],
-    [
-        "Why don't witches ride their brooms when they're angry?",
-        "They don't want to fly off the handle!"],
-    [
-        'Why did the dolphin cross the ocean?',
-        'To get to the other tide.'],
-    [
-        'What kind of mistakes do spooks make?',
-        'Boo boos.'],
-    [
+ToonHealJokes = [['What goes TICK-TICK-TICK-WOOF?', 'A watchdog! '],
+  ['Why do male deer need braces?', "Because they have 'buck teeth'!"],
+  ['Why is it hard for a ghost to tell a lie?', 'Because you can see right through him.'],
+  ['What did the ballerina do when she hurt her foot?', 'She called the toe truck!'],
+  ['What has one horn and gives milk?', 'A milk truck!'],
+  ["Why don't witches ride their brooms when they're angry?", "They don't want to fly off the handle!"],
+  ['Why did the dolphin cross the ocean?', 'To get to the other tide.'],
+  ['What kind of mistakes do spooks make?', 'Boo boos.'],
+  [
         'Why did the chicken cross the playground?',
         'To get to the other slide!'],
     [
@@ -627,9 +590,7 @@ ToonHealJokes = [
     [
         'What would you get if you crossed an elephant with a skunk?',
         'A big stinker.'],
-    [
-        'Why did ' + MickeyMouse + ' take a trip to outer space?',
-        'He wanted to find ' + Pluto + '.']]
+    ['Why did ' + MickeyMouse + ' take a trip to outer space?', 'He wanted to find ' + Pluto + '.']]
 MovieHealLaughterMisses = ('hmm', 'heh', 'ha', 'harr harr')
 MovieHealLaughterHits1 = ('Ha Ha Ha', 'Hee Hee', 'Tee Hee', 'Ha Ha')
 MovieHealLaughterHits2 = ('BWAH HAH HAH!', 'HO HO HO!', 'HA HA HA!')
@@ -641,8 +602,7 @@ RewardPanelToonTasks = 'ToonTasks'
 RewardPanelItems = 'Items Recovered'
 RewardPanelMissedItems = 'Items Not Recovered'
 RewardPanelQuestLabel = 'Quest %s'
-RewardPanelCongratsStrings = [
-    'Yeah!',
+RewardPanelCongratsStrings = ['Yeah!',
     'Congratulations!',
     'Wow!',
     'Cool!',
