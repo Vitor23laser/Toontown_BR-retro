@@ -45,7 +45,7 @@ WhisperFriendComingOnline = "%s está entrando on-line!"
 WhisperFriendLoggedOut = "%s fez logout."
 WhisperPlayerOnline = "%s on-line em %s"
 WhisperPlayerOffline = "%s está off-line."
-WhisperUnavailable = "That player is no longer available for whispers."
+WhisperUnavailable = "Aquele jogador não está disponível para cochichos."
 
 DialogSpecial = "ooo"
 DialogExclamation = "!"
@@ -62,7 +62,7 @@ SCEmoteNoAccessMsg = "Você não tem acesso\na esta emoção ainda."
 SCEmoteNoAccessOK = lOK
 
 ParentLogin = "Login de Pais"
-ParentPassword = "Senha de pais"
+#ParentPassword = "Senha de pais"
 ParentPassword = "Senha da conta de pais"
 # ChatGarbler.py
 ChatGarblerDefault = ["blá"]
@@ -74,7 +74,7 @@ ChatManagerWhisperToName = "Cochichar com:\n%s"
 ChatManagerCancel = lCancel
 ChatManagerWhisperOffline = "%s está off-line."
 #OpenChatWarning = 'Você ainda não tem nenhum "Amigo secreto"! Você não pode conversar com outros Toons a menos que eles sejam seus Amigos secretos.\n\nPara se tornar Amigo secreto de alguém, clique na pessoa e selecione "Segredos" no painel de detalhes. É claro que você sempre poderá conversar com alguém pelo Chat rápido.'
-OpenChatWarning = 'Para se tornar Amigo verdadeiro de alguém, clique na pessoa e selecione "Amigos Verdadeiros" no painel de detalhes.\n\nO recurso Chat rápido Plus pode também estar ativado, qual permite usários para bater um papo por digitando palavras encontrado no Dicionário Chat Rápido Plus.\n\nPara ativar ou obter uma descrição completa de cada um desses recursos, saia do Toontown e, em Serviços de Membros, no site do Toontown, clique em "Preferêcias".'
+OpenChatWarning = 'Para se tornar Amigo verdadeiro de alguém, clique na pessoa e selecione "Amigos Verdadeiros" no painel de detalhes.\n\nO recurso Chat rápido Plus pode também estar ativado, qual permite usários para bater um papo por digitando palavras encontrado no Dicionário Chat Rápido Plus da Disney.\n\nPara ativar ou obter uma descrição completa de cada um desses recursos, saia do Toontown e, em Serviços de Membros, no site do Toontown, clique em "Preferêcias".'
 OpenChatWarningOK = lOK
 UnpaidChatWarning = 'Depois que você assinar o serviço, poderá ativar este botão para conversar com seus amigos usando o teclado. Até lá, você deve conversar com os outros Toons usando o Chat rápido.'
 UnpaidChatWarningPay = "Assine já!"
@@ -105,7 +105,7 @@ NoSecretChatAtAllTitle = "Abrir Chat com Amigos Secretos"
 NoSecretChatAtAll = 'O recurso Abrir Chat com Amigos Secretos permite amigos da vida-real para conversar abertamente com uns aos outros por meio de um código de amigos secretos que deve ser compartilhado fora do jogo\n\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em "Opções da conta" na página da web de Toontown.'
 NoSecretChatAtAllAndNoWhitelistTitle = "Botão de Chat"
 # not sure what this should do in the new world order
-NoSecretChatAtAllAndNoWhitelist = 'Você pode usar o botão azul de chat para se comunicar com outros Toons usando o recurso Chat Rápido Plus ou o recurso Abrir Chat com Amigos Secretos.\n\nO recurso Chat rápido Plus é uma forma de tipo de chat que permitem usuários para comunicarem por usar o dicionário Disney Chat Rápido Plus.\n\nO recurso Abrir Chat com Amigos Secretos é uma forma de tipo de chat que permite amigos da vida-real para conversar abertamente com uns aos outros por meio de um código de amigos secretos que deve ser compartilhado fora do jogo.\n\nPara ativar estes recursos ou para aprender mais sobre ele, saia de Toontown e clique em "Opções da conta" na página da web de Toontown.'
+NoSecretChatAtAllAndNoWhitelist = 'Você pode usar o botão azul de chat para se comunicar com outros Toons usando o recurso Chat Rápido Plus ou o recurso Abrir Chat com Amigos Secretos.\n\nO recurso Chat rápido Plus é uma forma de tipo de chat que permitem usuários para comunicarem por usar o dicionário Disney Chat Rápido Plus.\n\nO recurso Abrir Chat com Amigos Secretos é uma forma de tipo de chat que permite amigos da vida-real para conversar abertamente com uns aos outros por meio de um código de amigos secretos que deve ser compartilhado fora do jogo.\n\nPara ativar qualquer um desses recursos ou saber mais sobre eles, saia do Toontown e clque em "Preferências", em Serviços para membros no site do Toontown.'
 NoSecretChatAtAllOK = lOK
 ChangeSecretFriendsOptions = "Alterar opções de Amigos Secretos"
 #ChangeSecretFriendsOptionsWarning = "\nInsira a senha de pais para alterar suas opções de Amigos secretos."
