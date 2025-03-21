@@ -35,8 +35,7 @@ ChatInputWhisperLabel = 'To %s'
 SCEmoteNoAccessMsg = 'You do not have access\nto this emotion yet.'
 SCEmoteNoAccessOK = lOK
 ParentPassword = 'Parent Password'
-ChatGarblerDefault = [
-    'blah']
+ChatGarblerDefault = ['blah']
 ChatManagerChat = 'Chat'
 ChatManagerWhisperTo = 'Whisper to:'
 ChatManagerWhisperToName = 'Whisper To:\n%s'
@@ -68,7 +67,7 @@ ActivateChatTitle = 'Secret Friends Options'
 from pandac.PandaModules import TextProperties
 from pandac.PandaModules import TextPropertiesManager
 shadow = TextProperties()
-shadow.setShadow(-0.025000000000000001, -0.025000000000000001)
+shadow.setShadow(-0.025, -0.025)
 shadow.setShadowColor(0, 0, 0, 1)
 TextPropertiesManager.getGlobalPtr().setProperties('shadow', shadow)
 red = TextProperties()
@@ -80,13 +79,12 @@ ActivateChatNo = lCancel
 ActivateChatMoreInfo = 'More Info'
 SecretFriendsInfoPanelOk = 'Ok'
 SecretFriendsInfoPanelClose = lClose
-SecretFriendsInfoPanelText = [
-    '\nThe Secret Friends Feature\n\nThe Secret Friends feature enables a member to chat directly with another member within Disney\'s Toontown Online (the "Service") once the members establish a Secret Friends connection.  When your child attempts to use the Secret Friends feature, we will require that you indicate your consent to your child\'s use of this feature by entering your Parent Password.  Here is a detailed description of the process of creating a Secret Friends connection between members whom we will call "Sally" and "Mike."\n1. Sally\'s parent and Mike\'s parent each enable the Secret Friends feature by entering their respective Parent Passwords either (a) in the Account Options areas within the Service, or (b) when prompted within the game by a Parental Controls pop-up.\n2. Sally requests a Secret (described below) from within the Service.\n',
-    "\n3. Sally's Secret is communicated to Mike outside of the Service. (Sally's Secret may be communicated to Mike either directly by Sally, or indirectly through Sally's disclosure of the Secret to another person.)\n4. Mike submits Sally's Secret to the Service within 48 hours of the time that Sally requested the Secret from the Service.\n5. The Service then notifies Mike that Sally has become Mike's Secret Friend.  The Service similarly notifies Sally that Mike has become Sally's Secret Friend.\n6. Sally and Mike can now chat directly with each other until either one chooses to terminate the other as a Secret Friend, or until the Secret Friends feature is disabled for either Sally or Mike by their respective parent.  The Secret Friends connection can thus be disabled anytime by either: (a) a member removing the Secret Friend from his or her friends list (as described in the Service); or, (b) the parent of that member disabling the Secret Friends feature by going to the Account Options area within the Service and following the steps set forth there.\n",
-    "\nA Secret is a computer-generated random code assigned to a particular member. The Secret must be used to activate a Secret Friend connection within 48 hours of the time that the member requests the Secret; otherwise, the Secret expires and cannot be used.  Moreover, a single Secret can only be used to establish one Secret Friend connection.  To make additional Secret Friend connections, a member must request an additional Secret for each additional Secret Friend.\n\nSecret Friendships do not transfer.  For example, if Sally becomes a Secret Friend of Mike, and Mike becomes a Secret Friend of Jessica, Sally does not automatically become Jessica's Secret Friend.  In order for Sally and Jessica to become Secret Friends, one of them must request a new Secret from the Service and communicate it to the other.\n",
-    '\nSecret Friends communicate with one another in a free-form interactive chat.  The content of this chat is directly entered by the participating member and is processed through the Service, which is operated by the Walt Disney Internet Group ("WDIG"), 506 2nd Avenue, Suite 2100, Seattle, WA 98104 (telephone (509) 742-4698; email ms_support@help.go.com).  While we advise members not to exchange personal information such as first and last names, e-mail addresses, postal addresses, or phone numbers while using Secret Friends, we cannot guarantee that such exchanges of personal information will not happen. Although the Secret Friends chat is automatically filtered for most bad words, it is not moderated or supervised by us.  If parents allow their children to use their account with the Secret Friends feature enabled, we encourage parents to supervise their children while they play in the Service.\n',
-    "\nWDIG does not use the content of Secret Friends chat for any purpose other than communicating that content to the member's secret friend, and does not disclose that content to any third party except: (1) if required by law, for example, to comply with a court order or subpoena; (2) to enforce the Terms of Use applicable to the Service (which may be accessed on the home page of the Service); or, (3) to protect the safety and security of Members of the Service and the Service itself.  Upon request to WDIG, a child's parent can review and have deleted any Secret Friends chat content supplied by that child, provided that such chat content has not already been deleted by WDIG from its files.  In accordance with the Children's Online Privacy Protection Act, we are prohibited from conditioning, and do not condition, a child's participation in any activity (including Secret Friends) on the child's disclosing more personal information than is reasonably necessary to participate in such activity.\n",
-    '\nIn addition, as noted above, we recognize the right of a parent to refuse to permit us to continue to allow a child to use the Secret Friends feature. By enabling the Secret Friends feature, you acknowledge that there are some risks inherent in the ability of members to chat with one another through the Secret Friends feature, and that you have been informed of, and agree to accept, any such risks.\n']
+SecretFriendsInfoPanelText = ['\nThe Secret Friends Feature\n\nThe Secret Friends feature enables a member to chat directly with another member within Disney\'s Toontown Online (the "Service") once the members establish a Secret Friends connection.  When your child attempts to use the Secret Friends feature, we will require that you indicate your consent to your child\'s use of this feature by entering your Parent Password.  Here is a detailed description of the process of creating a Secret Friends connection between members whom we will call "Sally" and "Mike."\n1. Sally\'s parent and Mike\'s parent each enable the Secret Friends feature by entering their respective Parent Passwords either (a) in the Account Options areas within the Service, or (b) when prompted within the game by a Parental Controls pop-up.\n2. Sally requests a Secret (described below) from within the Service.\n',
+ "\n3. Sally's Secret is communicated to Mike outside of the Service. (Sally's Secret may be communicated to Mike either directly by Sally, or indirectly through Sally's disclosure of the Secret to another person.)\n4. Mike submits Sally's Secret to the Service within 48 hours of the time that Sally requested the Secret from the Service.\n5. The Service then notifies Mike that Sally has become Mike's Secret Friend.  The Service similarly notifies Sally that Mike has become Sally's Secret Friend.\n6. Sally and Mike can now chat directly with each other until either one chooses to terminate the other as a Secret Friend, or until the Secret Friends feature is disabled for either Sally or Mike by their respective parent.  The Secret Friends connection can thus be disabled anytime by either: (a) a member removing the Secret Friend from his or her friends list (as described in the Service); or, (b) the parent of that member disabling the Secret Friends feature by going to the Account Options area within the Service and following the steps set forth there.\n",
+ "\nA Secret is a computer-generated random code assigned to a particular member. The Secret must be used to activate a Secret Friend connection within 48 hours of the time that the member requests the Secret; otherwise, the Secret expires and cannot be used.  Moreover, a single Secret can only be used to establish one Secret Friend connection.  To make additional Secret Friend connections, a member must request an additional Secret for each additional Secret Friend.\n\nSecret Friendships do not transfer.  For example, if Sally becomes a Secret Friend of Mike, and Mike becomes a Secret Friend of Jessica, Sally does not automatically become Jessica's Secret Friend.  In order for Sally and Jessica to become Secret Friends, one of them must request a new Secret from the Service and communicate it to the other.\n",
+ '\nSecret Friends communicate with one another in a free-form interactive chat.  The content of this chat is directly entered by the participating member and is processed through the Service, which is operated by the Walt Disney Internet Group ("WDIG"), 506 2nd Avenue, Suite 2100, Seattle, WA 98104 (telephone (509) 742-4698; email ms_support@help.go.com).  While we advise members not to exchange personal information such as first and last names, e-mail addresses, postal addresses, or phone numbers while using Secret Friends, we cannot guarantee that such exchanges of personal information will not happen. Although the Secret Friends chat is automatically filtered for most bad words, it is not moderated or supervised by us.  If parents allow their children to use their account with the Secret Friends feature enabled, we encourage parents to supervise their children while they play in the Service.\n',
+ "\nWDIG does not use the content of Secret Friends chat for any purpose other than communicating that content to the member's secret friend, and does not disclose that content to any third party except: (1) if required by law, for example, to comply with a court order or subpoena; (2) to enforce the Terms of Use applicable to the Service (which may be accessed on the home page of the Service); or, (3) to protect the safety and security of Members of the Service and the Service itself.  Upon request to WDIG, a child's parent can review and have deleted any Secret Friends chat content supplied by that child, provided that such chat content has not already been deleted by WDIG from its files.  In accordance with the Children's Online Privacy Protection Act, we are prohibited from conditioning, and do not condition, a child's participation in any activity (including Secret Friends) on the child's disclosing more personal information than is reasonably necessary to participate in such activity.\n",
+ '\nIn addition, as noted above, we recognize the right of a parent to refuse to permit us to continue to allow a child to use the Secret Friends feature. By enabling the Secret Friends feature, you acknowledge that there are some risks inherent in the ability of members to chat with one another through the Secret Friends feature, and that you have been informed of, and agree to accept, any such risks.\n']
 LeaveToPay = 'In order to purchase, the game will exit to the Toontown website.'
 LeaveToPayYes = 'Purchase'
 LeaveToPayNo = lCancel
@@ -128,17 +126,16 @@ CRNoConnectProxyNoPort = 'Could not connect to %s:%s.\n\nYou are communicating t
 CRMissingGameRootObject = 'Missing some root game objects.  (May be a failed network connection).  Exiting game.'
 CRNoDistrictsTryAgain = 'No Toontown Districts are available. Try again?'
 CRLostConnection = 'Your internet connection to Toontown has been unexpectedly broken.'
-CRBootedReasons = {
-    1: 'An unexpected problem has occurred.  Your connection has been lost, but you should be able to connect again and go right back into the game.',
-    100: 'You have been disconnected because someone else just logged in using your account on another computer.',
-    120: 'You have been disconnected because of a problem with your authorization to use keyboard chat.',
-    122: 'There has been an unexpected problem logging you in to Toontown.  Please contact Toontown customer support.',
-    125: 'Your installed Toontown files appear to be invalid.  Please use the Play button on the official Toontown website to run Toontown.',
-    126: 'You are not authorized to use administrator privileges.',
-    151: 'You have been logged out by an administrator working on the Toontown servers.',
-    153: 'The Toontown district you were playing on has been reset.  Everyone who was playing on that district has been disconnected.  However, you should be able to connect again and go right back into the game.',
-    288: 'Sorry, you have used up all of your available minutes in Toontown this month.',
-    349: 'Sorry, you have used up all of your available minutes in Toontown this month.' }
+CRBootedReasons = {1: 'An unexpected problem has occurred.  Your connection has been lost, but you should be able to connect again and go right back into the game.',
+ 100: 'You have been disconnected because someone else just logged in using your account on another computer.',
+ 120: 'You have been disconnected because of a problem with your authorization to use keyboard chat.',
+ 122: 'There has been an unexpected problem logging you in to Toontown.  Please contact Toontown customer support.',
+ 125: 'Your installed Toontown files appear to be invalid.  Please use the Play button on the official Toontown website to run Toontown.',
+ 126: 'You are not authorized to use administrator privileges.',
+ 151: 'You have been logged out by an administrator working on the Toontown servers.',
+ 153: 'The Toontown district you were playing on has been reset.  Everyone who was playing on that district has been disconnected.  However, you should be able to connect again and go right back into the game.',
+ 288: 'Sorry, you have used up all of your available minutes in Toontown this month.',
+ 349: 'Sorry, you have used up all of your available minutes in Toontown this month.' }
 CRBootedReasonUnknownCode = 'An unexpected problem has occurred (error code %s).  Your connection has been lost, but you should be able to connect again and go right back into the game.'
 CRTryConnectAgain = '\n\nTry to connect again?'
 CRToontownUnavailable = 'Toontown appears to be temporarily unavailable, still trying...'
@@ -259,27 +256,26 @@ FriendInviterFriendSaidNoNewFriends = "%s isn't looking for new friends right no
 FriendInviterTooMany = '%s has too many friends already!'
 FriendInviterMaybe = '%s was unable to answer.'
 FriendInviterDown = 'Cannot make friends now.'
-EmoteList = [
-    'Wave',
-    'Happy',
-    'Sad',
-    'Angry',
-    'Sleepy',
-    'Shrug',
-    'Dance',
-    'Think',
-    'Bored',
-    'Applause',
-    'Cringe',
-    'Confused',
-    'Belly Flop',
-    'Bow',
-    'Banana Peel',
-    'Resistance Salute',
-    'Laugh',
-    lYes,
-    lNo,
-    lOK]
+EmoteList = ['Wave',
+ 'Happy',
+ 'Sad',
+ 'Angry',
+ 'Sleepy',
+ 'Shrug',
+ 'Dance',
+ 'Think',
+ 'Bored',
+ 'Applause',
+ 'Cringe',
+ 'Confused',
+ 'Belly Flop',
+ 'Bow',
+ 'Banana Peel',
+ 'Resistance Salute',
+ 'Laugh',
+ lYes,
+ lNo,
+ lOK]
 EmoteWhispers = [
     '%s waves.',
     '%s is happy.',
@@ -714,22 +710,21 @@ SuitFaceoffTaunts = {
         "You're going to need some urgent care soon.",
         'This is no laughing matter.',
         "I'm going to give you the business."] }
-SpeedChatStaticText = {
-    1: lYes,
-    2: lNo,
-    3: lOK,
-    100: 'Hi!',
-    101: 'Hello!',
-    102: 'Hi there!',
-    103: 'Hey!',
-    104: 'Howdy!',
-    105: 'Hi everybody!',
-    106: 'Welcome to Toontown!',
-    107: "What's up?",
-    108: 'How are you doing?',
-    109: 'Hello?',
-    200: 'Bye!',
-    201: 'Later!',
+SpeedChatStaticText = {1: lYes,
+ 2: lNo,
+ 3: lOK,
+ 100: 'Hi!',
+ 101: 'Hello!',
+ 102: 'Hi there!',
+ 103: 'Hey!',
+ 104: 'Howdy!',
+ 105: 'Hi everybody!',
+ 106: 'Welcome to Toontown!',
+ 107: "What's up?",
+ 108: 'How are you doing?',
+ 109: 'Hello?',
+ 200: 'Bye!',
+ 201: 'Later!',
     202: 'See ya!',
     203: 'Have a nice day!',
     204: 'Have fun!',
