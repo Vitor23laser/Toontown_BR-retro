@@ -159,7 +159,7 @@ grey.setTextColor(0.5, 0.5, 0.5, 1)
 TextPropertiesManager.getGlobalPtr().setProperties('cinza', grey)
 
 #ActivateChat = """O recurso Amigos secretos só permite que um associado converse com outro mediante um código secreto que deve ser comunicado fora do jogo. Para obter uma descrição completa do recurso, clique aqui: O recurso Amigos secretos não é moderado nem supervisionado. Se os pais deixarem seus filhos usarem a conta com o recurso Amigos secretos ativado, aconselhamos que eles mesmos supervisionem os filhos durante a brincadeira. Depois que for ativado, o recurso Amigos secretos ficará disponível até que alguém o desative. Ao ativar o recurso Amigos secretos, você reconhece que, apesar de haver alguns riscos inerentes a ele, você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los."""
-#ActivateChat2010 = """O recurso Amigos secretos permite que um membro converse com outro membro apenas por meio de um código amigo secreto que deve ser comunicado fora do jogo. O recurso Amigos secretos não é moderado ou supervisionado.
+#ActivateChat2005 = """O recurso Amigos secretos permite que um membro converse com outro membro apenas por meio de um código amigo secreto que deve ser comunicado fora do jogo. O recurso Amigos secretos não é moderado ou supervisionado.
 
 #Por favor, escolha uma das opções do recurso Amigos secretos de Toontown:
       #\x1shadow\x1Sem O recurso Amigos secretos\x2 - Capacidade para fazer o recurso Amigos secretos é desativado.
@@ -177,17 +177,17 @@ TextPropertiesManager.getGlobalPtr().setProperties('cinza', grey)
 
 
 #Ao ativar o recurso Amigos secretos, você reconhece que, apesar de haver alguns riscos inerentes a ele, você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los."""
-ActivateChat = """O recurso Amigos Secretos permite que um membro converse com outro membro apenas por meio de um código amigo secreto que deve ser comunicado fora do jogo. O recurso Amigos Secretos não é moderado ou supervisionado.
-   Por favor, escolha uma das opções do recurso Amigos Secretos de Toontown:
-    \x1shadow\x1Sem O recurso Amigos Secretos\x2 - Capacidade para fazer o recurso Amigos Secretos é desativado.
+ActivateChat = """O recurso Amigos Verdadeiros permite que um membro converse com outro membro apenas por meio de um código amigo verdadeiro que deve ser comunicado fora do jogo. O recurso Amigos Verdadeiros não é moderado ou supervisionado.
+   Por favor, escolha uma das opções do recurso Amigos Verdadeiros de Toontown:
+    \x1shadow\x1Sem O recurso Amigos Verdadeiros\x2 - Capacidade para fazer o recurso Amigos Verdadeiros é desativado.
    Isso oferece o mais alto nível de controle.
       
-      \x1shadow\x1O recurso Amigos Secretos restritos\x2 - Requer a senha da conta de pais para fazer
-      cada novo recurso Amigo Secreto.
+      \x1shadow\x1O recurso Amigos Verdadeiros restritos\x2 - Requer a senha da conta de pais para fazer
+      cada novo recurso Amigo Verdadeiro.
 
-      \x01shadow\x1O recurso Amigos Secretos irrestritos\x02 - Depois de habilitado com a senha da conta de pais,
+      \x01shadow\x1O recurso Amigos Verdadeiros irrestritos\x02 - Depois de habilitado com a senha da conta de pais,
       não é necessário fornecer a senha da conta de pais para fazer cada novo
-      recurso Amigos Secretos. \x1red\x1Esta opção não é recomendada para menores de 13 anos.\x2
+      recurso Amigos Verdadeiros. \x1red\x1Esta opção não é recomendada para menores de 13 anos.\x2
 
 
 
