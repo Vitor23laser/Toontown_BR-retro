@@ -33,7 +33,6 @@ DialogDoNotShowAgain = "Não\nExibir de Novo"
 
 # DistributedAvatar.py
 WhisperNoLongerFriend = "%s saiu da sua lista de amigos."
-#WhisperNowSpecialFriend = "%s agora é seu amigo verdadeiro!"
 WhisperNowSpecialFriend = "%s agora é seu amigo verdadeiro!"
 WhisperComingToVisit = "%s está vindo visitar você."
 WhisperFailedVisit = "%s tentou visitar você."
@@ -91,15 +90,14 @@ RestrictedSecretChatWarning = 'Para pegar ou digitar um código de amigo verdade
 NoSecretChatWarningOK = lOK
 NoSecretChatWarningCancel = lCancel
 NoSecretChatWarningWrongPassword = 'Esta não é a conta de pais. Faça login com a conta de pais que é vinculada para esta conta.'
-NoSecretChatAtAllTitle = "Abrir Chat com Amigos verdadeiros"
+NoSecretChatAtAllTitle = "Bate papo aberto com Amigos verdadeiros"
 # not sure what this should do in the new world order
-NoSecretChatAtAll = 'O recurso Abrir Chat com Amigos verdadeiros permite amigos da vida-real para conversar abertamente com uns aos outros por meio de um código de amigos verdadeiros que deve ser compartilhado fora do jogo\n\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em "Opções da conta" na página da web de Toontown.'
+NoSecretChatAtAll = 'O recurso Bate papo aberto com Amigos verdadeiros permite amigos da vida-real para conversar abertamente com uns aos outros por meio de um código de amigos verdadeiros que deve ser compartilhado fora do jogo\n\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em "Opções da conta" na página da web de Toontown.'
 NoSecretChatAtAllAndNoWhitelistTitle = "Botão de Chat"
 # not sure what this should do in the new world order
-NoSecretChatAtAllAndNoWhitelist = 'Você pode usar o botão azul de chat para se comunicar com outros Toons usando o recurso Chat Rápido Plus ou o recurso Abrir Chat com Amigos verdadeiros.\n\nO recurso Chat rápido Plus é uma forma de tipo de chat que permitem usuários para comunicarem por usar o dicionário Disney Chat Rápido Plus.\n\nO recurso Abrir Chat com Amigos verdadeiros é uma forma de tipo de chat que permite amigos da vida-real para conversar abertamente com uns aos outros por meio de um código de amigos verdadeiros que deve ser compartilhado fora do jogo.\n\nPara ativar qualquer um desses recursos ou saber mais sobre eles, saia do Toontown e clque em "Preferências", em Serviços para membros no site do Toontown.'
+NoSecretChatAtAllAndNoWhitelist = 'Você pode usar o botão azul de chat para se comunicar com outros Toons usando o recurso Chat Rápido Plus ou o recurso Bate papo aberto com Amigos verdadeiros.\n\nO recurso Chat rápido Plus é uma forma de tipo de chat que permitem usuários para comunicarem por usar o dicionário Disney Chat Rápido Plus.\n\nO recurso Bate papo aberto com Amigos verdadeiros é uma forma de tipo de chat que permite amigos da vida-real para conversar abertamente com uns aos outros por meio de um código de amigos verdadeiros que deve ser compartilhado fora do jogo.\n\nPara ativar qualquer um desses recursos ou saber mais sobre eles, saia do Toontown e clque em "Preferências", em Serviços para membros no site do Toontown.'
 NoSecretChatAtAllOK = lOK
 ChangeSecretFriendsOptions = "Alterar opções de Amigos verdadeiros"
-#ChangeSecretFriendsOptionsWarning = "\nInsira a senha de pais para alterar suas opções de Amigos verdadeiros."
 ChangeSecretFriendsOptionsWarning = "\nInsira a senha da conta de pais para alterar suas opções de Amigos verdadeiros."
 ActivateChatTitle = "Opções de Amigos verdadeiros"
 WhisperToFormat = "Para %s %s"
@@ -165,7 +163,7 @@ ActivateChat = """O recurso Amigos Verdadeiros permite que um membro converse co
 
 
 
-Ao ativar o recurso Amigos secretos, você reconhece que, apesar de haver alguns riscos inerentes a ele, você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los."""
+Ao ativar o recurso Amigos verdadeiros, você reconhece que, apesar de haver alguns riscos inerentes a ele, você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los."""
 ActivateChatYes = "Atualizar"
 ActivateChatNo = lCancel
 ActivateChatMoreInfo = "Mais informações"
@@ -186,34 +184,34 @@ PrivacyPolicyClose = lClose
 # SecretFriendsInfoPanel.py
 SecretFriendsInfoPanelOk = lOK
 SecretFriendsInfoPanelClose = lClose
-SecretFriendsInfoPanelText = [""" O recurso Abrir chat com Amigos secretos 
+SecretFriendsInfoPanelText = [""" O recurso Bate papo aberto com Amigos secretos 
 
-O recurso Abrir chat com Amigos secretos ativa um membro para conversar diretamente com outro no Toontown On-line da Disney (o "Serviço") depois que os membros estabelecerem uma conexão de Amigos secretos. Quando o seu filho tentar usar o recurso Abrir chat com Amigos secretos, solicitaremos que você insira a sua Senha da conta de pais para indicar seu consentimento para que a criança use o recurso. Esta é uma descrição detalhada do processo de criação de uma conexão de Abrir chat com Amigos secretos entre os membros fictícios chamados "Sandra" e "Marcos". 
-1. O responsável por Sandra e o responsável por Marcos ativam o recurso Abrir chat com Amigos secretos inserindo suas respectivas Senhas conta de pais (a) nas áreas de Opções da conta do Serviço ou (b) quando for solicitado no jogo, em uma janela pop-up de Controles disponíveis aos pais.
-2. Sandra pede um Segredo (descrito abaixo) no Serviço.
+O recurso Bate papo aberto com Amigos secretos ativa um membro para conversar diretamente com outro no Toontown On-line da Disney (o "Serviço") depois que os membros estabelecerem uma conexão de Amigos secretos. Quando o seu filho tentar usar o recurso Bate papo aberto com Amigos secretos, solicitaremos que você insira a sua Senha da conta de pais para indicar seu consentimento para que a criança use o recurso. Esta é uma descrição detalhada do processo de criação de uma conexão de Bate papo aberto com Amigos secretos entre os membros fictícios chamados "Sandra" e "Marcos". 
+1. O responsável por Sandra e o responsável por Marcos ativam o recurso Bate papo aberto com Amigos secretos inserindo suas respectivas Senhas conta de pais (a) nas áreas de Opções da conta do Serviço ou (b) quando for solicitado no jogo, em uma janela pop-up de Controles disponíveis aos pais.
+2. Sandra pede um Código de Amigo Verdadeiro (descrito abaixo) no Serviço.
 """,""" 
-3. O Segredo de Sandra é comunicado a Marcos fora do Serviço. (O Segredo de Sandra pode ser comunicado a Marcos diretamente por Sandra ou indiretamente, se Sandra revelar o Segredo a outra pessoa.) 
-4. Marcos envia o Segredo de Sandra ao Serviço dentro de 48 horas a partir da hora em que Sandra solicitou o Segredo ao Serviço. 
+3. O Código de Amigo Verdadeiro de Sandra é comunicado a Marcos fora do Serviço. (O Código de Amigo Verdadeiro de Sandra pode ser comunicado a Marcos diretamente por Sandra ou indiretamente, se Sandra revelar o Código de Amigo Verdadeiro a outra pessoa.) 
+4. Marcos envia o Código de Amigo Verdadeiro de Sandra ao Serviço dentro de 48 horas a partir da hora em que Sandra solicitou o Código de Amigo Verdadeiro ao Serviço. 
 5. Em seguida, o Serviço notifica Marcos de que Sandra tornou-se sua Amiga verdadeira. Da mesma forma, o Serviço notifica Sandra de que Marcos tornou-se seu Amigo secreto. 
-6. Sandra e Marcos podem agora bater um papo aberto diretamente um com o outro até um deles escolher cancelar o seu relacionamento como Amigo secreto, ou até que o recurso Abrir Chat com Amigos secretos seja desativado para Sandra ou Marcos por um dos responsáveis. Então, a conexão de Amigos secretos pode ser desativada a qualquer momento: (a) por um membro, que remove o Amigo secreto de sua lista de amigos (conforme descrito no Serviço), ou (b) pelo responsável pelo membro, que desativa o recurso Abrir chat com 
+6. Sandra e Marcos podem agora bater um papo aberto diretamente um com o outro até um deles escolher cancelar o seu relacionamento como Amigo secreto, ou até que o recurso Bate papo aberto com Amigos secretos seja desativado para Sandra ou Marcos por um dos responsáveis. Então, a conexão de Amigos secretos pode ser desativada a qualquer momento: (a) por um membro, que remove o Amigo secreto de sua lista de amigos (conforme descrito no Serviço), ou (b) pelo responsável pelo membro, que desativa o recurso Bate papo aberto com 
 """,""" 
 Amigos secretos na área Opções da conta do Serviço, seguindo as etapas definidas no recurso. 
 
-O Segredo é um código aleatório, gerado por computador, que é atribuído a um membro específico. O Segredo precisa ser usado para ativar a conexão de Amigo secreto dentro de 48 horas a partir da hora em que o membro solicitou o Segredo; caso contrário, o Segredo expirará e não poderá ser usado. Além disso, só se pode usar um único Segredo para estabelecer uma conexão de Amigo secreto. Para fazer conexões adicionais de Amigos secretos, o membro precisará solicitar mais códigos de Amigo secretos, um para cada Amigo secreto que quiser incluir. 
+O Código de Amigo Verdadeiro é um código aleatório, gerado por computador, que é atribuído a um membro específico. O Código de Amigo Verdadeiro precisa ser usado para ativar a conexão de Amigo secreto dentro de 48 horas a partir da hora em que o membro solicitou o Código de Amigo Verdadeiro; caso contrário, o Código de Amigo Verdadeiro expirará e não poderá ser usado. Além disso, só se pode usar um único Código de Amigo Verdadeiro para estabelecer uma conexão de Amigo secreto. Para fazer conexões adicionais de Amigos secretos, o membro precisará solicitar mais códigos de Amigo secretos, um para cada Amigo secreto que quiser incluir. 
 
 As Amizades secretas não podem ser transferidas. Por exemplo, se Sandra se tornar Amiga verdadeira de Marcos, e Marcos se tornar Amigo secreto de Jéssica, Sandra não se tornará automaticamente Amiga verdadeira de Jéssica. Para que Sandra e Jéssica 
 """,""" 
-se tornem Amigas secretas, uma delas terá que solicitar um novo Segredo ao Serviço e comunicar à outra. 
+se tornem Amigas secretas, uma delas terá que solicitar um novo Código de Amigo Verdadeiro ao Serviço e comunicar à outra. 
 
-Os Amigos secretos se comunicam entre si por meio de uma conversa interativa em formato livre. O conteúdo da conversa é inserido diretamente pelo membro participante e é processado pelo Serviço, cuja operação é realizada pelo Walt Disney Internet Group ("WDIG"), 500 S. Buena Vista St., Burbank, CA 91521-7691.  Embora aconselhamos os membros não trocarem informações pessoais como nome e sobrenome, e-mails, endereço postal ou números de telefone ao usarem o recurso Abrir Chat com Amigos secretos, não podemos garantir que os membros seguirão a recomendação e que tais informações sejam preservadas. Embora o chat Amigos secretos seja automaticamente filtrado para maioria dos palavrões, Abrir chat com amigos secretos pode ser moderado e a Disney reserva-se o direito de moderar qualquer parte do Serviço que a Disney, 
+Os Amigos secretos se comunicam entre si por meio de uma conversa interativa em formato livre. O conteúdo da conversa é inserido diretamente pelo membro participante e é processado pelo Serviço, cuja operação é realizada pelo Walt Disney Internet Group ("WDIG"), 500 S. Buena Vista St., Burbank, CA 91521-7691.  Embora aconselhamos os membros não trocarem informações pessoais como nome e sobrenome, e-mails, endereço postal ou números de telefone ao usarem o recurso Bate papo aberto com Amigos secretos, não podemos garantir que os membros seguirão a recomendação e que tais informações sejam preservadas. Embora o chat Amigos secretos seja automaticamente filtrado para maioria dos palavrões, Bate papo aberto com amigos secretos pode ser moderado e a Disney reserva-se o direito de moderar qualquer parte do Serviço que a Disney, 
 """,""" 
-a seu exclusivo e absoluto critério, julgar necessário. No entanto, como Abrir chat com Amigos secretos nem sempre será moderado, se a conta de pais deixarem seus filhos usarem a conta com o recurso Abrir chat com Amigos secretos ativado no Serviço, aconselhamos que eles mesmos supervisionem os filhos durante a brincadeira. Ao ativar o recurso Abrir chat com Amigos secretos, a conta de pais reconhece que, apesar de haver alguns riscos inerentes ao recurso Abrir chat com amigos secretos, a conta de pais foi informada de todos os riscos mencionados aqui, concordando em aceitá-los, seja previsível ou não. 
+a seu exclusivo e absoluto critério, julgar necessário. No entanto, como Bate papo aberto com Amigos secretos nem sempre será moderado, se a conta de pais deixarem seus filhos usarem a conta com o recurso Bate papo aberto com Amigos secretos ativado no Serviço, aconselhamos que eles mesmos supervisionem os filhos durante a brincadeira. Ao ativar o recurso Bate papo aberto com Amigos secretos, a conta de pais reconhece que, apesar de haver alguns riscos inerentes ao recurso Bate papo aberto com amigos secretos, a conta de pais foi informada de todos os riscos mencionados aqui, concordando em aceitá-los, seja previsível ou não. 
 
 O WDIG não usa o conteúdo do chat Amigos secretos para nenhum fim que não seja a comunicação do conteúdo ao amigo secreto do membro, e não revela tal conteúdo a terceiros, exceto: (1) se exigido por lei; por exemplo, para cumprir uma ordem ou intimação judicial; (2) para fazer com que os Termos de Uso 
 """,""" 
-aplicáveis ao Serviço (que podem ser acessados na página principal do Serviço) sejam respeitados; ou (3) para proteger a segurança dos Membros do Serviço e o Serviço propriamente dito. Mediante solicitação ao WDIG, o responsável por uma criança-membro pode analisar e mandar apagar qualquer conteúdo do recurso de chat Amigos secretos fornecidos pela criança em questão, desde que tal conteúdo já não tenha sido excluído dos registros pelo WDIG. Obedecendo à Children's Online Privacy Protection Act, uma lei americana de proteção à privacidade on-line para as crianças, estamos proibidos de condicionar a participação da criança em qualquer tipo de atividade (inclusive o recurso Abrir chat com Amigos secretos) ao fornecimento, por parte da criança, de mais informações pessoais do que o estritamente necessário para que ela participe de tais atividades. 
+aplicáveis ao Serviço (que podem ser acessados na página principal do Serviço) sejam respeitados; ou (3) para proteger a segurança dos Membros do Serviço e o Serviço propriamente dito. Mediante solicitação ao WDIG, o responsável por uma criança-membro pode analisar e mandar apagar qualquer conteúdo do recurso de chat Amigos secretos fornecidos pela criança em questão, desde que tal conteúdo já não tenha sido excluído dos registros pelo WDIG. Obedecendo à Children's Online Privacy Protection Act, uma lei americana de proteção à privacidade on-line para as crianças, estamos proibidos de condicionar a participação da criança em qualquer tipo de atividade (inclusive o recurso Bate papo aberto com Amigos secretos) ao fornecimento, por parte da criança, de mais informações pessoais do que o estritamente necessário para que ela participe de tais atividades. 
 
-Além disso, conforme observado acima, reconhecemos o direito do responsável pela criança de não permitir que continuemos a deixar que a criança use o recurso Amigos secretos. Ao ativar o recurso Abrir chat com Amigos secretos, você reconhece que há alguns riscos inerentes ao chat aberto, no qual os membros podem conversar uns com os outros usando o recurso Abrir chat com Amigos secretos, sendo que você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los, seja previsível ou não.
+Além disso, conforme observado acima, reconhecemos o direito do responsável pela criança de não permitir que continuemos a deixar que a criança use o recurso Amigos secretos. Ao ativar o recurso Bate papo aberto com Amigos secretos, você reconhece que há alguns riscos inerentes ao chat aberto, no qual os membros podem conversar uns com os outros usando o recurso Bate papo aberto com Amigos secretos, sendo que você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los, seja previsível ou não.
 """
 ]
 
@@ -399,35 +397,30 @@ SCMenuFieldOffice = "ESCRITÓRIO DE CAMPO"
 SCMenuIdesOfMarch = "VERDE"
 
 # FriendSecret.py
-# FriendSecret.py
 FriendSecretNeedsPasswordWarningTitle = "Controles disponíveis aos pais"
-FriendSecretNeedsParentLoginWarning = """Para conseguir ou digitar um Segredo, um dos seus pais ou responsáveis precisa fazer o login. Você pode desativar esta pergunta alterando suas opções de Amigos Secretos."""
-#FriendSecretNeedsPasswordWarning = """Para pegar ou digitar um segredo, você deve inserir a Senha de pais. Você pode desativar esta solicitação alterando as suas opções de Amigos secretos."""
-FriendSecretNeedsPasswordWarning = """Para pegar ou digitar um Segredos, você deve inserir a Senha da conta de pais. Você pode desativar esta solicitação alterando as suas opções de Amigos verdadadeiros."""
+FriendSecretNeedsParentLoginWarning = """Para conseguir ou digitar um Código de Amigo Verdadeiro, um dos seus pais ou responsáveis precisa fazer o login. Você pode desativar esta pergunta alterando suas opções de Amigos Secretos."""
+FriendSecretNeedsPasswordWarning = """Para pegar ou digitar um Código de Amigo Verdadeiros, você deve inserir a Senha da conta de pais. Você pode desativar esta solicitação alterando as suas opções de Amigos verdadadeiros."""
 FriendSecretNeedsPasswordWarningOK = lOK
 FriendSecretNeedsPasswordWarningCancel = lCancel
 FriendSecretNeedsPasswordWarningWrongUsername = """Esse não é o nome de usuário correto. Digite o nome de usuário da conta de pais. Esse não é o mesmo nome de usuário que é usado para jogar."""
 FriendSecretNeedsPasswordWarningWrongPassword = """Esta não é a senha correta. Insira a Senha da conta de pais criada na compra desta conta. Não é a mesma senha usada para os jogos."""
-#FriendSecretIntro = "Se você estiver jogando Toontown Online da Disney com alguém que conhece no mundo real, poderá tornar-se Amigo secreto dessa pessoa. Você pode conversar com seus Amigos secretos usando o teclado. Os outros Toons não entenderão o que vocês estiverem falando.\n\nVocê pode conseguir isto obtendo um segredo. Conte o segredo só ao seu amigo, e a mais ninguém. Quando o seu amigo digitar o seu segredo na tela, vocês dois serão Amigos secretos em Toontown!"
-FriendSecretIntro = "Se você estiver jogando Toontown Online da Disney com alguém que conhece no mundo real, poderá tornar-se Amigo secreto dessa pessoa. Você pode conversar com seus Amigos secretos usando o teclado. Os outros Toons não entenderão o que vocês estiverem falando.\n\nVocê pode conseguir isto obtendo um Segredos. Conte o Segredos só ao seu amigo, e a mais ninguém. Quando o seu amigo digitar o seu Segredos na tela, vocês dois serão Amigos secretos em Toontown!"
-#FriendSecretGetSecret = "Obter um segredo"
-FriendSecretGetSecret = "Obter um Segredos"
-#FriendSecretEnterSecret = "Se você tiver um segredo de alguém conhecido, digite-o aqui."
-FriendSecretEnterSecret = "Se você tiver um Segredos de alguém conhecido, digite-o aqui."
+FriendSecretIntro = "Se você estiver jogando Toontown Online da Disney com alguém que conhece no mundo real, poderá tornar-se Amigo secreto dessa pessoa. Você pode conversar com seus Amigos secretos usando o teclado. Os outros Toons não entenderão o que vocês estiverem falando.\n\nVocê pode conseguir isto obtendo um Código de Amigo Verdadeiros. Conte o Código de Amigo Verdadeiros só ao seu amigo, e a mais ninguém. Quando o seu amigo digitar o seu Código de Amigo Verdadeiros na tela, vocês dois serão Amigos secretos em Toontown!"
+FriendSecretGetSecret = "Obter um Código de Amigo Verdadeiro"
+FriendSecretEnterSecret = "Se você tiver um Código de Amigo Verdadeiro de alguém conhecido, digite-o aqui."
 FriendSecretOK = lOK
-FriendSecretEnter = "Inserir Segredos"
+FriendSecretEnter = "Inserir Código de Amigo Verdadeiros"
 FriendSecretCancel = lCancel
-FriendSecretGettingSecret = "Obtendo Segredos. . ."
-FriendSecretGotSecret = "Este é o seu novo Segredos. Não deixe de anotá-lo em algum lugar!\n\nVocê só pode dar este Segredos a uma pessoa. Depois que alguém digitar o seu Segredos, ele não funcionará para nenhuma outra pessoa. Se você quiser dar um Segredos para mais de uma pessoa, obtenha outro.\n\nO Segredos só funcionará nos próximos dois dias. O seu amigo terá que digitá-lo antes que expire, caso contrário, não funcionará.\n\nO Segredos é:"
-FriendSecretTooMany = "Sinto muito, você não pode ter mais Segredos hoje. Você já obteve mais do que a parte que lhe cabia!\n\nTente novamente amanhã."
-FriendSecretTryingSecret = "Tentando usar Segredos. . ."
+FriendSecretGettingSecret = "Obtendo Código de Amigo Verdadeiros. . ."
+FriendSecretGotSecret = "Este é o seu novo Código de Amigo Verdadeiros. Não deixe de anotá-lo em algum lugar!\n\nVocê só pode dar este Código de Amigo Verdadeiros a uma pessoa. Depois que alguém digitar o seu Código de Amigo Verdadeiros, ele não funcionará para nenhuma outra pessoa. Se você quiser dar um Código de Amigo Verdadeiros para mais de uma pessoa, obtenha outro.\n\nO Código de Amigo Verdadeiros só funcionará nos próximos dois dias. O seu amigo terá que digitá-lo antes que expire, caso contrário, não funcionará.\n\nO Código de Amigo Verdadeiros é:"
+FriendSecretTooMany = "Sinto muito, você não pode ter mais Código de Amigo Verdadeiros hoje. Você já obteve mais do que a parte que lhe cabia!\n\nTente novamente amanhã."
+FriendSecretTryingSecret = "Tentando usar Código de Amigo Verdadeiros. . ."
 FriendSecretEnteredSecretSuccess = "Agora, você é Amigo secreto de %s!"
-FriendSecretTimeOut = "Sinto muitos, segredos não estão funcionando agora."
-FriendSecretEnteredSecretUnknown = "Este Segredos não existe. Tem certeza de que digitou certo?\n\nSe você tiver digitado certo, ele pode ter expirado. Peça ao seu amigo para pegar outro Segredos para você (ou pegue um novo você mesmo e dê ao seu amigo)."
+FriendSecretTimeOut = "Sinto muito, o código de Amigo verdadeiro não estão funcionando agora."
+FriendSecretEnteredSecretUnknown = "Este Código de Amigo Verdadeiros não existe. Tem certeza de que digitou certo?\n\nSe você tiver digitado certo, ele pode ter expirado. Peça ao seu amigo para pegar outro Código de Amigo Verdadeiros para você (ou pegue um novo você mesmo e dê ao seu amigo)."
 FriendSecretEnteredSecretFull = "Você não pode fazer amizade com %s porque um de vocês dois possui amigos demais na lista."
 FriendSecretEnteredSecretFullNoName = "Vocês não podem fazer amizade porque um de vocês dois possui amigos demais na lista."
-FriendSecretEnteredSecretSelf = "Você acabou de digitar seu próprio Segredos! Agora, ninguém mais poderá usar este Segredos."
-FriendSecretEnteredSecretWrongProduct = "Você digitou o tipo errado de Segredo.\nEste jogo utiliza códigos que começam com '%s'."
+FriendSecretEnteredSecretSelf = "Você acabou de digitar seu próprio Código de Amigo Verdadeiros! Agora, ninguém mais poderá usar este Código de Amigo Verdadeiros."
+FriendSecretEnteredSecretWrongProduct = "Você digitou o tipo errado de Código de Amigo Verdadeiro.\nEste jogo utiliza códigos que começam com '%s'."
 FriendSecretNowFriends = "Agora, você é Amigo Secreto de %s!"
 FriendSecretNowFriendsNoName = "Agora, vocês são Amigos secretos!"
 FriendSecretDetermineSecret = "Que tipo de Amigo Secreto você quer ter?"
@@ -523,7 +516,7 @@ FriendInviterCheckAvailability = "Verificando se %s está disponível."
 FriendInviterNotAvailable = "%s está ocupado(a) agora; tente novamente mais tarde."
 FriendInviterCantSee = "Isso só funciona se puder ver %s."
 FriendInviterNotOnline = "Isso só funciona se %s estiver on-line"
-FriendInviterNotOpen = "%s não tem um bate-papo aberto, use segredos para fazer amigos"
+FriendInviterNotOpen = "%s não tem um bate-papo aberto, use Código de Amigo Verdadeiros para fazer amigos"
 FriendInviterWentAway = "%s saiu."
 FriendInviterAlready = "%s já é seu(sua) amigo(a)."
 FriendInviterAlreadyInvited = "%s já recebeu o convite."
