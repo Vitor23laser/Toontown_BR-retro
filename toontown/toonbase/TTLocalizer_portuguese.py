@@ -10338,9 +10338,6 @@ KartRace_DoubleTickets = "Bilhetes em Dobro"
 SellbotNerfHolidayStart = "Operação: Tempestade de Robôs Vendedores está acontecendo agora! Batalha o VP hoje!"
 SellbotNerfHolidayEnd = "Operação: Tempestade de Robôs Vendedores tinha acabado. Bom trabalho, Toons!"
 
-#LawbotNerfHolidayStart = "Operação: Perdem os  happening now! Battlethe CJ today!"
-#LawbotNerfHolidayEnd = "Operation: Lawbots Lose has ended. Great work, Toons!"
-
 JellybeanTrolleyHolidayStart = "Dia das Balinhas em Dobro para o Bodinho dos Jogos começem!"
 JellybeanTrolleyHolidayEnd = "Dia das Balinhas em Dobro para o Bodinho dos Jogos terminou!"
 
@@ -10350,19 +10347,19 @@ JellybeanFishingHolidayEnd = "Dia das Balinhas em Dobro para Pescaria terminou!"
 JellybeanDayHolidayStart = "É Dia das Balinhas! Ganhe prêmios de Balinhas em dobro nas Festas!"
 JellybeanDayHolidayEnd = "Acabou o Dia das Balinhas. Vejo você no ano que vem."
 
-JellybeanMonthHolidayStart = "Comemorar Toontown com balinhas em dobro,  itens no Catálogo e supresas bobas!"
+JellybeanMonthHolidayStart = "Comemorar Toontown com balinhas em dobro, itens no Catálogo e supresas bobas!"
 
 BankUpgradeHolidayStart = "Algo incrível aconteceu com seu Banco de Balinha!"
 
 HalloweenPropsHolidayStart = "É Halloween em Toontown!"
 HalloweenPropsHolidayEnd = "Halloween terminou. Boo!"
 
-#SpookyPropsHolidayStart = "O Medidor de Bobagem gira Toontown em modo de assustador!"
+SpookyPropsHolidayStart = "O Medidor de Bobagem gira Toontown em modo de assustador!"
 
 BlackCatHolidayStart = "Cria um Gato Preto - só Hoje!"
 BlackCatHolidayEnd = "O Dia do Gato Preto terminou!"
 
-#SpookyBlackCatHolidayStart = "Sexta-feira 13 significa uma explosão de Gato Preto!"
+SpookyBlackCatHolidayStart = "Sexta-feira 13 significa uma explosão de Gato Preto!"
 
 TopToonsMarathonStart = "A Maratona de Ano Novo dos Tops Toons começem!"
 TopToonsMarathonEnd = "A Maratona de Ano Novo dos Tops Toons terminou."
@@ -10676,7 +10673,8 @@ HolidayNamesInCalendar = {
    53: ("Invasão Reis da Incerta", "Impeça que os Cogs  Reis da Incerta invadam Toontown!"),
    54: ("Invasão Conta-moedinha", "Impeça que os Cogs  Conta-moedinhas invadam Toontown!"),
    55: ("Invasão Duplo Sentido", "Impeça que os Cogs  Duplo Sentido invadam Toontown!"),
-  57: ("Toon Cantando", "Celebra Feriado Congelante por cantando em volta Toontown para uma recompesa \"gelada\" !"),
+   56: ("Invasão de Facão", "Impeça que os Cogs Facões invadam Toontown!'),
+   57: ("Toon Cantando", "Celebra Feriado Congelante por cantando em volta Toontown para uma recompesa \"gelada\" !"),
    59: ("Dia dos namorados", "Dia dos namorados de Junho 05 a Junho 14!"),
    72: ("Invasão de Vaquinha de Presépio", "Impeça que os Cogs Vaquinha de Presépios invadam Toontown!"),
    73: ("Invasão de Pão-duro", "Impeça que os Cogs Pães-duros invadam Toontown!"),
