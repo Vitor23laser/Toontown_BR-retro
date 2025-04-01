@@ -1,7 +1,6 @@
 import string
 import time
 from toontown.toonbase.TTLocalizer_portuguese_Property import *
-from toontown.catalog import CatalogAcessoryItemGlobals
 from otp.otpbase import OTPLocalizer as OL
 OL.SpeedChatStaticText = OL.SpeedChatStaticTextToontown.copy()
 for key in OL.SpeedChatStaticTextCommon.keys():
@@ -54,16 +53,12 @@ NametagLabel = "Nome"
 
 UnpaidNameTag = "Basico"
 
-# GM nametags 2011
-#GM_1 = "CONSELHO TOON"
-#GM_2 = "TOONS SOLDADOS"
-#GM_3 = "GUARDA FLORESTAL DA RESISTÊNCIA"
-#GM_4 = "GC"
-#GM nametags
-GM_Names = (CONSELHO TOON, 
-TOONS SOLDADOS, 	 
-GUARDA FLORESTAL DA RESISTÊNCIA,
-GM)
+# GM nametags
+GM_1 = "CONSELHO TOON"
+GM_2 = "TOONS SOLDADOS"
+GM_3 = "GUARDA FLORESTAL DA RESISTÊNCIA"
+GM_4 = "GC"
+
 BuildingNametagFont = 'phase_3/models/fonts/MickeyFont'
 BuildingNametagShadow = None
 
@@ -245,7 +240,6 @@ ToontownCentral   = ("para o",  "no",    lToontownCentral)
 TheBrrrgh         = ("para",    "em",    lTheBrrrgh)
 MinniesMelodyland = ("para a",  "na",    lMinniesMelodyland)
 DaisyGardens      = ("para os", "nos",   lDaisyGardens)
-ConstructionZone = ("para a", "na", "Zona de Construção")
 OutdoorZone       = ("para a",  "na",    lOutdoorZone)
 FunnyFarm         = ("para a",  "na",    "Fazenda Divertida")
 GoofySpeedway     = ("para o",  "no",    lGoofySpeedway)
@@ -258,7 +252,7 @@ Tutorial          = ("para o",  "no",    lTutorial)
 MyEstate          = ("para a",  "na",    lMyEstate)
 WelcomeValley     = ("para o",  "no",    lWelcomeValley)
 GolfZone          = ("para a",  "na",    lGolfZone)
-PartyHood         = ("to the", "in the", lPartyHood)
+PartyHood         = ("para a", "nas", lPartyHood)
 
 Factory = 'Fábrica'
 Headquarters = 'Quartel'
@@ -780,38 +774,10 @@ QuestDialog_2910 = {
     }
 
 QuestDialogDict = {
-    #160 : {GREETING : "",
-           #QUEST : "Ok, agora acho que você está pronto para um desafio maior.\aDerrote 3 Robôs-chefe.",
-           #INCOMPLETE_PROGRESS : "Os "+ Cogs +" estão soltos pelas ruas e pelos túneis.",
-           #INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs-chefe. Vá agora para o Quartel dos Toons para receber sua recompensa!",
-           #COMPLETE : QuestsDefaultComplete,
-           #LEAVING : QuestsDefaultLeaving,
-           #},
-   #161 : {GREETING : "",
-           #QUEST : "Ok, agora acho que você está pronto para um desafio maior.\aDerrote 3 Robôs da Lei.",
-           #INCOMPLETE_PROGRESS : "Os "+ Cogs +" estão soltos pelas rua e pelos túneis.",
-           #INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs da Lei. Vá agora para o Quartel dos Toons para receber sua recompensa!",
-           #COMPLETE : QuestsDefaultComplete,
-           #LEAVING : QuestsDefaultLeaving,
-           #},
-   #162 : {GREETING : "",
-           #QUEST : "Ok, agora acho que você está pronto para um desafio maior.\aDerrote 3 Robôs Mercenários.",
-           #INCOMPLETE_PROGRESS : "Os "+ Cogs +" estão soltos pelas ruas e pelos túneis.",
-           #INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs Mercenários. Vá agora para o Quartel dos Toons para receber sua recompensa!",
-           #COMPLETE : QuestsDefaultComplete,
-           #LEAVING : QuestsDefaultLeaving,
-           #},
-  #163 : {GREETING : "",
-           #QUEST : "Ok, agora acho que você está pronto para um desafio maior.\aDerrote 3 Robôs Vendedores.",
-          # INCOMPLETE_PROGRESS : "Os "+ Cogs +" estão soltos pelas ruas e pelos túneis.",
-           #INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs Vendedores. Vá agora para o Quartel dos Toons para receber sua recompensa!",
-           #COMPLETE : QuestsDefaultComplete,
-           #LEAVING : QuestsDefaultLeaving,
-           #},
-    160 : {GREETING : "",
-      QUEST : "Ok, agora acho que você está pronto para um recompensador maior.\aSe você poder derrotar 3 Robôs-chefe eu te darei um pequeno bônus.",
-      INCOMPLETE_PROGRESS : TheCogs +" estão soltos pelas ruas e pelos túneis.",
-      INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs-chefe. Vá agora para o Quartel dos Toons para sua próxima etapa!",
+      160 : {GREETING : "",
+           QUEST : "Ok, agora acho que você está pronto para um recompensador maior.\aSe você poder derrotar 3 Robôs-chefe eu te darei um pequeno bônus.",
+           INCOMPLETE_PROGRESS : TheCogs +" estão soltos pelas ruas e pelos túneis.",
+           INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs-chefe. Vá agora para o Quartel dos Toons para sua próxima etapa!",
            COMPLETE : QuestsDefaultComplete,
            LEAVING : QuestsDefaultLeaving,
            },
@@ -824,7 +790,7 @@ QuestDialogDict = {
            LEAVING : QuestsDefaultLeaving,
            },
            
-           162 : {GREETING : "",
+      162 : {GREETING : "",
            QUEST : "Ok, agora acho que você está pronto para um recompensador maior.\aDerrote 3 Robôs Mercenários e volte aqui para resgatar a recompensa.",
            INCOMPLETE_PROGRESS : TheCogs +" estão soltos pelas ruas e pelos túneis.",
            INCOMPLETE_WRONG_NPC : "Bom trabalho com os Robôs Mercenários. Vá agora para o Quartel dos Toons para sua próxima etapa!",
@@ -2490,6 +2456,7 @@ ReportPanelCategoryLanguage = "Linguagem Rude"
 ReportPanelCategoryPii = "Compartilhar/Solicitar Informações Pessoais"
 ReportPanelCategoryRude = "Comportamento Rude ou Mau"
 ReportPanelCategoryName = "Nome Ruim"
+ReportPanelCategoryHacking = "Hackear"
 
 ReportPanelConfirmations = (
     "Você está prestes a denunciar que %s usou linguagem obscena, intolerante, preconceituosa ou sexualmente explícita.",
@@ -2538,6 +2505,19 @@ PetTrickStrings = {
     6: 'Falar',
     }
 
+# PetDetailPanel.py
+PetDetailPanelTitle = "Adestramento"
+# NOTE: these are replicated from OTPLocalizerEnglish sans "!"
+PetTrickStrings = {
+    0: 'Pular',
+    1: 'Dar a pata',
+    2: 'Fingir de morto',
+    3: 'Rolar',
+    4: 'Dar cambalhota',
+    5: 'Dançar',
+    6: 'Falar',
+    }
+
 # PetMood.py
 PetMoodAdjectives = {
     'neutral': 'neutro',
@@ -2557,18 +2537,54 @@ PetMoodAdjectives = {
 
 SpokenMoods = {
     'neutral': 'neutro',
-    'hunger': 'Eu\estou cansado de Balinhas! Que tal me dar uma fatia de torta?',
-    'boredom': 'Você não\ achou que eu entenderia, hein?', 
-    'excitement': 'Toontástico!',
-    'sadness': 'Eu quero ser rabisco de qualidade',
-    'restlessness': 'Eu\estou tãooo inquieto',
-    'playfulness': 'Brinque comigo ou eu\vou desenterrar algumas flores!',
-    'loneliness': 'Quero lutar com os Cogs com você!',
-    'fatigue': 'É muito cansativo fazer truques de rabisco! Que\tal dar um tempinho?',
-    'confusion': 'Onde estou? Quem é mesmo você?',
-    'anger': 'Você sempre me deixa para trás',
-    'surprise': 'Opa, de onde você surgiu?',
-    'affection': 'Você é um ótimo toon',
+    'hunger':['Eu\estou cansado de Balinhas! Que tal me dar uma fatia de torta?',
+    "Que tal uma Balinha vermelha? Estou cansado das verdes!",
+    "Ah, essas Balinhas eram para plantar?!! Mas eu estou com fome!",
+    ],
+    'boredom': ["Estou morrendo de tédio aqui!",
+     'Você não\ achou que eu entenderia, hein?', 
+     'Poderíamos, tipo, FAZER algo já?',
+     ],
+   'excitement': ["Uau, é você, é você, é você!",
+   "mmm, balinhas, mmm",
+   'Tem algo melhor que isso?',
+   "Feliz da Semana da Mentira Toons!",
+   ],
+    'sadness': ["Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá...",
+    "Eu serei bom, eu prometo!",
+    "Eu não sei POR QUE que eu estou triste, eu apenas estou!!!",
+    ],
+    'restlessness': ['Eu\estou tãooo inquieto',
+    ],
+    'playfulness': ["Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar...",
+    'Brinque comigo ou eu\vou desenterrar algumas flores!',
+    'Vamos correr em volta e em volta e em volta e em volta e em volta e em volta...', 
+    ],
+    'loneliness': ['Onde você esteve?',
+      'Quer abraçar?',
+      'Quero lutar com os Cogs com você!',
+    ],
+    'fatigue': ['Aquele mergulho na lagoa realmente me cansou!',
+    'Ser um Rabisco é exaustivo',
+    'Eu tenho que ir para a Sonholândia!',
+    ],
+    'confusion':  ['Onde estou? Quem é mesmo você?',
+    "O que é um Toon-ar mesmo?",
+    "Uau, estou entre você e os Cogs! Fuja!",
+    ],
+    'anger': ['... e você se pergunta por que eu nunca te dou um Toon-ar?!!!',
+    'Você sempre me deixa para trás',
+    'Você ama suas piadas mais do que a mim',
+    ],
+    'surprise': ['Claro que os Rabiscos podem falar!',
+    'Toons podem falar?!!',
+    'Opa, de onde você surgiu?',
+    ],
+    #'affection': 'Você é um ótimo toon',
+    'affection': ['Você é o melhor Toon de SEMPRE!!!!!!!!!!',
+    'Você ao menos SABE o quão incrível você é?!?',
+    'Tenho TANTA sorte de estar com você!!!',
+    ],
     }
 
 # DistributedAvatar.py
@@ -8727,8 +8743,6 @@ TipDict = {
     "Você pode procurar acima pressionando a tecla \"Page Up\" e abaixo pressionando a tecla \"Page Down\".",
     "Pressione a tecla \"Control\" para pular.",
     "Pressione a tecla \"F9\" para capturar a tela, que será salva na pasta Toontown do seu computador.",
-    # This one makes me nervous without mentioning Parent Passwords - but that would be too long
-    # "Você pode trocar Códigos de Amigo secreto com alguém conhecido que não seja de Toontown, para permitir um chat aberto com essa pessoa em Toontown.",
     "Você pode alterar a resolução de seu vídeo, ajustar o áudio e controlar outras opções na Página de opções do Álbum Toon.",
     "Experimente as roupas de seus amigos no armário da casa deles.",
     "Você pode ir para casa usando o botão \"Ir para casa\" em seu mapa.",
@@ -8749,7 +8763,6 @@ TipDict = {
     "Se você estiver em plena atividade de salvamento de edifícios, ganhará uma estrela de bronze, prata ou ouro, que ficará acima de seu Toon.",
     "Se você salvar um número suficiente de edifícios para obter uma estrela acima da cabeça, seu nome pode estar no quadro-negro de um Quartel Toon.",
     "Os edifícios salvos, às vezes, são recuperados pelos Cogs. A única maneira de manter a sua estrela é sair em campo e salvar mais edifícios!",
-    #"Os nomes dos seus Amigos secretos aparecerão na cor azul.",
     "Os nomes dos seus Amigos verdadeiros aparecerão na cor azul."
     # Fishing
     "Veja se você consegue pegar todos os peixes de Toontown!",
@@ -8774,7 +8787,7 @@ TipDict = {
     "As lojas de animais têm Rabiscos novos para vender todos os dias.",
     "Visite as lojas de animais todos os dias para ver que Rabiscos novos elas têm.",
     "Há diferentes Rabiscos para adoção nos diferentes bairros.",
- # Karting
+    # Karting
     "Mostre o seu carrão e dê uma turbinada no seu limite de Risadas no Autódromo do Pateta. ",
     "Entre no Autódromo do Pateta pelo túnel em forma de pneu no pátio do Centro de Toontown.",
     "Ganhe pontos de Risada no Autódromo do Pateta.",
@@ -10205,9 +10218,6 @@ KartRace_DoubleTickets = "Bilhetes em Dobro"
 SellbotNerfHolidayStart = "Operação: Tempestade de Robôs Vendedores está acontecendo agora! Batalha o VP hoje!"
 SellbotNerfHolidayEnd = "Operação: Tempestade de Robôs Vendedores tinha acabado. Bom trabalho, Toons!"
 
-#LawbotNerfHolidayStart = "Operação: Perdem os  happening now! Battlethe CJ today!"
-#LawbotNerfHolidayEnd = "Operation: Lawbots Lose has ended. Great work, Toons!"
-
 JellybeanTrolleyHolidayStart = "Dia das Balinhas em Dobro para o Bodinho dos Jogos começem!"
 JellybeanTrolleyHolidayEnd = "Dia das Balinhas em Dobro para o Bodinho dos Jogos terminou!"
 
@@ -10573,10 +10583,7 @@ HolidayNamesInCalendar = {
    98: ("Dias das Balinhas em Dobro - Pescaria", ""),
    99: ("Semana da Balinha", "Comemore a Semana da Balinha como recompensa em Dobro de Balinhas"),
    101: ("Maratona de Ano-Novo dos Toons", "Chances de vencer a toda hora! "),
-   # Translate
-   #105: ("Idos de Março", "Os Idos de Março estão aqui!"),
-   105: ("Toons de Verde!", "Toons faz uma cena verrde com as Balinhas Verdes na Rua do Carvalho nos Jardins Da Margarida !"),
-
+   105: ("Idos de Março", "Os Idos de Março estão aqui!"),
     }
 
 UnknownHoliday = "Feriado Desconhecido %d"
@@ -10600,7 +10607,8 @@ BoardroomGameInstructions = ("Os cogs estão tendo uma reunião para decidir o q
 # Cogdo Crane Game
 CogdoCraneGameTitle = "Vender-Um-Sinistro"
 CogdoCraneGameInstructions = ("Os COGS estão usando uma operação-moeda da máquina para destruir barris de risadas."
-                              "Usa os guindastes para pegar e lançar sacos de dinheiros, na ordem para evitar"                              "destruções de Barris!")
+                              "Usa os guindastes para pegar e lançar sacos de dinheiros, na ordem para evitar" 
+			      "destruções de Barris!")
 
 # Cogdo Maze Game
 CogdoMazeGameTitle = "Escritórios de Campo do\nAgitador"
