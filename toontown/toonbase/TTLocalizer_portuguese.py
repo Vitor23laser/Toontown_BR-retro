@@ -1233,7 +1233,7 @@ QuestDialogDict = {160: {GREETING: '',
         INCOMPLETE_PROGRESS: 'Continue procurando o cofre! Sua recompensa est\xc3\xa1 l\xc3\xa1 dentro!',
         COMPLETE: 'Finalmente! Seu novo saco de piadas est\xc3\xa1 dentro daquele cofre. Aqui est\xc3\xa1...' },
     3217: {
-        QUEST: 'Temos feito alguns estudos sobre a mec\xc3\xa2nica dos Rob\xc3\xb4s Vendedores.\x07N\xc3\xb3s ainda precisamos estudar algumas pe\xc3\xa7as de forma mais detalhada.\x07Traga-nos uma roda dentada de algum Dr. Sabe-com-quem-est\xc3\xa1-falando.\x07Voc\xc3\xaa poder\xc3\xa1 conseguir uma quando o Cog estiver explodindo.' },
+        QUEST: 'Temos feito alguns estudos sobre a mec\xc3\xa2nica dos Rob\xc3\xb4s Vendedores.\x07N\xc3\xb3s ainda precisamos estudar algumas pe\xc3\xa7as de forma mais detalhada.\x07Traga-nos uma roda dentada de algum Dr. Sabe-com-\x4quem-est\xc3\xa1-\x4falando.\x07Voc\xc3\xaa poder\xc3\xa1 conseguir uma quando o Cog estiver explodindo.' },
     3218: {
         QUEST: 'Muito bom! Agora precisamos de uma roda dentada de um Amigo da On\xc3\xa7a.\x07Estas s\xc3\xa3o mais dif\xc3\xadceis de conseguir, portanto, continue tentando.' },
     3219: {
@@ -1306,7 +1306,7 @@ QuestDialogDict = {160: {GREETING: '',
         QUEST: 'Que bom, voc\xc3\xaa est\xc3\xa1 de volta. Deixe-me ver o que voc\xc3\xaa encontrou....\x07"A/C Rob\xc3\xb4s Vendedores:"\x07"As Torres Rob\xc3\xb4s Vendedores instalaram um novo sistema de seguran\xc3\xa7a para afastar todos os Toons."\x07"Os Toons que forem encontrados nas Torres Rob\xc3\xb4s Vendedores ser\xc3\xa3o detidos para interrogat\xc3\xb3rio".\x07"Encontrem-se no sagu\xc3\xa3o para um coquetel, no qual discutiremos o assunto."\x07"Assinado, Amizade F\xc3\xa1cil"\x07Muito interessante... Passarei imediatamente esta informa\xc3\xa7\xc3\xa3o adiante.\x07Traga o terceiro memorando.' },
     3261: {
         QUEST: 'Excelente trabalho _avName_! O que diz o memorando?\x07"A/C Rob\xc3\xb4s Vendedores:"\x07"De algum modo, os Toons encontraram um jeito de se infiltrarem nas Torres Rob\xc3\xb4s Vendedores."\x07"Ligarei para voc\xc3\xaas esta noite na hora do jantar para fornecer os detalhes."\x07"Assinado, Operador de Telemarketing"\x07Humm... Queria saber como os Toons est\xc3\xa3o conseguindo se infiltrar....\x07Traga mais um memorando e acho que assim teremos informa\xc3\xa7\xc3\xb5es suficientes.',
-        COMPLETE: 'Eu sabia que voc\xc3\xaa conseguiria! Ok, o memorando diz...\x07"A/C Rob\xc3\xb4s Vendedores:"\x07"Ontem, estava almo\xc3\xa7ando com Dr. Celebridade."\x07"Ele disse que o VP tem estado bastante ocupado nestes dias."\x07"Ele s\xc3\xb3 receber\xc3\xa1 os Cogs que merecem promo\xc3\xa7\xc3\xa3o."\x07"Esqueci de dizer, o Amigo da On\xc3\xa7a jogar\xc3\xa1 golfe comigo no domingo."\x07"Assinado, Dr. Sabe-com-quem-est\xc3\xa1-falando"\x07Bem... _avName_, isto foi muito \xc3\xbatil.\x07Aqui est\xc3\xa1 sua recompensa.' },
+        COMPLETE: 'Eu sabia que voc\xc3\xaa conseguiria! Ok, o memorando diz...\x07"A/C Rob\xc3\xb4s Vendedores:"\x07"Ontem, estava almo\xc3\xa7ando com Dr. Celebridade."\x07"Ele disse que o VP tem estado bastante ocupado nestes dias."\x07"Ele s\xc3\xb3 receber\xc3\xa1 os Cogs que merecem promo\xc3\xa7\xc3\xa3o."\x07"Esqueci de dizer, o Amigo da On\xc3\xa7a jogar\xc3\xa1 golfe comigo no domingo."\x07"Assinado, Dr. Sabe-com-\x4quem-est\xc3\xa1-\x4falando"\x07Bem... _avName_, isto foi muito \xc3\xbatil.\x07Aqui est\xc3\xa1 sua recompensa.' },
     3262: {
         QUEST: '_toNpcName_ tem novas informa\xc3\xa7\xc3\xb5es sobre a F\xc3\xa1brica do ' + lSellbotHQ + '.\x07V\xc3\xa1 ver o que ele tem a dizer._where_' },
     3263: {
@@ -3379,14 +3379,14 @@ CheesyEffectExceptIn = ', exceto em %s'
 SuitFlunky = 'Puxa-saco'
 SuitPencilPusher = 'Rato de Escrit\xc3\xb3rio'
 SuitYesman = 'Vaquinha de Pres\xc3\xa9pio'
-SuitMicromanager = 'Micro\x4empres\xc3\xa1rio'
+SuitMicromanager = 'Microempres\xc3\xa1rio'
 SuitDownsizer = 'Fac\xc3\xa3o'
-SuitHeadHunter = 'Ca\xc3\xa7a-\x4talentos'
+SuitHeadHunter = 'Ca\xc3\xa7a-talentos'
 SuitCorporateRaider = 'Aventureiro Corporativo'
 SuitTheBigCheese = 'O Rei da Cocada Preta'
 SuitColdCaller = 'Rei da Incerta'
-SuitTelemarketer = 'Operador de Tele\x4marketing'
-SuitNameDropper = 'Dr. Sabe-com-\x4quem-est\xc3\xa1-\x4falando'
+SuitTelemarketer = 'Operador de Telemarketing'
+SuitNameDropper = 'Dr. Sabe-com-quem-est\xc3\xa1-falando'
 SuitGladHander = 'Amigo da On\xc3\xa7a'
 SuitMoverShaker = 'Agitador'
 SuitTwoFace = 'Duas Caras'
@@ -3395,7 +3395,7 @@ SuitMrHollywood = 'Dr. Celebridade'
 SuitShortChange = 'Farsante'
 SuitPennyPincher = 'M\xc3\xa3o de vaca'
 SuitTightwad = 'P\xc3\xa3o-duro'
-SuitBeanCounter = 'Conta-\x4moedinha'
+SuitBeanCounter = 'Conta-moedinha'
 SuitNumberCruncher = 'Destruidor de N\xc3\xbameros'
 SuitMoneyBags = 'Sacos de Dinheiro'
 SuitLoanShark = 'Agiota'
@@ -10553,36 +10553,37 @@ HolidayNamesInCalendar = {
     54: ('Invas\xc3\xa3o Conta-moedinha', 'Impe\xc3\xa7a que os Cogs  Conta-moedinhas invadam Toontown!'),
     55: ('Invas\xc3\xa3o Duplo Sentido', 'Impe\xc3\xa7a que os Cogs  Duplo Sentido invadam Toontown!'),
     56: ('Invas\xc3\xa3o de Fac\xc3\xa3o', 'Impe\xc3\xa7a que os Cogs Fac\xc3\xb5es invadam Toontown!'),
-    57: ('Toon Caroling', 'Celebrate Winter Holiday by caroling around Toontown for a "cool" reward!'),
+    57: ('Toon Cantando', "Celebra Feriado Congelante por cantando em volta Toontown para uma recompesa "gelada" !"),
     59: ('Dia dos namorados ', ' Dia dos namorados de Junho 05 a Junho 14!'),
-    72: ('Invas\xc3\xa3o de Sim', 'Impe\xc3\xa7a que os Cogs Sim invadam Toontown!'),
-    73: ('Invas\xc3\xa3o de Mesquinhos', 'Impe\xc3\xa7a que os Cogs Mesquinhos invadam Toontown!'),
-    74: ('Invas\xc3\xa3o de Telemarqueteiros', 'Impe\xc3\xa7a que os Cogs Telemarqueteiros invadam Toontown!'),
-    75: ('Invas\xc3\xa3o de Ca\xc3\xa7adores de Talentos', 'Impe\xc3\xa7a que os Cogs Ca\xc3\xa7adores de Talentos invadam Toontown!'),
+    72: ('Invas\xc3\xa3o de Vaquinha de Pres\xc3\xa9pio', 'Impe\xc3\xa7a que os Cogs Vaquinha de Pres\xc3\xa9pios invadam Toontown!'),
+    73: ('Invas\xc3\xa3o de P\xc3\xa3o-duro', 'Impe\xc3\xa7a que os Cogs P\xc3\xa3es-duros invadam Toontown!'),
+    74: ('Invas\xc3\xa3o de Operador de Telemarketing', 'Impe\xc3\xa7a que os Cogs Operadores de Telemarketing invadam Toontown!'),
+    75: ('Invas\xc3\xa3o de Ca\xc3\xa7a-\x4talento', 'Impe\xc3\xa7a que os Cogs Ca\xc3\xa7a-\x4talentos invadam Toontown!'),
     76: ('Invas\xc3\xa3o de Rela\xc3\xa7\xc3\xb5es P\xc3\xbablicas', 'Impe\xc3\xa7a que os Cogs Rela\xc3\xa7\xc3\xb5es P\xc3\xbablicas invadam Toontown!'),
     77: ('Invas\xc3\xa3o de Sacos de Dinheiro', 'Impe\xc3\xa7a que os Cogs Sacos de Dinheiro invadam Toontown!'),
     78: ('Invas\xc3\xa3o de Duas Caras', 'Impe\xc3\xa7a que os Cogs Duas Caras invadam Toontown!'),
-    79: ('Invas\xc3\xa3o de Soci\xc3\xa1veis', 'Impe\xc3\xa7a que os Cogs Soci\xc3\xa1veis invadam Toontown!'),
+    79: ('Invas\xc3\xa3o de Amizade F\xc3\xa1cil', 'Impe\xc3\xa7a que os Cogs Amizades F\xc3\xa1ceis invadam Toontown!'),
     80: ('Invas\xc3\xa3o de Agiotas', 'Impe\xc3\xa7a que os Cogs Agiotas invadam Toontown!'),
-    81: ('Invas\xc3\xa3o de Especuladores', 'Impe\xc3\xa7a que os Cogs Especuladores invadam Toontown!'),
-    82: ('Invas\xc3\xa3o de Industriais', 'Impe\xc3\xa7a que os Cogs Industriais invadam Toontown!'),
-    83: ('Invas\xc3\xa3o de Juristas', 'Impe\xc3\xa7a que os Cogs Juristas invadam Toontown!'),
-    84: ('Invas\xc3\xa3o de Peruc\xc3\xb5es', 'Impe\xc3\xa7a que os Cogs Peruc\xc3\xb5es invadam Toontown!'),
-    85: ('Invas\xc3\xa3o de Queij\xc3\xb5es', 'Impe\xc3\xa7a que os Cogs Queij\xc3\xb5es invadam Toontown!'),
-    86: ('Invas\xc3\xa3o de Diminuidores', 'Impe\xc3\xa7a que os Cogs Diminuidores invadam Toontown!'),
-    87: ('Invas\xc3\xa3o de Agitadores', 'Impe\xc3\xa7a que os Cogs Agitadores invadam Toontown!'),
-    88: ('Invas\xc3\xa3o de Incoerentes', 'Impe\xc3\xa7a que os Cogs Incoerentes invadam Toontown!'),
-    89: ('Invas\xc3\xa3o de Sovinas', 'Impe\xc3\xa7a que os Cogs Sovinas invadam Toontown!'),
-    90: ('Invas\xc3\xa3o de Fanfarr\xc3\xb5es', 'Impe\xc3\xa7a que os Cogs Fanfarr\xc3\xb5es invadam Toontown!'),
+    81: ('Invas\xc3\xa3o de Aventureio Corporativo', 'Impe\xc3\xa7a que os Cogs Aventureios Corporativos invadam Toontown!'),
+    82: ('Invas\xc3\xa3o de Bar\xc3\xa3o Ladr\xc3\xa3o', 'Impe\xc3\xa7a que os Cogs Bar\xc3\xb5es Ladr\xc3\xb5es invadam Toontown!'),
+    83: ('Invas\xc3\xa3o de Macacos Velhos', 'Impe\xc3\xa7a que os Cogs Macacos Velhos invadam Toontown!'),
+    84: ('Invas\xc3\xa3o de Figur\xc3\xa3o', 'Impe\xc3\xa7a que os Cogs Figur\xc3\xb5es invadam Toontown!'),
+    85: ('Invas\xc3\xa3o de O Rei da Cocada Preta', 'Impe\xc3\xa7a que os Cogs Os Reis da Cocada Preta invadam Toontown!'),
+    86: ('Invas\xc3\xa3o de Fac\xc3\xa3o', 'Impe\xc3\xa7a que os Cogs Fac\xc3\xb5es invadam Toontown!'),
+    87: ('Invas\xc3\xa3o de Agitador', 'Impe\xc3\xa7a que os Cogs Agitadores invadam Toontown!'),
+    88: ('Invas\xc3\xa3o de Duplo Sentido', 'Impe\xc3\xa7a que os Cogs Duplos Sentidos invadam Toontown!'),
+    89: ('Invas\xc3\xa3o de M\xc3\xa3o de vaca', 'Impe\xc3\xa7a que os Cogs M\xc3\xa3os de vaca invadam Toontown!'),
+    90: ('Invas\xc3\xa3o de Dr. Sabe-com-\x4quem-est\xc3\xa1-\x4falando', 'Impe\xc3\xa7a que os Cogs Drs. Sabe-com-\x4quem-est\xc3\xa1-\x4falando invadam Toontown!'),
     91: ('Invas\xc3\xa3o de Perseguidores de Ambul\xc3\xa2ncia', 'Impe\xc3\xa7a que os Cogs Perseguidores de Ambul\xc3\xa2ncia invadam Toontown!'),
-    92: ('Invas\xc3\xa3o de Microgerentes', 'Impe\xc3\xa7a que os Cogs Microgerentes invadam Toontown!'),
-    93: ('Invas\xc3\xa3o de Contadores', 'Impe\xc3\xa7a que os Cogs Contadores invadam Toontown!'),
-    95: ('Festas da vit\xc3\xb3ria', 'Comemore nosso triunfo hist\xc3\xb3rico contra os Cogs!'),
-    96: ('Opera\xc3\xa7\xc3\xa3o: Tormenta Sellbot', 'Sellbot HQ est\xc3\xa1 aberto para todos. Vamos lutar com o Presidente!'),
-    97: ('Dias de Balinha em Dobro - Jogos de Bonde', ''),
-    98: ('Dias de Balinha em Dobro - Jogos de Bonde', ''),
-    99: ('Dias de Balinha em Dobro - Jogos de Grupo', ''),
-    101: ('Maratona de Ano-Novo dos Toons', 'Chances de vencer a toda hora! ')}
+    92: ('Invas\xc3\xa3o de Microempres\xc3\xa1rio', 'Impe\xc3\xa7a que os Cogs Microempres\xc3\xa1rios invadam Toontown!'),
+    93: ('Invas\xc3\xa3o de Destruidores de N\xc3\xbameros', 'Impe\xc3\xa7a que os Cogs Destruidores de N\xc3\xbameros invadam Toontown!'),
+    95: ('Festas da vitória', 'Comemore nosso triunfo histórico contra os Cogs!'), # placeholder
+    96: ('Opera\xc3\xa7\xc3\xa3o: Robô Vendedor Tempestade!', 'Quartel do Robô Vendedor est\xc3\xa1 aberto para todos. Vamos lutar com o VP'),
+    97: ('Dia das Balinhas em Dobro - Bondinho dos Jogos', ''),
+    98: ('Dias das Balinhas em Dobro - Pescaria', ''),
+    99: ('Semana da Balinha', 'Comemore a Semana da Balinha como recompensa em Dobro de Balinhas'),
+   101: ('Maratona de Ano-Novo dos Toons', 'Chances de vencer a toda hora! '),
+   105: ('Idos de Mar\xc3\xa7o', 'Os Idos de Mar\xc3\xa7o est\xc3\xa3o aqui!')}
 UnknownHoliday = 'Feriado Desconhecido %d'
 HolidayFormat = '%m/%d '
 TimeZone = 'Brazil/West'
