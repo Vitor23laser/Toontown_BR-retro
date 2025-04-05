@@ -58,12 +58,12 @@ UnpaidNameTag = "Basico"
 
 # GM nametags 2011
 #GM_1 = "CONSELHO TOON"
-#GM_2 = "TOONS SOLDADOS"
-#GM_3 = "GUARDA FLORESTAL DA RESISTÊNCIA"
+#GM_2 = "TROPA TOONS"
+#GM_3 = "TOON DA RESISTÊNCIA"
 #GM_4 = "GC"
 #GM nametags
 GM_Names = ('CONSELHO TOON', 
-'TOONS SOLDADOS', 	 
+'TROPA TOONS', 	 
 'GUARDA FLORESTAL DA RESISTÊNCIA',
 'GM')
 BuildingNametagFont = 'phase_3/models/fonts/MickeyFont'
@@ -118,7 +118,7 @@ lNext = 'Próximo'
 lQuit = 'Sair'
 lYes = 'Sim'
 lNo = 'Não'
-lBack = 'Voltar'
+#lBack = 'Voltar'
 
 sleep_auto_reply = "%s está dormindo agora"
 lHQ = 'Oficial'
@@ -229,10 +229,10 @@ GlobalStreetNames = {
     11500 : ("para a",  "na", "Fábrica do Robô Vendedor"),
     12000 : ("para o",  "no", "Pátio de Trens do " +Cashbot),
     12100 : ("para o",  "no", "Salão do "+lCashbotHQ),
-    12500 : ("para a",  "na", "Casa da Moeda"),
-    12600 : ("para a",  "na", "Casa da Moeda de Dólar"),
-    12700 : ("para a",  "na", "Casa da Moeda de Barras de Ouro"),
-    13000 : ("para o",  "no", "Pátio do "+lLawbotHQ),
+    12500 : ("para a",  "na", "Casa da Moeda do " +Cashbot),
+    12600 : ("para a",  "na", "Casa da Moeda de Dólar do " +Cashbot),
+    12700 : ("para a",  "na", "Casa da Moeda de Barras de Ouro do " +Cashbot),
+    13000 : ("para o",  "no", "Salão do Tribunal"),
     13100 : ("para o",  "no", "Salão do "+lLawbotHQ),
     13200 : ("para o", "no", "Lobby do Escritório do Promotor"),
     13300 : ("para o", "no", "Escritório do Robô da Lei A"),
@@ -356,7 +356,7 @@ QuestsDefaultReject = ("Olá.",
                        "Se você recuperar um edifício "+ Cog +", entre e verá um agradecimento especial do proprietário!",
                        "Se pressionar a tecla Page Up, poderá ver acima de você!",
                        "Se você pressionar a tecla Tab, poderá ver os arredores sob diversos ângulos!",
-                       "Para mostrar aos amigos secretos o que está pensando, coloque '.' antes do pensamento.",
+                       "Para mostrar aos amigos verdadeiros o que está pensando, coloque '.' antes do pensamento.",
                        "Se um "+ Cog +" estiver atordoado, será mais difícil para ele desviar de objetos cadentes.",
                        "Cada tipo de edifício "+ Cog +" possui um visual diferente.",
                        "Derrotar os "+ Cogs +" nos andares mais altos de um edifício dará a você maiores recompensas de habilidade.",
@@ -672,7 +672,8 @@ QuestsItemDict = {
     5009 : ["Saco de ração para pássaros", "Sacos de ração para pássaros", "um "],
     5010 : ["Roda dentada", "Rodas dentadas", "uma "],
     5011 : ["Salada", "Saladas", "uma "],
-    5012 : ["Chave para os Jardins da Margarida", "Chaves para os Jardins da Margarida", "uma "],
+    #5012 : ["Chave para os Jardins da Margarida", "Chaves para os Jardins da Margarida", "uma "],
+    5012 : ["Chave para os "+lDaisyGardens, "Chaves para os  "+lDaisyGardens, "uma "],
     5013 : ["Mapa do "+lSellbotHQ, "Mapas do "+lSellbotHQ, "alguns "],
     5014 : ["Memorando do "+lSellbotHQ, "Memorandos do "+lSellbotHQ, "um "],
     5015 : ["Memorando do "+lSellbotHQ, "Memorandos do "+lSellbotHQ, "um "],
@@ -1101,11 +1102,12 @@ QuestDialogDict = {
              COMPLETE : "Ah, valeu! Agora eu posso entregar a correspondência na hora certa! Aqui está a sua recompensa...",
              },
 
-    3208 : { QUEST : "Ultimamente temos recebido reclamações dos moradores sobre os Reis da Incerta.\aVeja se consegue derrotar 10 Reis da Incerta para ajudar nossos colegas Toons nos Jardins da Margarida." },
-    3209 : { QUEST : "Valeu mesmo por derrotar os Reis da Incerta!\aMas agora os Operadores de Telemarketing ficaram fora de controle.\aDerrote 10 Operadores de Telemarketing nos Jardins da Margarida e volte aqui para pegar sua recompensa." },
-
-    3247 : { QUEST : "Ultimamente, temos recebido reclamações dos moradores sobre os Sanguessugas.\aVeja se consegue derrotar 20 Sanguessugas para ajudar nossos colegas Toons nos Jardins da Margarida." },
-
+    #3208 : { QUEST : "Ultimamente temos recebido reclamações dos moradores sobre os Reis da Incerta.\aVeja se consegue derrotar 10 Reis da Incerta para ajudar nossos colegas Toons nos Jardins da Margarida." },
+    3208 : { QUEST : "Ultimamente temos recebido reclamações dos moradores sobre os Reis da Incerta.\aVeja se consegue derrotar 10 Reis da Incerta para ajudar nossos colegas Toons nos "+lDaisyGardens+"." },
+    #3209 : { QUEST : "Valeu mesmo por derrotar os Reis da Incerta!\aMas agora os Operadores de Telemarketing ficaram fora de controle.\aDerrote 10 Operadores de Telemarketing nos Jardins da Margarida e volte aqui para pegar sua recompensa." },
+    3209 : { QUEST : "Valeu mesmo por derrotar os Reis da Incerta!\aMas agora os Operadores de Telemarketing ficaram fora de controle.\aDerrote 10 Operadores de Telemarketing nos "+lDaisyGardens+" e volte aqui para pegar sua recompensa." },
+    #3247 : { QUEST : "Ultimamente, temos recebido reclamações dos moradores sobre os Sanguessugas.\aVeja se consegue derrotar 20 Sanguessugas para ajudar nossos colegas Toons nos Jardins da Margarida." },
+    3247 : { QUEST : "Ultimamente, temos recebido reclamações dos moradores sobre os Sanguessugas.\aVeja se consegue derrotar 20 Sanguessugas para ajudar nossos colegas Toons nos "+lDaisyGardens+"." },
 
     3210 : { QUEST : "Oh, não, a Seivas Florais da Rua das Amendoeiras está sem flores!\aPara ajudar, leve dez de suas flores com esguicho.\aMas veja primeiramente se tem realmente 10 flores com esguicho em seu estoque.",
              LEAVING: "",
@@ -1136,7 +1138,8 @@ QuestDialogDict = {
     3246 : { QUEST : "Demais! Agora precisamos de apenas mais uma roda dentada.\aDesta vez, de um Relações Públicas.\aQuando pegá-la, traga-a aqui para conseguir sua recompensa." },
 
     3220 : { QUEST : "Acabei de saber que _toNpcName_ estava perguntando por você.\aPor que você não passa por lá e vê o que ela quer?_where_" },
-    3221 : { QUEST : "Oi, _avName_! Aí está você!\aOuvi dizer que você é especialista em ataques com esguicho.\aPreciso de alguém para dar um bom exemplo a todos os Toons nos Jardins da Margarida.\aUse seus ataques com esguicho para derrotar vários Cogs.\aIncentive seus amigos a usarem o esguicho também.\aQuando tiver derrotado 20 Cogs, volte aqui para pegar sua recompensa!" },
+    #3221 : { QUEST : "Oi, _avName_! Aí está você!\aOuvi dizer que você é especialista em ataques com esguicho.\aPreciso de alguém para dar um bom exemplo a todos os Toons nos Jardins da Margarida.\aUse seus ataques com esguicho para derrotar vários Cogs.\aIncentive seus amigos a usarem o esguicho também.\aQuando tiver derrotado 20 Cogs, volte aqui para pegar sua recompensa!" },
+    3221 : { QUEST : "Oi, _avName_! Aí está você!\aOuvi dizer que você é especialista em ataques com esguicho.\aPreciso de alguém para dar um bom exemplo a todos os Toons nos "+lDaisyGardens+".\aUse seus ataques com esguicho para derrotar vários Cogs.\aIncentive seus amigos a usarem o esguicho também.\aQuando tiver derrotado 20 Cogs, volte aqui para pegar sua recompensa!" },
 
     3222 : { QUEST : "É hora de demonstrar sua Toonmizade.\aSe você recuperar, com sucesso, um número de edifícios de Cogs, ganhará o direito de fazer três buscas.\aPrimeiramente, derrote dois edifícios de Cogs.\aSinta-se à vontade para chamar seus amigos para ajudá-lo."},
     3223 : { QUEST : "Bom trabalho naqueles edifícios!\aAgora, derrote mais dois.\aOs edifícios devem ter, pelo menos, dois andares." },
@@ -1154,12 +1157,15 @@ QuestDialogDict = {
     3236 : { QUEST : "Há muitos Robôs da Lei por aí.\aVocê pode fazer sua parte para ajudar!\aDerrote 3 edifícios de Robôs da Lei." },
     3237 : { QUEST : "Bom trabalho naqueles edifícios de Robôs da Lei!\aMas agora há muitos Robôs Vendedores!\aDerrote 3 edifícios de Robôs Vendedores e volte para buscar sua recompensa." },
 
-    3238 : { QUEST : "Ah não! Um Cog \"Amizade Fácil\" roubou a Chave para os Jardins da Margarida!\aVeja se você consegue recuperá-la.\aLembre-se, o Amizade Fácil só pode ser encontrado dentro dos edifícios de Robôs Vendedores." },
-    3239 : { QUEST : "Você achou uma chave, tudo bem, mas esta não é a correta!\aPrecisamos da chave dos Jardins da Margarida.\aContinue de olho! Ela ainda está com algum Cog \"Amizade Fácil\"!" },
+    #3238 : { QUEST : "Ah não! Um Cog \"Amizade Fácil\" roubou a Chave para os Jardins da Margarida!\aVeja se você consegue recuperá-la.\aLembre-se, o Amizade Fácil só pode ser encontrado dentro dos edifícios de Robôs Vendedores." },
+    #3239 : { QUEST : "Você achou uma chave, tudo bem, mas esta não é a correta!\aPrecisamos da chave dos Jardins da Margarida.\aContinue de olho! Ela ainda está com algum Cog \"Amizade Fácil\"!" },
+    3238 : { QUEST : "Ah não! Um Cog \"Amizade Fácil\" roubou a Chave para os "+lDaisyGardens+"!\aVeja se você consegue recuperá-la.\aLembre-se, o Amizade Fácil só pode ser encontrado dentro dos edifícios de Robôs Vendedores." },
+    3239 : { QUEST : "Você achou uma chave, tudo bem, mas esta não é a correta!\aPrecisamos da chave dos "+lDaisyGardens+".\aContinue de olho! Ela ainda está com algum Cog \"Amizade Fácil\"!" },	
 
-    3242 : { QUEST : "Ah não! Um Cog Macaco velho roubou a Chave para os Jardins da Margarida!\aVeja se você consegue recuperá-la.\aLembre-se, os Macacos-velhos só podem ser encontrados dentro dos edifícios de Robôs da Lei." },
-    3243 : { QUEST : "Você achou uma chave, tudo bem, mas esta não é a correta!\aPrecisamos da chave dos Jardins da Margarida.\aContinue de olho! Ela ainda está com algum Cog Macaco velho!" },
-
+    #3242 : { QUEST : "Ah não! Um Cog Macaco velho roubou a Chave para os Jardins da Margarida!\aVeja se você consegue recuperá-la.\aLembre-se, os Macacos-velhos só podem ser encontrados dentro dos edifícios de Robôs da Lei." },
+    #3243 : { QUEST : "Você achou uma chave, tudo bem, mas esta não é a correta!\aPrecisamos da chave dos Jardins da Margarida.\aContinue de olho! Ela ainda está com algum Cog Macaco velho!" },
+    3242 : { QUEST : "Ah não! Um Cog Macaco velho roubou a Chave para os "+lDaisyGardens+"!\aVeja se você consegue recuperá-la.\aLembre-se, os Macacos-velhos só podem ser encontrados dentro dos edifícios de Robôs da Lei." },
+    3243 : { QUEST : "Você achou uma chave, tudo bem, mas esta não é a correta!\aPrecisamos da chave dos "+lDaisyGardens+".\aContinue de olho! Ela ainda está com algum Cog Macaco velho!" },
     3240 : { QUEST : "Acabei de saber que um Macaco velho roubou um saco de ração para pássaros de _toNpcName_ .\aDerrote Macacos velhos até recuperar a ração para pássaros do Florêncio e levá-la de volta para ele.\aOs Macacos velhos só são encontrados dentro de edifícios de Robôs da Lei._where_",
              COMPLETE : "Ah, muito obrigado por encontrar minha ração para pássaros!\aSua recompensa é...",
              INCOMPLETE_WRONG_NPC : "Bom trabalho na recuperação da ração para pássaros!\aAgora, leve-a para _toNpcName_._where_",
