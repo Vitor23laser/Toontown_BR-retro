@@ -99,16 +99,21 @@ lDonaldsDock = "Porto do Donald"
 lDonaldsDreamland = "Sonholândia do Donald"
 lMinniesMelodyland = "Melodilândia da Minnie"
 lToontownCentral = 'Centro de Toontown'
+lGagShop = 'Loja de Piadas'
 lToonHQ = 'Quartel dos Toons'
+lClothingShop = 'Loja de Roupas'
+lPetShop = 'Loja de Animais'
+lBossbotHQ = 'Quartel do Robô-chefe'
+lLawbotHQ = 'Quartel do Robô da Lei'
+lCashbotHQ = 'Quartel do Robô Mercenário'
 lSellbotHQ = 'Quartel do Robô Vendedor'
+lTutorial = 'Toon-torial'
+lMyEstate = 'sua casa'
+lWelcomeValley = 'Vale Boas-vindas'
 lGoofySpeedway = "Autódromo do Pateta"
 lOutdoorZone = "Bosque de Bolotats de Tico e Teco"
 lGolfZone = "Minigolfe de Tico e Teco"
 lPartyHood = "Terra das Festas"
-
-lGagShop = 'Loja de Piadas'
-lClothingShop = 'Loja de Roupas'
-lPetShop = 'Loja de Animais'
 
 # common strings
 lCancel = 'Cancelar'
@@ -177,13 +182,6 @@ CashbotSkelP = "Esqueletocogs %s" % (CashbotP)
 SellbotSkelP = "Esqueletocogs %s" % (SellbotP)
 SkeleRevivePostFix = " v2.0"
 
-lBossbotHQ = 'Quartel do Robô-chefe'
-lLawbotHQ = 'Quartel do Robô da Lei'
-lCashbotHQ = 'Quartel do Robô Mercenário'
-lSellbotHQ = 'Quartel do Robô Vendedor'
-lTutorial = 'Toon-torial'
-lMyEstate = 'sua casa'
-lWelcomeValley = 'Vale Boas-vindas'
 
 # ToontownGlobals.py
 
@@ -603,7 +601,7 @@ QuestsLargePouch = "Sacola grande"
 QuestsSmallBag = "Bolsa pequena"
 QuestsMediumBag = "Bolsa média"
 QuestsLargeBag = "Bolsa grande"
-QuestsSmallBackpack = "Mochila pequena"
+QuestsSmal'Voltar'pack = "Mochila pequena"
 QuestsMediumBackpack = "Mochila média"
 QuestsLargeBackpack = "Mochila grande"
 QuestsItemDict = {
@@ -6569,7 +6567,7 @@ QuestScriptTutorialBlocker_4 = "Clique no botão para dizer algo."
 QuestScriptTutorialBlocker_5 = "Muito bom!\aO local para onde você está indo tem um monte de Toons para conversar."
 QuestScriptTutorialBlocker_6 = "Se você quiser conversar com seus amigos usando o teclado, há um outro botão que pode ser usado."
 #QuestScriptTutorialBlocker_7 = "Ele se chama botão \"Conversar\". Você precisa ser um cidadão oficial de Toontown para usá-lo."
-QuestScriptTutorialBlocker_7 = "Ele se chama botão \"Conversar\". Você precisa ativar o Chat Rápido Plus no site de Toontown para usá-lo."
+QuestScriptTutorialBlocker_7 = "Ele se chama botão \"Conversar\". Você precisa assinar com a conta de pais no site do Toontown para ativar o Chat Rápido Plus para usá-lo."
 QuestScriptTutorialBlocker_8 = "Boa sorte! Vejo você depois!"
 
 """
@@ -6740,7 +6738,8 @@ CatalogItemTypeNames = {
     15: GardenStarterTypeName, 
     16: NametagTypeName, 
     17: "TOON_STATUE_ITEM",
-    18: "ANIMATED_FURNITURE_ITEM",    
+    18: "ANIMATED_FURNITURE_ITEM",
+    19: Accessory
 }   
 
 
