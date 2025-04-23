@@ -6716,7 +6716,7 @@ GardenTypeName = 'Materiais de Jardim'
 RentalTypeName = 'Item de Aluguel'
 GardenStarterTypeName = 'Kit de Jardinagem'
 NametagTypeName = "Crachá"
-
+AcessoryTypeName = "Acessórios"
 
 # Make sure numbers match up to CatalogItemTypes.py
 CatalogItemTypeNames = {
@@ -6739,7 +6739,7 @@ CatalogItemTypeNames = {
     16: NametagTypeName, 
     17: "TOON_STATUE_ITEM",
     18: "ANIMATED_FURNITURE_ITEM",
-    19: Accessory
+    19: AccessoryTypesName,
 }   
 
 
