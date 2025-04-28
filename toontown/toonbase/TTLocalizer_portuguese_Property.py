@@ -303,4 +303,4 @@ TPbuttonTextList = 0.04
 TPhaveFun = 0.08
 TPjoinUs = 0.08
 TBSOSPSPenter = 0.08
-TexitButton = 0.8
+TexitButton = 0.7
