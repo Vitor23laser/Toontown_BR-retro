@@ -8554,7 +8554,6 @@ KartDNA_AccNames = {1000: 'Filtro de ar',
  4010: 'Para-lamas sim\xc3\xa9tricos',
  4011: 'Para-lamas do Mickey',
  4012: 'Para-lamas vazados',
-
  5000: 'Turbo',
  5001: 'Lua',
  5002: 'Emendado',
