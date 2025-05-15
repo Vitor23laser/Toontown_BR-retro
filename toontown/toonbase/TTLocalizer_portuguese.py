@@ -1,6 +1,7 @@
 import string
 import time
 from toontown.toonbase.TTLocalizer_portuguese_Property import *
+from toontown.catalog import CatalogAccessoryItemGlobals
 from otp.otpbase import OTPLocalizer as OL
 OL.SpeedChatStaticText = OL.SpeedChatStaticTextToontown.copy()
 for key in OL.SpeedChatStaticTextCommon.iterkeys():
@@ -46,10 +47,10 @@ NametagFontNames = ('Usuário',
  'Ocidental')
 NametagLabel = 'Nome'
 UnpaidNameTag = 'Basico'
-GM_1 = 'CONSELHO TOON' 
-GM_2 = 'TROPA TOONS'
-GM_3 = 'TOON DA RESISTÊNCIA'
-GM_4 = 'GC'
+GM_NAMES = ('CONSELHO TOON' 
+ 'TROPA TOONS'
+ 'TOON DA RESISTÊNCIA'
+ 'GC')
 BuildingNametagFont = 'phase_3/models/fonts/MickeyFont'
 BuildingNametagShadow = None
 ProductPrefix = 'TT'
@@ -4070,6 +4071,8 @@ TeaserMinigames = TeaserOtherHoods
 TeaserQuests = TeaserOtherHoods
 TeaserOtherGags = TeaserOtherHoods
 TeaserTricks = TeaserOtherHoods
+DownloadWatcherUpdate = 'Fazendo download %s'
+DownloadWatcherInitializing = 'Iniciando Download...'
 LauncherPhaseNames = {0: 'Inicialização',
  1: 'Panda',
  2: 'Engine',
@@ -4631,6 +4634,11 @@ CalendarPartyFinished = 'Acabou...'
 CalendarPartyCancelled = 'Cancelado.'
 CalendarPartyNeverStarted = 'Nunca Aconteceu.'
 NPCFriendPanelRemaining = 'Restantes %s'
+PartiesPageTitle = 'Festas'
+PartiesPageHostTab = 'Hosting'
+PartiesPageInvitedTab = 'Convites'
+PartiesPageTitleHost = 'Minha Próxima Festa'
+PartiesPageTitleInvited = 'Convites da Festa'
 MapPageTitle = 'Mapa'
 MapPageBackToPlayground = 'Voltar para o pátio'
 MapPageBackToCogHQ = 'Voltar para o Quartel de Cogs'
@@ -5176,7 +5184,7 @@ PetTutorialPage2 = "Use a nova área 'Bichinhos' no menu Chat rápido para fazer
 PetTutorialPage3 = 'Compre novos truques de Rabiscos no Catálogo da Clarabela. Truques melhores produzem Toonar melhores!'
 
 def getPetGuiAlign():
-	from pandac.PandaModules import TextNode
+	from panda3d.core import TextNode
 	return TextNode.ACenter
 
 
@@ -5770,7 +5778,7 @@ HatStylesDescriptions = {'hbb1': 'Boné de Baseball Verde',
  'hhw2': 'Cabeça de Toonosauro',
  'hob1': 'Chapéu Divertido',
  'hbn1': 'Chapéu de Pássaro por Brianna'}
-ÓculosStylesDescriptions = {'grd1': 'Óculos Circular',
+GlassesStylesDescriptions = {'grd1': 'Óculos Circular',
  'gmb1': 'Mini persianas brancas',
  'gnr1': 'Óculos Limitado Roxo',
  'gst1': 'Óculos de Estrela Amarela',
@@ -5893,7 +5901,7 @@ for accessoryId in list(CatalogAccessoryItemGlobals.AccessoryTypes.keys()):
     if accessoryInfo[0] % 4 == 0:
         accessoryStyleDescription = HatStylesDescriptions
     elif accessoryInfo[0] % 4 == 1:
-        accessoryStyleDescription = ÓculosStylesDescriptions
+        accessoryStyleDescription = GlassesStylesDescriptions
     elif accessoryInfo[0] % 4 == 2:
         accessoryStyleDescription = BackpackStylesDescriptions
     else:
@@ -6016,10 +6024,10 @@ ShirtStylesDescriptions = {'bss1': 'básica',
  'sc_3': 'Camisa de Cientista Top 3 ',
  'sil_1': 'Camisa de Caixa de Correio Boba',
  'sil_2': 'Camisa de Lixeira Boba',
- 'sil_3': 'Camisa de Laboratório Maluco bobinho',
+ 'sil_3': 'Camisa de Laboratório Tonto',
  'sil_4': 'Camisa de Hidrante Bobo',
- 'sil_5': 'Camisa de Buzina de Medidor de Bobagem',
- 'sil_6': 'Camisa de Esmaga Cog bobinho',
+ 'sil_5': 'Camisa de Medidor de Bobagem',
+ 'sil_6': 'Camisa de Esmaga Cog',
  'sil_7': 'Camisa de Festa da Vitória 1',
  'sil_8': 'Camisa de Festa da Vitória 2',
  'emb_us1': 'camisa de emblema de espaço reservado 1',
@@ -6132,7 +6140,7 @@ NametagFrilly = 'Crachá Chique'
 FurnitureYourOldCloset = 'seu armário velho'
 FurnitureYourOldBank = 'seu banco velho'
 TrunkHatGui = 'Chapéus'
-TrunkÓculosGUI = 'Óculos'
+TrunkGlassesGUI = 'Óculos'
 TrunkBackpackGUI = 'Mochilas'
 TrunkShoesGUI = 'Sapatos'
 ChatItemQuotes = "'%s'"
@@ -6460,47 +6468,47 @@ ClothingTypeNames = {1001: 'Camisa do Fantasma',
  1746: 'Shorts de Esqueleto',
  1747: 'Saia de Esqueleto',
  1748: 'Saia de Aranha',
- 1749: 'Camisa de Caixa de Correio Bobo',
- 1750: 'Camisa de Lixeira Boba',
- 1751: 'Camisa de Laboratório Tonto',
- 1752: 'Camisa de Hidrante Bobo',
- 1753: 'Camisa de Medidor de Bobagem',
- 1754: 'Camisa de Esmaga Cog',
- 1755: 'Shorts de Esmaga Cog',
- 1756: 'Shorts de Esmaga Cog',
- 1757: 'Victory Party Camisa',
- 1758: 'Relaxed Victory Camisa',
- 1763: 'Smashed Sellbot Camisa',
- 1764: 'Most V.P.s Defeated Camisa',
- 1765: 'Sellbot Smasher Camisa',
+ 1749: 'Silly Mailbox Shirt',
+ 1750: 'Silly Trash Can Shirt',
+ 1751: 'Loony Labs Shirt',
+ 1752: 'Silly Hydrant Shirt',
+ 1753: 'Silly Meter Shirt',
+ 1754: 'Cog-Crusher Shirt',
+ 1755: 'Cog-Crusher Shorts',
+ 1756: 'Cog-Crusher Shorts',
+ 1757: 'Victory Party Shirt',
+ 1758: 'Relaxed Victory Shirt',
+ 1763: 'Smashed Sellbot Shirt',
+ 1764: 'Most V.P.s Defeated Shirt',
+ 1765: 'Sellbot Smasher Shirt',
  1766: 'Sellbot Smasher Shorts',
  1767: 'Sellbot Smasher Shorts',
- 1768: 'Jellybean Bank Camisa',
- 1769: 'Doodle Camisa',
- 1770: 'Vampire Camisa',
- 1771: 'Turtle Camisa',
+ 1768: 'Jellybean Bank Shirt',
+ 1769: 'Doodle Shirt',
+ 1770: 'Vampire Shirt',
+ 1771: 'Turtle Shirt',
  1772: 'Vampire Shorts',
  1773: 'Vampire Shorts',
  1774: 'Turtle Shorts',
  1775: 'Turtle Shorts',
- 1776: 'Get Connected Mover & Shaker Camisa',
- 1782: 'Racing Camisa 3',
+ 1776: 'Get Connected Mover & Shaker Shirt',
+ 1782: 'Racing Shirt 3',
  1783: 'Racing Shorts 1',
  1784: 'Racing Saia 1',
  1801: 'Camisa da Lua Maluca',
  1802: 'Camisa de Luvas de Neve'}
 AccessoryArticleNames = ('Chapéu ',
- 'Óculos',
- 'Mochila',
- 'Sapatos',
+ 'Glasses',
+ 'Backpack',
+ 'Shoes',
  'Chapéu ',
- 'Óculos',
- 'Mochila',
- 'Sapatos',
+ 'Glasses',
+ 'Backpack',
+ 'Shoes',
  'Chapéu ',
- 'Óculos',
- 'Mochila',
- 'Sapatos')
+ 'Glasses',
+ 'Backpack',
+ 'Shoes')
 SurfaceNames = ('Papel de parede',
  'Moldura do teto',
  'Piso',
@@ -6522,30 +6530,33 @@ WallpaperNames = {1000: 'Pergaminho',
  2300: 'Gol!',
  2400: 'Nuvem 9',
  2500: 'Trepadeira',
- 2600: 'Primavera',
- 2700: 'Boneca japonesa',
- 2800: 'Arranjo de flores',
- 2900: 'Peixe-anjo',
- 3000: 'Bolhas',
- 3100: 'Bolhas',
- 3200: 'Ir pescar',
- 3300: 'Parar de pescar',
- 3400: 'Cavalo-marinho',
- 3500: 'Conchinhas do mar',
- 3600: "Debaixo d'água",
- 3700: 'Botinas',
- 3800: 'Cáctus',
- 3900: 'Chapéu de caubói',
- 10100: 'Gatos',
- 10200: 'Morcegos',
- 11000: 'Flocos de neve',
- 11100: 'Folhas de Natal',
- 11200: 'Boneco de neve',
- 13000: 'Trevo',
- 13100: 'Trevo',
- 13200: 'Arco-íris',
- 13300: 'Trevo'}
-FlooringNames = {1000: 'Tábua-corrida',
+    2600: 'Primavera',
+    2700: 'Boneca japonesa',
+    2800: 'Arranjo de flores',
+    2900: 'Peixe-anjo',
+    3000: 'Bolhas',
+    3100: 'Bolhas',
+    3200: 'Ir pescar',
+    3300: 'Parar de pescar',
+    3400: 'Cavalo-marinho',
+    3500: 'Conchinhas do mar',
+    3600: "Debaixo d'água",
+    3700: 'Botinas',
+    3800: 'Cáctus',
+    3900: 'Chapéu de caubói',
+    10100: 'Gatos',
+    10200: 'Morcegos',
+    11000: 'Flocos de neve',
+    11100: 'Folhas de Natal',
+    11200: 'Boneco de neve',
+    13000: 'Trevo',
+    13100: 'Trevo',
+    13200: 'Arco-íris',
+    13300: 'Trevo',
+    }
+
+FlooringNames = {
+    1000: 'Tábua-corrida',
     1010: 'Carpete',
     1020: 'Piso em losangos',
     1030: 'Piso em losangos',
@@ -7973,11 +7984,11 @@ TrunkNotOwnerMessage = "Este não é o seu baú, mas você pode experimentar os 
 TrunkNotPaidMessage = 'Somente membros pagos podem usar acessórios, mas você pode experimentá-los.'
 TrunkAreYouSureMessage = 'Você excluiu alguns acessórios. Deseja mesmo excluí-los?'
 TrunkHat = 'este chapéu'
-TrunkÓculos = 'estes óculos'
+TrunkGlasses = 'estes óculos'
 TrunkBackpack = 'esta mochila'
 TrunkShoes = 'estes sapatos'
 TrunkDeleteHat = 'Excluir\nchapéu'
-TrunkDeleteÓculos = 'Excluir\nóculos'
+TrunkDeleteGlasses = 'Excluir\nóculos'
 TrunkDeleteBackpack = 'Excluir\nmochila'
 TrunkDeleteShoes = 'Excluir\nsapatos'
 EstateOwnerLeftMessage = 'Sinto muito, o dono desta propriedade saiu. Você será enviado ao pátio em %s segundos'
