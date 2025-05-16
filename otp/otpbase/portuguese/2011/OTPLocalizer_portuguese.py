@@ -196,7 +196,7 @@ CRTryConnectAgain = '\n\nTentar conectar-se novamente?'
 CRToontownUnavailable = 'O servidor parece estar temporariamente indispon\xc3\xadvel, ainda tentando...'
 CRToontownUnavailableCancel = lCancel
 CRNameCongratulations = 'PARAB\xc3\x89NS!!'
-CRNameAccepted = 'O seu nome foi\naprovado pelo Conselho de Toons.\n\nA partir de agora,\nvoc\xc3\xaa ter\xc3\xa1 o nome\n\'%s\''
+CRNameAccepted = "O seu nome foi\naprovado pelo Conselho de Toons.\n\nA partir de agora,\nvoc\xc3\xaa ter\xc3\xa1 o nome\n'%s'"
 CRServerConstantsProxyNoPort = 'N\xc3\xa3o foi poss\xc3\xadvel contatar %s.\n\nVoc\xc3\xaa est\xc3\xa1 se comunicando com a Internet por via proxy, mas o seu proxy n\xc3\xa3o permite conex\xc3\xb5es na porta %s.\n\nVoc\xc3\xaa deve abrir esta porta, ou desativar o proxy, para poder jogar na Toontown. Se o proxy foi fornecido pelo seu provedor, \xc3\xa9 preciso entrar em contato com ele para abrir esta porta.'
 CRServerConstantsProxyNoCONNECT = 'N\xc3\xa3o foi poss\xc3\xadvel contatar %s.\n\nVoc\xc3\xaa est\xc3\xa1 se comunicando com a Internet por via proxy, mas o seu proxy n\xc3\xa3o permite o m\xc3\xa9todo CONECTAR.\n\nVoc\xc3\xaa deve ativar este recurso, ou desativar o proxy, para poder jogar na Toontown. Se o proxy foi fornecido pelo seu provedor, \xc3\xa9 preciso entrar em contato com ele para abrir esta porta.'
 CRServerConstantsTryAgain = 'N\xc3\xa3o foi poss\xc3\xadvel contatar %s.\n\nO servidor de contas da Toontown deve estar temporariamente fora do ar ou deve haver algum problema na conex\xc3\xa3o de Internet.\n\nTentar novamente?'
@@ -2631,17 +2631,17 @@ CustomSCStrings = {10: 'Bom...',
  11009: 'Um bom feriado para voc\xc3\xaa!',
  11010: 'Feliz Dia do Peru!',
  11011: 'Ho! Ho! Ho!',
- 11012: '\'Noel\' problema.',
- 11013: '\'Noel\' surpresa nenhuma.',
+ 11012: "'Noel' problema.",
+ 11013: "'Noel' surpresa nenhuma.",
  11014: 'Deixa bater o sino, pequenino!',
  11015: 'Raspa o tacho.',
  11016: 'Feliz Natal!',
- 11017: 'Com \'nataleza\'!',
+ 11017: "Com 'nataleza'!",
  11018: 'At\xc3\xa9 o Natal, tudo bem!',
- 11019: 'Voc\xc3\xaa vai se \'arrenapender\'!',
+ 11019: 'Voc\xc3\xaa vai se arrenapender!',
  12000: 'Fica comigo!',
  12001: 'Vem ser meu amorzinho!',
- 12002: 'Feliz Dia dos Namorados!',
+ 12002: 'Feliz Dia do Toon dos Namorados!',
  12003: 'Ahhh, que bonitinho.',
  12004: 'Estou apaixonado por voc\xc3\xaa.',
  12005: 'Amor de pombinhos.',
