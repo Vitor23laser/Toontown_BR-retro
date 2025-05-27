@@ -6031,7 +6031,7 @@ ShirtStylesDescriptions = {'bss1': 'básica',
  'sa_ss40': 'Camisa de Bruxa da Lua de Halloween',
  'sa_ss41': 'Camisa de Trenó do Feriado de Inverno',
  'sa_ss42': 'Camisa de Lua Maluca de Halloween',
- 'sa_ss43': 'Camisa de Inverno do Feriado de Inverno',
+ 'sa_ss43': 'Camisa de Luva de Inverno do Feriado de Inverno',
  'sa_ss44': 'Camisa de Pesca 6',
  'sa_ss45': 'Camisa de Pesca 7',
  'sa_ss46': 'Camiseta de Golfe 5',
@@ -6139,7 +6139,7 @@ BottomStylesDescriptions = {'bbs1': 'básico com bolsos',
  'sa_gs6': 'Saia de Golfe 1',
  'sa_gs7': 'Saia de Abelha de Halloween',
  'sa_gs8': 'Saia de Super Toon de Halloween',
- 'sa_gs9': 'Saia de Salavdor 1',
+ 'sa_gs9': 'Saia de Salvador de Edifícios 1',
  'sa_gs10': 'Saia de Bondinho 1',
  'sa_gs11': 'Saia de Esqueleto de Halloween',
  'sa_gs12': 'Saia de Esqueleto de Halloween',
@@ -6742,11 +6742,19 @@ CatalogPurchaseGiftItemAvailable = 'Ótimo!  %s pode começar a usar o seu prese
 CatalogPurchaseItemOnOrder = 'Parabéns! O produto será entregue em sua caixa de correio em breve.'
 CatalogPurchaseGiftItemOnOrder = 'Ótimo! O seu presente para %s será entregue na caixa de correio dele.'
 CatalogAnythingElse = 'Deseja mais alguma coisa hoje?'
-CatalogPurchaseClosetFull = 'O seu armário está cheio. Apesar disso, você pode comprar este item, mas se comprar, terá que excluir alguma coisa do seu armário para liberar espaço para o novo item, quando ele chegar.\n\nQuer comprar este item mesmo assim?' 
+CatalogPurchaseClosetFull = 'O seu armário está cheio. Apesar disso, você pode comprar este item, mas se comprar, terá que excluir alguma coisa do seu armário para liberar espaço para o novo item, quando ele chegar.\n\nQuer comprar este item mesmo assim?'
+CatalogPurchaseNoTrunk = "Para usar este item, você precisa comprar um baú.\n\nVocê ainda deseja comprar este item?" 
+CatalogPurchaseTrunkFull = 'O seu baú está cheio. Se você comprar este item, você precisará excluir outro item no baú para abrir mais.\n\nVocê ainda deseja comprar este item?'
 CatalogAcceptClosetFull = 'O seu armário está cheio. Entre em casa e exclua alguma coisa do seu armário para liberar espaço para o item antes de retirá-lo da caixa de correio.'
-CatalogAcceptCamisa = 'Você está vestindo agora a sua nova camisa. O que você estava vestindo antes foi transferido para o seu armário.'
+CatalogAcceptNoTrunk = 'Você não tem um baú. Você deve comprar um baú antes de retirar este item da sua caixa de correio.'
+CatalogAcceptTrunkFull = 'Seu baú está cheio. Você deve excluir algo do seu baú antes de poder retirar este item de sua caixa de correio.'
+CatalogAcceptShirt = 'Você está vestindo agora a sua nova camisa. O que você estava vestindo antes foi transferido para o seu armário.'
 CatalogAcceptShorts = 'Você está vestindo agora o seu novo short. O que você estava vestindo antes foi transferido para o seu armário.'
-CatalogAcceptSaia = 'Você está vestindo agora a sua nova saia. A que você estava vestindo antes foi transferida para o seu armário.'
+CatalogAcceptSkirt = 'Você está vestindo agora a sua nova saia. A que você estava vestindo antes foi transferida para o seu armário.'
+CatalogAcceptHat = 'Agora você está usando seu novo chapéu. O chapéu que você estava usando antes foi transferido para o baú.' 
+CatalogAcceptGlasses = 'Agora você está usando seus óculos novos. Os óculos que você usava antes foram transferidos para o porta-malas.'
+CatalogAcceptBackpack = 'Agora você está usando sua nova mochila. A mochila que você estava usando antes foi transferida para o baú.'
+CatalogAcceptShoes = 'Agora você está usando seus sapatos novos. Os sapatos que você usava antes foram transferidos para o baú.'
 CatalogAcceptPole = 'Agora, você está pronto para pescar uns peixes maiores com sua nova vara!'
 CatalogAcceptPoleUnneeded = 'Você já tem uma vara de pescar melhor do que esta!'
 CatalogAcceptChat = 'Você ganhou uma nova frase de Chat rápido!'
@@ -8135,8 +8143,8 @@ FireworksJuly4Beginning = lToonHQ+': Bem-vindo à queima de fogos de verão! Div
 FireworksJuly4Ending = lToonHQ+': Espero que tenha gostado do show! Um ótimo verão para você!'
 FireworksJuly14Beginning = lToonHQ+': Fogos de artifício de 14 de julho! Espero que tenha gostado do show!'
 FireworksJuly14Ending = lToonHQ+': Espero que tenha gostado do show!'
-FireworksOctober31Beginng = ''
-FireworksOctober31Ending = ''
+FireworksOctober31Beginng = lToonHQ+': Feliz Halloween!'
+FireworksOctober31Ending = lToonHQ+': Espero que tenha gostado do show!'
 FireworksNewYearsEveBeginning = lToonHQ+': Feliz Ano Novo! Aproveite o show de fogos de artifício!'
 FireworksNewYearsEveEnding = lToonHQ+': Espero que tenha gostado do show! Feliz Ano Novo!'
 FireworksComboBeginning = lToonHQ+': Aproveite muitas risadas com os fogos de artifício do Toon!'
