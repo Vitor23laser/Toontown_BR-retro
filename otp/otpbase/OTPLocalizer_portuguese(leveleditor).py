@@ -2300,11 +2300,11 @@ SpeedChatStaticTextPirates = {
     50106 : "Ei, você!",
     50107 : "Claro, claro, Capitão!",
     50108 : "Ande na prancha!",
-    50109 : "Ah well, some days you win, some days you swim.",
+    50109 : "Ah, bem, alguns dias você vence, alguns dias você nada.",
     50110 : 'Não vai sobrar ninguém para contar a história....',
-    50111 : "A finer bunch of Scoundrels yarrr eyes have never seen!",
-    50112 : "Fool me once, shame on me. Fool me twice, good luck in Davy Jones' Locker.",
-    50113 : "Ready your bravery, hoist the sails, a Caribbean Pirate never fails!",
+    50111 : "Seus olhos nunca viram um bando de canalhas melhor!",
+    50112 : "Se me enganar uma vez, a vergonha é minha. Se me enganar duas vezes, boa sorte no armário de Davy Jones.",
+    50113 : "Prepare sua bravura, içe as velas, um pirata do caribe nunca falha!",
 
     # EXPRESSIONS - GREETINGS
     50700 : "Ah!",
