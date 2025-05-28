@@ -103,6 +103,9 @@ lDonaldsDreamland = "Sonholândia do Donald"
 lMinniesMelodyland = "Melodilândia da Minnie"
 lToontownCentral = 'Centro de Toontown'
 lToonHQ = 'Quartel dos Toons'
+lBossbotHQ = 'Quartel do Robô-chefe'
+lLawbotHQ = 'Quartel do Robô da Lei'
+lCashbotHQ = 'Quartel do Robô Mercenário'
 lSellbotHQ = 'Quartel do Robô Vendedor'
 lGoofySpeedway = "Autódromo do Pateta"
 lOutdoorZone = "Bosque de Bolotas de Tico e Teco"
@@ -141,8 +144,8 @@ GlobalStreetNames = {
     9000  : ("para o",  "no", "Parque"),
     9100  : ("para a",  "na", "Travessa da Canção de Ninar"),
     9200  : ("para o",  "no", "Pedaço do Pijama"),
-    10000 : ("para o", "no", "Clube de Campo do Quartel do Robô-chefe"),
-    10100 : ("para o",  "no", "Lobby do Quartel do Robô-chefe"),
+    10000 : ("para o", "no", "Clube de Campo do "+lBossbotHQ),
+    10100 : ("para o",  "no", "Lobby do "+lBossbotHQ),
     10200 : ("para a", "na", "Sede do Clube"),
     10500 : ("para o", "no", "Três da Frente"),
     10600 : ("para o", "no", "Seis do Meio"),
@@ -151,14 +154,14 @@ GlobalStreetNames = {
     11100 : ("para o",  "no", "Lobby do "+lSellbotHQ),
     11200 : ("para a",  "na", "Fábrica do Robô Vendedor"),
     11500 : ("para a",  "na", "Fábrica do Robô Vendedor"),
-    12000 : ("para o", "no", "Pátio do Quartel do Robô Mercenário"),
-    12100 : ("para o",  "no", "Lobby do Quartel do Robô Mercenário"),
-    12500 : ("para a",  "na", "Casa da Moeda"),
-    12600 : ("para a",  "na", "Casa da Moeda de Dólar"),
-    12700 : ("para a",  "na", "Casa da Moeda de Barras de Ouro"),
-    13000 : ("para o",  "no", "Pátio do Quartel do Robô da Lei")
-    13100 : ("para o", "no", "Lobby do Tribunal"),
-    13200 : ("para o", "no", "Lobby do Escritório do Promotor"),
+    12000 : ("para o", "no", "Pátio do "+lCashbotHQ),
+    12100 : ("para o",  "no", "Lobby do "+lCashbotHQ),
+    12500 : ("para a",  "na", "Casa da Moeda do Robô Mercenário"),
+    12600 : ("para a",  "na", "Casa da Moeda de Dólar do Robô Mercenário"),
+    12700 : ("para a",  "na", "Casa da Moeda de Barras de Ouro Robô Mercenário"),
+    13000 : ("para o",  "no", "Pátio do "+lLawbotHQ)
+    13100 : ("para o", "no", "Salão do Tribunal"),
+    13200 : ("para o", "no", "Salão do Escritório do Promotor"),
     13300 : ("para o", "no", "Escritório da Lei A"),
     13400 : ("para o", "no", "Escritório da Lei B"),
     13500 : ("para o", "no", "Escritório da Lei C"),
@@ -175,10 +178,10 @@ OutdoorZone       = ("para a",  "na",    lOutdoorZone)
 FunnyFarm         = ("para a",  "na",    "Fazenda Divertida")
 GoofySpeedway     = ("para o",  "no",    lGoofySpeedway)
 DonaldsDreamland  = ("para a",  "na",    lDonaldsDreamland)
-BossbotHQ         = ("para o",  "no",    "Quartel do Robô-chefe")
+BossbotHQ         = ("para o",  "no",    lBossbotHQ)
 SellbotHQ         = ("para o",  "no",    lSellbotHQ)
-CashbotHQ         = ("para o",  "no",    "Quartel do Robô Mercenário")
-LawbotHQ          = ("para o",  "no",    "Quartel do Robô da Lei")
+CashbotHQ         = ("para o",  "no",    lCashbotHQ)
+LawbotHQ          = ("para o",  "no",    lLawbotHQ)
 Tutorial          = ("para o",  "no",    "Toon-torial")
 MyEstate          = ("para a",  "na",    "sua casa")
 WelcomeValley     = ("para o",  "no",    "Vale Boas-vindas")
@@ -675,7 +678,7 @@ QuestsItemDict = {
     3027 : ["Termômetro Externo", "Termômetros Externos", "um "],
 
     #Dreamland Quests
-    6001 : ["Plano do Quartel do Robô Mercenário", "Planos do Quartel do Robô Mercenário", "algum "],
+    6001 : ["Plano do "+lCashbotHQ, "Planos do "+lCashbotHQ, "algum "],
     6002 : ["Vara de pescar", "Varas de pescar", "uma "],
     6003 : ["Cinto de segurança", "Cintos de segurança", "um "],
     6004 : ["Par de pinças", "Pares de pinças", "um "],
