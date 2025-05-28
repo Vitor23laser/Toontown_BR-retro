@@ -2348,7 +2348,7 @@ SpeedChatStaticTextPirates = {
     51307 : "Devíamos recuar.",
     51308 : "Corra!",
 
-        # SEA COMBAT
+    # SEA COMBAT
     51400 : "Dispare um Broadside!",
     51401 : "Bombordo! (esquerda)",
     51402 : "Lado de estibordo! (direita)",
@@ -2435,6 +2435,91 @@ SpeedChatStaticTextPirates = {
     50304 : "Mostramos a eles!",
     50305 : "Vocês não são tão ruins assim!",
     50306 : "Que bela pilhagem fizemos!",
+    
+    # Jogos de Cartas
+    52400 : "Que a sorte esteja comigo.",
+    52401 : "Acho que essas cartas estão marcadas!",
+    52402 : "Caramba, trapaceiro!",
+    
+    # Jogos de Cartas - Pôquer
+51900: "Que flop terrível!",
+51901: "Tentando comprar a mão, é?",
+51902: "Você está blefando.",
+51903: "Acho que você não tinha.",
+51904: "Salvo pelo river.",
+
+# Jogos de Cartas - Blackjack
+52600: "Me dá uma carta.",
+52601: "Posso chamar outro dealer?",
+
+# Minijogos
+# Minijogos - Pesca
+53101: "Peguei um peixe!",
+53102: "Vi um Lendário Peixe!",
+53103: "O que você pescou?",
+53104: "Isso vai virar história de baleia!",
+53105: "Que beleza!",
+53106: "Arr, o mar está traiçoeiro hoje.",
+53107: "Que farta pescaria!",
+53110: "Você tem a Isca Lendária?",
+53111: "Você já pescou um Peixe Lendário?",
+53112: "Você sabe velejar em um barco de pesca?",
+53113: "Onde está o Mestre da Pesca?",
+53114: "Você completou sua coleção de peixes?",
+# Minijogos - Defesa de Canhão
+53120: "Atire no meu alvo!",
+53121: "Atire no navio mais próximo da costa!",
+53122: "Um navio está fugindo!",
+53123: "Atirem nos navios grandes!",
+53124: "Atirem nos navios pequenos!",
+53125: "Mais estão chegando!",
+53126: "Não vamos durar muito mais tempo!",
+53127: "Atirem nos barris!",
+53128: "Temos munição nova!",
+53129: "Defesa robusta, companheiros!",
+# Minijogos - Preparação de Poções
+53141: "Olha a poção que eu fiz!",
+53142: "Você completou sua coleção de poções?",
+53143: "Onde está a Cigana?",
+53144: "Que poção é essa?",
+53145: "Esta poção foi fácil Chega.",
+53146: "Esta poção estava dura, eu te digo!",
+# Minijogos - Conserto
+53160: "Precisamos de alguém para bombear o porão!",
+53161: "Precisamos de alguém para esfregar!",
+53162: "Precisamos de alguém para serrar!",
+53163: "Precisamos de alguém para escorar!",
+53164: "Precisamos de alguém para martelar!",
+53165: "Precisamos de alguém para remendar!",
+53166: "Eu faço isso!",
+53167: "Continue assim, este navio não se conserta sozinho!",
+53168: "Ótimo trabalho consertando o navio!",
+
+# Convites
+52100: "Quer formar um grupo?",
+52101: "Quer se juntar à minha tripulação?",
+
+# Convites - Caça
+52200: "Lutar contra alguns esqueletos?",
+52201: "Lutar contra alguns caranguejos?",
+
+# Convites - Versus
+52300: "Que tal uma partida de Mayhem?",
+52301: "Junte-se a mim na partida de Mayhem.",
+52302: "Quer começar uma partida de Mayhem?",
+52303: "Quer começar uma partida de batalha em equipe?",
+52304: "Junte-se a mim na partida de batalha em equipe.",
+
+# Convites - Minijogos
+52350: "Junte-se à minha Defesa de Canhão.",
+52351: "Quer começar uma Defesa de Canhão?",
+52352: "Você pode me ajudar com o Reparo?",
+52353: "Precisamos consertar o navio agora!",
+52354: "Quer pescar?",
+52355: "Quer ir pescar comigo?",
+52356: "Quer se juntar à minha tripulação para pescar?",
+52357: "Hora de preparar algumas poções!",
+52358: "Você deveria tentar preparar poções.",
 
     # Adventures
     50500 : "Vamos içar velas!",
