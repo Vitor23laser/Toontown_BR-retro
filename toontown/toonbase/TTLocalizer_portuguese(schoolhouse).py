@@ -105,6 +105,8 @@ GlobalStreetNames = {20000: ('para o', 'no', 'Terra\xc3\xa7o do Tutorial'),
  5100: ('para a', 'na', 'Rua das Nogueiras'),
  5200: ('para a', 'na', 'Rua das Amendoeiras'),
  5300: ('para a', 'na', 'Rua dos Carvalhos'),
+ 6000: ('para o', 'no', 'Parque'),
+ 8000: ('para o', 'no', 'Parque'),
  9000: ('para o', 'no', 'Parque'),
  9100: ('para a', 'na', 'Travessa da Can\xc3\xa7\xc3\xa3o de Ninar'),
  9200: ('para o', 'no', 'Peda\xc3\xa7o do Pijama'),
@@ -129,7 +131,8 @@ GlobalStreetNames = {20000: ('para o', 'no', 'Terra\xc3\xa7o do Tutorial'),
  13300: ('para o', 'no', 'Escrit\xc3\xb3rio do Rob\xc3\xb4 da Lei A'),
  13400: ('para o', 'no', 'Escrit\xc3\xb3rio do Rob\xc3\xb4 da Lei B'),
  13500: ('para o', 'no', 'Escrit\xc3\xb3rio do Rob\xc3\xb4 da Lei C'),
- 13600: ('para o', 'no', 'Escrit\xc3\xb3rio do Rob\xc3\xb4 da Lei D')}
+ 13600: ('para o', 'no', 'Escrit\xc3\xb3rio do Rob\xc3\xb4 da Lei D'),
+ 17000: ('para o', 'no', 'Parque'),}
 DonaldsDock = ('para o', 'no', lDonaldsDock)
 ToontownCentral = ('para o', 'no', lToontownCentral)
 TheBrrrgh = ('para', 'em', lTheBrrrgh)
@@ -167,7 +170,8 @@ lNext = 'Pr\xc3\xb3ximo'
 lQuit = 'Sair'
 lYes = 'Sim'
 lNo = 'N\xc3\xa3o'
-sleep_auto_reply = '%s est\xc3\xa1 dormindo agora'
+sleep_auto_reply = '%s est\xc3\xa1 dormindo agora.'
+sleep_auto_reply_retro = '%s est\xc3\xa1 dormindo agora'
 lHQ = 'Oficial'
 lHQOfficerF = 'Oficial do Quartel'
 lHQOfficerM = 'Oficial do Quartel'
