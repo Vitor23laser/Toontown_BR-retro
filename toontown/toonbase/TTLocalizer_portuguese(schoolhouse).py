@@ -4041,8 +4041,8 @@ DownloadForceAcknowledgeVerbList = ['pintado',
  'inflado',
  'montar']
 DownloadForceAcknowledgeMsg = 'Sinto muito, voc\xc3\xaa n\xc3\xa3o pode avan\xc3\xa7ar porque o download de %(phase)s est\xc3\xa1 apenas %(percent)s%% conclu\xc3\xaddo.\n\nTente novamente mais tarde.'
-TeaserTop = 'Desculpe, mas voc\xc3\xaa n\xc3\xa3o pode fazer isso na vers\xc3\xa3o de teste gratuita.'
-TeaserBottom = 'Assine agora e aproveite esses \xc3\xb3timos recursos:'
+TeaserTop = ''
+TeaserBottom = ''
 TeaserDefault = ',\nVoc\xc3\xaa precisa ser um associado.\nUna-se!'
 TeaserOtherHoods = 'Visite os 6 bairros exclusivos!'
 TeaserTypeAName = 'Digite o seu nome favorito para o seu Toon!'
@@ -4071,8 +4071,6 @@ TeaserMinigames = TeaserOtherHoods
 TeaserQuests = TeaserOtherHoods
 TeaserOtherGags = TeaserOtherHoods
 TeaserTricks = TeaserOtherHoods
-DownloadWatcherUpdate = 'Fazendo download %s'
-DownloadWatcherInitializing = 'Iniciando Download...'
 LauncherPhaseNames = {0: 'Inicializa\xc3\xa7\xc3\xa3o',
  1: 'Panda',
  2: 'Engine',
