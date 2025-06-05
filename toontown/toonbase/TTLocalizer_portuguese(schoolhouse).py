@@ -1,3 +1,4 @@
+
 import string
 import time
 from toontown.toonbase.TTLocalizer_portuguese_Property import *
@@ -3955,11 +3956,11 @@ toontownDialogues = {BoringTopic: {(1, 2018): ['Oi Albert', 'Parece que o n\xc3\
                                           'Quando isso acontecer, algo bobo certamente acontecer\xc3\xa1!', 'Ent\xc3\xa3o prepare-se para ficar rid\xc3\xadculo!']},
  AprilToonsPhaseTopTopic: {(1, 2020): ['O Medidor de Bobagem chegou ao topo!', 
                                        'Os rabiscos est\xc3\xa3o falando, as propriedades est\xc3\xa3o saltitantes!',
-                                       'S\xc3\xb3 h\xc3\xa1 uma coisa a dizer\xe2\x80\xa6',
+                                       'S\xc3\xb3 h\xc3\xa1 uma coisa a dizer',
                                        'FELIZ TOONS DE ABRIL!']}, 
  AprilToonsPhasePostTopTopic: {(1, 2020): ['Os Toons de Abril acabaram!',
                                            '\xc3\x89 hora de voltarmos ao nosso laborat\xc3\xb3rio.',
-                                           'Mas quando as coisas ficarem REALMENTE loucas de novo\xe2\x80\xa6',
+                                           'Mas quando as coisas ficarem REALMENTE loucas de novo',
                                            'O Medidor de Bobagem voltar\xc3\xa1!']},          
  EmceeDialoguePhase1Topic: {(1, 2020): ['Amigos Toons, este \xc3\xa9 o Medidor de Bobagens!',
                                         'Ele registra a varia\xc3\xa7\xc3\xa3o do n\xc3\xadvel de bobagem de Toontown...',
