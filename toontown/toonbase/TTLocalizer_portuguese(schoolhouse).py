@@ -4685,17 +4685,20 @@ OptionsPageCodesTab = 'Inserir C\xc3\xb3digo'
 CdrPageTitle = 'Inserir o C\xc3\xb3digo'
 CdrInstructions = 'Insire o seu c\xc3\xb3digo para receber um item especial em sua caixa de correio.'
 CdrResultSuccess = 'Parab\xc3\xa9ns! Verifique sua caixa de correio para resgatar seu item!'
-CdrResultInvalidCode = "Voc\xc3\xaa inseriu um c\xc3\xb3digo inv\xc3\xa1lido. Verifique o c\xc3\xb3digo e tente novamente."
-CdrResultExpiredCode = "Sinto muito. Este c\xc3\xb3digo expirou."
-CdrResultUnknownError = "Sinto muito. Este c\xc3\xb3digo n\xc3\xa3o pode ser aplicado ao seu Toon."
+CdrResultInvalidCode = 'Voc\xc3\xaa inseriu um c\xc3\xb3digo inv\xc3\xa1lido. Verifique o c\xc3\xb3digo e tente novamente.'
+CdrResultExpiredCode = 'Sinto muito. Este c\xc3\xb3digo expirou.'
+CdrResultUnknownError = 'Sinto muito. Este c\xc3\xb3digo n\xc3\xa3o pode ser aplicado ao seu Toon.'
 CdrResultMailboxFull = 'Sua caixa de correio est\xc3\xa1 cheia. Remova um item e insira seu c\xc3\xb3digo novamente.'
-CdrResultAlreadyInMailbox = "Voc\xc3\xaa j\xc3\xa1 recebeu este item. Verifique sua caixa de correio para confirmar."
+CdrResultAlreadyInMailbox = 'Voc\xc3\xaa j\xc3\xa1 recebeu este item. Verifique sua caixa de correio para confirmar.'
 CdrResultAlreadyInQueue = 'Seu item est\xc3\xa1 a caminho. Verifique sua caixa de correio em alguns minutos para receb\xc3\xaa-lo.'
-CdrResultAlreadyInCloset = "Voc\xc3\xaa j\xc3\xa1 recebeu este item. Verifique seu guarda-roupa para confirmar."
-CdrResultAlreadyBeingWorn = "Voc\xc3\xaa j\xc3\xa1 recebeu este item e est\xc3\xa1 usando-o!"
-CdrResultAlreadyReceived = "Voc\xc3\xaa j\xc3\xa1 recebeu este item."
-CdrResultTooManyFails = "Sinto muito. Voc\xc3\xaa tentou inserir um c\xc3\xb3digo incorreto muitas vezes. Tente novamente em breve."
-CdrResultServiceUnavailable = "Sinto muito. Este recurso est\xc3\xa1 temporariamente indispon\xc3\xadvel. Tente novamente no seu pr\xc3\xb3ximo login."
+CdrResultAlreadyInCloset = 'Voc\xc3\xaa j\xc3\xa1 recebeu este item. Verifique seu guarda-roupa para confirmar.'
+CdrResultAlreadyInTrunk = 'Voc\xc3\xaa j\xc3\xa1 recebeu este item. Verifique seu ba\xc3\xba para confirmar.'
+CdrResultAlreadyBeingWorn = 'Voc\xc3\xaa j\xc3\xa1 recebeu este item e est\xc3\xa1 usando-o!'
+CdrResultAlreadyReceived = 'Voc\xc3\xaa j\xc3\xa1 recebeu este item.'
+CdrResultGardenAlreadyStarted = 'Voc\xc3\xaa j\xc3\xa1 iniciou um jardim. Verifique sua propriedade para confirmar.'
+CdrResultGardenSkillTooLow = 'Sinto muito. Sua habilidade em jardinagem \xc3\xa9 muito baixa. Tente novamente em outra ocasi\xc3\xa3o.'
+CdrResultTooManyFails = 'Sinto muito. Voc\xc3\xaa tentou inserir um c\xc3\xb3digo incorreto muitas vezes. Tente novamente em breve.'
+CdrResultServiceUnavailable = 'Sinto muito. Este recurso est\xc3\xa1 temporariamente indispon\xc3\xadvel. Tente novamente no seu pr\xc3\xb3ximo login.'
 TrackPageTitle = 'Treinamento de tipos de piadas'
 TrackPageShortTitle = 'Treinamento de piadas'
 TrackPageSubtitle = 'Execute as Tarefas Toon para aprender a usar novas piadas!'
@@ -5796,104 +5799,104 @@ GlassesStylesDescriptions = {'grd1': '\xc3\x93culos Circular',
  'gmt2': 'M\xc3\xa1scara Azul Secreta ID',
  'gmt3': 'M\xc3\xa1scara de Carnaval Azul',
  'gmt4': 'M\xc3\xa1scara de Carnaval Roxa',
- 'gmt5': "M\xc3\xa1scara de Carnaval Verde Azul",
- 'gmn1': "Mon\xc3\xb3culo",
- 'gmo1': "\xc3\x93culos de Beijo",
- 'gsr1': "\xc3\x93culos de Garrafa",
- 'ghw1': "Pacto Ocular de Caveira",
- 'ghw2': "Pacto Ocular de Gema",
- 'gag1': "\xc3\x93culos de Olhos de Alien por Alexandra"}
-MochilasStylesDescriptions = {'bpb1': "Mochila Azul",
- 'bpb2': "Mochila Laranja",
- 'bpb3': "Mochila Roxa",
- 'bpd1': "Mochila de Pontos Rosas",
- 'bpd2': "Mochila de Pontos Amarelas",
- 'bwg1': "Asas de Morcegos",
- 'bwg2': "Asas de Abelha",
- 'bwg3': "Asas de Drag\xc3\xa3o que Voa",
- 'bst1': "Tanque de Mergulho",
- 'bfn1': "Barbatana de Tubar\xc3\xa3o",
- 'baw1': "Asas de Anjo Branco",
- 'baw2': "Asas de Anjo de Arco-\xc3\xadris",
- 'bwt1': "Mochila de Brinquedos",
- 'bwg4': "Asas de Borboleta",
- 'bwg5': "Asas de Fadas",
- 'bwg6': "Asas de Drag\xc3\xa3o",
- 'bjp1': "Jet Pack",
- 'blg1': "Mochila de Bug",
- 'bsa1': "Mochila de Ursinho Teddy",
- 'bwg7': "Asas de P\xc3\xa1ssaro",
- 'bsa2': "Mochila de Pel\xc3\xbacia de Gato",
- 'bsa3': "Mochila de Pel\xc3\xbacia de C\xc3\xa3o",
- 'bap1': "Asas de Avi\xc3\xa3o",
- 'bhw1': "Espada de Pirata",
- 'bhw2': "Capa de Super Toon",
- 'bhw3': "Capa de Vampiro",
- 'bhw4': "Rabo de Toonsauro",
- 'bob1': "Mochila de Divers\xc3\xa3o",
- 'bfg1': "Mochila de Ataque de Piadas",
- 'bfl1': "Mochila de Cog por Savanah"}
-SapatosStylesDescriptions = {'sat1': "Sapatos de Atl\xc3\xa9tico Verde",
- 'sat2': "Sapatos de Atl\xc3\xa9tico Vermelho",
- 'smb1': "Botas Verdes de Toon",
- 'scs1': "T\xc3\xaanis Verde de Atleta",
- 'swt1': "Sapatos Wingtips",
- 'smj1': "Sapatos Pretos Elegantes",
- 'sdk1': "Sapatos de Barcos",
- 'sat3': "Sapatos de Atl\xc3\xa9tico Amarelo",
- 'scs2': "T\xc3\xaanis Preto de Atleta",
- 'scs3': "T\xc3\xaanis Branco de Atleta",
- 'scs4': "T\xc3\xaanis Rosa de Atleta",
- 'scb1': "Botas de Caub\xc3\xb3i",
- 'sfb1': "Botas Roxas",
- 'sht1': "T\xc3\xaanis Verde de Artista High Top",
- 'smj2': "Sapatos Marrons Elegantes",
- 'smj3': "Sapatos Vermelhos Elegantes",
- 'ssb1': "Botas Vermelhas de Super Toon",
- 'sts1': "Sapatos de T\xc3\xaanis Verde",
- 'sts2': "Sapatos de T\xc3\xaanis Rosa",
- 'scs5': "T\xc3\xaanis Vermelho de Atleta",
- 'smb2': "Botas Verdes-azuis de Toon",
- 'smb3': "Botas Marrons de Toon",
- 'smb4': "Botas Amarelas de Toon",
- 'sfb2': "Botas Quadradas Azuis",
- 'sfb3': "Botas Verdes de Cora\xc3\xa7\xc3\xb5es",
- 'sfb4': "Botas de Pontos Cinza",
- 'sfb5': "Botas de Estrelas Laranjas",
- 'sfb6': "Botas de Estrelas Rosas",
- 'slf1': "Sapatos Loafers",
- 'smj4': "Sapatos Roxos Elegantes",
- 'smt1': "Botas de Motorciclo",
- 'sox1': "Sapatos Oxfords",
- 'srb1': "Botas Rosas de Chuva",
- 'sst1': "Botas de Alegria",
- 'swb1': "Botas Bege de Inverno",
- 'swb2': "Botas Rosas de Inverno",
- 'swk1': "Botas de Trabalho",
- 'scs6': "T\xc3\xaanis Amarelo de Atleta",
- 'smb5': "Botas Rosas de Toon",
- 'sht2': "T\xc3\xaanis Rosa de Artista High Top",
- 'srb2': "Botas de Pontos Vermelhos de Chuva",
- 'sts3': "Sapatos de T\xc3\xaanis Roxo",
- 'sts4': "Sapatos de T\xc3\xaanis Violeta",
- 'sts5': "Sapatos de T\xc3\xaanis Amarelo",
- 'srb3': "Bolas Azuis de Chuva",
- 'srb4': "Botas Amarelas de Chuva",
- 'sat4': "Sapatos de Atl\xc3\xa9tico Preto",
- 'shw1': "Sapatos de Pirata",
- 'shw2': "Pata de Toonsauro"}
-AccessoryNamePrefix = {0: "ch\xc3\xa1peu de unisex",
- 1: "\xc3\xb3culos de unisex",
- 2: "mochila de unisex",
- 3: "sapatos de unisex",
- 4: "ch\xc3\xa1peu de menino",
- 5: "\xc3\xb3culos de menino",
- 6: "mochila de menino",
- 7: "sapatos de menino",
- 8: "ch\xc3\xa1peu de menina",
- 9: "\xc3\xb3culos de menina",
- 10: "mochila de menina",
- 11: "sapatos de menina"}
+ 'gmt5': 'M\xc3\xa1scara de Carnaval Verde Azul',
+ 'gmn1': 'Mon\xc3\xb3culo',
+ 'gmo1': '\xc3\x93culos de Beijo',
+ 'gsr1': '\xc3\x93culos de Garrafa',
+ 'ghw1': 'Pacto Ocular de Caveira',
+ 'ghw2': 'Pacto Ocular de Gema',
+ 'gag1': '\xc3\x93culos de Olhos de Alien por Alexandra'}
+BackpacksStylesDescriptions = {'bpb1': 'Mochila Azul',
+ 'bpb2': 'Mochila Laranja',
+ 'bpb3': 'Mochila Roxa',
+ 'bpd1': 'Mochila de Pontos Rosas',
+ 'bpd2': 'Mochila de Pontos Amarelas',
+ 'bwg1': 'Asas de Morcegos',
+ 'bwg2': 'Asas de Abelha',
+ 'bwg3': 'Asas de Drag\xc3\xa3o que Voa',
+ 'bst1': 'Tanque de Mergulho',
+ 'bfn1': 'Barbatana de Tubar\xc3\xa3o',
+ 'baw1': 'Asas de Anjo Branco',
+ 'baw2': 'Asas de Anjo de Arco-\xc3\xadris',
+ 'bwt1': 'Mochila de Brinquedos',
+ 'bwg4': 'Asas de Borboleta',
+ 'bwg5': 'Asas de Fadas',
+ 'bwg6': 'Asas de Drag\xc3\xa3o',
+ 'bjp1': 'Jet Pack',
+ 'blg1': 'Mochila de Bug',
+ 'bsa1': 'Mochila de Ursinho Teddy',
+ 'bwg7': 'Asas de P\xc3\xa1ssaro',
+ 'bsa2': 'Mochila de Pel\xc3\xbacia de Gato',
+ 'bsa3': 'Mochila de Pel\xc3\xbacia de C\xc3\xa3o',
+ 'bap1': 'Asas de Avi\xc3\xa3o',
+ 'bhw1': 'Espada de Pirata',
+ 'bhw2': 'Capa de Super Toon',
+ 'bhw3': 'Capa de Vampiro',
+ 'bhw4': 'Rabo de Toonsauro',
+ 'bob1': 'Mochila de Divers\xc3\xa3o',
+ 'bfg1': 'Mochila de Ataque de Piadas',
+ 'bfl1': 'Mochila de Cog por Savanah'}
+ShoesStylesDescriptions = {'sat1': 'Sapatos de Atl\xc3\xa9tico Verde',
+ 'sat2': 'Sapatos de Atl\xc3\xa9tico Vermelho',
+ 'smb1': 'Botas Verdes de Toon',
+ 'scs1': 'T\xc3\xaanis Verde de Atleta',
+ 'swt1': 'Sapatos Wingtips',
+ 'smj1': 'Sapatos Pretos Elegantes',
+ 'sdk1': 'Sapatos de Barcos',
+ 'sat3': 'Sapatos de Atl\xc3\xa9tico Amarelo',
+ 'scs2': 'T\xc3\xaanis Preto de Atleta',
+ 'scs3': 'T\xc3\xaanis Branco de Atleta',
+ 'scs4': 'T\xc3\xaanis Rosa de Atleta',
+ 'scb1': 'Botas de Caub\xc3\xb3i',
+ 'sfb1': 'Botas Roxas',
+ 'sht1': 'T\xc3\xaanis Verde de Artista High Top',
+ 'smj2': 'Sapatos Marrons Elegantes',
+ 'smj3': 'Sapatos Vermelhos Elegantes',
+ 'ssb1': 'Botas Vermelhas de Super Toon',
+ 'sts1': 'Sapatos de T\xc3\xaanis Verde',
+ 'sts2': 'Sapatos de T\xc3\xaanis Rosa',
+ 'scs5': 'T\xc3\xaanis Vermelho de Atleta',
+ 'smb2': 'Botas Verdes-azuis de Toon',
+ 'smb3': 'Botas Marrons de Toon',
+ 'smb4': 'Botas Amarelas de Toon',
+ 'sfb2': 'Botas Quadradas Azuis',
+ 'sfb3': 'Botas Verdes de Cora\xc3\xa7\xc3\xb5es',
+ 'sfb4': 'Botas de Pontos Cinza',
+ 'sfb5': 'Botas de Estrelas Laranjas',
+ 'sfb6': 'Botas de Estrelas Rosas',
+ 'slf1': 'Sapatos Loafers',
+ 'smj4': 'Sapatos Roxos Elegantes',
+ 'smt1': 'Botas de Motorciclo',
+ 'sox1': 'Sapatos Oxfords',
+ 'srb1': 'Botas Rosas de Chuva',
+ 'sst1': 'Botas de Alegria',
+ 'swb1': 'Botas Bege de Inverno',
+ 'swb2': 'Botas Rosas de Inverno',
+ 'swk1': 'Botas de Trabalho',
+ 'scs6': 'T\xc3\xaanis Amarelo de Atleta',
+ 'smb5': 'Botas Rosas de Toon',
+ 'sht2': 'T\xc3\xaanis Rosa de Artista High Top',
+ 'srb2': 'Botas de Pontos Vermelhos de Chuva',
+ 'sts3': 'Sapatos de T\xc3\xaanis Roxo',
+ 'sts4': 'Sapatos de T\xc3\xaanis Violeta',
+ 'sts5': 'Sapatos de T\xc3\xaanis Amarelo',
+ 'srb3': 'Bolas Azuis de Chuva',
+ 'srb4': 'Botas Amarelas de Chuva',
+ 'sat4': 'Sapatos de Atl\xc3\xa9tico Preto',
+ 'shw1': 'Sapatos de Pirata',
+ 'shw2': 'Pata de Toonsauro'}
+AccessoryNamePrefix = {0: 'ch\xc3\xa1peu de unisex',
+ 1: '\xc3\xb3culos de unisex',
+ 2: 'mochila de unisex',
+ 3: 'sapatos de unisex',
+ 4: 'ch\xc3\xa1peu de menino',
+ 5: '\xc3\xb3culos de menino',
+ 6: 'mochila de menino',
+ 7: 'sapatos de menino',
+ 8: 'ch\xc3\xa1peu de menina',
+ 9: '\xc3\xb3culos de menina',
+ 10: 'mochila de menina',
+ 11: 'sapatos de menina'}
 AwardManagerAccessoryNames = {}
 AccessoryTypeNames = {}
 for accessoryId in list(CatalogAccessoryItemGlobals.AccessoryTypes.keys()):
@@ -6179,8 +6182,8 @@ AwardMgrBoy = 'masculino'
 AwardMgrGirl = 'feminino'
 AwardMgrUnisex = 'unissex'
 AwardMgrShorts = 'shorts'
-AwardMgrSaia = 'saia'
-AwardMgrCamisa = 'camisa'
+AwardMgrSkirt = 'saia'
+AwardMgrShirt = 'camisa'
 SpecialEventMailboxStrings = {1: 'Um item especial do conselho Toon',
  2: 'Pr\xc3\xaamio do Torneio de Pesca de Melville',
  3: 'Pr\xc3\xaamio do Torneio de Pesca de Billy Bud',
@@ -6195,7 +6198,9 @@ SpecialEventMailboxStrings = {1: 'Um item especial do conselho Toon',
  12: 'Pr\xc3\xaamio da Maratona de Salvar Edif\xc3\xadcio! Parab\xc3\xa9ns!',
  13: 'Pr\xc3\xaamio do Torneio de Maioria dos Cogs Derrotados! Parab\xc3\xa9ns!',
  14: 'Pr\xc3\xaamio do Torneio de Maioria de V.P.s Derrotados! Parab\xc3\xa9ns!',
- 15: 'Pr\xc3\xaamio Opera\xc3\xa7\xc3\xa3o: Rob\xc3\xb4 Vendedor Tempestade! Parab\xc3\xa9ns!'}
+ 15: 'Pr\xc3\xaamio Opera\xc3\xa7\xc3\xa3o: Rob\xc3\xb4 Vendedor Tempestade! Parab\xc3\xa9ns!',
+ 16: 'Pr\xc3\xaamio do Torneio de Maioria de C.J.s Derrotados! Parab\xc3\xa9ns!',
+ 17: 'Pr\xc3\xaamio Opera\xc3\xa7\xc3\xa3o: Rob\xc3\xb4 da Lei Perde! Parab\xc3\xa9ns!'}
 RentalHours = 'Horas de'
 RentalOf = 'De'
 RentalCannon = 'Canh\xc3\xb5es!'
@@ -6214,7 +6219,7 @@ TrunkHatGui = 'Chap\xc3\xa9us'
 TrunkGlassesGUI = '\xc3\x93culos'
 TrunkMochilasGUI = 'Mochilas'
 TrunkSapatosGUI = 'Sapatos'
-ChatItemQuotes = '"%s"'
+ChatItemQuotes = ''%s''
 FurnitureNames = {100: 'Poltrona',
  105: 'Poltrona',
  110: 'Cadeira',
@@ -6487,6 +6492,42 @@ AwardManagerFurnitureNames = {100: 'Poltrona A - S\xc3\xa9ries 1',
  10010: 'Ab\xc3\xb3bora',
  10020: '\xc3\x81rvore de Natal',
  10030: 'Guirlanda de Natal'}
+
+AwardManagerNametagNames = {
+    0   : 'Nome de Usu\xc3\xa1rio',
+    1   : 'Nome de Tremido',
+    2   : 'Nome de Arrepiante',
+    3   : 'Nome de Exorbitante',
+    4   : 'Nome de Bobo',
+    5   : 'Nome de Doido',
+    6   : 'Nome de Pratico',
+    7   : 'Nome de Nautico',
+    8   : 'Nome de Caprichoso',
+    9   : 'Nome de Estremecer',
+    10  : 'Nome de A\xc3\xa3o',
+    11  : 'Nome de Po\xc3\xa1tico',
+    12  : 'Nome de Passeio',
+    13  : 'Nome de Ocidental',
+    100 : 'Nome B\xc3\xa1sico',
+}
+
+AwardManagerGardenItemNames = {
+    100   : 'Est\xc3\xa1ua do Donald',
+    101   : 'Est\xc3\xa1ua do Mickey',
+    103   : 'Est\xc3\xa1ua da Minnie',
+    104   : 'Fonte do Mickey',
+    130   : 'Boneco-de-neve Deterretido',
+    131   : 'Rabisco-de-neve Deterretido',
+    135   : 'Cog Infl\xc3\xa1vel',
+}
+
+AwardManagerToonStatueNames = {
+    105   : 'Est\xc3\xa1ua do Toon Acenando',
+    106   : 'Est\xc3\xa1ua do Toon Vit\xc3\xb3rioso',
+    107   : 'Est\xc3\xa1ua do Toon da Autoridade',
+    108   : 'Est\xc3\xa1ua do Abra\xc3\xa7o de Toon',
+}
+
 ClothingArticleNames = ('Camisa',
  'Camisa',
  'Camisa',
@@ -9644,6 +9685,7 @@ CogdoElevatorRewardLaff = '\xc3\x93timo trabalho, Toons!\nVoc\xc3\xaas pegaram u
 CogdoExecutiveSuiteTitle = 'Su\xc3\xadte Executiva'
 CogdoExecutiveSuiteIntroMessage = 'Ah n\xc3\xa3o, eles pegaram o lojista!\nDerrote os Cogs e liberte o prisioneiro.'
 CogdoExecutiveSuiteToonThankYou = 'Obrigado pelo resgate!\nSe precisar de ajuda em uma briga, use este cart\xc3\xa3o SOS para ligar para meu amigo %s.'
+CogdoExecutiveSuiteToonThankYouLawbot = 'Obrigado pelo resgate!\nOs rob\xc3\xb4s da leis deixaram para tr\xc3\xa1s alguns pr\xc3\xaamios em engrenagens que voc\xc3\xaa pode usar para comprar novas coisas no seu cat\xc3\xa1logo!'
 CogdoExecutiveSuiteToonBye = 'Tchau!'
 SillySurgeTerms = {1: 'Ascens\xc3\xa3o Divertida!',
  2: 'Onda de Bobagem!',
