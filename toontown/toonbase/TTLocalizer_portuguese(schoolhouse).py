@@ -8,8 +8,6 @@ for key in OL.SpeedChatStaticTextCommon.iterkeys():
     OL.SpeedChatStaticText[key] = OL.SpeedChatStaticTextCommon[key]
 
 ExtraKeySanityCheck = 'Ignore-me'
-commitmanString = 'bugfix! I changed this'
-commitmanSting2 = 'another string!'
 commitmantst = 'kptmptest - removable'
 InterfaceFont = 'phase_3/models/fonts/ImpressBT.ttf'
 ToonFont = 'phase_3/models/fonts/ImpressBT.ttf'
@@ -68,8 +66,8 @@ SuperGoofy = 'SuperGoofy'
 Pluto  = 'Pluto'
 WesternPluto = 'WesternPluto'
 Flippy = 'Flippy'
-Chip   = 'Tico'
-Dale   = 'Teco'
+Chip = 'Tico'
+Dale = 'Teco'
 JailbirdDale = 'JailbirdDale'
 PoliceChip = 'PoliceChip'
 lTheBrrrgh = 'O Brrrgh'
@@ -3962,11 +3960,11 @@ toontownDialogues = {BoringTopic: {(1, 2018): ['Oi Albert', 'Parece que o n\xc3\
                                           'Quando isso acontecer, algo bobo certamente acontecer\xc3\xa1!', 'Ent\xc3\xa3o prepare-se para ficar rid\xc3\xadculo!']},
  AprilToonsPhaseTopTopic: {(1, 2020): ['O Medidor de Bobagem chegou ao topo!', 
                                        'Os rabiscos est\xc3\xa3o falando, as propriedades est\xc3\xa3o saltitantes!',
-                                       'S\xc3\xb3 h\xc3\xa1 uma coisa a dizer',
+                                       'S\xc3\xb3 h\xc3\xa1 uma coisa a dizer\xe2\x80\xa6',
                                        'FELIZ TOONS DE ABRIL!']}, 
  AprilToonsPhasePostTopTopic: {(1, 2020): ['Os Toons de Abril acabaram!',
                                            '\xc3\x89 hora de voltarmos ao nosso laborat\xc3\xb3rio.',
-                                           'Mas quando as coisas ficarem REALMENTE loucas de novo',
+                                           'Mas quando as coisas ficarem REALMENTE loucas de novo\xe2\x80\xa6',
                                            'O Medidor de Bobagem voltar\xc3\xa1!']},          
  EmceeDialoguePhase1Topic: {(1, 2020): ['Amigos Toons, este \xc3\xa9 o Medidor de Bobagens!',
                                         'Ele registra a varia\xc3\xa7\xc3\xa3o do n\xc3\xadvel de bobagem de Toontown...',
@@ -6795,7 +6793,7 @@ CatalogPurchaseGiftItemOnOrder = '\xc3\x93timo! O seu presente para %s ser\xc3\x
 CatalogAnythingElse = 'Deseja mais alguma coisa hoje?'
 CatalogPurchaseClosetFull = 'O seu arm\xc3\xa1rio est\xc3\xa1 cheio. Apesar disso, voc\xc3\xaa pode comprar este item, mas se comprar, ter\xc3\xa1 que excluir alguma coisa do seu arm\xc3\xa1rio para liberar espa\xc3\xa7o para o novo item, quando ele chegar.\n\nQuer comprar este item mesmo assim?'
 CatalogPurchaseNoTrunk = "Para usar este item, voc\xc3\xaa precisa comprar um ba\xc3\xba.\n\nVoc\xc3\xaa ainda deseja comprar este item?" 
-CatalogPurchaseTrunkFull = 'O seu ba\xc3\xba est\xc3\xa1 cheio. Se voc\xc3\xaa comprar este item, voc\xc3\xaa precisar\xc3\xa1 excluir outro item no ba\xc3\xba para abrir mais.\n\nVoc\xc3\xaa ainda deseja comprar este item?'
+CatalogPurchaseTrunkFull = 'O seu ba\xc3\xba est\xc3\xa1 cheio. Se voc\xc3\xaa comprar este item, voc\xc3\xaa\xe2\x80\x99 precisar\xc3\xa1 excluir outro item no ba\xc3\xba para abrir mais.\n\nVoc\xc3\xaa ainda deseja comprar este item?'
 CatalogAcceptClosetFull = 'O seu arm\xc3\xa1rio est\xc3\xa1 cheio. Entre em casa e exclua alguma coisa do seu arm\xc3\xa1rio para liberar espa\xc3\xa7o para o item antes de retir\xc3\xa1-lo da caixa de correio.'
 CatalogAcceptNoTrunk = 'Voc\xc3\xaa n\xc3\xa3o tem um ba\xc3\xba. Voc\xc3\xaa deve comprar um ba\xc3\xba antes de retirar este item da sua caixa de correio.'
 CatalogAcceptTrunkFull = 'Seu ba\xc3\xba est\xc3\xa1 cheio. Voc\xc3\xaa deve excluir algo do seu ba\xc3\xba antes de poder retirar este item de sua caixa de correio.'
