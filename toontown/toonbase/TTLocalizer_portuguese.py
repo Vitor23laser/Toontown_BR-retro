@@ -1896,7 +1896,10 @@ ChatGarblerDog = ['au', 'arf', 'grrrr']
 ChatGarblerCat = ['miau', 'miu']
 ChatGarblerMouse = ['quick', 'quiiii', 'quiiiiquiiii']
 ChatGarblerHorse = ['rííírrrr', 'brrr']
-ChatGarblerRabbit = ['ick', 'iipr', 'iipi', 'iicki']
+ChatGarblerRabbit = ['ick', 
+ 'iipr',
+ 'iipi',
+ 'iicki']
 ChatGarblerDuck = ['quá', 'quack', 'quáááck']
 ChatGarblerMonkey = ['ooh', 'ooo', 'ahh']
 ChatGarblerBear = ['grrrau', 'grrr']
