@@ -8147,8 +8147,8 @@ PetTrait2descriptions = {'hungerThreshold': ('Sempre faminto',
                         'Sempre carinhoso')}
 FireworksInstructions = lToonHQ+': Pressione a tecla "Page Up" para ver melhor.'
 startFireworksResponse = "Usando: startFireworksShow ['num']\n                                         'num' = %s - Ano Novos\n                                         %s - Festa de Verão \n                                         %s - 4 de Julho"
-FireworksValentinesBeginning = ''
-FireworksValentinesEnding = ''
+FireworksValentinesBeginning = lToonHQ+': Feliz Dia dos Toons dos Namorados para todos os apaixonados!'
+FireworksValentinesEnding = lToonHQ+': Espero que tenha gostado do show!'
 FireworksJuly4Beginning = lToonHQ+': Bem-vindo à queima de fogos de verão! Divirta-se com o show!'
 FireworksJuly4Ending = lToonHQ+': Espero que tenha gostado do show! Um ótimo verão para você!'
 FireworksJuly14Beginning = lToonHQ+': Fogos de artifício de 14 de julho! Espero que tenha gostado do show!'
