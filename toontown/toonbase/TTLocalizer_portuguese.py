@@ -9321,6 +9321,7 @@ ElevatorBlockedRoom = 'Todos os desafios devem ser vencidos antes disso.'
 MolesLeft = 'Toupeiras Restantes: %d'
 MolesInstruction = 'Pisão nas Toupeiras!\nPule nas toupeiras vermelhas!'
 MolesFinished = 'Pisão nas Toupeiras vencido!'
+MolesPityWin = 'Perdeu no Pisão! Mas as Toupeiras estão na esquerda.'
 MolesRestarted = 'Perdeu no Pisão! Recomeçando...'
 BustACogInstruction = 'Remova a bola Cog!'
 BustACogExit = 'Sair por Enquanto'
@@ -9603,7 +9604,7 @@ HolidayNamesInCalendar = {1: ('Fogos de Artifício de Verão', 'Comemore o Verã
  98: ('Dia das Balinhas em Dobro - Pescaria', ''),
  99: ('Semana das Balinhas', 'Comemore a semana das balinhas com balinhas em dobro como recompensas!'),
  101: ('Dia da Maratona de Ano-Novo dos Top Toons', 'Chances para vencer a toda hora! Veja o que é de Novo no Blog para mais detalhes!'),
- 105: ('Idos de Março', 'Os Idos de Março estão aqui!')}
+ 105: ('Toons agora Verde!', 'Toons façam um cena Verde com balinhas verdes na Rua dos Carnavlhos nos Jardins da Margarida')}
 UnknownHoliday = 'Feriado Desconhecido %d'
 HolidayFormat = '%m/%d '
 TimeZone = 'Brazil/West'
