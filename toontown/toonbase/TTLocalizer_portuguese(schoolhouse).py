@@ -1,4 +1,3 @@
-
 import string
 import time
 from toontown.toonbase.TTLocalizer_portuguese_Property import *
@@ -1897,7 +1896,10 @@ ChatGarblerDog = ['au', 'arf', 'grrrr']
 ChatGarblerCat = ['miau', 'miu']
 ChatGarblerMouse = ['quick', 'quiiii', 'quiiiiquiiii']
 ChatGarblerHorse = ['r\xc3\xad\xc3\xad\xc3\xadrrrr', 'brrr']
-ChatGarblerRabbit = ['ick', 'iipr', 'iipi', 'iicki']
+ChatGarblerRabbit = ['ick', 
+ 'iipr', 
+ 'iipi', 
+ 'iicki']
 ChatGarblerDuck = ['qu\xc3\xa1', 'quack', 'qu\xc3\xa1\xc3\xa1\xc3\xa1ck']
 ChatGarblerMonkey = ['ooh', 'ooo', 'ahh']
 ChatGarblerBear = ['grrrau', 'grrr']
@@ -4632,12 +4634,12 @@ CalendarPartyGo = 'Festejar!'
 CalendarPartyFinished = 'Acabou...'
 CalendarPartyCancelled = 'Cancelado.'
 CalendarPartyNeverStarted = 'Nunca Aconteceu.'
-NPCFriendPanelRemaining = 'Restantes %s'
 PartiesPageTitle = ''
 PartiesPageHostTab = ''
 PartiesPageInvitedTab = ''
 PartiesPageTitleHost = ''
 PartiesPageTitleInvited = ''
+NPCFriendPanelRemaining = 'Restantes %s'
 MapPageTitle = 'Mapa'
 MapPageBackToPlayground = 'Voltar para o p\xc3\xa1tio'
 MapPageBackToCogHQ = 'Voltar para o Quartel de Cogs'
@@ -8184,12 +8186,14 @@ PetTrait2descriptions = {'hungerThreshold': ('Sempre faminto',
                         'Sempre carinhoso')}
 FireworksInstructions = lToonHQ+': Pressione a tecla "Page Up" para ver melhor.'
 startFireworksResponse = "Usando: startFireworksShow ['num']\n                                         'num' = %s - Ano Novos\n                                         %s - Festa de Ver\xc3\xa3o \n                                         %s - 4 de Julho"
+FireworksValentinesBeginning = ''
+FireworksValentinesEnding = ''
 FireworksJuly4Beginning = lToonHQ+': Bem-vindo \xc3\xa0 queima de fogos de ver\xc3\xa3o! Divirta-se com o show!'
 FireworksJuly4Ending = lToonHQ+': Espero que tenha gostado do show! Um \xc3\xb3timo ver\xc3\xa3o para voc\xc3\xaa!'
-FireworksJuly14Beginning = lToonHQ+': Fogos de artif\xc3\xadcio de 14 de julho! Espero que tenha gostado do show!'
-FireworksJuly14Ending = lToonHQ+': Espero que tenha gostado do show!'
-FireworksOctober31Beginng = lToonHQ+': Feliz Halloween!'
-FireworksOctober31Ending = lToonHQ+': Espero que tenha gostado do show!'
+FireworksJuly14Beginning = lToonHQ+''
+FireworksJuly14Ending = lToonHQ+''
+FireworksOctober31Beginng = lToonHQ+''
+FireworksOctober31Ending = lToonHQ+''
 FireworksNewYearsEveBeginning = lToonHQ+': Feliz Ano Novo! Aproveite o show de fogos de artif\xc3\xadcio!'
 FireworksNewYearsEveEnding = lToonHQ+': Espero que tenha gostado do show! Feliz Ano Novo!'
 FireworksComboBeginning = lToonHQ+': Aproveite muitas risadas com os fogos de artif\xc3\xadcio do Toon!'
