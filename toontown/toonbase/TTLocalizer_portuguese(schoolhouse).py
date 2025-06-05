@@ -3712,7 +3712,7 @@ HalloweenDonaldChatter = (['Bem-vindo ao meu porto do Halloween!',
   'Por que os fantasmas n\xc3\xa3o se afogam? Porque eles usam boia!',
   'Se pedir doces est\xc3\xa1 fazendo voc\xc3\xaa se sentir Rid\xc3\xadquilhas, ent\xc3\xa3o v\xc3\xa1 ver Rudy para uma travessura!',
   'Espero que voc\xc3\xaa esteja gostando da nossa divers\xc3\xa3o de Halloween!'], ['Vamos partir para levar alguns sustos!', 'Boa-assombra\xc3\xa7\xc3\xa3o!', 'Vou dar uma olhada nas decora\xc3\xa7\xc3\xb5es assustadoras de Halloween.'])
-ValentinesDonaldChatter = (['Oi, eu sou o Donald!', 'Feliz Dia do Toon dos Namorados!', 'Feliz Dia do Toon dos Namorados,  %!'], ['Eu deveria levar a Margarida para algum lugar no Dia do Toon dos Namorados?\xe2\x80\x9d',
+ValentinesDonaldChatter = (['Oi, eu sou o Donald!', 'Feliz Dia do Toon dos Namorados!', 'Feliz Dia do Toon dos Namorados,  %!'], ['Eu deveria levar a Margarida para algum lugar no Dia do Toon dos Namorados?',
   'S\xc3\xb3 mais uma volta no cais e eu pegarei alguma coisa para a Margarida.',
   'O que a Margarida gostaria de ganhar no Dia do Toon dos Namorados?',
   'Aqueles cora\xc3\xa7\xc3\xb5es na \xc3\xa1gua s\xc3\xa3o bons para melhorar a Risada!',
