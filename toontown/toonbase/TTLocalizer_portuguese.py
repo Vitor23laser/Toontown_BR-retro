@@ -4695,6 +4695,7 @@ CdrResultMailboxFull = 'Sua caixa de correio está cheia. Remova um item e insir
 CdrResultAlreadyInMailbox = "Você já recebeu este item. Verifique sua caixa de correio para confirmar."
 CdrResultAlreadyInQueue = 'Seu item está a caminho. Verifique sua caixa de correio em alguns minutos para recebê-lo.'
 CdrResultAlreadyInCloset = "Você já recebeu este item. Verifique seu guarda-roupa para confirmar."
+CdrResultAlreadyInTrunk = "Você já recebeu este item. Verifique seu baú para confirmar."
 CdrResultAlreadyBeingWorn = "Você já recebeu este item e está usando-o!"
 CdrResultAlreadyReceived = "Você já recebeu este item."
 CdrResultTooManyFails = "Sinto muito. Você tentou inserir um código incorreto muitas vezes. Tente novamente em breve."
@@ -6623,6 +6624,10 @@ WallpaperNames = {1000: 'Pergaminho',
  11000: 'Flocos de neve',
  11100: 'Folhas de Natal',
  11200: 'Boneco de neve',
+ 12000: 'Toons dos Namorados',
+ 12100: 'Toons dos Namorados',
+ 12200: 'Toons dos Namorados',
+ 12300: 'Toons dos Namorados',
  13000: 'Trevo',
  13100: 'Trevo',
  13200: 'Arco-íris',
@@ -6656,10 +6661,20 @@ MouldingNames = {1000: 'Nós',
  1020: 'Dental',
  1030: 'Flores',
  1040: 'Flores',
- 1050: 'Joaninha'}
+ 1050: 'Joaninha'
+ 1060: 'Toons dos Namorados',
+ 1070: 'Praia',
+ 1080: 'Luzes de Inverno 1',
+ 1085: 'Luzes de Inverno 2',
+ 1090: 'Luzes de Inverno 3',
+ 1100: 'Cupido dos Toons dos Namorados'
+ 1110: 'Corações dos Toons dos Namorados 1',
+ 1120: 'Corações dos Toons dos Namorados 2'}
 WainscotingNames = {1000: 'Pintado',
  1010: 'Painel de madeira',
- 1020: 'Madeira'}
+ 1020: 'Madeira',
+ 1030: 'Toons dos Namorados',
+ 1040: 'Subermarino'}
 WindowViewNames = {10: 'Jardim amplo',
  20: 'Jardim selvagem',
  30: 'Jardim grego',
@@ -6848,9 +6863,15 @@ CatalogMembersOnly = 'Somente para\nUsuários!'
 CatalogSndOnText = 'Som Ligado'
 CatalogSndOffText = 'Som Desligado'
 CatalogPurchasedMaxText = 'Já\ncomprado o máx.'
+CatalogVerifyPurchase = 'Comprar o item %(item)s por %(price)s balinhas?'
+CatalogVerifyPurchaseBeanSilverGold = 'Comprar o item %(item)s por %(price)s balinhas, %(silver)s emblemas prateadas e %(gold)s emblemas douradas?'
+CatalogVerifyPurchaseBeanGold = 'Comprar o item %(item)s por %(price)s balinhas e %(gold)s emblemas douradas?'
+CatalogVerifyPurchaseBeanSilver = 'Comprar o item %(item)s por %(price)s balinhas e %(silver)s emblemas prateadas?'
+CatalogVerifyPurchaseSilverGold = 'Comprar o item %(item)s por %(silver)s emblemas prateadas e %(gold)s emblemas douradas?'
+CatalogVerifyPurchaseSilver = 'Comprar o item %(item)s por %(silver)s emblemas prateadas?'
+CatalogVerifyPurchaseGold = 'Comprar o item %(item)s por %(gold)s emblemas douradas?'
 CatalogVerifyRent = 'Alugar %(item)s por %(price)s balinhas?'
 CatalogVerifyGift = 'Comprar %(item)s por %(price)s balinhas de presente para %(friend)s?'
-CatalogVerifyPurchase = 'Comprar o item %(item)s por %(price)s balinhas?'
 CatalogOnlyOnePurchase = 'Você só pode ter um destes itens de cada vez. Se comprar este aqui, ele substituirá os itens %(old)s.\n\nTem certeza de que quer comprar o item %(item)s por %(price)s balinhas?'
 CatalogExitButtonText = 'Desligar'
 CatalogCurrentButtonText = 'Para itens atuais'
@@ -8147,18 +8168,18 @@ PetTrait2descriptions = {'hungerThreshold': ('Sempre faminto',
                         'Sempre carinhoso')}
 FireworksInstructions = lToonHQ+': Pressione a tecla "Page Up" para ver melhor.'
 startFireworksResponse = "Usando: startFireworksShow ['num']\n                                         'num' = %s - Ano Novos\n                                         %s - Festa de Verão \n                                         %s - 4 de Julho"
-FireworksValentinesBeginning = lToonHQ+': Feliz Dia dos Toons dos Namorados para todos os apaixonados!'
-FireworksValentinesEnding = lToonHQ+': Espero que tenha gostado do show!'
-FireworksJuly4Beginning = lToonHQ+': Bem-vindo à queima de fogos de verão! Divirta-se com o show!'
-FireworksJuly4Ending = lToonHQ+': Espero que tenha gostado do show! Um ótimo verão para você!'
-FireworksJuly14Beginning = lToonHQ+': Fogos de artifício de 14 de julho! Espero que tenha gostado do show!'
-FireworksJuly14Ending = lToonHQ+': Espero que tenha gostado do show!'
-FireworksOctober31Beginng = lToonHQ+': Feliz Halloween!'
-FireworksOctober31Ending = lToonHQ+': Espero que tenha gostado do show!'
-FireworksNewYearsEveBeginning = lToonHQ+': Feliz Ano Novo! Aproveite o show de fogos de artifício!'
-FireworksNewYearsEveEnding = lToonHQ+': Espero que tenha gostado do show! Feliz Ano Novo!'
-FireworksComboBeginning = lToonHQ+': Aproveite muitas risadas com os fogos de artifício do Toon!'
-FireworksComboEnding = lToonHQ+': Obrigado, Toons! Espero que tenha gostado do show!'
+FireworksValentinesBeginning = lToonHQ + ': Feliz Dia dos Toons dos Namorados para todos os apaixonados!'
+FireworksValentinesEnding = lToonHQ + ': Espero que tenha gostado do show!'
+FireworksJuly4Beginning = lToonHQ + ': Bem-vindo à queima de fogos de verão! Divirta-se com o show!'
+FireworksJuly4Ending = lToonHQ + ': Espero que tenha gostado do show! Um ótimo verão para você!'
+FireworksJuly14Beginning = lToonHQ + ': Fogos de artifício de 14 de julho! Espero que tenha gostado do show!'
+FireworksJuly14Ending = lToonHQ + ': Espero que tenha gostado do show!'
+FireworksOctober31Beginng = lToonHQ + ': Feliz Halloween!'
+FireworksOctober31Ending = lToonHQ + ': Espero que tenha gostado do show!'
+FireworksNewYearsEveBeginning = lToonHQ + ': Feliz Ano Novo! Aproveite o show de fogos de artifício!'
+FireworksNewYearsEveEnding = lToonHQ + ': Espero que tenha gostado do show! Feliz Ano Novo!'
+FireworksComboBeginning = lToonHQ + ': Aproveite muitas risadas com os fogos de artifício do Toon!'
+FireworksComboEnding = lToonHQ + ': Obrigado, Toons! Espero que tenha gostado do show!'
 BlockerTitle = 'CARREGANDO TOONTOWN...'
 BlockerLoadingTexts = ['Esfregando formas de torta',
  'Assando massas de torta',
