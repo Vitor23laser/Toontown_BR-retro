@@ -8,6 +8,8 @@ for key in OL.SpeedChatStaticTextCommon.iterkeys():
     OL.SpeedChatStaticText[key] = OL.SpeedChatStaticTextCommon[key]
 
 ExtraKeySanityCheck = 'Ignore-me'
+commitmanString = 'bugfix! I changed this'
+commitmanSting2 = 'another string!'
 commitmantst = 'kptmptest - removable'
 InterfaceFont = 'phase_3/models/fonts/ImpressBT.ttf'
 ToonFont = 'phase_3/models/fonts/ImpressBT.ttf'
@@ -5915,6 +5917,7 @@ for accessoryId in list(CatalogAccessoryItemGlobals.AccessoryTypes.keys()):
     if accessoryInfo[3]:
         AwardManagerAccessoryNames[accessoryId] = AccessoryNamePrefix[accessoryInfo[0]] + accessoryStyleDescription[accessoryInfo[1]]
     AccessoryTypeNames[accessoryId] = accessoryStyleDescription[accessoryInfo[1]]
+    
 ShirtStylesDescriptions = {'bss1': 'b\xc3\xa1sica',
  'bss2': 'uma listra',
  'bss3': 'colarinho',
@@ -6180,7 +6183,7 @@ BottomStylesDescriptions = {'bbs1': 'b\xc3\xa1sico com bolsos',
  'hw_gs5': 'Shorts de SuperToon de Halloween feminino',
  'hw_gs6': 'Shorts de Vampiro sem capa de Halloween feminino',
  'hw_gs7': 'Shorts de Dinossauro de Halloween feminino',
-'hw_gsk1': 'Saia de Pirata de Halloween'}
+ 'hw_gsk1': 'Saia de Pirata de Halloween'}
 AwardMgrBoy = 'masculino'
 AwardMgrGirl = 'feminino'
 AwardMgrUnisex = 'unissex'
@@ -6497,21 +6500,21 @@ AwardManagerFurnitureNames = {100: 'Poltrona A - S\xc3\xa9ries 1',
  10030: 'Guirlanda de Natal'}
 
 AwardManagerNametagNames = {
-    0   : 'Nome de Usu\xc3\xa1rio',
-    1   : 'Nome de Tremido',
-    2   : 'Nome de Arrepiante',
-    3   : 'Nome de Exorbitante',
-    4   : 'Nome de Bobo',
-    5   : 'Nome de Doido',
-    6   : 'Nome de Pratico',
-    7   : 'Nome de Nautico',
-    8   : 'Nome de Caprichoso',
-    9   : 'Nome de Estremecer',
-    10  : 'Nome de A\xc3\xa3o',
-    11  : 'Nome de Po\xc3\xa1tico',
-    12  : 'Nome de Passeio',
-    13  : 'Nome de Ocidental',
-    100 : 'Nome B\xc3\xa1sico',
+    0   : 'Crach\xc3\xa1 de Usu\xc3\xa1rio',
+    1   : 'Crach\xc3\xa1 de Tremido',
+    2   : 'Crach\xc3\xa1 de Arrepiante',
+    3   : 'Crach\xc3\xa1 de Exorbitante',
+    4   : 'Crach\xc3\xa1 de Bobo',
+    5   : 'Crach\xc3\xa1 de Doido',
+    6   : 'Crach\xc3\xa1 de Pratico',
+    7   : 'Crach\xc3\xa1 de Nautico',
+    8   : 'Crach\xc3\xa1 de Caprichoso',
+    9   : 'Crach\xc3\xa1 de Estremecer',
+    10  : 'Crach\xc3\xa1 de A\xc3\xa3o',
+    11  : 'Crach\xc3\xa1 de Po\xc3\xa1tico',
+    12  : 'Crach\xc3\xa1 de Passeio',
+    13  : 'Crach\xc3\xa1 de Ocidental',
+    100 : 'Crach\xc3\xa1 B\xc3\xa1sico',
 }
 
 AwardManagerGardenItemNames = {
@@ -6664,6 +6667,10 @@ WallpaperNames = {1000: 'Pergaminho',
  11000: 'Flocos de neve',
  11100: 'Folhas de Natal',
  11200: 'Boneco de neve',
+ 12000: 'Toons dos Namorados',
+ 12100: 'Toons dos Namorados',
+ 12200: 'Toons dos Namorados',
+ 12300: 'Toons dos Namorados',
  13000: 'Trevo',
  13100: 'Trevo',
  13200: 'Arco-\xc3\xadris',
@@ -6697,10 +6704,20 @@ MouldingNames = {1000: 'N\xc3\xb3s',
  1020: 'Dental',
  1030: 'Flores',
  1040: 'Flores',
- 1050: 'Joaninha'}
+ 1050: 'Joaninha',
+ 1060: 'Toons dos Namorados',
+ 1070: 'Praia',
+ 1080: 'Luzes de Inverno 1',
+ 1085: 'Luzes de Inverno 2',
+ 1090: 'Luzes de Inverno 3',
+ 1100: 'Cupido dos Toons dos Namorados'
+ 1110: 'Cora\xc3\xa7\xc3\xb5s dos Toons dos Namorados 1',
+ 1120: 'Cora\xc3\xa7\xc3\xb5s dos Toons dos Namorados 2',}
 WainscotingNames = {1000: 'Pintado',
  1010: 'Painel de madeira',
- 1020: 'Madeira'}
+ 1020: 'Madeira',
+ 1030: 'Toons dos Namorados',
+ 1040: 'Subermarino'}
 WindowViewNames = {10: 'Jardim amplo',
  20: 'Jardim selvagem',
  30: 'Jardim grego',
@@ -6889,9 +6906,15 @@ CatalogMembersOnly = 'Somente para\nUsu\xc3\xa1rios!'
 CatalogSndOnText = 'Som Ligado'
 CatalogSndOffText = 'Som Desligado'
 CatalogPurchasedMaxText = 'J\xc3\xa1\ncomprado o m\xc3\xa1x.'
+CatalogVerifyPurchase = 'Comprar o item %(item)s por %(price)s balinhas?'
+CatalogVerifyPurchaseBeanSilverGold = 'Comprar o item %(item)s por %(price)s balinhas, %(silver)s emblemas prateadas e %(gold)s emblemas douradas?'
+CatalogVerifyPurchaseBeanGold = 'Comprar o item %(item)s por %(price)s balinhas e %(gold)s emblemas douradas?'
+CatalogVerifyPurchaseBeanSilver = 'Comprar o item %(item)s por %(price)s balinhas e %(silver)s emblemas prateadas?'
+CatalogVerifyPurchaseSilverGold = 'Comprar o item %(item)s por %(silver)s emblemas prateadas e %(gold)s emblemas douradas?'
+CatalogVerifyPurchaseSilver = 'Comprar o item %(item)s por %(silver)s emblemas prateadas?'
+CatalogVerifyPurchaseGold = 'Comprar o item %(item)s por %(gold)s emblemas douradas?'
 CatalogVerifyRent = 'Alugar %(item)s por %(price)s balinhas?'
 CatalogVerifyGift = 'Comprar %(item)s por %(price)s balinhas de presente para %(friend)s?'
-CatalogVerifyPurchase = 'Comprar o item %(item)s por %(price)s balinhas?'
 CatalogOnlyOnePurchase = 'Voc\xc3\xaa s\xc3\xb3 pode ter um destes itens de cada vez. Se comprar este aqui, ele substituir\xc3\xa1 os itens %(old)s.\n\nTem certeza de que quer comprar o item %(item)s por %(price)s balinhas?'
 CatalogExitButtonText = 'Desligar'
 CatalogCurrentButtonText = 'Para itens atuais'
@@ -8188,18 +8211,18 @@ PetTrait2descriptions = {'hungerThreshold': ('Sempre faminto',
                         'Sempre carinhoso')}
 FireworksInstructions = lToonHQ+': Pressione a tecla "Page Up" para ver melhor.'
 startFireworksResponse = "Usando: startFireworksShow ['num']\n                                         'num' = %s - Ano Novos\n                                         %s - Festa de Ver\xc3\xa3o \n                                         %s - 4 de Julho"
-FireworksValentinesBeginning = ''
-FireworksValentinesEnding = ''
-FireworksJuly4Beginning = lToonHQ+': Bem-vindo \xc3\xa0 queima de fogos de ver\xc3\xa3o! Divirta-se com o show!'
-FireworksJuly4Ending = lToonHQ+': Espero que tenha gostado do show! Um \xc3\xb3timo ver\xc3\xa3o para voc\xc3\xaa!'
-FireworksJuly14Beginning = lToonHQ+''
-FireworksJuly14Ending = lToonHQ+''
-FireworksOctober31Beginng = lToonHQ+''
-FireworksOctober31Ending = lToonHQ+''
-FireworksNewYearsEveBeginning = lToonHQ+': Feliz Ano Novo! Aproveite o show de fogos de artif\xc3\xadcio!'
-FireworksNewYearsEveEnding = lToonHQ+': Espero que tenha gostado do show! Feliz Ano Novo!'
-FireworksComboBeginning = lToonHQ+': Aproveite muitas risadas com os fogos de artif\xc3\xadcio do Toon!'
-FireworksComboEnding = lToonHQ+': Obrigado, Toons! Espero que tenha gostado do show!'
+FireworksValentinesBeginning = lToonHQ + ': Feliz Dia dos Toons dos Namorados para todos os apaixonados!'
+FireworksValentinesEnding = lToonHQ + ': Espero que tenha gostado do show!'
+FireworksJuly4Beginning = lToonHQ + ': Bem-vindo \xc3\xa0 queima de fogos de ver\xc3\xa3o! Divirta-se com o show!'
+FireworksJuly4Ending = lToonHQ + ': Espero que tenha gostado do show! Um \xc3\xb3timo ver\xc3\xa3o para voc\xc3\xaa!'
+FireworksJuly14Beginning = lToonHQ + ': Fogos de artif\xc3\xadcio de 14 de julho! Espero que tenha gostado do show!'
+FireworksJuly14Ending = lToonHQ + ': Espero que tenha gostado do show!'
+FireworksOctober31Beginng = lToonHQ + ': Feliz Halloween!'
+FireworksOctober31Ending = lToonHQ + ': Espero que tenha gostado do show!'
+FireworksNewYearsEveBeginning = lToonHQ + ': Feliz Ano Novo! Aproveite o show de fogos de artif\xc3\xadcio!'
+FireworksNewYearsEveEnding = lToonHQ + ': Espero que tenha gostado do show! Feliz Ano Novo!'
+FireworksComboBeginning = lToonHQ + ': Aproveite muitas risadas com os fogos de artif\xc3\xadcio do Toon!'
+FireworksComboEnding = lToonHQ + ': Obrigado, Toons! Espero que tenha gostado do show!'
 BlockerTitle = 'CARREGANDO TOONTOWN...'
 BlockerLoadingTexts = ['Esfregando formas de torta',
  'Assando massas de torta',
@@ -8242,7 +8265,7 @@ TIP_ESTATE = 5
 TIP_KARTING = 6
 TIP_GOLF = 7
 TipTitle = 'DICA TOON:'
-TipDict = {TIP_NONE: (''),
+TipDict = {TIP_NONE: ('',),
  TIP_GENERAL: ("Verifique com rapidez o andamento da Tarefa Toon mantendo pressionada a tecla 'End'.",
                "Verifique com rapidez a sua P\xc3\xa1gina de piadas mantendo pressionada a tecla 'Home'.",
                "Abra a sua Lista de amigos pressionando a tecla 'F7'.",
@@ -8937,13 +8960,14 @@ StatuaryMinnie = 'Est\xc3\xa1tua da Minnie'
 StatuaryMickey1 = 'Est\xc3\xa1tua do Mickey'
 StatuaryMickey2 = 'Fonte do Mickey'
 StatuaryToon = 'Est\xc3\xa1tua de Toon'
-StatuaryToonWave = 'Est\xc3\xa1tua da Onda Toon'
-StatuaryToonVictory = 'Est\xc3\xa1tua da Vit\xc3\xb3ria Toon'
-StatuaryToonCrossedArms = 'Est\xc3\xa1tua da Autoridade Toon'
-StatuaryToonThinking = 'Est\xc3\xa1tua do Abra\xc3\xa7o Toon'
-StatuaryMeltingSnowman =' Boneco de neve Derretendo' 
+StatuaryToonWave = 'Est\xc3\xa1tua de Toon Acenando'
+StatuaryToonVictory = 'Est\xc3\xa1tua da Vit\xc3\xb3ria de Toon'
+StatuaryToonCrossedArms = 'Est\xc3\xa1tua da Autoridade de Toon'
+StatuaryToonThinking = 'Est\xc3\xa1tua do Abra\xc3\xa7o de Toon'
+StatuaryMeltingSnowman = 'Boneco de neve Derretendo'
+StatuaryMeltingSnowDoddle = 'Rabisco de neve Derretendo'
 StatuaryGardenAccelerator = 'Fertilizante Instant\xc3\xa2neo'
-AnimatedStatuaryFlappyCog = 'Cog abano'
+AnimatedStatuaryFlappyCog = 'Cog Infl\xc3\xa1vel'
 FlowerColorStrings = ['Vermelha',
  'Laranja',
  'Violeta',
@@ -9096,7 +9120,8 @@ def getRecipeBeanText(beanTuple):
                 retval += ', %s' % BeanColorWords[beanTuple[index]]
 
     return retval
-    
+
+
 GardenTextMagicBeans = 'Balas M\xc3\xa1gicas'
 GardenTextMagicBeansB = 'Outras Balas'
 GardenSpecialDiscription = 'Este texto deveria explicar como usar certo especial do jardim'
@@ -9226,10 +9251,10 @@ GolfShotDesc = {-4: GolfCondor,
  -3: GolfAlbatross,
  -2: GolfEagle,
  -1: GolfBirdie,
-  0: GolfPar,
-  1: GolfBogey,
-  2: GolfDoubleBogey,
-  3: GolfTripleBogey}
+ 0: GolfPar,
+ 1: GolfBogey,
+ 2: GolfDoubleBogey,
+ 3: GolfTripleBogey}
 from toontown.golf import GolfGlobals
 CoursesCompleted = 'Percursos Conclu\xc3\xaddos'
 CoursesUnderPar = 'Percursos Abaixo do Par'
@@ -9284,9 +9309,7 @@ GolfTrophyDescriptions = [str(GolfGlobals.TrophyRequirements[GolfGlobals.Courses
  str(GolfGlobals.TrophyRequirements[GolfGlobals.CourseTwoWins][0]) + ' ' + CourseTwoWins,
  str(GolfGlobals.TrophyRequirements[GolfGlobals.CourseTwoWins][1]) + ' ' + CourseTwoWins,
  str(GolfGlobals.TrophyRequirements[GolfGlobals.CourseTwoWins][2]) + ' ' + CourseTwoWins]
-GolfCupDescriptions = [str(GolfGlobals.TrophiesPerCup) + ' Trof\xc3\xa9us ganhos',
- str(GolfGlobals.TrophiesPerCup * 2) + ' Trof\xc3\xa9us ganhos',
- str(GolfGlobals.TrophiesPerCup * 3) + ' Trof\xc3\xa9us ganhos']
+GolfCupDescriptions = [str(GolfGlobals.TrophiesPerCup) + ' Trof\xc3\xa9us ganhos', str(GolfGlobals.TrophiesPerCup * 2) + ' Trof\xc3\xa9us ganhos', str(GolfGlobals.TrophiesPerCup * 3) + ' Trof\xc3\xa9us ganhos']
 GolfAvReceivesHoleBest = '%(name)s marcou um novo recorde de tacadas em %(hole)s!'
 GolfAvReceivesCourseBest = '%(name)s marcou um novo recorde de percurso em %(course)s!!'
 GolfAvReceivesCup = '%(name)s ganhou a ta\xc3\xa7a %(cup)s!!  B\xc3\xb4nus em pontos de risada!'
@@ -9362,6 +9385,7 @@ ElevatorBlockedRoom = 'Todos os desafios devem ser vencidos antes disso.'
 MolesLeft = 'Toupeiras Restantes: %d'
 MolesInstruction = 'Pis\xc3\xa3o nas Toupeiras!\nPule nas toupeiras vermelhas!'
 MolesFinished = 'Pis\xc3\xa3o nas Toupeiras vencido!'
+MolesPityWin = 'Perdeu no Pis\xc3\xa3o! Mas as Toupeiras est\xc3\xa3o a esquerda.'
 MolesRestarted = 'Perdeu no Pis\xc3\xa3o! Recome\xc3\xa7ando...'
 BustACogInstruction = 'Remova a bola Cog!'
 BustACogExit = 'Sair por Enquanto'
@@ -9644,7 +9668,7 @@ HolidayNamesInCalendar = {1: ('Fogos de Artif\xc3\xadcio de Ver\xc3\xa3o', 'Come
  98: ('Dia das Balinhas em Dobro - Pescaria', ''),
  99: ('Semana das Balinhas', 'Comemore a semana das balinhas com balinhas em dobro como recompensas!'),
  101: ('Dia da Maratona de Ano-Novo dos Top Toons', 'Chances para vencer a toda hora! Veja o que \xc3\xa9 de Novo no Blog para mais detalhes!'),
- 105: ('Idos de Mar\xc3\xa7o', 'Os Idos de Mar\xc3\xa7o est\xc3\xa3o aqui!')}
+ 105: ('Toons agora verde', 'Toons fa\xc3\xa7a uma cena Verde com Balinhas Verdes na Rua dos Carvalhos no Jardins da Margarida')}
 UnknownHoliday = 'Feriado Desconhecido %d'
 HolidayFormat = '%m/%d '
 TimeZone = 'Brazil/West'
