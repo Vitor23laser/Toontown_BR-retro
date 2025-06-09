@@ -2442,24 +2442,24 @@ SpeedChatStaticTextPirates = {
     52402 : "Caramba, trapaceiro!",
     
     # Jogos de Cartas - Pôquer
-51900: "Que flop terrível!",
-51901: "Tentando comprar a mão, é?",
-51902: "Você está blefando.",
-51903: "Acho que você não tinha.",
-51904: "Salvo pelo river.",
+    51900 : "Que flop terrível!",
+    51901 : "Tentando comprar a mão, é?",
+    51902 : "Você está blefando.",
+    51903 : "Acho que você não tinha.",
+    51904 : "Salvo pelo river.",
 
-# Jogos de Cartas - Blackjack
-52600: "Me dá uma carta.",
-52601: "Posso chamar outro dealer?",
+    # Jogos de Cartas - Blackjack
+    52600 : "Me dá uma carta.",
+    52601 : "Posso chamar outro dealer?",
 
-# Minijogos
-# Minijogos - Pesca
-53101: "Peguei um peixe!",
-53102: "Vi um Lendário Peixe!",
-53103: "O que você pescou?",
-53104: "Isso vai virar história de baleia!",
-53105: "Que beleza!",
-53106: "Arr, o mar está traiçoeiro hoje.",
+   # Minijogos
+   # Minijogos - Pesca
+   53101 : "Peguei um peixe!",
+53102 : "Vi um Lendário Peixe!",
+53103 : "O que você pescou?",
+53104 : "Isso vai virar história de baleia!",
+53105 : "Que beleza!",
+53106 : "Arr, o mar está traiçoeiro hoje.",
 53107: "Que farta pescaria!",
 53110: "Você tem a Isca Lendária?",
 53111: "Você já pescou um Peixe Lendário?",
@@ -2511,15 +2511,15 @@ SpeedChatStaticTextPirates = {
 52304: "Junte-se a mim na partida de batalha em equipe.",
 
 # Convites - Minijogos
-52350: "Junte-se à minha Defesa de Canhão.",
-52351: "Quer começar uma Defesa de Canhão?",
-52352: "Você pode me ajudar com o Reparo?",
-52353: "Precisamos consertar o navio agora!",
-52354: "Quer pescar?",
-52355: "Quer ir pescar comigo?",
-52356: "Quer se juntar à minha tripulação para pescar?",
-52357: "Hora de preparar algumas poções!",
-52358: "Você deveria tentar preparar poções.",
+   52350: "Junte-se à minha Defesa de Canhão.",
+   52351: "Quer começar uma Defesa de Canhão?",
+   52352: "Você pode me ajudar com o Reparo?",
+   52353: "Precisamos consertar o navio agora!",
+   52354: "Quer pescar?",
+   52355: "Quer ir pescar comigo?",
+   52356: "Quer se juntar à minha tripulação para pescar?",
+   52357 : "Hora de preparar algumas poções!",
+   52358 : "Você deveria tentar preparar poções.",
 
     # Adventures
     50500 : "Vamos içar velas!",
@@ -3202,6 +3202,8 @@ CustomSCStrings = {
     11018 : "Até o Natal, tudo bem!",
     11019 : "Você vai se \"arrenapender\"!",
     11020 : "Tenha um inverno maravilhoso!"
+    11021 : 'As decorações da Festa de Natal estão Toontásticas!',
+    11022 : 'Tropas de Toons estão promovendo as Festas de Natal!',
 
     # Valentines
     12000 : "Fica comigo!",
