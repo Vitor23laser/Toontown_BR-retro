@@ -2,11 +2,6 @@ import string
 import time
 from toontown.toonbase.TTLocalizer_portuguese_Property import *
 from toontown.catalog import CatalogAccessoryItemGlobals
-from otp.otpbase import OTPLocalizer as OL
-OL.SpeedChatStaticText = OL.SpeedChatStaticTextToontown.copy()
-for key in OL.SpeedChatStaticTextCommon.iterkeys():
-    OL.SpeedChatStaticText[key] = OL.SpeedChatStaticTextCommon[key]
-
 ExtraKeySanityCheck = 'Ignore-me'
 commitmanString = 'bugfix! I changed this'
 commitmanSting2 = 'another string!'
@@ -602,30 +597,30 @@ TheBrrrghTrackQuestDict = {GREETING: '',
 QuestDialog_3225 = {QUEST: 'Puxa, obrigado por vir, _avName_!\x07Os Cogs que estão no bairro assustaram o rapaz que faz as entregas.\x07Eu não tenho quem entregue esta salada para _toNpcName_!\x07Você poderia fazer isso por mim? Muitíssimo obrigado!_where_'}
 QuestDialog_2910 = {QUEST: 'De volta tão rápido assim?\x07Ótimo trabalho com aquela mola.\x07O último item é um contrapeso.\x07Passe lá, veja com _toNpcName_ e traga o que você conseguir._where_'}
 QuestDialogDict = {160: {GREETING: '',
-       QUEST: 'Ok, agora acho que você está pronto para um desafio maior.\x07Derrote 3 Robôs-chefe.',
-       INCOMPLETE_PROGRESS: 'Os '+ Cogs +' estão soltos pelas ruas e pelos túneis.',
-       INCOMPLETE_WRONG_NPC: 'Bom trabalho com os Robôs-chefe. Vá agora para o Quartel dos Toons para receber sua recompensa!',
+       QUEST: 'Ok, agora acho que você está pronto para um algo mais recompensador.\x07Se você pode derrotar 3 Robôs-chefe vou te dar um pequeno bônus.',
+       INCOMPLETE_PROGRESS:  TheCogs + ' estão soltos pelas ruas e pelos túneis.',
+       INCOMPLETE_WRONG_NPC: 'Bom trabalho com os Robôs-chefe. Vá agora para o Quartel dos Toons para sua próxima etapa!',
        COMPLETE: QuestsDefaultComplete,
        LEAVING: QuestsDefaultLeaving},
  161: {GREETING: '',
-       QUEST: 'Ok, agora acho que você está pronto para um desafio maior.\x07Derrote 3 Robôs da Lei.',
-       INCOMPLETE_PROGRESS: 'Os '+ Cogs +' estão soltos pelas rua e pelos túneis.',
-       INCOMPLETE_WRONG_NPC: 'Bom trabalho com os Robôs da Lei. Vá agora para o Quartel dos Toons para receber sua recompensa!',
+       QUEST: 'Ok, agora acho que você está pronto para um algo mais recompensador.\x07Volta depois de derrotar 3 Robôs da Lei e eu terei algo para você.',
+       INCOMPLETE_PROGRESS:  TheCogs + ' estão soltos pelas rua e pelos túneis.',
+       INCOMPLETE_WRONG_NPC: 'Bom trabalho com os Robôs da Lei. Vá agora para o Quartel dos Toons para sua próxima etapa!',
        COMPLETE: QuestsDefaultComplete,
        LEAVING: QuestsDefaultLeaving},
  162: {GREETING: '',
-       QUEST: 'Ok, agora acho que você está pronto para um desafio maior.\x07Derrote 3 Robôs Mercenários.',
-       INCOMPLETE_PROGRESS: 'Os '+ Cogs +' estão soltos pelas ruas e pelos túneis.',
-       INCOMPLETE_WRONG_NPC: 'Bom trabalho com os Robôs Mercenários. Vá agora para o Quartel dos Toons para receber sua recompensa!',
+       QUEST: 'Ok, agora acho que você está pronto para um algo mais recompensador.\x07Derrote 3 Robôs Mercenários e volta aqui para coletar sua recompensa.',
+       INCOMPLETE_PROGRESS:  TheCogs + ' estão soltos pelas ruas e pelos túneis.',
+       INCOMPLETE_WRONG_NPC: 'Bom trabalho com os Robôs Mercenários. Vá agora para o Quartel dos Toons para sua próxima etapa!',
        COMPLETE: QuestsDefaultComplete,
        LEAVING: QuestsDefaultLeaving},
  163: {GREETING: '',
-       QUEST: 'Ok, agora acho que você está pronto para um desafio maior.\x07Derrote 3 Robôs Vendedores.',
-       INCOMPLETE_PROGRESS: 'Os '+ Cogs +' estão soltos pelas ruas e pelos túneis.',
-       INCOMPLETE_WRONG_NPC: 'Bom trabalho com os Robôs Vendedores. Vá agora para o Quartel dos Toons para receber sua recompensa!',
+       QUEST: 'Ok, agora acho que você está pronto para um algo mais recompensador.\x07Venha nos ver depois de você derrotar 3 Robôs Vendedores e nós vamos de ajudar.',
+       INCOMPLETE_PROGRESS:  TheCogs + ' estão soltos pelas ruas e pelos túneis.',
+       INCOMPLETE_WRONG_NPC: 'Bom trabalho com os Robôs Vendedores. Vá agora para o Quartel dos Toons para sua próxima etapa!',
        COMPLETE: QuestsDefaultComplete,
-       LEAVING: QuestsDefaultLeaving},        
- 164: {QUEST: 'Parece que você precisa de novas piadas.\x07Visite o Flippy, talvez ele possa ajudá-lo._where_'},
+       LEAVING: QuestsDefaultLeaving},       
+ 164: {QUEST: 'Parece que você precisa de novas piadas.\x07Visite o %s, talvez ele possa ajudá-lo._where_' %Flippy},
  165: {QUEST: 'Oi.\x07Parece que você precisa praticar suas piadas.\x07Toda vez que você atinge um Cog com uma de suas piadas, sua experiência aumenta.\x07Quando tiver experiência suficiente, você será capaz de usar uma piada ainda melhor.\x07Vá praticar suas piadas derrotando 4 Cogs.'},
  166: {QUEST: 'Bom trabalho com aqueles Cogs.\x07Sabia que existem quatro tipos diferentes de Cogs?\x07Eles são os Robôs da Lei, os Robôs Mercenários, os Robôs Vendedores e os Robôs-chefe.\x07Você pode diferenciá-los pela cor e pelas etiquetas com os nomes.\x07Para praticar, derrote 4 Robôs-chefe.'},
  167: {QUEST: 'Bom trabalho com aqueles Cogs.\x07Sabia que existem quatro tipos diferentes de Cogs?\x07Eles são os Robôs da Lei, os Robôs Mercenários, os Robôs Vendedores e os Robôs-chefe.\x07Você pode diferenciá-los pela cor e pelas etiquetas com os nomes.\x07Para praticar, derrote 4 Robôs da Lei.'},
