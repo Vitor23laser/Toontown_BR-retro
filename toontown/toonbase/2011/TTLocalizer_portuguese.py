@@ -1,53 +1,48 @@
 import string
 import time
 from toontown.toonbase.TTLocalizer_portuguese_Property import *
-from otp.otpbase import OTPLocalizer as OL
-OL.SpeedChatStaticText = OL.SpeedChatStaticTextToontown.copy()
-for key in OL.SpeedChatStaticTextCommon.iterkeys():
-    OL.SpeedChatStaticText[key] = OL.SpeedChatStaticTextCommon[key]
-
 ExtraKeySanityCheck = 'Ignore-me'
 commitmanString = 'bugfix! I changed this'
 commitmanSting2 = 'another string!'
 commitmantst = 'kptmptest - removable'
 InterfaceFont = 'phase_3/models/fonts/ImpressBT.ttf'
 ToonFont = 'phase_3/models/fonts/ImpressBT.ttf'
-SuitFont = 'phase_3/models/fonts/vtRemingtonPortable.ttf'
+SuitFont = 'phase_3/models/fonts/HGHanKointai.ttc'
 SignFont = 'phase_3/models/fonts/MickeyFont'
 MinnieFont = 'phase_3/models/fonts/MinnieFont'
 FancyFont = 'phase_3/models/fonts/Comedy'
-NametagFonts = ('phase_3/models/fonts/AnimGothic',
- 'phase_3/models/fonts/Aftershock',
- 'phase_3/models/fonts/JiggeryPokery',
- 'phase_3/models/fonts/Ironwork',
- 'phase_3/models/fonts/HastyPudding',
- 'phase_3/models/fonts/Comedy',
- 'phase_3/models/fonts/Humanist',
- 'phase_3/models/fonts/Portago',
- 'phase_3/models/fonts/Musicals',
- 'phase_3/models/fonts/Scurlock',
- 'phase_3/models/fonts/Danger',
- 'phase_3/models/fonts/Alie',
- 'phase_3/models/fonts/OysterBar',
+NametagFonts = ('phase_3/models/fonts/AnimGothic', 
+ 'phase_3/models/fonts/Aftershock', 
+ 'phase_3/models/fonts/JiggeryPokery', 
+ 'phase_3/models/fonts/Ironwork', 
+ 'phase_3/models/fonts/HastyPudding', 
+ 'phase_3/models/fonts/Comedy', 
+ 'phase_3/models/fonts/Humanist', 
+ 'phase_3/models/fonts/Portago', 
+ 'phase_3/models/fonts/Musicals', 
+ 'phase_3/models/fonts/Scurlock', 
+ 'phase_3/models/fonts/Danger', 
+ 'phase_3/models/fonts/Alie', 
+ 'phase_3/models/fonts/OysterBar', 
  'phase_3/models/fonts/RedDogSaloon')
 NametagFontNames = ('Usuário',
- 'Tremido',
- 'Arrepiante',
- 'Exorbitante',
- 'Bobo',
- 'Doido',
- 'Pratico',
- 'Nautico',
- 'Caprichoso',
- 'Estremecer',
- 'Ação',
- 'Poético',
- 'Passeio',
+ 'Tremido', 
+ 'Arrepiante', 
+ 'Exorbitante', 
+ 'Bobo', 
+ 'Doido', 
+ 'Pratico', 
+ 'Nautico', 
+ 'Caprichoso', 
+ 'Estremecer', 
+ 'Ação', 
+ 'Poético', 
+ 'Passeio', 
  'Ocidental')
 NametagLabel = 'Nome'
 UnpaidNameTag = 'Basico'
-GM_1 = 'CONSELHO TOON' 
-GM_2 = 'TROPA TOONS'
+GM_1 = 'CONSELHO TOON'
+GM_2 = 'TROPA TOON'
 GM_3 = 'TOON DA RESISTÊNCIA'
 GM_4 = 'GC'
 BuildingNametagFont = 'phase_3/models/fonts/MickeyFont'
@@ -60,15 +55,15 @@ WitchMinnie = 'WitchMinnie'
 Donald = 'Donald'
 DonaldDock = 'DonaldDock'
 FrankenDonald = 'FrankenDonald'
-Daisy  = 'Margarida'
+Daisy = 'Margarida'
 SockHopDaisy = 'SockHopDaisy'
-Goofy  = 'Pateta'
+Goofy = 'Pateta'
 SuperGoofy = 'SuperGoofy'
-Pluto  = 'Pluto'
+Pluto = 'Pluto'
 WesternPluto = 'WesternPluto'
 Flippy = 'Flippy'
-Chip   = 'Tico'
-Dale   = 'Teco'
+Chip = 'Tico'
+Dale = 'Teco'
 JailbirdDale = 'JailbirdDale'
 PoliceChip = 'PoliceChip'
 lTheBrrrgh = 'O Brrrgh'
@@ -80,7 +75,7 @@ lToontownCentral = 'Centro de Toontown'
 lToonHQ = 'Quartel dos Toons'
 lSellbotHQ = 'Quartel do Robô Vendedor'
 lGoofySpeedway = 'Autódromo do Pateta'
-lOutdoorZone = 'Bosque de Bolotats de Tico e Teco'
+lOutdoorZone = 'Bosque de Bolotas de Tico e Teco'
 lGolfZone = 'Minigolfe de Tico e Teco'
 lPartyHood = 'Terra das Festas'
 GlobalStreetNames = {20000: ('para o', 'no', 'Terraço do Tutorial'),
@@ -106,38 +101,38 @@ GlobalStreetNames = {20000: ('para o', 'no', 'Terraço do Tutorial'),
  5300: ('para a', 'na', 'Rua dos Carvalhos'),
  9000: ('para o', 'no', 'Parque'),
  9100: ('para a', 'na', 'Travessa da Canção de Ninar'),
- 9200: ('para o', 'no', 'Pedaço do Pijama'),
- 10000: ('para o', 'no', 'Clube de Campo do Quartel do Robô-chefe'),
+ 9200: ('para o', 'no', 'Alameda do Pijama'),
+ 10000: ('para', 'em', 'Clube de Campo do Quartel do Robô-chefe'),
  10100: ('para o', 'no', 'Salão do Quartel do Robô-chefe'),
  10200: ('para a', 'na', 'Sede do Clube'),
  10500: ('para o', 'no', 'Três da Frente'),
  10600: ('para o', 'no', 'Seis do Meio'),
  10700: ('para o', 'no', 'Nove de Trás'),
- 11000: ('para o', 'no', 'Pátio do '+lSellbotHQ),
- 11100: ('para o', 'no', 'Salão do '+lSellbotHQ),
+ 11000: ('para', 'em', 'Parque do ' + lSellbotHQ),
+ 11100: ('para o', 'no', 'Salão do ' + lSellbotHQ),
  11200: ('para a', 'na', 'Fábrica do Robô Vendedor'),
  11500: ('para a', 'na', 'Fábrica do Robô Vendedor'),
- 12000: ('para o', 'no', 'Pátio de Trens do Robô Mercenário'),
+ 12000: ('para', 'em', 'Parque de Trens do Quartel do Robô Mercenário'),
  12100: ('para o', 'no', 'Salão do Quartel do Robô Mercenário'),
- 12500: ('para a', 'na', 'Casa da Moeda do Robô Mercenário'),
- 12600: ('para a', 'na', 'Casa da Moeda de Dólar do Robô Mercenário'),
- 12700: ('para a', 'na', 'Casa da Moeda de Barras de Ouro do Robô Mercenário'),
- 13000: ('para o', 'no', 'Salão do Tribunal'),
- 13100: ('para o', 'no', 'Salão do Quartel do Robô da Lei'),
- 13200: ('para o', 'no', 'Lobby do Escritório do Promotor'),
- 13300: ('para o', 'no', 'Escritório do Robô da Lei A'),
- 13400: ('para o', 'no', 'Escritório do Robô da Lei B'),
- 13500: ('para o', 'no', 'Escritório do Robô da Lei C'),
- 13600: ('para o', 'no', 'Escritório do Robô da Lei D')}
+ 12500: ('para a', 'na', 'Casa da Moeda'),
+ 12600: ('para a', 'na', 'Casa da Moeda de Dólar'),
+ 12700: ('para a', 'na', 'Casa da Moeda de Barras de Ouro'),
+ 13000: ('para', 'em', 'Parque do Quartel do Robô da Lei'),
+ 13100: ('para o', 'no', 'Salão do Tribunal'),
+ 13200: ('para o', 'no', 'Salão do Escritório do Promotor'),
+ 13300: ('para o', 'no', 'Escritório da Lei A'),
+ 13400: ('para o', 'no', 'Escritório da Lei B'),
+ 13500: ('para o', 'no', 'Escritório da Lei C'),
+ 13600: ('para o', 'no', 'Escritório da Lei D')}
 DonaldsDock = ('para o', 'no', lDonaldsDock)
 ToontownCentral = ('para o', 'no', lToontownCentral)
 TheBrrrgh = ('para', 'em', lTheBrrrgh)
-MinniesMelodyland = ('para a',  'na', lMinniesMelodyland)
+MinniesMelodyland = ('para a', 'na', lMinniesMelodyland)
 DaisyGardens = ('para os', 'nos', lDaisyGardens)
 OutdoorZone = ('para a', 'na', lOutdoorZone)
-FunnyFarm  = ('para a', 'na', 'Fazenda Divertida')
+FunnyFarm = ('para a', 'na', 'Fazenda Divertida')
 GoofySpeedway = ('para o', 'no', lGoofySpeedway)
-DonaldsDreamland  = ('para a', 'na', lDonaldsDreamland)
+DonaldsDreamland = ('para a', 'na', lDonaldsDreamland)
 BossbotHQ = ('para o', 'no', 'Quartel do Robô-chefe')
 SellbotHQ = ('para o', 'no', lSellbotHQ)
 CashbotHQ = ('para o', 'no', 'Quartel do Robô Mercenário')
@@ -146,7 +141,7 @@ Tutorial = ('para o', 'no', 'Toon-torial')
 MyEstate = ('para a', 'na', 'sua casa')
 WelcomeValley = ('para o', 'no', 'Vale Boas-vindas')
 GolfZone = ('para a', 'na', lGolfZone)
-PartyHood = ('para a', 'na',  lPartyHood)
+PartyHood = ('para a', 'na', lPartyHood)
 Factory = 'Fábrica'
 Headquarters = 'Quartel'
 SellbotFrontEntrance = 'Entrada principal'
@@ -154,7 +149,7 @@ SellbotSideEntrance = 'Entrada lateral'
 Office = 'Escritório'
 FactoryNames = {0: 'Molde da fábrica',
  11500: 'Fábrica do Cog Robô Vendedor',
- 13300: 'Escritório dos Cogs Robôs da Lei'}
+ 13300: 'Escritório de Cog Robô da Lei' }
 FactoryTypeLeg = 'Perna'
 FactoryTypeArm = 'Braço'
 FactoryTypeTorso = 'Busto'
@@ -166,13 +161,12 @@ lNext = 'Próximo'
 lQuit = 'Sair'
 lYes = 'Sim'
 lNo = 'Não'
-sleep_auto_reply = '%s está dormindo agora'
-lHQ = 'Oficial'
+sleep_auto_reply = '%s está dormimndo agora'
 lHQOfficerF = 'Oficial do Quartel'
 lHQOfficerM = 'Oficial do Quartel'
 MickeyMouse = 'Mickey Mouse'
 AIStartDefaultDistrict = 'Vila dos Idiotas'
-Cog  = 'Cog'
+Cog = 'Cog'
 Cogs = 'Cogs'
 ACog = 'um Cog'
 TheCogs = 'os Cogs'
@@ -203,72 +197,72 @@ QuestsNotChosenString = 'Não escolhido'
 Period = '.'
 Laff = 'Risada'
 QuestInLocationString = ' %(inPhrase)s %(location)s'
-QuestsDefaultGreeting = ('Oi, _avName_!',
- 'Oi, _avName_!',
- 'E aí, _avName_?',
- 'Diga aí, _avName_!',
- 'Bem-vindo, _avName_!',
- 'Tudo certo, _avName_?',
- 'Como vai você, _avName_?',
- 'Oi _avName_!')
+QuestsDefaultGreeting = ('Olá, _avName_!',
+ 'Oi, _avName_!', 
+ 'E aí, _avName_?', 
+ 'Diga aí, _avName_!', 
+ 'Bem-vindo, _avName_!', 
+ 'Tudo certo, _avName_?', 
+ 'Como vai você, _avName_?', 
+ 'Olá _avName_!')
 QuestsDefaultIncomplete = ('Como está indo aquela tarefa, _avName_?',
- 'Parece que você ainda tem mais trabalho a fazer naquela tarefa!',
- 'Continue com o bom trabalho, _avName_!',
- 'Continue tentando concluir aquela tarefa. Eu sei que você consegue!',
- 'Continue tentando concluir a tarefa. Contamos com você!',
+ 'Parece que você ainda tem mais trabalho a fazer naquela tarefa!', 
+ 'Continue com o bom trabalho, _avName_!', 
+ 'Continue tentando concluir aquela tarefa. Eu sei que você consegue!', 
+ 'Continue tentando concluir a tarefa. Contamos com você!', 
  'Continue trabalhando naquela Tarefa Toon!')
 QuestsDefaultIncompleteProgress = ('Você veio ao lugar certo, mas, primeiramente, precisa concluir sua Tarefa Toon.', 'Ao terminar a Tarefa Toon, volte aqui.', 'Volte quando tiver terminado sua Tarefa Toon.')
 QuestsDefaultIncompleteWrongNPC = ('Bom trabalho naquela Tarefa Toon. Você deveria visitar _toNpcName_._where_', 'Parece que você está pronto para concluir sua Tarefa Toon. Vá ver _toNpcName_._where_.', 'Vá ver _toNpcName_ para concluir sua Tarefa Toon._where_')
 QuestsDefaultComplete = ('Bom trabalho! Aqui está a sua recompensa...', 'Ótimo trabalho, _avName_! Tome esta recompensa...', 'Excelente trabalho, _avName_! Aqui está a sua recompensa...')
 QuestsDefaultLeaving = ('Tchau!',
- 'Até logo!',
- 'Até mais, _avName_.',
- 'Te vejo por aí, _avName_!',
- 'Boa sorte!',
- 'Divirta-se em Toontown!',
+ 'Até logo!', 
+ 'Até mais, _avName_.', 
+ 'Te vejo por aí, _avName_!', 
+ 'Boa sorte!', 
+ 'Divirta-se em Toontown!', 
  'Vejo você depois!')
-QuestsDefaultReject = ('Oi.',
- 'Posso ajudar?',
- 'Como vai você?',
- 'E aí, pessoal?',
- 'Estou um pouco ocupado agora, _avName_.',
- 'Sim?',
- 'Tudo certo, _avName_!',
- 'Bem-vindo, _avName_!',
- 'Ei, _avName_! Tudo bem?',
- 'Você sabia que pode abrir seu Álbum Toon clicando em F8?',
- 'Você pode usar seu mapa para se teletransportar de volta ao pátio!',
- 'Você pode ficar amigo de outros jogadores clicando neles.',
- 'Você pode descobrir mais sobre um '+ Cog +' clicando nele.',
- 'Junte tesouros nos pátios para encher seu Risômetro.',
- 'Os edifícios ' + Cog + ' são lugares perigosos! Não entre neles sozinho!',
- 'Quando você perde uma batalha, os '+ Cogs +' tomam todas as suas piadas.',
- 'Para obter mais piadas, jogue no Bondinho!',
- 'Você pode obter mais Pontos de risadas completando as Tarefas Toon.',
- 'Toda Tarefa Toon dá uma recompensa a você.',
- 'Algumas recompensas permitem que você carregue consigo mais Piadas.',
- 'Se você vencer uma batalha, ganhará créditos de Tarefa Toon para cada '+ Cog +' derrotado.',
- 'Se você recuperar um edifício '+ Cog +', entre e verá um agradecimento especial do proprietário!',
- 'Se pressionar a tecla Page Up, poderá ver acima de você!',
- 'Se você pressionar a tecla Tab, poderá ver os arredores sob diversos ângulos!',
- "Para mostrar aos amigos secretos o que está pensando, coloque '.' antes do pensamento.",
- 'Se um '+ Cog +' estiver atordoado, será mais difícil para ele desviar de objetos cadentes.',
- 'Cada tipo de edifício '+ Cog +' possui um visual diferente.',
- 'Derrotar os '+ Cogs +' nos andares mais altos de um edifício dará a você maiores recompensas de habilidade.')
-QuestsDefaultTierNotDone = ('Oi, _avName_! Você deve concluir sua Tarefa Toon atual antes de começar uma nova.', 'E aí? Você precisa concluir suas Tarefas Toon atuais antes de começar uma nova.', 'Oi, _avName_! Para que eu possa dar a você uma nova Tarefa Toon, você precisa terminar as que você tem.')
+QuestsDefaultReject = ('Olá.',
+ 'Posso ajudar?', 
+ 'Como vai você?', 
+ 'E aí, pessoal?', 
+ 'Estou um pouco ocupado agora, _avName_.', 
+ 'Sim?', 
+ 'Tudo certo, _avName_!', 
+ 'Bem-vindo, _avName_!', 
+ 'Ei, _avName_! Tudo bem?', 
+ 'Você sabia que pode abrir seu Álbum Toon clicando em F8?', 
+ 'Você pode usar seu mapa para se teletransportar de volta ao pátio!', 
+ 'Você pode ficar amigo de outros jogadores clicando neles.', 
+ 'Você pode descobrir mais sobre um ' + Cog + ' clicando nele.', 
+ 'Junte tesouros nos pátios para encher seu Risômetro.', 
+ 'Os edifícios ' + Cog + ' são lugares perigosos! Não entre neles sozinho!', 
+ 'Quando você perde uma batalha, os ' + Cogs + ' tomam todas as suas piadas.', 
+ 'Para obter mais piadas, jogue no Bondinho!', 
+ 'Você pode obter mais Pontos de risadas completando as Tarefas Toon.', 
+ 'Toda Tarefa Toon dá uma recompensa a você.', 
+ 'Algumas recompensas permitem que você carregue consigo mais Piadas.', 
+ 'Se você vencer uma batalha, ganhará créditos de Tarefa Toon para cada ' + Cog + ' derrotado.', 
+ 'Se você recuperar um edifício ' + Cog + ', entre e verá um agradecimento especial do proprietário!', 
+ 'Se pressionar a tecla Page Up, poderá ver acima de você!', 
+ 'Se você pressionar a tecla Tab, poderá ver os arredores sob diversos ângulos!', 
+ "Para mostrar aos amigos secretos o que está pensando, coloque '.' antes do pensamento.", 
+ 'Se um ' + Cog + ' estiver atordoado, será mais difícil para ele desviar de objetos cadentes.', 
+ 'Cada tipo de edifício ' + Cog + ' possui um visual diferente.', 
+ 'Derrotar os ' + Cogs + ' nos andares mais altos de um edifício dará a você maiores recompensas de habilidade.')
+QuestsDefaultTierNotDone = ('Olá, _avName_! Você deve concluir sua Tarefa Toon atual antes de começar uma nova.', 'E aí? Você precisa concluir suas Tarefas Toon atuais antes de começar uma nova.', 'Oi, _avName_! Para que eu possa dar a você uma nova Tarefa Toon, você precisa terminar as que você tem.')
 QuestsDefaultQuest = None
 QuestsDefaultVisitQuestDialog = ('Ouvi falar que _toNpcName_ está procurando por você._where_',
- 'Passe por lá e visite _toNpcName_ quando tiver um tempinho._where_',
- 'Visite _toNpcName_ da próxima vez em que estiver passando por aquele caminho._where_',
- 'Se tiver um tempinho, pare e diga olá para _toNpcName_._where_',
+ 'Passe por lá e visite _toNpcName_ quando tiver um tempinho._where_', 
+ 'Visite _toNpcName_ da próxima vez em que estiver passando por aquele caminho._where_', 
+ 'Se tiver um tempinho, pare e diga olá para _toNpcName_._where_', 
  '_toNpcName_ dará a você sua nova Tarefa Toon._where_')
 QuestsLocationArticle = ''
 
 def getLocalNum(num):
-	if (num <=9):
-		return str(num) + ''
-	else:
-		return str(num)
+ if num <= 9:
+  return str(num) + ''
+ else:
+  return str(num)
 
 QuestsItemNameAndNum = '%(num)s %(name)s'
 QuestsCogQuestProgress = '%(progress)s de %(numCogs)s derrotados'
@@ -297,9 +291,9 @@ QuestsCogLevelQuestDescC = '%(count)s Nível %(level)s+ Cogs'
 QuestsCogLevelQuestDescI = 'algum Nível %(level)s+ Cogs'
 QuestsCogLevelQuestSCString = 'Eu preciso derrotar %(objective)s%(location)s.'
 QuestsBuildingQuestFloorNumbers = ('',
- 'dois+',
- 'três+',
- 'quatro+',
+ 'dois+', 
+ 'três+', 
+ 'quatro+', 
  'cinco+')
 QuestsBuildingQuestBuilding = 'Edifício'
 QuestsBuildingQuestBuildings = 'Edifícios'
@@ -374,8 +368,8 @@ QuestsVisitQuestStringLong = 'Visitar _toNpcName_'
 QuestsVisitQuestSeeSCString = 'Preciso ver %s.'
 QuestsRecoverItemQuestProgress = '%(progress)s de %(numItems)s recuperados'
 QuestsRecoverItemQuestHeadline = 'RECUPERAR'
-QuestsRecoverItemQuestSeeHQSCString = 'Preciso ver um '+lHQOfficerM+'.'
-QuestsRecoverItemQuestReturnToHQSCString = 'Preciso devolver %s para um '+lHQOfficerM+'.'
+QuestsRecoverItemQuestSeeHQSCString = 'Preciso ver um ' + lHQOfficerM + '.'
+QuestsRecoverItemQuestReturnToHQSCString = 'Preciso devolver %s para um ' + lHQOfficerM + '.'
 QuestsRecoverItemQuestReturnToSCString = 'Preciso devolver %(item)s para %(npcName)s.'
 QuestsRecoverItemQuestGoToHQSCString = 'Preciso ir a um Quartel dos Toons.'
 QuestsRecoverItemQuestGoToPlaygroundSCString = 'Preciso ir ao Pátio %s.'
@@ -427,17 +421,17 @@ QuestsMaxQuestCarryReward = 'Agora, você pode ter %s Tarefas Toon.'
 QuestsMaxQuestCarryRewardPoster = 'Recompensa: Carregue %s Tarefas Toon'
 QuestsTeleportReward = 'Agora, você tem acesso por teletransporte a %s.'
 QuestsTeleportRewardPoster = 'Recompensa: Acesso por teletransporte a %s'
-QuestsTrackTrainingReward = "Agora, você pode treinar para '%s' piadas."
+QuestsTrackTrainingReward = 'Agora, você pode treinar para "%s" piadas.'
 QuestsTrackTrainingRewardPoster = 'Recompensa: Treinamento de piadas'
 QuestsTrackProgressReward = 'Agora, você tem o quadro %(frameNum)s da animação do tipo %(trackName)s.'
-QuestsTrackProgressRewardPoster = "Recompensa: 'Quadro %(frameNum)s da animação do tipo %(trackName)s'"
-QuestsTrackCompleteReward = "Agora, você pode carregar e usar '%s' piadas."
+QuestsTrackProgressRewardPoster = 'Recompensa: "Quadro %(frameNum)s da animação do tipo %(trackName)s"'
+QuestsTrackCompleteReward = 'Agora, você pode carregar e usar "%s" piadas.'
 QuestsTrackCompleteRewardPoster = 'Recompensa: Treinamento final do tipo %s'
 QuestsClothingTicketReward = 'Você pode trocar de roupa'
 QuestsClothingTicketRewardPoster = 'Recompensa: Bilhete de roupas'
+TIPQuestsClothingTicketReward = 'Você pode trocar de roupa'
+TIPQuestsClothingTicketRewardPoster = 'Recompensa: Bilhete de roupas'
 QuestsCheesyEffectRewardPoster = 'Recompensa: %s'
-TIPQuestsClothingTicketReward = 'Você pode trocar sua camisa por uma camisa DICA'
-TIPQuestsClothingTicketRewardPoster = 'Recompensa: Bilhete de Roupa DICA'
 QuestsCogSuitPartReward = 'Agora, você tem uma %(cogTrack)s %(part)s peça de vestimenta de Cog.'
 QuestsCogSuitPartRewardPoster = 'Recompensa: %(cogTrack)s %(part)s Peça'
 QuestsStreetLocationThisPlayground = 'neste pátio'
@@ -447,7 +441,7 @@ QuestsStreetLocationNamedStreet = 'na %(toStreetName)s em %(toHoodName)s'
 QuestsLocationString = '%(string)s%(location)s'
 QuestsLocationBuilding = "O edifício de %s's chama-se"
 QuestsLocationBuildingVerb = 'o qual é'
-QuestsLocationParagraph = "\x7%(building)s '%(buildingName)s'...\x7...%(buildingVerb)s %(street)s."
+QuestsLocationParagraph = '\x7%(building)s "%(buildingName)s"...\x7...%(buildingVerb)s %(street)s.'
 QuestsGenericFinishSCString = 'Preciso terminar uma Tarefa Toon.'
 QuestsMediumPouch = 'Sacola média'
 QuestsLargePouch = 'Sacola grande'
@@ -513,12 +507,12 @@ QuestsItemDict = {1: ['Par de óculos', 'Pares de óculos', 'um '],
  5009: ['Saco de ração para pássaros', 'Sacos de ração para pássaros', 'um '],
  5010: ['Roda dentada', 'Rodas dentadas', 'uma '],
  5011: ['Salada', 'Saladas', 'uma '],
- 5012: ['Chave para os Jardins da Margarida', 'Chaves para os Jardins da Margarida', 'uma '],
- 5013: ['Mapa do '+lSellbotHQ, 'Mapas do '+lSellbotHQ, 'alguns '],
- 5014: ['Memorando do '+lSellbotHQ, 'Memorandos do '+lSellbotHQ, 'um '],
- 5015: ['Memorando do '+lSellbotHQ, 'Memorandos do '+lSellbotHQ, 'um '],
- 5016: ['Memorando do '+lSellbotHQ, 'Memorandos do '+lSellbotHQ, 'um '],
- 5017: ['Memorando do '+lSellbotHQ, 'Memorandos do '+lSellbotHQ, 'um '],
+ 5012: ['Chave para os ' + lDaisyGardens, 'Chaves para os ' + lDaisyGardens, 'uma '],
+ 5013: ['Mapa do ' + lSellbotHQ, 'Mapas do ' + lSellbotHQ, 'alguns '],
+ 5014: ['Memorando do ' + lSellbotHQ, 'Memorandos do ' + lSellbotHQ, 'um '],
+ 5015: ['Memorando do ' + lSellbotHQ, 'Memorandos do ' + lSellbotHQ, 'um '],
+ 5016: ['Memorando do ' + lSellbotHQ, 'Memorandos do ' + lSellbotHQ, 'um '],
+ 5017: ['Memorando do ' + lSellbotHQ, 'Memorandos do ' + lSellbotHQ, 'um '],
  3001: ['Bola de futebol', 'Bolas de futebol', 'uma '],
  3002: ['Tobogã', 'Tobogãs', 'um '],
  3003: ['Cubo de gelo', 'Cubos de gelo', 'um '],
@@ -542,7 +536,7 @@ QuestsItemDict = {1: ['Par de óculos', 'Pares de óculos', 'um '],
  3021: ['Sapatos de plataforma', 'Sapatos de plataforma', 'alguns '],
  3022: ['Caviar', 'Caviar', 'um pouco de '],
  3023: ['Pó de arroz', 'Pó de arroz', 'um pouco de '],
- 3024: ['Fio', 'Fios', 'alguns ' ],
+ 3024: ['Fio', 'Fios', 'alguns '],
  3025: ['Agulha de Tricô', 'Agulhas de Tricô', 'uma '],
  3026: ['Álibi', 'Álibis', 'um '],
  3027: ['Termômetro Externo', 'Termômetros Externos', 'um '],
@@ -571,7 +565,7 @@ QuestsItemDict = {1: ['Par de óculos', 'Pares de óculos', 'um '],
  7011: ['Coral de couve-flor', 'Coral de couve-flor', 'algumas '],
  7012: ['Alga-marinha viscosa', 'Alga-marinha viscosa', 'um '],
  7013: ['Pilão', 'Pilões', 'um '],
- 7014: ['Pote de creme para rugas', 'Potes de creme para rugas', 'um ']}
+ 7014: ['Pote de creme para rugas', 'Potes de creme para rugas', 'um '] }
 QuestsHQOfficerFillin = lHQOfficerM
 QuestsHQWhereFillin = ''
 QuestsHQBuildingNameFillin = lToonHQ
@@ -592,40 +586,41 @@ INCOMPLETE_PROGRESS = 3
 INCOMPLETE_WRONG_NPC = 4
 COMPLETE = 5
 LEAVING = 6
-TheBrrrghTrackQuestDict = {GREETING: '',
+TheBrrrghTrackQuestDict = {
+ GREETING: '',
  QUEST: 'Agora, você está pronto.\x7Saia e refresque a cabeça até descobrir que tipo você gostaria de escolher.\x7Escolha bem, pois você não poderá mudar.\x7Quando tiver certeza, volte aqui.',
  INCOMPLETE_PROGRESS: 'Escolha bem.',
  INCOMPLETE_WRONG_NPC: 'Escolha bem.',
  COMPLETE: 'Ótima escolha!',
- LEAVING: 'Boa sorte. Volte aqui quando tiver dominado sua nova habilidade.'}
-QuestDialog_3225 = {QUEST: 'Puxa, obrigado por vir, _avName_!\x7Os Cogs que estão no bairro assustaram o rapaz que faz as entregas.\x7Eu não tenho quem entregue esta salada para _toNpcName_!\x7Você poderia fazer isso por mim? Muitíssimo obrigado!_where_'}
-QuestDialog_2910 = {QUEST: 'De volta tão rápido assim?\x7Ótimo trabalho com aquela mola.\x7O último item é um contrapeso.\x7Passe lá, veja com _toNpcName_ e traga o que você conseguir._where_'}
+ LEAVING: 'Boa sorte. Volte aqui quando tiver dominado sua nova habilidade.' }
+QuestDialog_3225 = {QUEST: 'Puxa, obrigado por vir, _avName_!\x7Os Cogs que estão no bairro assustaram o rapaz que faz as entregas.\x7Eu não tenho quem entregue esta salada para _toNpcName_!\x7Você poderia fazer isso por mim? Muitíssimo obrigado!_where_' }
+QuestDialog_2910 = {QUEST: 'De volta tão rápido assim?\x7Ótimo trabalho com aquela mola.\x7O último item é um contrapeso.\x7Passe lá, veja com _toNpcName_ e traga o que você conseguir._where_' }
 QuestDialogDict = {160: {GREETING: '',
-       QUEST: 'Ok, agora acho que você está pronto para um desafio maior.\x7Derrote 3 Robôs-chefe.',
-       INCOMPLETE_PROGRESS: 'Os '+ Cogs +' estão soltos pelas ruas e pelos túneis.',
-       INCOMPLETE_WRONG_NPC: 'Bom trabalho com os Robôs-chefe. Vá agora para o Quartel dos Toons para receber sua recompensa!',
-       COMPLETE: QuestsDefaultComplete,
-       LEAVING: QuestsDefaultLeaving},
+         QUEST: 'Ok, agora acho que você está pronto para um algo mais recompensador.\x7Se você pode derrotar 3 Robôs-chefe vou te dar um pequeno bônus.',
+         INCOMPLETE_PROGRESS: TheCogs + ' estão soltos pelas ruas e pelos túneis.',
+         INCOMPLETE_WRONG_NPC: 'Bom trabalho com os Robôs-chefe. Vá agora para o Quartel dos Toons para sua próxima etapa!',
+         COMPLETE: QuestsDefaultComplete,
+         LEAVING: QuestsDefaultLeaving},
  161: {GREETING: '',
-       QUEST: 'Ok, agora acho que você está pronto para um desafio maior.\x7Derrote 3 Robôs da Lei.',
-       INCOMPLETE_PROGRESS: 'Os '+ Cogs +' estão soltos pelas rua e pelos túneis.',
-       INCOMPLETE_WRONG_NPC: 'Bom trabalho com os Robôs da Lei. Vá agora para o Quartel dos Toons para receber sua recompensa!',
+       QUEST: 'Ok, agora acho que você está pronto para um algo mais recompensador.\x7Volta depois de derrotar 3 Robôs da Lei e eu terei algo para você.',
+       INCOMPLETE_PROGRESS: TheCogs + ' estão soltos pelas rua e pelos túneis.',
+       INCOMPLETE_WRONG_NPC: 'Bom trabalho com os Robôs da Lei. Vá agora para o Quartel dos Toons para sua próxima etapa!',
        COMPLETE: QuestsDefaultComplete,
        LEAVING: QuestsDefaultLeaving},
  162: {GREETING: '',
-       QUEST: 'Ok, agora acho que você está pronto para um desafio maior.\x7Derrote 3 Robôs Mercenários.',
-       INCOMPLETE_PROGRESS: 'Os '+ Cogs +' estão soltos pelas ruas e pelos túneis.',
-       INCOMPLETE_WRONG_NPC: 'Bom trabalho com os Robôs Mercenários. Vá agora para o Quartel dos Toons para receber sua recompensa!',
+       QUEST: 'Ok, agora acho que você está pronto para um algo mais recompensador.\x7Derrote 3 Robôs Mercenários e volta aqui para coletar sua recompensa.',
+       INCOMPLETE_PROGRESS: TheCogs + ' estão soltos pelas ruas e pelos túneis.',
+       INCOMPLETE_WRONG_NPC: 'Bom trabalho com os Robôs Mercenários. Vá agora para o Quartel dos Toons para sua próxima etapa!',
        COMPLETE: QuestsDefaultComplete,
        LEAVING: QuestsDefaultLeaving},
  163: {GREETING: '',
-       QUEST: 'Ok, agora acho que você está pronto para um desafio maior.\x7Derrote 3 Robôs Vendedores.',
-       INCOMPLETE_PROGRESS: 'Os '+ Cogs +' estão soltos pelas ruas e pelos túneis.',
-       INCOMPLETE_WRONG_NPC: 'Bom trabalho com os Robôs Vendedores. Vá agora para o Quartel dos Toons para receber sua recompensa!',
+       QUEST: 'Ok, agora acho que você está pronto para um algo mais recompensador.\x7Venha nos ver depois de você derrotar 3 Robôs Vendedores e nós vamos de ajudar.',
+       INCOMPLETE_PROGRESS: TheCogs + ' estão soltos pelas ruas e pelos túneis.',
+       INCOMPLETE_WRONG_NPC: 'Bom trabalho com os Robôs Vendedores. Vá agora para o Quartel dos Toons para sua próxima etapa!',
        COMPLETE: QuestsDefaultComplete,
-       LEAVING: QuestsDefaultLeaving},        
- 164: {QUEST: 'Parece que você precisa de novas piadas.\x7Visite o Flippy, talvez ele possa ajudá-lo._where_'},
- 165: {QUEST: 'Oi.\x7Parece que você precisa praticar suas piadas.\x7Toda vez que você atinge um Cog com uma de suas piadas, sua experiência aumenta.\x7Quando tiver experiência suficiente, você será capaz de usar uma piada ainda melhor.\x7Vá praticar suas piadas derrotando 4 Cogs.'},
+       LEAVING: QuestsDefaultLeaving},
+ 164: {QUEST: 'Parece que você precisa de novas piadas.\x7Visite o %s, talvez ele possa ajudá-lo._where_' % Flippy},
+ 165: {QUEST: 'Olá.\x7Parece que você precisa praticar suas piadas.\x7Toda vez que você atinge um Cog com uma de suas piadas, sua experiência aumenta.\x7Quando tiver experiência suficiente, você será capaz de usar uma piada ainda melhor.\x7Vá praticar suas piadas derrotando 4 Cogs.'},
  166: {QUEST: 'Bom trabalho com aqueles Cogs.\x7Sabia que existem quatro tipos diferentes de Cogs?\x7Eles são os Robôs da Lei, os Robôs Mercenários, os Robôs Vendedores e os Robôs-chefe.\x7Você pode diferenciá-los pela cor e pelas etiquetas com os nomes.\x7Para praticar, derrote 4 Robôs-chefe.'},
  167: {QUEST: 'Bom trabalho com aqueles Cogs.\x7Sabia que existem quatro tipos diferentes de Cogs?\x7Eles são os Robôs da Lei, os Robôs Mercenários, os Robôs Vendedores e os Robôs-chefe.\x7Você pode diferenciá-los pela cor e pelas etiquetas com os nomes.\x7Para praticar, derrote 4 Robôs da Lei.'},
  168: {QUEST: 'Bom trabalho com aqueles Cogs.\x7Sabia que existem quatro tipos diferentes de Cogs?\x7Eles são os Robôs da Lei, os Robôs Mercenários, os Robôs Vendedores e os Robôs-chefe.\x7Você pode diferenciá-los pela cor e pelas etiquetas com os nomes.\x7Para praticar, derrote 4 Robôs Vendedores.'},
@@ -646,20 +641,20 @@ QuestDialogDict = {160: {GREETING: '',
        LEAVING: QuestsDefaultLeaving},
  1039: {QUEST: 'Visite _toNpcName_ se desejar transitar pela cidade com mais facilidade._where_'},
  1040: {QUEST: 'Visite _toNpcName_ se desejar transitar pela cidade com mais facilidade._where_'},
- 1041: {QUEST: 'Oi! O que o traz aqui?\x7Todo mundo usa o buraco portátil para andar por Toontown.\x7É, você pode se teletransportar até seus amigos, usando a Lista de amigos, ou até qualquer bairro, usando o mapa no Álbum Toon.\x7É claro que você precisa consegui-lo!\x7Olha, eu posso ativar seu acesso por teletransporte até o Centro de Toontown se você ajudar um amigo meu.\x7Parece que os Cogs estão dando problema na Travessa dos Tontos. Visite _toNpcName_._where_'},
- 1042: {QUEST: 'Oi! O que o traz aqui?\x7Todo mundo usa o buraco portátil para andar por Toontown.\x7É, você pode se teletransportar até seus amigos, usando a Lista de amigos, ou até qualquer bairro, usando o mapa no Álbum Toon.\x7É claro que você precisa consegui-lo!\x7Olha, eu posso ativar seu acesso por teletransporte até o Centro de Toontown se você ajudar um amigo meu.\x7Parece que os Cogs estão dando problema na Travessa dos Tontos. Visite _toNpcName_._where_'},
- 1043: {QUEST: 'Oi! O que o traz aqui?\x7Todo mundo usa o buraco portátil para andar por Toontown.\x7É, você pode se teletransportar até seus amigos, usando a Lista de amigos, ou até qualquer bairro, usando o mapa no Álbum Toon.\x7É claro que você precisa consegui-lo!\x7Olha, eu posso ativar seu acesso por teletransporte até o Centro de Toontown se você ajudar um amigo meu.\x7Parece que os Cogs estão dando problema na Travessa dos Tontos. Visite _toNpcName_._where_'},
+ 1041: {QUEST: 'Oi! O que o traz aqui?\x7Todo mundo usa o buraco portátil para andar por Toontown.\x7É, você pode se teletransportar até seus amigos, usando a Lista de amigos, ou até qualquer bairro, usando o mapa no Álbum Toon.\x7É claro que você precisa consegui-lo!\x7Olha, eu posso ativar seu acesso por teletransporte até o ' + lToontownCentral +' se você ajudar um amigo meu.\x7Parece que os Cogs estão dando problema na Travessa dos Tontos. Visite _toNpcName_._where_'},
+ 1042: {QUEST: 'Oi! O que o traz aqui?\x7Todo mundo usa o buraco portátil para andar por Toontown.\x7É, você pode se teletransportar até seus amigos, usando a Lista de amigos, ou até qualquer bairro, usando o mapa no Álbum Toon.\x7É claro que você precisa consegui-lo!\x7Olha, eu posso ativar seu acesso por teletransporte até o ' + lToontownCentral +' se você ajudar um amigo meu.\x7Parece que os Cogs estão dando problema na Travessa dos Tontos. Visite _toNpcName_._where_'},
+ 1043: {QUEST: 'Oi! O que o traz aqui?\x7Todo mundo usa o buraco portátil para andar por Toontown.\x7É, você pode se teletransportar até seus amigos, usando a Lista de amigos, ou até qualquer bairro, usando o mapa no Álbum Toon.\x7É claro que você precisa consegui-lo!\x7Olha, eu posso ativar seu acesso por teletransporte até o ' + lToontownCentral +' se você ajudar um amigo meu.\x7Parece que os Cogs estão dando problema na Travessa dos Tontos. Visite _toNpcName_._where_'},
  1044: {QUEST: 'Puxa, obrigado por passar por aqui. Eu realmente preciso de ajuda.\x7Como você pode ver, eu não tenho clientes.\x7O meu livro de receitas secreto está perdido e ninguém mais vem ao meu restaurante.\x7A última vez que eu o vi foi pouco antes de os Cogs tomarem meu edifício.\x7Você pode me ajudar recuperando quatro de minhas receitas favoritas?',
         LEAVING: '',
         INCOMPLETE_PROGRESS: 'Conseguiu recuperar minhas receitas?'},
- 1045: {QUEST: "Valeu mesmo!\x7Logo terei de volta minha coleção completa e poderei reabrir meu restaurante.\x7Ah, há uma nota aqui para você - algo sobre acesso por teletransporte?\x7Diz: 'obrigado por ajudar meu amigo e, por favor, entregue isto ao Quartel dos Toons'.\x7Bem, valeu mesmo - tchau!",
+ 1045: {QUEST: 'Valeu mesmo!\x7Logo terei de volta minha coleção completa e poderei reabrir meu restaurante.\x7Ah, há uma nota aqui para você - algo sobre acesso por teletransporte?\x7Diz: "obrigado por ajudar meu amigo e, por favor, entregue isto ao Quartel dos Toons".\x7Bem, valeu mesmo - tchau!',
         LEAVING: '',
-        COMPLETE: 'Ah, sim, aqui diz que você foi de grande ajuda para alguns dos caras mais legais da Travessa dos Tontos.\x7Diz também que você precisa de acesso por teletransporte para o Centro de Toontown.\x7Bem, considere concedido.\x7Agora, você pode se teletransportar de volta para o pátio, de praticamente qualquer lugar de Toontown.\x7Basta abrir o seu mapa e clicar em Centro de Toontown.'},
+        COMPLETE: 'Ah, sim, aqui diz que você foi de grande ajuda para alguns dos caras mais legais da Travessa dos Tontos.\x7Diz também que você precisa de acesso por teletransporte para o ' + lToontownCentral +'.\x7Bem, considere concedido.\x7Agora, você pode se teletransportar de volta para o pátio, de praticamente qualquer lugar de Toontown.\x7Basta abrir o seu mapa e clicar em ' + lToontownCentral +'.'},
  1046: {QUEST: 'Os Robôs Mercenários têm importunado bastante a Financeira Dinheiro Feliz.\x7Passe por lá e veja se há algo que você possa fazer._where_'},
  1047: {QUEST: 'Os Robôs Mercenários têm se infiltrado no banco e roubado nossas calculadoras.\x7Recupere 5 calculadoras dos Robôs Mercenários.\x7Para evitar que você fique indo para lá e para cá, traga-as todas de uma vez.',
         LEAVING: '',
         INCOMPLETE_PROGRESS: 'Ainda procurando pelas calculadoras?'},
- 1048: {QUEST: "Uau! Valeu mesmo por encontrar nossas calculadoras.\x7Humm... Elas parecem danificadas.\x7Você poderia levá-las para a loja de _toNpcName_, 'Máquinas de Cosquinhas', nesta rua?\x7Veja se podem consertá-las.",
+ 1048: {QUEST: 'Uau! Valeu mesmo por encontrar nossas calculadoras.\x7Humm... Elas parecem danificadas.\x7Você poderia levá-las para a loja de _toNpcName_, "Máquinas de Cosquinhas", nesta rua?\x7Veja se podem consertá-las.',
         LEAVING: ''},
  1049: {QUEST: 'O que é isto? Calculadoras quebradas?\x7Robôs Mercenários?\x7Bem, vamos dar uma olhada...\x7É, as engrenagens estão partidas mas eu estou sem essa peça...\x7Sabe o que poderia dar jeito? Algumas engrenagens de Cog, das grandes, dos Cogs maiores...\x7Engrenagens de Cogs de nível 3 devem servir. Precisarei de 2 para cada máquina, 10 no total.\x7Traga-as todas de uma vez e eu as consertarei!',
         LEAVING: '',
@@ -668,7 +663,7 @@ QuestDialogDict = {160: {GREETING: '',
         LEAVING: '',
         COMPLETE: 'Calculadoras consertadas?\x7Bom trabalho. Tenho certeza de que tenho algo por aqui para recompensar você...'},
  1054: {QUEST: '_toNpcName_ precisa de alguma ajuda com seus carros de palhaço._where_'},
- 1055: {QUEST: 'Oiááá! Eu não consigo encontrar os pneus para este carro de palhaço em lugar nenhum!\x7Você acha que pode me ajudar?\x7Eu acho que o Tito Tonto pode ter jogado os pneus no lago do pátio do Centro de Toontown.\x7Se você ficar em um dos cais de lá, poderá tentar pescar os pneus para mim.',
+ 1055: {QUEST: 'Oláááá! Eu não consigo encontrar os pneus para este carro de palhaço em lugar nenhum!\x7Você acha que pode me ajudar?\x7Eu acho que o Tito Tonto pode ter jogado os pneus no lago do pátio do ' + lToontownCentral +'.\x7Se você ficar em um dos cais de lá, poderá tentar pescar os pneus para mim.',
         GREETING: 'Iuhuu!',
         LEAVING: '',
         INCOMPLETE_PROGRESS: 'Você está tendo problemas para pescar os 4 pneus?'},
@@ -679,27 +674,27 @@ QuestDialogDict = {160: {GREETING: '',
         INCOMPLETE_PROGRESS: 'Isso é o melhor que você pode fazer?'},
  1058: {QUEST: 'Bom trabalho! Eu sabia que você conseguiria.\x7Aqui está a bomba. Estou certo de que _toNpcName_ ficará feliz em recebê-la de volta.',
         LEAVING: '',
-        GREETING:'',
+        GREETING: '',
         COMPLETE: 'Dez! Agora está tudo certo!\x7Por falar nisso, obrigado por me ajudar.\x7Aqui, tome isto.'},
  1059: {QUEST: '_toNpcName_ está com poucos suprimentos. Quem sabe você pode ajudá-lo?_where_'},
  1060: {QUEST: 'Valeu mesmo por passar aqui!\x7Os Cogs roubam sempre a minha tinta e, por isso, ela está quase no fim.\x7Você poderia pescar um pouco de tinta de polvo para mim no lago?\x7Para pescar, basta ficar parado em um cais perto do lago.',
         LEAVING: '',
         INCOMPLETE_PROGRESS: 'Você está tendo problemas para pescar?'},
- 1061: {QUEST: 'Ótimo, valeu pela tinta!\x7Sabe de uma coisa, se você eliminasse alguns daqueles Ratos de Escritório...\x7Aí minha tinta não acabaria tão rápido.\x7Derrote 6 Ratos de Escritório no Centro de Toontown para receber sua recompensa.',
+ 1061: {QUEST: 'Ótimo, valeu pela tinta!\x7Sabe de uma coisa, se você eliminasse alguns daqueles Ratos de Escritório...\x7Aí minha tinta não acabaria tão rápido.\x7Derrote 6 Ratos de Escritório no ' + lToontownCentral +' para receber sua recompensa.',
         LEAVING: '',
         COMPLETE: 'Valeu! Vou recompensar você pela sua ajuda.',
         INCOMPLETE_PROGRESS: 'Eu acabei de ver mais alguns Ratos de Escritório.'},
- 1062: {QUEST: 'Ótimo, valeu pela tinta!\x7Sabe de uma coisa? Se você eliminasse alguns daqueles Sanguessugas...\x7Aí minha tinta não acabaria tão rápido.\x7Derrote 6 Sanguessugas no Centro de Toontown para receber sua recompensa.',
+ 1062: {QUEST: 'Ótimo, valeu pela tinta!\x7Sabe de uma coisa? Se você eliminasse alguns daqueles Sanguessugas...\x7Aí minha tinta não acabaria tão rápido.\x7Derrote 6 Sanguessugas no ' + lToontownCentral +' para receber sua recompensa.',
         LEAVING: '',
         COMPLETE: 'Valeu! Vou recompensar você pela sua ajuda.',
         INCOMPLETE_PROGRESS: 'Eu acabei de ver mais alguns Sanguessugas.'},
  900: {QUEST: 'Fiquei sabendo que _toNpcName_ precisa de ajuda com um pacote._where_'},
- 1063: {QUEST: 'Oi! Legal você ter vindo.\x7Um Cog roubou um pacote muito importante bem debaixo do meu nariz.\x7Veja se você consegue recuperá-lo. Eu acho que ele era de nível 3...\x7Então, derrote Cogs de nível 3 até encontrar meu pacote.',
+ 1063: {QUEST: 'Olá! Legal você ter vindo.\x7Um Cog roubou um pacote muito importante bem debaixo do meu nariz.\x7Veja se você consegue recuperá-lo. Eu acho que ele era de nível 3...\x7Então, derrote Cogs de nível 3 até encontrar meu pacote.',
         LEAVING: '',
         INCOMPLETE_PROGRESS: 'Não teve sorte de encontrar o pacote, né?'},
  1067: {QUEST: 'É ele mesmo, está tudo certo!\x7Ei, o endereço está borrado...\x7Tudo o que eu posso ler é que é para um Dr. - o resto está ilegível.\x7Talvez seja para _toNpcName_? Você pode levar para ele?_where_',
         LEAVING: ''},
- 1068: {QUEST: 'Eu não estava esperando um pacote. Talvez seja para o Dr. E.U. Fórico.\x7Meu assistente ia passar mesmo lá hoje, então pedirei a ele que verifique para você.\x7Nesse meio tempo, você se importaria de se livrar de alguns dos Cogs que estão na minha rua?\x7Derrote 10 Cogs no Centro de Toontown.',
+ 1068: {QUEST: 'Eu não estava esperando um pacote. Talvez seja para o Dr. E.U. Fórico.\x7Meu assistente ia passar mesmo lá hoje, então pedirei a ele que verifique para você.\x7Nesse meio tempo, você se importaria de se livrar de alguns dos Cogs que estão na minha rua?\x7Derrote 10 Cogs no ' + lToontownCentral +'.',
         LEAVING: '',
         INCOMPLETE_PROGRESS: 'Meu assistente ainda não voltou.'},
  1069: {QUEST: 'O Dr. Fórico disse que também não estava esperando nenhum pacote.\x7Infelizmente um Robô Mercenário roubou o pacote de meu assistente no caminho de volta.\x7Você poderia tentar pegá-lo de volta?',
@@ -742,15 +737,15 @@ QuestDialogDict = {160: {GREETING: '',
  1081: {QUEST: '_toNpcName_ parece estar numa situação grudenta. Ela, com certeza, apreciaria alguma ajuda._where_'},
  1082: {QUEST: 'Eu derramei supercola e estou presa - presa pra valer!\x7Se houver uma maneira de sair, eu gostaria de saber.\x7Isso me dá uma ideia; abra os olhos.\x7Derrote alguns Robôs Vendedores e traga de volta um pouco de óleo.',
         LEAVING: '',
-        GREETING:'',
+        GREETING: '',
         INCOMPLETE_PROGRESS: 'Você pode me ajudar a descolar daqui?'},
  1083: {QUEST: 'Bem, o óleo ajudou um pouco, mas eu ainda não consigo me mexer.\x7O que mais poderia ajudar? É difícil dizer.\x7Isso me dá uma ideia; vale a pena tentar.\x7Derrote alguns Robôs da Lei e me traga graxa.',
         LEAVING: '',
-        GREETING:'',
+        GREETING: '',
         INCOMPLETE_PROGRESS: 'Você pode me ajudar a descolar daqui?'},
  1084: {QUEST: 'Não, isso não ajudou. Isso realmente não é engraçado.\x7Eu coloquei a graxa bem ali,\x7Isso me dá uma ideia, não me deixe esquecer.\x7Derrote alguns Robôs Mercenários e traga água para umedecer.',
         LEAVING: '',
-        GREETING:'',
+        GREETING: '',
         COMPLETE: 'Oba! Estou livre da supercola,\x7Como recompensa, dou este presente a você.\x7Você pode rir um pouco mais enquanto luta e, então...\x7Ah, não! Já estou presa aqui novamente!',
         INCOMPLETE_PROGRESS: 'Você pode me ajudar a descolar daqui?'},
  1085: {QUEST: '_toNpcName_ está fazendo uma pesquisa sobre os Cogs.\x7Vá falar com ele para ver se ele precisa da sua ajuda._where_'},
@@ -778,23 +773,23 @@ QuestDialogDict = {160: {GREETING: '',
         COMPLETE: 'Você encontrou minha câmara de ar! Você é legal MESMO! Olha aqui, tome a sua recompensa...'},
  2203: {QUEST: 'Os cogs estão espalhando o caos no banco.\x7Vá até o Capitão Carlão e veja o que você pode fazer._where_'},
  2204: {QUEST: 'Bem-vindo a bordo, colega.\x7Droga! Aqueles cogs patifes quebraram meu monóculo e eu não vivo sem ele.\x7Seja um bom marujo e leve esta receita para o Dr. Quiqueres para trazer um novo para mim._where_',
-        GREETING:'',
-        LEAVING: ''},
+        GREETING: '',
+        LEAVING: '',},
  2205: {QUEST: 'O que é isso?\x7Puxa, eu adoraria poder trabalhar nesta receita, mas os cogs têm furtado meus suprimentos.\x7Se você pegasse a armação dos óculos de um Puxa-saco eu provavelmente poderia ajudá-lo.',
-        LEAVING: '',
+        LEAVING: '',,
         INCOMPLETE_PROGRESS: 'Sinto muito. Sem armações de Puxa-saco, não tem monóculo!'},
  2206: {QUEST: 'Excelente!\x7Só um segundo...\x7Sua receita está pronta. Leve este monóculo diretamente ao Capitão Carlão._where_',
-        GREETING:'',
-        LEAVING: '',
+        GREETING: '',
+        LEAVING: '',,
         COMPLETE: 'Alto!\x7Você vai ganhar sua condecoração, afinal de contas.\x7Aqui está.'},
  2207: {QUEST: 'Há um Cog na loja da Craca Bárbara!\x7É melhor você ir para lá imediatamente._where_'},
- 2208: {QUEST: "Droga! Você se desencontrou dele, gracinha.\x7Havia um Golpe Sujo aqui. Ele levou a minha grande peruca branca.\x7Ele disse que era para o chefe dele e mencionou algo como 'precedente legal'.\x7Se você puder pegá-la de volta, ficarei eternamente grata.",
-        LEAVING: '',
-        GREETING:'',
+ 2208: {QUEST: 'Droga! Você se desencontrou dele, gracinha.\x7Havia um Golpe Sujo aqui. Ele levou a minha grande peruca branca.\x7Ele disse que era para o chefe dele e mencionou algo como "precedente legal".\x7Se você puder pegá-la de volta, ficarei eternamente grata.',
+        LEAVING: '',,
+        GREETING: '',
         INCOMPLETE_PROGRESS: 'Ainda não o encontrou?\x7Ele é alto e tem uma cabeça pontuda.',
-        COMPLETE: 'Você a encontrou!?!?\x7Você é uma gracinha!\x7Sua recompensa é mais do que merecida...'},
+        COMPLETE: 'Você a encontrou!?\x7Você é uma gracinha!\x7Sua recompensa é mais do que merecida...'},
  2209: {QUEST: 'Moby está se preparando para uma viagem importante.\x7Visite-o e veja o que pode fazer para ajudá-lo._where_'},
- 2210: {QUEST: 'Sua ajuda será bem-vinda.\x7O Quartel dos Toons me pediu para fazer uma viagem e ver se consigo descobrir de onde os cogs estão vindo.\x7Precisarei de algumas coisas para o meu navio, mas não tenho muitas balinhas.\x7Passe pela loja da Alice e Pousada Ancinho um pouco de cascalho para mim. Você terá que fazer um favor para ela para poder pegar o cascalho._where_',
+ 2210: {QUEST: 'Sua ajuda será bem-vinda.\x7O Quartel dos Toons me pediu para fazer uma viagem e ver se consigo descobrir de onde os cogs estão vindo.\x7Precisarei de algumas coisas para o meu navio, mas não tenho muitas balinhas.\x7Passe pela loja da Alice e pegue um pouco de cascalho para mim. Você terá que fazer um favor para ela para poder pegar o cascalho._where_',
         GREETING: 'E aí, _avName_',
         LEAVING: ''},
  2211: {QUEST: 'Então, o Moby quer cascalho, né?\x7Ele ainda está me devendo por aquele último alqueire.\x7Eu lhe darei se você conseguir eliminar cinco Microempresários na minha rua.',
@@ -805,19 +800,19 @@ QuestDialogDict = {160: {GREETING: '',
         GREETING: 'Ora, ora, o que temos aqui...',
         LEAVING: ''},
  2213: {QUEST: 'Excelente trabalho. Eu sabia que ela encontraria uma saída.\x7Agora, eu preciso pegar uma carta de navegação com o Mário.\x7Acho que meu crédito lá também não é tão bom, portanto, você vai ter que negociar com ele._where_',
-        GREETING:'',
+        GREETING: '',
         LEAVING: ''},
  2214: {QUEST: 'Sim, eu tenho a carta de navegação que o Moby quer.\x7E se você estiver disposto a trabalhar para consegui-la, eu a darei para você.\x7Estou tentando construir um astrolábio para navegar pelas estrelas.\x7Preciso de três engrenagens de Cog para construí-la.\x7Volte aqui quando encontrá-las.',
         INCOMPLETE_PROGRESS: 'Como está indo com aquelas engrenagens de Cog?',
         GREETING: 'Bem-vindo!',
         LEAVING: 'Boa sorte!'},
  2215: {QUEST: 'Oh! Essas engrenagens vão ser úteis mesmo.\x7Aqui está a carta. Leve para o Moby, com meus cumprimentos._where_',
-        GREETING:'',
+        GREETING: '',
         LEAVING: '',
         COMPLETE: 'Bem, agora sim. Estou pronto para zarpar!\x7Eu o levaria comigo se você não fosse novato. Leve isto, então.'},
  901: {QUEST: 'Se estiver disposto, o Salgado está precisando de ajuda na loja dele..._where_'},
  2902: {QUEST: 'Você é o novo recruta?\x7Bom, bom. Talvez você possa me ajudar.\x7Estou construindo um caranguejo pré-fabricado gigante para confundir os cogs.\x7Eu vou precisar de uma braçadeira. Visite o Mário e me traga uma._where_'},
- 2903: {QUEST: 'Oi!\x7Sim, eu ouvi falar no caranguejo gigante que Salgado está construindo.\x7A melhor braçadeira que tenho está meio suja.\x7Seja gentil e passe pela lavanderia antes de levá-la para ele._where_',
+ 2903: {QUEST: 'Olá!\x7Sim, eu ouvi falar no caranguejo gigante que Salgado está construindo.\x7A melhor braçadeira que tenho está meio suja.\x7Seja gentil e passe pela lavanderia antes de levá-la para ele._where_',
         LEAVING: 'Valeu!'},
  2904: {QUEST: 'Você deve ser o amigo do Mário.\x7Acho que posso limpar isso rapidinho.\x7Só um minuto...\x7Aqui está. Nova em folha!\x7Diga olá ao Salgado por mim._where_'},
  2905: {QUEST: 'Ah, era exatamente o que eu queria.\x7Já que você está aqui, eu também vou precisar de uma mola de relógio de corda bem grande.\x7Vá até a loja do Gancho e veja se ele tem uma._where_'},
@@ -832,8 +827,8 @@ QuestDialogDict = {160: {GREETING: '',
         INCOMPLETE_PROGRESS: 'Acho que ainda não está seguro...'},
  2925: {QUEST: 'Tudo pronto?\x7Bem, acho que agora está suficientemente seguro.\x7Aqui está o contrapeso para o Salgado._where_'},
  2926: {QUEST: 'Bem, isso é tudo.\x7Deixe-me ver se funciona.\x7Humm, um pequeno problema.\x7Não estou conseguindo obter energia, pois aquele edifício Cog está bloqueando meu painel solar.\x7Você poderia dominá-lo para mim?',
-       INCOMPLETE_PROGRESS: 'Ainda sem energia. E aquele edifício?',
-       COMPLETE: 'Súper! Você é um destruidor de cogs e tanto! Tome isto aqui como recompensa...'},
+        INCOMPLETE_PROGRESS: 'Ainda sem energia. E aquele edifício?',
+        COMPLETE: 'Súper! Você é um destruidor de cogs e tanto! Tome isto aqui como recompensa...'},
  3200: {QUEST: 'Acabo de receber uma ligação do _toNpcName_.\x7Ele está tendo um dia difícil. Talvez você possa ajudá-lo!\x7Passe por lá e veja do que ele precisa._where_'},
  3201: {QUEST: 'Puxa, obrigado por vir!\x7Preciso de alguém para levar esta nova gravata de seda para _toNpcName_.\x7Você poderia fazer isso para mim?_where_'},
  3203: {QUEST: 'Ah, esta deve ser a gravata que eu pedi! Obrigado!\x7Ela combina com o terno listrado que acabei de terminar, logo ali.\x7Ei, o que aconteceu com o terno?\x7Oh, não! Os Cogs devem ter roubado meu terno novo!\x7Derrote Cogs até encontrar meu terno e traga-o de volta para mim.',
@@ -841,7 +836,7 @@ QuestDialogDict = {160: {GREETING: '',
         INCOMPLETE_PROGRESS: 'Você já encontrou meu terno? Tenho certeza de que os Cogs o pegaram!',
         COMPLETE: 'Legal! Você encontrou meu terno novo!\x7Viu, eu disse que os Cogs estavam com ele! Aqui está a sua recompensa...'},
  3204: {QUEST: '_toNpcName_ acabou de ligar para informar um roubo.\x7Por que você não passa por lá e vê se consegue resolver as coisas?_where_'},
- 3205: {QUEST: 'Oi, _avName_! Você veio me ajudar?\x7Acabei de expulsar um Sanguessuga de minha loja. Puxa! Foi horrível.\x7Mas agora não encontro minha tesoura em lugar nenhum! Tenho certeza de que o Sanguessuga a levou.\x7Encontre-o e recupere minha tesoura.',
+ 3205: {QUEST: 'Olá, _avName_! Você veio me ajudar?\x7Acabei de expulsar um Sanguessuga de minha loja. Puxa! Foi horrível.\x7Mas agora não encontro minha tesoura em lugar nenhum! Tenho certeza de que o Sanguessuga a levou.\x7Encontre-o e recupere minha tesoura.',
         LEAVING: '',
         INCOMPLETE_PROGRESS: 'Você ainda está procurando minha tesoura?',
         COMPLETE: 'Minha tesoura! Valeu mesmo, viu? Aqui está a sua recompensa...'},
@@ -849,9 +844,9 @@ QuestDialogDict = {160: {GREETING: '',
  3207: {QUEST: 'Oi, _avName_! Obrigado por vir!\x7Um monte de Duplos Sentidos invadiu minha loja e roubou uma pilha de cartões-postais de meu balcão.\x7Vá e derrote todos os Duplos Sentidos e recupere meus cartões-postais!',
         INCOMPLETE_PROGRESS: 'Não há cartões-postais suficientes! Continue procurando!',
         COMPLETE: 'Ah, valeu! Agora eu posso entregar a correspondência na hora certa! Aqui está a sua recompensa...'},
- 3208: {QUEST: 'Ultimamente temos recebido reclamações dos moradores sobre os Reis da Incerta.\x7Veja se consegue derrotar 10 Reis da Incerta para ajudar nossos colegas Toons nos Jardins da Margarida.'},
- 3209: {QUEST: 'Valeu mesmo por derrotar os Reis da Incerta!\x7Mas agora os Operadores de Telemarketing ficaram fora de controle.\x7Derrote 10 Operadores de Telemarketing nos Jardins da Margarida e volte aqui para pegar sua recompensa.'},
- 3247: {QUEST: 'Ultimamente, temos recebido reclamações dos moradores sobre os Sanguessugas.\x7Veja se consegue derrotar 20 Sanguessugas para ajudar nossos colegas Toons nos Jardins da Margarida.'},
+ 3208: {QUEST: 'Ultimamente temos recebido reclamações dos moradores sobre os Reis da Incerta.\x7Veja se consegue derrotar 10 Reis da Incerta para ajudar nossos colegas Toons nos ' + lDaisyGardens + '.'},
+ 3209: {QUEST: 'Valeu mesmo por derrotar os Reis da Incerta!\x7Mas agora os Operadores de Telemarketing ficaram fora de controle.\x7Derrote 10 Operadores de Telemarketing nos ' + lDaisyGardens + ' e volte aqui para pegar sua recompensa.'},
+ 3247: {QUEST: 'Ultimamente, temos recebido reclamações dos moradores sobre os Sanguessugas.\x7Veja se consegue derrotar 20 Sanguessugas para ajudar nossos colegas Toons nos ' + lDaisyGardens + '.'},
  3210: {QUEST: 'Oh, não, a Seivas Florais da Rua das Amendoeiras está sem flores!\x7Para ajudar, leve dez de suas flores com esguicho.\x7Mas veja primeiramente se tem realmente 10 flores com esguicho em seu estoque.',
         LEAVING: '',
         INCOMPLETE_PROGRESS: 'Preciso ter 10 flores com esguicho. Você não tem o suficiente!'},
@@ -875,43 +870,43 @@ QuestDialogDict = {160: {GREETING: '',
  3245: {QUEST: 'Muito bom! Agora precisamos de uma roda dentada de um Golpe Sujo.\x7Estas são mais difíceis de conseguir, portanto, continue tentando.'},
  3246: {QUEST: 'Demais! Agora precisamos de apenas mais uma roda dentada.\x7Desta vez, de um Relações Públicas.\x7Quando pegá-la, traga-a aqui para conseguir sua recompensa.'},
  3220: {QUEST: 'Acabei de saber que _toNpcName_ estava perguntando por você.\x7Por que você não passa por lá e vê o que ela quer?_where_'},
- 3221: {QUEST: 'Oi, _avName_! Aí está você!\x7Ouvi dizer que você é especialista em ataques com esguicho.\x7Preciso de alguém para dar um bom exemplo a todos os Toons nos Jardins da Margarida.\x7Use seus ataques com esguicho para derrotar vários Cogs.\x7Incentive seus amigos a usarem o esguicho também.\x7Quando tiver derrotado 20 Cogs, volte aqui para pegar sua recompensa!'},
+ 3221: {QUEST: 'Oi, _avName_! Aí está você!\x7Ouvi dizer que você é especialista em ataques com esguicho.\x7Preciso de alguém para dar um bom exemplo a todos os Toons nos ' + lDaisyGardens + '.\x7Use seus ataques com esguicho para derrotar vários Cogs.\x7Incentive seus amigos a usarem o esguicho também.\x7Quando tiver derrotado 20 Cogs, volte aqui para pegar sua recompensa!'},
  3222: {QUEST: 'É hora de demonstrar sua Toonmizade.\x7Se você recuperar, com sucesso, um número de edifícios de Cogs, ganhará o direito de fazer três buscas.\x7Primeiramente, derrote dois edifícios de Cogs.\x7Sinta-se à vontade para chamar seus amigos para ajudá-lo.'},
  3223: {QUEST: 'Bom trabalho naqueles edifícios!\x7Agora, derrote mais dois.\x7Os edifícios devem ter, pelo menos, dois andares.'},
  3224: {QUEST: 'Fantástico!\x7Agora é só derrotar mais dois edifícios.\x7Eles devem ter, pelo menos, três andares.\x7Quando terminar, volte para pegar sua recompensa!',
         COMPLETE: 'Você conseguiu, _avName_!\x7Você demonstrou uma elevada Toonmizade.',
-        GREETING:''},
+        GREETING: ''},
  3225: {QUEST: '_toNpcName_ diz que precisa de ajuda.\x7Por que você não vai até lá e vê o que pode fazer para ajudá-la?_where_'},
- 3235: {QUEST: 'Ah, esta é a salada que pedi!\x7Obrigada por trazê-la para mim.\x7Todos esses Cogs devem ter amedrontado novamente o entregador de _toNpcName_ .\x7Por que você não nos faz um favor e derrota alguns desses Cogs lá fora?\x7Derrote 10 Cogs nos Jardins da Margarida e, então, vá até _toNpcName_.',
+ 3235: {QUEST: 'Ah, esta é a salada que pedi!\x7Obrigada por trazê-la para mim.\x7Todos esses Cogs devem ter amedrontado novamente o entregador de _toNpcName_ .\x7Por que você não nos faz um favor e derrota alguns desses Cogs lá fora?\x7Derrote 10 Cogs nos ' + lDaisyGardens + ' e, então, vá até _toNpcName_.',
         INCOMPLETE_PROGRESS: 'Você está trabalhando na eliminação de Cogs para mim?\x7Isto é maravilhoso! Continue com o bom trabalho!',
         COMPLETE: 'Oh, muito obrigada por derrotar aqueles Cogs!\x7Agora, acho que poderei manter minha escala normal de entregas.\x7Sua recompensa é...',
         INCOMPLETE_WRONG_NPC: 'Vá contar a _toNpcName_ sobre os Cogs que você derrotou._where_'},
  3236: {QUEST: 'Há muitos Robôs da Lei por aí.\x7Você pode fazer sua parte para ajudar!\x7Derrote 3 edifícios de Robôs da Lei.'},
  3237: {QUEST: 'Bom trabalho naqueles edifícios de Robôs da Lei!\x7Mas agora há muitos Robôs Vendedores!\x7Derrote 3 edifícios de Robôs Vendedores e volte para buscar sua recompensa.'},
- 3238: {QUEST: "Ah não! Um Cog 'Amizade Fácil' roubou a Chave para os Jardins da Margarida!\x7Veja se você consegue recuperá-la.\x7Lembre-se, o Amizade Fácil só pode ser encontrado dentro dos edifícios de Robôs Vendedores."},
- 3239: {QUEST: "Você achou uma chave, tudo bem, mas esta não é a correta!\x7Precisamos da chave dos Jardins da Margarida.\x7Continue de olho! Ela ainda está com algum Cog 'Amizade Fácil'!"},	
- 3242: {QUEST: 'Ah não! Um Cog Macaco velho roubou a Chave para os Jardins da Margarida!\x7Veja se você consegue recuperá-la.\x7Lembre-se, os Macacos-velhos só podem ser encontrados dentro dos edifícios de Robôs da Lei.'},
- 3243: {QUEST: 'Você achou uma chave, tudo bem, mas esta não é a correta!\x7Precisamos da chave dos Jardins da Margarida.\x7Continue de olho! Ela ainda está com algum Cog Macaco velho!'},
+ 3238: {QUEST: 'Ah não! Um Cog "Amizade Fácil" roubou a Chave para os ' + lDaisyGardens + '!\x7Veja se você consegue recuperá-la.\x7Lembre-se, o Amizade Fácil só pode ser encontrado dentro dos edifícios de Robôs Vendedores.'},
+ 3239: {QUEST: 'Você achou uma chave, tudo bem, mas esta não é a correta!\x7Precisamos da chave dos ' + lDaisyGardens + '.\x7Continue de olho! Ela ainda está com algum Cog "Amizade Fácil"!'},
+ 3242: {QUEST: 'Ah não! Um Cog Macaco velho roubou a Chave para os ' + lDaisyGardens + '!\x7Veja se você consegue recuperá-la.\x7Lembre-se, os Macacos-velhos só podem ser encontrados dentro dos edifícios de Robôs da Lei.'},
+ 3243: {QUEST: 'Você achou uma chave, tudo bem, mas esta não é a correta!\x7Precisamos da chave dos ' + lDaisyGardens + '.\x7Continue de olho! Ela ainda está com algum Cog Macaco velho!'},
  3240: {QUEST: 'Acabei de saber que um Macaco velho roubou um saco de ração para pássaros de _toNpcName_ .\x7Derrote Macacos velhos até recuperar a ração para pássaros do Florêncio e levá-la de volta para ele.\x7Os Macacos velhos só são encontrados dentro de edifícios de Robôs da Lei._where_',
-        COMPLETE: 'Ah, muito obrigado por encontrar minha ração para pássaros!\x7Sua recompensa é...',
-        INCOMPLETE_WRONG_NPC: 'Bom trabalho na recuperação da ração para pássaros!\x7Agora, leve-a para _toNpcName_._where_'},
+       COMPLETE: 'Ah, muito obrigado por encontrar minha ração para pássaros!\x7Sua recompensa é...',
+       INCOMPLETE_WRONG_NPC: 'Bom trabalho na recuperação da ração para pássaros!\x7Agora, leve-a para _toNpcName_._where_'},
  3241: {QUEST: 'Alguns dos edifícios de Cogs estão ficando altos demais e isso já está incomodando.\x7Veja se você consegue derrubar alguns dos edifícios mais altos.\x7Recupere 5 edifícios de 3 andares, ou mais altos, e volte para pegar sua recompensa.'},
  3250: {QUEST: 'A Detetive Linda da Rua dos Carvalhos recebeu informações sobre um Quartel de Robôs Vendedores.\x7Vá até lá e ajude-a a investigar.'},
  3251: {QUEST: 'Há algo estranho acontecendo por aqui.\x7Há tantos Robôs Vendedores!\x7Ouvi dizer que eles organizaram seu próprio quartel no final desta rua.\x7Vá até lá e veja o que consegue descobrir.\x7Encontre Cogs Robôs Vendedores em seu quartel, derrote 5 deles e volte aqui.'},
  3252: {QUEST: 'Ok, desembucha.\x7O que você disse?\x7Quartel de Robôs Vendedores?? Ah não!!! Algo tem que ser feito.\x7Devemos avisar a Juíza Gala. Ela saberá o que fazer.\x7Vá até lá e conte a ela o que descobrimos. É só descer a rua.'},
  3253: {QUEST: 'Sim, posso ajudá-lo? Estou muito ocupada.\x7Hã? Quartel de Cogs?\x7Hã? Besteira. Isto nunca poderia acontecer.\x7Você deve estar enganado. Absurdo.\x7Hã? Não discuta comigo.\x7Ok, então, traga alguma prova.\x7Se os Robôs Vendedores realmente estão construindo este Quartel de Cogs, qualquer Cog de lá estará carregando mapas.\x7Cogs amam trabalhar com papelada, sabe?\x7Derrote Robôs Vendedores até encontrar os mapas.\x7Traga-os aqui, e eu talvez acredite em você.'},
  3254: {QUEST: 'Você de novo, hã? Mapas? Você está com eles?\x7Deixe-me vê-los! Humm... Uma fábrica?\x7Deve ser lá que eles estão construindo os Robôs Vendedores... E o que é isso?\x7Sim, exatamente como eu suspeitava. Eu sabia o tempo todo.\x7Eles estão construindo um Quartel de Robôs Vendedores.\x7Isso não é bom. Preciso fazer algumas ligações. Estou muito ocupada. Adeus!\x7Hã? Ah sim, leve estes mapas de volta para a Detetive Linda.\x7Ela poderá decifrá-los melhor.',
-        COMPLETE: 'O que a Juíza Gala disse?\x7Nós tínhamos razão? Ah, não. Vamos ver estes mapas.\x7Humm... Parece que os Robôs Vendedores construíram uma fábrica com maquinário para fazer Cogs.\x7Parece muito perigoso. Fique de fora até que você tenha mais Pontos de risadas.\x7Quando você tiver mais Pontos de risadas, teremos muito mais a aprender sobre o Quartel dos Robôs Vendedores.\x7Aqui está sua recompensa. Bom trabalho!'},
- 3255: {QUEST: '_toNpcName_ está investigando o '+lSellbotHQ+'.\x7Veja se você consegue ajudar._where_'},
- 3256: {QUEST: '_toNpcName_ está investigando o '+lSellbotHQ+'.\x7Veja se você consegue ajudar._where_'},
- 3257: {QUEST: '_toNpcName_ está investigando o '+lSellbotHQ+'.\x7Veja se você consegue ajudar._where_'},
+       COMPLETE: 'O que a Juíza Gala disse?\x7Nós tínhamos razão? Ah, não. Vamos ver estes mapas.\x7Humm... Parece que os Robôs Vendedores construíram uma fábrica com maquinário para fazer Cogs.\x7Parece muito perigoso. Fique de fora até que você tenha mais Pontos de risadas.\x7Quando você tiver mais Pontos de risadas, teremos muito mais a aprender sobre o Quartel dos Robôs Vendedores.\x7Aqui está sua recompensa. Bom trabalho!'},
+ 3255: {QUEST: '_toNpcName_ está investigando o ' + lSellbotHQ + '.\x7Veja se você consegue ajudar._where_'},
+ 3256: {QUEST: '_toNpcName_ está investigando o ' + lSellbotHQ + '.\x7Veja se você consegue ajudar._where_'},
+ 3257: {QUEST: '_toNpcName_ está investigando o ' + lSellbotHQ + '.\x7Veja se você consegue ajudar._where_'},
  3258: {QUEST: 'Há muita confusão sobre o que os Cogs pretendem com seu novo Quartel.\x7Preciso que você traga algumas informações diretamente deles.\x7Se nós conseguirmos quatro memorandos internos de Robôs Vendedores dentro de seu Quartel, isso ajudará a esclarecer as coisas.\x7Traga o primeiro memorando para mim para que possamos nos informar melhor.'},
- 3259: {QUEST: "Demais! Vamos ver o que diz o memorando...\x7'A/C Robôs Vendedores:'\x7'Estarei em meu escritório no topo das Torres Robôs Vendedores promovendo Cogs a níveis mais altos.'\x7'Quando você tiver méritos suficientes, entre no elevador do saguão para falar comigo'.\x7'O intervalo chegou ao fim. De volta ao trabalho!'\x7'Assinado, Robô Vendedor VP'\x7Ahá.... Flippy vai querer ver isto. Enviarei a ele imediatamente.\x7Vá buscar o segundo memorando e traga aqui."},
- 3260: {QUEST: "Que bom, você está de volta. Deixe-me ver o que você encontrou....\x7'A/C Robôs Vendedores:'\x7'As Torres Robôs Vendedores instalaram um novo sistema de segurança para afastar todos os Toons.'\x7'Os Toons que forem encontrados nas Torres Robôs Vendedores serão detidos para interrogatório'.\x7'Encontrem-se no saguão para um coquetel, no qual discutiremos o assunto.'\x7'Assinado, Amizade Fácil'\x7Muito interessante... Passarei imediatamente esta informação adiante.\x7Traga o terceiro memorando."},
- 3261: {QUEST: "Excelente trabalho _avName_! O que diz o memorando?\x7'A/C Robôs Vendedores:'\x7'De algum modo, os Toons encontraram um jeito de se infiltrarem nas Torres Robôs Vendedores.'\x7'Ligarei para vocês esta noite na hora do jantar para fornecer os detalhes.'\x7'Assinado, Operador de Telemarketing'\x7Humm... Queria saber como os Toons estão conseguindo se infiltrar....\x7Traga mais um memorando e acho que assim teremos informações suficientes.",
-        COMPLETE: "Eu sabia que você conseguiria! Ok, o memorando diz...\x7'A/C Robôs Vendedores:'\x7'Ontem, estava almoçando com Dr. Celebridade.'\x7'Ele disse que o VP tem estado bastante ocupado nestes dias.'\x7'Ele só receberá os Cogs que merecem promoção.'\x7'Esqueci de dizer, o Amigo da Onça jogará golfe comigo no domingo.'\x7'Assinado, Dr. Sabe-com-quem-está-falando'\x7Bem... _avName_, isto foi muito útil.\x7Aqui está sua recompensa."},
- 3262: {QUEST: '_toNpcName_ tem novas informações sobre a Fábrica do '+lSellbotHQ+'.\x7Vá ver o que ele tem a dizer._where_'},
- 3263: {GREETING: 'Oi, parceiro!',
+ 3259: {QUEST: 'Demais! Vamos ver o que diz o memorando...\x7"A/C Robôs Vendedores:"\x7"Estarei em meu escritório no topo das Torres Robôs Vendedores promovendo Cogs a níveis mais altos."\x7"Quando você tiver méritos suficientes, entre no elevador do saguão para falar comigo".\x7"O intervalo chegou ao fim. De volta ao trabalho!"\x7"Assinado, Robô Vendedor VP"\x7Ahá.... Flippy vai querer ver isto. Enviarei a ele imediatamente.\x7Vá buscar o segundo memorando e traga aqui.'},
+ 3260: {QUEST: 'Que bom, você está de volta. Deixe-me ver o que você encontrou....\x7"A/C Robôs Vendedores:"\x7"As Torres Robôs Vendedores instalaram um novo sistema de segurança para afastar todos os Toons."\x7"Os Toons que forem encontrados nas Torres Robôs Vendedores serão detidos para interrogatório".\x7"Encontrem-se no saguão para um coquetel, no qual discutiremos o assunto."\x7"Assinado, Amizade Fácil"\x7Muito interessante... Passarei imediatamente esta informação adiante.\x7Traga o terceiro memorando.'},
+ 3261: {QUEST: 'Excelente trabalho _avName_! O que diz o memorando?\x7"A/C Robôs Vendedores:"\x7"De algum modo, os Toons encontraram um jeito de se infiltrarem nas Torres Robôs Vendedores."\x7"Ligarei para vocês esta noite na hora do jantar para fornecer os detalhes."\x7"Assinado, Operador de Telemarketing"\x7Humm... Queria saber como os Toons estão conseguindo se infiltrar....\x7Traga mais um memorando e acho que assim teremos informações suficientes.',
+        COMPLETE: 'Eu sabia que você conseguiria! Ok, o memorando diz...\x7"A/C Robôs Vendedores:"\x7"Ontem, estava almoçando com Dr. Celebridade."\x7"Ele disse que o VP tem estado bastante ocupado nestes dias."\x7"Ele só receberá os Cogs que merecem promoção."\x7"Esqueci de dizer, o Amigo da Onça jogará golfe comigo no domingo."\x7"Assinado, Dr. Sabe-com-quem-está-falando"\x7Bem... _avName_, isto foi muito útil.\x7Aqui está sua recompensa.'},
+ 3262: {QUEST: '_toNpcName_ tem novas informações sobre a Fábrica do ' + lSellbotHQ + '.\x7Vá ver o que ele tem a dizer._where_'},
+ 3263: {GREETING: 'Olá, parceiro!',
         QUEST: 'Eu sou o Treinador Abobrinha, mas você pode me chamar de Treinador A.\x7Eu sou a favor de treinos com a raquete e alongamento, se é que você me entende.\x7Ouça, os Robôs Vendedores terminaram uma enorme fábrica para produzir Robôs Vendedores 24 horas por dia.\x7Reúna um grupo de parceiros Toon e raquetada na fábrica!\x7Dentro do Quartel do Robô Vendedor, procure pelo túnel que leva até a fábrica e, então, entre no elevador.\x7Você já tem que estar com as piadas e os pontos de risadas completos e ter Toons fortes como guias.\x7Para retardar o progresso dos Robôs Vendedores, derrote o Supervisor dentro da fábrica.\x7Parece um grande exercício, se é que fui bem claro.',
         LEAVING: 'Te vejo por aí, parceiro!',
         COMPLETE: 'Ei, parceiro, bom trabalho naquela Fábrica!\x7Parece que você encontrou parte de um terno de Cog.\x7Deve ser uma sobra do processo de fabricação de Cogs.\x7Isto pode vir a calhar. Continue coletando estas partes quando tiver um tempo livre.\x7Quem sabe, quando você coletar um terno de Cog completo, poderá vir a ser útil para alguma coisa....'},
@@ -934,18 +929,18 @@ QuestDialogDict = {160: {GREETING: '',
  4203: {QUEST: 'Demais! Um a menos...\x7Agora peça o da Cavaca._where_'},
  4204: {QUEST: 'Ah! O estoque!\x7Esqueci completamente.\x7Aposto que consigo fazer enquanto você derrota 10 cogs.\x7Passe por aqui depois, e eu prometo que estará pronto.',
         INCOMPLETE_PROGRESS: '31, 32... DROGA!\x7Você me fez perder a conta!',
-        GREETING:''},
+        GREETING: ''},
  4205: {QUEST: 'Ah, aí está você.\x7Obrigada por me dar algum tempo.\x7Leve isto para o Tom e diga olá por mim._where_'},
  4206: {QUEST: 'Humm, muito interessante.\x7Agora estamos chegando a algum lugar.\x7Ok, o último estoque é o da Fifi._where_'},
  4207: {QUEST: 'Estoque?\x7Como posso fazer o estoque se não tenho o formulário?\x7Vá até o Clave e veja se ele tem um para mim._where_',
         INCOMPLETE_PROGRESS: 'Algum sinal daquele formulário?'},
  4208: {QUEST: 'Claro que eu tenho um formulário de estoque, monsenhor!\x7Mas eles não são de graça, sabe?.\x7Façamos o seguinte. Eu troco por uma torta de creme inteira.',
-        GREETING: 'Ei, monsenhor!',
+        GREETING:  'Ei, monsenhor!',
         LEAVING: 'Boa sorte...',
         INCOMPLETE_PROGRESS: 'Um pedaço não adianta.\x7Estou com fome, monsenhor. Eu preciso da torta INTEIRA.'},
- 4209: {GREETING: '',
+ 4209: {GREETING:  '',
         QUEST: 'Humm...\x7Muito gostoso!\x7Aqui está o formulário para Fifi._where_'},
- 4210: {GREETING: '',
+ 4210: {GREETING:  '',
         QUEST: 'Valeu, foi uma grande ajuda.\x7Vamos ver...Violinos: 2\x7Tudo pronto! Aqui está!',
         COMPLETE: 'Bom trabalho, _avName_.\x7Tenho certeza de que solucionarei este caso agora.\x7Por que você não o soluciona?'},
  4211: {QUEST: 'Veja, o Dr. Triturador está ligando de cinco em cinco minutos. Você pode conversar com ele e ver qual o problema?_where_'},
@@ -974,12 +969,12 @@ QuestDialogDict = {160: {GREETING: '',
  4223: {QUEST: 'Isto deve alegrar o Barry._where_'},
  4224: {GREETING: '',
         LEAVING: '',
-        QUEST: 'Oi, Oi, OLÁ!\x7Magnífico!\x7Só conheço eu mesmo e os caras que vão fazer a faxina. \x7A Ana disse para você passar lá e pegar a sua recompensa._where_\x7Tchau, Tchau, TCHAU!',
+        QUEST: 'Olá, Olá, OLÁ!\x7Magnífico!\x7Só conheço eu mesmo e os caras que vão fazer a faxina. \x7A Ana disse para você passar lá e pegar a sua recompensa._where_\x7Tchau, Tchau, TCHAU!',
         COMPLETE: 'Obrigado por toda a sua ajuda, _avName_.\x7Você é realmente um tesouro aqui de Toontown.\x7Falando em tesouros...'},
  902: {QUEST: 'Vá ver o Léo.\x7Ele precisa de alguém para entregar uma mensagem para ele._where_'},
  4903: {QUEST: 'Cara!\x7Minhas castanholas estão foscas e tenho um grande show hoje à noite.\x7Leve-as para o Carlos e veja se ele pode dar um polimento nelas._where_'},
  4904: {QUEST: 'Sim, acho que posso polir esta peça. Mas preciso de alguma tinta azul de lula',
-        GREETING: 'Oi!',
+        GREETING: 'Olá!',
         LEAVING: 'Tchau!',
         INCOMPLETE_PROGRESS: 'Você pode achar uma lula perto de algum píer de pesca.'},
  4905: {QUEST: 'Claro! Isso mesmo!\x7Agora, preciso de um minuto para polir isto. Por que você não trabalha na recuperação de um prédio de um andar enquanto trabalho por aqui?',
@@ -988,11 +983,11 @@ QuestDialogDict = {160: {GREETING: '',
         INCOMPLETE_PROGRESS: 'Só mais um minutinho...'},
  4906: {QUEST: 'Muito bom!\x7Aqui estão as castanholas do Léo._onde_'},
  4907: {GREETING: '',
-        QUEST: 'Maneiro, cara!\x7Elas estão incríveis!\x7Agora preciso que você consiga uma cópia da letra da “Música de Natal” da Heidi._where_'},
+        QUEST: "Maneiro, cara!\x7Elas estão incríveis!\x7Agora preciso que você consiga uma cópia da letra da 'Música de Natal' da Heidi._where_"},
  4908: {QUEST: 'E aí pessoal!\x7Humm, Eu não tenho uma cópia dessa música à mão.\x7Se você me der um tempinho, eu posso transcrever de cabeça.\x7Por que você não dá uma voltinha e aproveita para recuperar um edifício de dois andares enquanto escrevo?'},
- 4909: {QUEST: 'Sinto muito.\x7Minha memória está ficando meio confusa.\x7Se você recuperar um edifício de três andares, tenho certeza de que estarei pronta quando voltar...'},
- 4910: {QUEST: 'Tudo pronto!\x7Sinto muito a demora.\x7Leve isto para o Léo._where_',
-        GREETING:'',
+ 4909: {QUEST 'Desculpe.\x7Minha memória está ficando meio confusa.\x7Se você recuperar um edifício de três andares, tenho certeza de que estarei pronta quando voltar...'},
+ 4910: {QUEST: 'Tudo pronto!\x7Desculpe a demora.\x7Leve isto para o Léo._where_',
+        GREETING: '',
         COMPLETE: 'Caramba, cara!\x7Meu show vai detonar!\x7Falando em detonar, você pode detonar alguns cogs com isto...'},
  5247: {QUEST: 'Este bairro está ficando perigoso...\x7Você deve estar querendo aprender alguns truques novos.\x7_toNpcName_ me ensinou tudo que sei, então, talvez ele possa ajudar você também._where_'},
  5248: {GREETING: 'Ah, sim.',
@@ -1044,7 +1039,7 @@ QuestDialogDict = {160: {GREETING: '',
  5203: {GREETING: 'Hã? Você está no meu time de trenó?',
         QUEST: 'O que é isto? Você quer uma bolsa?\x7Eu tinha uma aqui em algum lugar... Acho que está no meu tobogã?\x7Só que... Eu não vejo o meu tobogã desde a grande corrida!\x7Talvez um destes Cogs o tenha pego.',
         LEAVING: 'Você viu meu tobogã?',
-        INCOMPLETE_PROGRESS: 'Quem é você novamente? Sinto muito, estou meio confuso depois da batida.'},
+        INCOMPLETE_PROGRESS: 'Quem é você novamente? Desculpe, estou meio confuso depois da batida.'},
  5204: {GREETING: '',
         LEAVING: '',
         QUEST: 'Este é o meu tobogã? Não vejo nenhuma sacola aqui.\x7Acho que o Cabeção Kika estava na equipe... Será que está com ele?_where_'},
@@ -1086,7 +1081,7 @@ QuestDialogDict = {160: {GREETING: '',
         LEAVING: 'Buá!',
         INCOMPLETE_PROGRESS: 'Por favor, encontre minha carta.'},
  5212: {QUEST: 'Oh, obrigada por encontrar a minha carta!\x7Por favor, você poderia entregá-la ao cão mais lindo do bairro? Por favor! Por favor!',
-        GREETING:'',
+        GREETING: '',
         LEAVING: '',
         INCOMPLETE_PROGRESS: 'Você não entregou a minha carta, não é?'},
  5213: {GREETING: 'Enfeitiçado, com certeza.',
@@ -1100,8 +1095,8 @@ QuestDialogDict = {160: {GREETING: '',
         LEAVING: 'Volte aqui, sim, sim.',
         INCOMPLETE_PROGRESS: 'Ainda há alguns grandalhões na área. Volte aqui para falar conosco quando eles forem embora.',
         QUEST: 'Quem mandou você? Não gostamos muito de Snobs, não...\x7Mas gostamos menos ainda de Cogs...\x7Expulse os grandalhões e ajudaremos vocês, ajudaremos.'},
- 5216: {QUEST: 'Falamos que ajudaríamos você.\x7Então, Pousada Ancinho este anel e leve à garota.',
-        GREETING:'',
+ 5216: {QUEST: 'Falamos que ajudaríamos você.\x7Então, pegue este anel e leve à garota.',
+        GREETING: '',
         LEAVING: '',
         INCOMPLETE_PROGRESS: 'Você ainda está com o anel???',
         COMPLETE: 'Oh querrrrido!!! Obrigado!!!\x7Ah, também tenho algo especial para você.'},
@@ -1125,11 +1120,11 @@ QuestDialogDict = {160: {GREETING: '',
         QUEST: 'Esse Américo é mesmo uma figura!\x7Vou preparar algo que vai dar jeito nele rapidinho!\x7Puxa, parece que estou sem bigodes de sardinha...\x7Seja legal comigo e corra lá no lago para pegar alguns para mim.',
         INCOMPLETE_PROGRESS: 'Já pegou aqueles bigodes para mim?'},
  5223: {QUEST: 'OK. Obrigada!\x7Tome, leve agora para o Américo. Isto deve acalmá-lo de uma vez por todas.',
-        GREETING:'',
-        LEAVING: '',
+        GREETING: '',
+        LEAVING: ",
         INCOMPLETE_PROGRESS: 'Vá logo, leve a poção para o Américo.'},
  5224: {GREETING: '',
-        LEAVING: '',
+        LEAVING: ",
         INCOMPLETE_PROGRESS: 'Vá pegar aqueles Macacos velhos para mim, ok?',
         QUEST: 'Puxa vida, graças a Deus você voltou!\x7Passe logo para cá esta poção!!!\x7Glub, glub, glub...\x7Que gosto horrível!\x7Sabe de uma coisa? Sinto-me bem mais calmo. Agora que eu posso pensar com mais clareza, me toquei que...\x7Eram os Macacos-velhos que estavam me enlouquecendo todo este tempo!!!',
         COMPLETE: 'Nossa! Agora eu posso relaxar!\x7Tenho certeza de que há alguma coisa aqui que posso dar a você. Aqui, leve isto!'},
@@ -1175,18 +1170,18 @@ QuestDialogDict = {160: {GREETING: '',
         LEAVING: '',
         INCOMPLETE_PROGRESS: 'Você já achou aquele dente?'},
  5231: {QUEST: 'Legal, é este dente mesmo!\x7Por que você não corre para levá-lo para o Felipe?',
-        GREETING:'',
+        GREETING:
         LEAVING: '',
         INCOMPLETE_PROGRESS: 'Aposto como o Felipe vai adorar ver o dente novo dele.'},
  5232: {QUEST: 'Puxa, obrigado.\x7Mmmrrrfffffff\x7E aí, que tal, hein?\x7Ok, tudo bem, pode dizer ao Pio que eu o perdôo.',
         LEAVING: '',
-        GREETING:''},
+        GREETING: ''},
  5233: {QUEST: 'Legal, muito bom saber disso.\x7Achei mesmo que meu velho amigo Felipe não podia ficar com raiva de mim.\x7Para agradecer e ser gentil, preparei para ele este pão de pinha.\x7Será que você podia correr lá e entregar a ele para mim?',
-        GREETING:'',
+        GREETING: '',
         LEAVING: '',
         INCOMPLETE_PROGRESS: 'Melhor se apressar. O pão de pinha só é bom quando está quente.',
         COMPLETE: 'Puxa, o que é isto? Para mim?\x7Nham, nham...\x7Ohhhhhh! Meu dente! Aquele Pio Arrepio!\x7Tudo bem, não foi sua culpa. Tome aqui, leve isto por todo o trabalho que demos a você.'},
-  903: {QUEST: 'Você deve se aprontar para ver _toNpcName_, o Mago do Lago Congelado, para o seu teste final._where_'},
+ 903: {QUEST: 'Você deve se aprontar para ver _toNpcName_, o Mago do Lago Congelado, para o seu teste final._where_'},
  5234: {GREETING: '',
         QUEST: 'Ahá! Você voltou.\x7Antes de você começar, precisamos comer.\x7Traga para a gente alguns pedaços de coco para o nosso caldo.\x7O coco em pedaços só pode ser conseguido nos Cogs Rei da Cocada Preta.',
         LEAVING: '',
@@ -1207,7 +1202,7 @@ QuestDialogDict = {160: {GREETING: '',
         QUEST: 'Muito obrigado.\x7Slurp, slurp...\x7Ahhh, agora, você precisa pegar um sapo falante. Tente pescá-lo no lago.',
         LEAVING: '',
         INCOMPLETE_PROGRESS: 'Cadê o sapo falante?'},
- 5237: {GREETING:'',
+ 5237: {GREETING: '',
         LEAVING: '',
         INCOMPLETE_PROGRESS: 'Você não conseguiu a sobremesa ainda.',
         QUEST: 'Ah, isto é, com certeza, um sapo falante. Passe para cá.\x7O que você me diz, sapo?\x7Uh huh.\x7Uh huh...\x7O sapo falou. Precisamos da sobremesa.\x7Traga para a gente algumas casquinhas de sorvete da _toNpcName_.\x7Por alguma razão, o sapo gosta de sorvete sabor feijão vermelho._where_'},
@@ -1220,7 +1215,7 @@ QuestDialogDict = {160: {GREETING: '',
         LEAVING: '',
         INCOMPLETE_PROGRESS: 'Já achou todas as minhas casquinhas de sorvete?'},
  5239: {QUEST: 'Obrigado por trazer de volta as minhas casquinhas de sorvete!\x7Tome uma para o Pequeno Grande Ancião.',
-        GREETING:'',
+        GREETING: '',
         LEAVING: '',
         INCOMPLETE_PROGRESS: 'É melhor você levar este sorvete para o Pequeno Grande Ancião antes que ele derreta.'},
  5240: {GREETING: '',
@@ -1238,8 +1233,8 @@ QuestDialogDict = {160: {GREETING: '',
         QUEST: 'Embora eu ainda não saiba sobre o que estou falando, você realmente merece.\x7Dou a você, então, uma tarefa final...\x7O sapo falante precisa de uma namorada.\x7Ache uma sapa falante. O sapo falou.',
         LEAVING: '',
         INCOMPLETE_PROGRESS: 'Cadê a sapa falante?',
-        COMPLETE: 'Puxa! Estou cansado com todo esse esforço. Preciso descansar agora.\x7Agora, Pousada Ancinho a sua recompensa e saia.'},
- 5243: {QUEST: 'Soares Suado está começando a feder no início da rua.\x7Fala com ele para tomar um banho ou algo do gênero?_where_'},
+        COMPLETE: 'Puxa! Estou cansado com todo esse esforço. Preciso descansar agora.\x7Agora, pegue a sua recompensa e saia.'},
+ 5243: {        QUEST: 'Soares Suado está começando a feder no início da rua.\x7Fala com ele para tomar um banho ou algo do gênero?_where_'},
  5244: {GREETING: '',
         QUEST: 'É, acho que suei demais aqui.\x7Mmmm, se eu pudesse consertar aquele vazamento no encanamento do meu chuveiro...\x7Acho que a engrenagem de um daqueles Cogs pequenos bastaria para o conserto.\x7Vá achar uma engrenagem de um Microempresário para a gente tentar consertar.',
         LEAVING: '',
@@ -1276,22 +1271,22 @@ QuestDialogDict = {160: {GREETING: '',
  5254: {GREETING: '',
         QUEST: 'Tudo em cima! Agora estou na parada.\x7Se ao menos eles não tivessem levado meus sapatos de plataforma...\x7Aqueles sapatos provavelmente acabaram com algum Dr. Celebridade, creio eu.',
         LEAVING: '',
-        COMPLETE: 'Tudo bem!! Estou pronto agora.\x7Oi Brrrgh!!!\x7Hã? Onde está todo mundo?\x7Ok, Pousada Ancinho isto e reúna alguns fãs, está bem?',
+        COMPLETE: 'Tudo bem!! Estou pronto agora.\x7Olá Brrrgh!!!\x7Hã? Onde está todo mundo?\x7Ok, pegue isto e reúna alguns fãs, está bem?',
         INCOMPLETE_PROGRESS: 'Não posso me apresentar sem sapatos, né?'},
  5282: {GREETING: '',
         QUEST: 'Tudo em cima! Agora, estou na parada.\x7Se ao menos eles não tivessem levado meus sapatos de plataforma...\x7Aqueles sapatos provavelmente acabaram com algum Rei da Cocada Preta, creio eu.',
         LEAVING: '',
-        COMPLETE: 'Tudo bem!! Estou pronto agora.\x7Oi Brrrgh!!!\x7Hã? Onde está todo mundo?\x7Ok, Pousada Ancinho isto e reúna alguns fãs, está bem?',
+        COMPLETE: 'Tudo bem!! Estou pronto agora.\x7Olá Brrrgh!!!\x7Hã? Onde está todo mundo?\x7Ok, pegue isto e reúna alguns fãs, está bem?',
         INCOMPLETE_PROGRESS: 'Não posso me apresentar sem sapatos, né?'},
  5283: {GREETING: '',
         QUEST: 'Tudo em cima! Agora estou na parada.\x7Se ao menos eles não tivessem levado meus sapatos de plataforma...\x7Aqueles sapatos provavelmente acabaram com algum Barão Ladrão, creio eu.',
         LEAVING: '',
-        COMPLETE: 'Tudo bem!! Estou pronto agora.\x7Oi Brrrgh!!!\x7Hã? Onde está todo mundo?\x7Ok, Pousada Ancinho isto e reúna alguns fãs, está bem?',
+        COMPLETE: 'Tudo bem!! Estou pronto agora.\x7Olá Brrrgh!!!\x7Hã? Onde está todo mundo?\x7Ok, pegue isto e reúna alguns fãs, está bem?',
         INCOMPLETE_PROGRESS: 'Não posso me apresentar sem sapatos, né?'},
  5284: {GREETING: '',
         QUEST: 'Tudo em cima! Agora, estou na parada.\x7Se ao menos eles não tivessem levado meus sapatos de plataforma...\x7Aqueles sapatos provavelmente acabaram com algum Figurão, creio eu.',
         LEAVING: '',
-        COMPLETE: 'Tudo bem!! Estou pronto agora.\x7Oi Brrrgh!!!\x7Hã? Onde está todo mundo?\x7Ok, Pousada Ancinho isto e reúna alguns fãs, está bem?',
+        COMPLETE: 'Tudo bem!! Estou pronto agora.\x7Olá Brrrgh!!!\x7Hã? Onde está todo mundo?\x7Ok, pegue isto e reúna alguns fãs, está bem?',
         INCOMPLETE_PROGRESS: 'Não posso me apresentar sem sapatos, né?'},
  5255: {QUEST: 'Parece que você pode usar mais pontos de risadas.\x7Talvez _toNpcName_ entre em um acordo com você.\x7Não deixe de firmar o acordo por escrito..._where_'},
  5256: {GREETING: '',
@@ -1315,15 +1310,15 @@ QuestDialogDict = {160: {GREETING: '',
  5301: {QUEST: 'Eu não posso ajudar com os pontos de Risada, mas talvez _toNpcName_ faça negócio com você.\x7Mas ele é um pouco temperamental..._where_'},
  5302: {GREETING: '',
         LEAVING: '',
-        COMPLETE: 'Eu te disse o quê?!?!\x7Valeu mesmo! Aqui está o seu ponto de Risada!',
+        COMPLETE: 'Eu te disse o quê?\x7Valeu mesmo! Aqui está o seu ponto de Risada!',
         INCOMPLETE_PROGRESS: 'Oi!\x7O que está fazendo aqui de novo!',
         QUEST: 'Um ponto de Risada? Acho que não!\x7Claro, mas só se der um jeito em alguns desses Robôs da Lei antes.'},
- 5303: {QUEST: lTheBrrrgh+' está repleto de Cogs perigosos.\x7Se fosse você, carregaria mais piadas por aqui.\x7Ouvi dizer que  _toNpcName_ pode fazer uma bolsa maior para você se estiver a fim de trabalhar._where_'},
+ 5303: {QUEST: lTheBrrrgh + ' está repleto de Cogs perigosos.\x7Se fosse você, carregaria mais piadas por aqui.\x7Ouvi dizer que        _toNpcName_ pode fazer uma bolsa maior para você se estiver a fim de trabalhar._where_'},
  5304: {GREETING: '',
         LEAVING: '',
-        INCOMPLETE_PROGRESS: 'Deve haver bastante Robôs da Lei lá fora.\x7Então mexa-se!' ,
+        INCOMPLETE_PROGRESS: 'Deve haver bastante Robôs da Lei lá fora.\x7Então mexa-se!',
         QUEST: 'Uma bolsa maior?\x7Eu até poderia arranjar uma procê.\x7Mas vou precisar de fios.\x7Uns Robôs da Lei roubaram os meus fios ontem de manhã.'},
- 5305: {GREETING: 'Oi!',
+ 5305: {GREETING: 'Olá!',
         LEAVING: '',
         INCOMPLETE_PROGRESS: 'Vai atacar mais uns cogs.\x7Essa cor ainda não pegou.',
         QUEST: 'Esse é um fio bom!\x7Mas não seria a minha primeira escolha de cor.\x7Vou te dizer...\x7Vai lá fora e derrote alguns dos cogs mais difíceis...\x7E eu começo a a trabalhar em tingir este fio.'},
@@ -1333,7 +1328,7 @@ QuestDialogDict = {160: {GREETING: '',
         QUEST: 'Bem, este fio está todo tingido. Mas tem um probleminha.\x7Não consigo encontrar as minhas agulhas de tricô.\x7O último lugar que estavam foi no lago.'},
  5307: {GREETING: '',
         LEAVING: 'Muito obrigado!',
-        INCOMPLETE_PROGRESS: 'Roma não foi tricotada em um dia!' ,
+        INCOMPLETE_PROGRESS: 'Roma não foi tricotada em um dia!',
         QUEST: 'Essas são as minhas agulhas.\x7Enquanto eu tricoto, que tal fazer uma limpeza em alguns dos prédios grandes?',
         COMPLETE: 'Ótimo trabalho!\x7E falando em trabalho ótimo...\x7Aqui está a sua nova bolsa!'},
  5308: {GREETING: '',
@@ -1346,7 +1341,7 @@ QuestDialogDict = {160: {GREETING: '',
  5310: {GREETING: '',
         LEAVING: '',
         INCOMPLETE_PROGRESS: 'Acho que os ouço vindo por mim...',
-        QUEST: 'Obrigado. Sinto-me um pouco melhor agora.\x7 Mas tem mais uma coisa...\x7Você poderia ir até a casa de  _toNpcName_ e me conseguir um álibi?_where_'},
+        QUEST: 'Obrigado. Sinto-me um pouco melhor agora.\x7 Mas tem mais uma coisa...\x7Você poderia ir até a casa de        _toNpcName_ e me conseguir um álibi?_where_'},
  5311: {GREETING: 'O QUEEE!!!!',
         LEAVING: '',
         INCOMPLETE_PROGRESS: 'Não posso ajudá-lo se não encontrar!',
@@ -1411,12 +1406,12 @@ QuestDialogDict = {160: {GREETING: '',
         LEAVING: '',
         QUEST: '_avName_, conto com a sua ajuda!\x7Sabe, esses Cogs estão fazendo tanto barulho que eu simplesmente não consigo me concentrar.\x7Perco a conta dos carneirinhos a todo instante!\x7Se você acabar com esse barulho, te dou uma ajuda! Pode contar com isso!\x7Mas, onde eu parei mesmo? Ah sim: cento e trinta e seis, cento e trinta e sete....',
         INCOMPLETE_PROGRESS: 'Quatrocentos e quarenta e dois... Quatrocentos e quarenta e três...\x7O quê? Você já voltou? Mas ainda tem tanto barulho!\x7Essa não, perdi a conta novamente.\x7 Um...dois...três....',
-        COMPLETE: 'Quinhentos e noventa e três... Quinhentos e noventa e quatro...\x7Oi? Ah, eu sabia que poderia contar com a sua ajuda! Agora, o silêncio voltou.\x7Pegue aqui, por todos esses Destruidores de Números.\x7Contar? Agora preciso começar a contar tudo outra vez! Um...dois....'},
+        COMPLETE: 'Quinhentos e noventa e três... Quinhentos e noventa e quatro...\x7Olá? Ah, eu sabia que poderia contar com a sua ajuda! Agora, o silêncio voltou.\x7Pegue aqui, por todos esses Destruidores de Números.\x7Contar? Agora preciso começar a contar tudo outra vez! Um...dois....'},
  6251: {QUEST: 'Pobre Zéfiro, o zíper dela quebrou e, agora, ela não consegue fazer as entregas de seus clientes. Ela certamente precisa de sua ajuda._where_'},
  6252: {GREETING: '',
         LEAVING: '',
-        QUEST: 'Oi _avName_. Você está aqui para ajudar com minhas entregas?\x7Isso é ótimo! Com esse zíper quebrado é muito difícil fazer as entregas sozinha.\x7Deixe-me ver... Ok, vai ser fácil. O caubói George pediu uma cítara semana passada.\x7Você poderia levá-la para ele? _where_',
-        INCOMPLETE_PROGRESS: 'Oi! Esqueceu alguma coisa? O caubói George está esperando pela cítara.'},
+        QUEST: 'Oi _avName_. Você está aqui para ajudar com minhas entregas?\x7Isso é ótimo! Com esse zíper quebrado é muito difícil fazer as entregas sozinha.\x7Deixe-me ver... Ok, vai ser fácil. O Vaqueiro George pediu uma cítara semana passada.\x7Você poderia levá-la para ele? _where_',
+        INCOMPLETE_PROGRESS: 'Oi! Esqueceu alguma coisa? O Vaqueiro George está esperando pela cítara.'},
  6253: {GREETING: '',
         LEAVING: '',
         QUEST: 'Minha cítara! Finalmente! Caramba, mal posso esperar para tocá-la.\x7Poderia agradecer à Zéfiro por mim?',
@@ -1498,7 +1493,7 @@ QuestDialogDict = {160: {GREETING: '',
         COMPLETE: ''},
  7203: {GREETING: '',
         LEAVING: '',
-        QUEST: "Uma cama? Isso mesmo, aqui está uma prontinha para viagem.\x7Entregue a cama pra Nana por mim, OK? Cama, Nana...\x7'Rimou!' Há-há!\x7Muito engraçado. Não? Bem, mas leve para ela, por favor.",
+        QUEST: 'Uma cama? Isso mesmo, aqui está uma prontinha para viagem.\x7Entregue a cama pra Nana por mim, OK? Cama, Nana...\x7"Rimou!" Há-há!\x7Muito engraçado. Não? Bem, mas leve para ela, por favor.',
         INCOMPLETE_PROGRESS: 'A Nana gostou da cama?',
         COMPLETE: ''},
  7204: {GREETING: '',
@@ -1573,7 +1568,8 @@ QuestDialogDict = {160: {GREETING: '',
         QUEST: 'Já está de volta? Está tudo bem. Veja, encontrei os travesseiros que a Dafne queria.\x7Agora é só levar para ela. Eles são duros o suficiente para quebrar um dente!',
         INCOMPLETE_PROGRESS: 'É, esses travesseiros são bastante duros. Espero que a Dafne goste deles.',
         COMPLETE: 'Eu sabia que o Lelê teria alguns travesseiros mais duros.\x7Ah sim, estes são perfeitos. Bons e duros.\x7Por acaso esta peça de vestimenta de Cog seria útil para você? Pode levar.'},
- 7226: {QUEST: 'Passe lá na Cuca P. Gol. Ela perdeu o pijama._where_'},
+ 7226: {
+        QUEST: 'Passe lá na Cuca P. Gol. Ela perdeu o pijama._where_'},
  7227: {GREETING: '',
         LEAVING: '',
         QUEST: 'Não tenho pijamas! Eles sumiram!\x7O que vou fazer? Ah! Já sei!\x7Vá até a Mama. Ela terá pijamas para mim._where_',
@@ -1636,7 +1632,7 @@ QuestDialogDict = {160: {GREETING: '',
  7242: {GREETING: '',
         LEAVING: '',
         QUEST: 'Uau, que belo coral de couve-flor!\x7Ok, vejamos... Um pouco disto e uma pitada daquilo... Agora, um bocado de alga-marinha.\x7Essa não, onde está a alga-marinha? Parece que estou sem alga-marinha também.\x7Você pode voltar à lagoa e pescar uma boa alga-marinha viscosa?',
-        INCOMPLETE_PROGRESS: 'Nem uma laminazinha de alga-marinha viscosa na loja.\x7Não posso fazer o creme sem ela.',},
+        INCOMPLETE_PROGRESS: 'Nem uma laminazinha de alga-marinha viscosa na loja.\x7Não posso fazer o creme sem ela.'},
  7243: {GREETING: '',
         LEAVING: '',
         QUEST: 'Aaaah! Que ótima alga-marinha viscosa você trouxe, _avName_.\x7Agora, é só espremer algumas pérolas no pilão.\x7Ih, onde está o meu pilão? Como vou fazer sem o pilão?\x7Aposto que aquele maldito Agiota o pegou quando esteve aqui!\x7Você precisa me ajudar a encontrá-lo! Ele estava indo ao Quartel do Robô Mercenário!',
@@ -1656,7 +1652,7 @@ QuestDialogDict = {160: {GREETING: '',
          COMPLETE: 'Ah, ótimo!\x7Como eu temia...\x7Ah, é! Aqui está a sua peça de disfarce.'},
  11002: {GREETING: '',
          LEAVING: '',
-         QUEST: 'Para mais peças de disfarce, visite _toNpcName_ de novo.\x7Ouvi dizer que ele precisa de assistentes de pesquisa._where_'},
+         QUEST:, 'Para mais peças de disfarce, visite _toNpcName_ de novo.\x7Ouvi dizer que ele precisa de assistentes de pesquisa._where_'},
  11003: {GREETING: '',
          LEAVING: '',
          QUEST: 'Mais peças de disfarce de Robô da Lei?\x7Bem, se você insiste...\x7mas eu vou precisar de outro termômetro de Cog.\x7Desta vez, procure em %s.' % GlobalStreetNames[2200][-1],
@@ -1664,10 +1660,10 @@ QuestDialogDict = {160: {GREETING: '',
          COMPLETE: 'Obrigado!\x7E aqui está a sua peça de disfarce.'},
  11004: {GREETING: '',
          LEAVING: '',
-         QUEST: 'Se precisa de mais peças de disfarce de Robô da Lei, vá falar com o _toNpcName_.\x7Ouvi que ele ainda precisa de ajuda com a pesquisa sobre o clima._where_'},
+         QUEST:, 'Se precisa de mais peças de disfarce de Robô da Lei, vá falar com o _toNpcName_.\x7Ouvi que ele ainda precisa de ajuda com a pesquisa sobre o clima._where_'},
  11005: {GREETING: '',
          LEAVING: '',
-         QUEST: 'Você está me saindo bastante útil!\x7Você pode dar uma ollhada em %s?' % GlobalStreetNames[2300][-1],
+         QUEST:, 'Você está me saindo bastante útil!\x7Você pode dar uma ollhada em %s?' % GlobalStreetNames[2300][-1],
          INCOMPLETE_PROGRESS: 'Tem certeza de que está procurando em %s?' % GlobalStreetNames[2300][-1],
          COMPLETE: 'Humm, não gostei muito da aparência disto...\x7mas aqui está a sua peça de disfarce...'},
  11006: {GREETING: '',
@@ -1712,10 +1708,10 @@ QuestDialogDict = {160: {GREETING: '',
          COMPLETE: 'Obrigado!\x7Aqui está sua recompensa.'},
  11016: {GREETING: '',
          LEAVING: '',
-         QUEST: 'Se precisa completar o seu disfarce de Robô da Lei...\x7_toNpcName_ pode ajudar você._where_' },
+         QUEST: 'Se precisa completar o seu disfarce de Robô da Lei...\x7_toNpcName_ pode ajudar você._where_'},
  11017: {GREETING: '',
          LEAVING: '',
-         QUEST: 'Oi, Cientista de Pesquisas Iniciante!\x7Ainda precisamos de medições de %s.' % GlobalStreetNames[5300][-1],
+         QUEST: 'Olá, Cientista de Pesquisas Iniciante!\x7Ainda precisamos de medições de %s.' % GlobalStreetNames[5300][-1],
          INCOMPLETE_PROGRESS: 'Tentou procurar em %s?' % GlobalStreetNames[5300][-1],
          COMPLETE: 'Ótimo trabalho!\x7Aqui está o seu negócio de Robô da Lei...'},
  11018: {GREETING: '',
@@ -1759,35 +1755,35 @@ QuestDialogDict = {160: {GREETING: '',
          INCOMPLETE_PROGRESS: 'Você está procurando em %s, certo?' % GlobalStreetNames[9200][-1],
          COMPLETE: 'Está pronto!\x7Agora, você já pode se infiltrar no Escritório do Promotor Público e coletar Avisos de Júri.\x7Boa sorte e obrigado pela sua ajuda!'},
  12000: {GREETING: '',
-         LEAVING: '',
+         LEAVING:",
          QUEST: 'Se quiser peças de disfarce de Robô Chefe, deve visitar _toNpcName_._where_'},
  12001: {GREETING: '',
-         LEAVING: '',
+         LEAVING:",
          QUEST: 'Sim, posso pegar as suas peças de Robô-Chefe.\x7Mas vou precisar de sua ajuda para completar a minha coleção de Robô-Chefe.\x7Vá lá fora e derrote um Puxa-saco.',
          INCOMPLETE_PROGRESS: 'Não consegue encontrar um Puxa-saco? Que vergonha...',
-         COMPLETE: 'Você não fracassou, não é?\ aAqui está a sua primeira peça de disfarce. '},
+         COMPLETE: 'Você não fracassou, não é?\\ aAqui está a sua primeira peça de disfarce.'},
  12002: {GREETING: '',
          LEAVING: '',
          QUEST: '_toNpcName_ precisa de mais ajuda se você puder._where_ '},
  12003: {GREETING: '',
          LEAVING: '',
-         QUEST: 'Outra peça de disfarce?\x7Certamente...\x7Mas só se você derrotar um Rato de Escritório. ',
+         QUEST: 'Outra peça de disfarce?\x7Certamente...\x7Mas só se você derrotar um Rato de Escritório.',
          INCOMPLETE_PROGRESS: 'Os Rato de Escritório podem ser encontrados nas ruas.',
-         COMPLETE: 'Ele realmente foi um fracote! \ aAqui está sua segunda peça de disfarce.'},
+         COMPLETE: 'Ele realmente foi um fracote! \x7Aqui está sua segunda peça de disfarce.'},
  12004: {GREETING: '',
          LEAVING: '',
          QUEST: 'Só há mesmo um lugar onde encontrar peças de Robô-Chefe._where_'},
  12005: {GREETING: '',
          LEAVING: '',
-         QUEST: 'Agora, preciso de um “Vaquinha de Presépio”...',
-         INCOMPLETE_PROGRESS: 'O “Vaquinha de Presépio” pode ser encontrado nas ruas.',
+         QUEST: 'Agora, preciso de um Vaquinha de Presépio\xe2\x80\x9d...',
+         INCOMPLETE_PROGRESS: 'O Vaquinha de Presépio\xe2\x80\x9d pode ser encontrado nas ruas.',
          COMPLETE: 'Isso! Cara, você é demais.\x7Aqui está sua terceira peça de disfarce.'},
  12006: {GREETING: '',
          LEAVING: '',
-         QUEST: '_toNpcName_ tem mais peças para você... '},
+         QUEST: '_toNpcName_ tem mais peças para você...'},
  12007: {GREETING: '',
          LEAVING: '',
-         QUEST: 'Se você derrotar um Micro\04empresário, darei a você mais uma peça.',
+         QUEST: 'Se você derrotar um Micro\x4empresário, darei a você mais uma peça.',
          INCOMPLETE_PROGRESS: 'Tente procurar em %s' % GlobalStreetNames[1100][-1],
          COMPLETE: 'Você se saiu muito bem!\x7Aqui está sua quarta peça de disfarce.'},
  12008: {GREETING: '',
@@ -1797,18 +1793,18 @@ QuestDialogDict = {160: {GREETING: '',
          LEAVING: '',
          QUEST: 'Agora estou atrás de um Facão...',
          INCOMPLETE_PROGRESS: 'Algum problema? Tente procurar em %s' % GlobalStreetNames[3100][-1],
-         COMPLETE: 'Não foi tão difícil!\x7Aqui está sua quinta peça de disfarce. '},
+         COMPLETE: 'Não foi tão difícil!\x7Aqui está sua quinta peça de disfarce.'},
  12010: {GREETING: '',
          LEAVING: '',
          QUEST: 'Acho que você sabe aonde ir agora..._where_'},
  12011: {GREETING: '',
          LEAVING: '',
-         QUEST: 'Um Caça-\04talentos é o próximo da minha lista.',
+         QUEST: 'Um Caça-\x4talentos é o próximo da minha lista.',
          INCOMPLETE_PROGRESS: 'Você terá mais sorte procurando em edifícios.',
-         COMPLETE: 'Vejo que não teve problemas para caçar um desses.\x7Aqui está sua sexta peça de disfarce. '},
+         COMPLETE: 'Vejo que não teve problemas para caçar um desses.\x7Aqui está sua sexta peça de disfarce.'},
  12012: {GREETING: '',
          LEAVING: '',
-         QUEST: '_toNpcName_ precisa de mais Robôs-Chefe. '},
+         QUEST: '_toNpcName_ precisa de mais Robôs-Chefe.'},
  12013: {GREETING: '',
          LEAVING: '',
          QUEST: 'A seguir, preciso que você localize um Aventureiro Corporativo.',
@@ -1821,7 +1817,7 @@ QuestDialogDict = {160: {GREETING: '',
          LEAVING: '',
          QUEST: 'Agora, o mais precioso de todos: O um Rei da Cocada Preta!',
          INCOMPLETE_PROGRESS: 'Tente procurar em %s' % GlobalStreetNames[10000][-1],
-         COMPLETE: 'Sabia que podia contar com você para cortar...\x7Ah, não importa.\x7Aqui está sua próxima peça de disfarce. '},
+         COMPLETE: 'Sabia que podia contar com você para cortar...\x7Ah, não importa.\x7Aqui está sua próxima peça de disfarce.'},
  12016: {GREETING: '',
          LEAVING: '',
          QUEST: '_toNpcName_ estava à sua procura...'},
@@ -1829,15 +1825,15 @@ QuestDialogDict = {160: {GREETING: '',
          LEAVING: '',
          QUEST: 'Agora, preciso que você derrote um dos novos e mais traiçoeiros Cogs de Robô-Chefe.',
          INCOMPLETE_PROGRESS: 'Tente procurar em %s' % GlobalStreetNames[10000][-1],
-         COMPLETE: 'Eles são mais fortes do que parecem, hein?\x7Acho que lhe devo uma peça de disfarce. '},
+         COMPLETE: 'Eles são mais fortes do que parecem, hein?\x7Acho que lhe devo uma peça de disfarce.'},
  12018: {GREETING: '',
          LEAVING: '',
          QUEST: 'Pode dar um giro até..._where_'},
  12019: {GREETING: '',
          LEAVING: '',
-         QUEST: 'Esses Cogs versão 2.0 são muito interessantes.\x7Por favor, derrote mais um. ',
+         QUEST: 'Esses Cogs versão 2.0 são muito interessantes.\x7Por favor, derrote mais um.',
          INCOMPLETE_PROGRESS: 'Tente procurar em %s' % GlobalStreetNames[10000][-1],
-         COMPLETE: 'Valeu!\x7Mais uma peça de disfarce chegando. '},
+         COMPLETE: 'Valeu!\x7Mais uma peça de disfarce chegando.'},
  12020: {GREETING: '',
          LEAVING: '',
          QUEST: 'Se tiver a oportunidade, dê uma parada e visite _toNpcName_.'},
@@ -1845,7 +1841,7 @@ QuestDialogDict = {160: {GREETING: '',
          LEAVING: '',
          QUEST: 'Imagino se puderem se regenerar...',
          INCOMPLETE_PROGRESS: 'Tente procurar em %s' % GlobalStreetNames[10000][-1],
-         COMPLETE: 'Acho que não.\x7Aqui está sua peça... '},
+         COMPLETE: 'Acho que não.\x7Aqui está sua peça...'},
  12022: {GREETING: '',
          LEAVING: '',
          QUEST: 'Você sabe..._where'},
@@ -1853,15 +1849,15 @@ QuestDialogDict = {160: {GREETING: '',
          LEAVING: '',
          QUEST: 'Talvez não sejam Robôs-Chefe afinal...',
          INCOMPLETE_PROGRESS: 'Tente procurar em %s' % GlobalStreetNames[10000][-1],
-         COMPLETE: 'Hummm, acho que realmente são Robôs-Chefe.\x7Consiga mais uma peça. '},
+         COMPLETE: 'Hummm, acho que realmente são Robôs-Chefe.\x7Consiga mais uma peça.'},
  12024: {GREETING: '',
          LEAVING: '',
          QUEST: 'Você provavelmente já sabe o que vou dizer...'},
  12025: {GREETING: '',
          LEAVING: '',
-         QUEST: 'Talvez, de alguma maneira, estejam relacionados aos Esqueletocogs... ',
+         QUEST: 'Talvez, de alguma maneira, estejam relacionados aos Esqueletocogs...',
          INCOMPLETE_PROGRESS: 'Tente procurar em %s' % GlobalStreetNames[10000][-1],
-         COMPLETE: 'Isso foi inconsequente...\x7Aqui está sua peça de disfarce. '},
+         COMPLETE: 'Isso foi inconsequente...\x7Aqui está sua peça de disfarce.'},
  12026: {GREETING: '',
          LEAVING: '',
          QUEST: 'Por favor, visite _toNpcName_ novamente.'},
@@ -1869,7 +1865,7 @@ QuestDialogDict = {160: {GREETING: '',
          LEAVING: '',
          QUEST: 'Ainda tenho dúvidas de que não sejam algum tipo de Esqueletocogs...',
          INCOMPLETE_PROGRESS: 'Tente procurar em %s' % GlobalStreetNames[10000][-1],
-         COMPLETE: 'Bem, talvez não.\x7Aqui está sua próxima peça. '},
+         COMPLETE: 'Bem, talvez não.\x7Aqui está sua próxima peça.'},
  12028: {GREETING: '',
          LEAVING: '',
          QUEST: 'Talvez seja o último lugar a que gostaria de ir. Mas...'},
@@ -1877,30 +1873,33 @@ QuestDialogDict = {160: {GREETING: '',
          LEAVING: '',
          QUEST: 'Esses novos Cogs ainda me deixam dúvidas.\x7Poderia derrotar mais um, por favor?',
          INCOMPLETE_PROGRESS: 'Tente procurar em %s' % GlobalStreetNames[10000][-1],
-         COMPLETE: 'Fascinante. Simplesmente fascinante.\x7Uma peça de disfarce pelos inconvenientes. '},
+         COMPLETE: 'Fascinante. Simplesmente fascinante.\x7Uma peça de disfarce pelos inconvenientes.'},
  12030: {GREETING: '',
          LEAVING: '',
          QUEST: '_toNpcName_ está começando a parecer um disco riscado...'},
  12031: {GREETING: '',
          LEAVING: '',
-         QUEST: 'Já havia quase descoberto o que são esses novos Cogs.\x7Só mais um... ',
+         QUEST: 'Já havia quase descoberto o que são esses novos Cogs.\x7Só mais um...',
          INCOMPLETE_PROGRESS: 'Tente procurar em %s' % GlobalStreetNames[10000][-1],
          COMPLETE: 'Sim, acho que encontrei algo importante.\x7Ah, sim.\x7Isso é para você...'},
  12032: {GREETING: '',
          LEAVING: '',
          QUEST: 'Você precisa contar ao Flippy sobre isso...',
-         INCOMPLETE_PROGRESS: 'Flippy está no PrefeiToona',
+         INCOMPLETE_PROGRESS: 'Flippy está na Prefeitoona',
          COMPLETE: 'Um novo tipo de Cog!\x7Bom trabalho!\x7Aqui está sua última peça de disfarce.'}}
 ChatGarblerDog = ['au', 'arf', 'grrrr']
-ChatGarblerCat = ['miau', 'miu']
-ChatGarblerMouse = ['quick', 'quiiii', 'quiiiiquiiii']
-ChatGarblerHorse = ['rííírrrr', 'brrr']
-ChatGarblerRabbit = ['ick', 'iipr', 'iipi', 'iicki']
-ChatGarblerDuck = ['quá', 'quack', 'quáááck']
-ChatGarblerMonkey = ['ooh', 'ooo', 'ahh']
-ChatGarblerBear = ['grrrau', 'grrr']
-ChatGarblerPig = ['oinc', 'oic', 'rrroinc']
-ChatGarblerDefault = ['blá']
+ChatGarblerCat = [ 'miau', 'miu']
+ChatGarblerMouse = [ 'quick', 'quiiii', 'quiiiiquiiii']
+ChatGarblerHorse = [ 'rííírrrr', 'brrr']
+ChatGarblerRabbit = [ 'ick',
+ 'iipr',
+ 'iipi',
+ 'iicki']
+ChatGarblerDuck = [ 'quá', 'quack', 'quáááck']
+ ChatGarblerMonkey = [ 'ooh', 'ooo', 'ahh']
+ChatGarblerBear = [ 'grrrau', 'grrr']
+ChatGarblerPig = [ 'oinc', 'oic', 'rrroinc']
+ChatGarblerDefault = [ 'blá']
 Bossbot = 'Robô-chefe'
 Lawbot = 'Robô da Lei'
 Cashbot = 'Robô Mercenário'
@@ -1913,14 +1912,14 @@ BossbotP = 'Robôs-chefe'
 LawbotP = 'Robôs da Lei'
 CashbotP = 'Robôs Mercenários'
 SellbotP = 'Robôs Vendedores'
-BossbotSkelS = 'um Esqueletocog Robô-chefe'
-LawbotSkelS = 'um Esqueletocog  Robô da Lei'
-CashbotSkelS = 'um Esqueletocog Robô Mercenário'
-SellbotSkelS = 'um Esqueletocog Robô Vendedor'
-BossbotSkelP = 'Esqueletocogs Robôs-chefes'
-LawbotSkelP = 'Esqueletocogs Robôs da Lei'
-CashbotSkelP = 'Esqueletocogs Robôs Mercenários'
-SellbotSkelP = 'Esqueletocogs Robôs Vendedores'
+BossbotSkelS = 'um Esqueletocog %s' % Bossbot
+LawbotSkelS = 'um Esqueletocog %s' % Lawbot
+CashbotSkelS = 'um Esqueletocog %s' % Cashbot
+SellbotSkelS = 'um Esqueletocog %s' % Sellbot
+BossbotSkelP = 'Esqueletocogs %s' % BossbotP
+LawbotSkelP = 'Esqueletocogs %s' % LawbotP
+CashbotSkelP = 'Esqueletocogs %s' % CashbotP
+SellbotSkelP = 'Esqueletocogs %s' % SellbotP
 SkeleRevivePostFix = ' v2.0'
 AvatarDetailPanelOK = lOK
 AvatarDetailPanelCancel = lCancel
@@ -1955,21 +1954,17 @@ AvatarPanelGroupRetract = 'Retirar Convite'
 AvatarPanelGroupMember = 'Já no Grupo'
 AvatarPanelGroupMemberKick = 'Remova'
 ReportPanelTitle = 'Denunciar um Jogador'
-ReportPanelBody = "Este recurso enviará uma denúncia completa a um Moderador. Em vez de denunciar, você pode optar pelo seguinte:\n\n  - Teleportar-se para outra região\n  - Usar 'Ignorar' no painel do Toon\n\nQuer mesmo denunciar %s para um Moderador?" 
+ReportPanelBody = 'Este recurso enviará uma denúncia completa a um Moderador. Em vez de denunciar, você pode optar pelo seguinte:\n\n  - Teleportar-se para outra região\n  - Usar "Ignorar" no painel do Toon\n\nQuer mesmo denunciar %s para um Moderador?'
 ReportPanelBodyFriends = 'Este recurso enviará uma denúncia completa a um Moderador. Em vez de denunciar, você pode optar pelo seguinte:\n\n  - Teleportar-se para outra região\n  - Romper sua amizade\n\nQuer mesmo denunciar %s para um Moderador?\n\n(Isso também vai romper sua amizade)'
 ReportPanelCategoryBody = 'Você está prestes a denunciar %s. Um Moderador será alertado sobre sua reclamação e tomará medidas apropriadas contra quem estiver quebrando as regras. Escolha o motivo pelo qual está denunciando %s:'
-ReportPanelBodyPlayer = 'Este recurso ainda está sendo desenvolvido e será disponibilizado em breve. Enquanto isso, você pode fazer o seguinte:\n\n  - Vá até o DXD e termine a amizade por lá.\n – Conte aos pais ou responsáveis o que está acontecendo.'
+ReportPanelBodyPlayer = 'Este recurso ainda está sendo desenvolvido e será disponibilizado em breve. Enquanto isso, você pode fazer o seguinte:\n\n  - Vá até o DXD e termine a amizade por lá.\n \xe2\x80\x93 Conte aos pais ou responsáveis o que está acontecendo.'
 ReportPanelCategoryLanguage = 'Linguagem Rude'
 ReportPanelCategoryPii = 'Compartilhar/Solicitar Informações Pessoais'
 ReportPanelCategoryRude = 'Comportamento Rude ou Mau'
 ReportPanelCategoryName = 'Nome Ruim'
-ReportPanelCategoryHacking = 'Hackear'
-ReportPanelConfirmations = ('Você está prestes a denunciar que %s usou linguagem obscena, intolerante, preconceituosa ou sexualmente explícita.',
- 'Você está prestes a denunciar %s está promovendo insegurança ao divulgar ou solicitar um número de telefone, sobrenome, endereço de e-mail, senha ou nome de conta.',
- 'Você está prestes a relatar que %s está importunando, atormentando ou usando de comportamento radical para atrapalhar o jogo.',
- 'Você está prestes a relatar que %s criou um nome que não segue as regras da Disney.',
- 'Você está prestes a denunciar que %s hackeou/adulterou o jogo ou usou software de terceiros.')
-ReportPanelWarning = 'Levamos as denúncias muito a sério. Sua denúncia será vista por um Moderador, que tomará medidas contra qualquer um que quebrar nossas regras. Se for descoberto que sua conta também quebrou as regras, ou se você fizer denúncias falsas ou abusar do sistema "Denunciar um Jogador", um Moderador pode tomar medidas contra sua conta. Tem certeza absoluta de que quer denunciar este jogador?'
+ReportPanelCategoryHacking = 'Hacking'
+ReportPanelConfirmations = ('Você está prestes a denunciar que %s usou linguagem obscena, intolerante, preconceituosa ou sexualmente explícita.', 'Você está prestes a denunciar %s está promovendo insegurança ao divulgar ou solicitar um número de telefone, sobrenome, endereço de e-mail, senha ou nome de conta.', 'Você está prestes a relatar que %s está importunando, atormentando ou usando de comportamento radical para atrapalhar o jogo.', 'Você está prestes a relatar que %s criou um nome que não segue as regras da Disney.', 'You are about to report that %s is hacking the game.')
+ReportPanelWarning = "Levamos as denúncias muito a sério. Sua denúncia será vista por um Moderador, que tomará medidas contra qualquer um que quebrar nossas regras. Se for descoberto que sua conta também quebrou as regras, ou se você fizer denúncias falsas ou abusar do sistema 'Denunciar um Jogador', um Moderador pode tomar medidas contra sua conta. Tem certeza absoluta de que quer denunciar este jogador?"
 ReportPanelThanks = 'Obrigado! Sua denúncia foi enviada a um Moderador para análise. Não há necessidade de nos contatarmos novamente sobre o problema. A equipe de moderação tomará medidas adequadas contra um jogador que for descoberto quebrando as regras.'
 ReportPanelRemovedFriend = 'Removemos automaticamente %s da sua Lista de Amigos.'
 ReportPanelRemovedPlayerFriend = 'Removemos automaticamente %s como amigo Jogador, e você não o verá mais como seu amigo em nenhum produto Disney.'
@@ -1988,14 +1983,16 @@ PetPanelOwner = 'Mostrar dono'
 PetPanelDetail = 'Detalhes do bichinho'
 PetPanelScratch = 'Coçar'
 PetDetailPanelTitle = 'Adestramento'
-PetTrickStrings = {0: 'Pular',
+PetTrickStrings = {
+ 0: 'Pular',
  1: 'Dar a pata',
  2: 'Fingir de morto',
  3: 'Rolar',
  4: 'Dar cambalhota',
  5: 'Dançar',
- 6: 'Falar'}
-PetMoodAdjectives = {'neutral': 'neutro',
+ 6: 'Falar' }
+PetMoodAdjectives = {
+ 'neutral': 'neutro',
  'hunger': 'faminto',
  'boredom': 'chateado',
  'excitement': 'animado',
@@ -2007,23 +2004,56 @@ PetMoodAdjectives = {'neutral': 'neutro',
  'confusion': 'confuso',
  'anger': 'zangado',
  'surprise': 'surpreso',
- 'affection': 'carinhoso'}
-SpokenMoods = {'neutral': 'neutro',
- 'hunger':['Eu\estou cansado de Balinhas! Que tal me dar uma fatia de torta?', 'Que tal uma Balinha vermelha? Estou cansado das verdes!', 'Ah, essas Balinhas eram para plantar?!! Mas eu estou com fome!'],
- 'boredom': ['Estou morrendo de tédio aqui!', 'Você não achou que eu entenderia, hein?', 'Poderíamos, tipo, FAZER algo já?'],
- 'excitement': ['Uau, é você, é você, é você!',
-                'mmm, balinhas, mmm',
-                'Tem algo melhor que isso?',
-                'Feliz da Semana dos Toons de Abril!'],
- 'sadness': ['Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá, Não vá...', 'Eu serei bom, eu prometo!', 'Eu não sei POR QUE que eu estou triste, eu apenas estou!!!'],
- 'restlessness': ['Eu estou tãooo inquieto'],
- 'playfulness': ['Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar...', 'Brinque comigo ou eu vou desenterrar algumas flores!', 'Vamos correr em volta e em volta e em volta e em volta e em volta e em volta...'],
- 'loneliness': ['Onde você esteve?', 'Quer abraçar?', 'Quero lutar com os Cogs com você!'],
- 'fatigue': ['Aquele mergulho na lagoa realmente me cansou!', 'Ser um Rabisco é exaustivo', 'Eu tenho que ir para a Sonholândia!'],
- 'confusion': ['Onde estou? Quem é mesmo você?', 'O que é um Toon-ar mesmo?', 'Uau, estou entre você e os Cogs! Fuja!'],
- 'anger': ['... e você se pergunta por que eu nunca te dou um Toon-ar?!!!', 'Você sempre me deixa para trás', 'Você ama suas piadas mais do que a mim'],
- 'surprise': ['Claro que os Rabiscos podem falar!', 'Toons podem falar?!!', 'Opa, de onde você surgiu?'],
- 'affection': ['Você é o melhor Toon de SEMPRE!!!!!!!!!!', 'Você ao menos SABE o quão incrível você é?!?', 'Tenho TANTA sorte de estar com você!!!']}
+ 'affection': 'carinhoso' }
+SpokenMoods = {
+ 'neutral': 'neutral',
+ 'hunger': [
+  'Estou cansado de balinhas em forma de feijão! Que tal me dar um pedaço de torta?',
+  'Que tal uma Balinha Vermelha? Estou enjoado das Verdes!',
+  'Ah, aquelas balinhas em forma de feijão eram para plantar? Mas eu estou com fome!'],
+ 'boredom': [
+  'Estou morrendo de tédio aqui!',
+  'Você não achou que eu entendi você, né?',
+  'Nós já podemos FAZER alguma coisa?'],
+ 'excitement': [
+  'OMD, é você, é você, é você!',
+  'hmmm, balinhas, hmmm!',
+  'Tem como isso ficar ainda melhor?',
+  'Feliz Semana Abril Toons!'],
+ 'sadness': [
+  'Não vai, Não vai, Não vai, Não vai, Não vai, Não vai, Não vai, Não vai, Não vai, Não vai, Não vai...',
+  'Vou ficar bem. Eu juro!',
+  'Eu não sei POR QUE estou triste. Apenas estou!!!'],
+ 'restlessness': [
+  'Estou tããããão impaciente!!!'],
+ 'playfulness': [
+  'Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar, Vamos brincar...',
+  'Brinque comigo ou eu arrancarei algumas flores!',
+  'Vamos dar uma volta por aí e aí e aí e aí e aí e aí...'],
+ 'loneliness': [
+  'Onde você esteve?',
+  'Quer um abraço?',
+  'Eu quero ir junto quando você for lutar com os Cogs!'],
+ 'fatigue': [
+  'Aquele mergulho no lago realmente me cansou!',
+  'Ser um Doodle é cansativo!',
+  'Eu preciso ir para a Terra do Sonho!'],
+ 'confusion': [
+  'Onde estou? De novo, quem é você?',
+  'De novo, o que é Toon-up?',
+  'Opa, eu estou entre você e os Cogs! Fuja!'],
+ 'anger': [
+  '... e você ainda se pergunta por que eu nunca lhe dei um Toon-up?!!!',
+  'Você sempre se esquece de mim!',
+  'Você ama suas piadas mais do que a mim!'],
+ 'surprise': [
+  'Claro, Doodles podem falar!',
+  'Toons podem falar?!!',
+  'Opa, de onde você surgiu?'],
+ 'affection': [
+  'Você é o melhor Toon que já EXISTIU!!!!!!!!!!',
+  'Você tem NO\xc3\x87\xc3\x83O do quanto é bacana?',
+  'Eu tenho MUITA sorte de estar com você!!!'] }
 DialogQuestion = '?'
 FriendsListLabel = 'Amigos'
 TeleportPanelOK = lOK
@@ -2050,187 +2080,544 @@ StageBossBattleTaunt = 'Eu estou acima da Lei'
 CountryClubBossTaunt = 'Sou o Presidente do Clube.'
 CountryClubBossBattleTaunt = 'Você precisa falar com o Presidente do Clube.'
 ForcedLeaveCountryClubAckMsg = 'O Presidente do Clube foi derrotado antes que você pudesse chegar a ele. Você não recuperou nenhuma Ação.'
-ToonHealJokes = [['O que faz TIQUE-TIQUE-TIQUE-AU?', 'Um cãonômetro!'],
- ['Por que o louco toma banho com o chuveiro desligado?', 'Porque ele comprou xampú para cabelos secos!'],
- ['Por que é difícil para o fantasma contar mentiras?', 'Porque seus pensamentos são transparentes.'],
- ['Do que a bailarina é chamada quando machuca o pé e se recusa a dançar?', 'Pé-nóstica!'],
- ['O que a vaca foi fazer no espaço?', 'Foi se encontrar com o vácuo!'],
- ['Por que o gato mia para a Lua e a Lua não mia para o gato?', 'Porque astro-no-mia!'],
- ['Por que as tartarugas não ficam bêbadas?', 'Porque elas só têm um casco!'],
- ['Por que o elefante usa tênis vermelhos?', 'Porque os branquinhos sujam muito.'],
- ['Por que a galinha atravessa a rua?', 'Para chegar ao outro lado!'],
- ['Qual é a maior injustiça do Natal?', 'O peru morre e a missa é do galo.'],
- ['Qual é o cúmulo dos trabalhos manuais?', 'Tricotar com a linha do trem.'],
- ['O que é um vulcão?', 'Uma montanha com soluço.'],
- ['O que é um pontinho vermelho, um azul e um rosa em cima de uma árvore?', 'Um morangotango com urublue num rosaenick.'],
- ['Por que o elefante não consegue tirar carteira de motorista?', 'Porque ele só dá trombada.'],
- ['O que um tijolo disse para o outro?', 'Existe um "ciumento" entre nós.'],
- ['O que a porta disse para a chave?', 'Vamos dar uma voltinha.'],
- ['O que o elétron fala quando atende ao telefone?', 'Próton!'],
- ['Quem é o rei da horta?', 'Rei Polho.'],
- ['Por que as pilhas são melhores que os políticos?', 'Porque elas têm, pelo menos, um lado positivo.'],
- ['O que Benjamin Franklin disse quando inventou a eletricidade?', 'Nada. Ele estava em estado de choque.'],
- ['Por que o cachorro balança o rabo?', 'Porque o rabo não tem força para balançar o cachorro.'],
- ['Qual é o cúmulo da força?', 'Dobrar a esquina.'],
- ['O que não é de comer, mas dá água na boca?', 'O copo.'],
- ['Quem é a mãe do mingau?', 'Mãe Zena.'],
- ['O que o Batman disse para o Robin na hora em que entraram no carro?', 'BAT a porta!'],
- ['O que é um pontinho amarelo tomando sol?', 'É um fandango querendo virar baconzito.'],
- ['O que é um pontinho rosa no armário?', 'É um curosa.'],
- ['Quem é o tio da construção?', 'Tio Jolo.'],
- ['O que dá um cruzamento de um dálmata com um canário?', 'Uma onça pintada da Amazônia.'],
- ['O que é uma porção de letras voando?', 'Um bando de borboletras.'],
- ['O que é que viaja o mundo inteiro, mas fica o tempo todo em um canto só?', 'O selo.'],
- ['O que é um pontinho verde em cima de um amarelo no canto da parede?', 'Uma ervilha de castigo ajoelhada no milho.'],
- ['Por que o namoro da goiabada com o queijo não deu certo?', 'Porque o queijo era fresco.'],
- ['O que é um pontinho azul no guarda-roupas?', 'É uma bluesa.'],
- ['O que é um pontinho verde no fundo da piscina?', 'É uma ervilha... Segurando a respiração!'],
- ['O que é um pontinho vermelho e azul voando de um lado para o outro?', 'Uma mosca fantasiada de Super-homem.'],
- ['Qual é o animal que tem mais de três olhos e menos de quatro?', 'O pi-olho, ou seja, 3,14.'],
- ['O que a aranha faz quando vai para a aula de dança?', 'Sapa-teia.'],
- ['Por que o pato tem ciúmes do cavalo?', 'Porque ele tem quatro patas.'],
- ['Quando você tem certeza de que um ovo não tem um pintinho dentro?', 'Quando o ovo é de pata.'],
- ['Por que ninguém apareceu no enterro do elefante?', 'Porque ninguém queria carregar o caixão.'],
- ['O que é que sempre aumenta, mas nunca diminui?', 'A idade.'],
- ['O que é que tem muitos pés, mas não fica de pé?', 'A centopéia.'],
- ['Em que espécie de mato se senta o elefante quando chove?', 'Mato molhado.'],
- ['Quem é que bate em você, mas você não revida?', 'O vento.'],
- ['O que é o cúmulo do contra-senso?', 'Na casa de saúde, só haver doentes.'],
- ['Quando um jogador de futebol é um literato?', 'Quando ele faz um gol de letra.'],
- ['Onde é que a sereia Ariel vê filmes?', 'No cinemaré.'],
- ['O que é que atravessa a porta, mas nunca entra nem sai?', 'A fechadura.'],
- ['Por que os rios são considerados preguiçosos?', 'Porque não saem dos seus leitos.'],
- ['Qual é a diferença entre a galinha e o tecido?', 'A galinha bota e o tecido desbota.'],
- ['Era uma vez uma orquestra que não tocava nada. Qual o nome do filme?', 'Os Intocáveis.'],
- ['Quando é que um gaúcho é chamado de mineiro?', 'Quando trabalha em uma mina.'],
- ['O que deveríamos colocar embaixo da forca para que o condenado não morra?', 'Cedilha!'],
- ['O que é que todos nós temos, mas quando precisamos vamos ao mercado comprar?', 'Canela!'],
- ['O que você faz quando está nadando em um oceano e um crocodilo ataca?', 'Você acorda.'],
- ['Quem é que nasce no rio, vive no rio e morre no rio, mas só se molha se quiser?', 'O carioca.'],
- ['O que é que está no fim de tudo?', 'A letra O.'],
- ['Qual é o único monstro que é bonzinho?', 'Good-zila.'],
- ['O que é a única coisa que o vencedor da maratona perde?', 'O fôlego.'],
- ['O que acontece se você alimentar uma vaca com flores?', 'Ela dará leite de rosas.'],
- ['O que é que tem seis olhos, mas não pode ver?', 'Três ratinhos cegos.'],
- ['Afinal, o que é que sempre encontramos no final do túnel?', 'A letra L.'],
- ['Qual a palavra que tem duas letras e três sílabas?','Arara!'],
- ['Por que os elefantes são encontrados na África?', 'Porque eles são muito grandes para se esconderem.'],
- ['Onde estavam todos os moradores da cidade durante o último apagão?', 'No escuro.'],
- ['Quando é que o cliente fica preso no banco?', 'Quando fecha a conta-corrente.'],
- ['Quem é que vai a todos os casamentos sem ser convidado?', 'O padre.'],
- ['Por que os dinossauros têm pescoços longos?', 'Porque eles têm chulé.'],
- ['Qual é a mulher que sempre aparece antes do nascer do sol?', 'Aurora.'],
- ['Por que os elefantes nunca esquecem?', 'Porque ninguém nunca fala nada para eles.'],
- ['Qual é o país que o criminoso não gosta de visitar?', 'O Cana-dá.'],
- ['Por que o leão é considerado o rei das selvas?', 'Porque ele é macho; se fosse fêmea, seria rainha.'],
- ['O que é um "fuio"?', 'É um "buiaco na paiede".'],
- ['Sou enrolado, tenho a cabeça rachada e vivo apertado?', 'Parafuso.'],
- ['Por que o cachorro rói o osso?', 'Porque ele não consegue engolir o osso inteiro.'],
- ['Como é que você impede um elefante de passar pelo buraco de uma agulha?', 'Dando um nó no rabo dele.'],
- ['Em que lugar do mundo, o sono é mais profundo?', 'No cemitério.'],
- ['O que é que é menor que a boca de uma formiga?', 'O que ela come.'],
- ['Um é pouco, dois é bom, três é demais. O que são quatro e cinco?', 'Nove.'],
- ['Qual é a corrente que, por mais forte que seja, não consegue segurar o navio?', 'A corrente marinha.'],
- ['O que é que tem boca e um só dente e chama a atenção de muita gente?', 'O sino.'],
- ['Qual deve ser o comprimento máximo de uma perna?', 'O suficiente para alcançar o chão.'],
- ['O que é uma molécula?', 'É uma "Meninula Sapécula".'],
- ['Como se pode escrever a maior palavra do mundo?', 'Com a caneta.'],
- ['Que refeição é colocada sobre a água e não afunda?', 'A bóia.'],
- ['Qual o melhor castigo para um time de futebol que joga sujo?', 'Levar um banho de gols.'],
- ['Por que os elefantes usam tênis de corrida?', 'Para fazer cooper, é claro.'],
- ['Por que os elefantes são grandes e cinza?', 'Porque, se eles fossem pequenos e amarelos, seriam canários.'],
- ['O que é que tem na árvore, no futebol, no chapéu e na casa?', 'Copa.'],
- ['O que é que deixa um cachorro desconfiado?', 'Uma pulga atrás da orelha.'],
- ['Por que o '+ Donald +' espalhou açúcar no travesseiro?', 'Porque ele queria ter doces sonhos.'],
- ['Por que o '+ Goofy +' levou o pente dele ao dentista?', 'Porque ele perdeu todos os dentes.'],
- ['Por que o '+ Goofy +' usa a camisa no banho?', 'Porque a etiqueta diz para lavar e usar.'],
- ['Qual o país está na granja e a capital está no pomar?', 'Peru, capital Lima.'],
- ['Qual é o prato preferido da maioria das pessoas?', 'O prato cheio.'],
- ['Como você chama uma pessoa que leva outra para almoçar?', 'Canibal.'],
- ['O que é um ponto amarelo no canto da sala?', 'É milho Santiago.'],
- ['O que é um ponto preto dentro do tubo de ensaio?', 'Uma blacktéria.'],
- ['Por que o '+ Pluto +' dorme com uma casca de banana?', 'Para pular da cama cedo.'],
- ['Por que o rato usa tênis marrom?', 'Porque o branco está lavando.'],
- ['O que é que a dentadura tem em comum com as estrelas?', 'Ela sai à noite.'],
- ['O que é um pontinho preto no meio da estrada?', 'É um calhamblack.'],
- ['Por que o arqueólogo foi à falência?', 'Porque sua carreira estava uma ruína.'],
- ['Como é que você ficaria se atravessasse o Atlântico no Titanic?', 'Ensopado.'],
- ['O que é um pontinho amarelo no alto de um prédio?', 'Um milho suicida.'],
- ['Por que é que o milho suicida quer se suicidar?', 'Porque o lugar onde ele mora é um bagaço.'],
- ['O que é um pontinho vermelho lá embaixo do prédio onde está o milho suicida?', 'Um milho bombeiro para salvar o milho suicida...'],
- ['Qual a cor mais barulhenta?', 'A corneta.'],
- ['O que é que a banana suicida falou?', 'Macacos me mordam!!!'],
- ['Qual o tipo de alimento de que o político mais gosta?', 'As massas.'],
- ['O que a chaminé grande falou para a chaminé pequena?', 'Você é muito jovem para fumar.'],
- ['O que é um pontinho vermelho no pântano?', 'É um jacared.'],
- ['O que é um pontinho azul no gramado?', 'Uma formiguinha de calça jeans.'],
- ['O que é um ponto brilhante no gramado?', 'Uma formiguinha de aparelho nos dentes.'],
- ['O que é um pontinho marrom na pré-história?', 'Um browntossauro.'],
- ['Como se chama um dinossauro que nunca se atrasa?', 'Prontossauro.'],
- ['O que é um pontinho vermelho num pedacinho de neve?', 'Uma miniatura da bandeira do Japão.'],
- ['O que é um pontinho dourado no gramado?', 'É uma formiguinha brincando de Jaspion.'],
- ['Qual e a comida que liga e desliga ?', 'O StrogON-OFF.'],
- ['Por que o livro de matemática ficou triste?', 'Porque ele tinha muitos problemas.'],
- ['O que o tomate foi fazer no banco?', 'Foi tirar extrato'],
- ['Como se faz para transformar um giz numa cobra?', 'É só colocar o giz num copo de água. Aí o "gizbóia"'],
- ['Qual é o cúmulo da rapidez?', 'Fechar a gaveta, trancar e jogar a chave dentro.'],
- ['Qual é o cúmulo do egoísmo?', 'Não vou contar, só eu que sei.'],
- ['Qual é o cúmulo da revolta?', 'Morar sozinho, fugir de casa e deixar um bilhete dizendo que não volta mais.'],
- ['Qual é o cúmulo do exagero?', 'Passar manteiga no Pão de Açúcar.'],
- ['Qual é o cúmulo do arrependimento do carrasco?', 'Pois é, sempre que enforco alguém me dá um nó na garganta...'],
- ['Qual é o cúmulo da visão?', 'Derrubar dez faixas-pretas com um golpe de vista.'],
- ['Qual é o cúmulo da sorte?', 'Ser atropelado por uma ambulância.'],
- ['Qual é o cúmulo da maldade?', 'Colocar tachinhas na cadeira elétrica.'],
- ['Qual é o cúmulo da burrice?', 'Ser reprovado no exame de fezes.'],
- ['Qual é o cúmulo da economia?', 'Usar o papel higiênico dos dois lados.'],
- ['Qual é o cúmulo do esquecimento?', 'Ih! Esqueci!'],
- ['Qual é o cúmulo da sede?', 'Tomar um ônibus.'],
- ['O que que faz ABC...Slurp...DEF...Slurp?', 'Alguém tomando sopa de letrinhas.'],
- ['O que é que é verde e fica saltando sem parar em cima do sofá?', 'Uma ervilha que saiu do castigo.'],
- ['O que é que o tomate foi fazer no banco?', 'Tirar extrato.'],
- ['Por que o médico que trabalha à noite se veste de verde?', 'Porque ele está de plantão.'],
- ['O que é que é branco com pontinhos pretos e vermelhos?', 'Um dálmata com catapora.'],
- ['O que a galinha foi fazer na igreja?', 'Assistir à missa do galo.'],
- ['O que é o que é? Cai em pé e corre deitado?', 'Não é a chuva não! É uma minhoca de paraquedas.'],
- ['Por que é que não é bom guardar o quibe no freezer?', 'Porque lá dentro ele esfirra.'],
- ['O que o advogado do frango foi fazer na delegacia?', 'Foi soltar a franga'],
- ['Por que o galo canta de olhos fechados?', 'Porque ele já sabe a música de cor.'],
- ['Um peixe foi jogado de cima de um prédio de vinte andares. Que peixe era esse?', 'Um atum, porque quando ele caiu fez: Aaaaaaaaaaaa Tum!'],
- ['Como se faz omelete de chocolate?', 'Com ovos de Páscoa.'],
- ['Para que servem óculos verdes?', 'Para verde perto.'],
- ['Para que servem óculos vermelhos?', 'Para "vermelhor".'],
- ['O que é verde por fora e amarela por dentro?', 'Uma banana disfarçada de pepino.'],
- ['Qual é a parte do carro que se originou no Antigo Egito?', 'Os faraóis.'],
- ['Como é que a bruxa sai na chuva?', 'De rodo.'],
- ['Por que o cachorro entrou na igreja?', 'Porque ele é um cão pastor.'],
- ['Quem é o pai do volante?', 'O painel.'],
- ['Como chamamos uma mulher que visitou uma plantação de uva?', 'Viúva.'],
- ['O que o amendoim falou para o elefante?', 'Nada, o amendoim não fala.'],
- ['O que os elefantes falam quando se esbarram?', 'Mundo pequeno esse, né?'],
- ['O que o caixa falou para a registradora?', 'Estou contando com você.'],
- ['Por que o caminhão de frigorífico não sobe a ladeira?', 'Porque "elinguiça".'],
- ['Qual é a comida que liga e desliga?', 'É o strogON-OFF.'],
- ['O que a vaca foi fazer na Argentina?', 'Foi ver o Boi nos Ares.'],
- ['Qual é o peixe mais salgado que existe?', 'O sal-mão.'],
- ['O que é um cão indeciso?', 'É um "cão-fuso".'],
- ['Sabe por que o italiano não come churrasco?', 'Porque o macarrão não cabe no espeto.'],
- ['Qual é o cúmulo da rapidez?', 'Ir ao enterro de um parente e ainda encontrá-lo vivo.'],
- ['Qual é o cúmulo do azar?', 'Ser atropelado por um carro funerário.'],
- ['Por que o jacaré tomou o cartão de crédito do jacarezinho?', 'Porque o jacarezinho gastou muito e mandou o jacarepaguá.'],
- ['Qual é o cúmulo da burrice?', 'Olhar pelo buraco da fechadura numa porta de vidro.'],
- ['Qual é o cúmulo da confiança?', 'Jogar par-ou-ímpar pelo telefone?'],
- ['Qual é o cúmulo da paciência?', 'Esvaziar uma piscina com conta-gotas.'],
- ['Qual é o cúmulo da traição?', 'Suicidar-se com uma punhalada nas costas.'],
- ['O que uma nuvem disse pra outra?', '"Nu-vem" não.'],
- ['Qual é o cúmulo da moleza?', 'Correr sozinho e chegar em segundo.'],
- ['Por que o jacaré tirou o jacarezinho da escola?', 'Porque ele "reptil".'],
- ['Qual é o fim da picada?', 'Quando o mosquito vai embora.'],
- ['O que o paraquedas disse para o paraquedista?', 'Tô contigo e não abro.'],
- ['Qual é a cor mais barulhenta?', 'A corneta.'],
- ['O que é um pontinho amarelo no céu?', 'Um amarelocóptero.']]
-MovieHealLaughterMisses = ('hmm','hehe','ah','Rá rá')
-MovieHealLaughterHits1= ('Ah ah ah','Ri, ri, ri','Ré, ré','Ah, ah')
-MovieHealLaughterHits2= ('AH HAH HAH!','HO HO HO!','RÁ RÁ RÁ!')
+ToonHealJokes = [
+ [
+  'O que faz TIQUE-TIQUE-TIQUE-AU?',
+  'Um cãonômetro!'],
+ [
+  'Por que o louco toma banho com o chuveiro desligado?',
+  'Porque ele comprou xampú para cabelos secos!'],
+ [
+  'Por que é difícil para o fantasma contar mentiras?',
+  'Porque seus pensamentos são transparentes.'],
+ [
+  'Do que a bailarina é chamada quando machuca o pé e se recusa a dançar?',
+  'Pé-nóstica!'],
+ [
+  'O que a vaca foi fazer no espaço?',
+  'Foi se encontrar com o vácuo!'],
+ [
+  'Por que o gato mia para a Lua e a Lua não mia para o gato?',
+  'Porque astro-no-mia!'],
+ [
+  'Por que as tartarugas não ficam bêbadas?',
+  'Porque elas só têm um casco!'],
+ [
+  'Por que o elefante usa tênis vermelhos?',
+  'Porque os branquinhos sujam muito.'],
+ [
+  'Por que a galinha atravessa a rua?',
+  'Para chegar ao outro lado!'],
+ [
+  'Qual é a maior injustiça do Natal?',
+  'O peru morre e a missa é do galo.'],
+ [
+  'Qual é o cúmulo dos trabalhos manuais?',
+  'Tricotar com a linha do trem.'],
+ [
+  'O que é um vulcão?',
+  'Uma montanha com soluço.'],
+ [
+  'O que é um pontinho vermelho, um azul e um rosa em cima de uma árvore?',
+  'Um morangotango com urublue num pinkenick.'],
+ [
+  'Por que o elefante não consegue tirar carteira de motorista?',
+  'Porque ele só dá trombada.'],
+ [
+  'O que um tijolo disse para o outro?',
+  "Existe um 'ciumento' entre nós."],
+ [
+  'O que a porta disse para a chave?',
+  'Vamos dar uma voltinha.'],
+ [
+  'O que o elétron fala quando atende ao telefone?',
+  'Próton!'],
+ [
+  'Quem é o rei da horta?',
+  'Rei Polho.'],
+ [
+  'Por que as pilhas são melhores que os políticos?',
+  'Porque elas têm, pelo menos, um lado positivo.'],
+ [
+  'O que Benjamin Franklin disse quando inventou a eletricidade?',
+  'Nada. Ele estava em estado de choque.'],
+ [
+  'Por que o cachorro balança o rabo?',
+  'Porque o rabo não tem força para balançar o cachorro.'],
+ [
+  'Qual é o cúmulo da força?',
+  'Dobrar a esquina.'],
+ [
+  'O que não é de comer, mas dá água na boca?',
+  'O copo.'],
+ [
+  'Quem é a mãe do mingau?',
+  'Mãe Zena.'],
+ [
+  'O que o Batman disse para o Robin na hora em que entraram no carro?',
+  'BAT a porta!'],
+ [
+  'O que é um pontinho amarelo tomando sol?',
+  'É um fandango querendo virar baconzito.'],
+ [
+  'O que é um pontinho rosa no armário?',
+  'É um cupink.'],
+ [
+  'Quem é o tio da construção?',
+  'Tio Jolo.'],
+ [
+  'O que dá um cruzamento de um dálmata com um canário?',
+  'Uma onça pintada da Amazônia.'],
+ [
+  'O que é uma porção de letras voando?',
+  'Um bando de borboletras.'],
+ [
+  'O que é que viaja o mundo inteiro, mas fica o tempo todo em um canto só?',
+  'O selo.'],
+ [
+  'O que é um pontinho verde em cima de um amarelo no canto da parede?',
+  'Uma ervilha de castigo ajoelhada no milho.'],
+ [
+  'Por que o namoro da goiabada com o queijo não deu certo?',
+  'Porque o queijo era fresco.'],
+ [
+  'O que é um pontinho azul no guarda-roupas?',
+  'É uma bluesa.'],
+ [
+  'O que é um pontinho verde no fundo da piscina?',
+  'É uma ervilha... Segurando a respiração!'],
+ [
+  'O que é um pontinho vermelho e azul voando de um lado para o outro?',
+  'Uma mosca fantasiada de Super-homem.'],
+ [
+  'Qual é o animal que tem mais de três olhos e menos de quatro?',
+  'O pi-olho, ou seja, 3,14.'],
+ [
+  'O que a aranha faz quando vai para a aula de dança?',
+  'Sapa-teia.'],
+ [
+  'Por que o pato tem ciúmes do cavalo?',
+  'Porque ele tem quatro patas.'],
+ [
+  'Quando você tem certeza de que um ovo não tem um pintinho dentro?',
+  'Quando o ovo é de pata.'],
+ [
+  'Por que ninguém apareceu no enterro do elefante?',
+  'Porque ninguém queria carregar o caixão.'],
+ [
+  'O que é que sempre aumenta, mas nunca diminui?',
+  'A idade.'],
+ [
+  'O que é que tem muitos pés, mas não fica de pé?',
+  'A centopéia.'],
+ [
+  'Em que espécie de mato se senta o elefante quando chove?',
+  'Mato molhado.'],
+ [
+  'Quem é que bate em você, mas você não revida?',
+  'O vento.'],
+ [
+  'O que é o cúmulo do contra-senso?',
+  'Na casa de saúde, só haver doentes.'],
+ [
+  'Quando um jogador de futebol é um literato?',
+  'Quando ele faz um gol de letra.'],
+ [
+  'Onde é que a sereia Ariel vê filmes?',
+  'No cinemaré.'],
+ [
+  'O que é que atravessa a porta, mas nunca entra nem sai?',
+  'A fechadura.'],
+ [
+  'Por que os rios são considerados preguiçosos?',
+  'Porque não saem dos seus leitos.'],
+ [
+  'Qual é a diferença entre a galinha e o tecido?',
+  'A galinha bota e o tecido desbota.'],
+ [
+  'Era uma vez uma orquestra que não tocava nada. Qual o nome do filme?',
+  'Os Intocáveis.'],
+ [
+  'Quando é que um gaúcho é chamado de mineiro?',
+  'Quando trabalha em uma mina.'],
+ [
+  'O que deveríamos colocar embaixo da forca para que o condenado não morra?',
+  'Cedilha!'],
+ [
+  'O que é que todos nós temos, mas quando precisamos vamos ao mercado comprar?',
+  'Canela!'],
+ [
+  'O que você faz quando está nadando em um oceano e um crocodilo ataca?',
+  'Você acorda.'],
+ [
+  'Quem é que nasce no rio, vive no rio e morre no rio, mas só se molha se quiser?',
+  'O carioca.'],
+ [
+  'O que é que está no fim de tudo?',
+  'A letra O.'],
+ [
+  'Qual é o único monstro que é bonzinho?',
+  'Good-zila.'],
+ [
+  'O que é a única coisa que o vencedor da maratona perde?',
+  'O fôlego.'],
+ [
+  'O que acontece se você alimentar uma vaca com flores?',
+  'Ela dará leite de rosas.'],
+ [
+  'O que é que tem seis olhos, mas não pode ver?',
+  'Três ratinhos cegos.'],
+ [
+  'Afinal, o que é que sempre encontramos no final do túnel?',
+  'A letra L.'],
+ [
+  'Qual a palavra que tem duas letras e três sílabas?',
+  'Arara!'],
+ [
+  'Por que os elefantes são encontrados na África?',
+  'Porque eles são muito grandes para se esconderem.'],
+ [
+  'Onde estavam todos os moradores da cidade durante o último apagão?',
+  'No escuro.'],
+ [
+  'Quando é que o cliente fica preso no banco?',
+  'Quando fecha a conta-corrente.'],
+ [
+  'Quem é que vai a todos os casamentos sem ser convidado?',
+  'O padre.'],
+ [
+  'Por que os dinossauros têm pescoços longos?',
+  'Porque eles têm chulé.'],
+ [
+  'Qual é a mulher que sempre aparece antes do nascer do sol?',
+  'Aurora.'],
+ [
+  'Por que os elefantes nunca esquecem?',
+  'Porque ninguém nunca fala nada para eles.'],
+ [
+  'Qual é o país que o criminoso não gosta de visitar?',
+  'O Cana-dá.'],
+ [
+  'Por que o leão é considerado o rei das selvas?',
+  'Porque ele é macho; se fosse fêmea, seria rainha.'],
+ [
+  "O que é um 'fuio'?",
+  "É um 'buiaco na paiede'."],
+ [
+  'Sou enrolado, tenho a cabeça rachada e vivo apertado?',
+  'Parafuso.'],
+ [
+  'Por que o cachorro rói o osso?',
+  'Porque ele não consegue engolir o osso inteiro.'],
+ [
+  'Como é que você impede um elefante de passar pelo buraco de uma agulha?',
+  'Dando um nó no rabo dele.'],
+ [
+  'Em que lugar do mundo, o sono é mais profundo?',
+  'No cemitério.'],
+ [
+  'O que é que é menor que a boca de uma formiga?',
+  'O que ela come.'],
+ [
+  'Um é pouco, dois é bom, três é demais. O que são quatro e cinco?',
+  'Nove.'],
+ [
+  'Qual é a corrente que, por mais forte que seja, não consegue segurar o navio?',
+  'A corrente marinha.'],
+ [
+  'O que é que tem boca e um só dente e chama a atenção de muita gente?',
+  'O sino.'],
+ [
+  'Qual deve ser o comprimento máximo de uma perna?',
+  'O suficiente para alcançar o chão.'],
+ [
+  'O que é uma molécula?',
+  "É uma 'Meninula Sapécula'."],
+ [
+  'Como se pode escrever a maior palavra do mundo?',
+  'Com a caneta.'],
+ [
+  'Que refeição é colocada sobre a água e não afunda?',
+  'A bóia.'],
+ [
+  'Qual o melhor castigo para um time de futebol que joga sujo?',
+  'Levar um banho de gols.'],
+ [
+  'Por que os elefantes usam tênis de corrida?',
+  'Para fazer cooper, é claro.'],
+ [
+  'Por que os elefantes são grandes e cinza?',
+  'Porque, se eles fossem pequenos e amarelos, seriam canários.'],
+ [
+  'O que é que tem na árvore, no futebol, no chapéu e na casa?',
+  'Copa.'],
+ [
+  'O que é que deixa um cachorro desconfiado?',
+  'Uma pulga atrás da orelha.'],
+ [
+  'Por que o ' + Donald + ' espalhou açúcar no travesseiro?',
+  'Porque ele queria ter doces sonhos.'],
+ [
+  'Por que o ' + Goofy + ' levou o pente dele ao dentista?',
+  'Porque ele perdeu todos os dentes.'],
+ [
+  'Por que o ' + Goofy + ' usa a camisa no banho?',
+  'Porque a etiqueta diz para lavar e usar.'],
+ [
+  'Qual o país está na granja e a capital está no pomar?',
+  'Peru, capital Lima.'],
+ [
+  'Qual é o prato preferido da maioria das pessoas?',
+  'O prato cheio.'],
+ [
+  'Como você chama uma pessoa que leva outra para almoçar?',
+  'Canibal.'],
+ [
+  'O que é um ponto amarelo no canto da sala?',
+  'É milho Santiago.'],
+ [
+  'O que é um ponto preto dentro do tubo de ensaio?',
+  'Uma blacktéria.'],
+ [
+  'Por que o ' + Pluto + ' dorme com uma casca de banana?',
+  'Para pular da cama cedo.'],
+ [
+  'Por que o rato usa tênis marrom?',
+  'Porque o branco está lavando.'],
+ [
+  'O que é que a dentadura tem em comum com as estrelas?',
+  'Ela sai à noite.'],
+ [
+  'O que é um pontinho preto no meio da estrada?',
+  'É um calhamblack.'],
+ [
+  'Por que o arqueólogo foi à falência?',
+  'Porque sua carreira estava uma ruína.'],
+ [
+  'Como é que você ficaria se atravessasse o Atlântico no Titanic?',
+  'Ensopado.'],
+ [
+  'O que é um pontinho amarelo no alto de um prédio?',
+  'Um milho suicida.'],
+ [
+  'Por que é que o milho suicida quer se suicidar?',
+  'Porque o lugar onde ele mora é um bagaço.'],
+ [
+  'O que é um pontinho vermelho lá embaixo do prédio onde está o milho suicida?',
+  'Um milho bombeiro para salvar o milho suicida...'],
+ [
+  'Qual a cor mais barulhenta?',
+  'A corneta.'],
+ [
+  'O que é que a banana suicida falou?',
+  'Macacos me mordam!!!'],
+ [
+  'Qual o tipo de alimento de que o político mais gosta?',
+  'As massas.'],
+ [
+  'O que a chaminé grande falou para a chaminé pequena?',
+  'Você é muito jovem para fumar.'],
+ [
+  'O que é um pontinho vermelho no pântano?',
+  'É um jacared.'],
+ [
+  'O que é um pontinho azul no gramado?',
+  'Uma formiguinha de calça jeans.'],
+ [
+  'O que é um ponto brilhante no gramado?',
+  'Uma formiguinha de aparelho nos dentes.'],
+ [
+  'O que é um pontinho marrom na pré-história?',
+  'Um browntossauro.'],
+ [
+  'Como se chama um dinossauro que nunca se atrasa?',
+  'Prontossauro.'],
+ [
+  'O que é um pontinho vermelho num pedacinho de neve?',
+  'Uma miniatura da bandeira do Japão.'],
+ [
+  'O que é um pontinho dourado no gramado?',
+  'É uma formiguinha brincando de Jaspion.'],
+ [
+  'Qual e a comida que liga e desliga ?',
+  'O StrogON-OFF.'],
+ [
+  'Por que o livro de matemática ficou triste?',
+  'Porque ele tinha muitos problemas.'],
+ [
+  'O que o tomate foi fazer no banco?',
+  'Foi tirar extrato'],
+ [
+  'Como se faz para transformar um giz numa cobra?',
+  "É só colocar o giz num copo de água. Aí o 'gizbóia'"],
+ [
+  'Qual é o cúmulo da rapidez?',
+  'Fechar a gaveta, trancar e jogar a chave dentro.'],
+ [
+  'Qual é o cúmulo do egoísmo?',
+  'Não vou contar, só eu que sei.'],
+ [
+  'Qual é o cúmulo da revolta?',
+  'Morar sozinho, fugir de casa e deixar um bilhete dizendo que não volta mais.'],
+ [
+  'Qual é o cúmulo do exagero?',
+  'Passar manteiga no Pão de Açúcar.'],
+ [
+  'Qual é o cúmulo do arrependimento do carrasco?',
+  'Pois é, sempre que enforco alguém me dá um nó na garganta...'],
+ [
+  'Qual é o cúmulo da visão?',
+  'Derrubar dez faixas-pretas com um golpe de vista.'],
+ [
+  'Qual é o cúmulo da sorte?',
+  'Ser atropelado por uma ambulância.'],
+ [
+  'Qual é o cúmulo da maldade?',
+  'Colocar tachinhas na cadeira elétrica.'],
+ [
+  'Qual é o cúmulo da burrice?',
+  'Ser reprovado no exame de fezes.'],
+ [
+  'Qual é o cúmulo da economia?',
+  'Usar o papel higiênico dos dois lados.'],
+ [
+  'Qual é o cúmulo do esquecimento?',
+  'Ih! Esqueci!'],
+ [
+  'Qual é o cúmulo da sede?',
+  'Tomar um ônibus.'],
+ [
+  'O que que faz ABC...Slurp...DEF...Slurp?',
+  'Alguém tomando sopa de letrinhas.'],
+ [
+  'O que é que é verde e fica saltando sem parar em cima do sofá?',
+  'Uma ervilha que saiu do castigo.'],
+ [
+  'O que é que o tomate foi fazer no banco?',
+  'Tirar extrato.'],
+ [
+  'Por que o médico que trabalha à noite se veste de verde?',
+  'Porque ele está de plantão.'],
+ [
+  'O que é que é branco com pontinhos pretos e vermelhos?',
+  'Um dálmata com catapora.'],
+ [
+  'O que a galinha foi fazer na igreja?',
+  'Assistir à missa do galo.'],
+ [
+  'O que é o que é? Cai em pé e corre deitado?',
+  'Não é a chuva não! É uma minhoca de paraquedas.'],
+ [
+  'Por que é que não é bom guardar o quibe no freezer?',
+  'Porque lá dentro ele esfirra.'],
+ [
+  'O que o advogado do frango foi fazer na delegacia?',
+  'Foi soltar a franga'],
+ [
+  'Por que o galo canta de olhos fechados?',
+  'Porque ele já sabe a música de cor.'],
+ [
+  'Um peixe foi jogado de cima de um prédio de vinte andares. Que peixe era esse?',
+  'Um atum, porque quando ele caiu fez: Aaaaaaaaaaaa Tum!'],
+ [
+  'Como se faz omelete de chocolate?',
+  'Com ovos de Páscoa.'],
+ [
+  'Para que servem óculos verdes?',
+  'Para verde perto.'],
+ [
+  'Para que servem óculos vermelhos?',
+  "Para 'vermelhor'."],
+ [
+  'O que é verde por fora e amarela por dentro?',
+  'Uma banana disfarçada de pepino.'],
+ [
+  'Qual é a parte do carro que se originou no Antigo Egito?',
+  'Os faraóis.'],
+ [
+  'Como é que a bruxa sai na chuva?',
+  'De rodo.'],
+ [
+  'Por que o cachorro entrou na igreja?',
+  'Porque ele é um cão pastor.'],
+ [
+  'Quem é o pai do volante?',
+  'O painel.'],
+ [
+  'Como chamamos uma mulher que visitou uma plantação de uva?',
+  'Viúva.'],
+ [
+  'O que o amendoim falou para o elefante?',
+  'Nada, o amendoim não fala.'],
+ [
+  'O que os elefantes falam quando se esbarram?',
+  'Mundo pequeno esse, né?'],
+ [
+  'O que o caixa falou para a registradora?',
+  'Estou contando com você.'],
+ [
+  'Por que o caminhão de frigorífico não sobe a ladeira?',
+  "Porque 'elinguiça'."],
+ [
+  'Qual é a comida que liga e desliga?',
+  'É o strogON-OFF.'],
+ [
+  'O que a vaca foi fazer na Argentina?',
+  'Foi ver o Boi nos Ares.'],
+ [
+  'Qual é o peixe mais salgado que existe?',
+  'O sal-mão.'],
+ [
+  'O que é um cão indeciso?',
+  "É um 'cão-fuso'."],
+ [
+  'Sabe por que o italiano não come churrasco?',
+  'Porque o macarrão não cabe no espeto.'],
+ [
+  'Qual é o cúmulo da rapidez?',
+  'Ir ao enterro de um parente e ainda encontrá-lo vivo.'],
+ [
+  'Qual é o cúmulo do azar?',
+  'Ser atropelado por um carro funerário.'],
+ [
+  'Por que o jacaré tomou o cartão de crédito do jacarezinho?',
+  'Porque o jacarezinho gastou muito e mandou o jacarepaguá.'],
+ [
+  'Qual é o cúmulo da burrice?',
+  'Olhar pelo buraco da fechadura numa porta de vidro.'],
+ [
+  'Qual é o cúmulo da confiança?',
+  'Jogar par-ou-ímpar pelo telefone?'],
+ [
+  'Qual é o cúmulo da paciência?',
+  'Esvaziar uma piscina com conta-gotas.'],
+ [
+  'Qual é o cúmulo da traição?',
+  'Suicidar-se com uma punhalada nas costas.'],
+ [
+  'O que uma nuvem disse pra outra?',
+  "'Nu-vem' não."],
+ [
+  'Qual é o cúmulo da moleza?',
+  'Correr sozinho e chegar em segundo.'],
+ [
+  'Por que o jacaré tirou o jacarezinho da escola?',
+  "Porque ele 'reptil'."],
+ [
+  'Qual é o fim da picada?',
+  'Quando o mosquito vai embora.'],
+ [
+  'O que o paraquedas disse para o paraquedista?',
+  'Tô contigo e não abro.'],
+ [
+  'Qual é a cor mais barulhenta?',
+  'A corneta.'],
+ [
+  'O que é um pontinho amarelo no céu?',
+  'Um yellowcóptero.']]
+MovieHealLaughterMisses = ('hmm', 'hehe', 'ah', 'Rá rá')
+MovieHealLaughterHits1 = ('Ah ah ah', 'Ri, ri, ri', 'Ré, ré', 'Ah, ah')
+MovieHealLaughterHits2 = ('AH HAH HAH!', 'HO HO HO!', 'RÁ RÁ RÁ!')
 MovieSOSCallHelp = '%s SOCORRO!'
 MovieSOSWhisperHelp = '%s precisa de ajuda na batalha!'
 MovieSOSObserverHelp = 'SOCORRO!'
@@ -2255,24 +2642,27 @@ RewardPanelToonTasks = 'Tarefas Toon'
 RewardPanelItems = 'Itens recuperados'
 RewardPanelMissedItems = 'Itens não-recuperados'
 RewardPanelQuestLabel = 'Buscar %s'
-RewardPanelCongratsStrings = ['É isso aí!', 
-'Parabéns!', 
-'Uau!', 
-'Legal!', 
-'Caraca!', 
-'Toontástico!']
+RewardPanelCongratsStrings = [
+ 'É isso aí!',
+ 'Parabéns!',
+ 'Uau!',
+ 'Legal!',
+ 'Caraca!',
+ 'Toontástico!']
 RewardPanelNewGag = 'Nova piada %(gagName)s para %(avName)s!'
 RewardPanelUberGag = '%(avName)s ganhou a piada %(gagName)s com %(exp)s pontos de experiência!'
 RewardPanelEndTrack = 'Oba! %(avName)s chegou ao fim da Trilha de Piadas da piada %(gagName)s!'
 RewardPanelMeritsMaxed = 'Maximizados'
-RewardPanelMeritBarLabels = ['Bilhetes azuis',
-'Intimações',
-'Granas Cog',
-'Méritos']
+RewardPanelMeritBarLabels = [
+ 'Bilhetes azuis',
+ 'Intimações',
+ 'Granas Cog',
+ 'Méritos']
 RewardPanelMeritAlert = 'Pronto para a promoção!'
 RewardPanelCogPart = 'Você ganhou uma parte de disfarce de Cog!'
 RewardPanelPromotion = '%s prepare-se para a promoção!'
-CheesyEffectDescriptions = [('Toon normal', 'você ficará normal'),
+CheesyEffectDescriptions = [
+ ('Toon normal', 'você ficará normal'),
  ('Cabeção', 'você ficará com uma cabeça grande'),
  ('Cabecinha', 'você ficará com uma cabeça pequena'),
  ('Pernonas', 'você ficará com pernas grandes'),
@@ -2293,14 +2683,14 @@ CheesyEffectExceptIn = ', exceto em %s'
 SuitFlunky = 'Puxa-saco'
 SuitPencilPusher = 'Rato de Escritório'
 SuitYesman = 'Vaquinha de Presépio'
-SuitMicromanager = 'Micro\04empresário'
+SuitMicromanager = 'Micro\x4empresário'
 SuitDownsizer = 'Facão'
-SuitHeadHunter = 'Caça-\04talentos'
+SuitHeadHunter = 'Caça-\x4talentos'
 SuitCorporateRaider = 'Aventureiro Corporativo'
 SuitTheBigCheese = 'O Rei da Cocada Preta'
 SuitColdCaller = 'Rei da Incerta'
-SuitTelemarketer = 'Operador de Tele\04marketing'
-SuitNameDropper = 'Dr. Sabe-com-\04quem-está-\04falando'
+SuitTelemarketer = 'Operador de Tele\x4marketing'
+SuitNameDropper = 'Dr. Sabe-com-\x4quem-está-\x4falando'
 SuitGladHander = 'Amigo da Onça'
 SuitMoverShaker = 'Agitador'
 SuitTwoFace = 'Duas Caras'
@@ -2309,7 +2699,7 @@ SuitMrHollywood = 'Dr. Celebridade'
 SuitShortChange = 'Farsante'
 SuitPennyPincher = 'Mão de vaca'
 SuitTightwad = 'Pão-duro'
-SuitBeanCounter = 'Conta-\04moedinha'
+SuitBeanCounter = 'Conta-\x4moedinha'
 SuitNumberCruncher = 'Destruidor de Números'
 SuitMoneyBags = 'Sacos de Dinheiro'
 SuitLoanShark = 'Agiota'
@@ -2325,14 +2715,14 @@ SuitBigWig = 'Figurão'
 SuitFlunkyS = 'um Puxa-saco'
 SuitPencilPusherS = 'um Rato de Escritório'
 SuitYesmanS = 'uma Vaquinha de Presépio'
-SuitMicromanagerS = 'um Micro\04empresário'
+SuitMicromanagerS = 'um Micro\x4empresário'
 SuitDownsizerS = 'um Facão'
 SuitHeadHunterS = 'um Caça-talentos'
 SuitCorporateRaiderS = 'um Aventureiro Corporativo'
 SuitTheBigCheeseS = 'um Rei da Cocada Preta'
 SuitColdCallerS = 'um Rei da Incerta'
 SuitTelemarketerS = 'um Operador de Telemarketing'
-SuitNameDropperS = 'um Dr. Sabe-com-\04quem-está-\04falando'
+SuitNameDropperS = 'um Dr. Sabe-com-\x4quem-está-\x4falando'
 SuitGladHanderS = 'um Amigo da Onça'
 SuitMoverShakerS = 'um Agitador'
 SuitTwoFaceS = 'um Duas Caras'
@@ -2341,7 +2731,7 @@ SuitMrHollywoodS = 'um Dr. Celebridade'
 SuitShortChangeS = 'um Farsante'
 SuitPennyPincherS = 'um Mão de vaca'
 SuitTightwadS = 'um Pão-duro'
-SuitBeanCounterS = 'um Conta-\04moedinha'
+SuitBeanCounterS = 'um Conta-\x4moedinha'
 SuitNumberCruncherS = 'um Destruidor de Números'
 SuitMoneyBagsS = 'um Sacos de Dinheiro'
 SuitLoanSharkS = 'um Agiota'
@@ -2357,14 +2747,14 @@ SuitBigWigS = 'um Figurão'
 SuitFlunkyP = 'Puxa-sacos'
 SuitPencilPusherP = 'Ratos de Escritório'
 SuitYesmanP = 'Vaquinhas de Presépio'
-SuitMicromanagerP = 'Micro\04empresários'
+SuitMicromanagerP = 'Micro\x4empresários'
 SuitDownsizerP = 'Facões'
-SuitHeadHunterP = 'Caça-\04talentos'
+SuitHeadHunterP = 'Caça-\x4talentos'
 SuitCorporateRaiderP = 'Aventureiros Corporativos'
 SuitTheBigCheeseP = 'Os Reis da Cocada Preta'
 SuitColdCallerP = 'Reis da Incerta'
-SuitTelemarketerP = 'Operadores de Tele\04marketing'
-SuitNameDropperP = 'Drs. Sabe-com-\04quem-está-\04falando'
+SuitTelemarketerP = 'Operadores de Tele\x4marketing'
+SuitNameDropperP = 'Drs. Sabe-com-\x4quem-está-\x4falando'
 SuitGladHanderP = 'Amigos da Onça'
 SuitMoverShakerP = 'Agitadores'
 SuitTwoFaceP = 'Duas Caras'
@@ -2373,7 +2763,7 @@ SuitMrHollywoodP = 'Drs. Celebridade'
 SuitShortChangeP = 'Farsantes'
 SuitPennyPincherP = 'Mãos de vaca'
 SuitTightwadP = 'Pães-duros'
-SuitBeanCounterP = 'Conta-\04moedinhas'
+SuitBeanCounterP = 'Conta-\x4moedinhas'
 SuitNumberCruncherP = 'Destruidores de Números'
 SuitMoneyBagsP = 'Sacos de Dinheiro'
 SuitLoanSharkP = 'Agiotas'
@@ -2386,9 +2776,13 @@ SuitBackStabberP = 'Golpes Sujos'
 SuitSpinDoctorP = 'Relações Públicas'
 SuitLegalEagleP = 'Macacos velhos'
 SuitBigWigP = 'Figurões'
-SuitFaceOffDefaultTaunts = ['Buuuuu!']
-SuitAttackDefaultTaunts = ['Pega essa!', 'Pode escrever!']
-SuitAttackNames = {'Audit': 'Auditoria!',
+SuitFaceoffDefaultTaunts = [
+ 'Buuuuu!']
+SuitAttackDefaultTaunts = [
+ 'Pega essa!',
+ 'Pode escrever!']
+SuitAttackNames = {
+ 'Audit': 'Auditoria!',
  'Bite': 'Mordida!',
  'BounceCheck': 'Cheque sem fundos!',
  'BrainStorm': 'Grande ideia!',
@@ -2454,627 +2848,682 @@ SuitAttackNames = {'Audit': 'Auditoria!',
  'Tremor': 'Tremor!',
  'Watercooler': 'Bebedouro!',
  'Withdrawal': 'Retirada!',
- 'WriteOff': 'Baixa!'}
-SuitAttackTaunts = {'Audit': ['Seus livros não têm balanço.',
-           'Parece que você está no vermelho.',
-           'Deixe-me ajudá-lo com esses livros.',
-           'Sua coluna de débitos é muito alta.',
-           'Vamos verificar os seus bens.',
-           'Assim, você vai ficar endividado.',
-           'Vamos conferir direitinho o que você deve.',
-           'Assim, a sua conta vai ficar zerada.',
-           'É hora de você se responsabilizar pelas suas despesas.',
-           'Encontrei um erro nos seus livros.'],
- 'Bite': ['Quer uma mordida?',
-          'Dá uma mordida!',
-          'A sua mordida é maior do que você pode mastigar.',
-          'Minha mordida é maior do que o meu latido.',
-          'Morde logo!',
-          'Tome cuidado, eu mordo.',
-          'Eu não mordo só quando estou encurralado.',
-          'Só vou dar uma mordidinha.',
-          'Não dei uma mordida o dia todo.',
-          'Só quero uma mordida. É pedir muito?'],
- 'BounceCheck': ['Ah, que pena, você não tem graça.',
-                 'Você tem uma dívida.',
-                 'Acho que este cheque é seu.',
-                 'Você me devia isso.',
-                 'Estou cobrando esta dívida.',
-                 'Este cheque não vai ser mole.',
-                 'Você será cobrado por isso.',
-                 'Feche a conta.',
-                 'Isso terá um custo para você.',
-                 'Queria trocar por dinheiro.',
-                 'Vou mandar isso de volta para você.',
-                 'Esta conta está salgada.',
-                 'Estou descontando o serviço.'],
- 'BrainStorm': ['Acho que vai chover.',
-                'Espero que você esteja com o guarda-chuva.',
-                'Quero orientar você.',
-                'Que tal uma saraivada básica?',
-                'Cadê o seu brilho agora, Toon?',
-                'Pronto para a chuvarada?',
-                'Vou atacar você como um furacão.',
-                'Chamo isso de ataque-relâmpago.',
-                'Adoro ser um desmancha-prazeres.'],
- 'BuzzWord': ['Sinto muito-me se estou te aborrecendo.',
-              'Ouviu a última?',
-              'Veja se você pega esta.',
-              'Vamos cantarolar, Toon?',
-              'Deixe-me defender você.',
-              "Vou 'C' perfeitamente claro.",
-              "Você devia 'C' mais cuidadoso.",
-              'Veja se você consegue desviar desse enxame.',
-              'Cuidado, você está prestes a ser picado.',
-              'Parece que a sua urticária é séria.'],
- 'Calculate': ['Estes números fazem mesmo uma diferença!',
-               'Você contou com isso?',
-               'Faça as contas, você está caindo.',
-               'Deixe-me ajudar você a somar isso.',
-               'Você registrou todas as suas despesas?',
-               'De acordo com os meus cálculos, você não ficará por muito tempo aqui.',
-               'Aqui está o total.',
-               'Uau, a sua conta está se multiplicando.',
-               'Tente brincar com esses números!',
-               Cogs + ': 1 Toons: 0'],
- 'Canned': ['Gosta fora da lata?',
-            "'Lata' limpo?",
-            'Fresquinho, saído da lata!',
-            'Já foi atacado alguma vez por enlatados?',
-            'Gostaria de doar a você este enlatado!',
-            "Prepare-se para o 'Vira-lata'!",
-            'Você acha que pode abrir a lata, na lata.',
-            'Vou te jogar na lata!',
-            'Vou transformar você em um a-Toon em lata!',
-            'Seu gosto não é tão bom fora da lata.'],
- 'Chomp': ['Olha só esses comilões!',
-           'Nhac, nhac, nhac!',
-           'Aqui tem algo para mastigar.',
-           'Procurando alguma coisa para mastigar?',
-           'Por que você não mastiga um pouco disto?',
-           'Eu vou jantar você.',
-           'Adoro comer Toons no café da manhã!'],
- 'ClipOnTie': ['Melhor se arrumar para a reunião.',
-               'Você não pode SAIR sem a gravata.',
-               'Os  '+ Cogs +' mais bem vestidos usam isto.'
-               'Experimente este tamanho.',
-               'Você devia se vestir para arrasar.',
-               'Sem gravata não tem serviço...',
-               'Precisa de ajuda para se vestir?',
-               'Nada é tão poderoso quanto uma boa gravata.',
-               'Vamos ver se serve.',
-               'Esta vai apertar você.',
-               'Você vai querer se vestir antes de SAIR.',
-               'Acho que vou dar uma gravata em você.'],
- 'Crunch': ['Parece que você está espremido contra a parede.',
-            'Hora de mexer a mandíbula!',
-            'Vou dar alguma coisa para você mascar!',
-            'Triture isso!',
-            'Mordida para viagem.',
-            'Qual você prefere, molinho ou crocante?',
-            'Espero que esteja preparado para a hora da mandíbula.',
-            'Parece que você está ficando amassadinho!',
-            'Vou amassar você como uma latinha.'],
- 'Demotion': ['Você está descendo os degraus da empresa.',
-              'Vou mandar você de volta para a Expedição.',
-              'Está na hora de virar a sua placa de identificação.',
-              'Você está caidaço, palhaço.',
-              'Parece que você está ferrado.',
-              'Você não vai a lugar nenhum.',
-              'Você está em um beco sem saída.',
-              'Você não vai se mover tão cedo.',
-              'Você não vai a lugar nenhum.',
-              'Vai ficar registrado em seu arquivo permanente.'],
- 'Downsize': ['Desce!',
-              'Sabe como descer?',
-              'Vamos entrar direto no assunto.',
-              'O que houve? Você parece deprimido.',
-              'Decaindo?',
-              'O que é que está caindo? Você!',
-              'Por que não tem alguém do meu tamanho?',
-              'Por que eu não meço você - ou será que é melhor dizer despeço?',
-              'Quer um tamanho menor por apenas mais uma moeda?',
-              'Experimente este tamanho!',
-              'Tem em um tamanho menor.',
-              'Este ataque é tamanho único!'],
- 'EvictionNotice': ['Mudança à vista.',
-                    'Arrume as malas, Toon.',
-                    'É hora de arrumar outro lugar para morar.',
-                    'Considere-se servido.',
-                    'O seu aluguel está atrasado.',
-                    'Isto vai te torpedear.',
-                    'Você está prestes a ser despejado.',
-                    'Vou espirrar você daqui.',
-                    'Você está deslocado.',
-                    'Prepare-se para ser realocado.',
-                    'Você está abrigado.'],
- 'EvilEye': ['Estou botando um mau-olhado em você.',
-             'Você fica de olho vivo nisso para mim?',
-             'Espere. Tem alguma coisa no meu olho.',
-             'Estou de olho em você!',
-             'Você pode botar o olho nisso aqui para mim?',
-             'Tenho um olho gordo danado.',
-             'Você vai levar um soco no olho!',
-             'Minha crueldade não está de molho, abre o olho!',
-             'Vou colocar você no olho do furacão!',
-             'Estou dando com os olhos em você.'],
- 'Filibuster':['Devo encher?',
-               'Isso vai demorar um pouco.',
-               'Poderia fazer isso o dia todo.',
-               'Não preciso nem respirar fundo.',
-               'Vou fazendo, fazendo, fazendo...',
-               'Nunca fica cansado de fazer isso.',
-               'Posso tagarelar sem parar.',
-               'Tem problema se eu puxar a sua orelha?',
-               'Acho que vou papear à vontade.',
-               'Sempre consigo dar o meu recado.'],
- 'FingerWag': ['Já te disse milhares de vezes.',
-               'Olha aqui, Toon.',
-               'Não me faça rir.',
-               'Não me faça ir até aí.',
-               'Já cansei de repetir.',
-               'Fim de papo, eu já falei.',
-               'Você não tem respeito por nós,  '+ Cogs +'.'
-               'Acho que está na hora de você prestar atenção.',
-               'Blá, Blá, Blá, Blá, Blá.',
-               'Não me obrigue a interromper a reunião.',
-               'Será que eu vou ter que separar vocês?',
-               'Já passamos por isto antes.'],
- 'Fired': ['É fogo! O jeito é fazer um churrasquinho.',
-           'Vai esquentar por aqui.',
-           'Assim, o frio passa.',
-           'Espero que você tenha sangue frio.',
-           'Quente, quentão e pelando.',
-           'Melhor parar tudo, deitar no chão e rolar!',
-           'Você está fora daqui.',
-           "O que você acha de 'bem-feito'?",
-           'Pode dizer aí?',
-           'Espero que tenha usado protetor solar.',
-           'Está se sentindo um pouco tostado?',
-           'Você vai arder em chamas.',
-           'Você vai ficar aceso que nem fogueira.',
-           'Você está frito.',
-           'Eu sou fogo na roupa.',
-           'Só aticei o fogo um pouquinho, né?',
-           'Olha, um churrasquinho crocante.',
-           'Você não devia sair por aí malpassado.'],
- 'FountainPen': ['Vai deixar mancha.',
-                 'Vamos assinar embaixo.',
-                 'Esteja preparado para alguns danos irreparáveis.',
-                 'Você vai precisar de um bom tintureiro.',
-                 'Você devia mudar.',
-                 'Esta caneta-tinteiro tem uma tinta legal.',
-                 'Aqui, vou usar a minha caneta.',
-                 'Você entende a minha letra?',
-                 'Isso é que é carregar nas tintas.',
-                 'Seu desempenho babou.',
-                 'Não é chato quando isso acontece?'],
- 'FreezeAssets': ['Seus bens são meus.',
-                  'Está sentindo um vento? É o cheque voador.',
-                  'Espero que não tenha planos.',
-                  'Isso vai manter você na geladeira.',
-                  'Tem uma brisa fria no ar.',
-                  'O inverno está chegando mais cedo neste ano.',
-                  'Você está sentido um calafrio?',
-                  'Vou cristalizar o meu plano.',
-                  'Você vai ver, no duro.',
-                  'O gelo queima.',
-                  'Espero que goste de frios.',
-                  'Tenho muito sangue frio.'],
- 'GlowerPower': ['Está olhando para mim?',
-                 'Disseram que tenho olhos muito penetrantes.',
-                 'Gosto de estar no fio da navalha.',
-                 'Caçamba, caramba, meus quatro-olhos não são bambas?',
-                 'Estou de olho em você, pirralho.',
-                 'Que tal estes olhos expressivos?',
-                 'Meus olhos são o meu forte.',
-                 'Enche os olhos.',
-                 'Estou de olho, piolho.',
-                 'Olhe nos meus olhos...',
-                 'Podemos dar uma espiada no seu futuro?'],
- 'GuiltTrip': ['Você vai ficar com um baita sentimento de culpa!',
-               'Está se sentindo culpado?',
-               'É tudo culpa sua!',
-               'Sempre ponho a culpa de tudo em você.',
-               'Afogue-se na própria culpa!',
-               'Nunca mais falo contigo!',
-               'É melhor pedir desculpas.',
-               'Só vou perdoar você daqui a um milhão de anos!',
-               'Está preparado para viajar na maionese da culpa?',
-               'Ligue para mim quando voltar de viagem.',
-               'Quando você volta de viagem?'],
- 'HalfWindsor': ['Esta é a gravata mais elegante que você já viu!',
-                 'Procure não apertar tanto.',
-                 'Você não viu nem metade do nó em que você se meteu.',
-                 'Você tem sorte de eu não saber francês.',
-                 'Esta gravata é demais para você.',
-                 'Aposto como você nunca VIU um nó francês!',
-                 'Esta gravata não é para o seu bico.',
-                 'Eu não deveria ter gasto esta gravata com você.',
-                 'Você não vale nem o nó desta gravata!'],
- 'HangUp': ['Você foi desconectado.',
-            'Tchau!',
-            'Está na hora de terminar a sua conexão.',
-            '...e não ligue de novo!',
-            'Clique!',
-            'A conversa acabou.',
-            'Estou cortando este fio.',
-            'Acho que você está meio desligado.',
-            'Parece que você está com mau contato.',
-            'Seu tempo acabou.',
-            'Espero que tenha ouvido em claro e bom som.'
-            'Foi engano.'],
- 'HeadShrink': ['Parece que você tem ido ao analista.',
-                'Querida, encolhi o analista.',
-                'Espero que não precise analisar o seu amor-próprio.',
-                'Você se abriu?',
-                'Analiso, logo existo.',
-                'Não é nada que faça você perder a cabeça.',
-                'Você vai abrir a cabeça?',
-                'Levanta essa cabeça! Ou será que é melhor abaixar?',
-                'Os objetos podem ser maiores do que parecem.',
-                'Os melhores Toons vêm nos menores frascos.'],
- 'HotAir':['Estamos tendo uma discussão acalorada.',
-           'Está rolando uma onda de calor.',
-           'Atingi o meu ponto de ebulição.',
-           'Que vento cortante.',
-           'Odeio ter que te grelhar, mas...',
-           'Lembre-se sempre: onde há fumaça, há fogo.',
-           'Você parece meio queimadinho.',
-           'Outra reunião que virou fumaça.',
-           'Acho que está na hora de botar lenha na fogueira.',
-           'Deixe-me acender uma relação de trabalho.',
-           'Tenho umas observações inflamadas pra você.',
-           'Ataque aéreo!!!'],
- 'Jargon':['Que besteira.',
-           'Veja se você consegue ver algum sentido nisso.',
-           'Espero que tenha sido claro como água.',
-           'Parece que vou ter que falar mais alto.',
-           'Insisto em ter a palavra.',
-           'Sou muito direto.',
-           'Devo sustentar a minha opinião neste assunto.',
-           'Olha, as palavras podem machucar você.',
-           'Entendeu o que eu quis dizer?',
-           'Palavras, palavras, palavras, palavras, palavras.'],
- 'Legalese':['Você deve se conformar e desistir.',
-             'Você vai ser derrotado, legalmente falando.',
-             'Você está ciente das implicações legais?',
-             'Você não está acima da lei!',
-             'Devia haver uma lei contra você.',
-             'Não há lei marcial comigo!',
-             'As opiniões expressadas neste ataque não são compartilhadas pela Toontown On-line da Disney.',
-             'Não podemos ser responsabilizados por danos sofridos neste ataque.',
-             'Os resultados deste ataque podem variar.',
-             'Este ataque não tem validade legal quando proibido.',
-             'Você não se enquadra no meu sistema legal!',
-             'Você não sabe lidar com assuntos jurídicos.'],
- 'Liquidate':['Gosto de manter as coisas fluindo.',
-              'Você está com algum problema de fluxo de caixa?',
-              'Vou ter que lavar os seus bens.',
-              'É hora de você ser levado pelo fluxo.',
-              'Não se esqueça de que fica escorregadio quando está molhado.',
-              'Os números estão correndo.',
-              'Você escorrega que nem sabão.',
-              'Está caindo tudo em cima de você.',
-              'Acho que você vai por ralo abaixo.',
-              'Você tomou uma lavada.'],
- 'MarketCrash':['Vou acabar com a sua festa.',
-                'Você não vai sobreviver à queda.',
-                'Sou mais do que o mercado pode aguentar.',
-                'Tenho uma queda por você!',
-                'Agora eu vou entrar detonando.',
-                'Sou um verdadeiro dragão no mercado.',
-                'Parece que o mercado está em baixa.',
-                'É melhor você sair fora rapidamente!',
-                'Vender! Vender! Vender!',
-                'Devo liderar a recessão?',
-                'Todo mundo está saindo fora, você não vai?'],
- 'MumboJumbo':['Deixe-me explicar melhor.',
-               'É muito simples.',
-               'Vamos fazer desta maneira.',
-               'Deixe-me ampliar para você.',
-               'Você pode chamar isso de baboseira tecnológica.',
-               'Aqui estão meus eufemismos.',
-               'Caramba, isso é que é encher a boca.',
-               'Algumas pessoas me chamam de exagerado.',
-               'Posso me meter?',
-               'Acho que estas são as palavras certas.'],
- 'ParadigmShift':['Cuidado! Eu saio pela tangente.',
-                  'Prepare-se para mudar radicalmente!'
-                  'Não é uma mudança interessante?'
-                  'Você vai ter que desviar de caminho.',
-                  'Agora é sua vez de desviar.',
-                  'Acabou o desvio!',
-                  'Você nunca trabalhou tanto neste desvio.',
-                  'Estou transviando você!',
-                  'Olhe para o meu rabo de olho!'],
- 'PeckingOrder':['Este aqui é para quem berra mais.',
-                 'Prepare-se para o grito de guerra.',
-                 'Por falta de um grito, morre um burro no atoleiro.',
-                 'Vou ganhar no grito.',
-                 'Você está no último grito da hierarquia.',
-                 'Se gritos resolvessem, porcos não morreriam!',
-                 'A ordem está valendo, no grito!',
-                 'Por que não grito com alguém do meu tamanho? Ah!',
-                 'Cão que ladra não morde.'],
- 'PickPocket': ['Deixe-me verificar os seus pertences.',
-                'E aí, qual é o pó?',
-                'É mais fácil do que tirar doce de criança.',
-                'Golpe de mestre.',
-                'Deixa que eu seguro para você.',
-                'Não tire os olhos de minhas mãos.',
-                'As mãos são mais rápidas que os olhos.',
-                'Não tenho nada para tirar da manga.',
-                'A gerência não se responsabiliza por extravio de itens.',
-                'Achado não é roubado.',
-                'Você nem vai sentir.',
-                'Dois pra mim, um pra você.',
-                'Está bom assim.',
-                'Você não vai precisar mesmo...'],
- 'PinkSlip': ['Tente imaginar que está tudo azul.',
-              'Tá com medo? Você está azul!',
-              'Com certeza, este bilhete vai fazer você ficar azul.',
-              'Êpa, acho que mudei de cor, né?',
-              'Olha lá, você não quer ficar azul, ou quer?',
-              'Este bilhete não é branco, é azul.',
-              'Estou azul de fome!',
-              'Você se importa que eu passe aí para ver se está tudo azul?',
-              'O azul não é exatamente a sua cor.',
-              'Toma seu bilhete azul e fora daqui!'],
- 'PlayHardball': ['Então você quer jogar bola comigo?',
-                  'Você não quer jogar bola comigo.',
-                  'Chuta forte!',
-                  'Passa, cara, passa!',
-                  'Aí está o passe...',
-                  'Você vai precisar de um refresco do goleiro.',
-                  'Vou jogar você para fora do campo.',
-                  'Depois que você se contundir, vai direto para casa.',
-                  'São 45 minutos do segundo tempo!',
-                  'Você não consegue jogar comigo!',
-                  'Vou atingir você.',
-                  'Vou dar um chute com efeito na bola!'],
- 'PoundKey': ['É hora de retornar algumas ligações.',
-              'Gostaria de fazer uma ligação a cobrar.',
-              'Trrriiimmm - é para você!',
-              'Você quer brincar com o Jogo da Velha?',
-              'Tenho um método incrível para ganhar.',
-              'Está se sentindo nocauteado?',
-              'Vou dar um golpe neste número.',
-              'Deixe-me ligar para fazer uma surpresinha.',
-              'Vou ligar para você.',
-              'O.K. Toon, é o fim para você.'],
- 'PowerTie': ['Eu ligo mais tarde, você parece enrolado na gravata.',
-              'Você está pronto para uma gravata?',
-              'Senhoras e senhores, esta é a gravata!',
-              'É melhor aprender a dar este nó.',
-              'Vou manter a sua língua dentro do nó!',
-              'É a gravata mais horrível que você já comprou!',
-              'Está sentindo o aperto?',
-              'Minha gravata é muito mais poderosa que a sua!',
-              'Eu tenho o poder do nó!',
-              'Pelos poderes do nó, vou engravatar você.'],
- 'PowerTrip': ['Faça as malas, vamos fazer uma pequena viagem.',
-               'Você fez uma boa viagem?',
-               'Boa viagem, acho que nos veremos na próxima temporada.',
-               'Como foi a viagem?',
-               'Sinto muito ter "viajado" dessa maneira!',
-               'Você parece viajandão.',
-               'Agora, você sabe quem é a autoridade!',
-               'Tenho muito mais autoridade do que você.',
-               'Quem manda agora?',
-               'Você não pode lutar contra o poder.',
-               'O poder corrompe, principalmente em minhas mãos!'],
- 'Quake': ['Vamos balançar, agitar e rolar.',
-           'Tem muita vibração por aqui!',
-           'As suas canelas estão tremendo.',
-           'Aí vem ele, este é grande!',
-           'Este está fora da escala Richter.',
-           'Agora é que a terra vai tremer!',
-           'E aí, quem é que está agitando? Você!',
-           'Já esteve em um terremoto?',
-           'Agora, você está em território de tremores!'],
- 'RazzleDazzle': ['Leia os meus lábios.',
-                  'Que acha da minha dentadura?',
-                  'Não acha que tenho charme?',
-                  'Vou impressionar você.',
-                  'Meu dentista faz um excelente trabalho.',
-                  'Cegadores, não acha?',
-                  'Não dá nem para acreditar que não é de verdade.',
-                  'Chocante, né?',
-                  'Vou dar um fim nisso.',
-                  'Passo o fio dental após cada refeição.',
-                  'Sorria!'],
- 'RedTape': ['Isto deve acalmar o bicho.',
-             'Vou te amarrar por um tempo.',
-             'Você está acorrentado.',
-             'Veja se consegue cortar caminho por aqui.',
-             'O bicho vai pegar.',
-             'Tomara que você tenha claustrofobia.',
-             'Vou me certificar de que você não vai escapulir.',
-             'Vou ocupar você com alguma coisa.',
-             'Tente desatar o nó.',
-             'Espero que você concorde com os tópicos da reunião.'],
- 'ReOrg': ['Você não gostou da maneira como eu reorganizei as coisas!',
-           'Talvez um pouco de organização seja bom.',
-           'Você não é tão ruim assim, só precisa se organizar.',
-           'Você gosta do meu tino para organização?',
-           'Só pensei em dar um novo visual às coisas.',
-           'Você precisa se organizar!',
-           'Você parece um pouco desorganizado.',
-           'Espera um pouco enquanto eu reorganizo os seus pensamentos.',
-           'Só vou esperar até que você se organize um pouco mais.',
-           'Você se importa se eu só der uma reorganizadinha?'],
- 'RestrainingOrder': ['Você precisa levar broncas de vez em quando.',
-                      'Estou te jogando na cara uma ordem repressora!',
-                      'Você não pode chegar nem um metro e meio perto de mim.',
-                      'Talvez seja melhor você manter distância.',
-                      'Entre na linha.',
-                      Cogs + '! Reprimam este Toon!',
-                      'Tente entrar na linha sozinho.',
-                      'Espero que eu esteja sendo bem repressor com você.',
-                      'Veja se você consegue acabar com essa repressão!',
-                      'Estou ordenando que você se reprima!',
-                      'Por que não começamos com uma repressão básica?'],
- 'Rolodex': ['O seu cartão está aqui, em algum lugar.',
-             'Aqui está o número do dedetizador.',
-             'Quero dar o meu cartão a você.',
-             'Tenho o seu número bem aqui.',
-             'Tenho tudo aqui sobre você, de A a Z.',
-             'Você vai se virar com isso.',
-             'Dê um giro pelas páginas.',
-             'Cuidado com a papelada solta.',
-             'Vou apontar o dedo para a letra que desejo.',
-             'É assim que eu consigo entrar em contato com você?',
-             'Quero ter certeza de que manteremos o contato.'],
- 'RubberStamp': ['Eu sempre causo uma boa impressão.',
-                 'É importante aplicar uma pressão firme e bem distribuída.',
-                 'Impressos perfeitos todas as vezes.',
-                 'Quero carimbar você.',
-                 'Você precisa ser DEVOLVIDO AO REMETENTE.',
-                 'Você foi CANCELADO.',
-                 'Você possui uma entrega de PRIORIDADE.',
-                 'Vou me certificar de que a minha mensagem foi RECEBIDA.',
-                 'Você não vai a lugar nenhum - você tem uma TARIFA POSTAL A PAGAR.',
-                 'Preciso de uma resposta IMEDIATA.'],
- 'RubOut': ['E agora, desapareceu!',
-            'Sinto que perdi você em algum lugar.',
-            'Decidi deixar você de fora.',
-            'Eu sempre apago todos os obstáculos.',
-            'Vou só apagar este erro.',
-            'Posso fazer qualquer perturbação desaparecer.',
-            'Gosto das coisas organizadas e limpas.',
-            'Tente manter a animação.',
-            'Estou vendo você... Agora, não vejo você.',
-            'Vai ficar meio esmaecido.',
-            'Vou eliminar o problema.',
-            'Deixe-me cuidar das suas áreas problemáticas.'],
- 'Sacked':['Parece que você foi embrulhado.',
-           'Está no saco.',
-           'Você foi embolsado.',
-           'Papel ou plástico?',
-           'Meus inimigos serão ensacados!',
-           'Eu tenho o recorde de Toontown de sacos por jogo.',
-           'Você não é mais bem-vindo por aqui.',
-           'O seu tempo acabou aqui, você vai ser ensacado!',
-           'Deixe-me ensacar isto para você.',
-           'Nenhuma defesa se iguala ao meu ataque com sacos!'],
- 'Schmooze':['Você nunca vai ver quando chega.',
-             'Vai ficar legal em você.',
-             'Você conseguiu.',
-             'Não quero despejar nada em você.',
-             'Como puxa-saco, eu vou longe.',
-             'Agora, eu vou florear bastante.',
-             'É hora de carregar nas tintas.',
-             'Vou ressaltar o seu lado bom.',
-             'Isso merece um bom tapinha nas costas.',
-             'Vou falar bem de você para todo mundo.',
-             'Detesto tirá-lo do seu pedestal, mas...'],
- 'Shake': ['Você está bem no epicentro.',
-           'Você está em cima da falha.',
-           'Vai ser um sacolejo só.',
-           'Acho que isso é um desastre natural.',
-           'É um desastre de proporções sísmicas.',
-           'Este está fora da escala Richter.',
-           'É hora de entrar na toca.',
-           'Você parece perturbado.',
-           'Preparado para os solavancos?',
-           'Você vai sacolejar, e não centrifugar.',
-           'Isso vai agitar você.',
-           'Sugiro um bom plano de fuga.'],
- 'Shred': ['Preciso me livrar de alguns fragmentos perigosos.',
-           'As porções produzidas estão aumentando de quantidade.',
-           'Acho que vou dispor de você agora mesmo.',
-           'Assim, a prova é eliminada.',
-           'Não há como provar isso agora.',
-           'Veja se você consegue juntar os pedaços novamente.',
-           'Assim, você vai cortar as sobras e ficar do tamanho certo.',
-           'Vou retalhar esta ideia todinha.',
-           'Não queremos que isto caia nas mãos erradas.',
-           'Fácil se tem, fácil se perde.',
-           'Não é o seu último fio de esperança?'],
- 'Spin': ['O que me diz de sairmos para um giro?',
-          'Você usa a centrifugação?',
-          'Isto vai fazer a sua cabeça girar de verdade!',
-          'Este é o meu giro das coisas.',
-          'Vou levar você para uma volta.',
-          'Como é que você dá a "volta" no seu tempo?',
-          'Olha só: você não quer girar até ficar tonto?',
-          'Nossa, você está no meio de um furacão!',
-          'Meus ataques vão fazer sua cabeça rodar!'],
- 'Synergy': ['Vou encaminhar ao comitê.',
-             'O seu projeto foi cancelado.',
-             'O seu centro de custos será cortado.',
-             'Estamos reestruturando o seu setor.',
-             'Colocamos em votação, e você perdeu.',
-             'Acabei de receber a aprovação final.',
-             'Uma boa equipe pode se livrar de qualquer problema.',
-             'Já dou um retorno a você sobre isso.',
-             'Vamos direto ao que interessa.',
-             'Vamos encarar isto como uma crise de sinergia.'],
- 'Tabulate': ['Isto não soma em nada.',
-              'Pela minha conta, você perdeu.',
-              'Você está fazendo um bom cálculo.',
-              'Vou fazer o seu total em um minuto.',
-              'Está preparado para estes números?',
-              'Sua conta já está vencida e pode ser paga.',
-              'É hora de calcular.',
-              'Gosto de colocar as coisas em ordem.',
-              'E a contagem é...',
-              'Estes números devem ser muito poderosos.'],
- 'TeeOff': ['Você não vai bem de condições.',
-            'Olha a frente!',
-            'Confio no meu taco.',
-            'Gandula, preciso do meu taco!',
-            'Tente evitar este risco.',
-            'Dê impulso!',
-            'É mesmo um furo dentro do outro.',
-            'Você está no meu campo.',
-            'Repara só a precisão.',
-            'Cuidado com o passarinho!',
-            'Fique de olho na bola!',
-            'Você se importa se eu continuar a jogar?'],
- 'Tremor': ['Você sentiu?',
-            'Você não tem medo de um tremorzinho de nada, ou tem?',
-            'O tremor é apenas o começo.',
-            'Você parece tenso.',
-            'Vou agitar as coisas um pouco!',
-            'Tudo preparado para retumbar?',
-            'O que houve? Você parece balançado.',
-            'Tremedeira de medo!',
-            'Por que está tremendo de medo?'],
- 'Watercooler': ['Certamente, isto vai refrescar você.',
-                 'Não é refrescante?',
-                 'Faço a entrega.',
-                 'Direto da fonte - até a sua boca.',
-                 'Qual é o problema, é só uma água de nascente.',
-                 'Não se preocupe, é pura.',
-                 'Ah, outro cliente satisfeito.',
-                 'É hora da entrega diária.',
-                 'Espero que as suas cores não desbotem.',
-                 'Quer beber?',
-                 'Sai tudo na lavagem.',
-                 'A bebida é com você.'],
- 'Withdrawal': ['Acho que você está no vermelho.',
-                'Espero que o seu saldo seja o suficiente para cobrir isto.',
-                'Olha que vou cobrar juros.',
-                'O seu saldo está diminuindo.',
-                'Em breve, você vai precisar fazer um depósito.',
-                'Você sofreu um colapso financeiro.',
-                'Acho que você está em baixa.',
-                'Suas finanças decaíram.',
-                'Prevejo um período de vacas magras.',
-                'É uma inversão de valores.'],
- 'WriteOff': ['Deixe-me aumentar as suas perdas.',
-              'Vamos tirar o melhor proveito possível de um mau negócio.',
-              'É hora de fazer o balanço dos caixas.',
-              'Isso não vai ficar bom nos livros-caixa.',
-              'Procuro alguns dividendos.',
-              'Você deve se responsabilizar por suas perdas.',
-              'Pode esquecer o bônus.',
-              'Vou bagunçar todas as suas contas.',
-              'Você está prestes a sofrer algumas perdas.',
-              'Isto vai afetar os seus resultados finais.']}
-BuildingWaitingForVictors = 'Aguardando outros Toons...',
+ 'WriteOff': 'Baixa!' }
+SuitAttackTaunts = {
+ 'Audit': [
+  'Seus livros não têm balanço.',
+  'Parece que você está no vermelho.',
+  'Deixe-me ajudá-lo com esses livros.',
+  'Sua coluna de débitos é muito alta.',
+  'Vamos verificar os seus bens.',
+  'Assim, você vai ficar endividado.',
+  'Vamos conferir direitinho o que você deve.',
+  'Assim, a sua conta vai ficar zerada.',
+  'É hora de você se responsabilizar pelas suas despesas.',
+  'Encontrei um erro nos seus livros.'],
+ 'Bite': [
+  'Quer uma mordida?',
+  'Dá uma mordida!',
+  'A sua mordida é maior do que você pode mastigar.',
+  'Minha mordida é maior do que o meu latido.',
+  'Morde logo!',
+  'Tome cuidado, eu mordo.',
+  'Eu não mordo só quando estou encurralado.',
+  'Só vou dar uma mordidinha.',
+  'Não dei uma mordida o dia todo.',
+  'Só quero uma mordida. É pedir muito?'],
+ 'BounceCheck': [
+  'Ah, que pena, você não tem graça.',
+  'Você tem uma dívida.',
+  'Acho que este cheque é seu.',
+  'Você me devia isso.',
+  'Estou cobrando esta dívida.',
+  'Este cheque não vai ser mole.',
+  'Você será cobrado por isso.',
+  'Feche a conta.',
+  'Isso terá um custo para você.',
+  'Queria trocar por dinheiro.',
+  'Vou mandar isso de volta para você.',
+  'Esta conta está salgada.',
+  'Estou descontando o serviço.'],
+ 'BrainStorm': [
+  'Acho que vai chover.',
+  'Espero que você esteja com o guarda-chuva.',
+  'Quero orientar você.',
+  'Que tal uma saraivada básica?',
+  'Cadê o seu brilho agora, Toon?',
+  'Pronto para a chuvarada?',
+  'Vou atacar você como um furacão.',
+  'Chamo isso de ataque-relâmpago.',
+  'Adoro ser um desmancha-prazeres.'],
+ 'BuzzWord': [
+  'Desculpe-me se estou te aborrecendo.',
+  'Ouviu a última?',
+  'Veja se você pega esta.',
+  'Vamos cantarolar, Toon?',
+  'Deixe-me defender você.',
+  'Vou "C" perfeitamente claro.',
+  'Você devia "C" mais cuidadoso.',
+  'Veja se você consegue desviar desse enxame.',
+  'Cuidado, você está prestes a ser picado.',
+  'Parece que a sua urticária é séria.'],
+ 'Calculate': [
+  'Estes números fazem mesmo uma diferença!',
+  'Você contou com isso?',
+  'Faça as contas, você está caindo.',
+  'Deixe-me ajudar você a somar isso.',
+  'Você registrou todas as suas despesas?',
+  'De acordo com os meus cálculos, você não ficará por muito tempo aqui.',
+  'Aqui está o total.',
+  'Uau, a sua conta está se multiplicando.',
+  'Tente brincar com esses números!',
+  Cogs + ': 1 Toons: 0'],
+ 'Canned': [
+  'Gosta fora da lata?',
+  '"Lata" limpo?',
+  'Fresquinho, saído da lata!',
+  'Já foi atacado alguma vez por enlatados?',
+  'Gostaria de doar a você este enlatado!',
+  'Prepare-se para o "Vira-lata"!',
+  'Você acha que pode abrir a lata, na lata.',
+  'Vou te jogar na lata!',
+  'Vou transformar você em um a-Toon em lata!',
+  'Seu gosto não é tão bom fora da lata.'],
+ 'Chomp': [
+  'Olha só esses comilões!',
+  'Nhac, nhac, nhac!',
+  'Aqui tem algo para mastigar.',
+  'Procurando alguma coisa para mastigar?',
+  'Por que você não mastiga um pouco disto?',
+  'Eu vou jantar você.',
+  'Adoro comer Toons no café da manhã!'],
+ 'ClipOnTie': [
+  'Melhor se arrumar para a reunião.',
+  'Você não pode SAIR sem a gravata.',
+  'Os  ' + Cogs + ' mais bem vestidos usam isto.Experimente este tamanho.',
+  'Você devia se vestir para arrasar.',
+  'Sem gravata não tem serviço...',
+  'Precisa de ajuda para se vestir?',
+  'Nada é tão poderoso quanto uma boa gravata.',
+  'Vamos ver se serve.',
+  'Esta vai apertar você.',
+  'Você vai querer se vestir antes de SAIR.',
+  'Acho que vou dar uma gravata em você.'],
+ 'Crunch': [
+  'Parece que você está espremido contra a parede.',
+  'Hora de mexer a mandíbula!',
+  'Vou dar alguma coisa para você mascar!',
+  'Triture isso!',
+  'Mordida para viagem.',
+  'Qual você prefere, molinho ou crocante?',
+  'Espero que esteja preparado para a hora da mandíbula.',
+  'Parece que você está ficando amassadinho!',
+  'Vou amassar você como uma latinha.'],
+ 'Demotion': [
+  'Você está descendo os degraus da empresa.',
+  'Vou mandar você de volta para a Expedição.',
+  'Está na hora de virar a sua placa de identificação.',
+  'Você está caidaço, palhaço.',
+  'Parece que você está ferrado.',
+  'Você não vai a lugar nenhum.',
+  'Você está em um beco sem saída.',
+  'Você não vai se mover tão cedo.',
+  'Você não vai a lugar nenhum.',
+  'Vai ficar registrado em seu arquivo permanente.'],
+ 'Downsize': [
+  'Desce!',
+  'Sabe como descer?',
+  'Vamos entrar direto no assunto.',
+  'O que houve? Você parece deprimido.',
+  'Decaindo?',
+  'O que é que está caindo? Você!',
+  'Por que não tem alguém do meu tamanho?',
+  'Por que eu não meço você - ou será que é melhor dizer despeço?',
+  'Quer um tamanho menor por apenas mais uma moeda?',
+  'Experimente este tamanho!',
+  'Tem em um tamanho menor.',
+  'Este ataque é tamanho único!'],
+ 'EvictionNotice': [
+  'Mudança à vista.',
+  'Arrume as malas, Toon.',
+  'É hora de arrumar outro lugar para morar.',
+  'Considere-se servido.',
+  'O seu aluguel está atrasado.',
+  'Isto vai te torpedear.',
+  'Você está prestes a ser despejado.',
+  'Vou espirrar você daqui.',
+  'Você está deslocado.',
+  'Prepare-se para ser realocado.',
+  'Você está abrigado.'],
+ 'EvilEye': [
+  'Estou botando um mau-olhado em você.',
+  'Você fica de olho vivo nisso para mim?',
+  'Espere. Tem alguma coisa no meu olho.',
+  'Estou de olho em você!',
+  'Você pode botar o olho nisso aqui para mim?',
+  'Tenho um olho gordo danado.',
+  'Você vai levar um soco no olho!',
+  'Minha crueldade não está de molho, abre o olho!',
+  'Vou colocar você no olho do furacão!',
+  'Estou dando com os olhos em você.'],
+ 'Filibuster': [
+  'Devo encher?',
+  'Isso vai demorar um pouco.',
+  'Poderia fazer isso o dia todo.',
+  'Não preciso nem respirar fundo.',
+  'Vou fazendo, fazendo, fazendo...',
+  'Nunca fica cansado de fazer isso.',
+  'Posso tagarelar sem parar.',
+  'Tem problema se eu puxar a sua orelha?',
+  'Acho que vou papear à vontade.',
+  'Sempre consigo dar o meu recado.'],
+ 'FingerWag': [
+  'Já te disse milhares de vezes.',
+  'Olha aqui, Toon.',
+  'Não me faça rir.',
+  'Não me faça ir até aí.',
+  'Já cansei de repetir.',
+  'Fim de papo, eu já falei.',
+  '\\Você não tem respeito por nós,  ' + Cogs + '.Acho que está na hora de você prestar atenção.',
+  'Blá, Blá, Blá, Blá, Blá.',
+  'Não me obrigue a interromper a reunião.',
+  'Será que eu vou ter que separar vocês?',
+  'Já passamos por isto antes.'],
+ 'Fired': [
+  'É fogo! O jeito é fazer um churrasquinho.',
+  'Vai esquentar por aqui.',
+  'Assim, o frio passa.',
+  'Espero que você tenha sangue frio.',
+  'Quente, quentão e pelando.',
+  'Melhor parar tudo, deitar no chão e rolar!',
+  'Você está fora daqui.',
+  'O que você acha de "bem-feito"?',
+  'Pode dizer aí?',
+  'Espero que tenha usado protetor solar.',
+  'Está se sentindo um pouco tostado?',
+  'Você vai arder em chamas.',
+  'Você vai ficar aceso que nem fogueira.',
+  'Você está frito.',
+  'Eu sou fogo na roupa.',
+  'Só aticei o fogo um pouquinho, né?',
+  'Olha, um churrasquinho crocante.',
+  'Você não devia sair por aí malpassado.'],
+ 'FountainPen': [
+  'Vai deixar mancha.',
+  'Vamos assinar embaixo.',
+  'Esteja preparado para alguns danos irreparáveis.',
+  'Você vai precisar de um bom tintureiro.',
+  'Você devia mudar.',
+  'Esta caneta-tinteiro tem uma tinta legal.',
+  'Aqui, vou usar a minha caneta.',
+  'Você entende a minha letra?',
+  'Isso é que é carregar nas tintas.',
+  'Seu desempenho babou.',
+  'Não é chato quando isso acontece?'],
+ 'FreezeAssets': [
+  'Seus bens são meus.',
+  'Está sentindo um vento? É o cheque voador.',
+  'Espero que não tenha planos.',
+  'Isso vai manter você na geladeira.',
+  'Tem uma brisa fria no ar.',
+  'O inverno está chegando mais cedo neste ano.',
+  'Você está sentido um calafrio?',
+  'Vou cristalizar o meu plano.',
+  'Você vai ver, no duro.',
+  'O gelo queima.',
+  'Espero que goste de frios.',
+  'Tenho muito sangue frio.'],
+ 'GlowerPower': [
+  'Está olhando para mim?',
+  'Disseram que tenho olhos muito penetrantes.',
+  'Gosto de estar no fio da navalha.',
+  'Caçamba, caramba, meus quatro-olhos não são bambas?',
+  'Estou de olho em você, pirralho.',
+  'Que tal estes olhos expressivos?',
+  'Meus olhos são o meu forte.',
+  'Enche os olhos.',
+  'Estou de olho, piolho.',
+  'Olhe nos meus olhos...',
+  'Podemos dar uma espiada no seu futuro?'],
+ 'GuiltTrip': [
+  'Você vai ficar com um baita sentimento de culpa!',
+  'Está se sentindo culpado?',
+  'É tudo culpa sua!',
+  'Sempre ponho a culpa de tudo em você.',
+  'Afogue-se na própria culpa!',
+  'Nunca mais falo contigo!',
+  'É melhor pedir desculpas.',
+  'Só vou perdoar você daqui a um milhão de anos!',
+  'Está preparado para viajar na maionese da culpa?',
+  'Ligue para mim quando voltar de viagem.',
+  'Quando você volta de viagem?'],
+ 'HalfWindsor': [
+  'Esta é a gravata mais elegante que você já viu!',
+  'Procure não apertar tanto.',
+  'Você não viu nem metade do nó em que você se meteu.',
+  'Você tem sorte de eu não saber francês.',
+  'Esta gravata é demais para você.',
+  'Aposto como você nunca VIU um nó francês!',
+  'Esta gravata não é para o seu bico.',
+  'Eu não deveria ter gasto esta gravata com você.',
+  'Você não vale nem o nó desta gravata!'],
+ 'HangUp': [
+  'Você foi desconectado.',
+  'Tchau!',
+  'Está na hora de terminar a sua conexão.',
+  '...e não ligue de novo!',
+  'Clique!',
+  'A conversa acabou.',
+  'Estou cortando este fio.',
+  'Acho que você está meio desligado.',
+  'Parece que você está com mau contato.',
+  'Seu tempo acabou.',
+  'Espero que tenha ouvido em claro e bom som.',
+  'Foi engano.'],
+ 'HeadShrink': [
+  'Parece que você tem ido ao analista.',
+  'Querida, encolhi o analista.',
+  'Espero que não precise analisar o seu amor-próprio.',
+  'Você se abriu?',
+  'Analiso, logo existo.',
+  'Não é nada que faça você perder a cabeça.',
+  'Você vai abrir a cabeça?',
+  'Levanta essa cabeça! Ou será que é melhor abaixar?',
+  'Os objetos podem ser maiores do que parecem.',
+  'Os melhores Toons vêm nos menores frascos.'],
+ 'HotAir': [
+  'Estamos tendo uma discussão acalorada.',
+  'Está rolando uma onda de calor.',
+  'Atingi o meu ponto de ebulição.',
+  'Que vento cortante.',
+  'Odeio ter que te grelhar, mas...',
+  'Lembre-se sempre: onde há fumaça, há fogo.',
+  'Você parece meio queimadinho.',
+  'Outra reunião que virou fumaça.',
+  'Acho que está na hora de botar lenha na fogueira.',
+  'Deixe-me acender uma relação de trabalho.',
+  'Tenho umas observações inflamadas pra você.',
+  'Ataque aéreo!!!'],
+ 'Jargon': [
+  'Que besteira.',
+  'Veja se você consegue ver algum sentido nisso.',
+  'Espero que tenha sido claro como água.',
+  'Parece que vou ter que falar mais alto.',
+  'Insisto em ter a palavra.',
+  'Sou muito direto.',
+  'Devo sustentar a minha opinião neste assunto.',
+  'Olha, as palavras podem machucar você.',
+  'Entendeu o que eu quis dizer?',
+  'Palavras, palavras, palavras, palavras, palavras.'],
+ 'Legalese': [
+  'Você deve se conformar e desistir.',
+  'Você vai ser derrotado, legalmente falando.',
+  'Você está ciente das implicações legais?',
+  'Você não está acima da lei!',
+  'Devia haver uma lei contra você.',
+  'Não há lei marcial comigo!',
+  'As opiniões expressadas neste ataque não são compartilhadas pela Toontown On-line da Disney.',
+  'Não podemos ser responsabilizados por danos sofridos neste ataque.',
+  'Os resultados deste ataque podem variar.',
+  'Este ataque não tem validade legal quando proibido.',
+  'Você não se enquadra no meu sistema legal!',
+  'Você não sabe lidar com assuntos jurídicos.'],
+ 'Liquidate': [
+  'Gosto de manter as coisas fluindo.',
+  'Você está com algum problema de fluxo de caixa?',
+  'Vou ter que lavar os seus bens.',
+  'É hora de você ser levado pelo fluxo.',
+  'Não se esqueça de que fica escorregadio quando está molhado.',
+  'Os números estão correndo.',
+  'Você escorrega que nem sabão.',
+  'Está caindo tudo em cima de você.',
+  'Acho que você vai por ralo abaixo.',
+  'Você tomou uma lavada.'],
+ 'MarketCrash': [
+  'Vou acabar com a sua festa.',
+  'Você não vai sobreviver à queda.',
+  'Sou mais do que o mercado pode aguentar.',
+  'Tenho uma queda por você!',
+  'Agora eu vou entrar detonando.',
+  'Sou um verdadeiro dragão no mercado.',
+  'Parece que o mercado está em baixa.',
+  'É melhor você sair fora rapidamente!',
+  'Vender! Vender! Vender!',
+  'Devo liderar a recessão?',
+  'Todo mundo está saindo fora, você não vai?'],
+ 'MumboJumbo': [
+  'Deixe-me explicar melhor.',
+  'É muito simples.',
+  'Vamos fazer desta maneira.',
+  'Deixe-me ampliar para você.',
+  'Você pode chamar isso de baboseira tecnológica.',
+  'Aqui estão meus eufemismos.',
+  'Caramba, isso é que é encher a boca.',
+  'Algumas pessoas me chamam de exagerado.',
+  'Posso me meter?',
+  'Acho que estas são as palavras certas.'],
+ 'ParadigmShift': [
+  'Cuidado! Eu saio pela tangente.',
+  'Prepare-se para mudar radicalmente!Não é uma mudança interessante?Você vai ter que desviar de caminho.',
+  'Agora é sua vez de desviar.',
+  'Acabou o desvio!',
+  'Você nunca trabalhou tanto neste desvio.',
+  'Estou transviando você!',
+  'Olhe para o meu rabo de olho!'],
+ 'PeckingOrder': [
+  'Este aqui é para quem berra mais.',
+  'Prepare-se para o grito de guerra.',
+  'Por falta de um grito, morre um burro no atoleiro.',
+  'Vou ganhar no grito.',
+  'Você está no último grito da hierarquia.',
+  'Se gritos resolvessem, porcos não morreriam!',
+  'A ordem está valendo, no grito!',
+  'Por que não grito com alguém do meu tamanho? Ah!',
+  'Cão que ladra não morde.'],
+ 'PickPocket': [
+  'Deixe-me verificar os seus pertences.',
+  'E aí, qual é o pó?',
+  'É mais fácil do que tirar doce de criança.',
+  'Golpe de mestre.',
+  'Deixa que eu seguro para você.',
+  'Não tire os olhos de minhas mãos.',
+  'As mãos são mais rápidas que os olhos.',
+  'Não tenho nada para tirar da manga.',
+  'A gerência não se responsabiliza por extravio de itens.',
+  'Achado não é roubado.',
+  'Você nem vai sentir.',
+  'Dois pra mim, um pra você.',
+  'Está bom assim.',
+  'Você não vai precisar mesmo...'],
+ 'PinkSlip': [
+  'Tente imaginar que está tudo azul.',
+  'Tá com medo? Você está azul!',
+  'Com certeza, este bilhete vai fazer você ficar azul.',
+  'Êpa, acho que mudei de cor, né?',
+  'Olha lá, você não quer ficar azul, ou quer?',
+  'Este bilhete não é branco, é azul.',
+  'Estou azul de fome!',
+  'Você se importa que eu passe aí para ver se está tudo azul?',
+  'O azul não é exatamente a sua cor.',
+  'Toma seu bilhete azul e fora daqui!'],
+ 'PlayHardball': [
+  'Então você quer jogar bola comigo?',
+  'Você não quer jogar bola comigo.',
+  'Chuta forte!',
+  'Passa, cara, passa!',
+  'Aí está o passe...',
+  'Você vai precisar de um refresco do goleiro.',
+  'Vou jogar você para fora do campo.',
+  'Depois que você se contundir, vai direto para casa.',
+  'São 45 minutos do segundo tempo!',
+  'Você não consegue jogar comigo!',
+  'Vou atingir você.',
+  'Vou dar um chute com efeito na bola!'],
+ 'PoundKey': [
+  'É hora de retornar algumas ligações.',
+  'Gostaria de fazer uma ligação a cobrar.',
+  'Trrriiimmm - é para você!',
+  'Você quer brincar com o Jogo da Velha?',
+  'Tenho um método incrível para ganhar.',
+  'Está se sentindo nocauteado?',
+  'Vou dar um golpe neste número.',
+  'Deixe-me ligar para fazer uma surpresinha.',
+  'Vou ligar para você.',
+  'O.K. Toon, é o fim para você.'],
+ 'PowerTie': [
+  'Eu ligo mais tarde, você parece enrolado na gravata.',
+  'Você está pronto para uma gravata?',
+  'Senhoras e senhores, esta é a gravata!',
+  'É melhor aprender a dar este nó.',
+  'Vou manter a sua língua dentro do nó!',
+  'É a gravata mais horrível que você já comprou!',
+  'Está sentindo o aperto?',
+  'Minha gravata é muito mais poderosa que a sua!',
+  'Eu tenho o poder do nó!',
+  'Pelos poderes do nó, vou engravatar você.'],
+ 'PowerTrip': [
+  'Faça as malas, vamos fazer uma pequena viagem.',
+  'Você fez uma boa viagem?',
+  'Boa viagem, acho que nos veremos na próxima temporada.',
+  'Como foi a viagem?',
+  'Desculpe ter "viajado" dessa maneira!',
+  'Você parece viajandão.',
+  'Agora, você sabe quem é a autoridade!',
+  'Tenho muito mais autoridade do que você.',
+  'Quem manda agora?',
+  'Você não pode lutar contra o poder.',
+  'O poder corrompe, principalmente em minhas mãos!'],
+ 'Quake': [
+  'Vamos balançar, agitar e rolar.',
+  'Tem muita vibração por aqui!',
+  'As suas canelas estão tremendo.',
+  'Aí vem ele, este é grande!',
+  'Este está fora da escala Richter.',
+  'Agora é que a terra vai tremer!',
+  'E aí, quem é que está agitando? Você!',
+  'Já esteve em um terremoto?',
+  'Agora, você está em território de tremores!'],
+ 'RazzleDazzle': [
+  'Leia os meus lábios.',
+  'Que acha da minha dentadura?',
+  'Não acha que tenho charme?',
+  'Vou impressionar você.',
+  'Meu dentista faz um excelente trabalho.',
+  'Cegadores, não acha?',
+  'Não dá nem para acreditar que não é de verdade.',
+  'Chocante, né?',
+  'Vou dar um fim nisso.',
+  'Passo o fio dental após cada refeição.',
+  'Sorria!'],
+ 'RedTape': [
+  'Isto deve acalmar o bicho.',
+  'Vou te amarrar por um tempo.',
+  'Você está acorrentado.',
+  'Veja se consegue cortar caminho por aqui.',
+  'O bicho vai pegar.',
+  'Tomara que você tenha claustrofobia.',
+  'Vou me certificar de que você não vai escapulir.',
+  'Vou ocupar você com alguma coisa.',
+  'Tente desatar o nó.',
+  'Espero que você concorde com os tópicos da reunião.'],
+ 'ReOrg': [
+  'Você não gostou da maneira como eu reorganizei as coisas!',
+  'Talvez um pouco de organização seja bom.',
+  'Você não é tão ruim assim, só precisa se organizar.',
+  'Você gosta do meu tino para organização?',
+  'Só pensei em dar um novo visual às coisas.',
+  'Você precisa se organizar!',
+  'Você parece um pouco desorganizado.',
+  'Espera um pouco enquanto eu reorganizo os seus pensamentos.',
+  'Só vou esperar até que você se organize um pouco mais.',
+  'Você se importa se eu só der uma reorganizadinha?'],
+ 'RestrainingOrder': [
+  'Você precisa levar broncas de vez em quando.',
+  'Estou te jogando na cara uma ordem repressora!',
+  'Você não pode chegar nem um metro e meio perto de mim.',
+  'Talvez seja melhor você manter distância.',
+  'Entre na linha.',
+  Cogs + '! Reprimam este Toon!',
+  'Tente entrar na linha sozinho.',
+  'Espero que eu esteja sendo bem repressor com você.',
+  'Veja se você consegue acabar com essa repressão!',
+  'Estou ordenando que você se reprima!',
+  'Por que não começamos com uma repressão básica?'],
+ 'Rolodex': [
+  'O seu cartão está aqui, em algum lugar.',
+  'Aqui está o número do dedetizador.',
+  'Quero dar o meu cartão a você.',
+  'Tenho o seu número bem aqui.',
+  'Tenho tudo aqui sobre você, de A a Z.',
+  'Você vai se virar com isso.',
+  'Dê um giro pelas páginas.',
+  'Cuidado com a papelada solta.',
+  'Vou apontar o dedo para a letra que desejo.',
+  'É assim que eu consigo entrar em contato com você?',
+  'Quero ter certeza de que manteremos o contato.'],
+ 'RubberStamp': [
+  'Eu sempre causo uma boa impressão.',
+  'É importante aplicar uma pressão firme e bem distribuída.',
+  'Impressos perfeitos todas as vezes.',
+  'Quero carimbar você.',
+  'Você precisa ser DEVOLVIDO AO REMETENTE.',
+  'Você foi CANCELADO.',
+  'Você possui uma entrega de PRIORIDADE.',
+  'Vou me certificar de que a minha mensagem foi RECEBIDA.',
+  'Você não vai a lugar nenhum - você tem uma TARIFA POSTAL A PAGAR.',
+  'Preciso de uma resposta IMEDIATA.'],
+ 'RubOut': [
+  'E agora, desapareceu!',
+  'Sinto que perdi você em algum lugar.',
+  'Decidi deixar você de fora.',
+  'Eu sempre apago todos os obstáculos.',
+  'Vou só apagar este erro.',
+  'Posso fazer qualquer perturbação desaparecer.',
+  'Gosto das coisas organizadas e limpas.',
+  'Tente manter a animação.',
+  'Estou vendo você... Agora, não vejo você.',
+  'Vai ficar meio esmaecido.',
+  'Vou eliminar o problema.',
+  'Deixe-me cuidar das suas áreas problemáticas.'],
+ 'Sacked': [
+  'Parece que você foi embrulhado.',
+  'Está no saco.',
+  'Você foi embolsado.',
+  'Papel ou plástico?',
+  'Meus inimigos serão ensacados!',
+  'Eu tenho o recorde de Toontown de sacos por jogo.',
+  'Você não é mais bem-vindo por aqui.',
+  'O seu tempo acabou aqui, você vai ser ensacado!',
+  'Deixe-me ensacar isto para você.',
+  'Nenhuma defesa se iguala ao meu ataque com sacos!'],
+ 'Schmooze': [
+  'Você nunca vai ver quando chega.',
+  'Vai ficar legal em você.',
+  'Você conseguiu.',
+  'Não quero despejar nada em você.',
+  'Como puxa-saco, eu vou longe.',
+  'Agora, eu vou florear bastante.',
+  'É hora de carregar nas tintas.',
+  'Vou ressaltar o seu lado bom.',
+  'Isso merece um bom tapinha nas costas.',
+  'Vou falar bem de você para todo mundo.',
+  'Detesto tirá-lo do seu pedestal, mas...'],
+ 'Shake': [
+  'Você está bem no epicentro.',
+  'Você está em cima da falha.',
+  'Vai ser um sacolejo só.',
+  'Acho que isso é um desastre natural.',
+  'É um desastre de proporções sísmicas.',
+  'Este está fora da escala Richter.',
+  'É hora de entrar na toca.',
+  'Você parece perturbado.',
+  'Preparado para os solavancos?',
+  'Você vai sacolejar, e não centrifugar.',
+  'Isso vai agitar você.',
+  'Sugiro um bom plano de fuga.'],
+ 'Shred': [
+  'Preciso me livrar de alguns fragmentos perigosos.',
+  'As porções produzidas estão aumentando de quantidade.',
+  'Acho que vou dispor de você agora mesmo.',
+  'Assim, a prova é eliminada.',
+  'Não há como provar isso agora.',
+  'Veja se você consegue juntar os pedaços novamente.',
+  'Assim, você vai cortar as sobras e ficar do tamanho certo.',
+  'Vou retalhar esta ideia todinha.',
+  'Não queremos que isto caia nas mãos erradas.',
+  'Fácil se tem, fácil se perde.',
+  'Não é o seu último fio de esperança?'],
+ 'Spin': [
+  'O que me diz de sairmos para um giro?',
+  'Você usa a centrifugação?',
+  'Isto vai fazer a sua cabeça girar de verdade!',
+  'Este é o meu giro das coisas.',
+  'Vou levar você para uma volta.',
+  'Como é que você dá a "volta" no seu tempo?',
+  'Olha só: você não quer girar até ficar tonto?',
+  'Nossa, você está no meio de um furacão!',
+  'Meus ataques vão fazer sua cabeça rodar!'],
+ 'Synergy': [
+  'Vou encaminhar ao comitê.',
+  'O seu projeto foi cancelado.',
+  'O seu centro de custos será cortado.',
+  'Estamos reestruturando o seu setor.',
+  'Colocamos em votação, e você perdeu.',
+  'Acabei de receber a aprovação final.',
+  'Uma boa equipe pode se livrar de qualquer problema.',
+  'Já dou um retorno a você sobre isso.',
+  'Vamos direto ao que interessa.',
+  'Vamos encarar isto como uma crise de sinergia.'],
+ 'Tabulate': [
+  'Isto não soma em nada.',
+  'Pela minha conta, você perdeu.',
+  'Você está fazendo um bom cálculo.',
+  'Vou fazer o seu total em um minuto.',
+  'Está preparado para estes números?',
+  'Sua conta já está vencida e pode ser paga.',
+  'É hora de calcular.',
+  'Gosto de colocar as coisas em ordem.',
+  'E a contagem é...',
+  'Estes números devem ser muito poderosos.'],
+ 'TeeOff': [
+  'Você não vai bem de condições.',
+  'Olha a frente!',
+  'Confio no meu taco.',
+  'Gandula, preciso do meu taco!',
+  'Tente evitar este risco.',
+  'Dê impulso!',
+  'É mesmo um furo dentro do outro.',
+  'Você está no meu campo.',
+  'Repara só a precisão.',
+  'Cuidado com o passarinho!',
+  'Fique de olho na bola!',
+  'Você se importa se eu continuar a jogar?'],
+ 'Tremor': [
+  'Você sentiu?',
+  'Você não tem medo de um tremorzinho de nada, ou tem?',
+  'O tremor é apenas o começo.',
+  'Você parece tenso.',
+  'Vou agitar as coisas um pouco!',
+  'Tudo preparado para retumbar?',
+  'O que houve? Você parece balançado.',
+  'Tremedeira de medo!',
+  'Por que está tremendo de medo?'],
+ 'Watercooler': [
+  'Certamente, isto vai refrescar você.',
+  'Não é refrescante?',
+  'Faço a entrega.',
+  'Direto da fonte - até a sua boca.',
+  'Qual é o problema, é só uma água de nascente.',
+  'Não se preocupe, é pura.',
+  'Ah, outro cliente satisfeito.',
+  'É hora da entrega diária.',
+  'Espero que as suas cores não desbotem.',
+  'Quer beber?',
+  'Sai tudo na lavagem.',
+  'A bebida é com você.'],
+ 'Withdrawal': [
+  'Acho que você está no vermelho.',
+  'Espero que o seu saldo seja o suficiente para cobrir isto.',
+  'Olha que vou cobrar juros.',
+  'O seu saldo está diminuindo.',
+  'Em breve, você vai precisar fazer um depósito.',
+  'Você sofreu um colapso financeiro.',
+  'Acho que você está em baixa.',
+  'Suas finanças decaíram.',
+  'Prevejo um período de vacas magras.',
+  'É uma inversão de valores.'],
+ 'WriteOff': [
+  'Deixe-me aumentar as suas perdas.',
+  'Vamos tirar o melhor proveito possível de um mau negócio.',
+  'É hora de fazer o balanço dos caixas.',
+  'Isso não vai ficar bom nos livros-caixa.',
+  'Procuro alguns dividendos.',
+  'Você deve se responsabilizar por suas perdas.',
+  'Pode esquecer o bônus.',
+  'Vou bagunçar todas as suas contas.',
+  'Você está prestes a sofrer algumas perdas.',
+  'Isto vai afetar os seus resultados finais.'] }
+BuildingWaitingForVictors = ('Aguardando outros jogadores...',)
 ElevatorHopOff = 'Descer'
 ElevatorStayOff = 'Se descer, terá de esperar\naté que o elevador parta ou fique vazio'
 ElevatorLeaderOff = 'Somente seu líder pode decidir quando deve descer.'
@@ -3086,7 +3535,7 @@ KartMinLaff = 'Você precisa de %s pontos de risada para poder andar neste carte
 CogsIncExt = ', Ltda.'
 CogsIncModifier = '%s' + CogsIncExt
 CogsInc = Cogs.upper() + CogsIncExt
-CogdominiumsExt = ' Escritórios de Campo'
+CogdominiumsExt = ' Cogdominiums'
 Cogdominiums = Cog.upper() + CogdominiumsExt
 DoorKnockKnock = 'Toc, toc.'
 DoorWhosThere = 'Quem é?'
@@ -3102,838 +3551,1353 @@ FADoorCodes_DEFEAT_FLUNKY_TOM = 'Ande até o Puxa-saco para lutar com ele!'
 FADoorCodes_TALK_TO_HQ_TOM = 'Vá pegar a sua recompensa no Quartel dos Toons!'
 FADoorCodes_SUIT_APPROACHING = None
 FADoorCodes_BUILDING_TAKEOVER = 'Cuidado! Tem um COG lá dentro!'
-FADoorCodes_SB_DISGUISE_INCOMPLETE = 'Você vai ser pego se entrar lá como um Toon! Você precisa completar o seu Disfarce de Robô Vendedor!\n\nMonte o seu Disfarce de Robô Vendedor com pedaços da Fábrica.'
+FADoorCodes_SB_DISGUISE_INCOMPLETE = 'Você vai ser pego se entrar lá como um Toon! Você precisa completar o seu Disfarce de Cog primeiro!\n\nMonte o seu Disfarce de Cog com pedaços da Fábrica.'
 FADoorCodes_CB_DISGUISE_INCOMPLETE = 'Você vai ser pego se entrar lá como um Toon! Você precisa completar o seu Disfarce de Robô Mercenário primeiro!\n\nMonte o seu Disfarce de Robô Mercenário executando Tarefas Toon na Sonholândia.'
-FADoorCodes_LB_DISGUISE_INCOMPLETE = 'Você vai ser pego se entrar lá como um Toon! Você precisa completar o seu Disfarce de Robô da Lei!\n\nMonte o seu Disfarce de Robô da Lei executando as Tarefas Toon depois da Sonholândia do Donald.'
-FADoorCodes_BB_DISGUISE_INCOMPLETE = 'Você vai ser pego se entrar lá como um Toon! Você precisa completar o seu Disfarce de Robô Chefe!\n\nMonte o seu Disfarce de Robô Chefe executando as Tarefas Toon depois da Sonholândia do Donald.'
-KnockKnockContestJokes = {2100: ['Wally', 'Wally não está olhando, joga torta nele!'],
- 2200: {28:['Biscoito', 'Biscoitos me mordam, os Cogs vêm aí!'], 
-        41:['Dewey', 'Dewemos ir detonar mais alguns Cogs?'],
-        40:['Minnie', 'Minnie-pessoas falaram comigo, e isso está me enlouquecendo!'], 
-        27:['Disguise', 'A Disguisetante perseguição aos Cogs!']}, 
- 2300: ['Justin', 'Justin mais algumas peças do Cog e lá vamos nós!'],
- 3300: {10: ['Aladdin', 'Aladdinheiro no chão'],
-        6: ['Adon', 'Adond é que esses Cogs tão saindo?'],
-        30: ['Bacon', 'Bacon uma torta ia bem.'],
-        28: ['Isaías', 'Isaías mas voltou no bondinho.'],
-        12: ['Julieta', 'Julieta me chamando praquele prédio Cog com você pra eu te Toonar.']}}
-KnockKnockJokes = [['Quem', 'Aqui tem eco, não?'],
- ['Kika', 'Kikalor!'],
- ['Joe', 'Você é Joetromundo?'],
- ['Eudin', 'Eudinovo por aqui!'],
- ['Silêncio', 'Pssss!'],
- ['Simbó', 'Simbora pra praia.'],
- ['Takent', 'Takent ou frio?'],
- ['Noá', 'Noá de quê.'],
- ['Não sei', 'Nem eu, já te falei.'],
- ['Otudo', 'Otudo ou nada?'],
- ['Totan', 'Totan feliz que você está aqui!'],
- ['Osmar', 'Osmartodontes não existem mais!'],
- ['Silem', 'Silembra de mim?'],
- ['Ostra', 'Ostra vez?'],
- ['Aimée', 'Aimée Tida?'],
- ['Zoom', 'Zooma imediatamente daqui!'],
- ['Aiki', 'Aiki medo!'],
- ['Quiba', 'Quibagunça é essa'],
- ['Tasó', 'Não, tacompanhado.'],
- ['Iago', 'Iagora, José?'],
- ['"Tácom"', '"Tácom" tudo, não é?'],
- ['Tádi', 'Tádi graça, é? Meu nome é  '+Flippy+'.'],
- ['Opato', 'Opato '+Donald+' Deduct.'],
- ['Masqui', 'Masqui coisa, abre a porta logo.'],
- ['Nénim.', 'Nénim guém que te interesse, deixa eu entrar.'],
- ['Omos', 'Omosquito que te picou.'],
- ['Colés', 'Colesterol faz mal, sai fora.'],
- ['Breno', 'Breno que eu te falei que esse cara vinha.'],
- ['Kiko', 'Kiko-losso!'],
- ['Vaivê', 'Vaivê que eu tô atrasado.'],
- ['Quente', 'Quente viu e quem te vê!'],
- ['Vopri', 'Vopri-meiro, tô com medo.'],
- ['Eunum', 'Eunum sei. Sinto muito!'],
- ['Ubaldo', 'Ubaldo é o marido da balda?'],
- ['Alfa', 'Alface ou tomate?'],
- ['Ka', 'Ka, L, M, N, O, P.'],
- ['Justa', 'Justagora que eu ia jantar.'],
- ['Maki', 'Makiagem é coisa para adultos.'],
- ['Loga', 'Logagora que eu entrei no banho.'],
- ['Quessa', 'Quessa B? Vou me mandar.'],
- ['Masqui', 'Masqui droga - abre a porta e pronto!'],
- ['"Jaques"', '"Jaquesou" importante, você deveria falar comigo primeiro.'],
- ['Midê', 'Midêxa em paz!'],
- ['Undi', 'Undia é da caça outro é do caçador.'],
- ['Tudor', 'Tudor que sobe, desce.'],
- ['Acara', 'Acara-puça serviu, hein?'],
- ['Aispe', 'Aispe-rança é a última que morre.'],
- ['Kênia', 'Kênia sabe?'],
- ['Bemki', 'Bemki te vi lá fora.'],
- ['Jaca', 'Jacaré no seco anda?'],
- ['Quenco', 'Quenco-chicha o rabo espicha.'],
- ['Tádi', 'Tádi brincadeira, né? Deixa eu rir, então.'],
- ['Ocessá', 'Ocessá-be um monte de coisa, né?'],
- ['Temki', 'Temki ter uma piada melhor que essa.'],
- ['Cetá', 'Cetá pensando que eu sou besta?'],
- ['Vôti', 'Vôti botar pra correr.'],
- ['Donalda', 'Donalda não... São cinquenta centavos.'],
- ['Alface', 'Alface a face é mais emocionante.'],
- ['Ivo', 'Ivo cê não sabia que não tem ninguém em casa?'],
- ['Quessa', 'Quessa Bê? Essa brincadeira está um saco.'],
- ['Quenfo', 'Quenfo à roça perdeu a carroça.'],
- ['Justa', 'Justagora que eu ia embora.'],
- ['Taca', 'Taca mãe primeiro!'],
- ['Tanaka', '"Tanaka-ra" que você não vai se dar bem!'],
- ['Quenfo', 'Quenfo ao ar perdeu o lugar!'],
- ['Soé', 'Soé jeito de falar com um amigo?'],
- ['Daum', '"Daum" tempo, pode ser?'],
- ['Isadora', 'Isadora, o que é que eu faço?'],
- ['Vêssi', '"Vêssi" da próxima vez toma mais cuidado!'],
- ['Teá', 'Teá-doro, mas isso também é demais.'],
- ['Carlota', 'A Carlota está presa na roda?'],
- ['Bu', 'Eu nem me assustei.'],
- ['Tu', 'Tu, cara de tatu!'],
- ['Pó', 'Pó-su entrar?'],
- ['Sará', 'Sará que que tem outro jeito de entrar neste prédio?'],
- ['Mico', 'Miconta que novidade é essa!'],
- ['Numi', 'Numi amola e me deixa entrar.'],
- ['Miá', 'Miá-juda, a porta emperrou.'],
- ['Nuncre', 'Nuncre dita em mim?'],
- ['Dianta', 'não Dianta falar, você não vai abrir a porta...'],
- ['Dorré', 'Mi, Fá, Sol, Lá, Si!'],
- ['Dexeu', 'Dexeu ver quem taí.'],
- ['Tássia', 'Tássia-chando, hem? Abre logo.'],
- ['Omeu', 'Omeu Deus do céu!'],
- ['Dizaí', 'Dizaí o quê?'],
- ['Inter', 'Interessante esta brincadeira.'],
- ['Grato', 'Não há de quê.'],
- ['Quicão', 'Quicão fusão é essa?'],
- ['Mamão', 'Mamão mandou bater nesta daqui!'],
- ['Nunci', 'Nunci deve comer de boca cheia.'],
- ['Kiko', 'E o Kiko eu tenho que saber sobre isso?'],
- ['Silêncio', 'Pssss!'],
- ['Vossocá', 'Eu não, por favor.'],
- ['Pu', 'Pu xavida, você me enganou.'],
- ['Miá', 'Miá corda, não me deixa perder o bondinho.'],
- ['Nívea', 'Feliz Niveassário!'],
- ["Sino', 'O sino faz 'blém' não 'quem'."],
- ['Diki', 'Diki lado você está?'],
- ['Querê', 'Querê não é podê.'],
- ['Frankstein', 'Frankstein, mas você não tem.'],
- ['Pra Z', 'Pra Z em conhecê-lo.'],
- ['Ex-conde', 'Ex-conde-conde é legal.'],
- ['Apri', 'Apri-ncesa despertou com o beijo do príncipe.'],
- ['Quacker', 'Quacker uma, menos esta!'],
- ['Qualquerco', 'Qualquerco-isa parecida com isto já vai me ajudar.'],
- ['Quiqui', '"Quiqui" é isso?'],
- ['Abá', 'Abá-xaqui, a chave caiu!'],
- ['Póba', 'Póba-tê, esqueci a piada!'],
- ['Urralo', 'Urralo-ween já passou!'],
- ['Sará', 'Sará que tem um médico em casa?'],
- ['Aline', 'Aline é reta ou curva?'],
- ['Dôdis', 'Dôdis tômago.'],
- ['Dôdi', 'Dôdi dente.'],
- ['Toco', 'Toco dor de cabeça.'],
- ['Atch', 'Saúde.'],
- ['Aumen', 'Aumen-te o volume, por favor.'],
- ['Zupra', 'Zupra-sumo.'],
- ['Tupó', 'Tupó descer ali comigo?']]
-SharedChatterGreetings = ['Oi, %!',
+FADoorCodes_LB_DISGUISE_INCOMPLETE = 'Você vai ser pego se entrar lá como um Toon! Você precisa completar o seu Disfarce de Cog primeiro!\n\nMonte o seu Disfarce de Cog com pedaços da Fábrica.'
+FADoorCodes_BB_DISGUISE_INCOMPLETE = 'Você vai ser pego se entrar lá como Toon! Primeiramente, você precisa concluir seu Disfarce de Robô Chefe!\n\nConstrua seu Disfarce de Robô Chefe cumprindo as TarefasToon depois da Sonholândia do Donald.'
+KnockKnockContestJokes = {
+ 2100: [
+  'Jaque',
+  'Jaque não está olhando, joga uma torta nele!'],
+ 2200: {
+  28: [
+'Biscuit (Biscoito)',
+'Biscuitos (Biscoitos) me mordam, os Cogs vêm aí!'],
+  41: [
+'Dewey',
+'Dewemos ir detonar mais alguns Cogs?'],
+  40: [
+'Minnie',
+'Minnie-pessoas falaram comigo, e isso está me enlouquecendo!'],
+  27: [
+'Disguise',
+'A Disguisetante perseguição aos Cogs!'] },
+ 2300: [
+  'Justa',
+  'Justa gora peguei uns dois pedaços de Cogs, pronto!'],
+ 3300: {
+  10: [
+'Aladdin',
+'Aladdinheiro no chão.'],
+  6: [
+'Adon',
+'Adondé que esses Cogs tão saindo?'],
+  30: [
+'Bacon',
+'Bacon uma torta ia bem.'],
+  28: [
+'Isaías',
+'Isaías mas voltou-se.'],
+  12: [
+'Julieta',
+'Julieta me chamando praquele prédio Cog com você pra eu te Toonar.'] } }
+KnockKnockJokes = [
+ [
+  'Quem',
+  'Aqui tem eco, não?'],
+ [
+  'Kika',
+  'Kikalor!'],
+ [
+  'Joe',
+  'Você é Joetromundo?'],
+ [
+  'Eudin',
+  'Eudinovo por aqui!'],
+ [
+  'Silêncio',
+  'Pssss!'],
+ [
+  'Simbó',
+  'Simbora pra praia.'],
+ [
+  'Takent',
+  'Takent ou frio?'],
+ [
+  'Noá',
+  'Noá de quê.'],
+ [
+  'Não sei',
+  'Nem eu, já te falei.'],
+ [
+  'Otudo',
+  'Otudo ou nada?'],
+ [
+  'Totan',
+  'Totan feliz que você está aqui!'],
+ [
+  'Osmar',
+  'Osmartodontes não existem mais!'],
+ [
+  'Silem',
+  'Silembra de mim?'],
+ [
+  'Ostra',
+  'Ostra vez?'],
+ [
+  'Aimée',
+  'Aimée Tida?'],
+ [
+  'Zoom',
+  'Zooma imediatamente daqui!'],
+ [
+  'Aiki',
+  'Aiki medo!'],
+ [
+  'Quiba',
+  'Quibagunça é essa'],
+ [
+  'Tasó',
+  'Não, tacompanhado.'],
+ [
+  'Iago',
+  'Iagora, José?'],
+ [
+  "'Tácom'",
+  "'Tácom' tudo, não é?"],
+ [
+  'Tádi',
+  'Tádi graça, é? Meu nome é  ' + Flippy + '.'],
+ [
+  'Opato',
+  'Opato ' + Donald + ' Deduct.'],
+ [
+  'Masqui',
+  'Masqui coisa, abre a porta logo.'],
+ [
+  'Nénim.',
+  'Nénim guém que te interesse, deixa eu entrar.'],
+ [
+  'Omos',
+  'Omosquito que te picou.'],
+ [
+  'Colés',
+  'Colesterol faz mal, sai fora.'],
+ [
+  'Breno',
+  'Breno que eu te falei que esse cara vinha.'],
+ [
+  'Kiko',
+  'Kiko-losso!'],
+ [
+  'Vaivê',
+  'Vaivê que eu tô atrasado.'],
+ [
+  'Quente',
+  'Quente viu e quem te vê!'],
+ [
+  'Vopri',
+  'Vopri-meiro, tô com medo.'],
+ [
+  'Eunum',
+  'Eunum sei. Desculpe!'],
+ [
+  'Ubaldo',
+  'Ubaldo é o marido da balda?'],
+ [
+  'Alfa',
+  'Alface ou tomate?'],
+ [
+  'Ka',
+  'Ka, L, M, N, O, P.'],
+ [
+  'Justa',
+  'Justagora que eu ia jantar.'],
+ [
+  'Maki',
+  'Makiagem é coisa para adultos.'],
+ [
+  'Loga',
+  'Logagora que eu entrei no banho.'],
+ [
+  'Quessa',
+  'Quessa B? Vou me mandar.'],
+ [
+  'Masqui',
+  'Masqui droga - abre a porta e pronto!'],
+ [
+  "'Jaques'",
+  "'Jaquesou' importante, você deveria falar comigo primeiro."],
+ [
+  'Midê',
+  'Midêxa em paz!'],
+ [
+  'Undi',
+  'Undia é da caça outro é do caçador.'],
+ [
+  'Tudor',
+  'Tudor que sobe, desce.'],
+ [
+  'Acara',
+  'Acara-puça serviu, hein?'],
+ [
+  'Aispe',
+  'Aispe-rança é a última que morre.'],
+ [
+  'Kênia',
+  'Kênia sabe?'],
+ [
+  'Bemki',
+  'Bemki te vi lá fora.'],
+ [
+  'Jaca',
+  'Jacaré no seco anda?'],
+ [
+  'Quenco',
+  'Quenco-chicha o rabo espicha.'],
+ [
+  'Tádi',
+  'Tádi brincadeira, né? Deixa eu rir, então.'],
+ [
+  'Ocessá',
+  'Ocessá-be um monte de coisa, né?'],
+ [
+  'Temki',
+  'Temki ter uma piada melhor que essa.'],
+ [
+  'Cetá',
+  'Cetá pensando que eu sou besta?'],
+ [
+  'Vôti',
+  'Vôti botar pra correr.'],
+ [
+  'Donalda',
+  'Donalda não... São cinquenta centavos.'],
+ [
+  'Alface',
+  'Alface a face é mais emocionante.'],
+ [
+  'Ivo',
+  'Ivo cê não sabia que não tem ninguém em casa?'],
+ [
+  'Quessa',
+  'Quessa Bê? Essa brincadeira está um saco.'],
+ [
+  'Quenfo',
+  'Quenfo à roça perdeu a carroça.'],
+ [
+  'Justa',
+  'Justagora que eu ia embora.'],
+ [
+  'Taca',
+  'Taca mãe primeiro!'],
+ [
+  'Tanaka',
+  "'Tanaka-ra' que você não vai se dar bem!"],
+ [
+  'Quenfo',
+  'Quenfo ao ar perdeu o lugar!'],
+ [
+  'Soé',
+  'Soé jeito de falar com um amigo?'],
+ [
+  'Daum',
+  "'Daum' tempo, pode ser?"],
+ [
+  'Isadora',
+  'Isadora, o que é que eu faço?'],
+ [
+  'Vêssi',
+  "'Vêssi' da próxima vez toma mais cuidado!"],
+ [
+  'Teá',
+  'Teá-doro, mas isso também é demais.'],
+ [
+  'Carlota',
+  'A Carlota está presa na roda?'],
+ [
+  'Bu',
+  'Eu nem me assustei.'],
+ [
+  'Tu',
+  'Tu, cara de tatu!'],
+ [
+  'Pó',
+  'Pó-su entrar?'],
+ [
+  'Sará',
+  'Sará que que tem outro jeito de entrar neste prédio?'],
+ [
+  'Mico',
+  'Miconta que novidade é essa!'],
+ [
+  'Numi',
+  'Numi amola e me deixa entrar.'],
+ [
+  'Miá',
+  'Miá-juda, a porta emperrou.'],
+ [
+  'Nuncre',
+  'Nuncre dita em mim?'],
+ [
+  'Dianta',
+  'não Dianta falar, você não vai abrir a porta...'],
+ [
+  'Dorré',
+  'Mi, Fá, Sol, Lá, Si!'],
+ [
+  'Dexeu',
+  'Dexeu ver quem taí.'],
+ [
+  'Tássia',
+  'Tássia-chando, hem? Abre logo.'],
+ [
+  'Omeu',
+  'Omeu Deus do céu!'],
+ [
+  'Dizaí',
+  'Dizaí o quê?'],
+ [
+  'Inter',
+  'Interessante esta brincadeira.'],
+ [
+  'Grato',
+  'Não há de quê.'],
+ [
+  'Quicão',
+  'Quicão fusão é essa?'],
+ [
+  'Mamão',
+  'Mamão mandou bater nesta daqui!'],
+ [
+  'Nunci',
+  'Nunci deve comer de boca cheia.'],
+ [
+  'Kiko',
+  'E o Kiko eu tenho que saber sobre isso?'],
+ [
+  'Silêncio',
+  'Pssss!'],
+ [
+  'Vossocá',
+  'Eu não, por favor.'],
+ [
+  'Pu',
+  'Pu xavida, você me enganou.'],
+ [
+  'Miá',
+  'Miá corda, não me deixa perder o bondinho.'],
+ [
+  'Nívea',
+  'Feliz Niveassário!'],
+ [
+  'Sino',
+  'O sino faz "blém" não "quem".'],
+ [
+  'Diki',
+  'Diki lado você está?'],
+ [
+  'Querê',
+  'Querê não é podê.'],
+ [
+  'Frankstein',
+  'Frankstein, mas você não tem.'],
+ [
+  'Pra Z',
+  'Pra Z em conhecê-lo.'],
+ [
+  'Ex-conde',
+  'Ex-conde-conde é legal.'],
+ [
+  'Apri',
+  'Apri-ncesa despertou com o beijo do príncipe.'],
+ [
+  'Quacker',
+  'Quacker uma, menos esta!'],
+ [
+  'Qualquerco',
+  'Qualquerco-isa parecida com isto já vai me ajudar.'],
+ [
+  'Quiqui',
+  "'Quiqui' é isso?"],
+ [
+  'Abá',
+  'Abá-xaqui, a chave caiu!'],
+ [
+  'Póba',
+  'Póba-tê, esqueci a piada!'],
+ [
+  'Urralo',
+  'Urralo-ween já passou!'],
+ [
+  'Sará',
+  'Sará que tem um médico em casa?'],
+ [
+  'Aline',
+  'Aline é reta ou curva?'],
+ [
+  'Dôdis',
+  'Dôdis tômago.'],
+ [
+  'Dôdi',
+  'Dôdi dente.'],
+ [
+  'Toco',
+  'Toco dor de cabeça.'],
+ [
+  'Atch',
+  'Saúde.'],
+ [
+  'Aumen',
+  'Aumen-te o volume, por favor.'],
+ [
+  'Zupra',
+  'Zupra-sumo.'],
+ [
+  'Tupó',
+  'Tupó descer ali comigo?']]
+SharedChatterGreetings = [
+ 'Oi, %!',
  'Iuhuuu %, legal ver você.',
  'Estou feliz que você esteja aqui hoje!',
  'Bom, oi pessoal, %.']
-SharedChatterComments = ['Que nome legal, %.',
-  'Gosto do seu nome.',
-  'Cuidado com os ' + Cogs + '.'
-  'Parece que o bondinho está chegando!',
-  'Preciso jogar um jogo no bondinho para ganhar algumas tortas!',
-  'Às vezes, eu me divirto com os jogos no bondinho só para comer a torta de frutas!',
-  'Puxa, acabei de deter um bando de ' + Cogs + '. Preciso de descanso!',
-  'Puxa vida, alguns desses ' + Cogs + ' são grandalhões!',
-  'Você parece estar se divertindo.',
-  'Nossa, que dia legal!',
-  'Gostei da sua roupa.',
-  'Acho que vou pescar esta tarde.',
-  'Divirta-se no meu bairro.',
-  'Espero que você esteja aproveitando sua estada em Toontown!',
-  'Ouvi falar que está nevando no Brrrgh.',
-  'Você pegou o bondinho hoje?',
-  'Gosto de conhecer pessoas novas.',
-  'Uau, há vários  '+ Cogs +' no Brrrgh.'
-  'Eu adoro brincar de pique. E você?',
-  'Os jogos no bondinho são divertidos.',
-  'Adoro fazer as pessoas rirem.',
-  'É divertido ajudar meus amigos.',
-  'Hum-hum, você está perdido? Não se esqueça de que você tem um mapa no Álbum Toon.',
-  'Procure não ficar atolado na Burocracia dos ' + Cogs + "'.",
-  'Ouvi falar que a ' + Daisy + ' plantou novas flores no jardim.',
-  'Se você pressionar a tecla Page Up, poderá ver acima!',
-  'Se você ajudar a tomar os edifícios dos Cogs, poderá ganhar uma estrela de bronze!',
-  'Se você pressionar a tecla Tab, poderá ver os arredores sob diversos ângulos!',
-  'Se você pressionar a tecla Ctrl, poderá descer!']
-SharedChatterGoodbyes = ['Tenho que ir agora, tchau!',
+SharedChatterComments = [
+ 'Que nome legal, %.',
+ 'Gosto do seu nome.',
+ 'Cuidado com os ' + Cogs + '.Parece que o bondinho está chegando!',
+ 'Preciso jogar um jogo no bondinho para ganhar algumas tortas!',
+ 'Às vezes, eu me divirto com os jogos no bondinho só para comer a torta de frutas!',
+ 'Puxa, acabei de deter um bando de ' + Cogs + '. Preciso de descanso!',
+ 'Puxa vida, alguns desses ' + Cogs + ' são grandalhões!',
+ 'Você parece estar se divertindo.',
+ 'Nossa, que dia legal!',
+ 'Gostei da sua roupa.',
+ 'Acho que vou pescar esta tarde.',
+ 'Divirta-se no meu bairro.',
+ 'Espero que você esteja aproveitando sua estada em Toontown!',
+ 'Ouvi falar que está nevando no Brrrgh.',
+ 'Você pegou o bondinho hoje?',
+ 'Gosto de conhecer pessoas novas.',
+ 'Uau, há vários  ' + Cogs + ' no Brrrgh.Eu adoro brincar de pique. E você?',
+ 'Os jogos no bondinho são divertidos.',
+ 'Adoro fazer as pessoas rirem.',
+ 'É divertido ajudar meus amigos.',
+ 'Hum-hum, você está perdido? Não se esqueça de que você tem um mapa no Álbum Toon.',
+ 'Procure não ficar atolado na Burocracia dos ' + Cogs + "'.",
+ 'Ouvi falar que a ' + Daisy + ' plantou novas flores no jardim.',
+ 'Se você pressionar a tecla Page Up, poderá ver acima!',
+ 'Se você ajudar a tomar os edifícios dos Cogs, poderá ganhar uma estrela de bronze!',
+ 'Se você pressionar a tecla Tab, poderá ver os arredores sob diversos ângulos!',
+ 'Se você pressionar a tecla Ctrl, poderá descer!']
+SharedChatterGoodbyes = [
+ 'Tenho que ir agora, tchau!',
  'Acho que vou jogar no bondinho.',
  'Bom, até mais. Vejo você por aí, %!',
- 'Melhor eu me apressar e voltar ao trabalho para deter esses '+ Cogs +'.',
+ 'Melhor eu me apressar e voltar ao trabalho para deter esses ' + Cogs + '.',
  'Preciso ir andando.',
- 'Sinto muito, mas tenho que ir.',
+ 'Desculpe, mas tenho que ir.',
  'Tchau.',
  'Vejo você mais tarde, %!',
  'Acho que vou praticar lançamento de bolinhos.',
- 'Eu vou me juntar a um grupo para deter alguns  '+Cogs+'.',
+ '\\Vou me juntar a um grupo para deter alguns  ' + Cogs + '.',
  'Foi legal ver você hoje, %.',
  'Tenho muito a fazer hoje. É melhor começar logo.']
-MickeyChatter = (['Bem-vindo ao '+lToontownCentral+'.', 'Oi, meu nome é ' + Mickey + '. Qual é o seu?'], ['Ei, você viu o '+ Donald +'?',
-  'Vou ver o nevoeiro passar no '+lDonaldsDock+'.',
-  'Se você vir o meu camarada '+Goofy+', dê um oi para ele por mim.',
-  'Ouvi falar que a '+Daisy+' plantou novas flores no jardim.'], ['Eu vou para a Melodilândia ver a '+Minnie+'!',
-  'Caramba, estou atrasado para meu encontro com a '+ Minnie +'!',
-  'Parece que é hora de '+ Pluto +' jantar.',
-  'Acho que vou nadar no '+lDonaldsDock+'.',
-  'É hora de tirar um cochilo. Vou para a Sonholândia.'])
-WinterMickeyCChatter = (['Oi, eu sou o Mickey Natalino!',
-  'Bem-vindo ao Tinseltown... Quero dizer, Toontown!',
-  'Feliz Feriado de Inverno!',
-  'Feliz Feriado de Inverno, %'], ['Cante sua alegria sazonal nas Campainhas Ding-dong para o Mundo e a Felícia certamente retribuirá o favor!',
-  'Caramba, esses corredores com certeza estão enfeitados!',
-  'Cante sua alegria sazonal nas Campainhas Ding-dong para o Mundo e a Felícia certamente retribuirá o favor!',
-  'Basta olhar para aquelas luzes das árvores! Que Visão!',
-  'Cante sua alegria sazonal nas Campainhas Ding-dong para o Mundo e a Felícia certamente retribuirá o favor!',
-  'Nenhuma criatura está se mexendo, exceto este rato aqui!',
-  'Cante sua alegria sazonal nas Campainhas Ding-dong para o Mundo e a Felícia certamente retribuirá o favor!',
-  'Adoro esta época do ano!',
-  'Cante sua alegria sazonal nas Campainhas Ding-dong para o Mundo e a Felícia certamente retribuirá o favor!',
-  'Estou me sentindo alegria, e você?',
-  'Cante sua alegria sazonal nas Campainhas Ding-dong para o Mundo e a Felícia certamente retribuirá o favor!',
-  'Conhece todas as canções natalinas?',
-  'Cante sua alegria sazonal nas Campainhas Ding-dong para o Mundo e a Felícia certamente retribuirá o favor!',
-  'Oh puxa vida! Eu amo Feriado de Inverno!',
-  'Cante sua alegria sazonal nas Campainhas Ding-dong para o Mundo e a Felícia certamente retribuirá o favor!',
-  'Acho que troco minhas luvas por luvas de Inverno'], ['Tenha um Feliz Feriado de Inverno!',
-  'Desejos calorosos para você!',
-  'Caramba, desculpe, você tem que ir. Até mais!',
-  'Vou cantar com a Minnie!'])
-ValentinesMickeyChatter = (['Oi, eu sou o Mickey!',
-  'Bem-vindo ao Centro de Toontown dos namorados!',
-  'Feliz Toon dos namorados!',
-  'Feliz Toon dos namorados, %'], ['O Amor estar no ar! E borboletas!',
-  'Esses corações são bons para aumentar a Risada!',
-  'Espero que a Minnie goste do que eu dei a ela!',
-  'O Catálogo tem muitos presentes do Toon dos namorados!',
-  'Lança uma festa de Toon dos namorados!',
-  'Mostre aos Cogs, com uma torta na cara, que você os ama!',
-  'Vou levar a Minnie para o Café Maluco!',
-  'A Minnie vai querer chocolates ou flores?'], ['Adorei sua visita!',
-  'Diga a Minnie que eu vou buscá-la em breve!'])
-WinterMickeyDChatter = (['Oi, eu sou o Mickey Natalino!',  
-  'Bem-vindo ao Cidade do Ouropel... Quero dizer, Toontown!',
-  'Feliz Feriado de Inverno!',
-  'Feliz Feriado de Inverno, %'], ['Caramba, esses corredores com certeza estão enfeitados!',
-  'Basta olhar para aquelas luzes das árvores! Que Visão!',
-  'Nenhuma criatura está se mexendo, exceto este rato aqui!',
-  'Eu amo essa época do ano!',
-  'Estou me sentindo alegria, e você?',
-  'Conhece todas as canções natalinas?',
-  'Oh puxa vida! Eu amo Feriado de Inverno!',
-  'Acho que está na hora de colocar luvas mais quentinhas!'], ['Tenha um Feliz Feriado de Inverno!',
-  'Desejos calorosos para você!',
-  'Caramba, desculpe, você tem que ir. Até mais!',
-  'Vou cantar com a Minnie!'])
-VampireMickeyChatter = (['Bem-vindo ao '+lToontownCentral+'.',
-  'Oi, meu nome é '+Mickey+'. Qual é o seu?',
-  'Feliz Halloween!',
-  'Feliz Halloween, %!',
-  'Bem-vindo ao Centro da Cidade Assombrada... quero dizer ao '+lToontownCentral+'!'], ['Se você pensa jogar travessura está na Loja de Diversões e Jogos, vá ver Ralf Desocupado para uma travessura!',
-  'É divertido se vestir para o Halloween!',
-  'Se você pensa jogar travessura está na Loja de Diversões e Jogos, vá ver Ralf Desocupado para uma travessura!'
-  'Gostou da minha fantasia?',
-  'Se você pensa jogar travessura está na Loja de Diversões e Jogos, vá ver Ralf Desocupado para uma travessura!'
-  '%, cuidado com os  Cogs Sanguessugas!',
-  'Se você pensa jogar travessura está na Loja de Diversões e Jogos, vá ver Ralf Desocupado para uma travessura!'
-  'As decorações de Halloween não são fantásticas?',
-  'Se você pensa jogar travessura está na Loja de Diversões e Jogos, vá ver Ralf Desocupado para uma travessura!'
-  'Cuidado com os gatos pretos',
-  'Se você pensa jogar travessura está na Loja de Diversões e Jogos, vá ver Ralf Desocupado para uma travessura!'
-  'Você viu o Toon com a cabeça de abóbora?',
-  'Se você pensa jogar travessura está na Loja de Diversões e Jogos, vá ver Ralf Desocupado para uma travessura!'
-  'Buu!  Assustei você?',
-  'Se você pensa jogar travessura está na Loja de Diversões e Jogos, vá ver Ralf Desocupado para uma travessura!'
-  'Não se esqueça de escovar suas presas',
-  'Se você pensa jogar travessura está na Loja de Diversões e Jogos, vá ver Ralf Desocupado para uma travessura!'
-  'Não tenha medo, sou um vampiro amigável',
-  'Gostou da minha capa?',
-  'Assustei você?  Foi a melhor brincadeira da minha vida!',
-  'Espero que esteja curtindo nossa festa de Halloween!',
-  'Assombroso, está escuro como a noite!'], ['Vou olhar as decorações curiosas de Halloween.',
-  'Vou a Melodilândia fazer uma surpresa à '+Minnie+'!',
-  'Vou assustar outro Toon!  Shhh!',
-  'Vou brincar de doces ou travessuras!',
-  'Shhh, vem comigo.'])
-FieldOfficeMickeyChatter = ['Você já ouviu falar do Escritórios de Campo do Agitador?']
-MinnieChatter = (['Bem-vindo à Melodilândia.', 'Oi, meu nome é '+ Minnie +'. Qual é o seu?'], ['As colinas ganham vida com o som da música!',
-  'Sua roupa é legal, %.',
-  'Ei, você viu o '+ Mickey +'?',
-  'Se você vir meu amigo '+ Goofy +', dê um oi para ele por mim.',
-  'Uau, há milhares de '+ Cogs +' perto da Sonholândia do'+Donald+'.',
-  'Ouvi falar que tem neblina no '+lDonaldsDock+'.',
-  'Não deixe de experimentar o labirinto dos Jardins da Margarida.',
-  'Acho que vou catar algumas canções.',
-  'Ei, %, olha aquilo lá.',
-  'Adoro o som da música.',
-  'Aposto que você não sabia que a Melodilândia também é chamada de ToadaTown! Ah, ah, ah!',
-  'Adoro jogo da memória. E você?',
-  'Gosto de fazer as pessoas rirem.',
-  'Cara, andar sobre rodas o dia todo não é moleza para os pés!',
-  'Bonita camisa, %.',
-  'Aquilo no chão é uma balinha?'], ['Caramba, estou atrasada para o meu encontro com o %s!' % Mickey, 'Parece que é hora de %s jantar.' % Pluto, 'É hora de tirar um cochilo. Vou para a Sonholândia.'])
-WinterMinnieCChatter = (['Oi, eu sou a Minnie Natalina!',
-  'Bem-vindo à terra das cantorias',
-  'Feliz feriado de inverno!',
-  'Feliz feriado de inverno, %!'], ['Você obterá mais do que uma Barbearia Musical se você cantar para Bárbara de Sevilha!',
-  'Cante uma melodia, Toon!',
-  'Você obterá mais do que uma Barbearia Musical se você cantar para Bárbara de Sevilha!',
-  'Mostre-nos como cantar, Toon!',
-  'Você obterá mais do que uma Barbearia Musical se você cantar para Bárbara de Sevilha!',
-  'Você consegue cantar uma melodia aqui na Melodyland?',
-  'Você obterá mais do que uma Barbearia Musical se cantar para Bárbara de Sevilha!',
-  'Essas lâmpadas parecem quentes em seus cachecóis!',
-  'Você obterá mais do que uma Barbearia Musical se cantar para Bárbara de Sevilha!',
-  'O canto é a coisa!',
-  'Você vai ganhar mais do que uma Barbearia Musical se cantar para Bárbara de Sevilha!',
-  'Eu sempre vou gostar de você, para melhor ou para verso!',
-  'Você vai ganhar mais do que uma Barbearia Musical se cantar para Bárbara de Sevilha!',
-  'Tudo fica melhor com uma coroa de flores!'], ['Tenham um feriado de inverno divertido!', 'Trilhas Felizes!', 'Mickey vai me levar para cantar!'])
-WinterMinnieDChatter = (['Oi, eu sou a Minnie Natalina!',
-  'Bem-vindo à terra das cantorias!',
-  'Feliz feriado de inverno!',
-  'Feliz feriado de inverno, %!'], ['Cante uma melodia, Toon!', 
-  'Mostre-nos como cantar, Toon!',
-  'Você consegue cantar uma melodia aqui na Melodilândia?',
-  'Essas lâmpadas parecem quentes em seus cachecóis!',
-  'O canto é o máximo!',
-  'Você não pode errar com uma música!',
-  'Eu sempre vou gostar de você, para melhor ou para pior!',
-  'Tudo fica melhor com uma guirlanda!'], ['Tenham um feriado de inverno divertido!', 'Trilhas Felizes!', 'Mickey vai me levar para cantar!'])
-ValentinesMinnieChatter = (['Oi, eu sou a Minnie!', 'Feliz Dia dos Namorados!', 'Feliz Dia dos Namorados, %'], ['Espero que o Mickey tenha me dado chocolates ou flores!',
-  'Esses corações são bons para aumentar a Risada!',
-  'Eu quero ir a uma festa dos Namorados!',
-  'Espero que o Mickey me leve ao Cafá Levado!',
-  'Mickey é um Toon dos Namorados tão bom!',
-  'O que você comprou para o seu Toon dos Namorados?',
-  'Mickey nunca perdeu um Dia dos Toon dos Namorados!'], ['Foi Doce tendo você como Visita'])
-WitchMinnieChatter = (['Bem-vindo a Magicalândia... quero dizer, Melodilândia!',
-  'Olá, meu nome é Minnie Mágica! Qual é o seu?',
-  'Olá, acho que você é encantadora!',
-  'Feliz Halloween!',
-  'Feliz Halloween, %!'], ['Ouvi dizer que Tábata tem doces para a Realmente Felinos Felizes que pode pregar peças!',
-  'É um dia mágico, você não acha?',
-  'Ouvi dizer que Tábata tem doces para a Realmente Felinos Felizes que pode pregar travessuras!',
-  'Agora, onde eu coloquei meu livro de feitiços?',
-  'Ouvi dizer que Tábata tem doces para a Realmente Felinos Felizes que pode pregar travessuras!',
-  'Abra-Cadabra!',
-  'Ouvi dizer que Tábata tem doces para a Realmente Felinos Felizes que pode pregar travessuras!',
-  'Toontown parece positivamente assustadora hoje!',
-  'Ouvi dizer que Tábata tem doces para a Realmente Felinos Felizes que pode pregar travessuras!',
-  'Você também está vendo estrelas?',
-  'Ouvi dizer que Tábata tem doces para a Realmente Felinos Felizes que pode pregar travessuras!',
-  'Roxo é realmente minha cor!',
-  'Ouvi dizer que Tábata tem doces para a Realmente Felinos Felizes que pode pregar travessuras!',
-  'Espero que seu Halloween seja encantador!',
-  'Ouvi dizer que Tábata tem doces para a Realmente Felinos Felizes que pode pregar travessuras!',
-  'Cuidado com as aranhas musicais!',
-  'Ouvi dizer que Tábata tem doces para a Realmente Felinos Felizes que pode pregar travessuras!',
-  'Espero que você esteja gostando da nossa diversão de Halloween!'], ['Vou desaparecer agora!', 'Hora de eu sumir!', 'Mickey vai me levar para dizer doces-ou-travessuras!'])
-FieldOfficeMinnieChatter = ['Todo mundo está falando sobre os novos escritórios de campo do Agitador!']
-DaisyChatter = (['Bem-vindo(a) ao meu Jardim!', 'Olá, meu nome é '+Daisy+'. Qual o seu nome?',
-  'É muito bom ver você, %!'], ['Minha flor premiada está no centro do labirinto do jardim.',
-  'Eu adoro andar pelo labirinto.',
-  'Eu não ví o '+Goofy+' hoje.',
-  'Eu gostaria de saber onde o '+Goofy+' está.',
-  'Você viu o '+Donald+'? Eu não consigo encontrá-lo em lugar algum.',
-  'Se você vir minha amiga '+Minnie+', por favor diga "Oi" por mim.',
-  'Quanto melhor as ferramentas de jardinagem que você tem, melhor será seu jardim.',
-  'Existem muitos '+Cogs+' perto do '+lDonaldsDock+'.',
-  'Regando seu jardim diariamente você deixa suas plantas felizes.',
-  'Para cultivar uma Margarida Rosa, plante uma balinha amarela e uma vermelha juntas.',
-  'É facil cultivar uma Margarida Amarela. Basta plantar uma balinha amarela.',
-  'Se você vir areia embaixo de uma planta, está na hora de regar ou ela morrerá.'], ['Estou indo para Melodilândia para ver %s!' % Minnie,
-  'Preciso correr para o meu picnic com %s!' % Donald,
-  'Acho que vou nadar no '+lDonaldsDock+'.',
-  'Oh, estou com sono. Acho que vou para a Sonholândia.'])
-ValentinesDaisyChatter = (['Oi, eu sou a Margarida!', 'Feliz Dia dos Toons dos Namorados!', 'Feliz Dia dos Toons dos Namorados, %'], ['Espero que o Donald não me dê outra Enguia Amore!',
-  'O Donald vai me levar para o Restaurante Deep-see!',
-  'Eu certamente tenho rosas suficientes!',
-  'Esses corações são bons para acrescentar a risada!',
-  'Eu adoraria ir a uma festa do Dia dos Toons dos Namorados!',
-  'Este é o jardim onde o amor cresce!',
-  'É melhor o Donald não dormir durante o Dia dos Toons dos Namorados de novo!',
-  'Talvez o Donald e eu possamos sair em encontros duplos com o Mickey e a Minnie!'], ['Diga ao Donald que estarei esperando por ele!', 'Tenha um bom Dia dos Namorados!'])
-WinterDaisyCChatter = (['Bem-vindo ao único jardim que cresce no inverno!', 'Feliz feriado de inverno!', 'Feliz feriado de inverno, %!'], ['Suzana, da Artesanato Pínus, é uma verdadeira megera, então por que não fazer um canto para ela?',
-  'Meu jardim precisa de mais visco!',
-  'Suzana, da Artesanato Pínus, é uma verdadeira megera, então por que não fazer um canto para ela?',
-  'Preciso plantar azevinho para o ano que vem!',
-  'Suzana, da Artesanato Pínus, é uma verdadeira megera, então por que não fazer um canto para ela?',
-  'Vou pedir para o Pateta construir uma casinha de gengibre para mim!',
-  'Suzana, da Artesanato Pínus, é uma verdadeira megera, então por que não fazer um canto para ela?',
-  'Essas luzes nas luminárias são lindas!',
-  'Suzana, da Artesanato Pínus, é uma verdadeira megera, então por que não fazer um canto para ela?',
-  'Que azevinho alegre!',
-  'Suzana da Artesanato Pínus é uma verdadeira megera, então por que não fazer um canto para ela?',
-  'Meu boneco de neve não para de derreter!',
-  'Suzana da Artesanato Pínus é uma verdadeira megera, então por que não fazer um canto para ela?', 
-  'Essa pata está enfeitada!',
-  'Suzana da Artesanato Pínus é uma verdadeira megera, então por que não fazer um canto para ela?',
-  'Eu mesma plantei todas essas luzes!'], ['Tenham um ótimo feriado de inverno!',
-  'Feliz plantio!',
-  'Diga ao Donald para passar por aqui com presentes!',
-  'O Donald vai me levar para cantar!'])
-WinterDaisyDChatter = (['Bem-vindo ao único jardim que cresce no inverno!', 'Feliz feriado de inverno!', 'Feliz feriado de inverno, %!'], ['Suzana, da Artesanato Pínus, é uma verdadeira megera, então por que não fazer um canto para ela?',
-  'Meu jardim precisa de mais visco!',
-  'Preciso plantar azevinho para o ano que vem!',
-  'Vou pedir para o Pateta construir uma casinha de gengibre para mim!',
-  'Essas luzes nas luminárias são lindas!',
-  'Que azevinho alegre!',
-  'Meu boneco de neve não para de derreter!', 
-  'Essa pata está enfeitada!',
-  'Eu mesma plantei todas essas luzes!'], ['Tenham um ótimo feriado de inverno!',
-  'Feliz plantio!',
-  'Diga ao Donald para passar por aqui com presentes!',
-  'O Donald vai me levar para cantar!'])
-HalloweenDaisyChatter = (['Bem-vindo ao Fantasmas da Margarida... Quero dizer, Jardins!', 'Feliz Halloween!', 'Feliz Halloween, %!'], ['Visite meu amigo J. Jardim se você tiver uma travessura e aproveite os doces na Pousada Pá de Coisa!',
-  'Quer dançar?',
-  'Visite meu amigo J. Jardim se você tiver uma travessura e aproveite os doces na Pousada Pá de Coisa!',
-  'Eu sou um pato com uma saia de poodle!',
-  'Visite meu amigo J. Jardim se você tiver uma travessura e aproveite os doces na Pousada Pá de Coisa!',
-  'A árvore pirata precisa de água.',
-  'Visite meu amigo J. Jardim se você tiver uma travessura e aproveite os doces na Pousada Pá de Coisa!',
-  'Doces ou árvore!',
-  'Visite meu amigo J. Jardim se você tiver uma travessura e aproveite os doces na Pousada Pá de Coisa!',
-  'Você notou algo estranho nas árvores?',
-  'Visite meu amigo J. Jardim se você tiver uma travessura e aproveite os doces na Pousada Pá de Coisa!',
-  'Eu deveria plantar umas abóboras!',
-  'Visite meu amigo J. Jardim se você tiver uma travessura e aproveite os doces na Pousada Pá de Coisa!',
-  'QUEM notou algo diferente nas lâmpadas?',
-  'Visite meu amigo J. Jardim se você tiver uma travessura e aproveite os doces na Pousada Pá de Coisa!',
-  'O Halloween realmente me cativa!',
-  'Visite meu amigo J. Jardim se você tiver uma travessura e aproveite os doces na Pousada Pá de Coisa!',
-  'Twig-ou-Trevessura!',
-  'Visite meu amigo J. Jardim se você tiver uma travessura e aproveite os doces na Pousada Pá de Coisa!',
-  'Coruja, aposto que você não notou as lâmpadas assustadoras!',
-  'Visite meu amigo J. Jardim se você tiver uma travessura e aproveite os doces na Pousada Pá de Coisa!',
-  'Espero que você esteja gostando da nossa diversão de Halloween!'], ['Donald vai me levar para pedir doces-ou-travessuras!', 'Eu vou para conferir as divertidas decorações de Halloween.'])
-FieldOfficeDaisyChatter = ['Aqueles escritórios de campo agitadores estão surgindo como ervas daninhas!']
-ChipChatter = (['Boas-vindas a %s!' % lOutdoorZone,
-  'Oi, sou ' + Chip + '. Qual é o seu nome?',
-  'Não, eu sou ' + Chip + '.',
-  'É tão bom ver você, %!',
-  'Somos Tico e Teco!'], ['Gosto de golfe.', 'Temos as melhores bolotas de Toontown.', 'Os buracos de golfe com vulcões são os mais desafiadores para mim.'], ['Vamos até ' + lTheBrrrgh +' brincar com %s.' % Pluto,
-  'Vamos visitar %s e dar um jeito nele.' % Donald,
-  'Acho que vou nadar no ' + lDonaldsDock + '.',
-  'Oh, estou com sono. Acho que vou até a Sonholândia.'])
-ValentinesChipChatter = (['Eu sou Tico!', 'Feliz Dia dos Toons dos Namorados!', 'Feliz Dia dos Toons dos Namorados, %!'], ['O que você me deu de Dia dos Namorados, Teco?',
-  'Esses corações são ótimos para acresentar a risada!',
-  'Você quer ser meu Toon Namorado, Teco?',
-  'O que você deu para os Cogs no Dia dos Toons dos Namorados?',
-  'Eu adoro o Dia dos Namorados!'], ['Volte quando quiser!'])
-WinterChipChatter = (['Feliz Feriado de Inverno!', 'Vestidos de esquilos natalinos!', 'Feliz Feriado de Inverno, %!'], ['Feliz Feriado de Inverno, Teco!',
-  'Toda essa água pode congelar a qualquer momento!',
-  'Devíamos trocar as bolas de golfe por bolas de neve!',
-  'Se ao menos os esquilos soubessem cantar!',
-  'Você se lembrou de guardar nozes para o inverno?',
-  'Você comprou um presente para os Cogs?'], ['Enlouqueça neste feriado de inverno!', 'Tenha um ótimo feriado de inverno!'])
-HalloweenChipChatter = (['Jogue um pouco de MiniGhoul... Quer dizer, golfe!', 'Feliz Halloween!', 'Feliz Halloween, %!'], ['Estamos loucos por Halloween!',
-  'Você está preso',
-  'Você não pode escapar do braço longo da lei',
-  'Eu sou um Polical!',
-  'Espero que esteja gostando da nossa diversão de Halloween!', 
-  'Jogue golfe e ganhe um Uivo-Em-Um.',
-  'Milhos doces é mais doce que bolotas.',
-  'Espero que esteja gostando da nossa diversão de Halloween!'], ['%, cuidado com os Cogs Sanguessugas!'])
-DaleChatter = (['É tão bom ver você, %!',
-  'Oi, sou ' + Dale + '. Qual é o seu nome?',
-  'Oi, sou ' + Chip + '.',
-  'Boas-vindas a %s!' % lOutdoorZone,
-  'Somos Tico e Teco!'], ['Gosto de piqueniques.', 'As bolotas são gostosas, experimente.',
-  'Aqueles moinhos também são difíceis.'], ['Hihihi, é divertido brincar com ' + Pluto + '.',
-  'Sim, vamos dar um jeito em %s.' % Donald,
-  'Ah, seria refrescante dar uma nadada.',
-  'Estou ficando cansado, uma boa soneca cairia bem.'])
-ValentinesDaleChatter = (['Eu sou o Teco!', 'Feliz Dia dos Toons dos Namorados!', 'Feliz Dia dos Toons Namorados, %!'], ['A mesma coisa do ano passado. Nada!',
-  'Sinto falta das nozes!',
-  'Você quer ser meu Toon Namorado, Tico?',
-  'Uma torta na cara',
-  'É, está tudo bem.'], ['Volte quando quiser!'])
-WinterDaleChatter = (['Esquilos alegres!', 'Oi, somos dois elfos alegres!', 'Feliz feriado de inverno!', 'Feliz feriado de inverno, %!'], ['Feliz feriado de inverno, Tico!',
-  'Melhor não estar no gêiser quando isso acontecer!',
-  'E os clubes de golfe com gelo!',
-  'Quem já ouviu falar de esquilos cantores?',
-  'Eu disse a VOCÊ para fazer isso!',
-  'Sim, uma torta de creme!'], ['E traga um pouco para nós!', 'Tenham um feliz feriado de inverno!'])
-HalloweenDaleChatter = (['Feliz Halloween, %!', 'Jogue um pouco de MiniCarniçal... Quero dizer, golfe!', 'Feliz Halloween!'], ['Somos loucos por Halloween!',
-  'Ótimo, eu preciso de um descanso!',
-  'Mas seus braços são curtos!',
-  'Eu pensei que você fosse o Tico!',
-  'Jogue golfe e ganhe um Uivo-Em-Um',
-  'As balas de milho doce é mais doce do que bolota.',
-  'Espero que esteja curtindo nossa diversão de Halloween!'], ['%, tome cuidado com os Sanguessugas!'])
-GoofyChatter = (['Bem-vindo aos Jardins da Margarida.', 'Oi, meu nome é '+ Goofy +'. Qual é o seu?', 'Puxa, muito legal ver você %!'], ['Cara, com certeza é fácil se perder no labirinto do jardim!',
-  'Não deixe de tentar entrar no labirinto.',
-  'Não vi a '+ Daisy +' o dia todo.',
-  'Onde será que a '+ Daisy +' está?',
-  'Ei, você viu o '+ Donald +'?',
-  'Se você vir o meu amigo '+ Mickey +', dê um oi para ele por mim.',
-  'Ah, não! Esqueci de fazer o café da manhã do '+ Mickey +'!',
-  'Puxa, com certeza há muitos '+ Cogs +' perto do '+lDonaldsDock+'.',
-  'Parece que a '+ Daisy +' plantou novas flores no jardim.',
-  'Na filial da minha Loja de Piadas no Brrrgh, há Óculos hipnóticos em promoção por apenas uma balinha!',
-  'As Lojas de piadas do Pateta oferecem as melhores gozações, truques e comédias de toda Toontown!',
-  'Nas Lojas de piadas do Pateta, todas as tortas na cara têm garantia de fazer rir, ou você tem as suas balinhas de volta!'], ['Vou para Melodilândia para ver a  '+ Minnie +'!',
-  'Caramba, estou atrasado para o meu jogo com o  '+ Donald + '!',
-  'Acho que vou nadar no Porto do '+lDonaldsDock+'.',
-  'É hora de tirar um cochilo. Vou para a Sonholândia.'])
-WinterGoofyChatter = (['Eu sou o Pateta sobre os Feriados!', 'Bem-vindo ao Autôdromo da Bola de Neve!', 'Feliz feriado de inverno!', 'Feliz feriado de inverno, %!'], ['Quem precisa de renas quando se tem um kart veloz?',
-  'Nossa! Já são feriados de inverno?',
-  'Preciso dos meus protetores de ouvido!',
-  'Ainda não fiz compras!',
-  'Não dirija seu kart no gelo!',
-  'Parece que foram feriados de inverno há apenas um ano!',
-  'Presenteie seu kart e o deixe mais bonito!',
-  'Estes karts são melhores do que qualquer trenó velho!'], ['Tenham um ótimo feriado de inverno!', 'Dirijam com segurança agora!', 'Cuidado com as renas voadoras!'])
-ValentinesGoofyChatter = (['Eu sou o Pateta sobre o Dia do Toon dos Namorados!', 'Feliz Dia do Toon dos Namorados!', 'Feliz Dia do Toon dos Namorados, %!'], ['Nossa! Já é o Dia do Toon dos Namorados?',
-  'EU AMO corridas de kart!',
-  'Seja gentil com os outros por aí!',
-  'Mostrem um kart novo para o seu amor!',
-  'Os Toons adoram seus karts!',
-  'Façam novos amigos na pista!'], ['Dirija com cuidado, agora!', 'Demonstre um pouco de amor por aí!'])
-GoofySpeedwayChatter = (['Bem-vindo a '+lGoofySpeedway+'.', 'Oi, meu nome é '+Goofy+". Qual é o seu?", 'Puxa, muito legal ver você %!'], ['Cara, assisti a uma corrida maneira hoje.',
-  'Cuidado com as cascas de banana na pista!',
-  'Você deu uma incrementada no seu kart?',
-  'A gente acabou de pegar uns aros novos na loja do kart.',
-  'Oi, você viu '+Donald+'?',
-  'Se você vir meu amigo '+Mickey+', diz que eu mandei um alô.',
-  'Ah, não! Esqueci de preparar para '+Mickey+' o café da manhã!',
-  'Puxa, com certeza há muitos '+Cogs+' perto de '+lDonaldsDock+'.',
-  'Na filial da minha Loja de Piadas no Brrrgh, há Óculos hipnóticos em promoção por apenas uma balinha!',
-  'As Lojas de piadas do Pateta oferecem as melhores gozações, truques e comédias de toda Toontown!',
-  'Nas Lojas de piadas do Pateta, todas as tortas na cara têm garantia de fazer rir, ou você tem as suas balinhas de volta!'], ['Vou para Melodilândia para ver %s!' % Mickey,
-  'Caramba, estou atrasado para o meu jogo com %s!' % Donald,
-  'Acho que vou nadar no '+lDonaldsDock+'.',
-  'É hora de tirar um cochilo. Vou para a Sonholândia.'])
-SuperGoofyChatter = (['Bem-vindo ao Supercircuito!', 
-  'Olá, eu sou o Superpateta! Qual é o seu nome?', 
-  'Feliz Halloween!', 
-  'Feliz Halloween, %!'], ['Estou me sentindo corajoso hoje!',
-  'Alguém viu minha capa por aí? Ah, aí está ela!',
-  'Nossa! Não conheço a minha própria força!',
-  'Alguém chamou um super-herói?',
-  'Cuidado, Cogs! Eu salvarei o Halloween!',
-  'Não há nada mais assustador do que eu num kart!',
-  'Aposto que você não está me reconhecendo por trás da máscara!',
-  'É divertido vestir fantasias para o Halloween!',
-  'Espero que você esteja gostando da nossa diversão de Halloween!'], [
-  'Preciso ir voando!',
-  'Para o alto!',
-  'Será que vou voando ou dirigindo até o Porto do Donald?',
-  'Nossa, feliz Halloween!'])
-DonaldChatter = (['Bem-vindo à Sonholândia.', 'Oi, meu nome é '+ Donald +'. Qual é o seu?'], ['Às vezes este lugar me dá arrepios.',
-  'Não deixe de experimentar o labirinto dos Jardins da Margarida.',
-  'Nossa, que dia legal!',
-  'Ei, você viu o '+ Mickey +'?',
-  'Se você vir meu parceiro '+ Goofy +', dê um oi para ele por mim.',
-  'Acho que vou pescar esta tarde.',
-  'Uau, há um monte de '+ Cogs +' no '+lDonaldsDock+'.',
-  'Escuta, eu não levei você ainda para um passeio no '+lDonaldsDock+'?',
-  'Não vi a '+ Daisy +' o dia todo.',
-  'Ouvi falar que a '+ Daisy +' plantou novas flores no jardim.', 'Quack.'], ['Vou a Melodilândia para ver a '+ Minnie +'!',
-  'Ah não, estou atrasado para o meu encontro com a '+ Daisy +'!',
-  'Acho que vou nadar no meu cais.',
-  'Acho que vou levar meu barco para um giro no meu cais.'])
-WinterDreamlandCChatter = (['Oi, eu sou o Donald Sonolento!', 
-  'Bem-vindo ao feriado da Sonholândia!',
-  'Feliz Feriado de Inverno!',
-  'Feliz Feriado de Inverno, %!'], ['Samuel diz que aprender um pequeno treinamento dormindo é um verdadeiro presente, cante uma melodia para ela e descubra o porquê! ',
-  'Gostaria de estar aconchegado na minha cama!',
-  'Samuel diz que aprender um pequeno treinamento dormindo é um verdadeiro presente, cante uma melodia para ela e descubra o porquê!',
-  'Estou sonhando com uma Toontown branca!',
-  'Samuel diz que aprender um pequeno treinamento dormindo é um verdadeiro presente, cante uma melodia para ela e descubra o porquê!',
-  'Eu pretendia deixar de fora leite e biscoitos!',
-  'Samuel diz que aprender um pequeno treinamento dormindo é um verdadeiro presente, cante uma melodia para ela e descubra o porquê!',
-  'Quando eu acordar, é melhor eu ver muitos presentes!',
-  'Samuel diz que aprender um pequeno treinamento dormindo é um verdadeiro presente, cante uma melodia para ela e descubra o porquê!',
-  'Espero que eu não durma durante as Feriado de Inverno!',
-  'Samuel diz que aprender um pequeno treinamento dormindo é um verdadeiro presente, cante uma melodia para ela e descubra o porquê!',
-  'Adoro tirar uma soneca no frio!',
-  'Samuel diz que aprender um pequeno treinamento dormindo é um verdadeiro presente, cante uma melodia para ela e descubra o porquê!',
-  'As árvores nas ruas estão cobertas de luzes!'], ['Uma boa-noite para todos!', 'Doces sonhos!', 'Quando eu acordar, vou cantar canções de Natal!'])
-WinterDreamlandDChatter = (['Oi, eu sou o Donald Sonolento!', 'Bem-vindo ao feriado da Sonholândia!', 'Feliz Feriado de Inverno!', 'Feliz Feriado de Inverno, %!'], ['Gostaria de estar aconchegado na minha cama!',
-  'Estou sonhando com uma Toontown branca!',
-  'Eu pretendia deixar de fora leite e biscoitos!',
-  'Quando eu acordar, é melhor eu ver muitos presentes!',
-  'Espero que eu não durma durante as Feriado de Inverno!',
-  'Adoro tirar uma soneca no frio!',
-  'As árvores nas ruas estão cobertas de luzes!'], ['Uma boa-noite para todos!', 'Doces sonhos!', 'Quando eu acordar, vou cantar canções de Natal!'])
-HalloweenDreamlandChatter = (['Feliz Halloween!', 'Feliz Halloween, %!', 'Oi, eu sou o FrankenDonald'], ['Se você conseguir jogar um doce sobre meu amigo Máximo, então você pode ir no Relaxe ao Máximo com uma travessura!',
-  'Meus sonhos estão assustadores hoje!',
-  'Se você conseguir jogar um doce sobre meu amigo Máximo, então você pode ir no Relaxe ao Máximo com uma travessura!',
-  'Acho que estou sonhando. Aquela lâmpada virou uma bruxa!',
-  'Se você conseguir jogar um doce sobre meu amigo Máximo, então você pode ir no Relaxe ao Máximo com uma travessura!',
-  'Estou sonhando ou aquele Toon tem uma cabeça de abóbora?',
-  'Se você conseguir jogar um doce sobre meu amigo Máximo, então você pode ir no Relaxe ao Máximo com uma travessura!',
-  'Quando eu acordar, espero que não esteja tudo tão assustador! ',
-  'Se você conseguir jogar um doce sobre meu amigo Máximo, então você pode ir no Relaxe ao Máximo com uma travessura!',
-  'Espero que eu não durma durante o Halloween!',
-  'Se você conseguir jogar um doce sobre meu amigo Máximo, então você pode ir no Relaxe ao Máximo com uma travessura!',
-  'Espero que você esteja gostando da nossa diversão de Halloween!'], ['Durma com as luzes acesas hoje!', 'Quando eu acordar, eu vou fazer doces ou travessuras!'])
-ValentinesDreamlandChatter = (['Oi, eu sou (bocejo) o Donald!', 'Feliz Dia do Toon dos Namorados!', 'Feliz Dia do Toon dos Namorados,  %!'], ['Espero não dormir no Dia do Toon dos Namorados!',
-  'Estava sonhando com a Margarida!',
-  'Eu tive um pesadelo no qual eu perdia o Dia do Toon dos Namorados!',
-  'Aqueles corações são bons para melhorar a Risada!',
-  'Dê uma festa Dia do Toon dos Namorados!',
-  'Mostre aos Cogs, com uma torta na cara, que você os ama!',
-  'Eu não poderia sonhar com um feriado melhor do que o Dia do Toon dos Namorados!',
-  'Eu amo dormir!'], ['Boa-noite!','Acorde-me no Dia do Toon dos Namorados!'])
-FieldOfficeDreamlandChatter = ['Eu sonhei sobre algum chamado do escritório de campo...']
-HalloweenDonaldChatter = (['Bem-vindo ao meu porto do Halloween!',
-  'Se você tiver doces, poderá subir a bordo!',
-  'Feliz Halloween!',
-  'Feliz Halloween, %!'], ['Se pedir doces está fazendo você se sentir Ridíquilhas, então vá ver Rudy para uma travessura!',
-  'Mas eu uso roupa de marinheiro todos os dias!',
-  'Se pedir doces está fazendo você se sentir Ridíquilhas, então vá ver Rudy para uma travessura!',
-  'Abóboras fazem ótimas lanternas!',
-  'Se pedir doces está fazendo você se sentir Ridíquilhas, então vá ver Rudy para uma travessura!',
-  'Nunca vi palmeiras com pernas peludas!',
-  'Se pedir doces está fazendo você se sentir Ridíquilhas, então vá ver Rudy para uma travessura!',
-  'Talvez eu me vista de pirata no próximo Halloween!',
-  'Se pedir doces está fazendo você se sentir Ridíquilhas, então vá ver Rudy para uma travessura!',
-  'Minhas doces preferidas são as estrelas-do-mar!',
-  'Se pedir doces está fazendo você se sentir Ridíquilhas, então vá ver Rudy para uma travessura!',
-  'Vou levar você para pedir doces pelo porto!',
-  'Se pedir doces está fazendo você se sentir Ridíquilhas, então vá ver Rudy para uma travessura!',
-  'Espero que essas aranhas continuem nas árvores!',
-  'Se pedir doces está fazendo você se sentir Ridíquilhas, então vá ver Rudy para uma travessura!',
-  'Por que os fantasmas não se afogam? Porque eles usam boia!',
-  'Se pedir doces está fazendo você se sentir Ridíquilhas, então vá ver Rudy para uma travessura!',
-  'Espero que você esteja gostando da nossa diversão de Halloween!'], ['Vamos partir para levar alguns sustos!', 'Boa-assombração!', 'Vou dar uma olhada nas decorações assustadoras de Halloween.'])
-ValentinesDonaldChatter = (['Oi, eu sou o Donald!', 'Feliz Dia do Toon dos Namorados!', 'Feliz Dia do Toon dos Namorados,  %!'], ['Eu deveria levar a Margarida para algum lugar no Dia do Toon dos Namorados?\xe2\x80\x9d',
-  'Só mais uma volta no cais e eu pegarei alguma coisa para a Margarida.',
-  'O que a Margarida gostaria de ganhar no Dia do Toon dos Namorados?',
-  'Aqueles corações na água são bons para melhorar a Risada!',
-  'Dê uma festa no Dia do Toon dos Namorados!',
-  'Mostre aos Cogs, com uma torta na cara, que você os ama!',
-  'Eu preciso pegar um Enguia Amore para a Margarida!'], ['Aloha!', 'Mande minhas lembranças aos Cogs!'])
-WinterDonaldCChatter = (['Bem-vindo à Parada de Barcos e Trenós do Donald!', 'Todos a bordo para o cruzeiro das Feriado de Inverno!', 
-  'Feliz Feriado de Inverno!', 
-  'Feliz Feriado de Inverno, %!'], ['Ouvi dizer que Bob Botinho, da Presentes Golfinho Fofinho, dá um presente para aquele que tiver uma canção!',
-  'Você gostou da decoração de patinhos?',
-  'Ouvi dizer que Bob Botinho, da Presentes Golfinho Fofinho, dá um presente para aquele que tiver uma canção!',
-  'Por que há neve nos postes?',
-  'Ouvi dizer que Bob Botinho, da Presentes Golfinho Fofinho, dá um presente para aquele que tiver uma canção!',
-  'É bom que esta água não congele!',
-  'Ouvi dizer que Bob Botinho, da Presentes Golfinho Fofinho, dá um presente para aquele que tiver uma canção!',
-  'Como eles acenderam as luzes nessas árvores?',
-  'Ouvi dizer que Bob Botinho, da Presentes Golfinho Fofinho, dá um presente para aquele que tiver uma canção!',
-  'Será que este barco é melhor do que um trenó?',
-  'Ouvi dizer que Bob Botinho, da Presentes Golfinho Fofinho, dá um presente para aquele que tiver uma canção!',
-  'Este barco não precisa ser puxado por renas!',
-  'Ouvi dizer que Bob Botinho, da Presentes Golfinho Fofinho, dá um presente para aquele que tiver uma canção!',
-  'Fico feliz por não ser um peru nesta época do ano!',
-  'Ouvi dizer que Bob Botinho, da Presentes Golfinho Fofinho, dá um presente para aquele que tiver uma canção!',
-  'Meu presente para você? Passeios de barco grátis!',
-  'Ouvi dizer que Bob Botinho, da Presentes Golfinho Fofinho, dá um presente para aquele que tiver uma canção!',
-  'Espero que eu não ganhe carvão de novo!',
-  'Ouvi dizer que Bob Botinho, da Presentes Golfinho Fofinho, dá um presente para aquele que tiver uma canção!'], ['Todos em terra para diversão no feriado!', 'Lembre-se de dar gorjeta ao seu motorista do barco na saída!', 'Aproveite o Feriado!'])
-WinterDonaldDChatter = (['Bem-vindo à Parada de Barcos e Trenós do Donald!',
-  'Todos a bordo para o cruzeiro das Feriado de Inverno!',
-  'Feliz Feriado de Inverno!',
-  'Feliz Feriado de Inverno, %!'], ['Você gostou da decoração de patinhos?',
-  'Por que há neve nos postes?',
-  'É bom que esta água não congele!',
-  'Como eles acenderam as luzes nessas árvores?',
-  'Será que este barco é melhor do que um trenó?',
-  'Este barco não precisa ser puxado por renas!',
-  'Fico feliz por não ser um peru nesta época do ano!',
-  'Meu presente para você? Passeios de barco grátis!',
-  'Espero que eu não ganhe carvão de novo!'], ['Todos em terra para diversão no feriado!', 'Lembre-se de dar gorjeta ao seu motorista do barco na saída!', 'Aproveite seu feriado!'])
-WesternPlutoChatter = (['Bu! Não se assuste, sou eu... Pluto!',
-  'Feliz Halloween, parceiro!', 
-  'Feliz Halloween, %!'], ['Fred Cavanhaque, da Não Há Lugar como o Lar, troca travessuras por doces, pois isso o faz se Neve é Doce Neve.',
-  'Eu troco travessuras por doces!',
-  'Fred Cavanhaque, da Não Há Lugar como o Lar, troca travessuras por doces, pois isso o faz se Neve é Doce Neve.',
-  'Mickey vai me levar para pedir doces mais tarde!',
-  'Fred Cavanhaque, da Não Há Lugar como o Lar, troca travessuras por doces, pois isso o faz se Neve é Doce Neve.',
-  'Estou me sentindo mais nas Feriado de Inverno do que no Halloween!',
-  'Fred Cavanhaque, da Não Há Lugar como o Lar, troca travessuras por doces, pois isso o faz se Neve é Doce Neve.',
-  'Auau! Esse é o jeito canino de pedir doces!',
-  'Fred Cavanhaque, da Não Há Lugar como o Lar, troca travessuras por doces, pois isso o faz se Neve é Doce Neve.',
-  'Espero que você esteja gostando da nossa diversão de Halloween!',
-  'Fred Cavanhaque, da Não Há Lugar como o Lar, troca travessuras por doces, pois isso o faz se Neve é Doce Neve.',
-  'Gosto de perseguir gatos pretos!'], ['Agora vou desenterrar um doce!', 'Vou procurar Mickey e ver se ele tem algum doce!', 'Vou assustar o Donald!'])
-WinterPlutoCChatter = (['Oi, eu sou o Pluto!', 
-  'Bem-vindo a Brrr. Aqui é frio o ano inteiro!',
-  'Feliz Feriado de Inverno!', 
-  'Feliz Feriado de Inverno, %'], ['Abrão o Abominável adoraria uma canção, pois a Terra do Homem de Neve é um lugar solitário para um pé-grande.',
-  'Eu mordi um picolé e fiquei com dor de cabeça!',
-  'Abrão o Abominável adoraria uma canção, pois a Terra do Homem de Neve é um lugar solitário para um pé-grande.',
-  'É como viver em um globo de neve!',
-  'Abrão o Abominável adoraria uma canção, pois a Terra do Homem de Neve é um lugar solitário para um pé-grande.',
-  'Queria estar ao lado de uma boa fogueira!',
-  'Abrão o Abominável adoraria uma canção, pois a Terra do Homem de Neve é um lugar solitário para um pé-grande.',
-  'Au! Au! Eu preciso de um cachecol!',
-  'Abrão o Abominável adoraria uma canção, pois a Terra do Homem de Neve é um lugar solitário para um pé-grande.',
-  'Pelo menos meu focinho não está vermelho e brilhando!'], ['Divirta-se muito durante as Feriado de Inverno!', 'Volte sempre que você quiser ver neve!', 'Mickey vai me levar para cantar canções de natal!'])
-WinterPlutoDChatter = (['Oi, eu sou o Pluto!', 'Bem-vindo ao Brrrgh. Aqui é frio o ano inteiro!', 'Feliz Feriado de Inverno!', 'Feliz Feriado de Inverno, %'], ['Eu mordi um picolé e fiquei com dor de cabeça!',
-  'É como viver em um globo de neve!',
-  'Queria estar ao lado de uma boa fogueira!',
-  'Au! Au! Eu preciso de um cachecol!',
-  'Pelo menos meu focinho não está vermelho e brilhando!'], ['Divirta-se muito durante as Feriado de Inverno!', 'Volte sempre que você quiser ver neve!', 'Mickey vai me levar para cantar canções de natal!'])
-AFMickeyChatter = (['Feliz Semana dos Toons de Abril!', 'Feliz Semana dos Toons de Abril, %!', 'Oi, meu nome é '+Mickey+'. Qual é o seu?'], ['Bem-vindo aos Jardins! Eu sou a ' +Daisy+ '!',
-  'Queria desejar uma feliz Semana dos Toons de Abril para a Margarida!',
-  'Você ouviu um Rabisco falar?',
-  'Oh, essas flores são lindas!',
-  'Aposto que a Margarida tem ótimas dicas de Jardinagem!'], ['Oi, estou procurado a Margarida. Você a viu?',
-  'É hora de dar uma cochilada. Vou para a Sonholândia.'])
-AFMickeyChatter = (['Feliz Semana Toons de Abril!', 'Feliz Semana Toons de Abril, %!'], ['Bem-vindo aos Jardins! Eu sou a ' + Daisy + '!',
-  'Eu sou a ' + Daisy + ' e amo o jardim!',
-  'A Semana Toons de Abril é a mais boba do ano!',
-  'O quê? Você nunca viu um pato com orelhas de rato?',
-  'Oi, eu sou a ' + Daisy + '! Quack!',
-  'Este barulho é igual ao do pato!',
-  'Parece que hoje eu estou diferente!',
-  'Você já escutou o seu Rabisco falar?',
-  'A Gravidade tirou feriado nas propriedades'], ['Tenha uma Semana Louca dos Toons de Abril!', 'Diga oi ao Mickey por mim!'])
-AFMinnieChatter = (['Feliz Semana Toons de Abril!', 'Feliz Semana Toons de Abril, %!'], ['Bem-vindo a ' + lTheBrrrgh + '! Eu sou o ' + Pluto + '!',
-  'Oi, eu sou o ' + Pluto + '! Qual é o seu nome?',
-  'O quê? Você nunca viu um cachorro com orelhas de rato?',
-  'Parece que hoje eu estou diferente!',
-  'Alguém tem biscoito para cachorro? Estou com fome!Au au! Meu nome é ' + Pluto + '!',
-  'Isto não é bobo?',
-  'Não me faça caçar você!',
-  'A Semana Toons de Abril é a mais boba do ano!',
-  'Você já escutou o seu Rabisco falar?',
-  'A Gravidade tirou feriado nas propriedades'], ['Tenha uma Semana Louca dos Toons de Abril!', 'Eu tenho que correr atrás dos carros, agora! Tchau!'])
-AFDaisyChatter = (['Feliz Semana Toons de Abril!', 'Feliz Semana Toons de Abril, %!'], ['Bem-vindo a ' + lToontownCentral + '! Eu sou ' + Mickey + ' Mouse!',
-  'Oi, eu sou o ' + Mickey + '! O rato mais feliz de Toontown!',
-  'Se você vir ' + Daisy + ', diga a ela ' + Mickey + ' que eu falei oi!',
-  'O quê? Você nunca viu um rato com penas?',
-  'Isto não é bobo?',
-  'Parece que hoje eu estou diferente!',
-  'A Semana Toons de Abril é a mais boba do ano!',
-  'Você já escutou o seu Rabisco falar?',
-  'A Gravidade tirou feriado nas propriedades'], ['Tchau! Diga a eles ' + Mickey + ' enviou para você!', 'Se você for aos ' + lDaisyGardens + ', diga olá a ela por mim!'])
-AFGoofySpeedwayChatter = (['Feliz Semana Toons de Abril!', 'Feliz Semana Toons de Abril, %!'], ['Bem-vindo à Sonhoândia! Eu sou o ' + Donald + '!',
-  'Oi, eu sou o ' + Donald + '! Ainda não é a hora da soneca?',
-  'Sabe, um pato precisa do seu sono de beleza!',
-  'O quê? Você nunca viu um pato com orelhas de cachorro?',
-  'Puxa! Quero dizer, Quack!',
-  'Esta seria uma ótima pista de corrida... ou melhor, um lugar para tirar uma soneca!',
-  'Parece que hoje eu estou diferente!',
-  'A Semana Toons de Abril é a mais boba do ano!',
-  'Você já escutou o seu Rabisco falar?',
-  'A Gravidade tirou feriado nas propriedades'], ['Se você vir ' + Goofy + ', diga a ele ' + Donald + ' que eu mandei um oi!', 'Tchau e boa-noite!'])
-AFDonaldChatter = (['Feliz Semana Toons de Abril!', 'Feliz Semana Toons de Abril, %!'], ['Bem-vindo ao Circuito! Eu sou o ' + Goofy + '!',
-  'Eu sou o' + Goofy + ' e estou sonhando que eu sou o' + Donald + '!',
-  'Eu já ouvi falar que sonâmbulos andam... mas dirigir??',
-  'Puxa!  Que bobinho, digo, docinho' + Goofy + '!',
-  'Como eu posso ver as corridas com meus olhos fechados?',
-  'É melhor eu tirar uma soneca antes da minha próxima corrida!',
-  'A Semana Toons de Abril é a mais boba do ano!',
-  'Parece que hoje eu estou diferente!',
-  'Você já escutou o seu Rabisco falar?', 
-  'A Gravidade tirou feriado nas propriedades'], ['Tenha uma Semana Louca dos Toons de Abril!', 'Preciso trabalhar no meu kart!  Tchau!'])
-AFDonaldDockChatter = (['Feliz Semana Toons de Abril!', 'Feliz Semana Toons de Abril, %!'], ['Todo mundo folga na Semana Toons de Abril, menos eu!',
-  'Eu sou o único que tem de trabalhar nesta semana!',
-  'Eu só descanso quando durmo!',
-  'Todos os meus amigos estão fingindo ser outras pessoas!',
-  'Rodando e rodando neste barco, o dia todo!',
-  'Eu ouvi dizer que Margarida está fingindo ser o Mickey!',
-  'Estamos na semana mais boba do ano e eu a estou perdendo!',
-  'Você já escutou o seu Rabisco falar?',
-  'A Gravidade tirou feriado nas propriedades'], ['Tenha uma Semana Louca dos Toons de Abril!', 'Pregue uma peça nos Cogs por mim!'])
-AFPlutoChatter = (['Feliz Semana Toons de Abril!', 'Feliz Semana Toons de Abril, %!'], ['Bem-vindo à Melodilândia!  Eu sou a ' + Minnie + '!',
-  'Oi, meu nome é ' + Minnie + ' Mouse!',
-  'Eu são tão feliz quanto uma ratinha pode ser!',
-  'O quê? Você nunca viu uma ratinha com orelhas de cachorro?',
-  'Eu adoro quando ' + Mickey + ' e eu saímos para passear!',
-  'O quê? Você nunca ouviu uma rata falar antes?',
-  'A Semana Toons de Abril é a mais boba do ano!',
-  'Você já escutou o seu Rabisco falar?',
-  'A Gravidade tirou feriado nas propriedades!'], ['Tenha uma Semana Louca dos Toons de Abril!', 'Se você vir ' + Pluto + ', diga que a ' + Minnie + 'mandou um oi!'])
-AFChipChatter = (['Feliz Semana Toons de Abril!', 'Feliz Semana Toons de Abril, %!'], ['Oi, eu sou o ' + Dale + '!',
-  'Como você está, ' + Chip + '?',
-  'Eu sempre achei que você era ' + Dale + ', ' + Chip + '.',
-  'Tem certeza de que você é o ' + Chip + ' e não o ' + Dale + ', ' + Chip + '?',
-  'A Semana de Toons de Abril é a mais boba do ano!'], ['Tchau de ' + Chip + ' e ' + Dale + '!'])
-AFDaleChatter = (['Feliz Semana Toons de Abril!', 'Feliz Semana Toons de Abril, %!'], ['Oi, eu sou ' + Chip + '!',
-  'Muito bem, ' + Dale + ' ... obrigado!',
-  'Não, eu sou o' + Chip + ', ' + Dale + '.',
-  'Sim, ' + Dale + ' , eu sou o' + Chip + ', e não o ' + Dale + '.',
-  'Certamente, ' + Chip + '! Quero dizer, ' + Dale + '.'], ['Ou ' + Dale + ' e ' + Chip + '!'])
-CLGoofySpeedwayChatter = (['Bem-vindo ao ' + lGoofySpeedway + '.', 'Oi, meu nome é ' + Goofy + '. Qual é o seu?', 'Ohoh, que bom ver você %!', 'Oi!  Perdoe minhas roupas sujas, estava consertando aquele Quadro de Pontuação quebrado.'], ['É bom que o Quadro de Pontuação esteja funcionando logo, pois o Fim de Semana do Grande Prêmio está chegando!',
-  'Alguém quer comprar um kart meio usado? Ele já apareceu no Quadro de Pontuação!',
-  'O Fim de Semana do Grande do Prêmio está chegando, é melhor começar a treinar.',
-  'O Fim de Semana do Grande Prêmio será de sexta-feira, 22, a segunda-feira, 25 de maio!',
-  'Preciso de uma escada para descer aquele kart.',
-  'Aquele Toon realmente queria aparecer no Quadro de Pontuação!',
-  'Cara, acabei de ver uma corrida terrível.',
-  'Cuidado com as cascas de banana na pista!',
-  'Você fez algumas melhorias em seu kart ultimamente?',
-  'Precisamos adquirir alguns aros novos na loja de kart.',
-  'Ei, você viu o ' + Donald + '?',
-  'Se vir o meu amigo ' + Mickey + ', mande lembranças a ele por mim.',
-  'Puxa! Esqueci de preparar o café da manhã do ' + Mickey + '!',
-  'Ohoh, tem um monte de ' + Cogs + ' perto do ' + lDonaldsDock + '.',
-  'Nos galhos do Brrrgh da minha Loja de Brincadeiras, os Óculos Hipnotizantes estão à venda por apenas 1 balinha!',
-  'A Loja de Piadas do Pateta tem as melhores piadas, truques e brincadeiras divertidas de toda Toontown!',
-  'Na Loja de Piadas do Pateta, até uma torta na cara é garantia de boas risadas ou você recebe suas balinhas de volta!'], ['É bom eu fazer uma nova pintura no meu kart antes do Fim de Semana do Grande Prêmio.',
-  'Caramba, é melhor eu dar um jeito nesse Quadro de Pontuação quebrado!',
-  'Espero ver todos vocês no Fim de Semana do Grande Prêmio!  Adeus!',
-  'É hora de dar uma cochilada. Vou para a Sonholândia sonhar com a vitória no Grande Prêmio.'])
-GPGoofySpeedwayChatter = (['Bem-vindo ao ' + lGoofySpeedway + '.', 'Bem-vindo ao Fim de Semana do Grande Prêmio!', 'Oi, meu nome é ' + Goofy + '. Qual é o seu?', 'Ohoh, que bom ver você %!'], ['Você está na expectativa do Fim de Semana do Grande Prêmio?',
-  'A boa notícia é que o Quadro de Pontuação está pronto.',
-  'Conseguimos consertar o Quadro de Pontuação bem na hora do Fim de Semana do Grande Prêmio!',
-  'Nunca encontramos aquele Toon!',
-  'Cara, acabei de ver uma corrida terrível.',
-  'Cuidado com as cascas de banana na pista!',
-  'Você fez algumas melhorias em seu kart ultimamente?',
-  'Precisamos comprar alguns aros novos na loja de kart.',
-  'Ohoh, você viu o ' + Donald + '? Ele disse que estava vindo para o Grande Prêmio!',
-  'Se vir o meu amigo ' + Mickey + ', diga a ele que está perdendo uma corrida incrível!',
-  'Puxa! Esqueci de preparar o café da manhã do ' + Mickey + '!',
-  'Ohoh, tem um monte de ' + Cogs + ' perto do ' + lDonaldsDock + '.',
-  'Nos galhos do Brrrgh da minha Loja de Brincadeiras, os Óculos Hipnotizantes estão à venda por apenas 1 balinha!',
-  'A Loja de Piadas do Pateta tem as melhores piadas, truques e brincadeiras divertidas de toda Toontown!',
-  'Na Loja de Piadas do Pateta, até uma torta na cara é garantia de boas risadas ou você recebe suas balinhas de volta!'], ['Boa sorte no Grande Prêmio!',
-  'Vou participar da próxima corrida do Grande Prêmio!',
-  'Ohoh, acho que a próxima corrida já vai começar!',
-  'Puxa, é melhor verificar o novo Quadro de Pontuação e garantir que esteja funcionando bem!'])
-SillyPhase1Chatter = ['Se não viu o Medidor de Bobagens, vá para o Prefeitoona!',
+MickeyChatter = ([
+ 'Bem-vindo ao ' + lToontownCentral + '.',
+ 'Oi, meu nome é ' + Mickey + '. Qual é o seu?'], [
+ 'Ei, você viu o ' + Donald + '?',
+ 'Vou ver o nevoeiro passar no ' + lDonaldsDock + '.',
+ 'Se você vir o meu camarada ' + Goofy + ', dê um oi para ele por mim.',
+ 'Ouvi falar que a ' + Daisy + ' plantou novas flores no jardim.'], [
+ '\\Vou para a Melodilândia ver a ' + Minnie + '!',
+ 'Caramba, estou atrasado para meu encontro com a ' + Minnie + '!',
+ 'Parece que é hora de ' + Pluto + ' jantar.',
+ 'Acho que vou nadar no ' + lDonaldsDock + '.',
+ 'É hora de tirar um cochilo. Vou para a Sonholândia.'])
+WinterMickeyCChatter = ([
+ 'Olá, eu sou o Mickey Noel!',
+ 'Bem-vindo à cidade das estrelas... ou melhor, a Toontown!',
+ 'Boas-Festas!',
+ 'Boas-Festas, %'], [
+ 'Cante a música da estação na Campainhas Ding-dong para o Mundo e Felícia certamente devolverá o favor!',
+ 'Nossa, este lugar está bem decorado!',
+ 'Cante a música da estação na Campainhas Ding-dong para o Mundo e Felícia certamente devolverá o favor!',
+ 'Veja só as luzes na árvore! Que maravilha!',
+ 'Cante a música da estação na Campainhas Ding-dong para o Mundo e Felícia certamente devolverá o favor!',
+ 'Nenhuma criatura está se movendo, a não ser este rato aqui!',
+ 'Cante a música da estação na Campainhas Ding-dong para o Mundo e Felícia certamente devolverá o favor!',
+ 'Adoro esta época do ano!',
+ 'Cante a música da estação na Campainhas Ding-dong para o Mundo e Felícia certamente devolverá o favor!',
+ 'Eu estou muito feliz, e você?',
+ 'Cante a música da estação na Campainhas Ding-dong para o Mundo e Felícia certamente devolverá o favor!',
+ 'Você conhece alguma boa canção de Natal?',
+ 'Cante a música da estação na Campainhas Ding-dong para o Mundo e Felícia certamente devolverá o favor!',
+ 'Poxa! Eu adoro a época das Festas!',
+ 'Cante a música da estação na Campainhas Ding-dong para o Mundo e Felícia certamente devolverá o favor!',
+ 'Acho que está na hora de colocar luvas mais quentinhas!'], [
+ 'Tenha boas Festas!',
+ 'Tudo de bom para você!',
+ 'Que pena que você tem de ir embora. Até logo!',
+ 'Vou cantar canções de Natal com a Minnie!'])
+ValentinesMickeyChatter = ([
+ 'Olá, eu sou o Mickey!Bem-vindo à Dia dos namorados!Feliz Dia dos namorados!Feliz Dia dos namorados, %'], [
+ 'O Amor está no ar!  E borboletas também!',
+ 'Aqueles corações são bons para melhorar o Laff!',
+ 'Espero que a Minnie goste do que eu trouxe para ela!',
+ 'O Cattlelog tem vários presentes para o Dia dos namorados!',
+ 'Dê uma festa Dia dos namorados!',
+ 'Mostre aos Cogs, com uma torta na cara, que você os ama!',
+ 'Estou levando a Minnie para o Kooky Café!',
+ 'A Minnie vai querer chocolates ou flores?'], [
+ 'Adorei a sua visita!Diga à Minnie que a pegarei em breve!'])
+WinterMickeyDChatter = ([
+ 'Olá, eu sou o Mickey Noel!',
+ 'Bem-vindo à cidade das estrelas... ou melhor, a Toontown!',
+ 'Boas-Festas!',
+ 'Boas-Festas, %'], [
+ 'Nossa, este lugar está bem decorado!',
+ 'Veja só as luzes na árvore! Que maravilha!',
+ 'Nenhuma criatura está se movendo, a não ser este rato aqui!',
+ 'Adoro esta época do ano!',
+ 'Eu estou muito feliz, e você?',
+ 'Você conhece alguma boa canção de Natal?',
+ 'Poxa! Eu adoro a época das Festas!',
+ 'Acho que está na hora de colocar luvas mais quentinhas!'], [
+ 'Tenha boas Festas!',
+ 'Tudo de bom para você!',
+ 'Que pena que você tem de ir embora. Até logo!',
+ 'Vou cantar canções de Natal com a Minnie!'])
+VampireMickeyChatter = ([
+ 'Bem-vindo ao ' + lToontownCentral + '.',
+ 'Oi, meu nome é ' + Mickey + '. Qual é o seu?',
+ 'Feliz Halloween!',
+ 'Feliz Halloween, %!',
+ 'Bem-vindo ao Centro da Cidade Assombrada... quero dizer, ao ' + lToontownCentral + '!'], [
+ 'Se você acha que fazer travessuras é divertido, visite Ralf Desocupado, na Só Diversão, para ganhar uma gostosura!',
+ 'É divertido vestir fantasias para o Halloween!',
+ 'Se você acha que fazer travessuras é divertido, visite Ralf Desocupado, na Só Diversão, para ganhar uma gostosura!',
+ 'Você gosta da minha fantasia?',
+ 'Se você acha que fazer travessuras é divertido, visite Ralf Desocupado, na Só Diversão, para ganhar uma gostosura!',
+ '%, tome cuidado com os Cogs Vampiros!',
+ 'Se você acha que fazer travessuras é divertido, visite Ralf Desocupado, na Só Diversão, para ganhar uma gostosura!',
+ 'As decorações de Halloween ficaram ótimas, né?',
+ 'Se você acha que fazer Diversões e Jogos, visite Ralf Desocupado, na Só Diversão, para ganhar uma gostosura!',
+ 'Tome cuidado com os gatos pretos!',
+ 'Se você acha que fazer Diversões e Jogos, visite Ralf Desocupado, na Só Diversão, para ganhar uma gostosura!',
+ 'Você viu o Toon com a cabeça de abóbora?',
+ 'Se você acha que fazer Diversões e Jogos, visite Ralf Desocupado, na Só Diversão, para ganhar uma gostosura!',
+ 'Bu!  Eu assustei você?',
+ 'Se você acha que fazer Diversões e Jogos, visite Ralf Desocupado, na Só Diversão, para ganhar uma gostosura!',
+ 'Não se esqueça de escovar as presas!',
+ 'Se você acha que fazer Diversões e Jogos, visite Ralf Desocupado, na Só Diversão, para ganhar uma gostosura!',
+ 'Não se assuste, sou um vampiro bonzinho!',
+ 'Se você acha que fazer Diversões e Jogos, visite Ralf Desocupado, na Só Diversão, para ganhar uma gostosura!',
+ 'Espero que você esteja gostando da nossa diversão de Halloween!',
+ 'Se você acha que fazer Diversões e Jogos, visite Ralf Desocupado, na Só Diversão, para ganhar uma gostosura!',
+ 'Os vampiros estão muito populares este ano!'], [
+ 'Vou olhar as decorações curiosas de Halloween.',
+ 'Vou a Melodilândia fazer uma surpresa à ' + Minnie + '!',
+ 'Vou assustar outro Toon!  Shhh!',
+ 'Vou brincar de doces ou travessuras!',
+ 'Shhh, vem comigo.'])
+MinnieChatter = ([
+ 'Bem-vindo à Melodilândia.',
+ 'Oi, meu nome é ' + Minnie + '. Qual é o seu?'], [
+ 'As colinas ganham vida com o som da música!',
+ 'Sua roupa é legal, %.',
+ 'Ei, você viu o ' + Mickey + '?',
+ 'Se você vir meu amigo ' + Goofy + ', dê um oi para ele por mim.',
+ 'Uau, há milhares de ' + Cogs + ' perto da ' + lDonaldsDreamland + '.',
+ 'Ouvi falar que tem neblina no ' + lDonaldsDock + '.',
+ 'Não deixe de experimentar o labirinto dos ' + lDaisyGardens + '.',
+ 'Acho que vou catar algumas canções.',
+ 'Ei, %, olha aquilo lá.',
+ 'Adoro o som da música.',
+ 'Aposto que você não sabia que a Melodilândia também é chamada de ToadaTown! Ah, ah, ah!',
+ 'Adoro jogo da memória. E você?',
+ 'Gosto de fazer as pessoas rirem.',
+ 'Cara, andar sobre rodas o dia todo não é moleza para os pés!',
+ 'Bonita camisa, %.',
+ 'Aquilo no chão é uma balinha?'], [
+ 'Caramba, estou atrasada para o meu encontro com o ' + Mickey + '!',
+ 'Parece que é hora de ' + Pluto + ' jantar.',
+ 'É hora de tirar um cochilo. Vou para a Sonholândia.'])
+WinterMinnieCChatter = ([
+ 'Olá, eu sou a Minnie Noel!',
+ 'Bem-vindo à terra das canções de Natal!',
+ 'Boas-Festas!',
+ 'Boas-Festas, %!'], [
+ 'Você vai ganhar muito mais do que um corte de cabelo se cantar para Bárbara Sevilha na Um Penteado por Uma Canção!',
+ 'Solte a voz, Toon!',
+ 'Você vai ganhar muito mais do que um corte de cabelo se cantar para Bárbara Sevilha na Um Penteado por Uma Canção!',
+ 'Mostre como se canta, Toon!',
+ 'Você vai ganhar muito mais do que um corte de cabelo se cantar para Bárbara Sevilha na Um Penteado por Uma Canção!',
+ 'Você consegue seguir a melodia de Melodyland?',
+ 'Você vai ganhar muito mais do que um corte de cabelo se cantar para Bárbara Sevilha na Um Penteado por Uma Canção!',
+ 'Essas lâmpadas parecem estar bem quentinhas com o cachecol!',
+ 'Você vai ganhar muito mais do que um corte de cabelo se cantar para Bárbara Sevilha na Um Penteado por Uma Canção!',
+ 'Cantar é tudo!',
+ 'Você vai ganhar muito mais do que um corte de cabelo se cantar para Bárbara Sevilha na Um Penteado por Uma Canção!',
+ 'Sempre vou gostar de você, mesmo cantando mal!',
+ 'Você vai ganhar muito mais do que um corte de cabelo se cantar para Bárbara Sevilha na Um Penteado por Uma Canção!',
+ 'Tudo fica mais bonito com flores!'], [
+ 'Divirta-se muito durante as Festas!',
+ 'Caminhos felizes!',
+ 'Mickey vai me levar para cantar canções de natal!'])
+WinterMinnieDChatter = ([
+ 'Olá, eu sou a Minnie Noel!',
+ 'Bem-vindo à terra das canções de Natal!',
+ 'Boas-Festas!',
+ 'Boas-Festas, %!'], [
+ 'Solte a voz, Toon!',
+ 'Mostre como se canta, Toon!',
+ 'Você consegue seguir a melodia de Melodyland?',
+ 'Essas lâmpadas parecem estar bem quentinhas com o cachecol!',
+ 'Cantar é tudo!',
+ "You can't go wrong with a song!",
+ 'Sempre vou gostar de você, mesmo cantando mal!',
+ 'Tudo fica mais bonito com flores!'], [
+ 'Divirta-se muito durante as Festas!',
+ 'Caminhos felizes!',
+ 'Mickey vai me levar para cantar canções de natal!'])
+ValentinesMinnieChatter = ([
+ 'Olá, eu sou a Minnie!',
+ 'Feliz Dia dos namorados!',
+ 'Feliz Dia dos namorados,  %'], [
+ 'Espero que o Mickey traga chocolates ou flores para mim!',
+ 'Aqueles corações são bons para melhorar o Laff!',
+ 'Eu quero ir a uma festa ValenToon!',
+ 'Espero que o Mickey me leve ao Kooky Café!',
+ 'Mickey é um ótimo Dia dos namorados!',
+ 'O que você trouxe para seu Dia dos namorados ',
+ 'O Mickey nunca perdeu um Dia dos namorados!'], [
+ 'Espalhe o amor!',
+ 'Adorei sua visita!'])
+WitchMinnieChatter = ([
+ 'Bem-vindo a uma terra mágica... ou melhor, à Terra da Melodia!',
+ 'Olá, meu nome é Minnie Mágica! Qual é o seu?',
+ 'Olá, acho você um encanto!',
+ 'Feliz Halloween!',
+ 'Feliz Halloween, %!'], [
+ 'Ouvi dizer que Tábata tem gostosuras para aqueles que sabem fazer travessuras lá na Gatinha Bacana!',
+ 'É um dia mágico, não acha?',
+ 'Ouvi dizer que Tábata tem gostosuras para aqueles que sabem fazer travessuras lá na Gatinha Bacana!',
+ 'Onde eu coloquei meu livro de magia?',
+ 'Ouvi dizer que Tábata tem gostosuras para aqueles que sabem fazer travessuras lá na Gatinha Bacana!',
+ 'Abracadabra!',
+ 'Ouvi dizer que Tábata tem gostosuras para aqueles que sabem fazer travessuras lá na Gatinha Bacana!',
+ 'Toontown está assustadora hoje!',
+ 'Ouvi dizer que Tábata tem gostosuras para aqueles que sabem fazer travessuras lá na Gatinha Bacana!',
+ 'Você também está vendo estrelas?',
+ 'Ouvi dizer que Tábata tem gostosuras para aqueles que sabem fazer travessuras lá na Gatinha Bacana!',
+ 'Roxo é a minha cor favorita!',
+ 'Ouvi dizer que Tábata tem gostosuras para aqueles que sabem fazer travessuras lá na Gatinha Bacana!',
+ 'Espero que o seu Halloween seja um susto só!',
+ 'Ouvi dizer que Tábata tem gostosuras para aqueles que sabem fazer travessuras lá na Gatinha Bacana!',
+ 'Tome cuidado com as aranhas musicais!',
+ 'Ouvi dizer que Tábata tem gostosuras para aqueles que sabem fazer travessuras lá na Gatinha Bacana!',
+ 'Espero que você esteja gostando da nossa diversão de Halloween!'], [
+ 'Eu vou desaparecer agora!',
+ 'Está na hora de desaparecer!',
+ 'Mickey vai me levar para pedir gostosuras!'])
+DaisyChatter = ([
+ 'Bem-vindo(a) ao meu Jardim!',
+ 'Olá, meu nome é ' + Daisy + '. Qual o seu nome?',
+ 'É muito bom ver você, %!'], [
+ 'Minha flor premiada está no centro do labirinto do jardim.',
+ 'Eu adoro andar pelo labirinto.',
+ 'Eu não ví o ' + Goofy + ' hoje.',
+ 'Eu gostaria de saber onde o ' + Goofy + ' está.',
+ 'Você viu o ' + Donald + '? Eu não consigo encontrá-lo em lugar algum.',
+ 'Se você vir minha amiga ' + Minnie + ', por favor diga "Oi" por mim.',
+ 'Quanto melhor as ferramentas de jardinagem que você tem, melhor será seu jardim.',
+ 'Existem muitos ' + Cogs + ' perto do ' + lDonaldsDock + '.',
+ 'Regando seu jardim diariamente você deixa suas plantas felizes.',
+ 'Para cultivar uma Margarida Rosa, plante uma balinha amarela e uma vermelha juntas.',
+ 'É facil cultivar uma Margarida Amarela. Basta plantar uma balinha amarela.',
+ 'Se você vir areia embaixo de uma planta, está na hora de regar ou ela morrerá.'], [
+ 'Estou indo para Melodilândia para ver %s!' % Minnie,
+ 'Preciso correr para o meu picnic com %s!' % Donald,
+ 'Acho que vou nadar no ' + lDonaldsDock + '.',
+ 'Oh, estou com sono. Acho que vou para a Sonholândia.'])
+ValentinesDaisyChatter = ([
+ 'Olá, eu sou a Margarida!',
+ 'Feliz Dia dos namorados!',
+ 'Feliz Dia dos namorados,  %'], [
+ 'Espero que o Donald não me traga outro Amore Eel!',
+ "O Donald está me levando ao 'Deep-Sea'!",
+ 'Com certeza, eu tenho rosas suficientes!',
+ 'Aqueles corações são bons para melhorar o Laff!',
+ 'Eu adoraria ir a uma festa Dia dos namorados!',
+ 'Este é um jardim onde o amor cresce!',
+ 'É bom que o Donald não durma novamente no Dia dos namorados!',
+ 'Talvez eu e o Donald possamos sair com o Mickey e a Minnie!'], [
+ 'Diga ao Donald que eu estou esperando por ele!',
+ 'Feliz Dia dos namorados!'])
+WinterDaisyCChatter = ([
+ 'Bem-vindo ao único jardim que cresce no inverno!',
+ 'Boas-Festas!',
+ 'Boas-Festas, %!'], [
+ 'Suzana, da Artesanato Pínus, adora música, então por que não compor uma canção de Natal para ela?',
+ 'Meu jardim precisa de mais visco!',
+ 'Suzana, da Artesanato Pínus, adora música, então por que não compor uma canção de Natal para ela?',
+ 'Preciso plantar azevinho para o ano que vem!',
+ 'Suzana, da Artesanato Pínus, adora música, então por que não compor uma canção de Natal para ela?',
+ 'Vou pedir para o Pateta construir uma casa de biscoito de gengibre para mim!',
+ 'Suzana, da Artesanato Pínus, adora música, então por que não compor uma canção de Natal para ela?',
+ 'Essas luzes são lindas!',
+ 'Suzana, da Artesanato Pínus, adora música, então por que não compor uma canção de Natal para ela?',
+ 'O azevinho deixa o ambiente mais alegre!',
+ 'Suzana, da Artesanato Pínus, adora música, então por que não compor uma canção de Natal para ela?',
+ 'Meu boneco de neve sempre derrete!',
+ 'Suzana, da Artesanato Pínus, adora música, então por que não compor uma canção de Natal para ela?',
+ 'Que pato mais enfeitado!',
+ 'Suzana, da Artesanato Pínus, adora música, então por que não compor uma canção de Natal para ela?',
+ 'Eu mesma que criei todas estas luzes!'], [
+ 'Tenha Festas cheias de alegria!',
+ 'Boa plantação!',
+ 'Diga a Donald para trazer meus presentes!',
+ 'Donald vai me levar para cantar canções de natal!'])
+WinterDaisyDChatter = ([
+ 'Bem-vindo ao único jardim que cresce no inverno!',
+ 'Boas-Festas!',
+ 'Boas-Festas, %!'], [
+ 'Meu jardim precisa de mais visco!',
+ 'Preciso plantar azevinho para o ano que vem!',
+ 'Vou pedir para o Pateta construir uma casa de biscoito de gengibre para mim!',
+ 'Essas luzes são lindas!',
+ 'O azevinho deixa o ambiente mais alegre!',
+ 'Meu boneco de neve sempre derrete!',
+ 'Que pato mais enfeitado!',
+ 'Eu mesma que criei todas estas luzes!'], [
+ 'Tenha Festas cheias de alegria!',
+ 'Boa plantação!',
+ 'Diga a Donald para trazer meus presentes!',
+ 'Donald vai me levar para cantar canções de natal!'])
+HalloweenDaisyChatter = ([
+ 'Bem-vindo ao jardim fantasma... quer dizer, ao jardim da Margarida!',
+ 'Feliz Halloween!',
+ 'Feliz Halloween, %!'], [
+ 'Se você tiver uma travessura, visite meu amigo J. Jardim, na Pousada Pá de Coisa, para ganhar gostosuras!',
+ 'Quer dançar?',
+ 'Se você tiver uma travessura, visite meu amigo J. Jardim, na Pousada Pá de Coisa, para ganhar gostosuras!',
+ 'Sou um pato com uma saia poodle!',
+ 'Se você tiver uma travessura, visite meu amigo J. Jardim, na Pousada Pá de Coisa, para ganhar gostosuras!',
+ 'A árvore pirata precisa de água.',
+ 'Se você tiver uma travessura, visite meu amigo J. Jardim, na Pousada Pá de Coisa, para ganhar gostosuras!',
+ 'Gostosuras ou árvores!',
+ 'Se você tiver uma travessura, visite meu amigo J. Jardim, na Pousada Pá de Coisa, para ganhar gostosuras!',
+ 'Você notou algo estranho nas árvores?',
+ 'Se você tiver uma travessura, visite meu amigo J. Jardim, na Pousada Pá de Coisa, para ganhar gostosuras!',
+ 'Eu deveria plantar algumas abóboras!',
+ 'Se você tiver uma travessura, visite meu amigo J. Jardim, na Pousada Pá de Coisa, para ganhar gostosuras!',
+ 'QUEM notou algo diferente nas lâmpadas?',
+ 'Se você tiver uma travessura, visite meu amigo J. Jardim, na Pousada Pá de Coisa, para ganhar gostosuras!',
+ 'Eu realmente gosto do Halloween!',
+ 'Se você tiver uma travessura, visite meu amigo J. Jardim, na Pousada Pá de Coisa, para ganhar gostosuras!',
+ 'Gostosuras ou galhos!',
+ 'Se você tiver uma travessura, visite meu amigo J. Jardim, na Pousada Pá de Coisa, para ganhar gostosuras!',
+ 'Aposto que você não reparou nas lâmpadas assustadoras!',
+ 'Se você tiver uma travessura, visite meu amigo J. Jardim, na Pousada Pá de Coisa, para ganhar gostosuras!',
+ 'Espero que você esteja gostando da nossa diversão de Halloween!'], [
+ 'Donald vai me levar para pedir gostosuras!',
+ 'Vou dar uma olhada nas decorações divertidas de Halloween.'])
+ChipChatter = ([
+ 'Boas-vindas a %s!' % lOutdoorZone,
+ 'Olá, sou ' + Chip + '. Qual é o seu nome?',
+ 'Não, eu sou ' + Chip + '.',
+ 'É tão bom ver você, %!',
+ 'Somos Tico e Teco!'], [
+ 'Gosto de golfe.',
+ 'Temos as melhores bolotas de Toontown.',
+ 'Os buracos de golfe com vulcões são os mais desafiadores para mim.'], [
+ 'Vamos até ' + lTheBrrrgh + ' brincar com %s.' % Pluto,
+ 'Vamos visitar %s e dar um jeito nele.' % Donald,
+ 'Acho que vou nadar no ' + lDonaldsDock + '.',
+ 'Oh, estou com sono. Acho que vou até a Sonholândia.'])
+ValentinesChipChatter = ([
+ 'Eu sou o Tico!',
+ 'Feliz Dia dos namorados!',
+ 'Feliz Dia dos namorados,  %!'], [
+ 'O que você trouxe para mim no Dia dos namorados, Teco?',
+ 'Aqueles corações são bons para melhorar o Laff!',
+ 'Você será meu ValenToon, Teco?',
+ 'O que você pegou para os Cogs para o Dia dos namorados, Teco?',
+ 'Eu amo o Dia dos namorados!'], [
+ 'Volte quando quiser!'])
+WinterChipChatter = ([
+ 'Boas-Festas!',
+ 'Vestidos como esquilos!',
+ 'Boas-Festas, %!'], [
+ 'Boas-Festas, Teco!',
+ 'E nós pensávamos que toda esta água congelaria no inverno!',
+ 'Deveríamos trocar as bolas de golfe por bolas de neve!',
+ 'Se ao menos os esquilos soubessem cantar!',
+ 'Eu disse para VOCÊ fazer isso!',
+ 'Eu disse para VOCÊ fazer isso!'], [
+ 'Tenha Festas cheias de alegria!',
+ 'Não se esqueça de dar um presente aos Cogs por nós!'])
+HalloweenChipChatter = ([
+ 'Jogue um pouco de miniterror... quer dizer, minigolfe!',
+ 'Feliz Halloween!',
+ 'Feliz Halloween, %!'], [
+ 'Somos malucos por Halloween!',
+ 'Você está preso.',
+ 'Você não pode fugir do braço longo da lei.',
+ 'Sou um Tira!',
+ 'Espero que esteja curtindo a nossa diversão de Halloween!',
+ 'Jogue golfe a acerte o Buraco do Medo.',
+ 'As balinhas são mais doces do que as bolotas.',
+ 'Espero que você esteja gostando da nossa diversão de Halloween!'], [
+ '%, watch out for Bloodsucker Cogs!'])
+DaleChatter = ([
+ 'É tão bom ver você, %!',
+ 'Olá, sou ' + Dale + '. Qual é o seu nome?',
+ 'Olá, sou ' + Chip + '.',
+ 'Boas-vindas a %s!' % lOutdoorZone,
+ 'Somos Tico e Teco!'], [
+ 'Gosto de piqueniques.',
+ 'As bolotas são gostosas, experimente.',
+ 'Aqueles moinhos também são difíceis.'], [
+ 'Hihihi, é divertido brincar com ' + Pluto + '.',
+ 'Sim, vamos dar um jeito em %s.' % Donald,
+ 'Ah, seria refrescante dar uma nadada.',
+ 'Estou ficando cansado, uma boa soneca cairia bem.'])
+ValentinesDaleChatter = ([
+ 'Eu sou o Teco!',
+ 'Feliz Dia dos namorados!',
+ 'Feliz Dia dos namorados,  %!'], [
+ 'O mesmo do ano passado.  NADA!',
+ 'Eu perdi as nozes!',
+ 'Você será meu Dia dos namorados, Tico?',
+ 'Uma torta na cara!',
+ 'Sim, é legal.'], [
+ 'Nós estaremos livres durante todo o Dia dos namorados!'])
+WinterDaleChatter = ([
+ 'Boas-Festas!',
+ 'Olá, somos dois elfos do Natal!',
+ 'Esquilos Noéis!',
+ 'Boas-Festas, %!'], [
+ 'Boas-Festas, Tico!',
+ 'E nós pensávamos que toda esta água congelaria no inverno!',
+ 'Deveríamos trocar as bolas de golfe por bolas de neve!',
+ 'Se ao menos os esquilos soubessem cantar!',
+ 'Você se lembrou de guardar as nozes para o inverno?',
+ 'Oh-oh!'], [
+ 'Tenha Festas cheias de alegria!',
+ 'Não se esqueça de dar um presente aos cogs por nós!'])
+HalloweenDaleChatter = ([
+ 'Feliz Halloween, %!',
+ 'Jogue um pouco de miniterror... quer dizer, minigolfe!',
+ 'Feliz Halloween!'], [
+ 'Somos malucos por Halloween!',
+ 'Ótimo, posso usar o restante!',
+ 'Mas seus braços são curtos!',
+ 'Achei que você fosse uma Lasca!',
+ 'Jogue golfe a acerte o Buraco do Medo.',
+ 'As balas de milho são mais doces do que as bolotas.',
+ 'Espero que esteja curtindo a nossa diversão de Halloween!'], [
+ '%, tome cuidado com os Cogs Vampiros!'])
+GoofyChatter = ([
+ 'Bem-vindo aos ' + lDaisyGardens + '.',
+ 'Oi, meu nome é ' + Goofy + '. Qual é o seu?',
+ 'Puxa, muito legal ver você %!'], [
+ 'Cara, com certeza é fácil se perder no labirinto do jardim!',
+ 'Não deixe de tentar entrar no labirinto.',
+ 'Não vi a ' + Daisy + ' o dia todo.',
+ 'Onde será que a ' + Daisy + ' está?',
+ 'Ei, você viu o ' + Donald + '?',
+ 'Se você vir o meu amigo ' + Mickey + ', dê um oi para ele por mim.',
+ 'Ah, não! Esqueci de fazer o café da manhã do ' + Mickey + '!',
+ 'Puxa, com certeza há muitos ' + Cogs + ' perto do ' + lDonaldsDock + '.',
+ 'Parece que a ' + Daisy + ' plantou novas flores no jardim.',
+ 'Na filial da minha Loja de Piadas no Brrrgh, há Óculos hipnóticos em promoção por apenas uma balinha!',
+ 'As Lojas de piadas do Pateta oferecem as melhores gozações, truques e comédias de toda Toontown!',
+ 'Nas Lojas de piadas do Pateta, todas as tortas na cara têm garantia de fazer rir, ou você tem as suas balinhas de volta!'], [
+ '\\Vou para Melodilândia para ver a  ' + Minnie + '!',
+ 'Caramba, estou atrasado para o meu jogo com o  ' + Donald + '!',
+ 'Acho que vou nadar no Porto do ' + lDonaldsDock + '.',
+ 'É hora de tirar um cochilo. Vou para a Sonholândia.'])
+WinterGoofyChatter = ([
+ 'Eu sou o Pateta e adoro a época das Festas!',
+ 'Bem-vindo ao Circuito Bola de Neve!',
+ 'Boas-Festas!',
+ 'Boas-Festas, %!'], [
+ 'Quem precisa de renas quando se tem um kart veloz?',
+ 'Nossa! Já chegaram as Festas?',
+ 'Eu preciso dos meus protetores de orelha!',
+ 'Ainda não comecei a comprar os presentes!',
+ 'Não dirija seu kart no gelo!',
+ 'Parece que faz apenas um ano que estávamos na época das Festas!',
+ 'Deixe o seu kart todo enfeitado!',
+ 'Estes karts são melhores do que qualquer trenó velho!',
+ 'É difícil dirigir com a cabeça de um boneco de neve?'], [
+ 'Tenha Festas muito felizes!',
+ 'Dirija com cuidado!',
+ 'Cuidado com as renas aladas!'])
+ValentinesGoofyChatter = ([
+ 'Eu sou o Pateta e estou animado para o Dia ValenToon!',
+ 'Feliz Dia dos namorados!',
+ 'Feliz Dia dos namorados,  %!'], [
+ 'Nossa!  Já é o Dia dos namorados?',
+ 'Eu ADORO corrida de kart!',
+ 'Seja bacana com os outros!',
+ 'Mostre ao seu amor o novo kart!',
+ 'Toons amam seus karts!',
+ 'Faça alguns novos amigos na pista!'], [
+ 'Dirija com cuidado!',
+ 'Demonstre um pouco de amor!'])
+GoofySpeedwayChatter = ([
+ 'Bem-vindo a ' + lGoofySpeedway + '.',
+ 'Oi, meu nome é ' + Goofy + '. Qual é o seu?',
+ 'Puxa, muito legal ver você %!'], [
+ 'Cara, assisti a uma corrida maneira hoje.',
+ 'Cuidado com as cascas de banana na pista!',
+ 'Você deu uma incrementada no seu kart?',
+ 'A gente acabou de pegar uns aros novos na loja do kart.',
+ 'Oi, você viu ' + Donald + '?',
+ 'Se você vir meu amigo ' + Mickey + ', diz que eu mandei um alô.',
+ 'Ah, não! Esqueci de preparar para ' + Mickey + ' o café da manhã!',
+ 'Puxa, com certeza há muitos ' + Cogs + ' perto de ' + lDonaldsDock + '.',
+ 'Na filial da minha Loja de Piadas no Brrrgh, há Óculos hipnóticos em promoção por apenas uma balinha!',
+ 'As Lojas de piadas do Pateta oferecem as melhores gozações, truques e comédias de toda Toontown!',
+ 'Nas Lojas de piadas do Pateta, todas as tortas na cara têm garantia de fazer rir, ou você tem as suas balinhas de volta!'], [
+ 'Vou para Melodilândia para ver %s!' % Mickey,
+ 'Caramba, estou atrasado para o meu jogo com %s!' % Donald,
+ 'Acho que vou nadar no ' + lDonaldsDock + '.',
+ 'É hora de tirar um cochilo. Vou para a Sonholândia.'])
+SuperGoofyChatter = ([
+ 'Bem-vindo ao Supercircuito!',
+ 'Olá, eu sou o Superpateta! Qual é o seu nome?',
+ 'Feliz Halloween!',
+ 'Feliz Halloween, %!'], [
+ 'Estou me sentindo corajoso hoje!',
+ 'Alguém viu minha capa por aí? Ah, aí está ela!',
+ 'Nossa! Não conheço a minha própria força!',
+ 'Alguém chamou um super-herói?',
+ 'Cuidado, Cogs! Eu salvarei o Halloween!',
+ 'Não há nada mais assustador do que eu dirigindo um kart!',
+ 'Aposto que você não está me reconhecendo por trás da máscara!',
+ 'É divertido vestir fantasias para o Halloween!',
+ 'Espero que você esteja gostando da nossa diversão de Halloween!'], [
+ 'Preciso ir voando!',
+ 'Para o alto!',
+ 'Será que vou voando ou dirigindo até a Doca do Donald?',
+ 'Nossa, feliz Halloween!'])
+DonaldChatter = ([
+ 'Bem-vindo à Sonholândia.',
+ 'Oi, meu nome é ' + Donald + '. Qual é o seu?'], [
+ 'Às vezes este lugar me dá arrepios.',
+ 'Não deixe de experimentar o labirinto dos ' + lDaisyGardens + '.',
+ 'Nossa, que dia legal!',
+ 'Ei, você viu o ' + Mickey + '?',
+ 'Se você vir meu parceiro ' + Goofy + ', dê um oi para ele por mim.',
+ 'Acho que vou pescar esta tarde.',
+ 'Uau, há um monte de ' + Cogs + ' no ' + lDonaldsDock + '.',
+ 'Escuta, eu não levei você ainda para um passeio no ' + lDonaldsDock + '?',
+ 'Não vi a ' + Daisy + ' o dia todo.',
+ 'Ouvi falar que a ' + Daisy + ' plantou novas flores no jardim.',
+ 'Quack.'], [
+ 'Vou a Melodilândia para ver a ' + Minnie + '!',
+ 'Ah não, estou atrasado para o meu encontro com a ' + Daisy + '!',
+ 'Acho que vou nadar no meu cais.',
+ 'Acho que vou levar meu barco para um giro no meu cais.'])
+WinterDreamlandCChatter = ([
+ 'Olá, eu sou o Donald Sonolento!',
+ 'Bem-vindo à Terra dos Sonhos!',
+ 'Boas-Festas!',
+ 'Boas-Festas, %!'], [
+ 'Samuel diz que aprender a cantar em Fala Dormindo é um verdadeiro privilégio. Vá até a Escola de Canto, cante uma canção e descubra por quê!',
+ 'Queria estar na minha cama, debaixo do cobertor!',
+ 'Samuel diz que aprender a cantar em Fala Dormindo é um verdadeiro privilégio. Vá até a Escola de Canto, cante uma canção e descubra por quê!',
+ 'Estou sonhando com uma Toontown toda branquinha!',
+ 'Samuel diz que aprender a cantar em Fala Dormindo é um verdadeiro privilégio. Vá até a Escola de Canto, cante uma canção e descubra por quê!',
+ 'Eu queria ter deixado leite e biscoitos!',
+ 'Samuel diz que aprender a cantar em Fala Dormindo é um verdadeiro privilégio. Vá até a Escola de Canto, cante uma canção e descubra por quê!',
+ 'Quando eu acordar, quero ver um monte de presentes!',
+ 'Samuel diz que aprender a cantar em Fala Dormindo é um verdadeiro privilégio. Vá até a Escola de Canto, cante uma canção e descubra por quê!',
+ 'Espero que eu não durma durante as Festas!',
+ 'Samuel diz que aprender a cantar em Fala Dormindo é um verdadeiro privilégio. Vá até a Escola de Canto, cante uma canção e descubra por quê!',
+ 'Adoro tirar uma soneca no frio!',
+ 'Samuel diz que aprender a cantar em Fala Dormindo é um verdadeiro privilégio. Vá até a Escola de Canto, cante uma canção e descubra por quê!',
+ 'As árvores nas ruas estão cobertas de luzes!'], [
+ 'Uma boa-noite para todos!',
+ 'Doces sonhos!',
+ 'Quando eu acordar, vou cantar canções de Natal!'])
+WinterDreamlandDChatter = ([
+ 'Olá, eu sou o Donald Sonolento!',
+ 'Bem-vindo à Terra dos Sonhos!',
+ 'Boas-Festas!',
+ 'Boas-Festas, %!'], [
+ 'Queria estar na minha cama, debaixo do cobertor!',
+ 'Estou sonhando com uma Toontown toda branquinha!',
+ 'Eu queria ter deixado leite e biscoitos!',
+ 'Quando eu acordar, quero ver um monte de presentes!',
+ 'Espero que eu não durma durante as Festas!',
+ 'Adoro tirar uma soneca no frio!',
+ 'As árvores nas ruas estão cobertas de luzes!'], [
+ 'Uma boa-noite para todos!',
+ 'Doces sonhos!',
+ 'Quando eu acordar, vou cantar canções de Natal!'])
+HalloweenDreamlandChatter = ([
+ 'Feliz Halloween!',
+ 'Feliz Halloween, %!',
+ 'Olá, eu sou o FrankenDonald'], [
+ 'Se você conseguir fazer uma travessura com o meu amigo Máximo, poderá visitar o Relaxe ao Máximo e saborear uma gostosura!',
+ 'Meus sonhos estão assustadores hoje!',
+ 'Se você conseguir fazer uma travessura com o meu amigo Máximo, poderá visitar o Relaxe ao Máximo e saborear uma gostosura!',
+ 'Acho que estou sonhando. Aquela lâmpada virou uma bruxa!',
+ 'Se você conseguir fazer uma travessura com o meu amigo Máximo, poderá visitar o Relaxe ao Máximo e saborear uma gostosura!',
+ 'Estou sonhando ou aquele Toon tem uma cabeça de abóbora?',
+ 'Se você conseguir fazer uma travessura com o meu amigo Máximo, poderá visitar o Relaxe ao Máximo e saborear uma gostosura!',
+ 'Quando eu acordar, espero que não esteja tudo tão assustador! ',
+ 'Se você conseguir fazer uma travessura com o meu amigo Máximo, poderá visitar o Relaxe ao Máximo e saborear uma gostosura!',
+ 'Espero que eu não durma durante o Halloween!',
+ 'Se você conseguir fazer uma travessura com o meu amigo Máximo, poderá visitar o Relaxe ao Máximo e saborear uma gostosura!',
+ 'Espero que você esteja gostando da nossa diversão de Halloween!'], [
+ 'Durma com as luzes acesas hoje!',
+ 'Quando eu acordar, vou pedir gostosuras!'])
+ValentinesDreamlandChatter = ([
+ 'Olá, eu sou (bocejo) o Donald!',
+ 'Feliz Dia dos namorados!',
+ 'Feliz Dia dos namorados,  %!'], [
+ 'Espero não dormir no Dia dos namorados!',
+ 'Estava sonhando com a Margarida!',
+ 'Eu tive um pesadelo no qual eu perdia o Dia dos namorados!',
+ 'Aqueles corações são bons para melhorar o Laff!',
+ 'Dê uma festa Dia dos namorados!',
+ 'Mostre aos Cogs, com uma torta na cara, que você os ama!',
+ 'Eu não poderia sonhar com um feriado melhor do que o Dia dos namorados!',
+ 'Eu amo dormir!'], [
+ 'Boa-noite!',
+ 'Acorde-me no Dia dos namorados!'])
+HalloweenDonaldChatter = ([
+ 'Bem-vindo ao meu porto do Halloween!',
+ 'Se você tiver gostosuras, poderá subir a bordo!',
+ 'Feliz Halloween!',
+ 'Feliz Halloween, %!'], [
+ 'Se você não se sente bem fazendo travessuras, procure Rudy, na Ridíquilhas, para ganhar uma gostosura! ',
+ 'Mas eu uso roupa de marinheiro todos os dias!',
+ 'Se você não se sente bem fazendo travessuras, procure Rudy, na Ridíquilhas, para ganhar uma gostosura! ',
+ 'Abóboras fazem ótimas lanternas!',
+ 'Se você não se sente bem fazendo travessuras, procure Rudy, na Ridíquilhas, para ganhar uma gostosura! ',
+ 'Nunca vi palmeiras com pernas peludas!',
+ 'Se você não se sente bem fazendo travessuras, procure Rudy, na Ridíquilhas, para ganhar uma gostosura! ',
+ 'Talvez eu me vista de pirata no próximo Halloween!',
+ 'Se você não se sente bem fazendo travessuras, procure Rudy, na Ridíquilhas, para ganhar uma gostosura! ',
+ 'Minhas gostosuras preferidas são as estrelas-do-mar!',
+ 'Se você não se sente bem fazendo travessuras, procure Rudy, na Ridíquilhas, para ganhar uma gostosura! ',
+ 'Vou levar você para pedir gostosuras pelo porto!',
+ 'Se você não se sente bem fazendo travessuras, procure Rudy, na Ridíquilhas, para ganhar uma gostosura! ',
+ 'Espero que essas aranhas continuem nas árvores!',
+ 'Se você não se sente bem fazendo travessuras, procure Rudy, na Ridíquilhas, para ganhar uma gostosura! ',
+ 'Por que os fantasmas não se afogam? Porque eles usam boia!',
+ 'Se você não se sente bem fazendo travessuras, procure Rudy, na Ridíquilhas, para ganhar uma gostosura! ',
+ 'Espero que você esteja gostando da nossa diversão de Halloween!'], [
+ 'Vamos partir para levar alguns sustos!',
+ 'Boa-assombração!',
+ 'Vou dar uma olhada nas decorações assustadoras de Halloween.'])
+ValentinesDonaldChatter = ([
+ 'Olá, eu sou o Donald!',
+ 'Feliz Dia dos namorados!',
+ 'Feliz Dia dos namorados,  %!'], [
+ 'Eu deveria levar a Margarida para algum lugar no Dia dos namorados?\xe2\x80\x9d',
+ 'Só mais uma volta no cais e eu pegarei alguma coisa para a Margarida.',
+ 'O que a Margarida gostaria de ganhar no Dia dos namorados?',
+ 'Aqueles corações na água são bons para melhorar o Laff!',
+ 'Dê uma festa no Dia dos namorados!',
+ 'Mostre aos Cogs, com uma torta na cara, que você os ama!',
+ 'Eu preciso pegar um Amore Eel para a Margarida!'], [
+ 'Aloha!',
+ 'Mande minhas lembranças aos Cogs!'])
+WinterDonaldCChatter = ([
+ 'Bem-vindo à Parada de Barcos e Trenós do Donald!',
+ 'Todos a bordo para o cruzeiro das Festas!',
+ 'Boas-Festas!',
+ 'Boas-Festas, %!'], [
+ 'Ouvi dizer que Bob Botinho, da Presentes Golfinho Fofinho, dá um presente para aquele que tiver uma canção!',
+ 'Você gostou da decoração de patinhos?',
+ 'Ouvi dizer que Bob Botinho, da Presentes Golfinho Fofinho, dá um presente para aquele que tiver uma canção!',
+ 'Por que há neve nos postes?',
+ 'Ouvi dizer que Bob Botinho, da Presentes Golfinho Fofinho, dá um presente para aquele que tiver uma canção!',
+ 'É bom que esta água não congele!',
+ 'Ouvi dizer que Bob Botinho, da Presentes Golfinho Fofinho, dá um presente para aquele que tiver uma canção!',
+ 'Como eles acenderam as luzes nessas árvores?',
+ 'Ouvi dizer que Bob Botinho, da Presentes Golfinho Fofinho, dá um presente para aquele que tiver uma canção!',
+ 'Será que este barco é melhor do que um trenó?',
+ 'Ouvi dizer que Bob Botinho, da Presentes Golfinho Fofinho, dá um presente para aquele que tiver uma canção!',
+ 'Este barco não precisa ser puxado por renas!',
+ 'Ouvi dizer que Bob Botinho, da Presentes Golfinho Fofinho, dá um presente para aquele que tiver uma canção!',
+ 'Fico feliz por não ser um peru nesta época do ano!',
+ 'Ouvi dizer que Bob Botinho, da Presentes Golfinho Fofinho, dá um presente para aquele que tiver uma canção!',
+ 'Meu presente para você? Passeios de barco grátis!',
+ 'Ouvi dizer que Bob Botinho, da Presentes Golfinho Fofinho, dá um presente para aquele que tiver uma canção!',
+ 'Espero que eu não ganhe carvão de novo!',
+ 'Ouvi dizer que Bob Botinho, da Presentes Golfinho Fofinho, dá um presente para aquele que tiver uma canção!'], [
+ 'Todos a bordo para começar a diversão das Festas!',
+ 'Lembre-se de dar uma gorjeta para o capitão do barco!',
+ 'Aproveite as Festas!'])
+WinterDonaldDChatter = ([
+ 'Bem-vindo à Parada de Barcos e Trenós do Donald!',
+ 'Todos a bordo para o cruzeiro das Festas!',
+ 'Boas-Festas!',
+ 'Boas-Festas, %!'], [
+ 'Você gostou da decoração de patinhos?',
+ 'Por que há neve nos postes?',
+ 'É bom que esta água não congele!',
+ 'Como eles acenderam as luzes nessas árvores?',
+ 'Será que este barco é melhor do que um trenó?',
+ 'Este barco não precisa ser puxado por renas!',
+ 'Fico feliz por não ser um peru nesta época do ano!',
+ 'Meu presente para você? Passeios de barco grátis!',
+ 'Espero que eu não ganhe carvão de novo!'], [
+ 'Todos a bordo para começar a diversão das Festas!',
+ 'Lembre-se de dar uma gorjeta para o capitão do barco!',
+ 'Aproveite as Festas!'])
+WesternPlutoChatter = ([
+ 'Bu! Não se assuste, sou eu... Pluto!',
+ 'Feliz Halloween, parceiro!',
+ 'Feliz Halloween, %!'], [
+ 'Fred Cavanhaque, da Não Há Lugar como o Lar, troca gostosuras por travessuras, pois isso o faz se Neve é Doce Neve.',
+ 'Eu troco travessuras por gostosuras!',
+ 'Fred Cavanhaque, da Não Há Lugar como o Lar, troca gostosuras por travessuras, pois isso o faz se Neve é Doce Neve.',
+ 'Mickey vai me levar para pedir gostosuras mais tarde!',
+ 'Fred Cavanhaque, da Não Há Lugar como o Lar, troca gostosuras por travessuras, pois isso o faz se Neve é Doce Neve.',
+ 'Estou me sentindo mais nas Festas do que no Halloween!',
+ 'Fred Cavanhaque, da Não Há Lugar como o Lar, troca gostosuras por travessuras, pois isso o faz se Neve é Doce Neve.',
+ 'Auau! Esse é o jeito canino de pedir gostosuras!',
+ 'Fred Cavanhaque, da Não Há Lugar como o Lar, troca gostosuras por travessuras, pois isso o faz se Neve é Doce Neve.',
+ 'Espero que você esteja gostando da nossa diversão de Halloween!',
+ 'Fred Cavanhaque, da Não Há Lugar como o Lar, troca gostosuras por travessuras, pois isso o faz se Neve é Doce Neve.',
+ 'Gosto de perseguir gatos pretos!'], [
+ 'Agora vou desenterrar uma gostosura!',
+ 'Vou procurar Mickey e ver se ele tem alguma gostosura!',
+ 'Vou assustar o Donald!'])
+WinterPlutoCChatter = ([
+ 'Olá, eu sou o Pluto!',
+ 'Bem-vindo a Brrr. Aqui é frio o ano inteiro!',
+ 'Boas-Festas!',
+ 'Boas-Festas, %'], [
+ 'Abrão o Abominável adoraria uma canção, pois a Terra do Homem de Neve é um lugar solitário para um pé-grande.',
+ 'Eu mordi um picolé e fiquei com dor de cabeça!',
+ 'Abrão o Abominável adoraria uma canção, pois a Terra do Homem de Neve é um lugar solitário para um pé-grande.',
+ 'É como viver em um globo de neve!',
+ 'Abrão o Abominável adoraria uma canção, pois a Terra do Homem de Neve é um lugar solitário para um pé-grande.',
+ 'Queria estar ao lado de uma boa fogueira!',
+ 'Abrão o Abominável adoraria uma canção, pois a Terra do Homem de Neve é um lugar solitário para um pé-grande.',
+ 'Au! Au! Eu preciso de um cachecol!',
+ 'Abrão o Abominável adoraria uma canção, pois a Terra do Homem de Neve é um lugar solitário para um pé-grande.',
+ 'Pelo menos meu focinho não está vermelho e brilhando!'], [
+ 'Divirta-se muito durante as Festas!',
+ 'Volte sempre que você quiser ver neve!',
+ 'Mickey vai me levar para cantar canções de natal!'])
+WinterPlutoDChatter = ([
+ 'Olá, eu sou o Pluto!',
+ 'Bem-vindo a Brrr. Aqui é frio o ano inteiro!',
+ 'Boas-Festas!',
+ 'Boas-Festas, %'], [
+ 'Eu mordi um picolé e fiquei com dor de cabeça!',
+ 'É como viver em um globo de neve!',
+ 'Queria estar ao lado de uma boa fogueira!',
+ 'Au! Au! Eu preciso de um cachecol!',
+ 'Pelo menos meu focinho não está vermelho e brilhando!'], [
+ 'Divirta-se muito durante as Festas!',
+ 'Volte sempre que você quiser ver neve!',
+ 'Mickey vai me levar para cantar canções de natal!'])
+AFMickeyChatter = ([
+ 'Feliz Semana Abril Toons!',
+ 'Feliz Semana Abril Toons, %!'], [
+ 'Bem-vindo aos Jardins! Eu sou a ' + Daisy + '!',
+ 'Eu sou a ' + Daisy + ' e amo o jardim!',
+ 'A Semana Abril Toons é a mais boba do ano!',
+ 'O quê? Você nunca viu um pato com orelhas de rato?',
+ 'Olá, eu sou a ' + Daisy + '! Quac!',
+ 'Este barulho é igual ao do pato!',
+ 'Parece que hoje eu estou diferente!',
+ 'Você já escutou o seu Doodle falar?A Gravidade tirou férias!'], [
+ 'Tenha uma Louca Semana Abril Toons!',
+ 'Diga oi ao Mickey por mim!'])
+AFMinnieChatter = ([
+ 'Feliz Semana Abril Toons!',
+ 'Feliz Semana Abril Toons, %!'], [
+ 'Bem-vindo a ' + lTheBrrrgh + '! Eu sou o ' + Pluto + '!',
+ 'Olá, eu sou o ' + Pluto + '! Qual é o seu nome?',
+ 'O quê? Você nunca viu um cachorro com orelhas de rato?',
+ 'Parece que hoje eu estou diferente!',
+ 'Alguém tem biscoito para cachorro? Estou com fome!Au au! Meu nome é ' + Pluto + '!',
+ 'Isto não é bobo?',
+ 'Não me faça caçar você!',
+ 'A Semana Abril Toons é a mais boba do ano!',
+ 'Você já escutou o seu Doodle falar?',
+ 'A Gravidade tirou férias!'], [
+ 'Tenha uma Louca Semana Abril Toons!',
+ 'Eu tenho que correr atrás dos carros, agora! Tchau!'])
+AFDaisyChatter = ([
+ 'Feliz Semana Abril Toons!',
+ 'Feliz Semana Abril Toons, %!'], [
+ 'Bem-vindo a ' + lToontownCentral + '! Eu sou ' + Mickey + ' Mouse!',
+ 'Olá, eu sou o ' + Mickey + '! O rato mais feliz de Toontown!',
+ 'Se você vir ' + Daisy + ', diga a ela ' + Mickey + ' que eu falei oi!',
+ 'O quê? Você nunca viu um rato com penas?',
+ 'Isto não é bobo?',
+ 'Parece que hoje eu estou diferente!',
+ 'A Semana Abril Toons é a mais boba do ano!',
+ 'Você já escutou o seu Doodle falar?',
+ 'A Gravidade tirou férias!'], [
+ 'Tchau! Diga a eles ' + Mickey + ' enviou para você!',
+ 'Se você for aos ' + lDaisyGardens + ', diga olá a ela por mim!'])
+AFGoofySpeedwayChatter = ([
+ 'Feliz Semana Abril Toons!',
+ 'Feliz Semana Abril Toons, %!'], [
+ 'Bem-vindo à Terra dos Sonhos! Eu sou o ' + Donald + '!',
+ 'Olá, eu sou o ' + Donald + '! Ainda não é a hora da soneca?',
+ 'Sabe, um pato precisa do seu sono de beleza!',
+ 'O quê? Você nunca viu um pato com orelhas de cachorro?',
+ 'Puxa! Quero dizer, Quac!',
+ 'Esta seria uma ótima pista de corrida... ou melhor, um lugar para tirar uma soneca!',
+ 'Parece que hoje eu estou diferente!',
+ 'A Semana Abril Toons é a mais boba do ano!',
+ 'Você já escutou o seu Doodle falar?',
+ 'A Gravidade tirou férias!'], [
+ 'Se você vir ' + Goofy + ', diga a ele ' + Donald + ' que eu mandei um oi!',
+ 'Tchau e boa-noite!'])
+AFDonaldChatter = ([
+ 'Feliz Semana Abril Toons!',
+ 'Feliz Semana Abril Toons, %!'], [
+ 'Bem-vindo ao Circuito! Eu sou o ' + Goofy + '!',
+ 'Eu sou o' + Goofy + ' e estou sonhando que eu sou o' + Donald + '!',
+ 'Eu já ouvi falar que sonâmbulos andam... mas dirigir??',
+ 'Puxa!  Que bobinho, digo, docinho' + Goofy + '!',
+ 'Como eu posso ver as corridas com meus olhos fechados?',
+ 'É melhor eu tirar uma soneca antes da minha próxima corrida!',
+ 'A Semana Abril Toons é a mais boba do ano!',
+ 'Parece que hoje eu estou diferente!',
+ 'Você já escutou o seu Doodle falar?',
+ 'A Gravidade tirou férias!'], [
+ 'Tenha uma Louca Semana Abril Toons!',
+ 'Preciso trabalhar no meu kart!  Tchau!'])
+AFDonaldDockChatter = ([
+ 'Feliz Semana Abril Toons!',
+ 'Feliz Semana Abril Toons, %!'], [
+ 'Todo mundo folga na Semana Abril Toons, menos eu!',
+ 'Eu sou o único que tem de trabalhar nesta semana!',
+ 'Eu só descanso quando durmo!',
+ 'Todos os meus amigos estão fingindo ser outras pessoas!',
+ 'Rodando e rodando neste barco, o dia todo!',
+ 'Eu ouvi dizer que Margarida está fingindo ser o Mickey!',
+ 'Estamos na semana mais boba do ano e eu a estou perdendo!',
+ 'Você já escutou o seu Doodle falar?',
+ 'A Gravidade tirou férias!'], [
+ 'Tenha uma Louca Semana Abril Toons!',
+ 'Pregue uma peça nos Cogs por mim!'])
+AFPlutoChatter = ([
+ 'Feliz Semana Abril Toons!',
+ 'Feliz Semana Abril Toons, %!'], [
+ 'Bem-vindo à Terra da Melodia!  Eu sou a ' + Minnie + '!',
+ 'Oi, meu nome é ' + Minnie + ' Mouse!',
+ 'Eu são tão feliz quanto uma ratinha pode ser!',
+ 'O quê? Você nunca viu uma ratinha com orelhas de cachorro?',
+ 'Eu adoro quando ' + Mickey + ' e eu saímos para passear!',
+ 'O quê? Você nunca ouviu um rato falar antes?',
+ 'A Semana Abril Toons é a mais boba do ano!',
+ 'Você já escutou o seu Doodle falar?',
+ 'A Gravidade tirou férias!'], [
+ 'Tenha uma Louca Semana Abril Toons!',
+ 'Se você vir ' + Pluto + ', diga a ele ' + Minnie + ' que eu mandei um oi!'])
+AFChipChatter = ([
+ 'Feliz Semana Abril Toons!',
+ 'Feliz Semana Abril Toons, %!'], [
+ 'Oi, eu sou o ' + Dale + '!',
+ 'Como você está, ' + Chip + '?',
+ 'Eu sempre achei que você era ' + Dale + ', ' + Chip + '.',
+ 'Tem certeza de que você é o ' + Chip + ' e não o ' + Dale + ', ' + Chip + '?',
+ 'A Semana de Abril dos Toons é a mais boba do ano!'], [
+ 'Tchau de ' + Chip + ' e ' + Dale + '!'])
+AFDaleChatter = ([
+ 'Feliz Semana Abril Toons!',
+ 'Feliz Semana Abril Toons, %!'], [
+ 'Oi, eu sou ' + Chip + '!',
+ 'Muito bem, ' + Dale + ' ... obrigado!',
+ ' Não, eu sou o' + Chip + ', ' + Dale + '.',
+ 'Sim, ' + Dale + ' , eu sou o' + Chip + ', e não o ' + Dale + '.',
+ 'Certamente, ' + Chip + '! Quero dizer, ' + Dale + '.'], [
+ 'Ou ' + Dale + ' e ' + Chip + '!'])
+CLGoofySpeedwayChatter = ([
+ 'Bem-vindo ao ' + lGoofySpeedway + '.',
+ 'Oi, meu nome é ' + Goofy + '. Qual é o seu?',
+ 'Ohoh, que bom ver você %!',
+ 'Olá!  Perdoe minhas roupas sujas, estava consertando aquele Quadro de Pontuação quebrado.'], [
+ 'É bom que o Quadro de Pontuação esteja funcionando logo, pois o Fim de Semana do Grande Prêmio está chegando!',
+ 'Alguém quer comprar um kart meio usado? Ele já apareceu no Quadro de Pontuação!',
+ 'O Fim de Semana do Grande do Prêmio está chegando, é melhor começar a treinar.',
+ 'O Fim de Semana do Grande Prêmio será de sexta-feira, 22, a segunda-feira, 25 de maio!',
+ 'Preciso de uma escada para descer aquele kart.',
+ 'Aquele Toon realmente queria aparecer no Quadro de Pontuação!',
+ 'Cara, acabei de ver uma corrida terrível.',
+ 'Cuidado com as cascas de banana na pista!',
+ 'Você fez algumas melhorias em seu kart ultimamente?',
+ 'Precisamos adquirir alguns aros novos na loja de kart.',
+ 'Ei, você viu o ' + Donald + '?',
+ 'Se vir o meu amigo ' + Mickey + ', mande lembranças a ele por mim.',
+ 'Puxa! Esqueci de preparar o café da manhã do ' + Mickey + '!',
+ 'Ohoh, tem um monte de ' + Cogs + ' perto do ' + lDonaldsDock + '.',
+ 'Nos galhos do Brrrgh da minha Loja de Brincadeiras, os Óculos Hipnotizantes estão à venda por apenas 1 balinha!',
+ 'A Loja de Piadas do Pateta tem as melhores piadas, truques e brincadeiras divertidas de toda Toontown!',
+ 'Na Loja de Piadas do Pateta, até uma torta na cara é garantia de boas risadas ou você recebe suas balinhas de volta!'], [
+ 'É bom eu fazer uma nova pintura no meu kart antes do Fim de Semana do Grande Prêmio.',
+ 'Caramba, é melhor eu dar um jeito nesse Quadro de Pontuação quebrado!',
+ 'Espero ver todos vocês no Fim de Semana do Grande Prêmio!  Adeus!',
+ 'É hora de dar uma cochilada. Vou para a Sonholândia sonhar com a vitória no Grande Prêmio.'])
+GPGoofySpeedwayChatter = ([
+ 'Bem-vindo ao ' + lGoofySpeedway + '.',
+ 'Bem-vindo ao Fim de Semana do Grande Prêmio!',
+ 'Oi, meu nome é ' + Goofy + '. Qual é o seu?',
+ 'Ohoh, que bom ver você %!'], [
+ 'Você está na expectativa do Fim de Semana do Grande Prêmio?',
+ 'A boa notícia é que o Quadro de Pontuação está pronto.',
+ 'Conseguimos consertar o Quadro de Pontuação bem na hora do Fim de Semana do Grande Prêmio!',
+ 'Nunca encontramos aquele Toon!',
+ 'Cara, acabei de ver uma corrida terrível.',
+ 'Cuidado com as cascas de banana na pista!',
+ 'Você fez algumas melhorias em seu kart ultimamente?',
+ 'Precisamos comprar alguns aros novos na loja de kart.',
+ 'Ohoh, você viu o ' + Donald + '? Ele disse que estava vindo para o Grande Prêmio!',
+ 'Se vir o meu amigo ' + Mickey + ', diga a ele que está perdendo uma corrida incrível!',
+ 'Puxa! Esqueci de preparar o café da manhã do ' + Mickey + '!',
+ 'Ohoh, tem um monte de ' + Cogs + ' perto do ' + lDonaldsDock + '.',
+ 'Nos galhos do Brrrgh da minha Loja de Brincadeiras, os Óculos Hipnotizantes estão à venda por apenas 1 balinha!',
+ 'A Loja de Piadas do Pateta tem as melhores piadas, truques e brincadeiras divertidas de toda Toontown!',
+ 'Na Loja de Piadas do Pateta, até uma torta na cara é garantia de boas risadas ou você recebe suas balinhas de volta!'], [
+ 'Boa sorte no Grande Prêmio!',
+ 'Vou participar da próxima corrida do Grande Prêmio!',
+ 'Ohoh, acho que a próxima corrida já vai começar!',
+ 'Puxa, é melhor verificar o novo Quadro de Pontuação e garantir que esteja funcionando bem!'])
+SillyPhase1Chatter = [
+ 'Se não viu o Medidor de Bobagens, vá para o Salão de Desenhos!',
  'Toontown fica bobinha durante o dia!',
  'Porque as ondas de bobagem na batalha aumentam o nível de bobagem de Toontown!',
  'Os objetos da rua estão começando a ganhar vida!',
- 'Eu vi um hidrante se movendo na Rua da Bobeira!']
-SillyPhase2Chatter = ['Níveis bobos ainda estão subindo!', 
- 'O medidor de bobagem subiu mais e ficou mais louco!',
- 'Alguém viu uma lata de lixo se movendo na Rua das Amendoeiras!', 
- 'Muitos hidrantes na Rua da Bobeira ganharam vida!',
- 'Uma caixa de correio na Travessa do Farol enlouqueceu!', 
- 'Vá ver o medidor de bobagem na Prefeitoona!', 
- 'Continue causando esses surtos bobos!']
-SillyPhase3Chatter = ['Os Cogs odiaram o fato de Toontown ter se tornado tão boba!',
+ 'Eu vi um hidrante se movendo na Rua da Bobagem!']
+SillyPhase2Chatter = [
+ 'O Nível de Bobagem continua subindo!',
+ 'O Medidor de Bobagens subiu demais e pirou!',
+ 'Alguém viu uma lixeira se movendo na Rua do Bordo!',
+ 'Muitos hidrantes na Rua da Bobagem ganharam vida!',
+ 'Uma caixa de correio na Travessa do Farol endoidou!',
+ 'Vá ver o Medidor de Bobagens no Salão de Desenhos!',
+ 'Continue causando aquelas ondas de bobagem!']
+SillyPhase3Chatter = [
+ 'Os Cogs odiaram o fato de Toontown ter se tornado tão boba!',
  'Fique de olhos abertos para Invasões de Cogs!',
  'As Invasões de Cogs baixaram o nível de bobagem!',
  'O Medidor de Bobagens caiu após as Invasões de Cogs!',
  'Agora todas as ruas de Toontown têm objetos animados!',
- 'Toontown está mais bobinho do que nunca!']
-SillyPhase4Chatter = ['Os hidrantes de bombeiro tornam suas piadas de Super esguicho!',
- 'As caixas de correio proporcionam suas piadas de super lançamento numa entrega especial!',
- 'Essas latas de lixo malucas podem ajudar a dar um acresssimo no seu Super Toonar',
- 'Objetos na rua podem ajudar você na batalha!',
- 'Só sei que em breve o Medidor de Bobagem será reativado!',
- 'Aproveite o Toontown mais bobo!']
-for chatter in [MickeyChatter, 
- DonaldChatter, 
- MinnieChatter, 
+ 'Toontown está mais bobinha do que nunca!']
+SillyPhase4Chatter = [
+ 'Os hidrantes tornam seus Itens de Esguicho mais eficazes!',
+ 'As caixas de correio fornecem um aperfeiçoamento especial aos seus Itens de Arremesso!',
+ 'Aquelas Lixeiras doidas podem dar a você um Toon-up!',
+ 'Os objetos da rua podem lhe ajudar na batalha!',
+ 'Eu sei que vamos recuperar o Medidor de Bobagens logo!',
+ 'Aproveite a Toontown bobinha!']
+for chatter in [
+ MickeyChatter,
+ DonaldChatter,
+ MinnieChatter,
  GoofyChatter]:
-    chatter[0].extend(SharedChatterGreetings)
-    chatter[1].extend(SharedChatterComments)
-    chatter[2].extend(SharedChatterGoodbyes)
+ chatter[0].extend(SharedChatterGreetings)
+ chatter[1].extend(SharedChatterComments)
+ chatter[2].extend(SharedChatterGoodbyes)
 
 BoringTopic = 'Boring'
 EmceeDialoguePhase1Topic = 'EmceeDialoguePhase1'
@@ -3946,67 +4910,97 @@ EmceeDialoguePhase6Topic = 'EmceeDialoguePhase6'
 AprilToonsPhasePreTopTopic = 'AprilToonsPhasePreTopTopic'
 AprilToonsPhaseTopTopic = 'AprilToonsPhaseTopTopic'
 AprilToonsPhasePostTopTopic = 'AprilToonsPhasePostTopTopic'
-toontownDialogues = {BoringTopic: {(1, 2018): ['Oi Albert', 'Parece que o nível de bobagem está subindo', 'Sim, e se não esqueça dos April Toons!'],
-               (2, 2019): ['Oi Newton', 'Gostaria de saber o quanto os grupos contribuíram para isso '],
-               (3, 2020): ['Para que cumprimentar Albert e Newton', 'O Halloween foi bem bobinho também!']},
- AprilToonsPhasePreTopTopic: {(1, 2020): ['Caramba! O Medidor de Bobagem voltou À vida!',
-                                          'Está subindo a cada dia e chegará ao topo em breve!',
-                                          'Quando isso acontecer, algo bobo certamente acontecerá!', 'Então prepare-se para ficar ridículo!']},
- AprilToonsPhaseTopTopic: {(1, 2020): ['O Medidor de Bobagem chegou ao topo!', 
-                                       'Os rabiscos estão falando, as propriedades estão saltitantes!',
-                                       'Só há uma coisa a dizer\xe2\x80\xa6',
-                                       'FELIZ TOONS DE ABRIL!']}, 
- AprilToonsPhasePostTopTopic: {(1, 2020): ['Os Toons de Abril acabaram!',
-                                           'É hora de voltarmos ao nosso laboratório.',
-                                           'Mas quando as coisas ficarem REALMENTE loucas de novo\xe2\x80\xa6',
-                                           'O Medidor de Bobagem voltará!']},          
- EmceeDialoguePhase1Topic: {(1, 2020): ['Amigos Toons, este é o Medidor de Bobagens!',
-                                        'Ele registra a variação do nível de bobagem de Toontown...',
-                                        'Que está causando a animação dos objetos da rua!',
-                                        'E VOCÊ pode ajudar a aumentar esses níveis!',
-                                        'Lute com os Cogs para causar Ondas de Bobagem...',
-                                        'Deixe Toontown mais bobinha do que nunca...',
-                                        'E vamos observar o mundo ganhando vida!',
-                                        'Agora vou repetir o que disse, só mais uma vez.'] },
-EmceeDialoguePhase2Topic: {(1, 2020): ['Bom trabalho, Toons!',
-                                       'Vocês mantiveram aqueles níveis em alta...',
-                                       'E Toontown fica mais bobinha a cada dia que passa!',
-                                       'Hidrantes, lixeiras e caixas de correio estão adquirindo vida...', 
-                                       'Deixando o mundo mais animado do que nunca!', 
-                                       'Você sabe que os Cogs não ficam felizes com isso...',
-                                       'Mas com certeza os Toons estão!']},
-EmceeDialoguePhase3Topic: {(1, 2020): ['Caramba! O Medidor de Bobagens está ainda mais doido do que se esperava!',
-                                       'Suas Ondas de Bobagem estão fazendo maravilhas...',
-                                       'E Toontown fica mais animada a cada dia que passa!',
-                                       'Continue fazendo um bom trabalho...',
-                                       'E vejamos o quão bobinha Toontown pode ficar!',
-                                       'Você sabe que os Cogs não estão felizes com o que está acontecendo...',
-                                       'Mas com certeza os Toons estão!']},
-EmceeDialoguePhase3_5Topic: {(1, 2020): ['VOCÊS CONSEGUIRAM, TOONS!',
-                                         'Toontown está cheia de vida! ',
-                                         'As ruas estão repletas de bobagens!',
-                                         'Vá ver por si mesmo!']},
-EmceeDialoguePhase4Topic: {(1, 2020): ['Atenção Toons!',
-                                       'As súbitas invasões de Cogs foram lastimáveis.',
-                                       'Como resultado, o nível de bobagem caiu drasticamente...',
-                                       'E mais nenhum novo objeto ganhou vida.',
-                                       'Mas os que ganharam estão muito agradecidos... ',
-                                       'Então, talvez eles achem um jeito de mostrar sua gratidão!',
-                                       'Fiquem Antenados!']},
-EmceeDialoguePhase5Topic: {(1, 2020): ['Atenção Toons!',
-                                       'As invasões de Cogs foram lastimáveis.',
-                                       'Como resultado, o nível de bobagem caiu drasticamente...',
-                                       'E mais nenhum novo objeto ganhou vida.',
-                                       'Mas os que ganharam estão muito agradecidos... ',
-                                       'E estão demonstrando sua gratidão ajudando na batalha!',
-                                       'Já podemos repelir os Cogs, portanto, continuem lutando!']},
-EmceeDialoguePhase6Topic: {(1, 2020): ['Parabéns Toons!',
-                                       'Vocês eliminaram com sucesso as Invasões de Cogs...',
-                                       'Com uma ajudinha de nossos novos amigos animados...',
-                                       'E deixaram novamente Toontown tão bobinha como sempre!',
-                                       'Esperamos que o Medidor de Bobagens volte a subir em breve...',
-                                       'Enquanto isso, continuem enfrentando os Cogs...',
-                                       'E aproveitem o lugar mais bobinho de todos, Toontown!']}}
+toontownDialogues = {
+ BoringTopic: {
+  (1, 2018): [
+'Olá Albert',
+'Parece que o nível de bobagem está subindo',
+' Sim, e se não esqueça dos April Toons!'],
+  (2, 2019): [
+'Olá Newton',
+'Gostaria de saber o quanto os grupos contribuíram para isso '],
+  (3, 2020): [
+'Para que cumprimentar Albert e Newton',
+'O Halloween foi bem bobinho também!'] },
+  AprilToonsPhasePreTopTopic: {
+  (1, 2020): [
+'Gadzooks! The Silly Meter has come back to life!',
+"It's rising every day, and will reach the top soon!",
+'When it does, something silly is sure to happen!',
+'So get ready to get ridiculous!'] },
+ AprilToonsPhaseTopTopic: {
+  (1, 2020): [
+'The Silly Meter has hit the top!',
+'Doodles are talking, Estates are bouncy!',
+"There's only one thing to say\xe2\x80\xa6",
+'HAPPY APRIL TOONS!'] },
+ AprilToonsPhasePostTopTopic: {
+  (1, 2020): [
+'April Toons is over!',
+"It's time for us to return to our lab.",
+'But when things get REALLY crazy again\xe2\x80\xa6',
+'The Silly Meter will return!'] },
+ EmceeDialoguePhase1Topic: {
+  (1, 2020): [
+'Amigos Toons, este é o Medidor de Bobagens!',
+'Ele registra a variação do nível de bobagem de Toontown...',
+'Que está causando a animação dos objetos da rua!',
+'E VOCÊ pode ajudar a aumentar esses níveis!',
+'Lute com os Cogs para causar Ondas de Bobagem...',
+'Deixe Toontown mais bobinha do que nunca...',
+'E vamos observar o mundo ganhando vida!',
+'Agora vou repetir o que disse, só mais uma vez.'] },
+ EmceeDialoguePhase2Topic: {
+  (1, 2020): [
+'Bom trabalho, Toons!',
+'Vocês mantiveram aqueles níveis em alta...',
+'E Toontown fica mais bobinha a cada dia que passa!',
+'Hidrantes, lixeiras e caixas de correio estão adquirindo vida...',
+'Deixando o mundo mais animado do que nunca!',
+'Você sabe que os Cogs não ficam felizes com isso...',
+'Mas com certeza os Toons estão!'] },
+ EmceeDialoguePhase3Topic: {
+  (1, 2020): [
+'Caramba! O Medidor de Bobagens está ainda mais doido do que se esperava!',
+'Suas Ondas de Bobagem estão fazendo maravilhas...',
+'E Toontown fica mais animada a cada dia que passa!',
+'Continue fazendo um bom trabalho...',
+'E vejamos o quão bobinha Toontown pode ficar!',
+'Você sabe que os Cogs não estão felizes com o que está acontecendo...',
+'Mas com certeza os Toons estão!'] },
+ EmceeDialoguePhase3_5Topic: {
+  (1, 2020): [
+'VOCÊS CONSEGUIRAM, TOONS!',
+'Toontown está cheia de vida! ',
+'As ruas estão repletas de bobagens!',
+'Vá ver por si mesmo!'] },
+ EmceeDialoguePhase4Topic: {
+  (1, 2020): [
+'Atenção Toons!',
+'As súbitas invasões de Cogs foram lastimáveis.',
+'Como resultado, o nível de bobagem caiu drasticamente...',
+'E mais nenhum novo objeto ganhou vida.',
+'Mas os que ganharam estão muito agradecidos...',
+'Então, talvez eles achem um jeito de mostrar sua gratidão!',
+'Fiquem Antenados!'] },
+ EmceeDialoguePhase5Topic: {
+  (1, 2020): [
+'Atenção Toons!',
+'As invasões de Cogs foram lastimáveis.',
+'Como resultado, o nível de bobagem caiu drasticamente...',
+'E mais nenhum novo objeto ganhou vida.',
+'Mas os que ganharam estão muito agradecidos...',
+'E estão demonstrando sua gratidão ajudando na batalha!',
+'Já podemos repelir os Cogs, portanto, continuem lutando!'] },
+ EmceeDialoguePhase6Topic: {
+  (1, 2020): [
+'Parabéns Toons!',
+'Vocês eliminaram com sucesso as Invasões de Cogs...',
+'Com uma ajudinha de nossos novos amigos animados...',
+'E deixaram novamente Toontown tão bobinha como sempre!',
+'Esperamos que o Medidor de Bobagens volte a subir em breve...',
+'Enquanto isso, continuem enfrentando os Cogs...',
+'E aproveitem o lugar mais bobinho de todos, Toontown!'] } }
 FriendsListPanelNewFriend = 'Novo amigo'
 FriendsListPanelSecrets = 'Secretos'
 FriendsListPanelOnlineFriends = 'AMIGOS\nON-LINE'
@@ -4033,82 +5027,82 @@ FriendInviterEndFriendshipToon = 'Tem certeza de que quer romper a amizade de To
 FriendInviterEndFriendshipPlayer = 'Tem certeza de que quer romper a amizade de jogador com %s?'
 FriendInviterRemainToon = '\n(Você vai continuar sendo amigo Toon de %s)'
 FriendInviterRemainPlayer = '\n(Você vai continuar sendo amigo jogador de %s)'
-DownloadForceAcknowledgeVerbList = ['pintado',
+DownloadForceAcknowledgeVerbList = [
+ 'pintado',
  'desembalar',
  'desdobrado',
  'esticado',
  'inflado',
  'montar']
-DownloadForceAcknowledgeMsg = 'Sinto muito, você não pode avançar porque o download de %(phase)s está apenas %(percent)s%% concluído.\n\nTente novamente mais tarde.'
-TeaserTop = 'Desculpe, mas você não pode fazer isso na versão de teste gratuita.'
-TeaserBottom = 'Assine agora e aproveite esses ótimos recursos:'
+DownloadForceAcknowledgeMsg = 'Sinto muito, você não pode avançar porque o download de %(phase)s está apenas %(verb)s concluído.\n\nTente novamente mais tarde.'
+TeaserTop = ''
+TeaserBottom = ''
 TeaserDefault = ',\nVocê precisa ser um associado.\nUna-se!'
 TeaserOtherHoods = 'Visite os 6 bairros exclusivos!'
 TeaserTypeAName = 'Digite o seu nome favorito para o seu Toon!'
 TeaserSixToons = 'Crie até 6 Toons em uma só conta!'
-TeaserClothing = 'Compre roupas exclusivas para personalizar o seu Toon!'
-TeaserCogHQ = 'Infiltre-se nas\nperigosas áreas avançadas dos Cogs!'
-TeaserSecretChat = 'Troque segredos\ncom seus amigos conversando on-line com eles!'
-TeaserSpecies = 'Crie e jogue com Toons Macacos, Cavalos e Ursos!'
-TeaserFishing = 'Colecione todas as espécies de peixes!'
-TeaserGolf = 'Jogue em campos de golfe malucos!'
-TeaserParties = ' Para planear Partes'
+TeaserClothing = 'Compre roupas exclusivas \npara personalizar o seu Toon!'
+TeaserCogHQ = 'Infiltre-se nos\nQuartéis dos Cogs!'
+TeaserSecretChat = 'Usa o recurso Chat de Amigos Secretos'
+TeaserSpecies = 'Para escolher este tipo de Toon'
+TeaserFishing = 'Colecione todas as espécies de peixes em 6 bairros!'
+TeaserGolf = 'Jogue no minigolf Toons!'
+TeaserParties = ' Para planear Festas'
 TeaserSubscribe = 'Assinar'
-TeaserContinue = 'Continuar na versão gratuita'
+TeaserContinue = 'Retorna ao Jogo'
 TeaserEmotions = 'Para fazer seu Toon mais expressivo'
-TeaserKarting = 'Aposte corridas com outros Toons em karts maneiros!'
-TeaserKartingAccessories = 'Personalize seu kart com acessórios incríveis.'
-TeaserGardening = 'Plante flores, construa estátuas e cultive árvores em seu terreno.'
+TeaserKarting = 'Para acessar Corrida de Kart Limitida!'
+TeaserKartingAccessories = 'Personalize seu kart.'
+TeaserGardening = 'Para continuar a sua jardinagem na sua casa.'
 TeaserHaveFun = 'Encontre mais diversão!'
 TeaserJoinUs = 'Una-se!'
-TeaserPlantGags = 'Para plantar essas piadas'
-TeaserPickGags = 'Para escolher essas piadas'
-TeaserRestockGags = 'Para reabastecer essas piadas'
-TeaserGetGags = 'Para obter essas piadas'
-TeaserUseGags = 'Para usar essas piadas'
+TeaserPlantGags = 'Para plantar usa suas piadas'
+TeaserPickGags = 'Para coletar as suas paiadas pega elas nas Árvores que você plantou as piadas'
 TeaserMinigames = TeaserOtherHoods
 TeaserQuests = TeaserOtherHoods
 TeaserOtherGags = TeaserOtherHoods
 TeaserTricks = TeaserOtherHoods
-LauncherPhaseNames = {0: 'Inicialização',
+DownloadWatcherUpdate = 'Fazendo download %s'
+DownloadWatcherInitializing = 'Iniciando Download...'
+LauncherPhaseNames = {
+ 0: 'Inicialização',
  1: 'Panda',
- 2: 'Engine',
+ 2: 'Motor',
  3: 'Fazer um Toon',
  3.5: 'Toontorial',
  4: 'Parque',
  5: 'Ruas',
- 5.5: 'Casas',
+ 5.5: 'Estados',
  6: 'Bairros I',
  7: Cog + ' Edifícios dos',
  8: 'Bairros II',
  9: Sellbot + ' Quartel dos',
  10: Cashbot + ' Quartel dos',
  11: Lawbot + ' Quartel dos',
- 12: Bossbot + ' Quartel dos',
- 13: 'Festas'}
+ 12: Bossbot + ' HQ',
+ 13: 'Festas' }
 LauncherProgress = '%(name)s (%(current)s de %(total)s)'
 LauncherStartingMessage = 'Iniciando Toontown On-line da Disney...'
-LauncherDownloadFile = 'Fazendo download da atualização de '+ LauncherProgress +'...'
-LauncherDownloadFileBytes = 'Fazendo download da atualização de '+ LauncherProgress +': %(bytes)s'
-LauncherDownloadFilePercent = 'Fazendo download da atualização de '+ LauncherProgress +': %(percent)s%%'
-LauncherDecompressingFile = 'Descompactando atualização de '+ LauncherProgress +'...'
-LauncherDecompressingPercent = 'Descompactando atualização de '+ LauncherProgress +': %(percent)s%%'
-LauncherExtractingFile = 'Extraindo atualização de '+ LauncherProgress +'...'
-LauncherExtractingPercent = 'Extraindo atualização de '+ LauncherProgress +': %(percent)s%%'
-LauncherPatchingFile = 'Aplicando atualização de '+ LauncherProgress +'...'
-LauncherPatchingPercent = 'Aplicando atualização de '+ LauncherProgress +': %(percent)s%%'
+LauncherDownloadFile = 'Fazendo download da atualização de ' + LauncherProgress + '...'
+LauncherDownloadFileBytes = 'Fazendo download da atualização de ' + LauncherProgress + ': %(bytes)s'
+LauncherDownloadFilePercent = 'Fazendo download da atualização de ' + LauncherProgress + ': %(percent)s%%'
+LauncherDecompressingFile = 'Descompactando atualização de ' + LauncherProgress + '...'
+LauncherDecompressingPercent = 'Descompactando atualização de ' + LauncherProgress + ': %(percent)s%%'
+LauncherExtractingFile = 'Extraindo atualização de ' + LauncherProgress + '...'
+LauncherExtractingPercent = 'Extraindo atualização de ' + LauncherProgress + ': %(percent)s%%'
+LauncherPatchingFile = 'Aplicando atualização de ' + LauncherProgress + '...'
+LauncherPatchingPercent = 'Aplicando atualização de ' + LauncherProgress + ': %(percent)s%%'
 LauncherConnectProxyAttempt = 'Conectando-se a Toontown: %s (proxy: %s) tentativa: %s'
 LauncherConnectAttempt = 'Conectando-se a Toontown: %s tentativa %s'
 LauncherDownloadServerFileList = 'Atualizando Toontown...'
 LauncherCreatingDownloadDb = 'Atualizando Toontown...'
 LauncherDownloadClientFileList = 'Atualizando Toontown...'
 LauncherFinishedDownloadDb = 'Atualizando Toontown...'
-LauncherStartingToontown = 'Iniciando Toontown...'
 LauncherStartingGame = 'Iniciando Toontown...'
 LauncherRecoverFiles = 'Atualizando Toontown. Recuperando arquivos...'
-LauncherCheckUpdates = 'Verificando atualizações de '+ LauncherProgress
+LauncherCheckUpdates = 'Verificando atualizações de ' + LauncherProgress
 LauncherVerifyPhase = 'Atualizando Toontown...'
-LoadingDownloadWatcherUpdate = 'Carregando %s'
+LoadingDownloadWatcherUpdate = ' Carregando %s'
 AvatarChoiceMakeAToon = 'Fazer um\nToon'
 AvatarChoicePlayThisToon = 'Jogar com\neste Toon'
 AvatarChoiceSubscribersOnly = 'Assinar\n\n\n\nAgora!'
@@ -4119,27 +5113,28 @@ AvatarChoiceNameApproved = 'Nome\naprovado!'
 AvatarChoiceNameReview = 'Em\nrevisão'
 AvatarChoiceNameYourToon = 'Dar um\nnome ao Toon!'
 AvatarChoiceDeletePasswordText = 'Cuidado! Isto fará que %s seja excluído para sempre. Para excluir este Toon, insira a sua senha.'
-AvatarChoiceDeleteConfirmText = "Cuidado! Isto excluirá %(name)s para sempre. Se você tiver certeza de que é isso mesmo que deseja, digite '%(confirm)s' e clique em OK."
+AvatarChoiceDeleteConfirmText = 'Cuidado! Isto excluirá %(name)s para sempre. Se você tiver certeza de que é isso mesmo que deseja, digite "%(confirm)s" e clique em OK.'
 AvatarChoiceDeleteConfirmUserTypes = 'excluir'
 AvatarChoiceDeletePasswordTitle = 'Excluir Toon?'
 AvatarChoicePassword = 'Senha'
 AvatarChoiceDeletePasswordOK = lOK
 AvatarChoiceDeletePasswordCancel = lCancel
 AvatarChoiceDeleteWrongPassword = 'Esta senha não parece ser a correta. Para excluir este Toon, insira a sua senha.'
-AvatarChoiceDeleteWrongConfirm = "Você não digitou corretamente. Para excluir %(name)s, digite '%(confirm)s' e clique em OK. Não digite as aspas. Clique em Cancelar se desistir."
+AvatarChoiceDeleteWrongConfirm = 'Você não digitou corretamente. Para excluir %(name)s, digite "%(confirm)s" e clique em OK. Não digite as aspas. Clique em Cancelar se desistir.'
 AvatarChooserPickAToon = 'Escolha um Toon para jogar'
 AvatarChooserQuit = lQuit
-DateOfBirthEntryMonths = ['Jan',
+DateOfBirthEntryMonths = [
+ 'Jan',
  'Fev',
- 'Mar', 
- 'Abr', 
- 'Mai', 
+ 'Mar',
+ 'Abr',
+ 'Mai',
  'Jun',
- 'Jul', 
- 'Ago', 
- 'Set', 
- 'Out', 
- 'Nov', 
+ 'Jul',
+ 'Ago',
+ 'Set',
+ 'Out',
+ 'Nov',
  'Dez']
 DateOfBirthEntryDefaultLabel = 'Data de nascimento'
 AchievePageTitle = 'Realizações\n(em breve)'
@@ -4156,8 +5151,8 @@ PartyDateFormat = '%(mm)s %(dd)d, %(yyyy).4d'
 PartyTimeFormat = '%d:%.2d %s'
 PartyTimeFormatMeridiemAM = 'am'
 PartyTimeFormatMeridiemPM = 'pm'
-PartyCanStart = 'É Hora de Festejar! Clique em Start Party (Iniciar Festa) na sua página Shticker Book Hosting (Hospedando do Livro de Brincadeiras)!'
-PartyHasStartedAcceptedInvite = '%s, a festa começou!  Clique no anfitrião e em "Ir à Festa" na página Shticker Book Invites (Convites do Livro de Brincadeiras).'
+PartyCanStart = 'É Hora de Festejar! Clique em Iniciar Festa na sua página Hospedando do Livro de Brincadeiras!'
+PartyHasStartedAcceptedInvite = '%s, a festa começou!  Clique no anfitrião e em "Ir à Festa" na página Convites do Livro de Brincadeiras.'
 PartyHasStartedNotAcceptedInvite = '%s, a festa começou! Você também pode ir, teletransportando-se para o anfitrião.'
 EventsPageName = 'Eventos'
 EventsPageCalendarTabName = 'Calendário'
@@ -4165,11 +5160,11 @@ EventsPageCalendarTabParty = 'Festa'
 EventsPageToontownTimeIs = 'A HORA DE TOONTOWN É'
 EventsPageConfirmCancel = 'Se cancelar, receberá uma devolução de %d%%. Tem certeza de que quer cancelar sua festa?'
 EventsPageCancelPartyResultOk = 'Sua festa foi cancelada e você recebeu %d balinhas de volta!'
-EventsPageCancelPartyResultError = 'Sinto muito, sua festa não foi cancelada.'
-EventsPageTooLateToStart = 'Sinto muito, tarde demais para começar a sua festa. Você pode cancelá-la e planejar outra.'
+EventsPageCancelPartyResultError = 'Desculpe, sua festa não foi cancelada.'
+EventsPageTooLateToStart = 'Desculpe, tarde demais para começar a sua festa. Você pode cancelá-la e planejar outra.'
 EventsPagePublicPrivateChange = 'Alterando a sua configuração de privacidade de festa...'
-EventsPagePublicPrivateNoGo = 'Sinto muito, você não pode alterar a sua configuração de privacidade de festa agora.'
-EventsPagePublicPrivateAlreadyStarted = 'Sinto muito, a sua festa já começou, e você não pode alterar sua configuração de privacidade de festa.'
+EventsPagePublicPrivateNoGo = 'Desculpe, você não pode alterar a sua configuração de privacidade de festa agora.'
+EventsPagePublicPrivateAlreadyStarted = 'Desculpe, a sua festa já começou, e você não pode alterar sua configuração de privacidade de festa.'
 EventsPageHostTabName = 'Hospedando'
 EventsPageHostTabTitle = 'Minha Próxima Festa'
 EventsPageHostTabTitleNoParties = 'Sem Festas'
@@ -4185,7 +5180,7 @@ EventsPageHostingTabPartiesListTitle = 'Anfitriões'
 EventsPageHostTabCancelButton = 'Cancelar Festa'
 EventsPageGoButton = 'Iniciar\nFesta!'
 EventsPageGoBackButton = 'Festa\nJá!'
-EventsPageInviteGoButton = 'Ir para\Festa!'
+EventsPageInviteGoButton = 'Ir para\nFesta!'
 EventsPageUnknownToon = 'Toon Desconhecido'
 EventsPageInvitedTabName = 'Convites'
 EventsPageInvitedTabTitle = 'Convites de Festa'
@@ -4194,22 +5189,22 @@ EventsPageInvitedTabActivityListTitle = 'Atividades'
 EventsPageInvitedTabTime = '%s %s Hora de Toontown'
 EventsPageNewsTabName = 'Notícias'
 EventsPageNewsTabTitle = 'Notícias'
-EventsPageNewsDownloading= 'Recuperando Notícias...'
+EventsPageNewsDownloading = 'Recuperando Notícias...'
 EventsPageNewsUnavailable = 'Tico e Teco brincando com a impressora da gráfica. Notícias não disponíveis.'
 EventsPageNewsPaperTitle = 'GAZETA DE TOONTOWN'
-EventsPageNewsLeftSubtitle = 'Ainda só por 1 balinha' 
-EventsPageNewsRightSubtitle = 'Tiragem de nove mil toonplares' 
+EventsPageNewsLeftSubtitle = 'Ainda só por 1 balinha'
+EventsPageNewsRightSubtitle = 'Tiragem de nove mil toonplares'
 NewsPageName = 'Notícias'
-NewsPageImportError = 'Opa! Há um problema ao carregar o "Notícias dos Toons... para os divertidos!" Por favor, volte mais tarde.'
-NewsPageDownloadingNewsSubstr = 'Fique Tooned, enquanto trazemos a você a última edi\xc3\x7aão do \n"Notícias dos Toons... para os divertidos!"'
+NewsPageImportError = 'Não foi possível abrir as notícias sobre jogo.'
+NewsPageDownloadingNewsSubstr = 'Por favor volta depois. Baixando Notícas'
 NewsPageDownloadingNews0 = NewsPageDownloadingNewsSubstr + ' %s%% Concluir.'
 NewsPageDownloadingNews1 = NewsPageDownloadingNewsSubstr + ' %s%% Concluir..'
 NewsPageDownloadingNews2 = NewsPageDownloadingNewsSubstr + ' %s%% Concluir...'
-NewsPageErrorDownloadingFile = 'Ops! A página %s está faltando em "Notícias do Toon... para os Divertidos!" Volte mais tarde.'
-NewsPageErrorDownloadingFileCanStillRead = 'Ops! A página %s está faltando em "Notícias do Toon... para os Divertidos!" Vire a página para continuar, enquanto trabalhamos para trazer esta página de volta.'
-NewsPageNoIssues = 'Ops! A página "Notícias do Toon... para os Divertidos!" desapareceu! Fique no Tooned... enquanto trabalhamos para trazer as notícias de volta!'
-IssueFrameThisWeek = 'nessa semana'
-IssueFrameLastWeek = 'semana passada'
+NewsPageErrorDownloadingFile = 'Ops deu erro uma problema para baixar\n%s.'
+NewsPageErrorDownloadingFileCanStillRead = 'Ops deu erro uma problema para baixar\n%s.\nVocê pode ler as outras Notícias.'
+NewsPageNoIssues = 'Não foi possível encontrar nenhum problema nas %s.'
+IssueFrameThisWeek = 'esta semana'
+IssueFrameLastWeek = 'última semana'
 IssueFrameWeeksAgo = '%d semanas agora'
 SelectedInvitationInformation = '%s tem uma festa em %s às %s, Hora de Toontown.'
 PartyPlannerNextButton = 'Continuar'
@@ -4239,21 +5234,21 @@ PartyPlannerDateText = 'Data'
 PartyPlannerTimeText = 'Hora'
 PartyPlannerTTTimeText = 'Hora de Toontown'
 PartyPlannerEditorInstructionsIdle = 'Clique na Atividade ou Decoração de Festa que deseja adquirir.'
-PartyPlannerEditorInstructionsClickedElementActivity = 'Clique em Comprar ou Arraste o Ícone da Atividade para o Mapa da Festa'
-PartyPlannerEditorInstructionsClickedElementDecoration = 'Clique em Comprar ou Arraste o Ícone da Decoração para o Mapa da Festa'
+PartyPlannerEditorInstructionsClickedElementActivity = 'Clique em Comprar ou Arraste o \xc3\x8dcone da Atividade para o Mapa da Festa'
+PartyPlannerEditorInstructionsClickedElementDecoration = 'Clique em Comprar ou Arraste o \xc3\x8dcone da Decoração para o Mapa da Festa'
 PartyPlannerEditorInstructionsDraggingActivity = 'Arraste a Atividade para o Mapa da Festa.'
 PartyPlannerEditorInstructionsDraggingDecoration = 'Arraste a Decoração para o Mapa da Festa.'
 PartyPlannerEditorInstructionsPartyGrounds = 'Clique e Arraste os itens para movê-los pelo Mapa da Festa'
 PartyPlannerEditorInstructionsTrash = 'Arraste uma Atividade ou Decoração até aqui para removê-la.'
 PartyPlannerEditorInstructionsNoRoom = 'Não há lugar para colocar essa atividade.'
 PartyPlannerEditorInstructionsRemoved = '%(removed)s removidos(as) desde que %(added)s foram adicionados(as).'
-PartyPlannerBeans = 'feijões'
-PartyPlannerTotalCost = 'Custo Total:\n%d feijões'
+PartyPlannerBeans = 'balinhas'
+PartyPlannerTotalCost = 'Custo Total:\n%d balinhas'
 PartyPlannerSoldOut = 'ESGOTADO'
 PartyPlannerBuy = 'COMPRAR'
-PartyPlannerPaidOnly = 'SÓ MEMBROS'
-PartyPlannerPartyGrounds = 'MAPA DA TERRA DAS FESTAS'
-PartyPlannerOkWithGroundsLayout = 'Você já terminou de mover suas Atividades e Decorações pelo Mapa da Terra das Festas?'
+PartyPlannerPaidOnly = 'SÓ ASSOCIADOS'
+PartyPlannerPartyGrounds = 'MAPA DA FESTA'
+PartyPlannerOkWithGroundsLayout = 'Você já terminou de mover suas Atividades e Decorações pelo Mapa da Festa?'
 PartyPlannerChooseFutureTime = 'Por favor, selecione uma hora futura.'
 PartyPlannerInviteButton = 'Enviar Convites'
 PartyPlannerInviteButtonNoFriends = 'Planejar Festa'
@@ -4261,30 +5256,33 @@ PartyPlannerBirthdayTheme = 'Aniversário'
 PartyPlannerGenericMaleTheme = 'Estrelas'
 PartyPlannerGenericFemaleTheme = 'Flores'
 PartyPlannerRacingTheme = 'Corrida'
+PartyPlannerValentoonsTheme = 'Toon dos namorados'
+PartyPlannerVictoryPartyTheme = 'Vitória'
+PartyPlannerWinterPartyTheme = 'Inverno'
 PartyPlannerGuestName = 'Nome do Convidado'
 PartyPlannerClosePlanner = 'Fechar Planejador'
 PartyPlannerConfirmationAllOkTitle = 'Parabéns!'
 PartyPlannerConfirmationAllOkText = 'Sua festa foi criada e os convites enviados.\nObrigado!'
 PartyPlannerConfirmationAllOkTextNoFriends = 'Sua festa foi criada!\nObrigado!'
 PartyPlannerConfirmationErrorTitle = 'Opa.'
-PartyPlannerConfirmationValidationErrorText = 'Sinto muito, ocorreu um problema\ncom essa festa.\nPor favor, volte e tente novamente.'
-PartyPlannerConfirmationDatabaseErrorText = 'Sinto muito, não foi possível registrar todas as informações.\nPor favor, tente novamente mais tarde.\nNão se preocupe, nenhum feijão foi perdido.'
-PartyPlannerConfirmationTooManyText = 'Sinto muito, você já está dando uma festa.\nSe quiser planejar outra, por favor,\ncancele a atual.'
+PartyPlannerConfirmationValidationErrorText = 'Desculpe, ocorreu um problema\ncom essa festa.\nPor favor, volte e tente novamente.'
+PartyPlannerConfirmationDatabaseErrorText = 'Desculpe, não foi possível registrar todas as informações.\nPor favor, tente novamente mais tarde.\nNão se preocupe, nenhum feijão foi perdido.'
+PartyPlannerConfirmationTooManyText = 'Desculpe, você já está dando uma festa.\nSe quiser planejar outra, por favor,\ncancele a atual.'
 PartyPlannerInvitationThemeWhatSentence = 'Você está convidado(a) para minha festa de %s! %s!'
 PartyPlannerInvitationThemeWhatSentenceNoFriends = 'Estou dando uma festa de %s! %s!'
-PartyPlannerInvitationThemeWhatActivitiesBeginning = 'Isso terá '
+PartyPlannerInvitationThemeWhatActivitiesBeginning = 'Terá '
 PartyPlannerInvitationWhoseSentence = 'Festa de %s'
 PartyPlannerInvitationTheme = 'Tema'
 PartyPlannerInvitationWhenSentence = 'Será em %s,\nàs %s, Hora de Toontown.\nEspero que você apareça!'
 PartyPlannerInvitationWhenSentenceNoFriends = 'Será em %s,\nàs %s, Hora de Toontown.\nToontástico!'
 PartyPlannerComingSoon = 'Em Breve'
-PartyPlannerCantBuy= 'Não Pode Comprar'
+PartyPlannerCantBuy = 'Não Pode Comprar'
 PartyPlannerGenericName = 'Planejador de Festa'
 PartyJukeboxOccupied = 'Alguém está usando a jukebox. Tente novamente mais tarde.'
 PartyJukeboxNowPlaying = 'A música que você escolheu já está tocando na jukebox!'
 MusicEncntrGeneralBg = 'Encontro Com Cogs'
 MusicTcSzActivity = 'Mistureba de Toontorial'
-MusicTcSz = 'Passeando Juntos' 
+MusicTcSz = 'Passeando Juntos'
 MusicCreateAToon = 'Novo Toon na Cidade'
 MusicTtTheme = 'O Tema de Toontown'
 MusicMinigameRace = 'Devagar e Firme'
@@ -4343,7 +5341,7 @@ MusicBossbotCeoV1 = 'Rodeado de Chefes'
 MusicPartyOriginalTheme = 'Hora da Festa'
 MusicPartyPolkaDance = 'Polca de Festa'
 MusicPartySwingDance = 'Balanço de Festa'
-MusicPartyWaltzDance = 'Valsa de Festa' 
+MusicPartyWaltzDance = 'Valsa de Festa'
 MusicPartyGenericThemeJazzy = 'Jazz de Festa'
 MusicPartyGenericTheme = 'Jingle de Festa'
 JukeboxAddSong = 'Adicionar\nMúsica'
@@ -4359,148 +5357,195 @@ PartyOverWarningWithName = 'A festa %s de acabou! Obrigado por ter vindo!'
 PartyCountdownClockText = 'Tempo\n\nRestante'
 PartyTitleText = 'Festa de %s'
 PartyActivityConjunction = ', e '
-PartyActivityNameDict = {0: {'generic': 'Jukebox\n20 músicas',
-     'invite': 'uma Jukebox de 20 músicas',
-     'editor': 'Jukebox de 20',
-     'description': 'Ouça música com sua própria jukebox de 20 músicas!'},
- 1: {'generic': 'Canhões de Festa',
-     'invite': 'Canhões de Festa',
-     'editor': 'Canhões',
-     'description': 'Dispare você mesmo os canhões e divirta-se!'},
- 2: {'generic': 'Trampolim',
-     'invite': 'Trampolim',
-     'editor': 'Trampolim',
-     'description': 'Pegue balinhas e salte o mais alto possível!'},
- 3: {'generic': 'Pescaria de Festa', 
-     'invite': 'Pescaria de Festa',
-     'editor': 'Pescaria de Festa',
-     'description': 'Pegue as frutas para ganhar feijões! Desvie-se das bigornas!'},
- 4: {'generic': 'Pista de Dança\n10 passos',
-     'invite': 'uma Pista de Dança com 10 passos',
-     'editor': 'Pista de Dança de 10',
-     'description': 'Mostre seus 10 passos de dança ao estilo toon!'},
- 5: {'generic': 'Cabo de Guerra de Festa',
-     'invite': 'Cabo de Guerra de Festa',
-     'editor': 'Cabo de Guerra',
-     'description': 'Até 4 toons de cada lado puxando loucamente!'},
- 6: {'generic': 'Fogos de Artifício de Festa',
-     'invite': 'Fogos de Artifício de Festa',
-     'editor': 'Fogos de Artifício',
-     'description': 'Lance seu próprio show de fogos de artifício!'},
- 7: {'generic': 'Relógio de Festa',
-     'invite': 'um Relógio de Festa',
-     'editor': 'Relógio de Festa',
-     'description': 'Faça a contagem regressiva do tempo que resta de sua festa.'},
- 8: {'generic': 'Jukebox\n40 músicas',
-     'invite': 'uma Jukebox de 40 músicas',
-     'editor': 'Jukebox de 40',
-     'description': 'Ouça música com sua própria jukebox de 40 músicas!'},
- 9: {'generic': 'Pista de Dança\n20 passos',
-     'invite': 'uma Pista de Dança de 20 passos',
-     'editor': 'Pista de Dança de 20',
-     'description': 'Mostre seus 20 passos de dança ao estilo toon!'},    
- 10: {'generic': 'Cog-De-Guerra',
-      'invite': 'Cog-De-Guerra',
-      'editor': 'Cog-De-Guerra',
-      'description': 'O jogo de equipe versus equipe de acertar Cog!'},
- 11: {'generic': 'Trampolim de Cog',
-      'invite': 'Trampolim de Cog',
-      'editor': 'Trampolim de Cog',
-      'description': 'Pular na cara de um Cog!'},
- 12: {'generic': 'Pegando-Presentes',
-      'invite': 'Pegando-Presentes',
-      'editor': 'Pegando-Presentes',
-      'description': 'Pegue presentes para ganhar balinhas! Esquive-se daquelas bigornas!'},
- 13: {'generic': 'Trampolim de Feriado',
-      'invite': 'Trampolim de Feriado',
-      'editor': 'Trampolim de Feriado',
-      'description': 'Pule se você ama Feriado de Inverno!'},
- 14: {'generic': 'Cog-De-Guerra de Feriado',
-      'invite': 'Cog-De-Guerra de Feriado',
-      'editor': 'Cog-De-War de Feriado',
-      'description': 'O jogo de equipe versus equipe de acertar Cog!'},
- 15: {'generic': 'Pista de Dança\n10 passos',
-      'invite': '10 passos numa Pista de Dança de Toon dos Namorados',
-      'editor': 'Pista de Dança - 10',
-      'description': 'Pega seu Toon Namorado Vamos lá!'},
- 16: {'generic': 'Pista de Dança\n20 passos',
-      'invite': '20 passos numa Pista de Dança de Toon dos Namorados',
-      'editor': 'Pista de Dança - 20',
-      'description': 'Pega seu Toon Namorado Vamos lá!'},
- 17: {'generic': 'Jukebox\n20 músicas',
-      'invite': '20 músicas num Jukebox de Toons dos Namorados',
-      'editor': 'Jukebox - 20',
-      'description': 'Nada cria um clima melhor do que a música!'},
- 18: {'generic': 'Jukebox\n40 músicas',
-      'invite': '40 músicas num Jukebox de Toons dos Namorados',
-      'editor': 'Jukebox - 40',
-      'description': 'Nada cria um clima melhor do que a música!'},
- 19: {'generic': 'Trampolim',
-      'invite': 'Trampolim de Toon dos Namorados',
-      'editor': 'Trampolim',
-      'description': 'Pula para seu coração de conteúdo!'}}
-PartyDecorationNameDict = {0: {'editor': 'Bigorna de Balões',
-     'description': 'Tente evitar que a diversão acabe!'},
- 1: {'editor': 'Palco de Festa',
-     'description': 'Balões, estrelas ou qualquer coisa que desejar'},
- 2: {'editor': 'Arco de Festa',
-     'description': 'Torne a diversão envolvente!'},
- 3: {'editor': 'Bolo',
-     'description': 'Delicioso.'},
- 4: {'editor': 'Castelo de Festa',
-     'description': 'A casa de um Toon é seu castelo.'},
- 5: {'editor': 'Pilha de Presentes',
-     'description': 'Presentes para todos os Toons!'},
- 6: {'editor': 'Língua de Sogra', 
-     'description': 'Esse apito é muito estridente! Serpenteante!'},
- 7: {'editor': 'Portão de Festa',
-     'description': 'Multicolorido e doidinho!'},
- 8: {'editor': 'Itens Barulhentos',
-     'description': 'Piiiiiiiiiiii!'},
- 9: {'editor': 'Cata-vento',
-     'description': 'Giros coloridos para todos!'},
- 10: {'editor': 'Globo Engraçado',
-      'description': 'Globo engraçado e de estrelas criado por Olivea'},
- 11: {'editor': 'Faixa Bala',
-      'description': 'Uma faixa em forma de balinha criada por Cassidy'},
- 12: {'editor': 'Bolo Engraçado',
-      'description': 'Um bolo engraçado e Caótico criado por Felícia'},
- 13: {'editor': 'Coração de Cupidos',
-      'description': 'Pronto...Mira...\nToon de Namorados!'},
- 14: {'editor': 'Faixa\nde Corações Doces',
-      'description': 'Quem não ama corações doces?'},
- 15: {'editor': 'Coração Voador',
-      'description': 'Este Coração está sendo levado embora!'},
- 16: {'editor': 'Coreto de Vitória',
-      'description': 'Todos os nossos novos amigos estão prontos para dançar!'},
- 17: {'editor': 'Faixa da vitória',
-      'description': 'Não é apenas uma faixa comum!'},
- 18: {'editor': 'Canhões de confete',
-      'description': 'BUM! Confete! Diversão!'},
- 19: {'editor': 'Cog e Rabisco',
-      'description': 'Ui! Isso vai doer.'},
- 20: {'editor': 'Cog Suspenso',
-      'description': 'Um Cog cheio de ar quente, chocante!'},
- 21: {'editor': 'Cog Sorvete',
-      'description': 'Um Cog em sua melhor aparência.'},
- 22: {'editor': 'CogCiclo',
-     'description': 'Um Cog em sua melhor forma no feriado.'},
- 23: {'editor': 'Coreto de Feriado',
-      'description': 'Todos adoram uma Festa de Feriado!'},
- 24: {'editor': 'Cog Pimentado',
-      'description': 'Ai! Isso vai doer.'},
- 25: {'editor': 'Boneco de neve',
-      'description': 'Tão legal, ele está com calor!'},
- 26: {'editor': 'Rabisco de neve',
-      'description': 'Seu único truque é estar frio!'},
- 27: {'editor': 'Birgona de Toon de Namorados',
-      'description': 'Nós colocamos seu coração em uma corda!'}}
-ActivityLabel = 'Custo – Nome da Atividade'
+PartyActivityNameDict = {
+ 0: {
+  'generic': 'Jukebox\n20 músicas',
+  'invite': 'uma Jukebox de 20 músicas',
+  'editor': 'Jukebox de 20',
+  'description': 'Ouça música com sua própria jukebox de 20 músicas!' },
+ 1: {
+  'generic': 'Canhões de Festa',
+  'invite': 'Canhões de Festa',
+  'editor': 'Canhões',
+  'description': 'Dispare você mesmo os canhões e divirta-se!' },
+ 2: {
+  'generic': 'Trampolim',
+  'invite': 'Trampolim',
+  'editor': 'Trampolim',
+  'description': 'Pegue balinhas e salte o mais alto possível!' },
+ 3: {
+  'generic': 'Pescaria de Festa',
+  'invite': 'Pescaria de Festa',
+  'editor': 'Pescaria de Festa',
+  'description': 'Pegue as frutas para ganhar feijões! Desvie-se das bigornas!' },
+ 4: {
+  'generic': 'Pista de Dança\n10 passos',
+  'invite': 'uma Pista de Dança com 10 passos',
+  'editor': 'Pista de Dança de 10',
+  'description': 'Mostre seus 10 passos de dança ao estilo toon!' },
+ 5: {
+  'generic': 'Cabo de Guerra de Festa',
+  'invite': 'Cabo de Guerra de Festa',
+  'editor': 'Cabo de Guerra',
+  'description': 'Até 4 toons de cada lado puxando loucamente!' },
+ 6: {
+  'generic': 'Fogos de Artifício de Festa',
+  'invite': 'Fogos de Artifício de Festa',
+  'editor': 'Fogos de Artifício',
+  'description': 'Lance seu próprio show de fogos de artifício!' },
+ 7: {
+  'generic': 'Relógio de Festa',
+  'invite': 'um Relógio de Festa',
+  'editor': 'Relógio de Festa',
+  'description': 'Faça a contagem regressiva do tempo que resta de sua festa.' },
+ 8: {
+  'generic': 'Jukebox\n40 músicas',
+  'invite': 'uma Jukebox de 40 músicas',
+  'editor': 'Jukebox de 40',
+  'description': 'Ouça música com sua própria jukebox de 40 músicas!' },
+ 9: {
+  'generic': 'Pista de Dança\n20 passos',
+  'invite': 'uma Pista de Dança de 20 passos',
+  'editor': 'Pista de Dança de 20',
+  'description': 'Mostre seus 20 passos de dança ao estilo toon!' },
+ 10: {
+  'generic': 'Cog-O-War',
+  'invite': 'Cog-O-War',
+  'editor': 'Cog-O-War',
+  'description': 'O jogo de equipe versus equipe de acertar Cog!' },
+ 11: {
+  'generic': 'Trampolim de Cog',
+  'invite': 'Trampolim de Cog',
+  'editor': 'Trampolim de Cog',
+  'description': 'Pular na cara de um Cog!' },
+ 12: {
+  'generic': 'Pegando Presentes',
+  'invite': 'Pegando Presentes',
+  'editor': 'Pegando Presentes',
+  'description': 'Pegue presentes para ganhar balas! Esquive-se daquelas bigornas!' },
+ 13: {
+  'generic': 'Trampolim de Inverno',
+  'invite': 'Trampolim de Inverno',
+  'editor': 'Trampolim de Inverno',
+  'description': 'Pegue balinhas e salte o mais alto que puder!' },
+ 14: {
+  'generic': 'Cog-O-War de Inverno',
+  'invite': 'Cog-O-War de Inverno',
+  'editor': 'Cog-O-War de Inverno',
+  'description': 'O jogo de equipe versus equipe de acertar Cog!',
+ 15:{
+  'generic': 'Pista de Dança\n10 passos',
+  'invite': 'uma Pista de Dança de 10 passos do Toon dos namorados',
+  'editor': 'Pista de Dança - 10',
+  'description': 'Pega o seu Toon dos Namorados e dança com ela(e) com Groove On' },
+ 16: {
+  'generic': 'Dance Floor\n20 moves',
+  'invite': 'a 20 move ValenToons Dance Floor',
+  'editor': 'Dance Floor - 20',
+  'description': 'Get your ValenToon Groove On!' },
+ 17: {
+  'generic': 'Jukebox\n20 songs',
+  'invite': 'a 20 song Valentoons Jukebox',
+  'editor': 'Jukebox - 20',
+  'description': 'Nothing sets the mood like music!' },
+ 18: {
+  'generic': 'Jukebox\n40 songs',
+  'invite': 'a 40 song Valentoons jukebox',
+  'editor': 'Jukebox - 40',
+  'description': 'Nothing sets the mood like music!' },
+ 19: {
+  'generic': 'Trampoline',
+  'invite': 'ValenToons Trampoline',
+  'editor': 'Trampoline',
+  'description': "Jump to your heart's content!" } }}
+PartyDecorationNameDict = {
+ 0: {
+  'editor': 'Bigorna de Balões',
+  'description': 'Tente evitar que a diversão acabe!' },
+ 1: {
+  'editor': 'Palco de Festa',
+  'description': 'Balões, estrelas ou qualquer coisa que desejar' },
+ 2: {
+  'editor': 'Arco de Festa',
+  'description': 'Torne a diversão envolvente!' },
+ 3: {
+  'editor': 'Bolo',
+  'description': 'Delicioso.' },
+ 4: {
+  'editor': 'Castelo de Festa',
+  'description': 'A casa de um Toon é seu castelo.' },
+ 5: {
+  'editor': 'Pilha de Presentes',
+  'description': 'Presentes para todos os Toons!' },
+ 6: {
+  'editor': 'Língua de Sogra',
+  'description': 'Esse apito é muito estridente! Serpenteante!' },
+ 7: {
+  'editor': 'Portão de Festa',
+  'description': 'Multicolorido e doidinho!' },
+ 8: {
+  'editor': 'Itens Barulhentos',
+  'description': 'Piiiiiiiiiiii!' },
+ 9: {
+  'editor': 'Cata-vento',
+  'description': 'Giros coloridos para todos!' },
+ 10: {
+  'editor': 'Globo Engraçado',
+  'description': 'Globo engraçado e de estrelas criado por Olivea' },
+ 11: {
+  'editor': 'Faixa Feijão',
+  'description': 'Uma faixa em forma de balinha criada por Cassidy' },
+ 12: {
+  'editor': 'Bolo Engraçado',
+  'description': 'Um bolo engraçado e Caótico criado por Felícia' },
+ 13: {
+  'editor': 'Corações de Cupidos',
+  'description': 'Você na mira no Dia dos namorados, divirta-se!' },
+ 14: {
+  'editor': 'Banner de Coração',
+  'description': 'Compartilhe a diversão neste dia dos namorados!' },
+ 15: {
+  'editor': 'Coração Voador',
+  'description': 'Flutue com o espírito do dia dos namorados!' },
+ 16: {
+  'editor': 'Suporte de palanque',
+  'description': 'Todos os nossos novos amigos estão prontos para dançar!' },
+ 17: {
+  'editor': 'Faixa da vitória',
+  'description': 'Não é apenas uma faixa comum!' },
+ 18: {
+  'editor': 'Canhões de confete',
+  'description': 'BUM! Confete! Diversão!' },
+ 19: {
+  'editor': 'Cog e Doodle',
+  'description': 'Ui! Isso vai doer.' },
+ 20: {
+  'editor': 'Cog Suspenso',
+  'description': 'Um Cog cheio de ar quente, chocante!' },
+ 21: {
+  'editor': 'Cog Sorvete',
+  'description': 'Um Cog de boa aparência' },
+ 22: {
+  'editor': 'Cog Sorvete',
+  'description': 'Um Cog de boa aparência' },
+ 23: {
+  'editor': 'Coreto de Natal',
+  'description': 'Todos adoram uma Festa de Natal! ' },
+ 24: {
+  'editor': 'Cog e Doodle',
+  'description': 'Ai! Isso vai doer.' },
+ 25: {
+  'editor': 'Boneco de neve',
+  'description': 'Tão legal, ele é demais!' },
+ 26: {
+  'editor': 'Doodle de neve',
+  'description': 'Seu único truque está esfriando!' } }
+ActivityLabel = 'Custo \xe2\x80\x93 Nome da Atividade'
 PartyDoYouWantToPlan = 'Deseja planejar uma nova festa agora?'
 PartyPlannerOnYourWay = 'Divirta-se planejando a sua festa!'
 PartyPlannerMaybeNextTime = 'Talvez da próxima vez.  Tenha um bom-dia!'
-PartyPlannerHostingTooMany = 'Sinto muito, você só pode dar uma festa de cada vez.'
-PartyPlannerOnlyPaid = 'Sinto muito, só toons assinantes podem dar uma festa.'
+PartyPlannerHostingTooMany = 'Desculpe, você só pode dar uma festa de cada vez.'
+PartyPlannerOnlyPaid = 'Desculpe, só toons assinantes podem dar uma festa.'
 PartyPlannerNpcComingSoon = 'Em breve surgirão mais festas! Tente novamente mais tarde.'
 PartyPlannerNpcMinCost = 'O custo mínimo para planejar uma festa é de %d balinhas.'
 PartyHatPublicPartyChoose = 'deseja ir para a primeira festa pública disponível?'
@@ -4511,24 +5556,24 @@ PartyGatesPartiesListToons = 'Toons'
 PartyGatesPartiesListActivities = 'Atividades'
 PartyGatesPartiesListMinLeft = 'Minutos Restantes'
 PartyGateLeftSign = 'Venha se Divertir!'
-PartyGateRightSign = 'Partes público aqui!'
+PartyGateRightSign = 'Festas Públicas Aqui!'
 PartyGateTitle = 'Festas Públicas Aqui!'
-PartyGatePartyUnavailable = 'Sinto muito. Essa festa não está mais disponível.'
-PartyGatePartyFull = 'Sinto muito. Essa festa está lotada.'
+PartyGatePartyUnavailable = 'Desculpe. Essa festa não está mais disponível.'
+PartyGatePartyFull = 'Desculpe. Essa festa está lotada.'
 PartyGateInstructions = 'Clique em um anfitrião e em "Ir para Festa"'
 PartyActivityWaitingForOtherPlayers = 'Aguardando outros jogadores para se juntarem à festa...'
 PartyActivityPleaseWait = 'Por favor, aguarde...'
 DefaultPartyActivityTitle = 'Título do Jogo de Festa'
 DefaultPartyActivityInstructions = 'Instruções do Jogo de Festa'
-PartyOnlyHostLeverPull = 'Apenas o anfitrião pode iniciar essa atividade. Sinto muito.'
-PartyActivityDefaultJoinDeny = 'Você não pode participar dessa atividade no momento. Sinto muito.'
-PartyActivityDefaultExitDeny = 'Você não pode sair dessa atividade no momento. Sinto muito.'
+PartyOnlyHostLeverPull = 'Apenas o anfitrião pode iniciar essa atividade. Desculpe.'
+PartyActivityDefaultJoinDeny = 'Você não pode participar dessa atividade no momento. Desculpe.'
+PartyActivityDefaultExitDeny = 'Você não pode sair dessa atividade no momento. Desculpe.'
 PartyJellybeanRewardOK = 'OK'
 PartyCatchActivityTitle = 'Atividade Pescaria de Festa'
-PartyCatchActivityInstructions = 'Pegue o máximo de peças de frutas que puder. Tente não "pescar"" quaisquer %(badThing)s!'
+PartyCatchActivityInstructions = "Pegue o máximo de peças de frutas que puder. Tente não 'pescar' quaisquer %(badThing)s!"
 PartyCatchActivityFinishPerfect = 'JOGO PERFEITO!'
 PartyCatchActivityFinish = 'Bom Jogo!'
-PartyCatchActivityExit = 'SAIR'
+PartyCatchActivityExit = 'Sair'
 PartyCatchActivityApples = 'maçãs'
 PartyCatchActivityOranges = 'laranjas'
 PartyCatchActivityPears = 'peras'
@@ -4538,7 +5583,9 @@ PartyCatchActivityPineapples = 'abacaxis'
 PartyCatchActivityAnvils = 'bigornas'
 PartyCatchStarted = 'O jogo começou. Divirta-se.'
 PartyCatchCannotStart = 'O jogo não pode ser iniciado no momento.'
-PartyCatchRewardMessage = 'Peças de frutas coletadas: %s\n\nBalinhas recebidas: %s'
+PartyCatchRewardMessage = 'Peças de frutas coletadas: %s\n\nBalinhas recebidas: %d'
+WinterPartyCatchActivityInstructions = "Pegue o máximo de presentes que puder. Tente não 'pegar' nenhum %(badThing)s!"
+WinterPartyCatchRewardMessage = 'Presentes pegos: %s\n\nBalinhas obtidas: %s'
 PartyDanceActivityTitle = 'Pista de Dança de Festa'
 PartyDanceActivityInstructions = 'Combine 3 ou mais padrões de SETAS para fazer os passos de dança! Há 10 passos de dança disponíveis. Você consegue obter todos?'
 PartyDanceActivity20Title = 'Pista de Dança de festa'
@@ -4554,7 +5601,7 @@ DanceAnimFirehose = 'O Toonbombeiro'
 DanceAnimShrug = 'Quem Sabe?'
 DanceAnimSlipForward = 'A Queda'
 DanceAnimSadWalk = 'Exaustão'
-DanceAnimWave = 'Oi, Tchauzinho'
+DanceAnimWave = 'Olá, Tchauzinho'
 DanceAnimStruggle = 'O Pulo Misto'
 DanceAnimRunningJump = 'O Toon Fugitivo'
 DanceAnimSlipBackward = 'A Queda de Costas'
@@ -4563,7 +5610,7 @@ DanceAnimUp = 'A Subida'
 DanceAnimGoodPutt = 'A Tacada'
 DanceAnimVictory = 'A Dança da Vitória'
 DanceAnimPush = 'O Toonmímico'
-DanceAnimAngry = "Rock n' Roll"
+DanceAnimAngry = "Rock'n'Roll"
 DanceAnimLeft = 'Esquerda'
 PartyCannonActivityTitle = 'Canhões de Festa'
 PartyCannonActivityInstructions = 'Acerte as nuvens para mudar sua cor e ricochetear no ar! NO AR, você pode USAR AS SETAS para DESLIZAR.'
@@ -4586,37 +5633,47 @@ PartyTrampolineReady = 'Preparar...'
 PartyTrampolineGo = 'Já!'
 PartyTrampolineBestHeight = 'Recorde de Altura Até Agora:\n%s\n%d ft (mt)'
 PartyTrampolineNoHeightYet = 'Quão alto\nvocê pode saltar?'
-PartyTrampolineGetHeight = '%d pés'
-PartyTeamActivityForMorePlural = 's'
-PartyTeamActivityWaitingForMore = 'Aguardando %d jogador%s\nde cada lado...'
-PartyTeamActivityWaitingForMoreWithBalance = 'Aguardando %d mais jogador%s...'
+PartyTrampolineGetHeight = '%d ft (mt)'
+PartyTeamActivityForMorePlural = 'S'
+PartyTeamActivityForMore = 'Aguardando %d jogadores%s\não de cada lado...'
+PartyTeamActivityForMoreWithBalance = 'Aguardando mais %d jogadores%s...'
 PartyTeamActivityWaitingForOtherPlayers = 'Aguardando outros jogadores...'
-PartyTeamActivityWaitingToStart = 'Aguardando para começar...'
-PartyTeamActityExitButton = 'Sair'
-PartyTeamActivitySwitchTeamsButton = 'Escolher\nEquipes'
-PartyTeamActivityWins = 'A equipe do %s venceu!'
-PartyTeamActivityLocalAvatarTeamWins = 'A sua equipe venceu!'
-PartyTeamActivityGameTie = 'É um empate!'
-PartyTeamActivityJoinDenied = 'Sinto muito. Você não pode participar no momento.'
-PartyTeamActivityTeamFull = 'Sinto muito. Essa equipe já está completa.'
-PartyTeamActivityRewardMessage = 'você conseguiu %d balinhas. Bom trabalho!'
+PartyTeamActivityWaitingToStart = 'Começando em...'
+PartyTeamActivityExitButton = 'Pular Fora'
+PartyTeamActivitySwitchTeamsButton = 'Mudar de\nEquipe'
+PartyTeamActivityWins = 'A equipe %s venceu!'
+PartyTeamActivityLocalAvatarTeamWins = 'Sua equipe venceu!'
+PartyTeamActivityGameTie = 'Deu empate!'
+PartyTeamActivityJoinDenied = 'Você não pode entrar para %s no momento.'
+PartyTeamActivityExitDenied = 'Você não pode sair de %s no momento.'
+PartyTeamActivitySwitchDenied = 'Você não pode mudar de equipe no momento.'
+PartyTeamActivityTeamFull = 'Esta equipe já está completa!'
+PartyTeamActivityRewardMessage = 'Você tem %d balas de goma. Bom trabalho!'
 PartyCogTeams = ('Azul', 'Laranja')
-PartyCogRewardMessage = 'Sua pontuação: %d\n'
-PartyCogRewardBonus = '\nVocê ganhou %d balinhas adicionais%s porque sua equipe venceu!'
-PartyCogJellybeanPlural = 's'
-PartyCogSignNote = 'PONTO MÁXIMO\n%s\n%d'
-PartyCogTitle = 'Cog-de-Guerra'
-PartyCogInstructions = 'Jogue tortas nos cogs para afastá-los da sua equipe.' + "Quando o momento acabar, a equipe com mais cogs do outro lado vence!" + '\n\nLan\xc3\x7aa com a tecla CONTROL. Mova-se com as SETAS do teclado.'
-PartyCogDistance = '%d pés'
-PartyCogTimeUp = "O momento acabou!"
-PartyCogGuiScoreLabel = 'PONTUAÇÃO'
-PartyCogGuiPowerLabel = 'POTÊNCIA'
-PartyCogGuiSpamWarning = 'Segure CONTROL para mais potência!'
-PartyCogBalanceBar = 'BALANÇO'
+PartyCogRewardMessage = 'Sua Pontuação: %d\n'
+PartyCogRewardBonus = '\nVocê tem %d balas de goma%s adicionais porque a sua equipe venceu!'
+PartyCogJellybeanPlural = 'S'
+PartyCogSignNote = 'RECORDE\n%s\n%d'
+PartyCogTitle = 'Arremesso de Torta nos Cogs'
+PartyCogInstructions = 'Jogue tortas nos cogs para afastá-los de sua equipe.' + 'Quando acabar o tempo, a equipe com menos cogs ganha!' + '\n\nArremesse com a TECLA CTRL. Movimente-se com as SETAS DIRECIONAIS.'
+PartyCogDistance = '%d ft'
+PartyCogTimeUp = 'O tempo acabou!'
+PartyCogGuiScoreLabel = 'PONTOS'
+PartyCogGuiPowerLabel = 'ENERGIA'
+PartyCogGuiSpamWarning = 'Mantenha pressionada a tecla CONTROL para obter mais força!'
+PartyCogBalanceBar = 'EQUIL\xc3\x8dBRIO'
+PartyTugOfWarJoinDenied = 'Desculpe. Você não pode participar do cabo de guerra no momento.'
+PartyTugOfWarTeamFull = 'Desculpe. Essa equipe já está completa.'
+PartyTrampolineQuitEarlyButton = 'Saltar'
+PartyTugOfWarExitButton = 'Sair'
+PartyTugOfWarWaitingForMore = 'Aguardando mais jogadores'
+PartyTugOfWarWaitingToStart = 'Aguardando para começar'
+PartyTugOfWarWaitingForOtherPlayers = 'Aguardando outros jogadores'
 PartyTugOfWarReady = 'Preparar...'
 PartyTugOfWarGo = 'JÁ!'
 PartyTugOfWarGameEnd = 'Bom jogo!'
 PartyTugOfWarGameTie = 'Você empatou!'
+PartyTugOfWarRewardMessage = 'você conseguiu %d balinhas. Bom trabalho!'
 PartyTugOfWarTitle = 'Cabo de Guerra de Festa'
 CalendarShowAll = 'Exibir Tudo'
 CalendarShowOnlyHolidays = 'Exibir Apenas Feriados'
@@ -4631,6 +5688,11 @@ CalendarPartyFinished = 'Acabou...'
 CalendarPartyCancelled = 'Cancelado.'
 CalendarPartyNeverStarted = 'Nunca Aconteceu.'
 NPCFriendPanelRemaining = 'Restantes %s'
+PartiesPageTitle = ''
+PartiesPageHostTab = ''
+PartiesPageInvitedTab = ''
+PartiesPageTitleHost = ''
+PartiesPageTitleInvited = ''
 MapPageTitle = 'Mapa'
 MapPageBackToPlayground = 'Voltar para o pátio'
 MapPageBackToCogHQ = 'Voltar para o Quartel de Cogs'
@@ -4640,6 +5702,7 @@ MapPageYouAreAtHome = 'Você está em\nsua propriedade'
 MapPageYouAreAtSomeonesHome = 'Você está na propriedade de %s'
 MapPageGoTo = 'Ir para\n%s'
 OptionsPageTitle = 'Opções'
+OptionsTabTitle = 'Opções\n& Códigos'
 OptionsPagePurchase = 'Assine já!'
 OptionsPageLogout = 'Sair'
 OptionsPageExitToontown = 'Sair de Toontown'
@@ -4647,12 +5710,13 @@ OptionsPageMusicOnLabel = 'A música está ligada.'
 OptionsPageMusicOffLabel = 'A música está desligada.'
 OptionsPageSFXOnLabel = 'Os efeitos sonoros estão ligados.'
 OptionsPageSFXOffLabel = 'Os efeitos sonoros estão desligados.'
-OptionsPageToonChatSoundsOnLabel = '   Tipo de áudio do Chat estão ligados.'
-OptionsPageToonChatSoundsOffLabel = '   Tipo de áudio do Chat estão desligados.'
+OptionsPageToonChatSoundsOnLabel = 'Type Chat Sounds are on.'
+OptionsPageToonChatSoundsOffLabel = 'Type Chat Sounds are off.'
 OptionsPageFriendsEnabledLabel = 'Aceito fazer novas amizades.'
 OptionsPageFriendsDisabledLabel = 'Não aceito fazer amizades.'
 OptionsPageSpeedChatStyleLabel = 'Cor do Chat rápido'
 OptionsPageDisplayWindowed = 'com janela'
+OptionsPageDisplayEmbedded = 'No navegador'
 OptionsPageSelect = 'Selecionar'
 OptionsPageToggleOn = 'Ligar'
 OptionsPageToggleOff = 'Desligar'
@@ -4667,6 +5731,7 @@ DisplaySettingsApi = 'API de gráfico:'
 DisplaySettingsResolution = 'Resolução:'
 DisplaySettingsWindowed = 'Em uma janela'
 DisplaySettingsFullscreen = 'Tela cheia'
+DisplaySettingsEmbedded = 'No navegador'
 DisplaySettingsApply = 'Aplicar'
 DisplaySettingsCancel = lCancel
 DisplaySettingsApplyWarning = 'Quando você pressionar OK, as configurações de vídeo serão alteradas. Se a nova configuração não ficar adequada em seu computador, o vídeo retornará à configuração original após %s segundos.'
@@ -4674,20 +5739,20 @@ DisplaySettingsAccept = 'Pressione em OK para manter as novas configurações, o
 DisplaySettingsRevertUser = 'As configurações de vídeo anteriores foram restauradas.'
 DisplaySettingsRevertFailed = 'As configurações de vídeo selecionadas não funcionam em seu computador. As configurações de vídeo anteriores foram restauradas.'
 OptionsPageCodesTab = 'Inserir Código'
-CdrPageTitle = 'Inserir o Código'
-CdrInstructions = 'Insire o seu código para receber um item especial em sua caixa de correio.'
-CdrResultSuccess = 'Parabéns! Verifique sua caixa de correio para resgatar seu item!'
-CdrResultInvalidCode = "Você inseriu um código inválido. Verifique o código e tente novamente."
-CdrResultExpiredCode = "Sinto muito. Este código expirou."
-CdrResultUnknownError = "Sinto muito. Este código não pode ser aplicado ao seu Toon."
-CdrResultMailboxFull = 'Sua caixa de correio está cheia. Remova um item e insira seu código novamente.'
-CdrResultAlreadyInMailbox = "Você já recebeu este item. Verifique sua caixa de correio para confirmar."
-CdrResultAlreadyInQueue = 'Seu item está a caminho. Verifique sua caixa de correio em alguns minutos para recebê-lo.'
-CdrResultAlreadyInCloset = "Você já recebeu este item. Verifique seu guarda-roupa para confirmar."
-CdrResultAlreadyBeingWorn = "Você já recebeu este item e está usando-o!"
-CdrResultAlreadyReceived = "Você já recebeu este item."
-CdrResultTooManyFails = "Sinto muito. Você tentou inserir um código incorreto muitas vezes. Tente novamente em breve."
-CdrResultServiceUnavailable = "Sinto muito. Este recurso está temporariamente indisponível. Tente novamente no seu próximo login."
+CdrPageTitle = 'Inserir um Código'
+CdrInstructions = 'Digite o seu código aqui para receber um prêmio especial na sua caixa de entrada'
+CdrResultSuccess = 'Parabéns! Verifique a sua caixa de correio para reivindicar o seu prêmio!'
+CdrResultInvalidCode = 'Você inseriu um código inválido. Por favor, confira a digitação e tente novamente'
+CdrResultExpiredCode = 'Lamentamos. Esse código expirou'
+CdrResultUnknownError = 'Lamentamos. Esse código não pode ser aplicado ao seu Toon'
+CdrResultMailboxFull = 'Sua caixa de correio está cheia. Por favor, remova um item e, depois, insira o seu código novamente'
+CdrResultAlreadyInMailbox = 'Você já recebeu esse item. Verifique a sua caixa de correio para confirmar'
+CdrResultAlreadyInQueue = 'Seu prêmio está a caminho. Verifique a sua caixa de correio daqui a alguns minutos para recebê-lo'
+CdrResultAlreadyInCloset = 'Você já recebeu esse item. Verifique o seu armário para confirmar'
+CdrResultAlreadyBeingWorn = 'Você já recebeu esse item e o está usando!'
+CdrResultAlreadyReceived = 'Você já recebeu esse item.'
+CdrResultTooManyFails = 'Lamentamos. Você tentou inserir um código errado repetidamente. Por favor, tente novamente daqui a 30 minutos'
+CdrResultServiceUnavailable = 'Lamentamos. Esta característica é temporariamente não disponível. Tente por favor outra vez durante seu início de uma sessão seguinte.'
 TrackPageTitle = 'Treinamento de tipos de piadas'
 TrackPageShortTitle = 'Treinamento de piadas'
 TrackPageSubtitle = 'Execute as Tarefas Toon para aprender a usar novas piadas!'
@@ -4712,7 +5777,7 @@ QuestPosterPlayground = 'No pátio'
 QuestPosterAtHome = 'Na sua casa'
 QuestPosterInHome = 'Em sua casa'
 QuestPosterOnPhone = 'No seu telefone'
-QuestPosterEstate = 'Na sua casa'
+QuestPosterEstate = 'Na sua propriedade'
 QuestPosterAnywhere = 'Qualquer lugar'
 QuestPosterAuxTo = 'para:'
 QuestPosterAuxFrom = 'de:'
@@ -4724,21 +5789,21 @@ QuestPosterLocationOn = ''
 QuestPosterFun = 'Só de brincadeira!'
 QuestPosterFishing = 'IR PESCAR'
 QuestPosterComplete = 'CONCLUIR'
-QuestPosterConfirmDelete = 'Tem certeza de que deseja excluir esta Tarefa Toon?'
-QuestPosterDeleteBtn = 'Deleta'
-QuestPosterDialogYes = 'Deleta'
+QuestPosterConfirmDelete = 'Tem certeza de que quer excluir esta Tarefa de Toon?'
+QuestPosterDeleteBtn = 'Excluir'
+QuestPosterDialogYes = 'Excluir'
 QuestPosterDialogNo = 'Cancelar'
 ShardPageTitle = 'Regiões'
 ShardPageHelpIntro = 'Cada Região é uma cópia do mundo de Toontown.'
-ShardPageHelpWhere = " Você está agora na Região '%s'."
-ShardPageHelpWelcomeValley = " Você está agora na Região 'Vale Boas-vindas', em '%s'."
+ShardPageHelpWhere = ' Você está agora na Região "%s".'
+ShardPageHelpWelcomeValley = ' Você está agora na Região "Vale Boas-vindas", em "%s".'
 ShardPageHelpMove = ' Para ir até uma nova Região, clique no nome dela.'
 ShardPagePopulationTotal = 'População Total de Toontown:\n%d'
-ShardPageScrollTitle = 'Nome            População'
+ShardPageScrollTitle = 'Nome População'
 ShardPageLow = 'Tranquila'
 ShardPageMed = 'Inteligente'
 ShardPageHigh = 'Lotada'
-ShardPageChoiceReject = 'Sinto muito, essa Região está lotada. Por favor, tente outra.'
+ShardPageChoiceReject = 'Desculpe, essa Região está lotada. Por favor, tente outra.'
 SuitPageTitle = 'Galeria de Cogs'
 SuitPageMystery = DialogQuestion + DialogQuestion + DialogQuestion
 SuitPageQuota = '%s de %s'
@@ -4769,18 +5834,20 @@ FishPageTrophyTab = 'Troféus'
 FishPickerTotalValue = 'Balde: %s / %s\nValor: %d balinhas'
 UnknownFish = DialogQuestion + DialogQuestion + DialogQuestion
 FishingRod = 'Vara %s'
-FishingRodNameDict = {0: 'Vareta',
+FishingRodNameDict = {
+ 0: 'Vareta',
  1: 'Bambu',
  2: 'Madeira de lei',
  3: 'Aço',
- 4: 'Dourado'}
-FishTrophyNameDict = {0: 'Peixinhozinho',
+ 4: 'Dourado' }
+FishTrophyNameDict = {
+ 0: 'Peixinhozinho',
  1: 'Peixinho',
  2: 'Peixe',
  3: 'Peixe-voador',
  4: 'Tubarão',
  5: 'Peixe-espada',
- 6: 'Baleia assassina'}
+ 6: 'Baleia assassina' }
 GardenPageTitle = 'Jardinagem'
 GardenPageTitleBasket = 'Cesto de Flores'
 GardenPageTitleCollection = 'Álbum de Flores'
@@ -4796,6 +5863,12 @@ GardenPageValueP = 'Valor: %d balinhas'
 FlowerPickerTotalValue = 'Cesto: %s / %s\nValor: %d balinhas'
 GardenPageShovelInfo = '%s Pá: %d / %d\n'
 GardenPageWateringCanInfo = '%s Regador: %d / %d'
+FlowerPageWeightConversion = 1
+FlowerPageWeightLargeP = ' Grande P '
+FlowerPageWeightLargeS = ' GrandeS '
+FlowerPageWeightSmallP = ' PequenoP '
+FlowerPageWeightSmallS = ' PequenoS '
+FlowerPageWeightStr = ' Peso: %s '
 KartPageTitle = 'Karts'
 KartPageTitleCustomize = 'Personalizador de karts'
 KartPageTitleRecords = 'Melhores recordes pessoais'
@@ -4803,8 +5876,8 @@ KartPageTitleTrophy = 'Troféus de corridas'
 KartPageCustomizeTab = 'Personalizar'
 KartPageRecordsTab = 'Recordes'
 KartPageTrophyTab = 'Troféus'
-KartPageTrophyDetail = 'Troféus %s: %s'
-KartPageTickets = 'Bilhetes:'
+KartPageTrophyDetail = 'Troféus %s : %s'
+KartPageTickets = 'Bilhetes :'
 KartPageConfirmDelete = 'Excluir acessório?'
 KartShtikerDelete = 'Excluir'
 KartShtikerSelect = 'Selecionar uma categoria'
@@ -4860,10 +5933,10 @@ InventoryTrackExp = '%(curExp)s / %(nextExp)s'
 InventoryUberTrackExp = 'Faltam %(nextExp)s!'
 InventoryGuestExp = 'Limite de Visitantes'
 GuestLostExp = ' Acima do Limite de Visitantes'
-InventoryAffectsOneCog = 'Afeta: Um '+ Cog
+InventoryAffectsOneCog = 'Afeta: Um ' + Cog
 InventoryAffectsOneToon = 'Afeta: Um Toon'
 InventoryAffectsAllToons = 'Afeta: Todos os Toons'
-InventoryAffectsAllCogs = 'Afeta: Todos os '+ Cogs
+InventoryAffectsAllCogs = 'Afeta: Todos os ' + Cogs
 InventoryHealString = 'Toonar'
 InventoryDamageString = 'Dano'
 InventoryBattleMenu = 'MENU DE BATALHA'
@@ -4876,7 +5949,7 @@ InventoryDamageBonus = '(+%d)'
 NPCForceAcknowledgeMessage = 'Você deve pegar o bondinho antes de sair.\n\n\n\n\nVocê poderá encontrar o bondinho ao lado da Loja de Piadas do Pateta.'
 NPCForceAcknowledgeMessage2 = 'Muito bem! Você completou a busca pelo bondinho!\nVisite o Quartel dos Toons para solicitar a sua recompensa.\n\n\n\n\n\nO Quartel dos Toons localiza-se próximo ao centro do pátio.'
 NPCForceAcknowledgeMessage3 = 'Lembre-se de pegar o bondinho.\n\n\n\nVocê pode encontrar o bondinho ao lado da Loja de Piadas do Pateta.'
-NPCForceAcknowledgeMessage4 = 'Parabéns! Você concluiu a sua primeira Tarefa Toon!\n\n\n\n\n\nVisite o Quartel dos Toons para solicitar a sua recompensa.'
+NPCForceAcknowledgeMessage4 = 'Parabéns! Você concluiu a sua primeira Tarefa Toon!\n\n\n\n\n\n\n\n\nVisite o Quartel dos Toons para solicitar a sua recompensa.'
 NPCForceAcknowledgeMessage5 = 'Não se esqueça de sua Tarefa Toon!\n\n\n\n\n\n\n\n\n\n\nVocê pode encontrar Cogs para serem derrotados do outro lado de túneis como este.'
 NPCForceAcknowledgeMessage6 = 'Excelente trabalho derrotando esses Cogs!\n\n\n\n\n\n\n\n\nVolte para o Quartel dos Toons o mais rápido possível.'
 NPCForceAcknowledgeMessage7 = 'Não se esqueça de fazer um amigo!\n\n\n\n\n\n\nClique em outro jogador e use o botão Novo amigo.'
@@ -4888,169 +5961,22 @@ MovieTutorialReward2 = 'Você recebeu 1 ponto de Esguicho! Quando você obtém 1
 MovieTutorialReward3 = 'Muito bom! Você concluiu a sua primeira Tarefa Toon!'
 MovieTutorialReward4 = 'Vá para o Quartel dos Toons para pegar a sua recompensa!'
 MovieTutorialReward5 = 'Divirta-se!'
-BattleGlobalTracks = ['toonar', 
- 'armadilha', 
- 'isca', 
- 'sonora', 
- 'lançamento', 
- 'esguicho', 
+BattleGlobalTracks = [
+ 'toonar',
+ 'armadilha',
+ 'isca',
+ 'sonora',
+ 'lançamento',
+ 'esguicho',
  'cadente']
-BattleGlobalNPCTracks = ['reabastecer', 
+BattleGlobalNPCTracks = [
+ 'reabastecer',
  'toons atingidos',
  'cogs não-atingidos']
-BattleGlobalAvPropStrings = (('Pena', 
-  'Megafone', 
-  'Batom', 
-  'Bengala', 
-  'Pó mágico', 
-  'Bolinhas de malabarismo', 
-  'Mergulho Elevado'), 
- ('Casca de banana', 
-  'Ancinho', 
-  'Bolas de gude', 
-  'Areia movediça', 
-  'Alçapão', 
-  'TNT', 
-  'Estrada De Ferro'),
- ('Nota de $1', 
-  'Ímã pequeno', 
-  'Nota de $5', 
-  'Ímã grande', 
-  'Nota de $10', 
-  'Óculos hipnóticos', 
-  'Presentação'), 
- ('Buzina de bicicleta', 
-  'Apito', 
-  'Trombeta', 
-  'Foooonnnn!', 
-  'Tromba de elefante', 
-  'Buzina', 
-  'Cantor de Ópera'), 
- ('Bolinho', 
-   'Fatia de torta de frutas', 
-   'Fatia de torta de creme', 
-   'Torta de frutas inteira', 
-   'Torta de creme inteira', 
-   'Bolo de aniversário', 
-   'Bolo de Casamento'), 
- ('Flor com esguicho', 
-  "Copo d'água", 
-  'Revólver de água', 
-  'Garrafa de água com gás', 
-  'Mangueira de incêndio', 
-  'Nuvem de chuva', 
-  'Gêiser'), 
- ('Vaso de flor', 
-  'Saco de areia', 
-  'Bigorna', 
-  'Peso pesado', 
-  'Cofre', 
-  'Piano de cauda', 
-  'Toontanic'))
-BattleGlobalAvPropStringsSingular = (('uma Pena', 
-  'um Megafone', 
-  'um Batom', 
-  'uma Bengala', 
-  'um Pó mágico', 
-  'um conjunto de Bolinhas de malabarismo', 
-  'um Mergulho Elevado'),
- ('uma Casca de banana', 
-  'um Ancinho', 
-  'um conjunto de Bolas de gude', 
-  'uma poça de Areia movediça', 
-  'um Alçapão', 
-  'um TNT', 
-  'uma Estrada de Ferro'),
- ('uma Nota de $1', 
-  'um Ímã pequeno', 
-  'uma Nota de $5', 
-  'um Ímã grande', 
-  'uma Nota de $10', 
-  'um par de Óculos hipnóticos', 
-  'uma Presentação'),
- ('uma Buzina de bicicleta', 
-  'um Apito', 
-  'uma Trombeta', 
-  'um Foooonnnn!', 
-  'uma Tromba de elefante', 
-  'uma Buzina', 
-  'um Cantor de Ópera'),
- ('um Bolinho', 
-  'uma Fatia de torta de frutas', 
-  'uma Fatia de torta de creme', 
-  'uma Torta de frutas inteira', 
-  'uma Torta de creme inteira', 
-  'um Bolo de Casamento'),
- ('uma Flor com esguicho', 
-  "um Copo d'água", 
-  'um Revólver de água', 
-  'uma Garrafa de água com gás', 
-  'uma Mangueira de incêndio', 
-  'uma Nuvem de chuva', 
-  'um Gêiser'),
- ('um Vaso de flor', 
-  'um Saco de areia', 
-  'uma Bigorna', 
-  'um Peso pesado', 
-  'um Cofre', 
-  'um Piano de cauda', 
-  'o Toontanic'))
-BattleGlobalAvPropStringsPlural = (('Penas', 
-  'Megafones', 
-  'Batons', 
-  'Bengalas', 
-  'Pós mágicos', 
-  'conjuntos de Bolinhas de malabarismo', 
-  'Mergulhos Elevados'),
- ('Cascas de banana', 
-  'Ancinhos', 
-  'conjuntos de Bolas de gude', 
-  'poças de Areia movediça', 
-  'Alçapões',
-  'TNTs', 
-  'Estradas de Ferro'), 
- ('Notas de $1', 
-  'Ímãs pequenos', 
-  'Contas de $5', 
-  'Ímãs grandes',
-  'Contas de $10', 
-  'par de Óculos hipnóticos', 
-  'Presentação'),
- ('Buzinas de bicicleta', 
-  'Apitos', 
-  'Trombetas', 
-  'Foooonnnns!', 
-  'Trombas de elefante', 
-  'Buzinas', 
-  'Cantor de Ópera'),
- ('Bolinhos', 
-  'Fatias de torta de frutas', 
-  'Fatias de torta de creme',
-  'Tortas de frutas inteiras', 
-  'Tortas de creme inteiras', 
-  'Bolos de aniversário', 
-  'Bolo de Casamento'),
- ('Flores com esguicho', 
-  "Copos d'água", 
-  'Revólveres de água',
-  'Garrafas de água com gás', 
-  'Mangueiras de incêndio', 
-  'Nuvens de chuva', 
-  'Gêiser'),
- ('Vasos de flor', 
-  'Sacos de areia', 
-  'Bigornas', 
-  'Pesos pesados', 
-  'Cofres',
-  'Pianos de cauda', 
-  'Transatlânticos'))
-BattleGlobalAvTrackAccStrings = ('Médio', 
- 'Perfeito', 
- 'Baixo', 
- 'Alto', 
- 'Médio', 
- 'Alto', 
- 'Baixo')
+BattleGlobalAvPropStrings = (('Pena', 'Megafone', 'Batom', 'Bengala', 'Pó mágico', 'Bolinhas de malabarismo', 'Mergulho Elevado'), ('Casca de banana', 'Ancinho', 'Bolas de gude', 'Areia movediça', 'Alçapão', 'TNT', 'Estrada De Ferro'), ('Nota de $1', '\xc3\x8dmã pequeno', 'Nota de $5', '\xc3\x8dmã grande', 'Nota de $10', 'Óculos hipnóticos', 'Presentação'), ('Buzina de bicicleta', 'Apito', 'Trombeta', 'Foooonnnn!', 'Tromba de elefante', 'Buzina', 'Cantor de Ópera'), ('Bolinho', 'Fatia de torta de frutas', 'Fatia de torta de creme', 'Torta de frutas inteira', 'Torta de creme inteira', 'Bolo de aniversário', 'Bolo de Casamento'), ('Flor com esguicho', "Copo d'água", 'Revólver de água', 'Garrafa de água com gás', 'Mangueira de incêndio', 'Nuvem de chuva', 'Gêiser'), ('Vaso de flor', 'Saco de areia', 'Bigorna', 'Peso pesado', 'Cofre', 'Piano de cauda', 'Toontanic'))
+BattleGlobalAvPropStringsSingular = (('uma Pena', 'um Megafone', 'um Batom', 'uma Bengala', 'um Pó mágico', 'um conjunto de Bolinhas de malabarismo', 'um Mergulho Elevado'), ('uma Casca de banana', 'um Ancinho', 'um conjunto de Bolas de gude', 'uma poça de Areia movediça', 'um Alçapão', 'um TNT', 'uma Estrada de Ferro'), ('uma Nota de $1', 'um \xc3\x8dmã pequeno', 'uma Nota de $5', 'um \xc3\x8dmã grande', 'uma Nota de $10', 'um par de Óculos hipnóticos', 'uma Presentação'), ('uma Buzina de bicicleta', 'um Apito', 'uma Trombeta', 'um Foooonnnn!', 'uma Tromba de elefante', 'uma Buzina', 'um Cantor de Ópera'), ('um Bolinho', 'uma Fatia de torta de frutas', 'uma Fatia de torta de creme', 'uma Torta de frutas inteira', 'uma Torta de creme inteira', 'um Bolo de Casamento'), ('uma Flor com esguicho', "um Copo d'água", 'um Revólver de água', 'uma Garrafa de água com gás', 'uma Mangueira de incêndio', 'uma Nuvem de chuva', 'um Gêiser'), ('um Vaso de flor', 'um Saco de areia', 'uma Bigorna', 'um Peso pesado', 'um Cofre', 'um Piano de cauda', 'the Toontanic'))
+BattleGlobalAvPropStringsPlural = (('Penas', 'Megafones', 'Batons', 'Bengalas', 'Pós mágicos', 'conjuntos de Bolinhas de malabarismo', 'Mergulhos Elevados'), ('Cascas de banana', 'Ancinhos', 'conjuntos de Bolas de gude', 'poças de Areia movediça', 'Alçapões', 'TNTs', 'Estradas de Ferro'), ('Notas de $1', '\xc3\x8dmãs pequenos', 'Contas de $5', '\xc3\x8dmãs grandes', 'Contas de $10', 'par de Óculos hipnóticos', 'Presentação'), ('Buzinas de bicicleta', 'Apitos', 'Trombetas', 'Foooonnnns!', 'Trombas de elefante', 'Buzinas', 'Cantor de Ópera'), ('Bolinhos', 'Fatias de torta de frutas', 'Fatias de torta de creme', 'Tortas de frutas inteiras', 'Tortas de creme inteiras', 'Bolos de aniversário', 'Bolo de Casamento'), ('Flores com esguicho', "Copos d'água", 'Revólveres de água', 'Garrafas de água com gás', 'Mangueiras de incêndio', 'Nuvens de chuva', 'Gêiser'), ('Vasos de flor', 'Sacos de areia', 'Bigornas', 'Pesos pesados', 'Cofres', 'Pianos de cauda', 'Transatlânticos'))
+BattleGlobalAvTrackAccStrings = ('Médio', 'Perfeito', 'Baixo', 'Alto', 'Médio', 'Alto', 'Baixo')
 BattleGlobalLureAccLow = 'Baixo'
 BattleGlobalLureAccMedium = 'Médio'
 AttackMissed = 'PERDEU'
@@ -5064,7 +5990,7 @@ HeadingToPlayground = 'Indo para o Pátio...'
 HeadingToStreet = 'Indo %(to)s %(street)s...'
 TownBattleRun = 'Voltar correndo para o pátio?'
 TownBattleChooseAvatarToonTitle = 'QUAL TOON?'
-TownBattleChooseAvatarCogTitle = 'QUAL ' + Cog.upper() + '?'
+TownBattleChooseAvatarCogTitle = 'QUAL ' + string.upper(Cog) + '?'
 TownBattleChooseAvatarBack = 'VOLTAR'
 FireCogTitle = 'BILHETES AZUIS RESTANTES:%s\nQUAL COG DEMITIR?'
 FireCogLowTitle = 'BILHETES AZUIS RESTANTES:%s\nSEM BILHETES SUFICIENTES!'
@@ -5083,7 +6009,7 @@ TownBattleSOSPetSearchTitle = 'Procurando rabisco\n%s...'
 TownBattleSOSPetInfoTitle = '%s está %s'
 TownBattleSOSPetInfoOK = lOK
 TrolleyHFAMessage = 'Você não pode embarcar no bondinho até que o seu Risômetro esteja sorrindo.'
-TrolleyTFAMessage = '\Você não pode embarcar no bondinho até que o ' + Mickey +' permita.'
+TrolleyTFAMessage = '\\Você não pode embarcar no bondinho até que o ' + Mickey + ' permita.'
 TrolleyHopOff = 'Descer'
 FishingExit = 'Sair'
 FishingCast = 'Lançar'
@@ -5098,7 +6024,7 @@ FishingFailureAutoReel = 'O molinete automático não funcionou desta vez. Gire 
 FishingFailureTooSlow = 'Você girou a manivela muito devagar. Alguns peixes são mais rápidos do que outros. Tente manter a barra de velocidade centralizada!'
 FishingFailureTooFast = 'Você girou a manivela muito rápido. Alguns peixes são mais lentos do que outros. Tente manter a barra de velocidade centralizada!'
 FishingOverTankLimit = 'O seu balde de pesca está cheio. Vá vender os seus peixes para o Vendedor da Loja de Animais e volte.'
-FishingBroke = 'Você não tem mais balinhas para as iscas! Para ganhar mais balinhas, Pousada Ancinho o bondinho ou venda os peixes para os Vendedores da Loja de Animais.'
+FishingBroke = 'Você não tem mais balinhas para as iscas! Para ganhar mais balinhas, pegue o bondinho ou venda os peixes para os Vendedores da Loja de Animais.'
 FishingHowToFirstTime = 'Clique e arraste para baixo no botão Lançar. Quanto mais baixo você arrastar, mais forte será o lançamento. Ajuste o ângulo para acertar os alvos dos peixes.\n\nTente agora!'
 FishingHowToFailed = 'Clique e arraste para baixo no botão Lançar. Quanto mais baixo você arrastar, mais forte será o lançamento. Ajuste o ângulo para acertar os alvos dos peixes.\n\nTente agora de novo!'
 FishingBootItem = 'Bota velha'
@@ -5110,7 +6036,7 @@ FishPokerLock = 'Bloquear'
 FishPokerUnlock = 'Desbloquear'
 FishPoker5OfKind = '5 de um naipe'
 FishPoker4OfKind = '4 de um naipe'
-FishPokerFullHouse = 'Casa Cheia'
+FishPokerFullHouse = 'Full House'
 FishPoker3OfKind = '3 de um naipe'
 FishPoker2Pair = '2 pares'
 FishPokerPair = 'Par'
@@ -5118,7 +6044,7 @@ TutorialGreeting1 = 'Oi %s!'
 TutorialGreeting2 = 'Oi %s!\nVem cá!'
 TutorialGreeting3 = 'Oi %s!\nVem cá!\nUse as teclas de seta!'
 TutorialMickeyWelcome = 'Bem-vindo a Toontown!'
-TutorialFlippyIntro = 'Deixe-me apresentar você ao meu amigo %s...'
+TutorialFlippyIntro = 'Deixe-me apresentar você ao meu amigo ' + Flippy + '...'
 TutorialFlippyHi = 'Oi, %s!'
 TutorialQT1 = 'Você pode conversar usando isto.'
 TutorialQT2 = 'Você pode conversar usando isto.\nClique no item e escolha "Oi".'
@@ -5130,23 +6056,23 @@ TutorialChat5 = 'Todos entenderão se você usar o %s.'
 TutorialChat6 = 'Tente dizer "Oi".'
 TutorialBodyClick1 = 'Muito bem!'
 TutorialBodyClick2 = 'Muito prazer! Quer ser meu amigo?'
-TutorialBodyClick3 = 'Para fazer amizade com %s, clique nele...' % Flippy
+TutorialBodyClick3 = 'Para fazer amizade com ' + Flippy + ', clique nele...'
 TutorialHandleBodyClickSuccess = 'Muito bom!'
-TutorialHandleBodyClickFail = 'Não é assim. Tente clicar em cima do %s...' % Flippy
-TutorialFriendsButton = "Agora, clique no botão 'Amigos' abaixo da figura do %s no canto direito." % Flippy
+TutorialHandleBodyClickFail = 'Não é assim. Tente clicar em cima do ' + Flippy + '...'
+TutorialFriendsButton = "Agora, clique no botão 'Amigos' abaixo da figura do " + Flippy + ' no canto direito.'
 TutorialHandleFriendsButton = "Em seguida, clique no botão 'Sim'.."
 TutorialOK = lOK
 TutorialYes = lYes
 TutorialNo = lNo
-TutorialFriendsPrompt = 'Você quer fazer amizade com o %s?' % Flippy
-TutorialFriendsPanelMickeyChat = "%s aceitou ser seu amigo. Clique em 'Ok' para concluir." % Flippy
-TutorialFriendsPanelYes = '%s disse sim!' % Flippy
+TutorialFriendsPrompt = 'Você quer fazer amizade com o ' + Flippy + '?'
+TutorialFriendsPanelMickeyChat = Flippy + " aceitou ser seu amigo. Clique em 'Ok' para concluir."
+TutorialFriendsPanelYes = Flippy + ' disse sim!'
 TutorialFriendsPanelNo = 'Isso não foi muito simpático!'
 TutorialFriendsPanelCongrats = 'Parabéns! Você fez seu primeiro amigo.'
 TutorialFlippyChat1 = 'Venha me ver quando estiver pronto para a sua primeira Tarefa Toon!'
 TutorialFlippyChat2 = 'Estarei na PrefeiToona!'
 TutorialAllFriendsButton = 'Você pode ver todos os seus amigos clicando no botão Amigos. Experimente...'
-TutorialEmptyFriendsList = 'No momento, a sua lista está vazia porque o %s não é um jogador real.'
+TutorialEmptyFriendsList = 'No momento, a sua lista está vazia porque o ' + Flippy + ' não é um jogador real.'
 TutorialCloseFriendsList = "Clique no botão 'Fechar'\npara fazer que a\nlista desapareça"
 TutorialShtickerButton = 'O botão do canto direito inferior abre o seu Álbum Toon. Experimente...'
 TutorialBook1 = 'O álbum contém várias informações úteis, como este mapa de Toontown.'
@@ -5154,17 +6080,17 @@ TutorialBook2 = 'Você também pode verificar o andamento de suas Tarefas Toon.'
 TutorialBook3 = 'Quando você estiver pronto, clique no botão do álbum novamente, para fechá-lo'
 TutorialLaffMeter1 = 'Você também precisará disto...'
 TutorialLaffMeter2 = 'Você também precisará disto...\nÉ o seu Risômetro.'
-TutorialLaffMeter3 = 'Quando os '+ Cogs +' atacarem você, ele diminui.'
+TutorialLaffMeter3 = 'Quando os ' + Cogs + ' atacarem você, ele diminui.'
 TutorialLaffMeter4 = 'Quando você está em pátios como este, ele volta a subir.'
 TutorialLaffMeter5 = 'Quando concluir as Tarefas Toon, você obterá recompensas, como o aumento do seu Limite de risadas.'
-TutorialLaffMeter6 = 'Cuidado! Se os '+ Cogs +' derrotarem você, perderá todas as suas piadas.'
+TutorialLaffMeter6 = 'Cuidado! Se os ' + Cogs + ' derrotarem você, perderá todas as suas piadas.'
 TutorialLaffMeter7 = 'Para obter mais piadas, divirta-se com os jogos no bondinho.'
 TutorialTrolley1 = 'Siga-me até o bondinho!'
 TutorialTrolley2 = 'Pule nele!'
 TutorialBye1 = 'Brinque com alguns jogos!'
 TutorialBye2 = 'Divirta-se com alguns jogos!\nCompre algumas piadas!'
-TutorialBye3 = 'Vá encontrar o  %s quando terminar!'
-TutorialForceAcknowledgeMessage = '\Você está indo na direção errada! \Vá encontrar o  '+ Mickey +'!'
+TutorialBye3 = '\\Vá encontrar o  ' + Flippy + ' quando terminar!'
+TutorialForceAcknowledgeMessage = '\\Você está indo na direção errada! \\Vá encontrar o  ' + Mickey + '!'
 PetTutorialTitle1 = 'O Painel dos Rabiscos'
 PetTutorialTitle2 = 'Chat rápido dos Rabiscos'
 PetTutorialTitle3 = 'Gadálogo dos Rabiscos'
@@ -5173,12 +6099,12 @@ PetTutorialPrev = 'Página Anterior'
 PetTutorialDone = lOK
 PetTutorialPage1 = 'Clique em um Rabisco para exibir o painel de Rabiscos. Daqui, você pode alimentar, coçar e chamar o Rabisco.'
 PetTutorialPage2 = "Use a nova área 'Bichinhos' no menu Chat rápido para fazer com que um Rabisco faça um truque. Se ele fizer, recompense-o para ele melhorar ainda mais!"
-PetTutorialPage3 = 'Compre novos truques de Rabiscos no Catálogo da Clarabela. Truques melhores produzem Toonar melhores!'
+PetTutorialPage3 = 'Compre novos truques de Rabiscos no Gadálogo da Clarabela. Truques melhores produzem Toonar melhores!'
 
 def getPetGuiAlign():
-	from pandac.PandaModules import TextNode
-	return TextNode.ACenter
-
+ TextNode = TextNode
+ import pandac.PandaModules
+ return TextNode.ACenter
 
 GardenTutorialTitle1 = 'Jardinagem'
 GardenTutorialTitle2 = 'Flores'
@@ -5193,7 +6119,7 @@ GardenTutorialPage2 = 'As flores são sensíveis, e você precisa descobrir as s
 GardenTutorialPage3 = 'Use uma piada para plantar uma árvore.  Alguns dias depois, essa piada vai melhorar!!  Mas cuide bem da saúde dela, ou a melhoria se vai.'
 GardenTutorialPage4 = 'Para plantar, regar, cavar ou fazer a colheita no seu jardim, ande até estes locais.'
 GardenTutorialPage5 = 'Estátuas podem ser compradas no Catálogo da Clarabela. Aumenta suas habilidades para destravar as estátuas mais extravagantes.'
-PlaygroundDeathAckMessage = TheCogs + ' levaram todas as suas piadas!\n\nVocê está triste. Você não pode sair do pátio até ficar feliz.'
+PlaygroundDeathAckMessage = 'Os' + Cogs + ' levaram todas as suas piadas!\n\nVocê está triste. Você não pode sair do pátio até ficar feliz.'
 ForcedLeaveFactoryAckMsg = 'O Supervisor da fábrica foi derrotado antes de você alcançá-lo. Você não recuperou nenhuma parte do Cog.'
 ForcedLeaveMintAckMsg = 'O Supervisor do Andar da Casa da Moeda foi derrotado antes de você alcançá-lo. Você não recuperou nenhuma Grana Cog.'
 HeadingToFactoryTitle = 'Dirigindo-se a %s...'
@@ -5217,18 +6143,18 @@ CannonGameInstructions = 'Atire o seu Toon na torre de água o mais rápido que 
 CannonGameReward = 'RECOMPENSA'
 TwoDGameTitle = 'Fuga dos Cartoons'
 TwoDGameInstructions = 'Fuja dos ' + Cog + ' o mais rápido que você puder. Use as setas para correr/pular e Ctrl para esguichar ' + Cog + '. Colete ' + Cog + ' tesouros para ganhar mais pontos.'
-TwoDGameElevatorExit = 'SAÍDA'
+TwoDGameElevatorExit = 'SA\xc3\x8dDA'
 TugOfWarGameTitle = 'Cabo de guerra'
 TugOfWarInstructions = 'Toque alternadamente nas teclas de seta para a esquerda e para a direita rápido o suficiente para alinhar a barra verde com a linha vermelha. Não toque nelas muito devagar, ou você acabará na água!'
-TugOfWarGameGo = 'COMEÇAR!'
+TugOfWarGameGo = 'COME\xc3\x87AR!'
 TugOfWarGameReady = 'Pronto...'
 TugOfWarGameEnd = 'Bom jogo!'
 TugOfWarGameTie = 'Você empatou!'
 TugOfWarPowerMeter = 'Medidor'
-PatternGameTitle = 'Acompanhe a '+ Minnie
-PatternGameInstructions = 'A ' + Minnie + ' mostrará uma sequência de dança.' + 'Tente repetir a dança da '+ Minnie +' exatamente como você vê usando as teclas de seta!'
+PatternGameTitle = 'Acompanhe a ' + Minnie
+PatternGameInstructions = 'A ' + Minnie + ' mostrará uma sequência de dança.' + 'Tente repetir a dança da ' + Minnie + ' exatamente como você vê usando as teclas de seta!'
 PatternGameWatch = 'Observe estes passos de dança...'
-PatternGameGo = 'COMEÇAR!'
+PatternGameGo = 'COME\xc3\x87AR!'
 PatternGameRight = 'Bom, %s!'
 PatternGameWrong = 'Ops!'
 PatternGamePerfect = 'Perfeito, %s!'
@@ -5242,10 +6168,10 @@ PatternGameOtherFaster = '\nfoi mais rápido!'
 PatternGameOtherFastest = '\nfoi o mais rápido!'
 PatternGameGreatJob = 'Muito bom!'
 PatternGameRound = 'Rodada %s!'
-PatternGameImprov = 'You did great!  Now Improv!'
+PatternGameImprov = 'Você foi muito bem!  Agora Melhore!'
 RaceGameTitle = 'Jogo de corrida'
 RaceGameInstructions = 'Clique em um número. Escolha bem! Você só avançará se ninguém mais escolher o mesmo número.'
-RaceGameWaitingChoices = 'Aguardando os outros jogadores escolherem...'
+RaceGameWaitingChoices = 'Esperando os outros jogadores escolherem...'
 RaceGameCardText = '%(name)s aposta: %(reward)s'
 RaceGameCardTextBeans = '%(name)s recebe: %(reward)s'
 RaceGameCardTextHi1 = '%(name)s é um Toon fabuloso!'
@@ -5267,7 +6193,7 @@ RingGameInstructionsMultiPlayer = 'Tente nadar através dos anéis %s. Os outros
 RingGameMissed = 'PERDEU'
 RingGameGroupPerfect = 'GRUPO\nPERFEITO!!'
 RingGamePerfect = 'PERFEITO!'
-RingGameGroupBonus = 'BôNUS DO GRUPO'
+RingGameGroupBonus = 'B\xc3\x94NUS DO GRUPO'
 ColorRed = 'vermelhos'
 ColorGreen = 'verdes'
 ColorOrange = 'laranja'
@@ -5285,8 +6211,9 @@ TargetGameInstructionsMultiPlayer = 'Acerta quantos alvos conseguir'
 TargetGameBoard = 'Rodada %s - Mantendo o Melhor Placar'
 TargetGameCountdown = 'Lançamento forçado em %s segundos'
 TargetGameCountHelp = 'Bata nas setas esquerda e direita para conseguir potência, pare para lançar'
-TargetGameFlyHelp = 'Pressiona para baixo para abrir o guarda-chuva'
+TargetGameFlyHelp = 'Aperte para baixo para abrir o guarda-chuva'
 TargetGameFallHelp = 'Use as teclas de seta para aterrissar no alvo'
+TargetGameBounceHelp = ' Bater e quicar pode tirar você do alvo'
 PhotoGameScoreTaken = '%s: %s\nVocê: %s'
 PhotoGameScoreBlank = 'Placar: %s'
 PhotoGameScoreOther = '\n%s'
@@ -5296,9 +6223,9 @@ TagGameInstructions = 'Pegue os tesouros. Você não pode pegar os tesouros se o
 TagGameYouAreIt = 'Está com você!'
 TagGameSomeoneElseIsIt = 'Está com %s!'
 MazeGameTitle = 'Jogo do labirinto'
-MazeGameInstructions = 'Pegue os tesouros. Tente pegar todos, mas cuidado com os '+ Cogs +'!'
+MazeGameInstructions = 'Pegue os tesouros. Tente pegar todos, mas cuidado com os ' + Cogs + '!'
 CatchGameTitle = 'Jogo de pegar'
-CatchGameInstructions = 'Pegue o máximo de %(fruit)s que conseguir. Cuidado com os '+ Cogs +", e tente não 'pegar' nenhuma %(badThing)s!"
+CatchGameInstructions = 'Pegue o máximo de %(fruit)s que conseguir. Cuidado com os ' + Cogs + " e tente não 'pegar' nenhuma %(badThing)s!"
 CatchGamePerfect = 'PERFEITO!'
 CatchGameApples = 'maçãs'
 CatchGameOranges = 'laranjas'
@@ -5309,12 +6236,12 @@ CatchGamePineapples = 'abacaxis'
 CatchGameAnvils = 'bigornas'
 PieTossGameTitle = 'Jogo de lançamento de tortas'
 PieTossGameInstructions = 'Lance as tortas nos alvos.'
-PhotoGameInstructions = 'Tire fotos de acordo com os Toons mostrados na parte de baixo. Mire a câmera usando o mouse, e clique com o botão esquerdo para tirar uma foto. Pressiona Ctrl para aumentar ou reduzir o zoom, e olhe em sua volta com as teclas de seta. Fotos com notas maiores ganham mais pontos!'
+PhotoGameInstructions = 'Tire fotos de acordo com os Toons mostrados na parte de baixo. Mire a câmera usando o mouse, e clique com o botão esquerdo para tirar uma foto. Aperte Ctrl para aumentar ou reduzir o zoom, e olhe em sua volta com as teclas de seta. Fotos com notas maiores ganham mais pontos!'
 PhotoGameTitle = 'Diversão Fotográfica'
 PhotoGameFilm = 'FILME'
 PhotoGameScore = 'Placar da Equipe: %s\n\nMelhores Fotos: %s\n\nPlacar Total: %s'
 CogThiefGameTitle = Cog + ' Ladrão'
-CogThiefGameInstructions = 'Impeça que os ' + Cogs + ' roubem nossos barris! Pressiona a tecla Ctrl para atirar uma torta. Use as teclas de seta para se mover. Dica: você pode andar nas diagonais.'
+CogThiefGameInstructions = 'Impeça que os ' + Cogs + ' roubem nossos barris! Aperte a tecla Ctrl para atirar uma torta. Use as teclas de seta para se mover. Dica: você pode andar nas diagonais.'
 CogThiefBarrelsSaved = '%(num)d Barris\nSalvos!'
 CogThiefBarrelSaved = '%(num)d Barril\nSalvo!'
 CogThiefNoBarrelsSaved = 'Nenhum Barril\nSalvo'
@@ -5345,19 +6272,19 @@ GenderShopGirlButtonText = 'Menina'
 BodyShopHead = 'Cabeça'
 BodyShopBody = 'Corpo'
 BodyShopLegs = 'Pernas'
-ColorShopToon = 'Cor do Toon'
 ColorShopHead = 'Cabeça'
 ColorShopBody = 'Corpo'
 ColorShopLegs = 'Pernas'
-ColorShopParts = 'Cor das Partes'
-ColorShopAll = 'Cor Single'
+ColorShopToon = 'Toon'
+ColorShopParts = 'Partes'
+ColorShopAll = 'Tudo'
 ClothesShopShorts = 'Short'
 ClothesShopShirt = 'Camisa'
 ClothesShopBottoms = 'Parte de baixo'
 PromptTutorial = 'Parabéns!\nVocê é o(a) mais recente morador(a) de Toontown!\n\nDeseja continuar com o Toontorial ou teletransportar-se diretamente para o Centro de Toontown?'
 MakeAToonSkipTutorial = 'Pular Toontorial'
 MakeAToonEnterTutorial = 'Acessar Toontorial'
-MakeAToonDone = 'Concluído'
+MakeAToonDone = lOK
 MakeAToonCancel = lCancel
 MakeAToonNext = lNext
 MakeAToonLast = 'Voltar'
@@ -5367,7 +6294,7 @@ ShapeYourToonTitle = 'Selecione o Tipo'
 PaintYourToonTitle = 'Selecione a Cor'
 PickClothesTitle = 'Selecione as Roupas'
 NameToonTitle = 'Selecione o Nome'
-CreateYourToonHead = 'Clique nas setas da "cabeça" para escolher animais diferentes.'
+CreateYourToonHead = "Clique nas setas da 'cabeça' para escolher animais diferentes."
 MakeAToonClickForNextScreen = 'Clique na seta abaixo para ir até a próxima tela.'
 PickClothes = 'Clique nas setas para escolher roupas!'
 PaintYourToon = 'Clique nas setas para pintar o seu toon!'
@@ -5377,11 +6304,11 @@ MustHaveAFirstOrLast1 = 'O seu Toon deve ter um nome ou um sobrenome, não é?'
 MustHaveAFirstOrLast2 = 'Você não quer que o seu Toon tenha um nome ou um sobrenome?'
 ApprovalForName1 = 'É isso aí, o seu Toon merece um nome muito legal!'
 ApprovalForName2 = 'Os nomes de Toons são os nomes mais legais que existem!'
-MakeAToonLastStep = 'Última etapa antes de ir para Toontown!'
+MakeAToonLastStep = '\xc3\x9altima etapa antes de ir para Toontown!'
 PickANameYouLike = 'Escolha o nome que quiser!'
 TitleCheckBox = 'Título'
 FirstCheckBox = 'Primeiro'
-LastCheckBox = 'Último'
+LastCheckBox = '\xc3\x9altimo'
 RandomButton = 'Aleatório'
 ShuffleButton = 'Misturar'
 NameShopSubmitButton = 'Enviar'
@@ -5414,7 +6341,7 @@ NameShopPlay = 'Avaliação gratuita'
 NameShopOnlyPaid = 'Somente usuários pagantes\npodem dar nomes aos seus Toons.\nAté que você se inscreva,\nseu nome será\n'
 NameShopContinueSubmission = 'Continuar envio'
 NameShopChooseAnother = 'Escolha outro nome'
-NameShopToonCouncil = 'O Conselho de Toons\nanalisará o seu\nnome.'+ 'A análise pode\nlevar alguns dias.\nEnquanto você espera,\nseu nome será\n'
+NameShopToonCouncil = 'O Conselho de Toons\nanalisará o seu\nnome.' + 'A análise pode\nlevar alguns dias.\nEnquanto você espera,\nseu nome será\n'
 PleaseTypeName = 'Digite o seu nome:'
 AllNewNames = 'Todos os novos nomes\ndevem ser aprovados\npelo Conselho de Toons.'
 NameMessages = 'Use sua criatividade e lembre-se:\nnada de nomes relacionados com a Disney, por favor.'
@@ -5425,46 +6352,37 @@ PeriodOnlyAfterLetter = 'Você pode usar um ponto no nome, mas apenas depois de 
 ApostropheOnlyAfterLetter = 'Você pode usar um apóstrofo no nome, mas apenas depois de uma letra.'
 NoNumbersInTheMiddle = 'Dígitos numéricos podem não aparecer no meio da palavra.'
 ThreeWordsOrLess = 'Seu nome deve ter três palavras ou menos.'
-CopyrightedNames = ('mickey',
- 'mickey mouse',
- 'mickeymouse',
- 'minnie',
- 'minnie mouse',
- 'minniemouse',
- 'donald',
- 'donald duck',
- 'donaldduck',
- 'pato donald',
- 'patodonald',
- 'pluto',
- 'goofy',
- 'pateta')
-NumToColor = ['Branco', 
- 'Pêssego', 
- 'Vermelho vivo', 
- 'Vermelho', 
- 'Castanho', 
- 'Siena', 
- 'Marrom', 
- 'Canela', 
- 'Coral', 
- 'Laranja',            
- 'Amarelo', 
- 'Creme', 
- 'Cítrico', 
- 'Limão', 
+CopyrightedNames = ('mickey', 'mickey mouse', 'mickeymouse', 'minnie', 'minnie mouse', 'minniemouse', 'donald', 'donald duck', 'donaldduck', 'pluto', 'goofy')
+NumToColor = [
+ 'Branco',
+ 'Pêssego',
+ 'Vermelho vivo',
+ 'Vermelho',
+ 'Castanho',
+ 'Siena',
+ 'Marrom',
+ 'Canela',
+ 'Coral',
+ 'Laranja',
+ 'Amarelo',
+ 'Creme',
+ 'Cítrico',
+ 'Limão',
  'Verde-água',
- 'Verde', 
- 'Azul-claro', 
- 'Verde-azul', 
+ 'Verde',
+ 'Azul-claro',
+ 'Verde-azul',
  'Azul',
- 'Verde-musgo', 
+ 'Verde-musgo',
  'Azul-turquesa',
  'Azul cinzento',
  'Lilás',
- 'Púrpura', 
- 'Rosa']
-AnimalToSpecies = {'dog': 'Cachorro',
+ 'Púrpura',
+ 'Rosa',
+ 'Roxo',
+ 'Preto']
+AnimalToSpecies = {
+ 'dog': 'Cachorro',
  'cat': 'Gato',
  'mouse': 'Rato',
  'horse': 'Cavalo',
@@ -5472,7 +6390,7 @@ AnimalToSpecies = {'dog': 'Cachorro',
  'duck': 'Pato',
  'monkey': 'Macaco',
  'bear': 'Urso',
- 'pig': 'Porco'}
+ 'pig': 'Porco' }
 NameTooLong = 'Este nome é muito longo. Tente novamente.'
 ToonAlreadyExists = 'Você já tem um Toon com o nome %s!'
 NameAlreadyInUse = 'Este nome já foi usado!'
@@ -5487,13 +6405,13 @@ NCMixedCase = 'Este nome tem muitas letras em maiúsculas.'
 NCBadCharacter = "O seu nome não pode conter o caractere '%s'"
 NCGeneric = 'Sinto muito, este nome não vai funcionar.'
 NCTooManyWords = 'O seu nome não pode ter mais de quatro palavras.'
-NCDashUsage = ('Hífens podem ser usados apenas para ligar duas palavras (como em "Bu-Bu").')
+NCDashUsage = "Hífens podem ser usados apenas para ligar duas palavras(como em 'Bu-Bu')."
 NCCommaEdge = 'O seu nome não pode começar ou terminar com vírgula.'
 NCCommaAfterWord = 'Você não pode começar uma palavra com vírgula.'
-NCCommaUsage = ('Este nome não usa vírgulas corretamente. As vírgulas devem juntar duas palavras, como no nome "Dr. Quack, MD". As vírgulas devem também ser seguidas por um espaço.')
-NCPeriodUsage = ('Este nome não usa pontos corretamente. Os pontos são permitidos somente em palavras como "Sr.", "Sra.", "J.P.", etc.')
+NCCommaUsage = 'Este nome não usa vírgulas corretamente. As vírgulas devemjuntar duas palavras, como no nome "Dr. Quack, MD".As vírgulas devem também ser seguidas por um espaço.'
+NCPeriodUsage = 'Este nome não usa pontos corretamente. Os pontos sãopermitidos somente em palavras como "Sr.", "Sra.", "J.P.", etc.'
 NCApostrophes = 'Este nome tem excesso de apóstrofos.'
-RemoveTrophy = lToonHQ + ': '+ TheCogs +' dominaram um dos edifícios que você salvou!'
+RemoveTrophy = 'Quartel dos Toons: Os ' + Cogs + ' dominaram um dos edifícios que você salvou!'
 STOREOWNER_TOOKTOOLONG = 'Precisa de mais tempo para pensar?'
 STOREOWNER_GOODBYE = 'Vejo você depois!'
 STOREOWNER_NEEDJELLYBEANS = 'Você precisa pegar o bondinho para conseguir algumas balinhas.'
@@ -5511,14 +6429,14 @@ STOREOWNER_CONFIRM_LOSS = 'O seu armário está cheio. Você vai perder as roupa
 STOREOWNER_OK = lOK
 STOREOWNER_CANCEL = lCancel
 STOREOWNER_TROPHY = 'Uau! Você pegou %s de %s peixe. Merece um troféu e um Acréscimo de risadas!'
-SuitInvasionBegin1 = lToonHQ+': Foi iniciada uma Invasão de Cogs!!!'
-SuitInvasionBegin2 = lToonHQ+': %s dominaram Toontown!!!'
-SuitInvasionEnd1 = lToonHQ+': A Invasão de %s terminou!!!'
-SuitInvasionEnd2 = lToonHQ+': Mais uma vez os Toons salvaram a pátria!!!'
-SuitInvasionUpdate1 = lToonHQ+': A Invasão de Cogs está agora em %s Cogs!!!'
-SuitInvasionUpdate2 = lToonHQ+': Precisamos derrotar esses %s!!!'
-SuitInvasionBulletin1 = lToonHQ+': Há uma Invasão de Cogs em andamento!!!'
-SuitInvasionBulletin2 = lToonHQ+': %s dominaram Toontown!!!'
+SuitInvasionBegin1 = lToonHQ + ': Foi iniciada uma Invasão de Cogs!!!'
+SuitInvasionBegin2 = lToonHQ + ': %s dominaram Toontown!!!'
+SuitInvasionEnd1 = lToonHQ + ': A Invasão de %s terminou!!!'
+SuitInvasionEnd2 = lToonHQ + ': Mais uma vez os Toons salvaram a pátria!!!'
+SuitInvasionUpdate1 = lToonHQ + ': A Invasão de Cogs está agora em %s Cogs!!!'
+SuitInvasionUpdate2 = lToonHQ + ': Precisamos derrotar esses %s!!!'
+SuitInvasionBulletin1 = lToonHQ + ': Há uma Invasão de Cogs em andamento!!!'
+SuitInvasionBulletin2 = lToonHQ + ': %s dominaram Toontown!!!'
 LeaderboardTitle = 'Pelotão Toon'
 QuestScriptTutorialMickey_1 = 'Toontown ganhou um novo cidadão! Você tem piadas de reserva?'
 QuestScriptTutorialMickey_2 = 'Claro, %s!'
@@ -5537,7 +6455,7 @@ QuestScript101_7 = 'Há milhares de piadas, mas, para começar, use estas aqui.'
 QuestScript101_8 = 'Ah! Você também vai precisar de um Risômetro!'
 QuestScript101_9 = 'Se o seu Risômetro estiver baixo, é porque você está triste!'
 QuestScript101_10 = 'Um Toon feliz é um Toon saudável!'
-QuestScript101_11 = 'OH NÃO! Há um COG na porta da minha loja!'
+QuestScript101_11 = 'OH N\xc3\x83O! Há um COG na porta da minha loja!'
 QuestScript101_12 = 'AJUDE-ME, POR FAVOR! Derrote este COG!'
 QuestScript101_13 = 'Esta é a sua primeira Tarefa Toon!'
 QuestScript101_14 = 'Vamos nessa! Vá derrotar aquele Puxa-saco!'
@@ -5558,7 +6476,7 @@ QuestScriptTutorialBlocker_3 = 'Ah! Você não sabe usar o Chat rápido!'
 QuestScriptTutorialBlocker_4 = 'Clique no botão para dizer algo.'
 QuestScriptTutorialBlocker_5 = 'Muito bom!\x7O local para onde você está indo tem um monte de Toons para conversar.'
 QuestScriptTutorialBlocker_6 = 'Se você quiser conversar com seus amigos usando o teclado, há um outro botão que pode ser usado.'
-QuestScriptTutorialBlocker_7 = "Esse chama botão 'Conversar'. Você precisa ativar o Chat Rápido Plus no site de Toontown para usá-lo."
+QuestScriptTutorialBlocker_7 = 'Ele se chama botão "Conversar". Você precisa ser um cidadão oficial de Toontown para usá-lo.'
 QuestScriptTutorialBlocker_8 = 'Boa sorte! Vejo você depois!'
 QuestScriptGagShop_1 = 'Bem-vindo à Loja de Piadas!'
 QuestScriptGagShop_1a = 'Aqui é o lugar onde os Toons vêm comprar piadas para usar contra os Cogs.'
@@ -5572,11 +6490,11 @@ QuestScript120_1 = 'Muito bem, você encontrou o bondinho!\x7Por falar nisso, vo
 QuestScript120_2 = 'O Banqueiro Beto está lá no Banco de Toontown.'
 QuestScript121_1 = 'Mmm, obrigado pelo chocolate.\x7Olha só, se você me ajudar, eu dou a você uma recompensa.\x7Esses Cogs roubaram as chaves do meu cofre. Derrote os Cogs para encontrar a chave roubada.\x7Quando você encontra-la, traga-a para mim.'
 QuestScript130_1 = 'Muito bem, você encontrou o bondinho!\x7Por falar nisso, recebi hoje um pacote para o Professor Paulo.\x7Deve ser o novo giz que ele encomendou.\x7Você pode, por favor, levar para ele?\x7Ele está lá na escola.'
-QuestScript131_1 = 'Ah, obrigado pelo giz.\x7O quê?!?\x7Esses Cogs roubaram meu quadro-negro. Derrote os Cogs para encontrar meu quadro-negro roubado.\x7Quando encontrá-lo, traga de volta para mim.'
+QuestScript131_1 = 'Ah, obrigado pelo giz.\x7O quê?\x7Esses Cogs roubaram meu quadro-negro. Derrote os Cogs para encontrar meu quadro-negro roubado.\x7Quando encontrá-lo, traga de volta para mim.'
 QuestScript140_1 = 'Muito bem, você encontrou o bondinho!\x7Por falar nisso, tenho um amigo, o Bibliotecário Bino, que é uma verdadeira traça de livros.\x7Peguei este livro para ele da última vez em que estive no Porto do Donald.\x7Você podia levar para ele? Em geral, ele fica na Biblioteca.'
 QuestScript141_1 = 'Ah, sim, este livro vai quase completar a minha coleção.\x7Deixe-me ver...\x7Êpa...\x7Onde é que eu pus os meus óculos agora?\x7Eu estava com eles um pouco antes de aqueles Cogs invadirem o meu edifício.\x7Derrote os Cogs para encontrar meus óculos roubados.\x7aQuando encontrá-los, traga de volta para mim para ganhar uma recompensa.'
 QuestScript145_1 = 'Estou vendo que você não teve problemas com o bondinho!\x7 Olha só, os Cogs roubaram o apagador do nosso quadro-negro.\x7 Vá para as ruas e lute com os Cogs até recuperar o apagador.\x7 Para encontrar as ruas, passe por um dos túneis como este:'
-QuestScript145_2 = 'Quando encontrar nosso apagador, traga-o de volta para cá.\x7Não se esqueça, se precisar de piadas, Pousada Ancinho o bondinho.\x7E se você precisar recuperar Pontos de risadas, colete casquinhas de sorvete no Pátio.'
+QuestScript145_2 = 'Quando encontrar nosso apagador, traga-o de volta para cá.\x7Não se esqueça, se precisar de piadas, pegue o bondinho.\x7E se você precisar recuperar Pontos de risadas, colete casquinhas de sorvete no Pátio.'
 QuestScript150_1 = 'Ah... Esta próxima tarefa talvez seja muito difícil para você executar sozinho!'
 QuestScript150_2 = 'Para fazer amigos, encontre outro jogador e use o botão Novo amigo.'
 QuestScript150_3 = 'Depois que você tiver arrumado um amigo, volte aqui.'
@@ -5587,14 +6505,16 @@ CashbotBossName = 'Diretor Financeiro'
 LawbotBossName = 'Juiz-chefe'
 BossCogNameWithDept = '%(name)s\n%(dept)s'
 BossCogPromoteDoobers = 'Com isto, você está promovido a %s sênior. Parabéns!'
-BossCogDoobersAway = { 's': 'Vai! E faça essa venda!'}
+BossCogDoobersAway = {
+ 's': 'Vai! E faça essa venda!' }
 BossCogWelcomeToons = 'Bem-vindos, novos Cogs!'
 BossCogPromoteToons = 'Com isto, você está promovido a %s sênior. Parab--'
 CagedToonInterruptBoss = 'Oi! Uhuu! E aí pessoal!'
 CagedToonRescueQuery = 'Então, galera de Toons, vocês vêm me salvar?'
 BossCogDiscoverToons = 'Hã? Toons! Disfarçar!'
 BossCogAttackToons = 'Atacar!!'
-CagedToonDrop = ['Bom trabalho! Ele está ficando exausto!',
+CagedToonDrop = [
+ 'Bom trabalho! Ele está ficando exausto!',
  'Fique atrás dele! Ele está fugindo!',
  'Pessoal, vocês estão se saindo muito bem!',
  'Fantástico! Você quase o pegou agora!']
@@ -5605,15 +6525,16 @@ BossBattleHowToGetPies = 'Pule para tocar na cela e pegar mais tortas.'
 BossBattleHowToThrowPies = 'Pressione a tecla Insert para jogar tortas!'
 CagedToonYippee = 'Iupii!!'
 CagedToonThankYou = 'É ótimo estar livre!\x7Obrigado por toda a sua ajuda!\x7Te devo esta.\x7Se, por acaso, você estiver em apuros em alguma batalha, é só me chamar!\x7Basta clicar no botão SOS para me chamar.'
-CagedToonPromotion = '\x7Olha só! Aquele Cog V.P. acabou deixando aqui os seus documentos de promoção.\x7Vou arquivá-los para você na saída, para que Pousada Ancinho a promoção!'
+CagedToonPromotion = '\x7Olha só! Aquele Cog V.P. acabou deixando aqui os seus documentos de promoção.\x7Vou arquivá-los para você na saída, para que pegue a promoção!'
 CagedToonLastPromotion = '\x7Uau, você atingiu o nível %s no processo Cog!\x7Os Cogs não têm promoção maior do que esta.\x7Você não pode mais subir no processo Cog, mas certamente pode continuar salvando os Toons!'
 CagedToonHPBoost = '\x7Você salvou um monte de Toons neste quartel.\x7O Conselho de Toons decidiu dar a você outro Ponto de risadas. Parabéns!'
 CagedToonMaxed = '\x7Vi que você tem o nível %s no processo Cog. Impressionante!\x7Em nome do Conselho de Toons, agradeço por retornar para salvar mais Toons!'
 CagedToonGoodbye = 'Te vejo por aí!'
-CagedToonBattleThree = {10: 'Belo salto, %(toon)s. Tome aqui algumas tortas!',
+CagedToonBattleThree = {
+ 10: 'Belo salto, %(toon)s. Tome aqui algumas tortas!',
  11: 'Oi, %(toon)s! Pegue algumas tortas!',
  12: 'E aí, %(toon)s? Agora, você tem algumas tortas!',
- 20: 'Oi, %(toon)s! Pule até a minha cela e Pousada Ancinho algumas tortas para jogar!',
+ 20: 'Olá, %(toon)s! Pule até a minha cela e pegue algumas tortas para jogar!',
  21: 'Oi, %(toon)s! Use a tecla Ctrl para pular e tocar a minha cela!',
  100: 'Pressione a tecla Insert para jogar uma torta.',
  101: 'O medidor de potência azul mostra a altura que a sua torta atinge.',
@@ -5621,7 +6542,7 @@ CagedToonBattleThree = {10: 'Belo salto, %(toon)s. Tome aqui algumas tortas!',
  103: 'Espere até que a porta se abra para jogar uma torta bem lá dentro.',
  104: 'Quando ele estiver tonto, bata na cara ou no peito dele para empurrá-lo para trás!',
  105: 'Você saberá se o seu golpe foi bom quando vir o chão colorido.',
- 106: 'Se você atingir um Toon com uma torta, ele ganhará um Ponto de risadas!'}
+ 106: 'Se você atingir um Toon com uma torta, ele ganhará um Ponto de risadas!' }
 CagedToonBattleThreeMaxGivePies = 12
 CagedToonBattleThreeMaxTouchCage = 21
 CagedToonBattleThreeMaxAdvice = 106
@@ -5633,7 +6554,7 @@ ResistanceToonToonupInstructions = 'todos os Toons próximos a você ganham %s p
 ResistanceToonToonupAllInstructions = 'todos os Toons próximos a você ganham pontos de risadas completos'
 ResistanceToonMoneyInstructions = 'todos os Toons próximos a você ganham %s balinhas'
 ResistanceToonMoneyAllInstructions = 'todos os Toons próximos a você encherão suas jarras de balinhas'
-ResistanceToonRestockInstructions = "todos os Toons próximos a você vão reabastecer suas '%s' piadas"
+ResistanceToonRestockInstructions = 'todos os Toons próximos a você vão reabastecer suas "%s" piadas'
 ResistanceToonRestockAllInstructions = 'todos os Toons próximos a você vão reabastecer todas as suas piadas'
 ResistanceToonLastPromotion = '\x7Uau, você atingiu o nível %s no processo Cog!\x7Os Cogs não têm promoção maior do que esta.\x7Você não pode mais subir no processo Cog, mas, certamente, pode continuar trabalhando para a Resistência!'
 ResistanceToonHPBoost = '\x7Você trabalhou muito para a Resistência.\x7O Conselho de Toons decidiu dar a você outro Ponto de risadas. Parabéns!'
@@ -5649,7 +6570,7 @@ CashbotBossGetAwayFromThat = 'Ei! Afaste-se!'
 ResistanceToonCraneInstructions1 = 'Controle um ímã subindo no pódio.'
 ResistanceToonCraneInstructions2 = 'Use as teclas de setas para mover o guindaste e pressione a tecla Ctrl para pegar um objeto.'
 ResistanceToonCraneInstructions3 = 'Pegue um cofre com o ímã e arranque o capacete de segurança do Diretor Financeiro.'
-ResistanceToonCraneInstructions4 = 'Depois de fazer zunir o capacete, Pousada Ancinho um brutamontes desativado e dê uma pancada na cabeça dele!'
+ResistanceToonCraneInstructions4 = 'Depois de fazer zunir o capacete, pegue um brutamontes desativado e dê uma pancada na cabeça dele!'
 ResistanceToonGetaway = 'Ih! Tenho que correr!'
 CashbotCraneLeave = 'Deixar o guindaste'
 CashbotCraneAdvice = 'Use as teclas de setas para mover o guindaste de pórtico.'
@@ -5658,9 +6579,9 @@ CashbotCraneLeaving = 'Deixando o guindaste'
 MintElevatorRejectMessage = 'Não será possível entrar na Casa da Moeda até que a vestimenta de Cog %s esteja completa.'
 BossElevatorRejectMessage = 'Você não pode pegar este elevador até que tenha recebido uma promoção.'
 NotYetAvailable = 'Este elevador ainda não está disponível.'
-SellbotRentalSuitMessage = 'Use este Terno de Aluguel para chegar perto o suficiente do VP para atacar.\n\nVocê não ganhará méritos ou promoções, mas poderá resgatar um Toon para uma recompensa SOS!'
-SellbotCogSuitNoMeritsMessage = 'Seu Disfarçe de Robô Vendedor o levará para dentro, mas como você não tem méritos suficientes, não ganhará uma promoção.\n\nSe você resgatar o Toon preso, ganhará uma recompensa SOS Toon!'
-SellbotCogSuitHasMeritsMessage = 'É a Operação: Tempesade de Robô Vendedor!\n\nLeve 5 ou mais Toons de Terno de Aluguel com você para derrotar o VP e ganhar créditos para uma recompensa!'
+SellbotRentalSuitMessage = 'Use este Traje de Cog Alugado para que possa se aproximar o suficiente do VP para atacá-lo.\n\nVocê não receberá méritos ou promoções, mas pode resgatar um Toon para uma recompensa SOS!'
+SellbotCogSuitNoMeritsMessage = 'Seu disfarce de Robô Vendedor o levará para dentro, mas uma vez que não tem méritos suficientes, você não será promovido.\n\nSe resgatar o Toon encurralado, você ganhará uma recompensa SOS Toon!'
+SellbotCogSuitHasMeritsMessage = 'É a Operação: Robô Vendedor Tempestade!\n\nTraga com você 5 ou mais Toons com Trajes de Cog Alugados para derrotar o VP e ganhe crédito para uma recompensa!'
 FurnitureTypeName = 'Mobília'
 PaintingTypeName = 'Pintura'
 ClothingTypeName = 'Roupas'
@@ -5674,26 +6595,28 @@ GardenTypeName = 'Materiais de Jardim'
 RentalTypeName = 'Item de Aluguel'
 GardenStarterTypeName = 'Kit de Jardinagem'
 NametagTypeName = 'Crachá'
-CatalogItemTypeNames = {0: 'INVALID_ITEM',
- 1: FurnitureTypeName, 
- 2: ChatTypeName, 
- 3: ClothingTypeName, 
- 4: EmoteTypeName, 
+CatalogItemTypeNames = {
+ 0: 'INVALID_ITEM',
+ 1: FurnitureTypeName,
+ 2: ChatTypeName,
+ 3: ClothingTypeName,
+ 4: EmoteTypeName,
  5: 'WALLPAPER_ITEM',
  6: 'WindowViewTypeName',
  7: 'FLOORING_ITEM',
  8: 'MOULDING_ITEM',
  9: 'WAINSCOTING_ITEM',
- 10: PoleTypeName, 
- 11: PetTrickTypeName, 
- 12: BeanTypeName, 
- 13: GardenTypeName, 
- 14: RentalTypeName, 
- 15: GardenStarterTypeName, 
- 16: NametagTypeName, 
+ 10: PoleTypeName,
+ 11: PetTrickTypeName,
+ 12: BeanTypeName,
+ 13: GardenTypeName,
+ 14: RentalTypeName,
+ 15: GardenStarterTypeName,
+ 16: NametagTypeName,
  17: 'TOON_STATUE_ITEM',
- 18: 'ANIMATED_FURNITURE_ITEM'}
-ShirtStylesDescriptions = {'bss1': 'básica',
+ 18: 'ANIMATED_FURNITURE_ITEM' }
+ShirtStylesDescriptions = {
+ 'bss1': 'básica',
  'bss2': 'uma listra',
  'bss3': 'colarinho',
  'bss4': 'duas listras',
@@ -5717,7 +6640,7 @@ ShirtStylesDescriptions = {'bss1': 'básica',
  'gss7': 'bordado de flor (especial)',
  'gss8': 'colarinho feminino com 2 bolsos ',
  'gss9': 'colete de brim (especial)',
- 'gss10': 'camponesa', 
+ 'gss10': 'camponesa',
  'gss11': 'camponesa com meia listra',
  'gss12': 'camiseta de futebol (especial)',
  'gss13': 'com corações',
@@ -5726,23 +6649,23 @@ ShirtStylesDescriptions = {'bss1': 'básica',
  'c_ss1': 'amarela com capuz - Série 1',
  'c_ss2': 'amarela com palmeira - Série 1',
  'c_ss3': 'roxa com estrelas - Série 2',
- 'c_bss1': 'listras azuis (só meninos) - Série 1',
- 'c_bss2': 'laranja (só meninos) - Série 1',
- 'c_bss3': 'verde-limão com listra (só meninos) - Série 2',
- 'c_bss4': 'quimono vermelho com xadrez (só meninos) - Série 2',
- 'c_gss1': 'azul com listras amarelas (só meninas) - Série 1',
- 'c_gss2': 'rosa e bege com flor (só meninas) - Série 1',
- 'c_gss3': 'azul e dourado com listras ondulantes (só meninas) - Série 2',
- 'c_gss4': 'azul e rosa com arco (só meninas) - Série 2',
- 'c_gss5': 'quimono azul-piscina com listra (só meninas) – NÃO USADO',
+ 'c_bss1': 'listras azuis (masculina) - Série 1',
+ 'c_bss2': 'laranja (masculina) - Série 1',
+ 'c_bss3': 'verde-limão com listra (masculina) - Série 2',
+ 'c_bss4': 'quimono vermelho com xadrez (masculina) - Série 2',
+ 'c_gss1': 'azul com listras amarelas (feminina) - Série 1',
+ 'c_gss2': 'rosa e bege com flor (feminina) - Série 1',
+ 'c_gss3': 'azul e dourado com listras ondulantes (feminina) - Série 2',
+ 'c_gss4': 'azul e rosa com arco (feminina) - Série 2',
+ 'c_gss5': 'quimono azul-piscina com listra (feminina) \xe2\x80\x93 N\xc3\x83O USADO',
  'c_ss4': 'Camiseta tingida (unissex) - Série 3',
- 'c_ss5': 'azul-claro com azul e listra branca (só meninos) - Série 3',
- 'c_ss6': 'camisa de caubói 1: Série 4',
- 'c_ss7': 'camisa de caubói 2: Série 4',
- 'c_ss8': 'camisa de caubói 3: Série 4',
- 'c_ss9': 'camisa de caubói 4: Série 4',
- 'c_ss10': 'camisa de caubói 5: Série 4',
- 'c_ss11': 'camisa de caubói 6: Série 4',
+ 'c_ss5': 'azul-claro com azul e listra branca (masculina) - Série 3',
+ 'c_ss6': 'camisa de vaqueiro 1 : Série 4',
+ 'c_ss7': 'camisa de vaqueiro 2 : Série 4',
+ 'c_ss8': 'camisa de vaqueiro 3 : Série 4',
+ 'c_ss9': 'camisa de vaqueiro 4 : Série 4',
+ 'c_ss10': 'camisa de vaqueiro 5 : Série 4',
+ 'c_ss11': 'camisa de vaqueiro 6 : Série 4',
  'hw_ss1': 'Fantasma de Halloween',
  'hw_ss2': 'Abóbora de Halloween',
  'hw_ss3': 'Vampiro de Halloween',
@@ -5751,27 +6674,28 @@ ShirtStylesDescriptions = {'bss1': 'básica',
  'wh_ss2': 'Feriado de Inverno 2',
  'wh_ss3': 'Feriado de Inverno 3',
  'wh_ss4': 'Feriado de Inverno 4',
- 'vd_ss1': 'Dia dos namorados, rosa com corações vermelhos (meninas)',
+ 'vd_ss1': 'Dia dos namorados, rosa com corações vermelhos (feminina)',
  'vd_ss2': 'Dia dos namorados, vermelha com corações brancos',
- 'vd_ss3': 'Dia dos namorados, branca com corações alados (meninos)',
+ 'vd_ss3': 'Dia dos namorados, branca com corações alados (masculina)',
  'vd_ss4': 'Dia dos namorados, rosa com corações flamejantes',
  'vd_ss5': 'Dia dos namorados 2009, branca com cupido vermelho',
  'vd_ss6': 'Dia dos namorados 2009, azul com verde e corações vermelhos',
- 'vd_ss7': 'Dia dos namorados 2010, vermelho com asas brancas',
+ 'vd_ss7': '2010 Dia dos namorados, red with white wings',
  'sd_ss1': 'Dia de São Patrício, camisa com trevo-de-quatro-folhas',
  'sd_ss2': 'Dia de São Patrício, camisa com pote de ouro',
  'tc_ss1': 'Concurso de Camiseta, Colete de Pesca',
  'tc_ss2': 'Concurso de Camiseta, Aquário',
- 'tc_ss3': 'Concurso de Camiseta, Pegada',
- 'tc_ss4': 'Concurso de Camiseta, Pegada',
+ 'tc_ss3': 'Concurso de Camiseta, Pegada 1',
+ 'tc_ss4': 'Concurso de Camiseta, Pegada 2',
  'tc_ss5': 'Concurso de Camiseta, Shorts de Couro',
  'tc_ss6': 'Concurso de Camiseta, Melancia',
  'tc_ss7': 'Concurso de Camiseta, Camisa de Corrida',
+ 'tc_ss8': 'T-Shirt Contest, Most Cogs Defeated Shirt',
  'j4_ss1': 'Bandeira de 4 de julho',
  'j4_ss2': 'Fogos de Artifício de 4 de julho',
- 'c_ss12': 'Catálogo série 7, Verde com botões de amarelos', 
- 'c_ss13': 'Catálogo série 7, Roxo com flor grande', 
- 'pj_ss1': 'Camisa de Pijama de banana azul', 
+ 'c_ss12': 'Catálogo série 7, Verde com botões de amarelos',
+ 'c_ss13': 'Catálogo série 7, Roxo com flor grande',
+ 'pj_ss1': 'Camisa de Pijama de banana azul',
  'pj_ss2': 'Camisa de Pijama de chifre vermelho',
  'pj_ss3': 'Camisa de Pijama de óculos roxos',
  'sa_ss1': 'Camisa Listrada',
@@ -5785,43 +6709,46 @@ ShirtStylesDescriptions = {'bss1': 'básica',
  'sa_ss9': 'Camisa de Corrida 2',
  'sa_ss10': 'Camisa de Verão 1',
  'sa_ss11': 'Camisa de Verão 2',
- 'sa_ss12': 'Camisa de Golfe 1',
- 'sa_ss13': 'Camisa de Golfe 2',
- 'sa_ss14': 'Camisa de Abelha',
- 'sa_ss15': 'Camisa de SuperToon',
- 'sa_ss16': 'Camisa de Maratona 1',
- 'sa_ss17': 'Camisa de Salvar Edifícios 1',
- 'sa_ss18': 'Camisa de Salvar Edifícios 2',
- 'sa_ss19': 'Camisa de Tarefa de Toon 1',
- 'sa_ss20': 'Camisa de Tarefa de Toon 2',
- 'sa_ss21': 'Camisa de Bondinho 1',
- 'sa_ss22': 'Camisa de Bondinho 2',
- 'sa_ss23': 'Camisa de Inverno 1',
- 'sa_ss24': 'Camisa de Fantasia de Halloween 3',
- 'sa_ss25': 'Camisa de Fantasia de Halloween 4',
- 'sa_ss26': 'Camisa de Maioria de Cogs Derrotados',
- 'sa_ss27': 'Camisa de Maioria de V.P.s Derrotados',
- 'sa_ss28': 'Camisa de Esmagador do Robô Vendedor',
- 'sa_ss31': 'Camisa de Corrida 3', 
- 'sc_1': 'Camisa de Cientista Top 1',
- 'sc_2': 'Camisa de Cientista Top 2',
- 'sc_3': 'Camisa de Cientista Top 3 ',
- 'sil_1': 'Camisa de Caixa de Correio Boba',
- 'sil_2': 'Camisa de Lixeira Boba',
- 'sil_3': 'Camisa de Laboratório Maluco bobinho',
- 'sil_4': 'Camisa de Hidrante Bobo',
- 'sil_5': 'Camisa de Buzina de Medidor de Bobagem',
- 'sil_6': 'Camisa de Esmaga Cog bobinho',
- 'sil_7': 'Camisa de Festa da Vitória 1',
- 'sil_8': 'Camisa de Festa da Vitória 2',
- 'emb_us1': 'camisa de emblema de espaço reservado 1',
- 'emb_us2': 'camisa de emblema de espaço reservado 2',
- 'emb_us3': 'camisa de emblema de espaço reservado 3',
- 'sb_1': 'Camisa de Ícone do Robô Vendedor',
- 'jb_1': 'Camisa de Balinha',
- 'jb_2': 'Camisa de Rabisco',
- 'ugcms': 'Fique conectado ao Agitador'}
-BottomStylesDescriptions = {'bbs1': 'básico com bolsos',
+ 'sa_ss12': 'Camiseta de Golfe 1',
+ 'sa_ss13': 'Camiseta de Golfe 2',
+ 'sa_ss14': 'Camiseta de Fantasia de Halloween 1',
+ 'sa_ss15': 'Camiseta de Fantasia de Halloween 2',
+ 'sa_ss16': 'Camiseta de Maratona 1',
+ 'sa_ss17': 'Camiseta de Salvador de Edifícios 1',
+ 'sa_ss18': 'Camiseta de Salvador de Edifícios 2',
+ 'sa_ss19': 'Camiseta de Tarefa de Toon 1',
+ 'sa_ss20': 'Camiseta de Tarefa de Toon 2',
+ 'sa_ss21': 'Camiseta de Bonde 1',
+ 'sa_ss22': 'Camiseta de Bonde 2',
+ 'sa_ss23': 'Camiseta de Inverno 1',
+ 'sa_ss24': 'Camiseta de Fantasia de Halloween 3',
+ 'sa_ss25': 'Camiseta de Fantasia de Halloween 4',
+ 'sa_ss26': 'Prêmio Camiseta Maioria de Cogs Derrotados',
+ 'sa_ss27': 'Prêmio Camiseta Maioria de V.P.s Derrotados',
+ 'sa_ss28': 'Prêmio Camiseta de Esmagador do Robô Vendedor',
+ 'sc_1': ' O 1\xc2\xba melhor Cientista ',
+ 'sc_2': ' O 2\xc2\xba melhor Cientista ',
+ 'sc_3': ' O 3\xc2\xba melhor Cientista ',
+ 'sil_1': 'Camiseta Caixa de Correio Engraçadinha',
+ 'sil_2': 'Camiseta Lixeira Engraçadinha',
+ 'sil_3': 'Camiseta Laboratório Maluco Engraçadinho',
+ 'sil_4': 'Camiseta Hidrante Engraçadinho',
+ 'sil_5': 'Camiseta Buzina Engraçadinha',
+ 'sil_6': 'Camiseta Esmaga Cog Engraçadinho',
+ 'sil_7': 'Blusa Festa da Vitória 1',
+ 'sil_8': 'Blusa Festa da Vitória 2',
+ 'sb_1': 'Camiseta \xc3\x8dcone do Robô Vendedor ',
+ 'jb_1': 'Camiseta Balinha',
+ 'jb_2': 'Camiseta Doodle',
+ 'emb_us1': 'placeholder emblem shirt 1',
+ 'emb_us2': 'placeholder emblem shirt 2',
+ 'emb_us3': 'placeholder emblem shirt 3',
+ 'cr_1': 'Mailbox Shirt',
+ 'cr_2': 'Trashcan Shirt',
+ 'cr_3': 'Loony Labs Shirt',
+ 'cr_4': 'Hydrant Shirt' }
+BottomStylesDescriptions = {
+ 'bbs1': 'básico com bolsos',
  'bbs2': 'cinto',
  'bbs3': 'cargo',
  'bbs4': 'havaiano',
@@ -5843,6 +6770,7 @@ BottomStylesDescriptions = {'bbs1': 'básico com bolsos',
  'wh_bs2': 'Shorts de Feriado de Inverno Estilo 2',
  'wh_bs3': 'Shorts de Feriado de Inverno Estilo 3',
  'wh_bs4': 'Shorts de Feriado de Inverno Estilo 4',
+ 'sil_bs1': 'Short Esmaga Cog Engraçadinho',
  'gsk1': 'básica',
  'gsk2': 'bolinhas (especial)',
  'gsk3': 'listras verticais',
@@ -5880,56 +6808,68 @@ BottomStylesDescriptions = {'bbs1': 'básico com bolsos',
  'sa_bs3': 'Shorts de Festa',
  'sa_bs4': 'Shorts de Corrida',
  'sa_bs5': 'Shorts de Verão',
- 'sa_bs6': 'Shorts de Golfe',
- 'sa_bs7': 'Shorts de Abelha de Halloween',
- 'sa_bs8': 'Shorts de Super Toon de Halloween',
- 'sa_bs9': 'Shorts de Salvar o Edifício de Halloween',
+ 'sa_bs6': 'Shorts de Golfe 1',
+ 'sa_bs7': 'Shorts de Fantasia de Halloween 1',
+ 'sa_bs8': 'Shorts de Fantasia de Halloween 2',
+ 'sa_bs9': 'Shorts de Salvador de Edifícios 1',
+ 'sa_bs10': 'Shorts de Bonde 1',
+ 'sa_bs11': 'Shorts de Halloween 3',
+ 'sa_bs12': 'Shorts de Halloween 4',
+ 'sa_bs13': 'Prêmio Shorts Destruidor de Sellbot masculino',
  'sa_gs1': 'Saia de Pesca',
  'sa_gs2': 'Saia de Jardinagem',
  'sa_gs3': 'Saia de Festa',
  'sa_gs4': 'Saia de Corrida',
- 'sa_gs5': 'Saia de Verão'
- 'sa_gs6': 'Saia de Golfe',
- 'sa_gs7': 'Saia de Abelha de Halloween',
- 'sa_gs8': 'Saia de Super Toon de Halloween',
- 'sa_gs9': 'Saia de Salvar o Edifício 1',
- 'sa_gs10': 'Saia de Bondinho',
- 'sa_gs11': 'Saia de Esqueleto de Halloween',
- 'sa_gs12': 'Saia de Aranha de Halloween',
- 'sa_gs13': 'Saia de Esmagador de Robô Vendedor',
- 'sa_gs15': 'Saia de Corrida 1',
- 'sc_bs1': 'Parte de Baixo de Cientista masculino 1',
- 'sc_bs2': 'Parte de Baixo de Cientista masculino 2',
- 'sc_bs3': 'Parte de Baixo de Cientista masculino 3',
- 'sil_bs1': 'Shorts de Esmaga Cog bobinho masculino',
- 'sil_bs2': 'Shorts de Esmaga Cog bobinho feminino'}
+ 'sa_gs5': 'Saia de Verão',
+ 'sa_gs6': 'Saia de Golfe 1',
+ 'sa_gs7': 'Saia de Fantasia de Halloween 1',
+ 'sa_gs8': 'Saia de Fantasia de Halloween 2',
+ 'sa_gs9': 'Saia de Salvadora de Edifícios 1',
+ 'sa_gs10': 'Saia de Bonde 1',
+ 'sa_gs11': 'Saia de Halloween 3',
+ 'sa_gs12': 'Saia de Halloween 4',
+ 'sa_gs13': 'Prêmio Shorts Destruidor de Sellbot feminino',
+ 'sc_bs1': ' O 1\xc2\xba cientista masculino ',
+ 'sc_bs2': ' O 2\xc2\xba cientista masculino ',
+ 'sc_bs3': ' O 3\xc2\xba cientista masculino ',
+ 'sc_gs1': ' O 1\xc2\xba cientista feminino ',
+ 'sc_gs2': ' O 2\xc2\xba cientista feminino ',
+ 'sc_gs3': ' O 3\xc2\xba cientista feminino ',
+ 'sil_bs1': 'Short masculino Esmaga Cog Engraçadinho',
+ 'sil_gs1': 'Short feminino Esmaga Cog Engraçadinho',
+ 'hw_bs3': 'Shorts Vampiro de Halloween masculino',
+ 'hw_gs3': 'Shorts Vampiro de Halloween feminino',
+ 'hw_bs4': 'Shorts Tartaruga de Halloween masculino',
+ 'hw_gs4': 'Shorts Tartaruga de Halloween feminino' }
 AwardMgrBoy = 'masculino'
 AwardMgrGirl = 'feminino'
 AwardMgrUnisex = 'unissex'
 AwardMgrShorts = 'shorts'
-AwardMgrSaia = 'saia'
+AwardMgrSkirt = 'saia'
 AwardMgrShirt = 'camisa'
-SpecialEventMailboxStrings = {1: 'Um item especial do conselho Toon',
+SpecialEventMailboxStrings = {
+ 1: 'Um item especial do conselho Toon',
  2: 'Prêmio do Torneio de Pesca de Melville',
- 3: 'Aqui está seu Prêmio do Torneio de Pesca de Billy Bud',
+ 3: 'Prêmio do Torneio de Pesca de Billy Bud',
  4: 'Aqui está seu prêmio pelo Convite de Abril do Bosque de Bolotas! Parabéns!',
  5: 'Aqui está seu prêmio do Campeonato no Bosque de Bolotas! Parabéns!',
- 6: 'Aqui está seu prêmio da Extravaganza de Dando-Presentes! Parabéns!',
- 7: 'Aqui está seu prêmio do Dia da Maratona no Ano-Novo Top dos Toons! Parabéns!',
- 8: 'Aqui está seu prêmio do Fim de Semana Perfeita do Bondinho dos Jogos! Parabéns!',
- 9: 'Aqui está seu prêmio da Loucura do Bondinho dos Jogos! Parabéns!',
- 10: 'Aqui está seu prêmio do Fim de Semana do Grande Prémio! Parabéns!',
- 11: 'Aqui está seu prêmio da Corrida de Cavalos da Tarefa dos Toons! Parabéns!',
- 12: 'Aqui está seu prêmio da Maratona de Salvar Edifício! Parabéns!',
- 13: 'Aqui está seu prêmio do Torneio de Maioria dos Cogs Derrotados! Parabéns!',
+ 6: 'Aqui está seu prêmio do Festival de Presentes! Parabéns!',
+ 7: 'Aqui está seu prêmio da Maratona de Ano-Novo dos Toons! Parabéns!',
+ 8: 'Aqui está seu prêmio do Fim de Semana de Jogos no Bonde! Parabéns!',
+ 9: 'Aqui está seu prêmio do Festival de Jogos no Bonde! Parabéns!',
+ 10: 'Aqui está seu prêmio do Fim de Semana Premiado! Parabéns!',
+ 11: 'Aqui está seu prêmio da Corrida de Cavalos dos Toons!  Parabéns!',
+ 12: 'Aqui está seu prêmio da Maratona de Salvamento de Edifícios! Parabéns!',
+ 13: "Aí está seu prêmio do torneio de 'Maioria dos Cogs Derrotados'! Parabéns!",
  14: 'Aqui está seu prêmio do Torneio de Maioria de V.P.s Derrotados! Parabéns!',
- 15: 'Aqui está seu prêmio Operação: Robô Vendedor Tempestade! Parabéns!'}
+ 15: 'Aqui está seu prêmio Operação: Robô Vendedor Tempestade! Parabéns!' }
 RentalHours = 'Horas de'
 RentalOf = 'De'
 RentalCannon = 'Canhões!'
+RentalTime = 'Horas de'
 RentalGameTable = 'Mesa de Jogo!'
 EstateCannonGameEnd = 'O aluguel do Jogo de Canhão acabou.'
-GameTableRentalEnd = 'O aluguel da Mesa de Jogo acabou.'
+GameTableRentalEnd = 'O período de aluguel do Jogo de Tabuleiro acabou.'
 MessageConfirmRent = 'Iniciar o aluguel? Cancele para guardar o aluguel para depois'
 MessageConfirmGarden = 'Você quer mesmo iniciar um jardim?'
 NametagPaid = 'Crachá de Cidadão'
@@ -5937,12 +6877,9 @@ NametagAction = 'Crachá de Ação'
 NametagFrilly = 'Crachá Chique'
 FurnitureYourOldCloset = 'seu armário velho'
 FurnitureYourOldBank = 'seu banco velho'
-TrunkHatGui = 'Chapéus'
-TrunkÓculosGUI = 'Óculos'
-TrunkBackpackGUI = 'Mochilas'
-TrunkShoesGUI = 'Sapatos'
-ChatItemQuotes = "'%s'"
-FurnitureNames = {100: 'Poltrona',
+ChatItemQuotes = '"%s"'
+FurnitureNames = {
+ 100: 'Poltrona',
  105: 'Poltrona',
  110: 'Cadeira',
  120: 'Cadeira de escrivaninha',
@@ -5960,7 +6897,7 @@ FurnitureNames = {100: 'Poltrona',
  240: 'Cama-barco',
  250: 'Rede de cáctus',
  260: 'Cama de sorvete',
- 270: 'Olivia Irlandesa & Cama de Gato',
+ 270: "Olivia Erin & Cat's Bed",
  300: 'Pianola',
  310: 'Órgão de tubo',
  400: 'Lareira',
@@ -5969,9 +6906,9 @@ FurnitureNames = {100: 'Poltrona',
  430: 'Lareira',
  440: 'Lareira-maçã',
  450: 'Lareira Irlandesa',
- 460: 'Lareira Irlandesa Acesa', 
+ 460: 'Lareira Irlandesa Acesa',
  470: 'Lareira Acesa',
- 480: 'Lareira Circular Acesa', 
+ 480: 'Lareira Circular Acesa',
  490: 'Lareira Acesa',
  491: 'Lareira Acesa',
  492: 'Lareira em Forma de Maçã Acesa',
@@ -5991,7 +6928,9 @@ FurnitureNames = {100: 'Poltrona',
  640: 'Abajur da Margarida',
  650: 'Abajur da Água-viva',
  660: 'Abajur da Água-viva',
- 670: 'Abajur do caubói',
+ 670: 'Abajur do vaqueiro',
+ 680: 'Vela',
+ 681: 'Vela Acesa',
  700: 'Cadeira estofada',
  705: 'Cadeira estofada',
  710: 'Sofá',
@@ -6009,12 +6948,14 @@ FurnitureNames = {100: 'Poltrona',
  960: 'Mesinha-barril',
  970: 'Planta cáctus',
  980: 'Tenda',
- 990: 'O Fan (Leque) de Julieta', 
+ 990: 'O Fan (Leque) de Julieta',
  1000: 'Tapete grande',
  1010: 'Tapete redondo',
  1015: 'Tapete redondo',
  1020: 'Tapete pequeno',
  1030: 'Capacho de folha',
+ 1040: 'Presentes',
+ 1050: 'Trenó',
  1100: 'Vitrina',
  1110: 'Vitrina',
  1120: 'Estante alta',
@@ -6033,6 +6974,7 @@ FurnitureNames = {100: 'Poltrona',
  1320: 'Banco 5.000 Balas',
  1330: 'Banco 7.500 Balas',
  1340: 'Banco 10.000 Balas',
+ 1350: 'Banco 12.000 Balas',
  1399: 'Telefone',
  1400: 'Toon Cezanne',
  1410: 'Flores',
@@ -6055,8 +6997,8 @@ FurnitureNames = {100: 'Poltrona',
  1650: 'Vasinho',
  1660: 'Vaso Coral',
  1661: 'Vaso de concha',
- 1670: 'Rose Vase',
- 1680: 'Rose Watercan',
+ 1670: 'Vaso Rosa',
+ 1680: 'Regador Rosa',
  1700: 'Carrocinha de pipoca',
  1710: 'Joaninha',
  1720: 'Chafariz',
@@ -6077,171 +7019,153 @@ FurnitureNames = {100: 'Poltrona',
  10000: 'Moranga',
  10010: 'Abóbora',
  10020: 'Árvore de Natal',
- 10030: 'Guirlanda de Natal'}
-AwardManagerFurnitureNames = {100: 'Poltrona A - Séries 1',
- 105: 'Poltrona A - Séries 7',
- 110: 'Cadeira - Séries 1',
- 120: 'Cadeira de escrivaninha - Séries 2',
- 130: 'Cadeira de jardim - Séries 2',
- 140: 'Cadeira lagosta - Séries 3',
- 145: 'Cadeira salva-vidas - Séries 4',
- 150: 'Banco de sela - Séries 4',
- 160: 'Cadeira nativa - Séries 4',
- 170: 'Cadeira-bolinho - Séries 6',
- 200: 'Cama de Cama de Menino - Mobília Inicial',
- 205: 'Cama de Cama de Menino Séries 7',
- 210: 'Cama de Cama de Menina - Séries 1',
- 220: 'Cama banheira',
- 230: 'Cama de folhas',
- 240: 'Cama-barco',
- 250: 'Rede de cáctus',
- 260: 'Cama de sorvete',
- 270: 'Olivia Irlandesa & Cama de Gato - Cama do Bondinho',
- 300: 'Pianola',
- 310: 'Órgão de tubo',
- 400: 'Lareira - Lareira Quadrada Mobília Inicial',
- 410: 'Lareira - Lareira Menina Séries 1',
- 420: 'Lareira redonda',
- 430: 'Lareira - sala de insetos séries 2',
- 440: 'Lareira-maçã',
- 450: 'Lareira Irlandesa - coral',
- 460: 'Lareira Irlandesa Acesa - coral', 
- 470: 'Lareira Acesa - lareira quadrada com fogo',
- 480: 'Lareira Circular Acesa', 
- 490: 'Lareira Acesa - lareira menina com fogo',
- 491: 'Lareira Acesa - lareira de quarto de insetos',
- 492: 'Lareira em Forma de Maçã Acesa',
- 500: 'Armário',
- 502: 'Armário menino com 15 itens',
- 504: 'Armário menino com 20 itens',
- 506: 'Armário menino com 25 itens',
- 510: 'Armário menina - 10 itens iniciais',
- 512: 'Armário menina com 15 itens',
- 514: 'Armário menina com 20 itens',
- 516: 'Armário menina com 25 itens',
- 600: 'Abajur pequeno',
- 610: 'Abajur grande',
- 620: 'Abajur de mesa',
- 625: 'Abajur de mesa',
- 630: 'Abajur da Margarida 1',
- 640: 'Abajur da Margarida 2',
- 650: 'Abajur da Água-viva 1',
- 660: 'Abajur da Água-viva 2',
- 670: 'Abajur do caubói',
- 700: 'Cadeira estofada - Séries 1',
- 705: 'Cadeira estofada - Séries 7',
- 710: 'Sofá - séries 1',
- 715: 'Sofá - séries 7',
- 720: 'Sofá de feno',
- 730: 'Sofá-torta',
+ 10030: 'Guirlanda de Natal' }
+AwardManagerFurnitureNames = {
+ 100: 'Poltrona A \xe2\x80\x93 Série 1',
+ 105: 'Poltrona A \xe2\x80\x93 Série 7',
+ 110: 'Cadeira \xe2\x80\x93 Série 1',
+ 120: 'Cadeira de Escritório \xe2\x80\x93 Série 2',
+ 130: 'Cadeira de Madeira \xe2\x80\x93 Série 2',
+ 140: 'Cadeira de Lagosta \xe2\x80\x93 Série 3',
+ 145: 'Cadeira Salva-vidas \xe2\x80\x93 Série 3',
+ 150: 'Banco de Sela - Série 4',
+ 160: 'Cadeira Nativa \xe2\x80\x93 Série 4',
+ 170: 'Cadeira-Bolinho \xe2\x80\x93 Série 6',
+ 200: 'Cama de Menino Sonolento \xe2\x80\x93 Mobília Inicial',
+ 205: 'Cama de Menino Sonolento Série \xe2\x80\x93 7',
+ 210: 'Cama de Menina Sonolenta \xe2\x80\x93 Série 1',
+ 220: 'Cama-Banheira',
+ 230: 'Cama-Folha',
+ 240: 'Cama-Barco',
+ 250: 'Rede-Cacto',
+ 260: 'Cama-Sorvete',
+ 270: 'Cama de Olivia Erin e Gato \xe2\x80\x93 Cama-Bonde',
+ 300: 'Piano de Jogador',
+ 310: 'Órgão',
+ 400: 'Lareira \xe2\x80\x93 Lareira Quadrada Mobília Inicial',
+ 410: 'Lareira \xe2\x80\x93 Lareira Feminina Série 1',
+ 420: 'Lareira Redonda',
+ 430: 'Lareira \xe2\x80\x93 sala de insetos série 2',
+ 440: 'Lareira-Maçã',
+ 450: 'Lareira de Erin \xe2\x80\x93 coral',
+ 460: 'Lareira Acesa de Erin - coral',
+ 470: 'Lareira Acesa \xe2\x80\x93 lareira quadrada com fogo',
+ 480: 'Lareira Redonda Acesa',
+ 490: 'Lareira Acesa \xe2\x80\x93 lareira de menina com fogo',
+ 491: 'Lareira Acesa \xe2\x80\x93 lareira da sala de insetos',
+ 492: 'Lareira Maçã Acesa',
+ 500: 'Guarda-roupa de menino \xe2\x80\x93 10 itens iniciais',
+ 502: 'Guarda-roupa de menino com 15 itens',
+ 504: 'Guarda-roupa de menino com 20 itens',
+ 506: 'Guarda-roupa de menino com 25 itens',
+ 510: 'Guarda-roupa de menina \xe2\x80\x93 10 itens iniciais',
+ 512: 'Guarda-roupa de menina com 15 itens',
+ 514: 'Guarda-roupa de menina com 20 itens',
+ 516: 'Guarda-roupa de menina com 25 itens',
+ 600: 'Lâmpada Baixa',
+ 610: 'Lâmpada Alta',
+ 620: 'Lâmpada de Mesa \xe2\x80\x93 Série 1',
+ 625: 'Lâmpada de Mesa \xe2\x80\x93 Série 7',
+ 630: 'Lâmpada da Margarida 1',
+ 640: 'Lâmpada da Margarida 2',
+ 650: 'Lâmpada-Água-viva 1',
+ 660: 'Lâmpada-Água-viva 2',
+ 670: 'Lâmpada de Cowboy',
+ 680: 'Vela',
+ 681: 'Vela Acesa',
+ 700: 'Cadeira com Almofada \xe2\x80\x93 Série 1',
+ 705: 'Cadeira com Almofada \xe2\x80\x93 Série 7',
+ 710: 'Sofá \xe2\x80\x93 série 1',
+ 715: 'Sofá \xe2\x80\x93 série 7',
+ 720: 'Sofá de Feno',
+ 730: 'Sofá Bolinho',
  800: 'Escrivaninha',
- 810: 'Mesinha',
- 900: 'Porta-guarda-chuva',
- 910: 'Cabideiro - séries 1',
- 920: 'Lata de lixo',
- 930: 'Cogumelo vermelho',
- 940: 'Cogumelo amarelo',
- 950: 'Cabideiro',
- 960: 'Mesinha-barril',
- 970: 'Planta cáctus',
+ 810: 'Escrivaninha de Madeira',
+ 900: 'Suporte para Guarda-chuva',
+ 910: 'Porta-casaco \xe2\x80\x93 Série 1',
+ 920: 'Lata de Lixo',
+ 930: 'Cogumelo Vermelho',
+ 940: 'Cogumelo Amarelo',
+ 950: 'Porta-casaco - aquático',
+ 960: 'Suporte para Barril',
+ 970: 'Cacto',
  980: 'Tenda',
- 990: 'O Leque de Julieta - leque de piada', 
- 1000: 'Tapete grande',
- 1010: 'Tapete redondo - Séries 1',
- 1015: 'Tapete redondo - Séries 7',
- 1020: 'Tapete pequeno',
- 1030: 'Capacho de folha',
- 1100: 'Vitrina - Vermelha',
- 1110: 'Vitrina - Amarela',
- 1120: 'Estante alta',
- 1130: 'Estante baixa',
- 1140: 'Arca-sundae',
- 1200: 'Mesinha lateral',
- 1210: 'Mesa pequena',
- 1215: 'Mesa pequena',
- 1220: 'Mesinha de centro',
- 1230: 'Mesinha de centro',
- 1240: 'Mesa Snorkel',
- 1250: 'Mesa-biscoito',
- 1260: 'Mesa do quarto',
- 1300: 'Banco 1.000 Balas',
- 1310: 'Banco 2.500 Balas',
- 1320: 'Banco 5.000 Balas',
- 1330: 'Banco 7.500 Balas',
- 1340: 'Banco 10.000 Balas',
+ 990: 'Fã de Juliette \xe2\x80\x93 fã de brincadeira',
+ 1000: 'Tapete Grande',
+ 1010: 'Tapete Redondo \xe2\x80\x93 Série 1',
+ 1015: 'Tapete Redondo \xe2\x80\x93 Série 7',
+ 1020: 'Tapete Pequeno',
+ 1030: 'Tapete-Folha',
+ 1040: 'Presentes',
+ 1050: 'Trenó',
+ 1100: 'Vitrine \xe2\x80\x93 Vermelha',
+ 1110: 'Vitrine \xe2\x80\x93 Amarela',
+ 1120: 'Estante Alta',
+ 1130: 'Estante Baixa',
+ 1140: 'Baú-Sorvete',
+ 1200: 'Mesinha',
+ 1210: 'Mesa Pequena \xe2\x80\x93 série 1 ',
+ 1215: 'Mesa Pequena \xe2\x80\x93 série 7',
+ 1220: 'Mesa de Café quadrada',
+ 1230: 'Mesa de Café bw',
+ 1240: 'Mesa-Mergulhador',
+ 1250: 'Mesa-Biscoito',
+ 1260: 'Mesa de Quarto',
+ 1300: 'Banco de 1.000 Balas',
+ 1310: 'Banco de 2.500 Balas',
+ 1320: 'Banco de 5.000 Balas',
+ 1330: 'Banco de 7.500 Balas',
+ 1340: 'Banco de 10.000 Balas',
+ 1350: 'Banco de 12.000 Balas',
  1399: 'Telefone',
  1400: 'Toon Cezanne',
  1410: 'Flores',
  1420: 'Mickey Moderno',
  1430: 'Toon Rembrandt',
- 1440: 'Toonescape',
- 1441: 'Cavalo Assobiador',
+ 1440: 'Fuga dos Toons',
+ 1441: 'Cavalo do Apitador',
  1442: 'Estrela Toon',
- 1443: 'Não é Torta',
+ 1443: 'Não é uma Torta',
  1450: 'Mickey e Minnie',
- 1500: 'Rádio A séries 2',
- 1510: 'Rádio B séries 1',
- 1520: 'Rádio C séries 2',
+ 1500: 'Rádio A série 2',
+ 1510: 'Rádio B série 1',
+ 1520: 'Rádio C série 2',
  1530: 'Televisão',
- 1600: 'Vasinho A',
- 1610: 'Vaso alto A',
- 1620: 'Vasinho B',
- 1630: 'Vaso alto B',
- 1640: 'Vasinho C',
- 1650: 'Vasinho D',
+ 1600: 'Vaso Baixo A',
+ 1610: 'Vaso Alto A',
+ 1620: 'Vaso Baixo B',
+ 1630: 'Vaso Alto B',
+ 1640: 'Vaso Baixo C',
+ 1650: 'Vaso Baixo D',
  1660: 'Vaso Coral',
- 1661: 'Vaso de concha',
- 1670: 'Rose Vase',
- 1680: 'Rose Watercan',
- 1700: 'Carrocinha de pipoca',
+ 1661: 'Vaso-Concha',
+ 1670: 'Vaso Rosa',
+ 1680: 'Regador Rosa',
+ 1700: 'Carrinho de Pipoca',
  1710: 'Joaninha',
- 1720: 'Chafariz',
- 1725: 'Lavadora de roupa',
- 1800: 'Aquário',
- 1810: 'Aquário',
+ 1720: 'Fonte',
+ 1725: 'Máquina de Lavar',
+ 1800: 'Caveira de Aquário',
+ 1810: 'Lagarto de Aquário',
  1900: 'Peixe-espada',
  1910: 'Tubarão-martelo',
- 1920: 'Chifres de pendurar',
- 1930: 'Sombreiro simples',
- 1940: 'Sombreiro elegante',
- 1950: 'Apanhador de sonhos',
+ 1920: 'Chifres Empalhados',
+ 1930: 'Sombreiro Simples',
+ 1940: 'Sobreiro Chique',
+ 1950: 'Apanhador de Sonhos',
  1960: 'Ferradura',
- 1970: 'Retrato de búfalo',
- 2000: 'Balanço de doces',
- 2010: 'Escorregada de torta',
- 3000: 'Banheira banana split',
- 10000: 'Moranga',
- 10010: 'Abóbora',
- 10020: 'Árvore de Natal',
- 10030: 'Guirlanda de Natal'}
-ClothingArticleNames = ('Camisa',
- 'Camisa',
- 'Camisa',
- 'Bermuda',
- 'Bermuda',
- 'Saia',
- 'Bermuda')
-ClothingTypeNames = {1001: 'Camisa do Fantasma',
- 1002: 'Camisa de Ábobora',
- 1112: 'Camisa de Abelha',
- 1113: 'Camisa de Pirata',
- 1114: 'Camisa de Super Toon',
- 1115: 'Camisa de Abelha',
- 1116: 'Camisa do Toonosauro',
- 1117: 'Shorts de Abelha',
- 1118: 'Shorts de Pirata',
- 1119: 'Shorts de Super Toon',
- 1120: 'Shorts de Vampiro',
- 1121: 'Shorts de Toonosauro',
- 1122: 'Shorts de Abelha',
- 1123: 'Shorts de Pirata',
- 1124: 'Shorts de Super Toon',
- 1125: 'Shorts de Vampiro',
- 1126: 'Shorts de Toonosauro',
- 1127: 'Pirate Saia',
- 1304: 'Camisa de O',
- 1305: 'Shorts do O',
- 1306: 'Saia do O',
+ 1970: 'Retrato de Bisão',
+ 2000: 'Balanço de Doce',
+ 2010: 'Escorregador-Bolo',
+ 3000: 'Banheira-Banana Split',
+ 10000: 'Abóbora Pequena',
+ 10010: 'Abóbora Grande',
+ 10020: 'Árvore de Inverno',
+ 10030: 'Guirlanda de Inverno' }
+ClothingArticleNames = ('Camisa', 'Camisa', 'Camisa', 'Bermuda', 'Bermuda', 'Saia', 'Bermuda')
+ClothingTypeNames = {
+ 1001: 'Camiseta de Fantasma',
+ 1002: 'Camiseta de Abóbora',
  1400: 'Camisa do Mateus',
  1401: 'Camisa da Jéssica',
  1402: 'Camisa da Marisa',
@@ -6254,65 +7178,44 @@ ClothingTypeNames = {1001: 'Camisa do Fantasma',
  1606: 'Traje de Armadilha',
  1607: 'Traje de Som',
  1608: 'Traje de Isca',
- 1723: 'Camisa de Abelha',
- 1724: 'Camisa de Super Toon',
+ 1723: 'Camiseta de Abelha',
+ 1724: 'Camiseta de SuperToon',
  1734: 'Shorts de Abelha',
- 1735: 'Shorts de Super Toon',
+ 1735: 'Shorts de SuperToon',
  1739: 'Saia de Abelha',
- 1740: 'Saia de Super Toon',
- 1743: 'Camisa de Esqueleto',
- 1744: 'Camisa de Aranha',
+ 1740: 'Saia de SuperToon',
+ 1743: 'Camiseta de Esqueleto',
+ 1744: 'Saia de Aranha',
  1745: 'Shorts de Aranha',
  1746: 'Shorts de Esqueleto',
  1747: 'Saia de Esqueleto',
  1748: 'Saia de Aranha',
- 1749: 'Camisa de Caixa de Correio Bobo',
- 1750: 'Camisa de Lixeira Boba',
- 1751: 'Camisa de Laboratório Tonto',
- 1752: 'Camisa de Hidrante Bobo',
- 1753: 'Camisa de Medidor de Bobagem',
- 1754: 'Camisa de Esmaga Cog',
- 1755: 'Shorts de Esmaga Cog',
- 1756: 'Shorts de Esmaga Cog',
- 1757: 'Victory Party Camisa',
- 1758: 'Relaxed Victory Camisa',
- 1763: 'Smashed Sellbot Camisa',
- 1764: 'Most V.P.s Defeated Camisa',
- 1765: 'Sellbot Smasher Camisa',
- 1766: 'Sellbot Smasher Shorts',
- 1767: 'Sellbot Smasher Shorts',
- 1768: 'Jellybean Bank Camisa',
- 1769: 'Doodle Camisa',
- 1770: 'Vampire Camisa',
- 1771: 'Turtle Camisa',
- 1772: 'Vampire Shorts',
- 1773: 'Vampire Shorts',
- 1774: 'Turtle Shorts',
- 1775: 'Turtle Shorts',
- 1776: 'Get Connected Mover & Shaker Camisa',
- 1782: 'Racing Camisa 3',
- 1783: 'Racing Shorts 1',
- 1784: 'Racing Saia 1',
- 1801: 'Camisa da Lua Maluca',
- 1802: 'Camisa de Luvas de Neve'}
-AccessoryArticleNames = ('Chapéu ',
- 'Óculos',
- 'Mochila',
- 'Sapatos',
- 'Chapéu ',
- 'Óculos',
- 'Mochila',
- 'Sapatos',
- 'Chapéu ',
- 'Óculos',
- 'Mochila',
- 'Sapatos')
-SurfaceNames = ('Papel de parede',
- 'Moldura do teto',
- 'Piso',
- 'Lambri',
- 'Moldura')
-WallpaperNames = {1000: 'Pergaminho',
+ 1749: 'Camiseta Caixa de Correio Engraçadinha',
+ 1750: 'Camiseta Lixeira Engraçadinha',
+ 1751: 'Camiseta Laboratório Maluco Engraçadinho',
+ 1752: 'Camiseta Hidrante Engraçadinho',
+ 1753: 'Camiseta Medidor de bobagens',
+ 1754: 'Camiseta Esmaga Cog Engraçadinho',
+ 1755: 'Short Esmaga Cog Engraçadinho',
+ 1756: 'Short Esmaga Cog Engraçadinho',
+ 1757: 'Camiseta Festa da Vitória',
+ 1758: 'Camiseta Festa da Vitória',
+ 1763: 'Camiseta Robô Vendedor Destruído',
+ 1764: 'Camiseta Maioria de V.P.s Derrotados',
+ 1765: 'Camiseta Destruidor do Robô Vendedor',
+ 1766: 'Shorts Destruidor do Robô Vendedor ',
+ 1767: 'Shorts Destruidor do Robô Vendedor ',
+ 1768: 'Camiseta Banco de Balinha',
+ 1769: 'Camiseta Doodle',
+ 1770: 'Camiseta de Vampiro',
+ 1771: 'Camiseta de Tartaruga',
+ 1772: 'Shorts de Vampiro',
+ 1773: 'Shorts de Vampiro',
+ 1774: 'Shorts de Tartaruga',
+ 1775: 'Shorts de Tartaruga' }
+SurfaceNames = ('Papel de parede', 'Moldura do teto', 'Piso', 'Lambri', 'Moldura')
+WallpaperNames = {
+ 1000: 'Pergaminho',
  1100: 'Milão',
  1200: 'Dover',
  1300: 'Vitória',
@@ -6341,52 +7244,68 @@ WallpaperNames = {1000: 'Pergaminho',
  3600: "Debaixo d'água",
  3700: 'Botinas',
  3800: 'Cáctus',
- 3900: 'Chapéu de caubói',
+ 3900: 'Chapéu de vaqueiro',
  10100: 'Gatos',
  10200: 'Morcegos',
  11000: 'Flocos de neve',
  11100: 'Folhas de Natal',
  11200: 'Boneco de neve',
+ 12000: 'Cartão do Dia dos Namorados',
+ 12100: 'Cartão do Dia dos Namorados',
+ 12200: 'Cartão do Dia dos Namorados',
+ 12300: 'Cartão do Dia dos Namorados',
  13000: 'Trevo',
  13100: 'Trevo',
  13200: 'Arco-íris',
- 13300: 'Trevo'}
-FlooringNames = {1000: 'Tábua-corrida',
-    1010: 'Carpete',
-    1020: 'Piso em losangos',
-    1030: 'Piso em losangos',
-    1040: 'Grama',
-    1050: 'Tijolinho bege',
-    1060: 'Tijolinho vermelho',
-    1070: 'Piso quadrado',
-    1080: 'Pedra',
-    1090: 'Calçada',
-    1100: 'Terra',
-    1110: 'Sinteco',
-    1120: 'Lajota',
-    1130: 'Favo',
-    1140: 'Água',
-    1150: 'Piso praiano',
-    1160: 'Piso praiano',
-    1170: 'Piso praiano',
-    1180: 'Piso praiano',
-    1190: 'Areia',
-    10000: 'Cubo de gelo',
-    10010: 'Iglu',
-    11000: 'Trevo',
-    11010: 'Trevo',
-    }
-
-MouldingNames = {1000: 'Nós',
+ 13300: 'Trevo' }
+FlooringNames = {
+ 1000: 'Tábua-corrida',
+ 1010: 'Carpete',
+ 1020: 'Piso em losangos',
+ 1030: 'Piso em losangos',
+ 1040: 'Grama',
+ 1050: 'Tijolinho bege',
+ 1060: 'Tijolinho vermelho',
+ 1070: 'Piso quadrado',
+ 1080: 'Pedra',
+ 1090: 'Calçada',
+ 1100: 'Terra',
+ 1110: 'Sinteco',
+ 1120: 'Lajota',
+ 1130: 'Favo',
+ 1140: 'Água',
+ 1150: 'Piso praiano',
+ 1160: 'Piso praiano',
+ 1170: 'Piso praiano',
+ 1180: 'Piso praiano',
+ 1190: 'Areia',
+ 10000: 'Cubo de gelo',
+ 10010: 'Iglu',
+ 11000: 'Trevo',
+ 11010: 'Trevo' }
+MouldingNames = {
+ 1000: 'Nós',
  1010: 'Pintado',
  1020: 'Dental',
  1030: 'Flores',
  1040: 'Flores',
- 1050: 'Joaninha'}
-WainscotingNames = {1000: 'Pintado',
+ 1050: 'Joaninha',
+ 1060: 'Cartões do Dia dos Namorados ',
+ 1070: 'Praia',
+ 1080: 'Luzes de Inverno 1',
+ 1085: 'Luzes de Inverno 2',
+ 1090: 'Luzes de Inverno 3',
+ 1100: 'Cupido do Dia dos Namorados',
+ 1110: 'Coração do Dia dos Namorados 1',
+ 1120: 'Coração do Dia dos Namorados 2' }
+WainscotingNames = {
+ 1000: 'Pintado',
  1010: 'Painel de madeira',
- 1020: 'Madeira'}
-WindowViewNames = {10: 'Jardim amplo',
+ 1020: 'Madeira',
+ 1030: 'Cartões do Dia dos Namorados ',
+ 1040: 'Subaquático' }
+WindowViewNames = {
+ 10: 'Jardim amplo',
  20: 'Jardim selvagem',
  30: 'Jardim grego',
  40: 'Paisagem urbana',
@@ -6398,24 +7317,23 @@ WindowViewNames = {10: 'Jardim amplo',
  100: 'Fronteira congelada',
  110: 'Fazenda',
  120: 'Campo Nativo',
- 130: 'Rua Principal'}
-SpecialEventNames = {1: 'Prêmio Genérico',
+ 130: 'Rua Principal' }
+SpecialEventNames = {
+ 1: 'Prêmio Geral',
  2: 'Torneio de Pesca de Melville',
- 3: 'Torneio de Pesca de Billy Budd',
+ 3: 'Torneio de Pesca de Billy Bud',
  4: 'Convite de Abril do Bosque de Bolotas',
- 5: 'COPA de Campeonato do Bosque de Bolotas',
- 6: 'Extravagância de Dando-Presentes',
- 7: 'Dia da Maratona de Ano Novo dos Melhores Toons',
- 8: 'Fim de Semana Perfeita de Bondinho dos Jogos',
- 9: 'Loucura de Bondinho dos Jogos',
- 10: 'Fim de Semana do Grande Prêmio',
- 11: 'Deriva de Tarefas de Toons',
- 12: 'Maratona de Salvar um Prédio',
- 13: 'Maior Número de Cogs Derrotados',
- 14: 'Maior Número de V.P.s Derrotados',
- 15: 'Evento Operação Storm Rôbos Vendedores',
- 16: 'Maior Número de C.J.s Derrotados',
- 17: 'Operação Rôbos da Lei Perdem Evento'}
+ 5: 'Campeonato no Bosque de Bolotas',
+ 6: 'Festival de Presentes',
+ 7: 'Maratona de Ano-Novo dos Toons',
+ 8: 'Fim de Semana de Jogos no Bonde',
+ 9: 'Festival de Jogos no Bonde',
+ 10: 'Fim de Semana Premiado',
+ 11: 'Corrida de Cavalos dos Toons',
+ 12: 'Maratona de Salvamento de Edifícios',
+ 13: 'Maioria dos Cogs Derrotados',
+ 14: 'Maioria dos V.P.s Derrotados',
+ 15: 'Operação Evento Robô Vendedor Tempestade' }
 NewCatalogNotify = 'Há novos itens disponíveis para serem encomendados por telefone!'
 NewDeliveryNotify = 'Chegou correspondência nova em sua caixa de correio!'
 CatalogNotifyFirstCatalog = 'Seu primeiro catálogo chegou! Você pode usá-lo para encomendar novos itens para uso pessoal ou para casa.'
@@ -6424,7 +7342,7 @@ CatalogNotifyNewCatalogNewDelivery = 'Chegou correspondência nova em sua caixa 
 CatalogNotifyNewDelivery = 'Chegou correspondência nova em sua caixa de correio!'
 CatalogNotifyNewCatalogOldDelivery = 'O seu catálogo No. %s chegou, e ainda há itens aguardando por você em sua caixa de correio!'
 CatalogNotifyOldDelivery = 'Ainda há itens aguardando por você em sua caixa de correio!'
-CatalogNotifyInstructions = "Clique no botão 'Ir para casa' na Página do mapa em seu Álbum Toon e vá até o telefone que há dentro da sua casa."
+CatalogNotifyInstructions = 'Clique no botão "Ir para casa" na Página do mapa em seu Álbum Toon e vá até o telefone que há dentro da sua casa.'
 CatalogNewDeliveryButton = 'Nova\nentrega!'
 CatalogNewCatalogButton = 'Novo\ncatálogo'
 CatalogSaleItem = 'À venda!'
@@ -6456,9 +7374,11 @@ CatalogHangUp = 'Desligar'
 CatalogNew = 'NOVA'
 CatalogBackorder = 'ENCOMENDA'
 CatalogLoyalty = 'ESPECIAL'
+CatalogEmblem = 'EMBLEMA'
 CatalogPagePrefix = 'Página'
-CatalogGreeting = 'Oi! Agradecemos sua ligação para o Catálogo da Clarabela. Posso ajudar?'
-CatalogGoodbyeList = ['Agora tchau!', 
+CatalogGreeting = 'Olá! Agradecemos sua ligação para o Catálogo da Clarabela. Posso ajudar?'
+CatalogGoodbyeList = [
+ 'Agora tchau!',
  'Ligue novamente em breve!',
  'Agradecemos sua ligação!',
  'Ok, agora tchau!',
@@ -6476,11 +7396,11 @@ CatalogPurchaseGiftItemAvailable = 'Ótimo!  %s pode começar a usar o seu prese
 CatalogPurchaseItemOnOrder = 'Parabéns! O produto será entregue em sua caixa de correio em breve.'
 CatalogPurchaseGiftItemOnOrder = 'Ótimo! O seu presente para %s será entregue na caixa de correio dele.'
 CatalogAnythingElse = 'Deseja mais alguma coisa hoje?'
-CatalogPurchaseClosetFull = 'O seu armário está cheio. Apesar disso, você pode comprar este item, mas se comprar, terá que excluir alguma coisa do seu armário para liberar espaço para o novo item, quando ele chegar.\n\nQuer comprar este item mesmo assim?' 
+CatalogPurchaseClosetFull = 'O seu armário está cheio. Apesar disso, você pode comprar este item, mas se comprar, terá que excluir alguma coisa do seu armário para liberar espaço para o novo item, quando ele chegar.\n\nQuer comprar este item mesmo assim?'
 CatalogAcceptClosetFull = 'O seu armário está cheio. Entre em casa e exclua alguma coisa do seu armário para liberar espaço para o item antes de retirá-lo da caixa de correio.'
 CatalogAcceptShirt = 'Você está vestindo agora a sua nova camisa. O que você estava vestindo antes foi transferido para o seu armário.'
 CatalogAcceptShorts = 'Você está vestindo agora o seu novo short. O que você estava vestindo antes foi transferido para o seu armário.'
-CatalogAcceptSaia = 'Você está vestindo agora a sua nova saia. A que você estava vestindo antes foi transferida para o seu armário.'
+CatalogAcceptSkirt = 'Você está vestindo agora a sua nova saia. A que você estava vestindo antes foi transferida para o seu armário.'
 CatalogAcceptPole = 'Agora, você está pronto para pescar uns peixes maiores com sua nova vara!'
 CatalogAcceptPoleUnneeded = 'Você já tem uma vara de pescar melhor do que esta!'
 CatalogAcceptChat = 'Você ganhou uma nova frase de Chat rápido!'
@@ -6492,8 +7412,8 @@ CatalogAcceptGarden = 'Os seus materiais de jardim chegaram!'
 CatalogAcceptPet = 'Você ganhou um novo Truque de Rabisco!'
 CatalogPurchaseHouseFull = 'Sua casa está cheia. Apesar disso, você pode comprar este item, mas se comprar, terá que excluir alguma coisa da sua casa para liberar espaço para o novo item, quando ele chegar.\n\nQuer comprar este item mesmo assim?'
 CatalogAcceptHouseFull = 'Sua casa está cheia. Entre em casa e exclua alguma coisa de lá para liberar espaço para o item antes de retirá-lo da caixa de correio.'
-CatalogAcceptInAttic = "O seu novo item está agora no sótão. Você pode colocá-lo em casa entrando lá e clicando no botão 'Mover mobília'."
-CatalogAcceptInAtticP = "Os seus novos itens estão agora no sótão. Você pode colocá-los em casa entrando lá e clicando no botão 'Mover mobília'."
+CatalogAcceptInAttic = 'O seu novo item está agora no sótão. Você pode colocá-lo em casa entrando lá e clicando no botão "Mover mobília".'
+CatalogAcceptInAtticP = 'Os seus novos itens estão agora no sótão. Você pode colocá-los em casa entrando lá e clicando no botão "Mover mobília".'
 CatalogPurchaseMailboxFull = 'Sua caixa de correio está cheia! Você não poderá comprar este item até retirar alguns itens da caixa de correio para liberar espaço.'
 CatalogPurchaseGiftMailboxFull = 'A caixa de correio de %s está cheia!  Você não pode comprar este item.'
 CatalogPurchaseOnOrderListFull = 'Você tem itens demais encomendados no momento. Você não poderá encomendar mais nenhum item até que cheguem alguns já encomendados.'
@@ -6531,12 +7451,12 @@ HDNonDeletableItem = 'Você não pode excluir itens deste tipo!'
 HDNonDeletableBank = 'Você não pode excluir o seu banco!'
 HDNonDeletableCloset = 'Você não pode excluir o seu armário!'
 HDNonDeletablePhone = 'Você não pode excluir o seu telefone!'
-HDNonDeletableTrunk = 'Você não pode excluir o seu baú!'
-HDNonDeletableNotOwner ="Você não pode excluir as coisas de %s's!"
+HDNonDeletableNotOwner = "Você não pode excluir as coisas de %s's!"
 HDHouseFull = 'Sua casa está cheia. Você precisa excluir algo mais de sua casa ou do sótão antes de recuperar este item da lixeira.'
-HDHelpDict = {'DoneMoving': 'Decoração da sala concluída.',
+HDHelpDict = {
+ 'DoneMoving': 'Decoração da sala concluída.',
  'Attic': 'Mostrar lista de itens do sótão. O sótão armazena itens que não estão na sala.',
- 'Room': 'Mostrar lista de itens da sala. Útil para encontrar itens perdidos.',
+ 'Room': 'Mostrar lista de itens da sala. \xc3\x9atil para encontrar itens perdidos.',
  'Trash': 'Mostrar itens da lixeira. Os itens mais antigos são excluídos após um tempo ou quando a lixeira fica cheia demais.',
  'ZoomIn': 'Tenha uma visão ampliada da sala.',
  'ZoomOut': 'Tenha uma visão reduzida da sala.',
@@ -6548,15 +7468,16 @@ HDHelpDict = {'DoneMoving': 'Decoração da sala concluída.',
  'FurnitureItemPanelDelete': 'Envie o item %s para a lixeira.',
  'FurnitureItemPanelAttic': 'Coloque o item %s na sala.',
  'FurnitureItemPanelRoom': 'Voltar o item %s para o sótão.',
- 'FurnitureItemPanelTrash': 'Voltar o item %s para o sótão.'}
-MessagePickerTitle = "Você tem frases demais. Para comprar o item\n'%s'\n você precisa escolher um deles para ser removido:"
+ 'FurnitureItemPanelTrash': 'Voltar o item %s para o sótão.' }
+MessagePickerTitle = 'Você tem frases demais. Para comprar o item\n"%s"\n você precisa escolher um deles para ser removido:'
 MessagePickerCancel = lCancel
-MessageConfirmDelete = "Tem certeza de que quer remover '%s' do menu de Chat rápido?"
+MessageConfirmDelete = 'Tem certeza de que quer remover "%s" do menu de Chat rápido?'
 CatalogBuyText = 'Comprar'
 CatalogRentText = 'Alugar'
 CatalogGiftText = 'Presente'
 CatalogOnOrderText = 'Encomendado'
 CatalogPurchasedText = 'Já\ncomprado'
+CatalogCurrent = 'Atual'
 CatalogGiftedText = 'Presenteado\nPara Você'
 CatalogPurchasedGiftText = 'Já\nRecebido'
 CatalogMailboxFull = 'Sem Espaço'
@@ -6566,15 +7487,22 @@ CatalogMembersOnly = 'Somente para\nUsuários!'
 CatalogSndOnText = 'Som Ligado'
 CatalogSndOffText = 'Som Desligado'
 CatalogPurchasedMaxText = 'Já\ncomprado o máx.'
+CatalogVerifyPurchase = 'Comprar o item %(item)s por %(price)s balinhas?'
+CatalogVerifyPurchaseBeanSilverGold = 'Comprar %(item)s por %(price)s balinhas, %(silver)s símbolos de prata e %(gold)s símbolos de ouro?'
+CatalogVerifyPurchaseBeanGold = 'Comprar %(item)s por %(price)s balinhas e %(gold)s símbolos de ouro?'
+CatalogVerifyPurchaseBeanSilver = 'Comprar %(item)s por %(price)s balinhas e %(silver)s símbolos de prata?'
+CatalogVerifyPurchaseSilverGold = 'Comprar %(item)s por %(silver)s símbolos de prata e %(gold)s símbolos de ouro?'
+CatalogVerifyPurchaseSilver = 'Comprar %(item)s por %(silver)s símbolos de prata?'
+CatalogVerifyPurchaseGold = 'Comprar %(item)s por %(gold)s símbolos de ouro?'
 CatalogVerifyRent = 'Alugar %(item)s por %(price)s balinhas?'
 CatalogVerifyGift = 'Comprar %(item)s por %(price)s balinhas de presente para %(friend)s?'
-CatalogVerifyPurchase = 'Comprar o item %(item)s por %(price)s balinhas?'
 CatalogOnlyOnePurchase = 'Você só pode ter um destes itens de cada vez. Se comprar este aqui, ele substituirá os itens %(old)s.\n\nTem certeza de que quer comprar o item %(item)s por %(price)s balinhas?'
 CatalogExitButtonText = 'Desligar'
 CatalogCurrentButtonText = 'Para itens atuais'
 CatalogPastButtonText = 'Para itens antigos'
 TutorialHQOfficerName = 'Haroldo do Quartel'
-NPCToonNames = {20000: 'Tom Tutorial',
+NPCToonNames = {
+ 20000: 'Tom Tutorial',
  999: 'Costureiro Toon',
  1000: lToonHQ,
  20001: Flippy,
@@ -6594,8 +7522,11 @@ NPCToonNames = {20000: 'Tom Tutorial',
  2013: 'Vendedor Pop',
  2014: 'Vendedora Elétrica',
  2015: 'Vendedor Molenga',
- 2016: 'Planejador de Festa Abóbora', 
- 2017: 'Planejadora de Festa Polly', 
+ 2016: 'Planejador de Festa Abóbora',
+ 2017: 'Planejadora de Festa Polly',
+ 2018: 'Doutor Surlee',
+ 2019: 'Doutor Dimm',
+ 2020: 'Professor Prepostera',
  2101: 'Dentista Daniel',
  2102: 'Delegada Délis',
  2103: 'Gatinho Funga-funga',
@@ -6660,7 +7591,6 @@ NPCToonNames = {20000: 'Tom Tutorial',
  2222: 'Fusível Mirim',
  2223: 'Gláucia Gargalhada',
  2224: 'Fábio Fumacinha',
- 2224: 'Fábio Fumacinha',
  2225: 'Corcunda Pescador',
  2301: 'Dr. Puxaperna',
  2302: 'Professor Balanço',
@@ -6692,8 +7622,8 @@ NPCToonNames = {20000: 'Tom Tutorial',
  1009: 'Vendedor Durão',
  1010: 'Vendedora Ron-ron',
  1011: 'Vendedora Blup',
- 1012: 'Planejador de Festa Pickles', 
- 1013: 'Planejador de Festa Patty', 
+ 1012: 'Planejador de Festa Pickles',
+ 1013: 'Planejador de Festa Patty',
  1101: 'Levi Legal',
  1102: 'Capitão Carlão',
  1103: 'Pedro Peixe',
@@ -6790,8 +7720,8 @@ NPCToonNames = {20000: 'Tom Tutorial',
  3010: 'Vendedor Saltitante',
  3011: 'Vendedora Glub',
  3012: 'Vendedor Kiko',
- 3013: 'Planejador de Festa Pedro', 
- 3014: 'Planejador de Festa Penny', 
+ 3013: 'Planejador de Festa Pedro',
+ 3014: 'Planejador de Festa Penny',
  3101: 'Seu Leão',
  3102: 'Tia Freezer',
  3103: 'Chicó',
@@ -6869,7 +7799,7 @@ NPCToonNames = {20000: 'Tom Tutorial',
  3303: 'Dr. Olhadelas',
  3304: 'Abrão o Abominável',
  3305: 'Mick Eimei',
- 3306: 'Paula Úrsula',
+ 3306: 'Paula \xc3\x9arsula',
  3307: 'Pescadora Frederica',
  3308: 'Roberto Injustus',
  3309: 'Botinha',
@@ -6905,8 +7835,8 @@ NPCToonNames = {20000: 'Tom Tutorial',
  4010: 'Vendedor Caco',
  4011: 'Vendedor Nilton',
  4012: 'Vendedora Flor do Nordeste',
- 4013: 'Planejador de Festa Preston', 
- 4014: 'Planejadora de Festa Penélope', 
+ 4013: 'Planejador de Festa Preston',
+ 4014: 'Planejadora de Festa Penélope',
  4101: 'Tom',
  4102: 'Fifi',
  4103: 'Dr. Triturador',
@@ -7028,8 +7958,8 @@ NPCToonNames = {20000: 'Tom Tutorial',
  5009: 'Vendedora Buba Tânica',
  5010: 'Vendedor Tony Grana',
  5011: 'Vendedor Duda Madeira',
- 5012: 'Planejador de Festa Pierce', 
- 5013: 'Planejadora de Festa Peggy', 
+ 5012: 'Planejador de Festa Pierce',
+ 5013: 'Planejadora de Festa Peggy',
  5101: 'Sérgio',
  5102: 'Susana',
  5103: 'Florêncio',
@@ -7128,7 +8058,7 @@ NPCToonNames = {20000: 'Tom Tutorial',
  9012: 'Vendedora Sara Soneca',
  9013: 'Vendedora Gata na Lata',
  9014: 'Vendedor Cara Mujo',
- 9015: 'Planejador de Festa Pebbles (Pedregulho)', 
+ 9015: 'Planejador de Festa Pedregulho',
  9016: 'Planejadora de Festa Pérola',
  9101: 'Marcelo',
  9102: 'Mama',
@@ -7187,7 +8117,7 @@ NPCToonNames = {20000: 'Tom Tutorial',
  9219: 'Condessa',
  9220: 'Ney Nervoso',
  9221: 'Zéfiro',
- 9222: 'caubói George',
+ 9222: 'Vaqueiro George',
  9223: 'Vado Levado',
  9224: 'Cuca P. Gol',
  9225: 'Henriqueta Inquieta',
@@ -7202,29 +8132,9 @@ NPCToonNames = {20000: 'Tom Tutorial',
  9234: lHQOfficerM,
  9235: lHQOfficerM,
  9236: lHQOfficerM,
- 9237: 'Jung Pescador',
- 9301: 'Phil Bettur', 
- 9302: 'Emma Fática', 
- 9303: 'GiggleMesh', 
- 9304: 'Anne Ville', 
- 9305: 'Bud Erfingerz', 
- 9306: 'J.S. Latido', 
- 9307: 'Bea Sharpe', 
- 9308: 'Otto Toon', 
- 9309: 'Al Capela', 
- 9310: 'Des Tração', 
- 9311: 'Versão Dee', 
- 9312: 'Bo Nanapeel', 
- 7001: 'N. Prisioneiro', 
- 7002: 'R.E. Alugue-me', 
- 7003: 'Lemmy Owte', 
- 7004: 'T. Rapped',
- 7005: 'Ajudinha',
- 7006: 'Gimmy Ahand',
- 7007: 'Dewin Tymme',
- 7008: 'Ima Cagedtoon',
- 7009: 'Jimmy Thelock'}
-zone2TitleDict = {2513: ('PrefeiToona', ''),
+ 9237: 'Jung Pescador' }
+zone2TitleDict = {
+ 2513: ('PrefeiToona', ''),
  2514: ('Banco de Toontown', ''),
  2516: ('Escola de Toontown', ''),
  2518: ('Biblioteca de Toontown', ''),
@@ -7380,7 +8290,7 @@ zone2TitleDict = {2513: ('PrefeiToona', ''),
  1807: ('Loja do Hélice', ''),
  1808: ('Nós Samãe', ''),
  1809: ('Balde Enferrujado', ''),
- 1810: ('Administração de Âncoras', ''),
+ 1810: ('Administração de \xc3\x82ncoras', ''),
  1811: ('Canoa para Lá, Canoa para Cá?', ''),
  1813: ('Pressão do Pier Consultoria', ''),
  1814: ('Parada do Ó', ''),
@@ -7512,7 +8422,7 @@ zone2TitleDict = {2513: ('PrefeiToona', ''),
  4867: ('Celos Amarelos do Costello', ''),
  4868: ('', ''),
  4870: ('Zoológico de Ziriguidum do Ziggy', ''),
- 4871: ('Humbuckers Únicos do Ubaldo', ''),
+ 4871: ('Humbuckers \xc3\x9anicos do Ubaldo', ''),
  4872: ('Braços sem Estresse do Estevão Expresso', ''),
  4873: ('', ''),
  5501: ('Loja de Piadas', ''),
@@ -7554,7 +8464,7 @@ zone2TitleDict = {2513: ('PrefeiToona', ''),
  5708: ('Agência de Viagens Erva da Ninha', ''),
  5709: ('Cortadores de Grama Ré U. Vassintética', ''),
  5710: ('Academia Durão', ''),
- 5711: ('Roupas Íntimas Jardim de Inverno', ''),
+ 5711: ('Roupas \xc3\x8dntimas Jardim de Inverno', ''),
  5712: ('Estátuas Idiotas', ''),
  5713: ('Mãos à Obra', ''),
  5714: ('Água Mineral Chuva de Verão', ''),
@@ -7644,7 +8554,7 @@ zone2TitleDict = {2513: ('PrefeiToona', ''),
  9717: ('Padaria Sonho à Dúzia', ''),
  9718: ('Sanduíches A Cuca Vai Pegar', ''),
  9719: ('Fábrica de Travesseiros Tatu', ''),
- 9720: ('Fala Dormindo Fonoaudiólogos', ''),
+ 9720: ('Treinamento de Voz Fale Dormindo', ''),
  9721: ('Tapetes Aconchego', ''),
  9722: ('Agência de Talentos Sonho de Menina', ''),
  9725: ('Pijamas Saco de Gato', ''),
@@ -7757,9 +8667,9 @@ zone2TitleDict = {2513: ('PrefeiToona', ''),
  3825: ('Chapéus do Gato Legal', ''),
  3826: ('Ai, Minhas Galochas!', ''),
  3827: ('Grinaldas Corais', ''),
- 3828: ('Terra do Boneco de Neve', ''),
+ 3828: ('Terra do Homem de Neve', ''),
  3829: ('Área dos Pinheiros', ''),
- 3830: ('Desembaçamento de Óculos Espere-e-Veja', '')}
+ 3830: ('Desembaçamento de Óculos Espere-e-Veja', '') }
 ClosetTimeoutMessage = 'Sinto muito, o tempo\n acabou.'
 ClosetNotOwnerMessage = 'Este não é o seu armário, mas você pode experimentar as roupas.'
 ClosetPopupOK = lOK
@@ -7771,21 +8681,10 @@ ClosetNo = lNo
 ClosetVerifyDelete = 'Excluir mesmo %s?'
 ClosetShirt = 'esta camisa'
 ClosetShorts = 'este short'
-ClosetSaia = 'esta saia'
+ClosetSkirt = 'esta saia'
 ClosetDeleteShirt = 'Excluir\ncamisa'
 ClosetDeleteShorts = 'Excluir\nshort'
-ClosetDeleteSaia = 'Excluir\nsaia'
-TrunkNotOwnerMessage = "Este não é o seu baú, mas você pode experimentar os acessórios."
-TrunkNotPaidMessage = 'Somente membros pagos podem usar acessórios, mas você pode experimentá-los.'
-TrunkAreYouSureMessage = 'Você excluiu alguns acessórios. Deseja mesmo excluí-los?'
-TrunkHat = 'este chapéu'
-TrunkÓculos = 'estes óculos'
-TrunkBackpack = 'esta mochila'
-TrunkShoes = 'estes sapatos'
-TrunkDeleteHat = 'Excluir\nchapéu'
-TrunkDeleteÓculos = 'Excluir\nóculos'
-TrunkDeleteBackpack = 'Excluir\nmochila'
-TrunkDeleteShoes = 'Excluir\nsapatos'
+ClosetDeleteSkirt = 'Excluir\nsaia'
 EstateOwnerLeftMessage = 'Sinto muito, o dono desta propriedade saiu. Você será enviado ao pátio em %s segundos'
 EstatePopupOK = lOK
 EstateTeleportFailed = 'Não foi possível ir para casa. Tente novamente!'
@@ -7806,106 +8705,74 @@ FlowerGuiOk = 'Vender Tudo'
 FlowerBasketValue = '%(name)s, você tem %(num)s flores no seu cesto que valem um total de %(value)s balinhas. Você quer vender todas?'
 
 def GetPossesive(name):
-    if name[-1:] == 'de':
-        possesive = name + ''
-    else:
-        possesive = name + ''
-    return possesive
-PetTrait2descriptions = {'hungerThreshold': ('Sempre faminto', 
-                     'Muito faminto',
-                     'Às vezes faminto', 
-                     'Raramente faminto'),
- 'boredomThreshold': ('Sempre chateado', 
-                      'Muito chateado',
-                      'Às vezes chateado', 
-                      'Raramente chateado'),
- 'angerThreshold': ('Sempre irritado',
-                    'Muito irritado',
-                    'Às vezes irritado', 
-                    'Raramente irritado'),
- 'forgetfulness': ('Sempre esquecido', 
-                   'Muito esquecido',
-                   'Às vezes esquecido', 
-                   'Raramente esquecido'),
- 'excitementThreshold': ('Muito calmo',
-                         'Bem calmo', 
-                         'Bem animado', 
-                         'Muito animado'),
- 'sadnessThreshold': ('Sempre triste', 
-                      'Muitas vezes triste',
-                      'Às vezes triste', 
-                      'Raramente triste'),
- 'restlessnessThreshold': ('Sempre inquieto', 
-                           'Muito inquieto',
-                           'Às vezes inquieto', 
-                           'Raramente inquieto',),
- 'playfulnessThreshold': ('Raramente brincalhão', 
-                          'Às vezes brincalhão',
-                          'Muito brincalhão',
-                         'Sempre brincalhão',),
- 'lonelinessThreshold': ('Sempre solitário',
-                        'Muito solitário',
-                        'Às vezes solitário', 
-                        'Raramente solitário',),
- 'fatigueThreshold': ('Sempre cansado', 
-                      'Muito cansado',
-                      'Às vezes cansado', 
-                      'Raramente cansado',),
- 'confusionThreshold': ('Sempre confuso', 
-                        'Muito confuso',
-                        'Às vezes confuso', 
-                        'Raramente confuso',),
- 'surpriseThreshold': ('Sempre surpreso', 
-                       'Muito surpreso',
-                       'Às vezes surpreso', 
-                       'Raramente surpreso',),
- 'affectionThreshold': ('Raramente carinhoso', 
-                        'Às vezes carinhoso',
-                        'Muito carinhoso', 
-                        'Sempre carinhoso')}
-FireworksInstructions = lToonHQ+': Pressione a tecla "Page Up" para ver melhor.'
-startFireworksResponse = "Usando: startFireworksShow ['num']\n                                         'num' = %s - Ano Novos\n                                         %s - Festa de Verão \n                                         %s - 4 de Julho"
-FireworksJuly4Beginning = lToonHQ+': Bem-vindo à queima de fogos de verão! Divirta-se com o show!'
-FireworksJuly4Ending = lToonHQ+': Espero que tenha gostado do show! Um ótimo verão para você!'
-FireworksJuly14Beginning = lToonHQ+': Fogos de artifício de 14 de julho! Espero que tenha gostado do show!'
-FireworksJuly14Ending = lToonHQ+': Espero que tenha gostado do show!'
-FireworksNewYearsEveBeginning = lToonHQ+': Feliz Ano Novo! Aproveite o show de fogos de artifício!'
-FireworksNewYearsEveEnding = lToonHQ+': Espero que tenha gostado do show! Feliz Ano Novo!'
-FireworksComboBeginning = lToonHQ+': Aproveite muitas risadas com os fogos de artifício do Toon!'
-FireworksComboEnding = lToonHQ+': Obrigado, Toons! Espero que tenha gostado do show!'
+ if name[-1:] == 'de':
+  possesive = name + "'"
+ else:
+  possesive = name + ''
+ return possesive
+
+PetTrait2descriptions = {
+ 'hungerThreshold': ('Sempre faminto', 'Muito faminto', 'Às vezes faminto', 'Raramente faminto'),
+ 'boredomThreshold': ('Sempre chateado', 'Muito chateado', 'Às vezes chateado', 'Raramente chateado'),
+ 'angerThreshold': ('Sempre irritado', 'Muito irritado', 'Às vezes irritado', 'Raramente irritado'),
+ 'forgetfulness': ('Sempre esquecido', 'Muito esquecido', 'Às vezes esquecido', 'Raramente esquecido'),
+ 'excitementThreshold': ('Muito calmo', 'Bem calmo', 'Bem animado', 'Muito animado'),
+ 'sadnessThreshold': ('Sempre triste', 'Muitas vezes triste', 'Às vezes triste', 'Raramente triste'),
+ 'restlessnessThreshold': ('Sempre inquieto', 'Muito inquieto', 'Às vezes inquieto', 'Raramente inquieto'),
+ 'playfulnessThreshold': ('Raramente brincalhão', 'Às vezes brincalhão', 'Muito brincalhão', 'Sempre brincalhão'),
+ 'lonelinessThreshold': ('Sempre solitário', 'Muito solitário', 'Às vezes solitário', 'Raramente solitário'),
+ 'fatigueThreshold': ('Sempre cansado', 'Muito cansado', 'Às vezes cansado', 'Raramente cansado'),
+ 'confusionThreshold': ('Sempre confuso', 'Muito confuso', 'Às vezes confuso', 'Raramente confuso'),
+ 'surpriseThreshold': ('Sempre surpreso', 'Muito surpreso', 'Às vezes surpreso', 'Raramente surpreso'),
+ 'affectionThreshold': ('Raramente carinhoso', 'Às vezes carinhoso', 'Muito carinhoso', 'Sempre carinhoso') }
+FireworksInstructions = lToonHQ + ': Pressione a tecla "Page Up" para ver melhor.'
+startFireworksResponse = "Usage: startFireworksShow ['num']\n  'num' = %s - New Years\n  %s - Party Summer \n  %s - 4th of July"
+FireworksValentinesBeginning = ''
+FireworksValentinesEnding = ''
+FireworksJuly4Beginning = lToonHQ + ': Bem-vindo à queima de fogos de verão! Divirta-se com o show!'
+FireworksJuly4Ending = lToonHQ + ': Espero que tenha gostado do show! Um ótimo verão para você!'
+FireworksJuly14Beginning = lToonHQ + ''
+FireworksJuly14Ending = lToonHQ + ''
+FireworksOctober31Beginning = ''
+FireworksOctober31Ending = ''
+FireworksNewYearsEveBeginning = lToonHQ + ': Feliz Ano Novo!!!!'
+FireworksNewYearsEveEnding = lToonHQ + ': Gostou dos Fogos? Logo tem mais!'
+FireworksBeginning = lToonHQ + ': Bem-vindo à queima de fogos de verão! Divirta-se com o show!'
+FireworksEnding = lToonHQ + ': Espero que tenha gostado do show! Um ótimo verão para você!'
 BlockerTitle = 'CARREGANDO TOONTOWN...'
-BlockerLoadingTexts = ['Esfregando formas de torta',
-'Assando massas de torta',
-'Esquentando o recheio da torta',
-'Carregando ração para Rabisco',
-'Amarrando cipós da Selva',
-'Soltando as aranhas que rastejam pelas cipós da Selva',
-'Plantando sementes de flores esguichando',
-'Alongando trampolins',
-'Pastoreando porcos',
-"Ajustando sons de 'SPLAT'",
-'Limpando óculos hipnóticos',
-'Desembrulhando tinta para o Toon de Notícias',
-'Cortando fusíveis de TNT',
-"Instalando placa de 'Em construção' no Bosque de Bolotas",
-'Acordando o Pato Donald',
-'Ensinando novos passos para hidrantes dançantes',
-'Encadernando Álbuns dos Toons',
-'Analisando sons de patos',
-'Colhendo pods de balinhas',
-'Esvaziando baldes de peixe',
-'Encurralando a lixo na lixeira',
-'Espalhando graxa nos Cogs',
-'Polindo troféus de kart',
-'Balançando para pesar pesos de 1 tonelada',
-'Praticando Danças da Vitória',
-'Preparando maluquices',
-"Dando o sinal de 'cinco minutos' para o Mickey Mouse",
-'Testando luvas brancas',
-'Entortando anéis subaquáticos',
-'Enrolando Burrocracia',
-'Congelando gelo Brrrgh',
-'Afinando pianos que caem']
+BlockerLoadingTexts = [
+ 'Esfregando latas de torta',
+ 'Assando crostas de torta',
+ 'Aquecendo recheio de torta',
+ 'Carregando Doodle chow',
+ 'Alinhando Jungle Vines',
+ 'Soltando as aranhas que rastejam pelas jungle vines',
+ 'Plantando sementes de flores que esguicham',
+ 'Esticando trampolins',
+ 'Reunindo porcos',
+ "Ajustando sons de 'SPLAT'",
+ 'Limpando óculos de hipnose',
+ 'Desengarrafando tinta para as Notícias Toon',
+ 'Cortando estopins de TNT',
+ "Colocando a placa 'Em construção' no Bosque de Bolotas",
+ 'Andando como o Pato Donald',
+ 'Ensinando novos passos a hidrantes dançantes',
+ 'Amarrando Shticker Books',
+ 'Analyzing quacks',
+ 'Colhendo balinhas',
+ 'Esvaziando baldes de peixe',
+ 'Encurralando lixo de lixeira',
+ 'Espalhando graxa de Cog',
+ 'Polindo troféus de kart',
+ 'Balança para pesar uma tonelada',
+ 'Praticando Danças da Vitória',
+ 'Preparando maluquices',
+ "Mostrando a placa de 'cinco minutos' ao Mickey Mouse",
+ 'Testando luvas brancas',
+ 'Tocando sinos submersos',
+ 'Bobinando fita vermelha',
+ 'Congelando, brrr, gelo',
+ 'Afiando pianos que caem']
 TIP_NONE = 0
 TIP_GENERAL = 1
 TIP_STREET = 2
@@ -7915,192 +8782,23 @@ TIP_ESTATE = 5
 TIP_KARTING = 6
 TIP_GOLF = 7
 TipTitle = 'DICA TOON:'
-TipDict = {TIP_NONE: (''),
- TIP_GENERAL: ("Verifique com rapidez o andamento da Tarefa Toon mantendo pressionada a tecla 'End'.",
-               "Verifique com rapidez a sua Página de piadas mantendo pressionada a tecla 'Home'.",
-               "Abra a sua Lista de amigos pressionando a tecla 'F7'.",
-               "Abra ou feche o seu Álbum Toon pressionando a tecla 'F8'.",
-               "Você pode procurar acima pressionando a tecla 'Page Up' e abaixo pressionando a tecla 'Page Down'.",
-               "Pressione a tecla 'Control' para pular.",
-               "Pressione a tecla 'F9' para capturar a tela, que será salva na pasta Toontown do seu computador.",
-               'Você pode alterar a resolução de seu vídeo, ajustar o áudio e controlar outras opções na Página de opções do Álbum Toon.',
-               'Experimente as roupas de seus amigos no armário da casa deles.',
-               "Você pode ir para casa usando o botão 'Ir para casa' em seu mapa.",
-               'Toda vez que você conclui uma Tarefa Toon, seus Pontos de risadas são automaticamente recarregados.',
-               'Você pode procurar a seleção nas lojas de roupas mesmo sem ter um bilhete de roupas.',
-               'As recompensas para algumas Tarefas Toon permitem que você carregue mais piadas e balinhas.',
-               'Você pode ter até 50 amigos na sua Lista de amigos.',
-               'Algumas recompensas das Tarefas Toon permitem que você se teletransporte para os pátios de Toontown usando a Página do mapa do Álbum Toon.',
-               'Aumente os seus Pontos de risadas nos pátios, catando tesouros como estrelas e casquinhas de sorvete.',
-               'Se você precisar se recuperar rápido após uma batalha difícil, vá para a sua propriedade e recolha casquinhas de sorvete.',
-               'Alterne entre os diversos modos de exibição de seu Toon pressionando a tecla Tab.',
-               'Algumas vezes, você poderá encontrar várias Tarefas Toon diferentes com a mesma recompensa. Faça sua pesquisa de mercado!',
-               'Encontrar amigos com Tarefas Toon semelhantes é uma maneira divertida de progredir no jogo.',
-               'Você nunca precisa salvar o seu progresso em Toontown. Os servidores de Toontown salvam continuamente todas as informações necessárias.',
-               'Você pode cochichar com outros Toons clicando neles ou selecionando-os em sua Lista de amigos.',
-               'Algumas frases do Chat rápido têm animações para indicar o estado de espírito do seu Toon.',
-               'Se a área em que você está se encontra lotada, tente mudar de região. Vá para a Página de região do Álbum Toon e selecione uma diferente.',
-               'Se você estiver em plena atividade de salvamento de edifícios, ganhará uma estrela de bronze, prata ou ouro, que ficará acima de seu Toon.',
-               'Se você salvar um número suficiente de edifícios para obter uma estrela acima da cabeça, seu nome pode estar no quadro-negro de um Quartel Toon.',
-               'Os edifícios salvos, às vezes, são recuperados pelos Cogs. A única maneira de manter a sua estrela é sair em campo e salvar mais edifícios!',
-               'Os nomes dos seus Amigos secretos aparecerão na cor azul.'
-               'Veja se você consegue pegar todos os peixes de Toontown!',
-               'Há peixes diferentes nos diversos lagos. Tente todos!',
-               'Quando o seu balde de pesca estiver cheio, venda os peixes para os pescadores dos pátios.',
-               'Venda os peixes para o pescador ou dentro das Lojas de Animais.',
-               'As varas de pescar mais fortes conseguem pegar peixes mais pesados, mas custam mais balinhas.',
-               'Você pode comprar varas de pescar mais fortes no Catálogo.',        
-               'Os peixes mais pesados valem mais balinhas na Loja de animais.',        
-               'Os peixes raros valem mais balinhas na Loja de animais.',        
-               'Às vezes, você consegue encontrar bolsas de balinhas durante a pesca.',        
-               'Algumas Tarefas Toon exigem que você pesque itens fora dos lagos.',        
-               'Os lagos de pesca dos pátios possuem peixes diferentes dos lagos das ruas.',        
-               'Alguns peixes são realmente raros. Continue pescando até pegar todos!',        
-               'O lago da sua propriedade possui peixes que só podem ser encontrados lá.',        
-               'Para cada dez espécies pescadas, você ganhará um troféu de pesca!',
-               'Você pode ver qual peixe pescou no Álbum Toon.',
-               'Alguns troféus de pesca o recompensam com um Acréscimo de risadas.',
-               'A pesca é uma boa maneira de ganhar mais balinhas.',
-               'Adote um Rabisco na Loja de Animais!',
-               'As lojas de animais têm Rabiscos novos para vender todos os dias.',
-               'Visite as lojas de animais todos os dias para ver que Rabiscos novos elas têm.',
-               'Há diferentes Rabiscos para adoção nos diferentes bairros.',
-               'Mostre o seu carrão e dê uma turbinada no seu limite de Risadas no Autódromo do Pateta.',
-               'Entre no Autódromo do Pateta pelo túnel em forma de pneu no pátio do Centro de Toontown.',
-               'Ganhe pontos de Risada no Autódromo do Pateta.',
-               'O Autódromo do Pateta tem seis pistas de corrida diferentes.'),
-TIP_STREET: ('Há quatro tipos de Cogs: Robôs da Lei, Robôs Mercenários, Robôs Vendedores e Robôs-chefe.',
-             'Cada Método de piadas possui diferentes intensidades de precisão e dano.',
-             'As piadas sonoras afetam todos os Cogs, mas acordam qualquer Cog iscado.',
-             'Derrotar os Cogs em ordem estratégica pode aumentar bastante as suas chances de vencer as batalhas.',
-             'O Método de piadas Toonar permite que você atinja outros Toons na batalha.',
-             'Os pontos de experiência das piadas são dobrados durante uma Invasão de Cogs!',
-             'Vários Toons podem se reunir em equipes e usar o mesmo Método de piadas na batalha para conseguir danos extras aos Cogs.',
-             'Na batalha, as piadas são usadas na ordem de cima para baixo, conforme exibido no Menu de piadas.',
-             'A fileira de luzes circulares sobre os elevadores do Edifício dos Cogs mostram quantos andares haverá lá dentro.',
-             'Clique em um Cog para ver mais detalhes.', 
-             'Usar piadas de alto nível contra Cogs de baixo nível não lhe renderá nenhum ponto de experiência.',
-             'As piadas que rendem experiência possuem um fundo azul no Menu de piadas da batalha.',
-             'A experiência de piadas é multiplicada quando usada dentro dos Edifícios dos Cogs. Os andares mais altos têm multiplicadores maiores.',
-             'Quando um Cog é derrotado, cada Toon daquela rodada recebe créditos de Cogs depois que a batalha termina.',
-             'Cada rua de Toontown possui níveis e tipos diferentes de Cogs.',
-             'As calçadas são locais seguros, sem Cogs.',
-             'Nas ruas, as portas laterais contam piadas do tipo toc-toc quando você se aproxima delas.',
-              'Algumas Tarefas Toon treinam você em novos Métodos de piadas. Você só pode escolher seis dos sete métodos, portanto, escolha direito!',
-             'As armadilhas só terão utilidade se você ou seus amigos coordenarem o uso de iscas na batalha.',
-             'As iscas de alto nível têm menos probabilidade de falhar.',
-             'As piadas de nível baixo oferecem menor precisão contra os Cogs de alto nível.',
-             "Os Cogs não podem atacar depois que forem 'iscados' para a batalha.",
-             'Quando você e seus amigos dominam um Edifício de Cogs, vocês são recompensados com retratos dentro do Edifício dos Toons recuperado.',
-             'Usar uma piada Toonar em um Toon que possua um Risômetro cheio não renderá nenhuma experiência de Toonar.',
-             'Os Cogs ficarão atordoados por uns momentos quando atingidos por alguma. Assim, aumentam as chances de outras piadas da mesma rodada os atingirem.',
-             'As Piadas cadentes têm menos chance de atingir alguém, mas sua precisão aumenta quando os Cogs já tiverem sido atingidos por outra piada na mesma rodada.',
-             "Quando você já tiver derrotado um número suficiente de Cogs, use o 'Radar de Cogs' clicando nos ícones de Cogs da página Galeria de Cogs do seu Álbum Toon.",
-             'Durante uma batalha, você tem como saber qual Cog os seus companheiros de equipe estão atacando; basta olhar para os travessões (-) e para os X.',
-             'Durante uma batalha, os Cogs carregam uma luz que mostra sua saúde: o verde significa saudável e o vermelho, quase destruído.',
-             'Na coisa, quatro Toons podem guerrear ao mesmo tempo.',
-             'Na rua, os Cogs têm mais probabilidade de entrar em uma briga contra vários Toons do que contra apenas um Toon.',
-             'Os dois tipos de Cogs mais difíceis de cada tipo só são encontrados nos edifícios.',
-             'As Piadas cadentes nunca funcionam contra Cogs iscados.',
-             'Os Cogs tendem a atacar o Toon que lhes causou danos maiores.',
-             'As piadas sonoras não rendem danos extras contra Cogs iscados.',
-             'Se você esperar muito para atacar um Cog iscado, ele acordará. As iscas de nível mais alto têm duração maior.',
-             'Há lagos de pesca em cada rua de Toontown. Algumas ruas possuem peixes exclusivos.'),
-TIP_MINIGAME: ('Depois que você preenche a sua jarra de balinhas, qualquer balinha que ganhar nos Jogos no bondinho cairão direto no seu banco.',
-               "Você pode usar as teclas de seta em vez de o mouse no Jogo no bondinho 'Acompanhe a Minnie'.",
-               "No Jogo do canhão, você pode usar as teclas de seta para mover o seu canhão e pressionar a tecla 'Control' para atirar.",
-               'No Jogo dos anéis, você ganha pontos extras quando todo o grupo consegue nadar com sucesso através dos anéis.',
-               'Um jogo perfeito de Acompanhe a Minnie dobrará seus pontos.',
-               'No Cabo de guerra, você ganha mais balinhas se jogar contra um Cog forte.',
-               'A dificuldade dos Jogos no bondinho varia conforme o bairro; os do Centro de Toontown são os mais fáceis, e os da Sonholândia do Donald são os mais difíceis.',
-               'Certos Jogos no bondinho só podem ser em grupo.'),
-TIP_COGHQ: ('Você deve completar o seu Disfarce de Robô Vendedor antes de visitar o VP.',
-            'Você deve completar o seu Disfarce de Robô Mercenário antes de visitar o Diretor Financeiro.',
-            'Você deve completar o seu Disfarce de Robô da Lei antes de visitar o Juiz-chefe.',
-            'Você pode pular em cima de cogs Brutamontes para desativá-los por um tempo.',
-            'Ganhe Méritos de cogs ao derrotar Robôs Vendedores em batalha.',
-            'Ganhe Cograna ao derrotar Robôs Mercenários em batalha.',
-            'Ganhe Avisos de Júri ao derrotar Robôs da Lei em batalha.',
-            'Você ganha mais Méritos, Cogranas ou Avisos de Júri de Cogs de nível maior.',
-            'Quando conseguir juntar Méritos o suficiente para merecer uma promoção, vá ver o VP dos Robôs Vendedores!',
-            'Quando conseguir juntar Cogranas o suficiente para merecer uma promoção, vá ver o Diretor Financeiro dos Robôs Mercenários!',
-            'Quando conseguir juntar Avisos de Júri o suficiente para merecer uma promoção, vá ver o Juiz-chefe dos Robôs da Lei!',
-            'Você pode falar como um Cog quando estiver usando o seu Disfarce de Cog.',
-            'Até oito Toons podem lutar juntos contra o VP dos Robôs Vendedores',
-            'Até oito Toons podem lutar juntos contra o Diretor Financeiro dos Robôs Mercenários',
-            'Até oito Toons podem lutar juntos contra o Juiz-chefe dos Robôs da Lei',
-            'Dentro do Quartel dos Cogs, o caminho é subindo as escadas.',
-            'Cada vez que lutar numa fábrica do Quartel dos Robôs Vendedores, você vai ganhar uma peça do seu Disfarce de Robô Vendedor.',
-            'Você pode verificar o progresso do seu Disfarce no seu Álbum Toon.',
-            'Você pode verificar o progresso da sua promoção na Página de Disfarce do seu Álbum Toon.',
-            'Certifique-se de estar com as piadas cheias e com o Risômetro cheio antes de ir até um Quartel dos Cogs.',
-            'Quando for promovido, seu disfarce de Cog será atualizado.',
-            'Você terá que derrotar o '+Foreman+' para recuperar uma peça do Disfarce de Robô Vendedor.',
-            'Ganhe peças de disfarce de Robô Mercenário como recompensa de Tarefas Toon na Sonholândia do Donald.',
-            'Os Robôs Mercenários produzem e distribuem o seu próprio dinheiro, as Cogranas, de três maneiras - Moeda, Dólar e Barra.',
-            'Espere até que o Diretor Financeiro esteja tonto para lançar um cofre, senão ele vai usá-lo como capacete! Acerte o capacete com outro cofre para derrubá-lo.',
-            'Ganhe peças de disfarce de Robô da Lei como recompensa de Tarefas Toon pelo Professor Floco.',
-            'Vale a pena a confusão: os Cogs virtuais no Quartel dos Robôs da Lei não dão Avisos de Júri de recompensa.',
-            'Robô Mercenário produz e distribui a sua própia moeda, Cogbucks, em três formas diferentes: Moedas, Dólar, e lingotes.',
-            'Aguarde até que o Diretor Financeiro fique doido para lançar um seguro ou o utilize-o como um capacete! Acerte no capacete com outro seguro para pegá-lo.',
-            'O Robô da Lei obtém as partes do traje como recompensa ao concluir a TarefaToon para o Professor Floco.'),
-TIP_ESTATE: ('Os Rabiscos entendem algumas frases do Chat rápido. Experimente!',
-             "Use o menu 'Bichinho' do Chat rápido para pedir a seu Rabisco que faça truques.",
-             'Você pode ensinar aos Rabiscos truques com as lições de treinamento do Gadálogo da Clarabela.',
-             'Recompense o seu Rabisco pelos truques.',
-             'Se você visitar a propriedade de um amigo, o seu Rabisco lhe fará companhia.',
-             'Alimente o seu Rabisco com uma balinha quando ele estiver com fome.',
-             'Clique em um Rabisco para ver um menu no qual você poderá Alimentar, Coçar e Chamá-lo.',
-             'Os Rabiscos adoram companhia. Convide os amigos para brincar!',
-             'Todos os Rabiscos possuem personalidades próprias.',
-             'Você pode devolver o seu Rabisco e adotar outro nas Lojas de Animais.',
-             'Quando um Rabisco faz um truque, os Toons que o cercam se recuperam.',
-             'Os Rabiscos ficam ainda melhores nos truques com a prática. Continue assim!',
-             'Os truques mais avançados dos Rabiscos recuperam os Toons com mais rapidez.',
-             'Rabiscos com mais experiência podem fazer mais truques sem ficar tão cansados.',
-             'Veja uma lista de Rabiscos próximos em sua Lista de amigos.',
-             'Compre móveis usando o Gadálogo da Clarabela e decore a sua casa.',
-             'O banco da casa tem mais balinhas.',
-             'O armário da casa tem mais roupas.',
-             'Vá até a casa do seu amigo e experimente as roupas dele.',
-             'Compre varas de pescar melhores no Catálogo da Clarabela.',
-             'Compre bancos maiores no Gadálogo da Clarabela.',
-             'Ligue para a Clarabela usando o telefone da casa.',
-             'A Clarabela vende um armário maior em que cabem mais roupas.',
-             'Reserve espaço no seu armário antes de usar o bilhete de roupas.',
-             'A Clarabela vende tudo o que é preciso para decorar a sua casa.',
-             'Verifique a sua caixa de correio para ver se há entregas antes de fazer seus pedidos com a Clarabela.',
-             'As roupas do Catálogo da Clarabela levam uma hora para serem entregues.',
-             'Os papéis de parede e pisos do Gadálogo da Clarabela levam uma hora para serem entregues.',
-             'Os móveis do Catálogo da Clarabela levam um dia inteiro para serem entregues.',
-             'Armazene móveis de reserva no sótão.',
-             'Você será avisado pela Clarabela quando um novo Gadálogo estiver disponível.',
-             'Você será avisado pela Clarabela quando uma entrega do Gadálogo chegar.',
-             'Novos Gadálogos são entregues toda semana.',
-             'Procure os produtos promocionais de estoque limitado no Gadálogo.',
-             'Mova os móveis indesejados para a lata de lixo.',
-             'Alguns peixes, como a Cavala Trotante, são mais comuns nas propriedades de Toons.',
-             'Você pode convidar os seus amigos para a sua propriedade usando o Chat rápido.',
-             'Você sabia que a cor da sua casa combina com a cor do seu painel Pegar um Toon?'),
-TIP_KARTING: ('Compre um Conversível, Utilitário Toon ou Cruzeiro na Loja do Kart do Pateta.',
-              'Personalize o seu kart com decalques, calotas e muito mais na Loja do Kart do Pateta.',
-              'Ganhe bilhetes correndo de kart no Autódromo do Pateta.',
-              'Os bilhetes são a única moeda aceita na Loja do Kart do Pateta.',
-              'São necessários bilhetes como depósito antes das corridas.',
-              'Uma página especial do seu Álbum Toon permite que você personalize o seu kart.',
-              'Uma página especial do seu Álbum Toon permite que você veja os recordes de cada pista.',
-              'Uma página especial do seu Álbum Toon permite que você veja seus troféus.',
-              'O Estádio Maluco é a pista mais fácil do Autódromo do Pateta.',
-              'Acres Aerotransportado tem mais colinas e saltos de qualquer pista do Autódromo do Pateta.',
-              'Boulevard de Nevasca é a pista mais desafiadora do Autódromo do Pateta.'),
-TIP_GOLF: ('Pressiona a tecla Tab para ver de cima o percurso de golfe.', 'Pressiona a tecla de Seta para Cima para se colocar na direção do buraco de golfe.', 'Balançar o taco é como atirar uma torta.')}
-FishGenusNames = {0: 'Baiacu',
+TipDict = {
+ TIP_NONE: ('',),
+ TIP_GENERAL: ('Verifique com rapidez o andamento da Tarefa Toon mantendo pressionada a tecla "End".', 'Verifique com rapidez a sua Página de piadas mantendo pressionada a tecla "Home".', 'Abra a sua Lista de amigos pressionando a tecla "F7".', 'Abra ou feche o seu Álbum Toon pressionando a tecla "F8".', 'Você pode procurar acima pressionando a tecla "Page Up" e abaixo pressionando a tecla "Page Down".', 'Pressione a tecla "Control" para pular.', 'Pressione a tecla "F9" para capturar a tela, que será salva na pasta Toontown do seu computador.', 'Você pode alterar a resolução de seu vídeo, ajustar o áudio e controlar outras opções na Página de opções do Álbum Toon.', 'Experimente as roupas de seus amigos no armário da casa deles.', 'Você pode ir para casa usando o botão "Ir para casa" em seu mapa.', 'Toda vez que você conclui uma Tarefa Toon, seus Pontos de risadas são automaticamente recarregados.', 'Você pode procurar a seleção nas lojas de roupas mesmo sem ter um bilhete de roupas.', 'As recompensas para algumas Tarefas Toon permitem que você carregue mais piadas e balinhas.', 'Você pode ter até 50 amigos na sua Lista de amigos.', 'Algumas recompensas das Tarefas Toon permitem que você se teletransporte para os pátios de Toontown usando a Página do mapa do Álbum Toon.', 'Aumente os seus Pontos de risadas nos pátios, catando tesouros como estrelas e casquinhas de sorvete.', 'Se você precisar se recuperar rápido após uma batalha difícil, vá para a sua propriedade e recolha casquinhas de sorvete.', 'Alterne entre os diversos modos de exibição de seu Toon pressionando a tecla Tab.', 'Algumas vezes, você poderá encontrar várias Tarefas Toon diferentes com a mesma recompensa. Faça sua pesquisa de mercado!', 'Encontrar amigos com Tarefas Toon semelhantes é uma maneira divertida de progredir no jogo.', 'Você nunca precisa salvar o seu progresso em Toontown. Os servidores de Toontown salvam continuamente todas as informações necessárias.', 'Você pode cochichar com outros Toons clicando neles ou selecionando-os em sua Lista de amigos.', 'Algumas frases do Chat rápido têm animações para indicar o estado de espírito do seu Toon.', 'Se a área em que você está se encontra lotada, tente mudar de região. Vá para a Página de região do Álbum Toon e selecione uma diferente.', 'Se você estiver em plena atividade de salvamento de edifícios, ganhará uma estrela de bronze, prata ou ouro, que ficará acima de seu Toon.', 'Se você salvar um número suficiente de edifícios para obter uma estrela acima da cabeça, seu nome pode estar no quadro-negro de um Quartel Toon.', 'Os edifícios salvos, às vezes, são recuperados pelos Cogs. A única maneira de manter a sua estrela é sair em campo e salvar mais edifícios!', 'Os nomes dos seus Amigos secretos aparecerão na cor azul.', 'Veja se você consegue pegar todos os peixes de Toontown!', 'Há peixes diferentes nos diversos lagos. Tente todos!', 'Quando o seu balde de pesca estiver cheio, venda os peixes para os pescadores dos pátios.', 'Venda os peixes para o pescador ou dentro das Lojas de Animais.', 'As varas de pescar mais fortes conseguem pegar peixes mais pesados, mas custam mais balinhas.', 'Você pode comprar varas de pescar mais fortes no Gadálogo.', 'Os peixes mais pesados valem mais balinhas na Loja de animais.', 'Os peixes raros valem mais balinhas na Loja de animais.', 'Às vezes, você consegue encontrar bolsas de balinhas durante a pesca.', 'Algumas Tarefas Toon exigem que você pesque itens fora dos lagos.', 'Os lagos de pesca dos pátios possuem peixes diferentes dos lagos das ruas.', 'Alguns peixes são realmente raros. Continue pescando até pegar todos!', 'O lago da sua propriedade possui peixes que só podem ser encontrados lá.', 'Para cada dez espécies pescadas, você ganhará um troféu de pesca!', 'Você pode ver qual peixe pescou no Álbum Toon.', 'Alguns troféus de pesca o recompensam com um Acréscimo de risadas.', 'A pesca é uma boa maneira de ganhar mais balinhas.', 'Adote um Rabisco na Loja de Animais!', 'As lojas de animais têm Rabiscos novos para vender todos os dias.', 'Visite as lojas de animais todos os dias para ver que Rabiscos novos elas têm.', 'Há diferentes Rabiscos para adoção nos diferentes bairros.', 'Mostre o seu carrão e dê uma turbinada no seu limite de Risadas no Autódromo do Pateta.', 'Entre no Autódromo do Pateta pelo túnel em forma de pneu no pátio do Centro de Toontown.', 'Ganhe pontos de Risada no Autódromo do Pateta.', 'O Autódromo do Pateta tem seis pistas de corrida diferentes.'),
+ TIP_STREET: ('Há quatro tipos de Cogs: Robôs da Lei, Robôs Mercenários, Robôs Vendedores e Robôs-chefe.', 'Cada Método de piadas possui diferentes intensidades de precisão e dano.', 'As piadas sonoras afetam todos os Cogs, mas acordam qualquer Cog iscado.', 'Derrotar os Cogs em ordem estratégica pode aumentar bastante as suas chances de vencer as batalhas.', 'O Método de piadas Toonar permite que você atinja outros Toons na batalha.', 'Os pontos de experiência das piadas são dobrados durante uma Invasão de Cogs!', 'Vários Toons podem se reunir em equipes e usar o mesmo Método de piadas na batalha para conseguir danos extras aos Cogs.', 'Na batalha, as piadas são usadas na ordem de cima para baixo, conforme exibido no Menu de piadas.', 'A fileira de luzes circulares sobre os elevadores do Edifício dos Cogs mostram quantos andares haverá lá dentro.', 'Clique em um Cog para ver mais detalhes.', 'Usar piadas de alto nível contra Cogs de baixo nível não lhe renderá nenhum ponto de experiência.', 'As piadas que rendem experiência possuem um fundo azul no Menu de piadas da batalha.', 'A experiência de piadas é multiplicada quando usada dentro dos Edifícios dos Cogs. Os andares mais altos têm multiplicadores maiores.', 'Quando um Cog é derrotado, cada Toon daquela rodada recebe créditos de Cogs depois que a batalha termina.', 'Cada rua de Toontown possui níveis e tipos diferentes de Cogs.', 'As calçadas são locais seguros, sem Cogs.', 'Nas ruas, as portas laterais contam piadas do tipo toc-toc quando você se aproxima delas.', 'Algumas Tarefas Toon treinam você em novos Métodos de piadas. Você só pode escolher seis dos sete métodos, portanto, escolha direito!', 'As armadilhas só terão utilidade se você ou seus amigos coordenarem o uso de iscas na batalha.', 'As iscas de alto nível têm menos probabilidade de falhar.', 'As piadas de nível baixo oferecem menor precisão contra os Cogs de alto nível.', 'Os Cogs não podem atacar depois que forem "iscados" para a batalha.', 'Quando você e seus amigos dominam um Edifício de Cogs, vocês são recompensados com retratos dentro do Edifício dos Toons recuperado.', 'Usar uma piada Toonar em um Toon que possua um Risômetro cheio não renderá nenhuma experiência de Toonar.', 'Os Cogs ficarão atordoados por uns momentos quando atingidos por alguma. Assim, aumentam as chances de outras piadas da mesma rodada os atingirem.', 'As Piadas cadentes têm menos chance de atingir alguém, mas sua precisão aumenta quando os Cogs já tiverem sido atingidos por outra piada na mesma rodada.', 'Quando você já tiver derrotado um número suficiente de Cogs, use o "Radar de Cogs" clicando nos ícones de Cogs da página Galeria de Cogs do seu Álbum Toon.', 'Durante uma batalha, você tem como saber qual Cog os seus companheiros de equipe estão atacando; basta olhar para os travessões (-) e para os X.', 'Durante uma batalha, os Cogs carregam uma luz que mostra sua saúde: o verde significa saudável e o vermelho, quase destruído.', 'No máximo, quatro Toons podem guerrear ao mesmo tempo.', 'Na rua, os Cogs têm mais probabilidade de entrar em uma briga contra vários Toons do que contra apenas um Toon.', 'Os dois tipos de Cogs mais difíceis de cada tipo só são encontrados nos edifícios.', 'As Piadas cadentes nunca funcionam contra Cogs iscados.', 'Os Cogs tendem a atacar o Toon que lhes causou danos maiores.', 'As piadas sonoras não rendem danos extras contra Cogs iscados.', 'Se você esperar muito para atacar um Cog iscado, ele acordará. As iscas de nível mais alto têm duração maior.', 'Há lagos de pesca em cada rua de Toontown. Algumas ruas possuem peixes exclusivos.'),
+ TIP_MINIGAME: ('Depois que você preenche a sua jarra de balinhas, qualquer balinha que ganhar nos Jogos no bondinho cairão direto no seu banco.', 'Você pode usar as teclas de seta em vez de o mouse no Jogo no bondinho "Acompanhe a Minnie".', 'No Jogo do canhão, você pode usar as teclas de seta para mover o seu canhão e pressionar a tecla "Control" para atirar.', 'No Jogo dos anéis, você ganha pontos extras quando todo o grupo consegue nadar com sucesso através dos anéis.', 'Um jogo perfeito de Acompanhe a Minnie dobrará seus pontos.', 'No Cabo de guerra, você ganha mais balinhas se jogar contra um Cog forte.', 'A dificuldade dos Jogos no bondinho varia conforme o bairro; os do Centro de Toontown são os mais fáceis, e os da Sonholândia do Donald são os mais difíceis.', 'Certos Jogos no bondinho só podem ser em grupo.'),
+ TIP_COGHQ: ('Você deve completar o seu Disfarce de Robô Vendedor antes de visitar o VP.', 'Você deve completar o seu Disfarce de Robô Mercenário antes de visitar o Diretor Financeiro.', 'Você deve completar o seu Disfarce de Robô da Lei antes de visitar o Juiz-chefe.', 'Você pode pular em cima de cogs Brutamontes para desativá-los por um tempo.', 'Ganhe Méritos de cogs ao derrotar Robôs Vendedores em batalha.', 'Ganhe Cograna ao derrotar Robôs Mercenários em batalha.', 'Ganhe Avisos de Júri ao derrotar Robôs da Lei em batalha.', 'Você ganha mais Méritos, Cogranas ou Avisos de Júri de Cogs de nível maior.', 'Quando conseguir juntar Méritos o suficiente para merecer uma promoção, vá ver o VP dos Robôs Vendedores!', 'Quando conseguir juntar Cogranas o suficiente para merecer uma promoção, vá ver o Diretor Financeiro dos Robôs Mercenários!', 'Quando conseguir juntar Avisos de Júri o suficiente para merecer uma promoção, vá ver o Juiz-chefe dos Robôs da Lei!', 'Você pode falar como um Cog quando estiver usando o seu Disfarce de Cog.', 'Até oito Toons podem lutar juntos contra o VP dos Robôs Vendedores', 'Até oito Toons podem lutar juntos contra o Diretor Financeiro dos Robôs Mercenários', 'Até oito Toons podem lutar juntos contra o Juiz-chefe dos Robôs da Lei', 'Dentro do Quartel dos Cogs, o caminho é subindo as escadas.', 'Cada vez que lutar numa fábrica do Quartel dos Robôs Vendedores, você vai ganhar uma peça do seu Disfarce de Robô Vendedor.', 'Você pode verificar o progresso do seu Disfarce no seu Álbum Toon.', 'Você pode verificar o progresso da sua promoção na Página de Disfarce do seu Álbum Toon.', 'Certifique-se de estar com as piadas cheias e com o Risômetro cheio antes de ir até um Quartel dos Cogs.', 'Quando for promovido, seu disfarce de Cog será atualizado.', 'Você terá que derrotar o ' + Foreman + ' para recuperar uma peça do Disfarce de Robô Vendedor.', 'Ganhe peças de disfarce de Robô Mercenário como recompensa de Tarefas Toon na Sonholândia do Donald.', 'Os Robôs Mercenários produzem e distribuem o seu próprio dinheiro, as Cogranas, de três maneiras - Moeda, Dólar e Barra.', 'Espere até que o Diretor Financeiro esteja tonto para lançar um cofre, senão ele vai usá-lo como capacete! Acerte o capacete com outro cofre para derrubá-lo.', 'Ganhe peças de disfarce de Robô da Lei como recompensa de Tarefas Toon pelo Professor Floco.', 'Vale a pena a confusão: os Cogs virtuais no Quartel dos Robôs da Lei não dão Avisos de Júri de recompensa.', ' Robô Mercenário produz e distribui a sua própia moeda, Cogbucks, em três formas diferentes: Moedas, Dólar, e lingotes.', ' Aguarde até que o Diretor Financeiro fique doido para lançar um seguro ou o utilize-o como um capacete! Acerte no capacete com outro seguro para pegá-lo.', 'O Robô da Lei obtém as partes do traje como recompensa ao concluir a TarefaToon para o Professor Floco.'),
+ TIP_ESTATE: ('Os Rabiscos entendem algumas frases do Chat rápido. Experimente!', 'Use o menu "Bichinho" do Chat rápido para pedir a seu Rabisco que faça truques.', 'Você pode ensinar aos Rabiscos truques com as lições de treinamento do Gadálogo da Clarabela.', 'Recompense o seu Rabisco pelos truques.', 'Se você visitar a propriedade de um amigo, o seu Rabisco lhe fará companhia.', 'Alimente o seu Rabisco com uma balinha quando ele estiver com fome.', 'Clique em um Rabisco para ver um menu no qual você poderá Alimentar, Coçar e Chamá-lo.', 'Os Rabiscos adoram companhia. Convide os amigos para brincar!', 'Todos os Rabiscos possuem personalidades próprias.', 'Você pode devolver o seu Rabisco e adotar outro nas Lojas de Animais.', 'Quando um Rabisco faz um truque, os Toons que o cercam se recuperam.', 'Os Rabiscos ficam ainda melhores nos truques com a prática. Continue assim!', 'Os truques mais avançados dos Rabiscos recuperam os Toons com mais rapidez.', 'Rabiscos com mais experiência podem fazer mais truques sem ficar tão cansados.', 'Veja uma lista de Rabiscos próximos em sua Lista de amigos.', 'Compre móveis usando o Gadálogo da Clarabela e decore a sua casa.', 'O banco da casa tem mais balinhas.', 'O armário da casa tem mais roupas.', 'Vá até a casa do seu amigo e experimente as roupas dele.', 'Compre varas de pescar melhores no Gadálogo da Clarabela.', 'Ligue para a Clarabela usando o telefone da casa.', 'A Clarabela vende um armário maior em que cabem mais roupas.', 'Reserve espaço no seu armário antes de usar o bilhete de roupas.', 'A Clarabela vende tudo o que é preciso para decorar a sua casa.', 'Verifique a sua caixa de correio para ver se há entregas antes de fazer seus pedidos com a Clarabela.', 'As roupas do Gadálogo da Clarabela levam uma hora para serem entregues.', 'Os papéis de parede e pisos do Gadálogo da Clarabela levam uma hora para serem entregues.', 'Os móveis do Gadálogo da Clarabela levam um dia inteiro para serem entregues.', 'Armazene móveis de reserva no sótão.', 'Você será avisado pela Clarabela quando um novo Gadálogo estiver disponível.', 'Você será avisado pela Clarabela quando uma entrega do Gadálogo chegar.', 'Novos Gadálogos são entregues toda semana.', 'Procure os produtos promocionais de estoque limitado no Gadálogo.', 'Mova os móveis indesejados para a lata de lixo.', 'Alguns peixes, como a Cavala Trotante, são mais comuns nas propriedades de Toons.', 'Você pode convidar os seus amigos para a sua propriedade usando o Chat rápido.', 'Você sabia que a cor da sua casa combina com a cor do seu painel Pegar um Toon?'),
+ TIP_KARTING: ('Compre um Conversível, Utilitário Toon ou Cruzeiro na Loja do Kart do Pateta.', 'Personalize o seu kart com decalques, calotas e muito mais na Loja do Kart do Pateta.', 'Ganhe bilhetes correndo de kart no Autódromo do Pateta.', 'Os bilhetes são a única moeda aceita na Loja do Kart do Pateta.', 'São necessários bilhetes como depósito antes das corridas.', 'Uma página especial do seu Álbum Toon permite que você personalize o seu kart.', 'Uma página especial do seu Álbum Toon permite que você veja os recordes de cada pista.', 'Uma página especial do seu Álbum Toon permite que você veja seus troféus.', 'O Estádio dos Nerds é a pista mais fácil do Autódromo do Pateta.', 'A Pista de Pulos tem o maior número de inclinações e rampas do Autódromo do Pateta.', 'A Avenida da Neve é a pista mais difícil do Autódromo do Pateta.'),
+ TIP_GOLF: ('Aperte a tecla Tab para ver de cima o percurso de golfe.', 'Aperte a tecla de Seta para Cima para se colocar na direção do buraco de golfe.', 'Balançar o taco é como atirar uma torta.') }
+FishGenusNames = {
+ 0: 'Baiacu',
  2: 'Peixe-gato',
  4: 'Peixe-palhaço',
  6: 'Peixe congelado',
  8: 'Estrela-do-mar',
  10: 'Cavala Trotante!',
- 12: 'Peixe Cachorra',
+ 12: 'Cachorra',
  14: 'Enguia Amore',
  16: 'Tubarão-enfermeira',
  18: 'Caranguejo-rei',
@@ -8111,87 +8809,27 @@ FishGenusNames = {0: 'Baiacu',
  28: 'Truta Cicuta',
  30: 'Piano Atum',
  32: 'Manteiga de Amendoim e Água-viva',
- 34: 'Raia Jamanta'}
-FishSpeciesNames = {0: ('Baiacu',
-     'Baiacu Balão de Ar',
-     'Baiacu Balão Meteorológico',
-     'Baiacu Balão de Água',
-     'Baiacu Balão Vermelho'),
- 2: ('Peixe-gato',
-     'Peixe-gato Siamês',
-     'Peixe-gato de Rua',
-     'Peixe-gato Rajado',
-     'Peixe-gato Tonto'),
- 4: ('Peixe-palhaço',
-     'Peixe-palhaço Triste',
-     'Peixe-palhaço de Festa',
-     'Peixe-palhaço de Circo'),
+ 34: 'Raia Jamanta' }
+FishSpeciesNames = {
+ 0: ('Baiacu', 'Baiacu Balão de Ar', 'Baiacu Balão Meteorológico', 'Baiacu Balão de Água', 'Baiacu Balão Vermelho'),
+ 2: ('Peixe-gato', 'Peixe-gato Siamês', 'Peixe-gato de Rua', 'Peixe-gato Rajado', 'Peixe-gato Tonto'),
+ 4: ('Peixe-palhaço', 'Peixe-palhaço Triste', 'Peixe-palhaço de Festa', 'Peixe-palhaço de Circo'),
  6: ('Peixe congelado',),
- 8: ('Estrela-do-mar',
-     'Cinco Estrelas-do-mar',
-     'Estrela-do-mar do Rock',
-     'Estrela-do-mar Cintilante',
-     'Estrela-do-mar All Star'), 
+ 8: ('Estrela-do-mar', 'Cinco Estrelas-do-mar', 'Estrela-do-mar do Rock', 'Estrela-do-mar Cintilante', 'Estrela-do-mar All Star'),
  10: ('Cavala Trotante!',),
- 12: ('Peixe Cachorra',
-      'Peixe Cachorra Buldogue',
-      'Peixe Cachorra-quente',
-      'Peixe Cachorra Dálmata',
-      'Peixe Cachorrinha'),
+ 12: ('Cachorra', 'Cachorra Buldogue', 'Cachorra-quente', 'Cachorra Dálmata', 'Cachorrinha'),
  14: ('Enguia Amore', 'Enguia Amore Elétrica'),
  16: ('Tubarão-enfermeira', 'Tubarão-enfermeira Clara', 'Tubarão-enfermeira Flora'),
  18: ('Caranguejo-rei', 'Caranguejo-rei do Alasca', 'Caranguejo-rei Velho'),
- 20: ('Peixe-lua',
-      'Peixe-lua Cheia',
-      'Peixe Meia-lua',
-      'Peixe-lua Nova',
-      'Peixe-lua Crescente',
-      'Peixe-lua da Colheita'),
- 22: ('Cavalo-marinho',
-      'Cavalo-marinho de Pau',
-      'Cavalo-marinho Clydesdale',
-      'Cavalo-marinho Árabe'),
- 24: ('Tubarão-Fera',
-      'Tubarãozinho Fera',
-      'Tubarão-Fera da Piscina',
-      'Tubarão-Fera da Piscina Olímpica'),
- 26: ('Barra Cursa Marrom',
-      'Barra Cursa Preto',
-      'Barra Cursa Coala',
-      'Barra Cursa de Mel',
-      'Barra Cursa Polar',
-      'Barra Cursa Panda',
-      'Barra Cursa Kodiaca',
-      'Barra Cursa Pardo'),
+ 20: ('Peixe-lua', 'Peixe-lua Cheia', 'Peixe Meia-lua', 'Peixe-lua Nova', 'Peixe-lua Crescente', 'Peixe-lua da Colheita'),
+ 22: ('Cavalo-marinho', 'Cavalo-marinho de Pau', 'Cavalo-marinho Clydesdale', 'Cavalo-marinho Árabe'),
+ 24: ('Tubarão-Fera', 'Tubarãozinho Fera', 'Tubarão-Fera da Piscina', 'Tubarão-Fera da Piscina Olímpica'),
+ 26: ('Barra Cursa Marrom', 'Barra Cursa Preto', 'Barra Cursa Coala', 'Barra Cursa de Mel', 'Barra Cursa Polar', 'Barra Cursa Panda', 'Barra Cursa Kodiac', 'Barra Cursa Grizzly'),
  28: ('Truta', 'Capitão Truta Cicuta', 'Truta Cicuta Escorbuta'),
- 30: ('Piano Atum',
-      'Grande Piano Atum',
-      'Grande Piano Atum Bebê',
-      'Piano Atum Ereto',
-      'Músico de Piano Atum'),
- 32: ('Manteiga de Amendoim e Água-viva',
-      'MA & Água-viva de Uva',
-      'MA & Água-viva Crocante',
-      'MA & Água-viva de Morango',
-      'MA & Água-viva de Uva Concord'),
- 34: ('Raia Jamanta',)}
-CogPartNames = ('Perna superior esquerda', 
- 'Perna inferior esquerda',
- 'Pé esquerdo',
- 'Perna superior direita',
- 'Perna inferior direita',
- 'Pé direito',
- 'Ombro esquerdo',
- 'Ombro direito',
- 'Peito',
- 'Medidor de saúde', 
- 'Quadril',
- 'Braço superior esquerdo',  
- 'Braço inferior esquerdo', 
- 'Mão esquerda',
- 'Braço superior direito', 
- 'Braço inferior direito', 
- 'Mão direita')
+ 30: ('Piano Atum', 'Grande Piano Atum', 'Grande Piano Atum Baby', 'Piano Atum Ereto', 'Músico de Piano Atum'),
+ 32: ('Manteiga de Amendoim e Água-viva', 'MA & Água-viva de Uva', 'MA & Água-viva Crocante', 'MA & Água-viva de Morango', 'Concord Grape PB&J Fish'),
+ 34: ('Raia Jamanta',) }
+CogPartNames = ('Perna superior esquerda', 'Perna inferior esquerda', 'Pé esquerdo', 'Perna superior direita', 'Perna inferior direita', 'Pé direito', 'Ombro esquerdo', 'Ombro direito', 'Peito', 'Medidor de saúde', 'Quadril', 'Braço superior esquerdo', 'Braço inferior esquerdo', 'Mão esquerda', 'Braço superior direito', 'Braço inferior direito', 'Mão direita')
 CogPartNamesSimple = ('Busto superior',)
 SellbotLegFactorySpecMainEntrance = 'Entrada principal'
 SellbotLegFactorySpecLobby = 'Salão'
@@ -8225,7 +8863,7 @@ SellbotLegFactorySpecWestElevatorShaft = 'Eixo do Elevador Oeste'
 SellbotLegFactorySpecEastElevatorShaft = 'Eixo do Elevador Leste'
 FishBingoBingo = 'BINGO!'
 FishBingoVictory = 'VITÓRIA!!'
-FishBingoJackpot = 'GRANDE PRÊMIO!'
+FishBingoJackpot = 'Ganhe %s balinhas!'
 FishBingoGameOver = 'FIM DO JOGO'
 FishBingoIntermission = 'Intervalo\nTermina em:'
 FishBingoNextGame = 'Próximo jogo\nComeça em:'
@@ -8240,13 +8878,13 @@ FishBingoEnd = 'Espero que tenha se divertido no jogo Bingo dos Peixes.'
 FishBingoHelpMain = 'Bem-vindo ao Bingo dos Peixes de Toontown! Todo mundo trabalha em conjunto no lago para preencher a cartela antes de acabar o tempo.'
 FishBingoHelpFlash = 'Quando você pegar um peixe, clique em um dos quadrados piscantes para marcar a cartela.'
 FishBingoHelpNormal = 'É uma cartela de Bingo Clássico. Para ganhar, complete qualquer linha vertical, horizontal ou na diagonal.'
-FishBingoHelpDiagonals = 'Concluir as duas diagonais para ganhar.'
-FishBingoHelpCorners = 'Uma cartela de Cantos fácil. Concluir todos os quatro cantos para ganhar.'
-FishBingoHelpThreeway = 'Três vias. Concluir ambas as diagonais e a linha do meio para ganhar. Esta não é fácil não!'
-FishBingoHelpBlockout = 'Bloqueado! Concluir a cartela inteira para ganhar. Você está competindo contra todos os outros lagos e a bolada é grande!'
+FishBingoHelpDiagonals = 'Complete as duas diagonais para ganhar.'
+FishBingoHelpCorners = 'Uma cartela de Cantos fácil. Complete todos os quatro cantos para ganhar.'
+FishBingoHelpThreeway = 'Três vias. Complete ambas as diagonais e a linha do meio para ganhar. Esta não é fácil não!'
+FishBingoHelpBingo = ''
+FishBingoHelpBlockout = 'Bloqueado! Complete a cartela inteira para ganhar. Você está competindo contra todos os outros lagos e a bolada é grande!'
 FishBingoOfferToSellFish = 'O seu balde de pesca está cheio. Quer vender os seus peixes?'
 FishBingoJackpotWin = 'Ganhe %s balinhas!'
-FishBingoJackpot = 'Ganhe %s balinhas!'
 ResistanceToonupMenu = 'Toonar'
 ResistanceToonupItem = '%s toonar'
 ResistanceToonupItemMax = 'Máx.'
@@ -8280,7 +8918,7 @@ StartingBlock_NotEnoughTickets = 'Você não tem bilhetes suficientes! Experimen
 StartingBlock_NoBoard = 'O embarque para esta corrida terminou. Espere o início da próxima corrida.'
 StartingBlock_NoKart = 'Primeiramente, você precisa de um kart! Por que você não pergunta a um dos funcionários da Loja do kart?'
 StartingBlock_Occupied = 'Este bloco já está ocupado! Procure outro ponto.'
-StartingBlock_TrackClosed = 'Sinto muito, esta pista está fechada para reformas.'
+StartingBlock_TrackClosed = 'Desculpe, esta pista está fechada para reformas.'
 StartingBlock_EnterPractice = 'Deseja participar do treino?'
 StartingBlock_EnterNonPractice = 'Deseja participar de uma corrida %s por %s bilhetes?'
 StartingBlock_EnterShowPad = 'Deseja estacionar o seu carro aqui?'
@@ -8291,12 +8929,19 @@ LeaderBoard_Name = 'Nome do piloto'
 LeaderBoard_Daily = 'Pontuação diária'
 LeaderBoard_Weekly = 'Pontuação semanal'
 LeaderBoard_AllTime = 'Melhor pontuação de todos os tempos'
-RecordPeriodStrings = [LeaderBoard_Daily, LeaderBoard_Weekly, LeaderBoard_AllTime]
-KartRace_RaceNames = ['Treino', 'Batalha dos Toons', 'Torneio']
+RecordPeriodStrings = [
+ LeaderBoard_Daily,
+ LeaderBoard_Weekly,
+ LeaderBoard_AllTime]
+KartRace_RaceNames = [
+ 'Treino',
+ 'Batalha dos Toons',
+ 'Torneio']
 from toontown.racing import RaceGlobals
 KartRace_Go = 'Largar!'
 KartRace_Reverse = ' Rev'
-KartRace_TrackNames = {RaceGlobals.RT_Speedway_1: 'Estádio dos Nerds',
+KartRace_TrackNames = {
+ RaceGlobals.RT_Speedway_1: 'Estádio dos Nerds',
  RaceGlobals.RT_Speedway_1_rev: 'Estádio dos Nerds' + KartRace_Reverse,
  RaceGlobals.RT_Rural_1: 'Autódromo Rústico',
  RaceGlobals.RT_Rural_1_rev: 'Autódromo Rústico' + KartRace_Reverse,
@@ -8307,12 +8952,14 @@ KartRace_TrackNames = {RaceGlobals.RT_Speedway_1: 'Estádio dos Nerds',
  RaceGlobals.RT_Rural_2: 'Pista de Pulos',
  RaceGlobals.RT_Rural_2_rev: 'Pista de Pulos' + KartRace_Reverse,
  RaceGlobals.RT_Urban_2: 'Avenida da Neve',
- RaceGlobals.RT_Urban_2_rev: 'Avenida da Neve' + KartRace_Reverse}
+ RaceGlobals.RT_Urban_2_rev: 'Avenida da Neve' + KartRace_Reverse }
 KartRace_Unraced = 'N/D'
-KartDNA_KartNames = {0:'Cruzeiro',
- 1:'Conversível',
- 2:'Utilitário Toon'}
-KartDNA_AccNames = {1000: 'Filtro de ar',
+KartDNA_KartNames = {
+ 0: 'Cruzeiro',
+ 1: 'Conversível',
+ 2: 'Utilitário Toon' }
+KartDNA_AccNames = {
+ 1000: 'Filtro de ar',
  1001: 'Carburador quádruplo',
  1002: 'Águia',
  1003: 'Chifres',
@@ -8407,7 +9054,7 @@ KartDNA_AccNames = {1000: 'Filtro de ar',
  7023: 'Púrpura',
  7024: 'Rosa',
  7025: 'Ameixa',
- 7026: 'Preto'}
+ 7026: 'Preto' }
 RaceHoodSpeedway = 'Autódromo'
 RaceHoodRural = 'Rural'
 RaceHoodUrban = 'Urbano'
@@ -8421,39 +9068,42 @@ Total = 'total'
 GrandTouring = 'Gran Turismo'
 
 def getTrackGenreString(genreId):
-    genreStrings = ['Autódromo','País', 'Cidade']
-    return genreStrings[genreId].lower()
+ genreStrings = [
+  'Autódromo',
+  'País',
+  'Cidade']
+ return genreStrings[genreId].lower()
 
 
 def getTunnelSignName(trackId, padId):
-    if trackId == 2 and padId == 0:
-        return 'tunne1l_citysign'
-    elif trackId == 1 and padId == 0:
-        return 'tunnel_countrysign1'
-    else:
-        genreId = RaceGlobals.getTrackGenre(trackId)
-        return 'tunnel%s_%ssign' % (padId + 1, RaceGlobals.getTrackGenreString(genreId))
+ if trackId == 2 and padId == 0:
+  return 'tunne1l_citysign'
+ elif trackId == 1 and padId == 0:
+  return 'tunnel_countrysign1'
+ else:
+  genreId = RaceGlobals.getTrackGenre(trackId)
+  return 'tunnel%s_%ssign' % (padId + 1, RaceGlobals.getTrackGenreString(genreId))
 
-
-KartTrophyDescriptions = [str(RaceGlobals.QualifiedRaces[0]) + ' ' + RaceHoodSpeedway + ' ' + + Race + ' ' + RaceQualified,
- str(RaceGlobals.QualifiedRaces[1]) + ' ' + RaceHoodSpeedway + ' ' +  Races + ' ' + RaceQualified,
- str(RaceGlobals.QualifiedRaces[2]) + ' ' + RaceHoodSpeedway + ' ' + Races + ' ' + RaceQualified,
- str(RaceGlobals.QualifiedRaces[0]) + ' ' + RaceHoodRural + ' ' + Race + ' ' + RaceQualified,
- str(RaceGlobals.QualifiedRaces[1]) + ' ' + RaceHoodRural + ' ' + Races + ' ' + RaceQualified,
- str(RaceGlobals.QualifiedRaces[2]) + ' ' + RaceHoodRural + ' ' + Races + ' ' + RaceQualified,
- str(RaceGlobals.QualifiedRaces[0]) + ' ' + RaceHoodUrban + ' ' + Race + ' ' + RaceQualified,
- str(RaceGlobals.QualifiedRaces[1]) + ' ' + RaceHoodUrban + ' ' + Races + ' ' + RaceQualified,
- str(RaceGlobals.QualifiedRaces[2]) + ' ' + RaceHoodUrban + ' ' + Races + ' ' + RaceQualified,
+KartTrophyDescriptions = [
+ RaceHoodSpeedway + ' ' + str(RaceGlobals.QualifiedRaces[0]) + ' ' + Race + ' ' + RaceQualified,
+ RaceHoodSpeedway + ' ' + str(RaceGlobals.QualifiedRaces[1]) + ' ' + Races + ' ' + RaceQualified,
+ RaceHoodSpeedway + ' ' + str(RaceGlobals.QualifiedRaces[2]) + ' ' + Races + ' ' + RaceQualified,
+ RaceHoodRural + ' ' + str(RaceGlobals.QualifiedRaces[0]) + ' ' + Race + ' ' + RaceQualified,
+ RaceHoodRural + ' ' + str(RaceGlobals.QualifiedRaces[1]) + ' ' + Races + ' ' + RaceQualified,
+ RaceHoodRural + ' ' + str(RaceGlobals.QualifiedRaces[2]) + ' ' + Races + ' ' + RaceQualified,
+ RaceHoodUrban + ' ' + str(RaceGlobals.QualifiedRaces[0]) + ' ' + Race + ' ' + RaceQualified,
+ RaceHoodUrban + ' ' + str(RaceGlobals.QualifiedRaces[1]) + ' ' + Races + ' ' + RaceQualified,
+ RaceHoodUrban + ' ' + str(RaceGlobals.QualifiedRaces[2]) + ' ' + Races + ' ' + RaceQualified,
  str(RaceGlobals.TotalQualifiedRaces) + ' ' + Total + ' ' + Races + ' ' + RaceQualified,
- str(RaceGlobals.WonRaces[0]) + ' ' + RaceHoodSpeedway + ' ' + Race + ' ' + RaceWon,
- str(RaceGlobals.WonRaces[1]) + ' ' + RaceHoodSpeedway + ' ' + Races + ' ' + RaceWon,
- str(RaceGlobals.WonRaces[2]) + ' ' + RaceHoodSpeedway + ' ' + Races + ' ' + RaceWon,
- str(RaceGlobals.WonRaces[0]) + ' ' + RaceHoodSpeedway + ' ' + Race + ' ' + RaceWon,
- str(RaceGlobals.WonRaces[1]) + ' ' + RaceHoodRural + ' ' + Races + ' ' + RaceWon,
- str(RaceGlobals.WonRaces[2]) + ' ' + RaceHoodRural + ' ' + Races + ' ' + RaceWon,
- str(RaceGlobals.WonRaces[0]) + ' ' + RaceHoodUrban + ' ' + Race + ' ' + RaceWon,
- str(RaceGlobals.WonRaces[1]) + ' ' + RaceHoodUrban + ' ' + Races + ' ' + RaceWon,
- str(RaceGlobals.WonRaces[2]) + ' ' + RaceHoodUrban + ' ' + Races + ' ' + RaceWon,
+ RaceHoodSpeedway + ' ' + str(RaceGlobals.WonRaces[0]) + ' ' + Race + ' ' + RaceWon,
+ RaceHoodSpeedway + ' ' + str(RaceGlobals.WonRaces[1]) + ' ' + Races + ' ' + RaceWon,
+ RaceHoodSpeedway + ' ' + str(RaceGlobals.WonRaces[2]) + ' ' + Races + ' ' + RaceWon,
+ RaceHoodSpeedway + ' ' + str(RaceGlobals.WonRaces[0]) + ' ' + Race + ' ' + RaceWon,
+ RaceHoodRural + ' ' + str(RaceGlobals.WonRaces[1]) + ' ' + Races + ' ' + RaceWon,
+ RaceHoodRural + ' ' + str(RaceGlobals.WonRaces[2]) + ' ' + Races + ' ' + RaceWon,
+ RaceHoodUrban + ' ' + str(RaceGlobals.WonRaces[0]) + ' ' + Race + ' ' + RaceWon,
+ RaceHoodUrban + ' ' + str(RaceGlobals.WonRaces[1]) + ' ' + Races + ' ' + RaceWon,
+ RaceHoodUrban + ' ' + str(RaceGlobals.WonRaces[2]) + ' ' + Races + ' ' + RaceWon,
  str(RaceGlobals.TotalWonRaces) + ' ' + Total + ' ' + Races + ' ' + RaceWon,
  str(RaceGlobals.WonCircuitRaces[0]) + ' ' + RaceTypeCircuit + ' ' + Race + ' ' + RaceQualified,
  str(RaceGlobals.WonCircuitRaces[1]) + ' ' + RaceTypeCircuit + ' ' + Races + ' ' + RaceQualified,
@@ -8476,9 +9126,10 @@ KartRace_AAInfo = 'Bem-vindo à Pista de Pulos!\nSegure firme! O caminho parece 
 KartRace_CCInfo = 'Bem-vindo ao Circuito da Cidade!\nCuidado com os pedestres quando passar pelo centro da cidade!\n'
 KartRace_BBInfo = 'Bem-vindo à Avenida da Neve!\nCuidado com a velocidade. Pode ter gelo na pista.\n'
 KartRace_GeneralInfo = 'Use Ctrl para lançar as piadas que pegar na pista, e as teclas de setas, para controlar o kart.'
-KartRace_TrackInfo = {RaceGlobals.RT_Speedway_1: KartRace_SSInfo + KartRace_GeneralInfo,
+KartRace_TrackInfo = {
+ RaceGlobals.RT_Speedway_1: KartRace_SSInfo + KartRace_GeneralInfo,
  RaceGlobals.RT_Speedway_1_rev: KartRace_SSInfo + KartRace_GeneralInfo,
- RaceGlobals.RT_Speedway_2 : KartRace_CoCoInfo + KartRace_GeneralInfo,
+ RaceGlobals.RT_Speedway_2: KartRace_CoCoInfo + KartRace_GeneralInfo,
  RaceGlobals.RT_Speedway_2_rev: KartRace_CoCoInfo + KartRace_GeneralInfo,
  RaceGlobals.RT_Rural_1: KartRace_RRInfo + KartRace_GeneralInfo,
  RaceGlobals.RT_Rural_1_rev: KartRace_RRInfo + KartRace_GeneralInfo,
@@ -8487,10 +9138,11 @@ KartRace_TrackInfo = {RaceGlobals.RT_Speedway_1: KartRace_SSInfo + KartRace_Gene
  RaceGlobals.RT_Urban_1: KartRace_CCInfo + KartRace_GeneralInfo,
  RaceGlobals.RT_Urban_1_rev: KartRace_CCInfo + KartRace_GeneralInfo,
  RaceGlobals.RT_Urban_2: KartRace_BBInfo + KartRace_GeneralInfo,
- RaceGlobals.RT_Urban_2_rev: KartRace_BBInfo + KartRace_GeneralInfo}
-KartRecordStrings = {RaceGlobals.Daily: 'diariamente',
+ RaceGlobals.RT_Urban_2_rev: KartRace_BBInfo + KartRace_GeneralInfo }
+KartRecordStrings = {
+ RaceGlobals.Daily: 'diariamente',
  RaceGlobals.Weekly: 'semanalmente',
- RaceGlobals.AllTime: 'o tempo todo'}
+ RaceGlobals.AllTime: 'o tempo todo' }
 KartRace_FirstSuffix = 'o'
 KartRace_SecondSuffix = ' o'
 KartRace_ThirdSuffix = ' o'
@@ -8523,10 +9175,10 @@ KartRace_RacerTooSlow = 'Você demorou demais para terminar a corrida.  Seus bil
 KartRace_PhotoFinish = 'Foto da chegada!'
 KartRace_CircuitPoints = 'Pontos do Circuito'
 CircuitRaceStart = 'O Grande Prêmio de Toontown está prestes a começar!  Para vencer, ganhe o maior número de pontos em três corridas consecutivas!'
-CircuitRaceOngoing = 'Oi! O Grande Prêmio de Toontown está acontecendo agora.'
+CircuitRaceOngoing = 'Olá! O Grande Prêmio de Toontown está acontecendo agora.'
 CircuitRaceEnd = 'E por hoje é só do Grande Prêmio de Toontown no Autódromo do Pateta.  Vejo você na próxima segunda-feira!'
 TrickOrTreatMsg = 'Você já encontrou\nesta gostosura!'
-WinterCarolingMsg = 'Você já tenha feito canções de Natal aqui!'
+WinterCarolingMsg = 'Você já cantou aqui!'
 LawbotBossTempIntro0 = 'Humm, o que temos na pauta de casos hoje?'
 LawbotBossTempIntro1 = 'Arrá, temos o julgamento de um Toon!'
 LawbotBossTempIntro2 = 'O caso da promotoria é forte.'
@@ -8535,7 +9187,7 @@ LawbotBossTempIntro4 = 'Espere um pouco... Vocês são Toons!'
 LawbotBossTempJury1 = 'A seleção do júri vai começar agora.'
 LawbotBossHowToGetEvidence = 'Toque na tribuna da testemunha para pegar a evidência.'
 LawbotBossTrialChat1 = 'A sessão da Corte está aberta'
-LawbotBossHowToThrowPies = 'Pressiona a tecla Insert para arremessar a evidência\n nos advogados ou na balança!'
+LawbotBossHowToThrowPies = 'Aperte a tecla Insert para arremessar a evidência\n nos advogados ou na balança!'
 LawbotBossNeedMoreEvidence = 'Você precisa de mais evidências!'
 LawbotBossDefenseWins1 = 'Impossível! A defesa venceu?'
 LawbotBossDefenseWins2 = 'Não. Eu declaro este julgamento nulo! Um novo julgamento será agendado.'
@@ -8544,7 +9196,8 @@ LawbotBossProsecutionWins = 'Eu julgo em favor do querelante'
 LawbotBossReward = 'O prêmio é uma promoção e a habilidade de evocar Cogs'
 LawbotBossLeaveCannon = 'Deixar canhão'
 LawbotBossPassExam = 'Bah, e daí que você passou no exame da ordem dos advogados?'
-LawbotBossTaunts = ['%s, eu julgo você em desacato desta corte!',
+LawbotBossTaunts = [
+ '%s, eu julgo você em desacato desta corte!',
  'Objeção aceita!',
  'Apague isso dos registros.',
  'Sua apelação foi rejeitada. A sua sentença é a tristeza!',
@@ -8556,18 +9209,20 @@ WitnessToonNoJuror = 'Oh-oh, sem jurados Toons. Vai ser um julgamento difícil.'
 WitnessToonOneJuror = 'Legal! Tem 1 Toon no júri!'
 WitnessToonSomeJurors = 'Legal! Tem %d Toons no júri!'
 WitnessToonAllJurors = 'Irado! Todos os jurados são Toons!'
-WitnessToonPrepareBattleThree = 'Rápido, toque na tribuna da testemunha para pegar evidências.\x7Pressiona a tecla Insert para arremessar a evidência nos advogados, ou no prato da defesa.'
+WitnessToonPrepareBattleThree = 'Rápido, toque na tribuna da testemunha para pegar evidências.\x7Aperte a tecla Insert para arremessar a evidência nos advogados, ou no prato da defesa.'
 WitnessToonCongratulations = 'Você conseguiu!  Obrigado por uma defesa espetacular!\x7Aqui ,fique com estes papéis deixados pelo Juiz-chefe.\x7Com isto você será capaz de evocar Cogs da sua página Galeria de Cogs.'
 WitnessToonLastPromotion = '\x7Uau, você atingiu o nível %s do seu Disfarce de Cog!\x7Os Cogs não são promovidos mais que isso.\x7Você não pode mais atualizar o seu Disfarce de Cog, mas ainda pode continuar trabalhando pela Resistência!'
 WitnessToonHPBoost = '\x7Você fez muito pela Resistência.\x7O Conselho de Toons decidiu lhe dar mais um ponto de Risada. Parabéns!'
 WitnessToonMaxed = '\x7Vejo que tem um Disfarce de Cog nível %s. Impressionante!\x7Em nome de todo o Conselho de Toons, obrigado por voltar para defender mais Toons!'
 WitnessToonBonus = 'Maravilhoso! Todos os advogados estão atordoados. O peso da sua evidência foi %s vezes mais denso por %s segundos'
-WitnessToonJuryWeightBonusSingular = {6: 'Este caso é difícil. Você sentou %d jurado Toon, então a sua evidência tem um peso-bônus de %d.',
+WitnessToonJuryWeightBonusSingular = {
+ 6: 'Este caso é difícil. Você sentou %d jurado Toon, então a sua evidência tem um peso-bônus de %d.',
  7: 'Este caso é muito difícil. Você sentou %d jurado Toon, então a sua evidência tem um peso-bônus de %d.',
- 8: 'Este caso é o mais difícil. Você sentou %d jurado Toon, então a sua evidência tem um peso-bônus de %d.'}
-WitnessToonJuryWeightBonusPlural = {6: 'Este caso é difícil. Você sentou %d jurados Toon, então a sua evidência tem um peso-bônus de %d.',
+ 8: 'Este caso é o mais difícil. Você sentou %d jurado Toon, então a sua evidência tem um peso-bônus de %d.' }
+WitnessToonJuryWeightBonusPlural = {
+ 6: 'Este caso é difícil. Você sentou %d jurados Toon, então a sua evidência tem um peso-bônus de %d.',
  7: 'Este caso é muito difícil. Você sentou %d jurados Toon, então a sua evidência tem um peso-bônus de %d.',
- 8: 'Este caso é o mais difícil. Você sentou %d jurados Toon, então a sua evidência tem um peso-bônus de %d.'}
+ 8: 'Este caso é o mais difícil. Você sentou %d jurados Toon, então a sua evidência tem um peso-bônus de %d.' }
 IssueSummons = 'Evocar'
 SummonDlgTitle = 'Evocar um Cog'
 SummonDlgButton1 = 'Evocar um Cog'
@@ -8579,18 +9234,17 @@ SummonDlgInvasionConf = 'Gostaria de evocar uma invasão de %s?'
 SummonDlgNumLeft = 'Você tem %s sobrando.'
 SummonDlgDelivering = 'Evocando...'
 SummonDlgSingleSuccess = 'Você evocou o Cog com sucesso.'
-SummonDlgSingleBadLoc = 'Sinto muito, mas cogs são proibidos aqui.  Tente em outro lugar.'
+SummonDlgSingleBadLoc = 'Desculpe, mas cogs são proibidos aqui.  Tente em outro lugar.'
 SummonDlgBldgSuccess = 'Você evocou os Cogs com sucesso. %s concordou em deixá-los tomar %s por um tempo!'
 SummonDlgBldgSuccess2 = 'Você evocou os Cogs com sucesso. Um Dono de Loja concordou em deixá-los tomar o prédio dele por um tempo!'
-SummonDlgBldgBadLoc = 'Sinto muito, não há prédios Toon por perto para os Cogs tomarem.'
+SummonDlgBldgBadLoc = 'Desculpe, não há prédios Toon por perto para os Cogs tomarem.'
 SummonDlgInvasionSuccess = 'Você evocou os Cogs com sucesso. É uma invasão!'
 SummonDlgInvasionBusy = 'Um %s não pôde ser encontrado.  Tente novamente quando a invasão dos Cogs terminar.'
-SummonDlgInvasionFail = 'Sinto muito, a invasão dos Cogs fracassou.'
+SummonDlgInvasionFail = 'Desculpe, a invasão dos Cogs fracassou.'
 SummonDlgShopkeeper = 'O Dono da Loja '
 PolarPlaceEffect1 = NPCToonNames[3306] + ': Bem-vindo ao Lugar Polar!'
 PolarPlaceEffect2 = NPCToonNames[3306] + ': Tente isto.'
 PolarPlaceEffect3 = NPCToonNames[3306] + ': A sua nova aparência só vai funcionar em ' + lTheBrrrgh + '.'
-GreenToonEffectMsg = NPCToonNames[5312] + ': Olha seu Toontático em verde!'
 LaserGameMine = 'Caça-Caveiras!'
 LaserGameRoll = 'Combinando'
 LaserGameAvoid = 'Evite as Caveiras'
@@ -8599,7 +9253,7 @@ LaserGameDefault = 'Jogo Desconhecido'
 PinballHiScore = 'Maior Pontuação: %s\n'
 PinballHiScoreAbbrev = '...'
 PinballYourBestScore = 'Sua Melhor Pontuação:\n'
-PinballScore = 'Pontuação:        %d x %d = '
+PinballScore = 'Pontuação:  %d x %d = '
 PinballScoreHolder = '%s\n'
 GagTreeFeather = 'Árvore de Piada de Pena'
 GagTreeJugglingBalls = 'Árvore de Piada de Bolinhas de Malabarismo'
@@ -8614,10 +9268,12 @@ StatuaryToonWave = 'Estátua da Onda Toon'
 StatuaryToonVictory = 'Estátua da Vitória Toon'
 StatuaryToonCrossedArms = 'Estátua da Autoridade Toon'
 StatuaryToonThinking = 'Estátua do Abraço Toon'
-StatuaryMeltingSnowman =' Boneco de neve Derretendo' 
+StatuaryMeltingSnowman = ' Boneco de neve Derretendo'
+StatuaryMeltingSnowDoodle = 'Estátua de Doodle de neve'
 StatuaryGardenAccelerator = 'Fertilizante Instantâneo'
-AnimatedStatuaryFlappyCog = 'Cog abano'
-FlowerColorStrings = ['Vermelha',
+AnimatedStatuaryFlappyCog = 'Cog Suspenso'
+FlowerColorStrings = [
+ 'Vermelha',
  'Laranja',
  'Violeta',
  'Azul',
@@ -8625,61 +9281,37 @@ FlowerColorStrings = ['Vermelha',
  'Amarela',
  'Branca',
  'Verde']
-FlowerSpeciesNames = {49: 'Margarida',
+FlowerSpeciesNames = {
+ 49: 'Margarida',
  50: 'Tulipa',
  51: 'Cravo',
  52: 'Lírio',
  53: 'Narciso',
  54: 'Tilápia',
  55: 'Petúnia',
- 56: 'Rosa'}
-FlowerFunnyNames = {49: ('Margarida Lida',
-      'Margarida Sumida',
-      'Margarida Querida',
-      'Margarida Lambida',
-      'Margarida Caída',
-      'Margarida Subida',
-      'Margarida Enlouquecida',
-      'Margarida Esclarecida'),
- 50:  ('Eulipa', 'Tulipas', 'Elelipa'),
- 51:  ('Encravou',
-       'Cravado',
-       'Cravo Híbrido',
-       'Cravo de Lado',
-       'Cravo Modelo'),
- 52: ('De Lírio',
-      'Co Lírio',
-      'Lírio Selvagem',
-      'Lírio Figueiro',
-      'Lírio Pimenta',
-      'Lírio Bobo',
-      'Eclírio',
-      'Lírio Dílio'),
- 53: ('Nar-sorriso',
-      'Nariz Ciso',
-      'Narcisudo',
-      'Ante Narciso'),
- 54: ('Tilápia Pudo',
-      'Ene-A-O-Tilápia',
-      'Tilapiano',
-      'Tilapiada',
-      'Tilápia Sábia'),
+ 56: 'Rosa' }
+FlowerFunnyNames = {
+ 49: ('Margarida Lida', 'Margarida Sumida', 'Margarida Querida', 'Margarida Lambida', 'Margarida Caída', 'Margarida Subida', 'Margarida Enlouquecida', 'Margarida Esclarecida'),
+ 50: ('Eulipa', 'Tulipas', 'Elelipa'),
+ 51: ('Encravou', 'Cravado', 'Cravo Híbrido', 'Cravo de Lado', 'Cravo Modelo'),
+ 52: ('De Lírio', 'Co Lírio', 'Lírio Selvagem', 'Lírio Figueiro', 'Lírio Pimenta', 'Lírio Bobo', 'Eclírio', 'Lírio Dílio'),
+ 53: ('Nar-sorriso', 'Nariz Ciso', 'Narcisudo', 'Ante Narciso'),
+ 54: ('Tilápia Pudo', 'Ene-A-O-Tilápia', 'Tilapiano', 'Tilapiada', 'Tilápia Sábia'),
  55: ('Car Petúnia', 'Platúnia'),
- 56: ('Última Rosa do Verão',
-      'Choque de Rosa',
-      'Rosa Tinta',
-      'Rosa Fedida',
-      'Rosa Aindarrosa')}
+ 56: ('\xc3\x9altima Rosa do Verão', 'Choque de Rosa', 'Rosa Tinta', 'Rosa Fedida', 'Rosa Aindarrosa') }
 FlowerVarietyNameFormat = '%s %s'
 FlowerUnknown = '????'
-ShovelNameDict = {0: 'Latão',
+FloweringNewEntry = 'Nova Entrada'
+ShovelNameDict = {
+ 0: 'Latão',
  1: 'Bronze',
  2: 'Prata',
- 3: 'Ouro'}
-WateringCanNameDict = {0: 'Pequeno',
+ 3: 'Ouro' }
+WateringCanNameDict = {
+ 0: 'Pequeno',
  1: 'Médio',
  2: 'Grande',
- 3: 'Enorme'}
+ 3: 'Enorme' }
 GardeningPlant = 'Plantar'
 GardeningWater = 'Regar'
 GardeningRemove = 'Remover'
@@ -8696,7 +9328,7 @@ PlantingGuiOk = 'Plantar'
 PlantingGuiCancel = lCancel
 PlantingGuiReset = 'Restaurar'
 GardeningChooseBeans = 'Escolha as balinhas que deseja plantar.'
-GardeningChooseBeansItem  = 'Escolha as balinhas / item que deseja plantar.'
+GardeningChooseBeansItem = 'Escolha as balinhas / item que deseja plantar.'
 GardeningChooseToonStatue = 'Escolha o Toon do qual deseja criar uma estátua.'
 GardenShovelLevelUp = 'Parabéns, você ganhou uma nova pá!'
 GardenShovelSkillLevelUp = 'Parabéns! Você atingiu %(oldbeans)d violetas! Para progredir, você deve coletar %(newbeans)d violetas.'
@@ -8711,15 +9343,7 @@ WateringCanSmall = 'Regador Pequeno'
 WateringCanMedium = 'Regador Médio'
 WateringCanLarge = 'Regador Grande'
 WateringCanHuge = 'Regador Enorme'
-BeanColorWords = ('vermelha',
- 'verde',
- 'laranja',
- 'lilás',
- 'azul',
- 'rosa',
- 'amarela',
- 'ciano',
- 'prata')
+BeanColorWords = ('vermelha', 'verde', 'laranja', 'lilás', 'azul', 'rosa', 'amarela', 'ciano', 'prata')
 PlantItWith = ' Plante com %s.'
 MakeSureWatered = ' Primeiramente, certifique-se de que todas as plantas foram regadas.'
 UseFromSpecialsTab = 'Use por meio da guia de especiais na página do jardim.'
@@ -8730,85 +9354,91 @@ ConfirmWiltedFlower = '%(plant)s murchou.  Tem certeza de que quer removê-la?  
 ConfirmUnbloomingFlower = '%(plant)s não está desabrochando.  Tem certeza de que quer removê-la?  Ela não irá para o seu cesto de flores, e você também não receberá aumento na sua habilidade.'
 ConfirmNoSkillupFlower = 'Tem certeza de que quer remover %(plant)s? Ela não irá para o seu cesto de flores, e você também não receberá aumento na sua habilidade.'
 ConfirmSkillupFlower = 'Tem certeza de que quer colher %(plant)s?  Ela irá para o seu cesto de flores. Você vai receber um aumento de habilidade.'
-ConfirmMaxedSkillFlower = 'Tem certeza que quer colher as %(plant)s?  Elas irão para sua cesta de flores. Suas habilidades NÃO aumentarão pois você já atingiu o máximo.'
+ConfirmMaxedSkillFlower = 'Tem certeza que quer colher as %(plant)s?  Elas irão para sua cesta de flores. Suas habilidades N\xc3\x83O aumentarão pois você já atingiu o máximo.'
 ConfirmBasketFull = 'Seu cesto de flores está cheio. Venda algumas flores primeiro.'
 ConfirmRemoveTree = 'Tem certeza de que quer remover %(tree)s?'
 ConfirmWontBeAbleToHarvest = ' Se você remover esta árvore, você não colherá piadas das árvores mais altas.'
 ConfirmRemoveStatuary = 'Tem certeza de que quer apagar para sempre %(item)s?'
-ResultPlantedSomething  = 'Parabéns! Você acaba de plantar %s.'
-ResultPlantedSomethingAn  = 'Parabéns! Você acaba de plantar %s.'
+ResultPlantedSomething = 'Parabéns! Você acaba de plantar %s.'
+ResultPlantedSomethingAn = 'Parabéns! Você acaba de plantar %s.'
 ResultPlantedNothing = 'Isso não funcionou.  Por favor, tente uma combinação diferente de balinhas.'
-GardenGagTree = '\xc3\xa81 de piada '
-GardenUberGag = 'Uber de Piada'
+GardenGagTree = 'Árvore de Brincadeira'
+GardenUberGag = 'Brincadeira de Uber'
 
 def getRecipeBeanText(beanTuple):
-    retval = ''
-    if not beanTuple:
-        return retval
-    allTheSame = True
-    for index in range(len( beanTuple)):
-        if index + 1 < len(beanTuple):
-            if not beanTuple[index] == beanTuple[index+1]:
-                allTheSame = False
-                break
+ retval = ''
+ if not beanTuple:
+  return retval
+ 
+ allTheSame = True
+ for index in range(len(beanTuple)):
+  if index + 1 < len(beanTuple):
+if not beanTuple[index] == beanTuple[index + 1]:
+ allTheSame = False
+ break
 
-    if allTheSame:
-        if len(beanTuple) > 1:
-            retval = '%d %s balinhas' % (len(beanTuple), BeanColorWords[beanTuple[0]])
-        else:
-            retval = 'uma balinha %s' % BeanColorWords[beanTuple[0]]
-    else:
-        retval += 'a'
-        maxBeans = len(beanTuple)
-        for index in range(maxBeans):
-            if index == maxBeans - 1:
-                retval += ' e balinha %s' % BeanColorWords[beanTuple[index]]
-            elif index == 0:
-                retval += ' %s' % BeanColorWords[beanTuple[index]]
-            else:
-                retval += ', %s' % BeanColorWords[beanTuple[index]]
+  beanTuple[index] == beanTuple[index + 1]
+ 
+ if allTheSame:
+  if len(beanTuple) > 1:
+retval = '%d %s balinhas' % (len(beanTuple), BeanColorWords[beanTuple[0]])
+  else:
+retval = 'uma balinha %s' % BeanColorWords[beanTuple[0]]
+ else:
+  retval += 'a'
+  maxBeans = len(beanTuple)
+  for index in range(maxBeans):
+if index == maxBeans - 1:
+ retval += ' e balinha %s' % BeanColorWords[beanTuple[index]]
+ continue
+if index == 0:
+ retval += ' %s' % BeanColorWords[beanTuple[index]]
+ continue
+retval += ', %s' % BeanColorWords[beanTuple[index]]
+  
+ return retval
 
-    return retval
-    
 GardenTextMagicBeans = 'Balas Mágicas'
 GardenTextMagicBeansB = 'Outras Balas'
 GardenSpecialDiscription = 'Este texto deveria explicar como usar certo especial do jardim'
 GardenSpecialDiscriptionB = 'Este texto deveria explicar como usar certo especial do jardim, podicrê!'
 GardenTrophyAwarded = 'Uau! Você tem %s de %s flores. Isso merece um troféu e uma melhora na Risada!'
-GardenTrophyNameDict = {0: 'Carrinho de Mão',
+GardenTrophyNameDict = {
+ 0: 'Carrinho de Mão',
  1: 'Pás',
  2: 'Flor',
  3: 'Regador',
  4: 'Tubarão',
  5: 'Peixe-Espada',
- 6: 'Baleia Assassina'}
+ 6: 'Baleia Assassina' }
 SkillTooLow = 'Habilidade\nBaixa Demais'
 NoGarden = 'Nenhum \nJardim'
 
 def isVowelStart(str):
-    retval = False
-    if str and len(str)>0:
-        vowels = ['A',
-         'E',
-         'I',
-         'O',
-         'U']
-        firstLetter = str.upper()[0:1]
-        if firstLetter in vowels:
-            retval = True
-    return retval
+ retval = False
+ if str and len(str) > 0:
+  vowels = [
+'A',
+'E',
+'I',
+'O',
+'U']
+  firstLetter = str.upper()[0:1]
+  if firstLetter in vowels:
+retval = True
+  
+ 
+ return retval
 
 
 def getResultPlantedSomethingSentence(flowerName):
-    if isVowelStart(flowerName):
-        retval = ResultPlantedSomethingAn % flowerName
-    else:
-        retval = ResultPlantedSomething % flowerName
+ if isVowelStart(flowerName):
+  retval = ResultPlantedSomethingAn % flowerName
+ else:
+  retval = ResultPlantedSomething % flowerName
+ return retval
 
-    return retval
-
-
-TravelGameTitle = 'Trilhos do Bondinho'
+TravelGameTitle = 'Trilhos de Bonde'
 TravelGameInstructions = 'Clique para cima ou para baixo para definir seu número de votos.  Clique no botão votar para lançar os votos. Chegue ao seu objetivo secreto para conseguir balinhas extras. Ganhe mais votos quando se der bem nos outros jogos.'
 TravelGameRemainingVotes = 'Votos Restantes:'
 TravelGameUse = 'Usar'
@@ -8818,39 +9448,44 @@ TravelGameVoteToGo = 'voto restante'
 TravelGameUp = 'PARA CIMA.'
 TravelGameDown = 'PARA BAIXO.'
 TravelGameVoteWithExclamation = 'Vote!'
-TravelGameWaitingChoices = 'Aguardando que outros jogadores votem...'
-TravelGameDirections = ['PARA CIMA', 'PARA BAIXO']
+TravelGameWaitingChoices = 'Esperando que outros jogadores votem...'
+TravelGameDirections = [
+ 'PARA CIMA',
+ 'PARA BAIXO']
 TravelGameTotals = 'Totais '
+TravelGameReasonVotes = 'O bonde está indo para %(dir)s, vencendo por %(numVotes)de votos.'
 TravelGameReasonVotesPlural = 'O bonde está indo para %(dir)s, vencendo por %(numVotes)de votos.'
 TravelGameReasonVotesSingular = 'O bonde está indo para %(dir)s, vencendo por %(numVotes)de voto.'
 TravelGameReasonPlace = '%(name)s desempatou. O bonde está indo para %(dir)s.'
 TravelGameReasonRandom = 'O bonde está indo aleatoriamente para %(dir)s.'
-TravelGameOneToonVote ='%(name)s usou %(numVotes)s votos para ir para %(dir)s\n'
+TravelGameOneToonVote = '%(name)s usou %(numVotes)s votos para ir para %(dir)s\n'
 TravelGameBonusBeans = '%(numBeans)de Balinhas'
 TravelGamePlaying = 'A seguir, o jogo do bonde de %(game)s.'
 TravelGameGotBonus = '%(name)s ganhou um bônus de %(numBeans)s balinhas!'
 TravelGameNoOneGotBonus = 'Ninguém chegou ao seu objetivo secreto.  Todos ganham 1 balinha.'
 TravelGameConvertingVotesToBeans = 'Convertendo alguns votos em balinhas...'
-TravelGameGoingBackToShop ='Só resta 1 jogador. Indo para a Loja de Piadas do Pateta.'
+TravelGameGoingBackToShop = 'Só resta 1 jogador. Indo para a Loja de Piadas do Pateta.'
 PairingGameTitle = 'Jogo de Memória Toon'
-PairingGameInstructions = 'Pressiona Delete para virar uma carta. Combine 2 cartas iguais para marcar um ponto. Combine cartas com o brilho de bônus e ganhe um ponto extra. Ganhe mais pontos virando poucas vezes.'
-PairingGameInstructionsMulti = 'Pressiona Delete para virar uma carta. Pressiona Ctrl para fazer o sinal para outro jogador virar uma carta. Combine 2 cartas iguais para marcar um ponto. Combine cartas com o brilho de bônus e ganhe um ponto extra. Ganhe mais pontos virando poucas vezes.'
+PairingGameInstructions = 'Aperte Delete para virar uma carta. Combine 2 cartas iguais para marcar um ponto. Combine cartas com o brilho de bônus e ganhe um ponto extra. Ganhe mais pontos virando poucas vezes.'
+PairingGameInstructionsMulti = 'Aperte Delete para virar uma carta. Aperte Ctrl para fazer o sinal para outro jogador virar uma carta. Combine 2 cartas iguais para marcar um ponto. Combine cartas com o brilho de bônus e ganhe um ponto extra. Ganhe mais pontos virando poucas vezes.'
 PairingGamePerfect = 'PERFEITO!!'
 PairingGameFlips = 'Viradas:'
 PairingGamePoints = 'Pontos:'
-TrolleyHolidayStart = 'Vamos começar com os Trilhos do Bondinho!  Para jogar, embarque em qualquer bondinho com 2 ou mais Toons.'
-TrolleyHolidayOngoing = 'Bem Vindo! Trilhos do Bondinho está atualmente em andamento'
-TrolleyHolidayEnd = 'Isso é tudo nos Trilhos do Bondinho por hoje.  Até a próxima semana!'
-TrolleyWeekendStart = 'O Fim de Semana dos Trilhos do Bondinho vai começar!  Para jogar, embarque em qualquer bondinho com 2 ou mais Toons.'
-TrolleyWeekendEnd = 'Terminamos com o Fim de Semana dos Trilhos do Bondinho.'
+TrolleyHolidayStart = 'Vamos começar com os Trilhos de Bonde!  Para jogar, embarque em qualquer bonde com 2 ou mais Toons.'
+TrolleyHolidayOngoing = ''
+TrolleyHolidayEnd = 'Isso é tudo nos Trilhos de Bonde por hoje.  Até a próxima semana!'
+TrolleyWeekendStart = 'O Fim de Semana dos Trilhos de Bonde vai começar!  Para jogar, embarque em qualquer bonde com 2 ou mais Toons.'
+TrolleyWeekendEnd = 'Terminamos com o Fim de Semana dos Trilhos de Bonde.'
 VineGameTitle = 'Cipós da Selva'
-VineGameInstructions = 'Chegue ao cipó mais à direita a tempo. Pressiona para Cima ou para Baixo para escalar o cipó.  Pressiona para Esquerda ou Direita para mudar de direção e pular.  Quanto mais baixo você estiver no cipó, mais rápido poderá saltar dele. Colete as bananas se puder, mas evite os morcegos e aranhas.'
-ValentinesDayStart = 'Feliz Dia dos Toons dos Namorados!'
-ValentinesDayEnd = 'Isso é tudo para o Dia dos Toons dos Namorados!'
-GolfCourseNames = {0: 'Tacada e Caminhada',
+VineGameInstructions = 'Chegue ao cipó mais à direita a tempo. Aperte para Cima ou para Baixo para escalar o cipó.  Aperte para Esquerda ou Direita para mudar de direção e pular.  Quanto mais baixo você estiver no cipó, mais rápido poderá saltar dele. Colete as bananas se puder, mas evite os morcegos e aranhas.'
+ValentinesDayStart = 'Feliz Dia dos namorados!'
+ValentinesDayEnd = ' Aquele é todo para Dia dos namorados!'
+GolfCourseNames = {
+ 0: 'Tacada e Caminhada',
  1: 'Tacadas Divertidas',
- 2: 'Todas as Tacadas'}
-GolfHoleNames = {0: 'Vitória-em-Uma',
+ 2: 'Todas as Tacadas' }
+GolfHoleNames = {
+ 0: 'Vitória-em-Uma',
  1: 'Sem Dúvida até o Buraco',
  2: 'Só na Descida',
  3: 'Só Vejo Verde',
@@ -8885,7 +9520,7 @@ GolfHoleNames = {0: 'Vitória-em-Uma',
  32: 'Correndo para o Buraco-2',
  33: 'Hora da Tacada-2',
  34: 'Buraco ao Alcance-2',
- 35: 'Mais um Vento e Chega-2'}
+ 35: 'Mais um Vento e Chega-2' }
 GolfHoleInOne = 'Buraco-em-Uma'
 GolfCondor = 'Condor'
 GolfAlbatross = 'Albatroz'
@@ -8895,14 +9530,15 @@ GolfPar = 'Par'
 GolfBogey = 'Bogey'
 GolfDoubleBogey = 'Bogey Duplo'
 GolfTripleBogey = 'Bogey Triplo'
-GolfShotDesc = {-4: GolfCondor,
+GolfShotDesc = {
+ -4: GolfCondor,
  -3: GolfAlbatross,
  -2: GolfEagle,
  -1: GolfBirdie,
-  0: GolfPar,
-  1: GolfBogey,
-  2: GolfDoubleBogey,
-  3: GolfTripleBogey}
+ 0: GolfPar,
+ 1: GolfBogey,
+ 2: GolfDoubleBogey,
+ 3: GolfTripleBogey }
 from toontown.golf import GolfGlobals
 CoursesCompleted = 'Percursos Concluídos'
 CoursesUnderPar = 'Percursos Abaixo do Par'
@@ -8917,7 +9553,8 @@ FourPlayerWins = 'Jogadas com Quatro Jogadores'
 CourseZeroWins = GolfCourseNames[0] + ' Vitórias'
 CourseOneWins = GolfCourseNames[1] + ' Vitórias'
 CourseTwoWins = GolfCourseNames[2] + ' Vitórias'
-GolfHistoryDescriptions = [CoursesCompleted,
+GolfHistoryDescriptions = [
+ CoursesCompleted,
  CoursesUnderPar,
  HoleInOneShots,
  EagleOrBetterShots,
@@ -8927,7 +9564,8 @@ GolfHistoryDescriptions = [CoursesCompleted,
  CourseZeroWins,
  CourseOneWins,
  CourseTwoWins]
-GolfTrophyDescriptions = [str(GolfGlobals.TrophyRequirements[GolfGlobals.CoursesCompleted][0]) + ' ' + CoursesCompleted,
+GolfTrophyDescriptions = [
+ str(GolfGlobals.TrophyRequirements[GolfGlobals.CoursesCompleted][0]) + ' ' + CoursesCompleted,
  str(GolfGlobals.TrophyRequirements[GolfGlobals.CoursesCompleted][1]) + ' ' + CoursesCompleted,
  str(GolfGlobals.TrophyRequirements[GolfGlobals.CoursesCompleted][2]) + ' ' + CoursesCompleted,
  str(GolfGlobals.TrophyRequirements[GolfGlobals.CoursesUnderPar][0]) + ' ' + CoursesUnderPar,
@@ -8957,7 +9595,8 @@ GolfTrophyDescriptions = [str(GolfGlobals.TrophyRequirements[GolfGlobals.Courses
  str(GolfGlobals.TrophyRequirements[GolfGlobals.CourseTwoWins][0]) + ' ' + CourseTwoWins,
  str(GolfGlobals.TrophyRequirements[GolfGlobals.CourseTwoWins][1]) + ' ' + CourseTwoWins,
  str(GolfGlobals.TrophyRequirements[GolfGlobals.CourseTwoWins][2]) + ' ' + CourseTwoWins]
-GolfCupDescriptions = [str(GolfGlobals.TrophiesPerCup) + ' Troféus ganhos',
+GolfCupDescriptions = [
+ str(GolfGlobals.TrophiesPerCup) + ' Troféus ganhos',
  str(GolfGlobals.TrophiesPerCup * 2) + ' Troféus ganhos',
  str(GolfGlobals.TrophiesPerCup * 3) + ' Troféus ganhos']
 GolfAvReceivesHoleBest = '%(name)s marcou um novo recorde de tacadas em %(hole)s!'
@@ -8966,9 +9605,9 @@ GolfAvReceivesCup = '%(name)s ganhou a taça %(cup)s!!  Bônus em pontos de risa
 GolfAvReceivesTrophy = '%(name)s ganhou o troféu %(award)s!!'
 GolfRanking = 'Posição: \n'
 GolfPowerBarText = '%(power)s%%'
-GolfChooseTeeInstructions = 'Pressiona para Esquerda ou Direita para mudar a posição do taco.\nPressiona Ctrl para selecionar.'
+GolfChooseTeeInstructions = 'Aperte para Esquerda ou Direita para mudar a posição do taco.\nAperte Ctrl para selecionar.'
 GolfWarningMustSwing = 'Atenção: você precisa apertar Ctrl na sua próxima tacada.'
-GolfAimInstructions = 'Pressiona para a Esquerda ou Direita para mirar.\nPressiona e segure Ctrl para balançar o taco.'
+GolfAimInstructions = 'Aperte para a Esquerda ou Direita para mirar.\nAperte e segure Ctrl para balançar o taco.'
 GolferExited = '%s saiu do percurso de golfe.'
 GolfPowerReminder = 'Segure Ctrl por Mais Tempo para\nMandar a Bola Mais Longe'
 GolfPar = 'Par'
@@ -8985,8 +9624,8 @@ GolfPageRecordsTab = 'Recordes'
 GolfPageTrophyTab = 'Troféu'
 GolfPageTickets = 'Bilhetes: '
 GolfPageConfirmDelete = 'Apagar Acessório?'
-GolfTrophyTextDisplay = 'Troféu %(number)s: %(desc)s'
-GolfCupTextDisplay = 'Taça %(number)s: %(desc)s'
+GolfTrophyTextDisplay = 'Troféu %(number)s : %(desc)s'
+GolfCupTextDisplay = 'Taça %(number)s : %(desc)s'
 GolfCurrentHistory = '%(historyDesc)s Atual: %(num)s'
 GolfTieBreakWinner = '%(name)s venceu o desempate aleatório!'
 GolfSeconds = ' -  %(time).2f segundos'
@@ -8995,37 +9634,31 @@ RoamingTrialerWeekendStart = 'Está começando a Tour por Toontown! Jogadores po
 RoamingTrialerWeekendOngoing = 'Boas-vindas ao Tour por Toontown! Jogadores podem entrar gratuitamente em qualquer vizinhança!'
 RoamingTrialerWeekendEnd = 'Terminamos com o Tour por Toontown.'
 MoreXpHolidayStart = 'Boas novas! Começou o período de Teste Toon, com o dobro de experiência em piadas.'
-MoreXpHolidayOngoing = 'Oi! Estamos no período de Teste Toon, com o dobro de experiência em piadas.'
+MoreXpHolidayOngoing = 'Olá! Estamos no período de Teste Toon, com o dobro de experiência em piadas.'
 MoreXpHolidayEnd = 'Terminou o período exclusivo de Teste Toon, com o dobro de experiência em piadas. Obrigado por nos ajudar a Testar!'
 JellybeanDayHolidayStart = 'É Dia das Balinhas! Ganhe prêmios de Balinhas em dobro nas Festas!'
 JellybeanDayHolidayEnd = 'Acabou o Dia das Balinhas. Vejo você no ano que vem.'
 PartyRewardDoubledJellybean = 'Balinhas em Dobro!'
 GrandPrixWeekendHolidayStart = 'É o Fim de Semana do Grande Prêmio no Autódromo do Pateta! Quem jogar gratuitamente ou pagando pode obter a maioria dos pontos em três corridas consecutivas.'
 GrandPrixWeekendHolidayEnd = 'O Fim de Semana do Grande Prêmio acabou. Vejo você no ano que vem.'
-KartRace_DoubleTickets = 'Bilhetes em Dobro'
-SellbotNerfHolidayStart = 'Operação: Tempestade de Robôs Vendedores está acontecendo agora! Batalha o VP hoje!'
-SellbotNerfHolidayEnd = 'Operação: Tempestade de Robôs Vendedores tinha acabado. Bom trabalho, Toons!'
-JellybeanTrolleyHolidayStart = 'Dia das Balinhas em Dobro para o Bodinho dos Jogos começem!'
-JellybeanTrolleyHolidayEnd = 'Dia das Balinhas em Dobro para o Bodinho dos Jogos terminou!'
-JellybeanFishingHolidayStart = 'Dia das Balinhas em Dobro para Pescaria começem!'
-JellybeanFishingHolidayEnd = 'Dia das Balinhas em Dobro para Pescaria terminou!'
-JellybeanPartiesHolidayStart = 'É a Semana de Balinhas! Ganhe recompensas de Balinhas em Dobro!'
-JellybeanPartiesHolidayEnd = 'A Semana de Balinhas terminou. Até o ano que vem!'
-JellybeanMonthHolidayStart = 'Comemorar Toontown com balinhas em dobro, itens no Catálogo e supresas bobas!'
-BankUpgradeHolidayStart = 'Algo incrível aconteceu com seu Banco de Balinha!'
+SellbotNerfHolidayStart = 'A Operação: Robô Vendedor Tempestade está acontecendo agora! Batalhe contra o VP hoje!'
+SellbotNerfHolidayEnd = 'A Operação: Robô Vendedor Tempestade terminou. Ótimo trabalho, Toons!'
+JellybeanTrolleyHolidayStart = 'Os Dias de Balinha em Dobro para Jogos de Bonde começaram!'
+JellybeanTrolleyHolidayEnd = 'Os Dias de Balinha em Dobro para Jogos de Bonde terminaram!'
+JellybeanFishingHolidayStart = 'Os Dias de Balinha em Dobro para Pescaria começaram!'
+JellybeanFishingHolidayEnd = 'Os Dias de Balinha em Dobro para Pescaria terminaram!'
+JellybeanPartiesHolidayStart = 'Os Dias de Balinha em Dobro para Jogos de Grupo começaram!'
+JellybeanPartiesHolidayEnd = 'Os Dias de Balinha em Dobro para Jogos de Grupo terminaram!'
+BankUpgradeHolidayStart = 'Aconteceu Algo Toontástico com seu Banco de Balinha!'
 HalloweenPropsHolidayStart = 'É Halloween em Toontown!'
-HalloweenPropsHolidayEnd = 'Halloween terminou. Boo!'
-SpookyPropsHolidayStart = 'O Medidor de Bobagem gira Toontown em modo de assustador!'
-BlackCatHolidayStart = 'Cria um Gato Preto - só Hoje!'
+HalloweenPropsHolidayEnd = 'O Halloween terminou. Bu!'
+BlackCatHolidayStart = 'Crie um Gato Preto - Só Hoje!'
 BlackCatHolidayEnd = 'O Dia do Gato Preto terminou!'
-TopToonsMarathonStart = 'A Maratona de Ano Novo dos Tops Toons começem!'
-TopToonsMarathonEnd = 'A Maratona de Ano Novo dos Tops Toons terminou.'
-WinterDecorationsStart = 'É o tempo de férias de inverno em Toontown!'
-WinterDecorationsEnd = 'As férias de inverno acabaram - Feliz Ano Novo!'
-WackyWinterDecorationsStart = 'Brrr! O Medidor de bobagem vai de bobeira para frio!'
-WinterCarolingStart = 'A Cantoria chegou para Toontown. Cante para sua Cabeça de Boneco de Neve - veja a Novidade para mais detalhes!'
-ExpandedClosetsStart = 'Atenção Toons: Para um limite de tempo, Membros podem comprar o novo item de 50 Armários do Catálogo para um preço baixo de 50 balinhas!'
-KartingTicketsHolidayStart = 'Pega bilhetes em dobro de Praticar corridas no Autodrómo do Pateta hoje!'
+TopToonsMarathonStart = 'A Maratona de Ano-Novo dos Toons começou!'
+TopToonsMarathonEnd = 'A Maratona de Ano-Novo dos Toons terminou!'
+WinterDecorationsStart = 'É hora da Festa de Natal em Toontown!'
+WinterDecorationsEnd = 'A Festa de Natal acabou - Feliz Ano-Novo!'
+WinterCarolingStart = 'As Canções de Natal começaram em Toontown. Cante para a sua Cabeça de Boneco de Neve!\xe2\x80\x9d.'
 LogoutForced = 'Você fez algo errado\n e estamos fazendo seu logout automaticamente,\n sua conta também pode estar congelada.\n Experimente dar uma volta lá fora, é divertido.'
 CountryClubToonEnterElevator = '%s \nentrou no carrinho de golfe.'
 CountryClubBossConfrontedMsg = '%s está lutando com o Presidente do Clube!'
@@ -9033,6 +9666,7 @@ ElevatorBlockedRoom = 'Todos os desafios devem ser vencidos antes disso.'
 MolesLeft = 'Toupeiras Restantes: %d'
 MolesInstruction = 'Pisão nas Toupeiras!\nPule nas toupeiras vermelhas!'
 MolesFinished = 'Pisão nas Toupeiras vencido!'
+MolesPityWin = 'Erro ao Pisotear! Mas as toupeiras saíram.'
 MolesRestarted = 'Perdeu no Pisão! Recomeçando...'
 BustACogInstruction = 'Remova a bola Cog!'
 BustACogExit = 'Sair por Enquanto'
@@ -9046,7 +9680,8 @@ GolfGreenGameGotHelp = '%s resolveu um Quebra-Cabeça!'
 GolfGreenGameDirections = 'Dê tacadas nas bolas usando o mouse\n\n\nCombinar três bolas de uma mesma cor as faz cair\n\n\nRemova todas as bolas Cog da tela'
 enterHedgeMaze = 'Corra pela Sebe-Labirinto\n para ganhar bônus de risadas!'
 toonFinishedHedgeMaze = '%s \n  terminou em %s lugar!'
-hedgeMazePlaces = ['primeiro',
+hedgeMazePlaces = [
+ 'primeiro',
  'segundo',
  'terceiro',
  'quarto']
@@ -9128,13 +9763,15 @@ BossbotGolfSpotLeaving = 'Deixando Bola de Golfe'
 BossbotGolfSpotAdvice = 'Use as teclas para esquerda e direita se quiser girar.\nCtrl dispara.'
 BossbotRewardSpeech1 = 'Não! O Presidente do Conselho não vai gostar disso.'
 BossbotRewardSpeech2 = 'Arrrggghhh!!!!'
-BossbotRTCongratulations = 'Você conseguiu!  Você rebaixou o Presidente!\x7Pegue estes bilhetes azuis que o Presidente deixou para trás.\x7Com eles, você vai poder disparar contra Cogs em batalha.'''
+BossbotRTCongratulations = 'Você conseguiu!  Você rebaixou o Presidente!\x7Pegue estes bilhetes azuis que o Presidente deixou para trás.\x7Com eles, você vai poder disparar contra Cogs em batalha.'
 BossbotRTLastPromotion = '\x7Uau, você chegou ao nível %s com sua Roupa de Cog!\x7Os Cogs não conseguem promoções maiores do que essa.\x7Você não pode mais atualizar sua Roupa de Cog, mas, certamente, poderá continuar trabalhando para a Resistência!'
 BossbotRTHPBoost = '\x7Você trabalhou bastante para a Resistência.\x7O Conselho Toon decidiu lhe dar mais um ponto de Risada. Parabéns!'
 BossbotRTMaxed = '\x7Vejo que você tem uma Roupa de Cog de nível %s. Impressionante!\x7Em nome do Conselho Toon, agradeço por voltar para defender mais Toons!'
 GolfAreaAttackTaunt = 'Bola!'
-OvertimeAttackTaunts = ['É hora de reorganizar.', 'Temos gente para demitir.']
-ElevatorBossBotBoss = 'Batalha do Presidente.'
+OvertimeAttackTaunts = [
+ 'É hora de reorganizar.',
+ 'Temos gente para demitir.']
+ElevatorBossBotBoss = 'Batalha do C.E.O.'
 ElevatorBossBotCourse = 'Campo de Golfe Cog'
 ElevatorBossBotCourse0 = 'O Front Three (Três da Frente)'
 ElevatorBossBotCourse1 = 'O Middle Six (Seis do Meio)'
@@ -9143,7 +9780,7 @@ ElevatorCashBotBoss = 'Batalha do C.F.O'
 ElevatorCashBotMint0 = 'Coin Mint (a Mina de Moedas)'
 ElevatorCashBotMint1 = 'Dollar Mint (a Mina de Dinheiro)'
 ElevatorCashBotMint2 = 'Bullion Mint (a Mina de Ouro)'
-ElevatorSellBotBoss = 'Batalha do Sênior V.P.'
+ElevatorSellBotBoss = 'Batalha do Robô Vendedor '
 ElevatorSellBotFactory0 = 'Entrada Principal'
 ElevatorSellBotFactory1 = 'Entrada dos Fundos'
 ElevatorLawBotBoss = 'Batalha do Juiz-Chefe'
@@ -9153,12 +9790,12 @@ ElevatorLawBotCourse2 = 'Escritório C'
 ElevatorLawBotCourse3 = 'Escritório D'
 DaysToGo = 'Espere\n%s Dias'
 IceGameTitle = 'Escorregador de Gelo'
-IceGameInstructions = 'Chegue o mais perto do centro ao final da segunda rodada. Use as teclas de seta para mudar a direção e a força. Pressiona Ctrl para lançar seu Toon. Acerte os barris para ganhar mais pontos, e evite a dinamite!'
-IceGameInstructionsNoTnt = 'Chegue o mais perto do centro ao final da segunda rodada. Use as teclas de seta para mudar a direção e a força. Pressiona Ctrl para lançar seu Toon. Acerte os barris para ganhar mais pontos.'
-IceGameWaitingForPlayersToFinishMove = 'Aguardando outros jogadores...'
-IceGameWaitingForAISync = 'Aguardando outros jogadores...'
-IceGameInfo= 'Partida %(curMatch)d/%(numMatch)d, Rodada %(curRound)d/%(numRound)d'
-IceGameControlKeyWarning='Lembre-se de apertar a tecla Ctrl!'
+IceGameInstructions = 'Chegue o mais perto do centro ao final da segunda rodada. Use as teclas de seta para mudar a direção e a força. Aperte Ctrl para lançar seu Toon. Acerte os barris para ganhar mais pontos, e evite a dinamite!'
+IceGameInstructionsNoTnt = 'Chegue o mais perto do centro ao final da segunda rodada. Use as teclas de seta para mudar a direção e a força. Aperte Ctrl para lançar seu Toon. Acerte os barris para ganhar mais pontos.'
+IceGameWaitingForPlayersToFinishMove = 'Esperando outros jogadores...'
+IceGameWaitingForAISync = 'Esperando outros jogadores...'
+IceGameInfo = 'Partida %(curMatch)d/%(numMatch)d, Rodada %(curRound)d/%(numRound)d'
+IceGameControlKeyWarning = 'Lembre-se de apertar a tecla Ctrl!'
 PicnicTableJoinButton = 'Entrar'
 PicnicTableObserveButton = 'Observar'
 PicnicTableCancelButton = 'Cancelar'
@@ -9195,7 +9832,7 @@ ChinesePage1 = 'O objetivo do Xadrez Chinês é ser o primeiro jogador a mover t
 ChinesePage2 = 'Os jogadores se alternam movendo qualquer pedra de sua própria cor.  Uma pedra pode se mover para um buraco ao lado, ou pode saltar por outras pedras. Os saltos devem passar por um mármore e cair em um buraco livre. É possível combinar saltos para andar mais longe!'
 CheckersPage1 = 'O objetivo das Damas é deixar o oponente sem poder fazer jogadas. Para isso, você pode capturar todas as suas peças, ou bloqueá-las para que não ele não possa movê-las.'
 CheckersPage2 = 'Os jogadores se alternam movendo qualquer pedra de sua própria cor. Uma peça pode se mover para um quadrado diagonal à frente. Uma peça só pode se mover para um quadrado que não esteja ocupado por outra peça. As damas seguem as mesmas regras, mas podem se mover para trás.'
-CheckersPage3 = 'Para capturar uma peça do oponente, você deve saltar sobre ela diagonalmente para o quadrado vazio depois dela. Se você puder fazer alguma captura em sua vez, terá de fazê-la. Você pode combinar capturas, desde que seja com a mesma peça.' 
+CheckersPage3 = 'Para capturar uma peça do oponente, você deve saltar sobre ela diagonalmente para o quadrado vazio depois dela. Se você puder fazer alguma captura em sua vez, terá de fazê-la. Você pode combinar capturas, desde que seja com a mesma peça.'
 CheckersPage4 = 'Uma peça se torna dama quando chegar à última linha do tabuleiro. Uma peça que acaba de se tornar dama não pode saltar de novo até o próximo turno. Além disso, damas podem se mover para todas as direções e podem mudar de direção ao saltar.'
 CheckersGetUpButton = 'Levantar-se'
 CheckersStartButton = 'Iniciar Jogo'
@@ -9214,56 +9851,47 @@ MailNotifyNewItems = 'Chegou correio para você!'
 MailNewMailButton = 'Correio'
 MailSimpleMail = 'Bilhete'
 MailFromTag = 'Bilhete de: %s'
-AwardNotifyNewItems = 'Você tem um novo prêmio em sua caixa-de-correiro!'
-AwardNotifyOldItems = 'Há ainda prêmios aguardando na sua caixa-de-correiro para você escolher!'
+AwardNotifyNewItems = 'Você tem um novo prêmio na sua caixa de correio!'
+AwardNotifyOldItems = 'Você ainda tem prêmios na sua caixa de correio para ser recolhidos!'
 InviteInvitation = 'o convite'
 InviteAcceptInvalidError = 'O convite não é mais válido.'
 InviteAcceptPartyInvalid = 'Sua festa foi cancelada.'
 InviteAcceptAllOk = 'O anfitrião recebeu sua resposta.'
 InviteRejectAllOk = 'O anfitrião recebeu sua recusa do convite.'
-Months = {1: 'JANEIRO',
+Months = {
+ 1: 'JANEIRO',
  2: 'FEVEREIRO',
- 3: 'MARÇO',
+ 3: 'MAR\xc3\x87O',
  4: 'ABRIL',
  5: 'MAIO',
  6: 'JUNHO',
  7: 'JULHO',
  8: 'AGOSTO',
  9: 'SETEMBRO',
-10: 'OUTUBRO',
-11: 'NOVEMBRO',
-12: 'DEZEMBRO'}
-DayNames = ('Segunda-feira', 
- 'Terça-feira',
- 'Quarta-feira',
- 'Quinta-feira',
- 'Sexta-feira',
- 'Sábado', 
- 'Domingo')
-DayNamesAbbrev = ('SEG',
- 'TER',
- 'QUA',
- 'QUI',
- 'SEX',
- 'SÁB',
- 'DOM')
-HolidayNamesInCalendar = {1: ('Fogos de Artifício de Verão', 'Comemore o Verão com um espetáculo de fogos de artifício a cada hora em cada pátio!'),
+ 10: 'OUTUBRO',
+ 11: 'NOVEMBRO',
+ 12: 'DEZEMBRO' }
+DayNames = ('Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado', 'Domingo')
+DayNamesAbbrev = ('SEG', 'TER', 'QUA', 'QUI', 'SEX', 'SÁB', 'DOM')
+HolidayNamesInCalendar = {
+ 1: ('Fogos de Artifício de Verão', 'Comemore o Verão com um espetáculo de fogos de artifício a cada hora em cada pátio!'),
  2: ('Fogos de Artifício de Ano Novo', 'Feliz Ano Novo! Curta um espetáculo de fogos de artifício a cada hora em cada pátio!'),
  3: ('Invasão Sanguessuga', 'Feliz Halloween! Impeça que os Cogs Sanguessugas invadam Toontown!'),
  4: ('Decoração de Feriados de Inverno', 'Comemore os Feriados de Inverno com árvores e postes de iluminação Toontásticos!'),
- 5: ('Invasão Esqueletocogs', 'Impeça que os Esqueletocogs invadam Toontown!'),
+ 5: ('Invasão Skelecog', 'Impeça que os Skelecogs invadam Toontown!'),
  6: ('Invasão Dr. Celebridade ', 'Impeça que os Cogs  do Dr. Celebridade invadam Toontown!'),
  7: ('Bingo de Peixe', 'Quarta-feira do Bingo de Peixe! Todos no lago trabalhando juntos para completar a cartela antes de o tempo esgotar.'),
  8: ('Eleição de Espécie de Toon', 'Vote na nova espécie de Toon! Será uma Cabra? Será um Porco?'),
- 9: ('Dia do Gato Preto', 'Feliz Halloween! Crie um Toon Gato Preto Toontástico – Só Hoje!'),
- 13: ('Doces ou Travessuras', 'Feliz Halloween! Vá atrás das doces por toda Toontown para ganhar uma linda cabeça de abóbora de prêmio!'),
+ 9: ('Dia do Gato Preto', 'Feliz Halloween! Crie um Toon Gato Preto Toontástico \xe2\x80\x93 Só Hoje!'),
+ 13: ('Doces ou Travessuras', 'Feliz Halloween! Vá atrás das guloseimas por toda Toontown para ganhar uma linda cabeça de abóbora de prêmio!'),
  14: ('Grande Prêmio', 'Segunda-feira do Grande Prêmio no autódromo do Pateta! Para vencer, conquiste o maior número de pontos em três corridas consecutivas!'),
  16: ('Fim de Semana do Grande Prêmio', 'Quem jogar gratuitamente ou pagando compete nas corridas do Autódromo do Pateta!'),
  17: ('Trilhas do Bondinho', 'Quinta-feira das Trilhas do Bondinho! Embarque em qualquer Bondinho para jogar com dois ou mais Toons.'),
  19: ('Sábados Engraçados', 'Os sábados são engraçados com o Bingo de Peixe, Grande Prêmio e  Trilhas do Bondinho o dia todo!'),
  24: ('Idos de Março', 'Cuidado com os Idos de Março! Impeça que os Cogs Golpe Sujo invadam Toontown!'),
  26: ('Decoração de Halloween', 'Comemore o Halloween deixando as árvores e  postes de iluminação de Toontown assustadores!'),
- 28: ('Invasão de Inverno', 'Os robôs vendedores estão à solta espalhando suas táticas de vendas frias!'),
+ 28: ('Invasão de Inverno', 'Os Robô Vendedor estão à solta espalhando suas táticas de vendas frias!'),
+ 29: ('Semana Abril Toons', ' Comemore o Semana Abril Toons - um feriado construido por Toons para Toons!'),
  33: ('Surpresa de Robô Vendedor 1', 'Surpresa de Robô Vendedor! Impeça que os Cogs Reis da Incerta invadam Toontown!'),
  34: ('Surpresa de Robô Vendedor 2', 'Surpresa de Robô Vendedor! Impeça que os Cogs Sabe-com-quem-está-falando invadam Toontown!'),
  35: ('Surpresa de Robô Vendedor 3', 'Surpresa de Robô Vendedor! Impeça que os Cogs Amigos da Onça invadam Toontown!'),
@@ -9285,100 +9913,103 @@ HolidayNamesInCalendar = {1: ('Fogos de Artifício de Verão', 'Comemore o Verã
  54: ('Invasão Conta-moedinha', 'Impeça que os Cogs  Conta-moedinhas invadam Toontown!'),
  55: ('Invasão Duplo Sentido', 'Impeça que os Cogs  Duplo Sentido invadam Toontown!'),
  56: ('Invasão de Facão', 'Impeça que os Cogs Facões invadam Toontown!'),
- 57: ('Toon Cantando', "Celebra Feriado Congelante por cantando em volta Toontown para uma recompesa 'gelada' !"),
- 59: ('Dia dos Toons dos namorados', 'Dia dos Toons dos namorados de Junho 05 a Junho 14!'),
- 72: ('Invasão de Vaquinha de Presépio', 'Impeça que os Cogs Vaquinha de Presépios invadam Toontown!'),
- 73: ('Invasão de Pão-duro', 'Impeça que os Cogs Pães-duros invadam Toontown!'),
- 74: ('Invasão de Operador de Telemarketing', 'Impeça que os Cogs Operadores de Telemarketing invadam Toontown!'),
- 75: ('Invasão de Caça Talentos', 'Impeça que os Cogs Caça Talentos invadam Toontown!'),
+ 57: ('Toon Caroling', 'Celebrate Winter Holiday by caroling around Toontown for a "cool" reward!'),
+ 59: ('Dia dos namorados ', ' Dia dos namorados de Junho 05 a Junho 14!'),
+ 72: ('Invasão de Sim', 'Impeça que os Cogs Sim invadam Toontown!'),
+ 73: ('Invasão de Mesquinhos', 'Impeça que os Cogs Mesquinhos invadam Toontown!'),
+ 74: ('Invasão de Telemarqueteiros', 'Impeça que os Cogs Telemarqueteiros invadam Toontown!'),
+ 75: ('Invasão de Caçadores de Talentos', 'Impeça que os Cogs Caçadores de Talentos invadam Toontown!'),
  76: ('Invasão de Relações Públicas', 'Impeça que os Cogs Relações Públicas invadam Toontown!'),
  77: ('Invasão de Sacos de Dinheiro', 'Impeça que os Cogs Sacos de Dinheiro invadam Toontown!'),
  78: ('Invasão de Duas Caras', 'Impeça que os Cogs Duas Caras invadam Toontown!'),
- 79: ('Invasão de Amizade Fácil', 'Impeça que os Cogs Amizades Fáceis invadam Toontown!'),
+ 79: ('Invasão de Sociáveis', 'Impeça que os Cogs Sociáveis invadam Toontown!'),
  80: ('Invasão de Agiotas', 'Impeça que os Cogs Agiotas invadam Toontown!'),
- 81: ('Invasão de Aventureio Corporativo', 'Impeça que os Cogs Aventureios Corporativos invadam Toontown!'),
- 82: ('Invasão de Barão Ladrão', 'Impeça que os Cogs Barões Ladrões invadam Toontown!'),
- 83: ('Invasão de Macacos Velhos', 'Impeça que os Cogs Macacos Velhos invadam Toontown!'),
- 84: ('Invasão de Figurão', 'Impeça que os Cogs Figurões invadam Toontown!'),
- 85: ('Invasão de O Rei da Cocada Preta', 'Impeça que os Cogs Os Reis da Cocada Preta invadam Toontown!'),
- 86: ('Invasão de Facão', 'Impeça que os Cogs Facões invadam Toontown!'),
- 87: ('Invasão de Agitador', 'Impeça que os Cogs Agitadores invadam Toontown!'),
- 88: ('Invasão de Duplo Sentido', 'Impeça que os Cogs Duplos Sentidos invadam Toontown!'),
- 89: ('Invasão de Mão de vaca', 'Impeça que os Cogs Mãos de vaca invadam Toontown!'),
- 90: ('Invasão de Dr.Sabe-com-quem-está-falando', 'Impeça que os Cogs Drs.Sabe-com-quem-está-falando invadam Toontown!'),
+ 81: ('Invasão de Especuladores', 'Impeça que os Cogs Especuladores invadam Toontown!'),
+ 82: ('Invasão de Industriais', 'Impeça que os Cogs Industriais invadam Toontown!'),
+ 83: ('Invasão de Juristas', 'Impeça que os Cogs Juristas invadam Toontown!'),
+ 84: ('Invasão de Perucões', 'Impeça que os Cogs Perucões invadam Toontown!'),
+ 85: ('Invasão de Queijões', 'Impeça que os Cogs Queijões invadam Toontown!'),
+ 86: ('Invasão de Diminuidores', 'Impeça que os Cogs Diminuidores invadam Toontown!'),
+ 87: ('Invasão de Agitadores', 'Impeça que os Cogs Agitadores invadam Toontown!'),
+ 88: ('Invasão de Incoerentes', 'Impeça que os Cogs Incoerentes invadam Toontown!'),
+ 89: ('Invasão de Sovinas', 'Impeça que os Cogs Sovinas invadam Toontown!'),
+ 90: ('Invasão de Fanfarrões', 'Impeça que os Cogs Fanfarrões invadam Toontown!'),
  91: ('Invasão de Perseguidores de Ambulância', 'Impeça que os Cogs Perseguidores de Ambulância invadam Toontown!'),
- 92: ('Invasão de Microempresário', 'Impeça que os Cogs Microempresários invadam Toontown!'),
- 93: ('Invasão de Destruidores de Números', 'Impeça que os Cogs Destruidores de Números invadam Toontown!'),
+ 92: ('Invasão de Microgerentes', 'Impeça que os Cogs Microgerentes invadam Toontown!'),
+ 93: ('Invasão de Contadores', 'Impeça que os Cogs Contadores invadam Toontown!'),
  95: ('Festas da vitória', 'Comemore nosso triunfo histórico contra os Cogs!'),
- 96: ('Operação: Tempesade do Robô Vendedor', lSellbotHQ + 'está aberto para todos. Vamos lutar com o VP!'),
- 97: ('Dia das Balinhas em Dobro - Bondinho dos Jogos', ''),
- 98: ('Dia das Balinhas em Dobro - Pescaria', ''),
- 99: ('Semana das Balinhas', 'Comemore a semana das balinhas com balinhas em dobro como recompensas!'),
- 101: ('Dia da Maratona de Ano-Novo dos Top Toons', 'Chances para vencer a toda hora! Veja o que é de Novo no Blog para mais detalhes!'),
- 105: ('Idos de Março', 'Os Idos de Março estão aqui!')}
+ 96: ('Operação: Tormenta Sellbot', 'Sellbot HQ está aberto para todos. Vamos lutar com o Presidente!'),
+ 97: ('Dias de Balinha em Dobro - Jogos de Bonde', ''),
+ 98: ('Dias de Balinha em Dobro - Jogos de Bonde', ''),
+ 99: ('Dias de Balinha em Dobro - Jogos de Grupo', ''),
+ 101: ('Maratona de Ano-Novo dos Toons', 'Chances de vencer a toda hora! ') }
 UnknownHoliday = 'Feriado Desconhecido %d'
 HolidayFormat = '%m/%d '
 TimeZone = 'Brazil/West'
-CogdoMemoGuiTitle = 'Memorando:'
-CogdoMemoNames = 'Memorandos de destruição-de-barril'
-CogdoStomperName = 'Pisar-A-Matemática'
-BoardroomGameTitle = 'Sala de Quadro de Caminhas'
-BoardroomGameInstructions = ('Os cogs estão tendo uma reunião para decidir o que fazer com as piadas roubadas. Deslize através e Pousada Ancinho como muitos memorandos de destruição da piada que você pode!')
-CogdoCraneGameTitle = 'Vender-Um-Sinistro'
-CogdoCraneGameInstructions = ('Os COGS estão usando uma operação-moeda da máquina para destruir barris de risadas. Usa os guindastes para pegar e lançar sacos de dinheiros, na ordem para evitar destruções de Barris!')
-CogdoMazeGameTitle = 'Escritórios de Campo do\nAgitador'
-CogdoMazeGameInstructions = 'Os Grandes Agitadores Cogs tem o código para abrir a porta. Detorra eles com seus balões de água na ordem para pegar eles!'
-CogdoMazeIntroMovieDialogue = (('Esse é a Resistência Toon! Os Agitadores\ntem nossas Piadas, e eles tem bloqueado a saída!'), ('Agarra balões de água nos galões, e lança eles nos Cogs!\nPequenos Cogs dropam Piadas, GRANDES COGS abrem a saída.',), ('A mais Piadas você resgasta, o maior seu Toonar\nno fim. Boa sorte!'))
-CogdoMazeGameDoorOpens = 'A SAÍDA ESTÁ ABRERTA PARA 60 SEGUNDOS!\nPEGA LÁ RÁPIDO PARA UM MAIOR TOONAR!'
-CogdoMazeGameLocalToonFoundExit = 'A saída vai abrir quando\nvocê tiver pegado todos quatros GRANDES COGS!'
-CogdoMazeGameWaitingForToons = 'Aguardando para outros Toons...'
-CogdoMazeGameTimeOut = 'Oh não, o tempo se esgostou! Você perdeu suas piadas.'
-CogdoMazeGameTimeAlert = 'Se Apresse! 60 segundos para ir!'
-CogdoMazeGameBossGuiTitle = 'GRANDES COGS:'
-CogdoMazeFindHint = 'Encontra um Galão de Água!'
-CogdoMazeThrowHint = 'Pressiona "Ctrl" para lançar seu balão de água!'
-CogdoMazeSquashHint = 'Objetos caindo pop seu balão!'
-CogdoMazeBossHint = 'Grandes Cogs leva DOIS golpes para derrotar'
-CogdoMazeMinionHint = 'Pequenos Cogs derrubam piadas!'
-CogdoFlyingGameTitle = 'Escritórios do Macaco Velho'
-CogdoFlyingGameInstructions = 'Voe pelo covil dos Macacos Velhos. Cuidado com obstáculos e com os cogs pelo caminho, e não se esqueça de reabastecer seu helicóptero!'
-CogdoFlyingIntroMovieDialogue = (('Vocês não vão babar na nossas penas, Toons! Nós estavamos destruindo seus barris da sua Risada, e vocês não podem nos impedir!', 'Um rebanho de Toons! Nós estamos esmagando seus barris da sua Risadas em nossos %s, e não há nada que vocês possam fazer sobre isso!' % CogdoStomperName, 'Vocês não podem sob nos inicitar, Toons! Nós estamos abastecendo nossos escritórios com suas risadas, e vocês não tem poder para nos impedir!'), ('Esta é a Resistência Toon falando! Um passarinho me disse que você pode usar hélices para voar por aí, pegar Barris de Destruição de Memorados e evitar que Risada seja destruída! Boa sorte, Toons!', 'Atenção Toons! Voe com uma hélice e colete Barris de Destruição de Memorados para evitar que nossa Risada seja pisoteada! Resistência Toon desligando!', 'Resistência Toon aqui de novo! Cause uma aba por procurar hélices, vôo para os Barris de Destruição de Memorados, e mantendo nossa Risada de ser esmagada! Tenha Diversão!'), ('Squawk! Eu sou ganhador do prêmio Roda dentada de Prata, não preciso disso!', 'Faça o seu melhor, Toons! Vocês vão encontrar nos para ser bastante garratão!', 'Nós vamos ensinar vocês para obedecer a ordem de bicando, Toons!'))
-CogdoFlyingGameWaiting = 'Aguardando outros Toons%s'
-CogdoFlyingGameFuelLabel = 'Combustível'
-CogdoFlyingGameLegalEagleTargeting = 'Um Macaco Velho tem percebido vocês!'
-CogdoFlyingGameLegalEagleAttacking = 'Entrada Velha!'
-CogdoFlyingGamePickUpAPropeller = 'Você precisa de uma hélice para voar!'
-CogdoFlyingGamePressCtrlToFly = 'Pressiona "Ctrl" para voar para cima!'
-CogdoFlyingGameYouAreInvincible = 'Burocracia proteta você!'
-CogdoFlyingGameTimeIsRunningOut = 'O Tempo está acabando!'
-CogdoFlyingGameMinimapIntro = 'O medidor exiba seu progresso!\nA marca X é final da linha.'
-CogdoFlyingGameMemoIntro = 'Memorandos evitando em Barris de Risadas\nna sala Sinistra de ser destruída!'
-CogdoFlyingGameOutOfTime = 'Oh Não! Você ficou sem tempo!'
-CogdoFlyingGameYouMadeIt = 'Você chegou na hora certa!'
-CogdoFlyingGameYouMadeIt = 'Bom trabalho, você chegou na hora certa!'
-CogdoFlyingGameTakingMemos = 'Os macacos velhos pegaram todos os seus memorandos!'
-CogdoElevatorRewardLaff = 'Ótimo trabalho, Toons!\nVocês pegaram um Toonar das piadas que vocês salvaram!'
-CogdoExecutiveSuiteTitle = 'Suíte Executiva'
-CogdoExecutiveSuiteIntroMessage = 'Ah não, eles pegaram o lojista!\nDerrote os Cogs e liberte o prisioneiro.'
-CogdoExecutiveSuiteToonThankYou = 'Obrigado pelo resgate!\nSe precisar de ajuda em uma briga, use este cartão SOS para ligar para meu amigo %s.'
-CogdoExecutiveSuiteToonBye = 'Tchau!'
-SillySurgeTerms = {1: 'Ascensão Divertida!',
- 2: 'Onda de Bobagem!',
- 3: 'Aumento Ridículo!',
- 4: 'Crescimento de Risadinha!',
- 5: 'Estímulo Engraçado!',
+CogdoMemoGuiTitle = 'Memos:'
+CogdoMemoNames = 'Barrel-Destruction Memos'
+CogdoStomperName = 'Stomp-O-Matic'
+BoardroomGameTitle = 'Boardroom Hijinks'
+BoardroomGameInstructions = 'The COGS are having a meeting to decide what to do with stolen gags. Slide on through and grab as many gag-destruction memos as you can!'
+CogdoCraneGameTitle = 'Vend-A-Stomper'
+CogdoCraneGameInstructions = 'The COGS are using a coin-operated machine to destroy laff barrels. Use the cranes to pick up and throw money bags, in order to prevent barrel destruction!'
+CogdoGamePickupCount = 'Memos Collected: %i'
+CogdoMazeGameTitle = 'Moving & Shaking Dept.'
+CogdoMazeGameInstructions = 'The big Mover & Shaker Cogs have the code to open the door. Defeat them with your water balloons in order to get it!'
+CogdoMazeIntroMovieDialogue = (("This should give you Toons a shiver! We're powering our offices with your Laff, and you're powerless to stop us!", "This will make you Toons quake! We're destroying barrels of your Laff, and you cannot stop us!", "This may come as an aftershock, but we're crushing barrels of Toon Laff in our %s, and there's nothing you can do about it!" % CogdoStomperName), ("Don't get rattled, Toons! Fill your water balloons, splash the BIG Cogs, and retrieve the PASS CODE that opens the exit! Good luck from the Toon Resistance!", 'Are you ready to rumble, Toons? Go to the water coolers and fill up balloons to throw at Cogs. Hit the BIG Cogs to get the pass code for the exit! Toon Resistance out!', 'Want some good vibrations?  Fill your balloons at the water coolers, splash the BIG Movers & Shakers, complete the PASS CODE, and find the way out! Good luck, Toons!'), ("Hmph!  I'm a Silver Sprocket Award winner, I don't need this!", "You're on shaky ground, Toons!", "Before you know it, you'll all be trembling!"))
+CogdoMazeGameDoorOpens = "The Pass Code opened the Exit!\nGet there before it's too late!"
+CogdoMazeGameLocalToonFoundExit = 'This Exit will open when\nyou get the Pass Code from the Big Cogs!'
+CogdoMazeGameWaitingForToons = 'Waiting for %d other Toons...'
+CogdoMazeGameTimeOut = 'Oh No! Time ran out!\nYou lost your Memos!'
+CogdoMazeGameBossGuiTitle = 'Pass Code:'
+CogdoMazeFindHint = 'Find a Water Cooler!'
+CogdoMazeThrowHint = "Press 'Ctrl' to throw your water balloon!"
+CogdoMazeSquashHint = 'Careful! Falling objects pop your balloon!'
+CogdoMazeBossHint = 'Big Cogs take %i hits to take them down!'
+CogdoMazeMinionHint = 'Minions will drop bonus Memos!'
+CogdoFlyingGameTitle = 'Legal Eagle Offices'
+CogdoFlyingGameInstructions = "Fly through the Legal Eagles' lair. Watch out for obstacles and cogs along the way, and don't forget to refuel your helicopter!"
+CogdoFlyingIntroMovieDialogue = (("You won't ruffle our feathers, Toons! We're destroying barrels of your Laff, and you cannot stop us!", "A flock of Toons! We're crushing barrels of your Laff in our %s, and there's nothing you can do about it!" % CogdoStomperName, "You can't egg us on, Toons! We're powering our offices with your Laff, and you're powerless to stop us!"), ('This is the Toon Resistance! A little bird told me you can use propellers to fly around, grab Barrel Destruction Memos, and keep Laff from being destroyed! Good luck, Toons!', 'Attention Toons! Wing it with a propeller and collect Barrel Destruction Memos to keep our Laff from being stomped! Toon Resistance out!', 'Toon Resistance here! Cause a flap by finding propellers, flying to the Barrel Destruction Memos, and keeping our Laff from being smashed! Have fun!'), ("Squawk! I'm a Silver Sprocket Award winner, I don't need this!", 'Do your best, Toons! You will find us to be quite talon-ted!', "We'll teach you to obey the pecking order, Toons!"))
+CogdoFlyingGameWaiting = 'Waiting for other Toons%s'
+CogdoFlyingGameFuelLabel = 'Fuel'
+CogdoFlyingGameLegalEagleTargeting = 'A Legal Eagle has noticed you!'
+CogdoFlyingGameLegalEagleAttacking = 'Incoming Eagle!'
+CogdoFlyingGamePickUpAPropeller = 'You need a propeller to fly!'
+CogdoFlyingGamePressCtrlToFly = "Press 'Ctrl' to fly up!"
+CogdoFlyingGameYouAreInvincible = 'Red Tape protects you!'
+CogdoFlyingGameTimeIsRunningOut = 'Time is running out!'
+CogdoFlyingGameMinimapIntro = 'This meter shows your progress!\nX marks the finish line.'
+CogdoFlyingGameMemoIntro = 'Memos prevent Laff Barrels in\nthe Stomper Room from being destroyed!'
+CogdoFlyingGameOutOfTime = 'Oh No! You ran out of time!'
+CogdoFlyingGameYouMadeIt = 'You made it on time!'
+CogdoFlyingGameYouMadeIt = 'Good work, you made it on time!'
+CogdoFlyingGameTakingMemos = 'The legal eagles took all your memos!'
+CogdoElevatorRewardLaff = 'Great job, Toons! You get a Laff Boost from the jokes you saved!'
+CogdoExecutiveSuiteTitle = 'Executive Suite'
+CogdoExecutiveSuiteIntroMessage = "Oh no, they've got the shop keeper! Defeat the Cogs and free the captive!"
+CogdoExecutiveSuiteToonThankYou = 'Thanks for the rescue!\x7If you need help in a fight, use this SOS card to call my friend %s!'
+CogdoExecutiveSuiteToonBye = 'Bye now!'
+SillySurgeTerms = {
+ 1: 'Ascensão Divertida! ',
+ 2: 'Onda de Bobagem! ',
+ 3: 'Aumento Ridículo! ',
+ 4: 'Crescimento de Risadinha! ',
+ 5: 'Estímulo Engraçado! ',
  6: 'Impulso Raro!',
  7: 'Escalada Doida!',
  8: 'Salto Feliz!',
  9: 'Levantamento Insano!',
- 10: 'Caminhada Alegre!',
+ 10: 'Caminhada Alegre! ',
  11: 'Aumento Insano!',
- 12: 'Aumento Forçado!'}
-InteractivePropTrackBonusTerms = {0:  'Super Toonar',
+ 12: 'Aumento Forçado! ' }
+InteractivePropTrackBonusTerms = {
+ 0: 'Super Toon-Up',
  1: '',
  2: '',
  3: '',
- 4: 'Super Lançamento',
- 5: 'Super Esguicho!',
- 6: ''}
+ 4: 'Superarremesso',
+ 5: 'Superesguicho!',
+ 6: '' }
 PlayingCardUnknown = 'Nome de Cartão desconhecido'
+AllTrickOrTreatFounded = 'Doces ou travessuras'
+TrickOrTreatScavengerHuntCompleted = 'Doces ou travessuras'
