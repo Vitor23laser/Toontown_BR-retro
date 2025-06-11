@@ -3,8 +3,6 @@ import time
 from toontown.toonbase.TTLocalizer_portuguese_Property import *
 from toontown.catalog import CatalogAccessoryItemGlobals
 ExtraKeySanityCheck = 'Ignore-me'
-commitmanString = 'bugfix! I changed this'
-commitmanSting2 = 'another string!'
 commitmantst = 'kptmptest - removable'
 InterfaceFont = 'phase_3/models/fonts/ImpressBT.ttf'
 ToonFont = 'phase_3/models/fonts/ImpressBT.ttf'
