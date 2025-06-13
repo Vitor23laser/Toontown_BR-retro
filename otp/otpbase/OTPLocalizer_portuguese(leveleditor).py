@@ -266,8 +266,7 @@ CRNoConnectTryAgain = "Não foi possível conectar-se a %s:%s. Tentar novamente?
 CRNoConnectProxyNoPort = "Não foi possível conectar-se a %s:%s.\n\nVocê está se comunicando com a Internet por via proxy, mas o seu proxy não permite conexões na porta %s.\n\nVocê deve abrir esta porta, ou desativar o proxy, para poder jogar na Toontown. Se o proxy foi fornecido pelo seu provedor, é preciso entrar em contato com ele para abrir esta porta."
 CRMissingGameRootObject = """Há alguns objetos do jogo principal ausentes. (A causa pode ser uma conexão de rede com falhas). Saindo do jogo."""
 CRNoDistrictsTryAgain = "Não há Regiões de Toontown disponíveis. Tentar novamente?"
-#CRRejectRemoveAvatar = "O Toon não pôde ser excluído, tente novamente mais tarde."
-CRRejectRemoveAvatar = "O Avatar não pôde ser excluído, tente novamente mais tarde."
+CRRejectRemoveAvatar = "O Toon não pôde ser excluído, tente novamente mais tarde."
 CRLostConnection = "A sua conexão de Internet à Toontown foi interrompida inesperadamente."
 CRBootedReasons = {
     1: "Houve um problema inesperado. A conexão falhou, e você precisa se conectar novamente para voltar ao jogo.",
@@ -629,12 +628,9 @@ EmoteFuncDict = {
     "Banana Peel" : 14,
     "Resistance Salute" : 15,
     "Laugh" : 16,
-   # "Yes"   : 17,
-   # "No"    : 18,
-    #"OK"     : 19,
     lYes :  17,
     lNo : 18,
-    lOk : 19,
+    lOK : 19,
     "Surprise" : 20,
     "Cry" : 21,
     "Delighted" : 22,
@@ -1198,7 +1194,7 @@ SpeedChatStaticTextToontown = {
     # Places "Vamos..."
     1100 : "Vamos pegar o bondinho!",
     1101 : "Vamos voltar para o pátio!",
-    1102 : "Vamos lutar com %s!" % Cogs,.
+    1102 : "Vamos lutar com %s!" % Cogs,
     1103 : "Vamos tomar um edifício %s!" % Cog,
     1104 : "Vamos entrar no elevador!",
     1105 : "Vamos para o Centro de Toontown!",
@@ -2085,29 +2081,6 @@ SpeedChatStaticTextToontown = {
     21205: 'Dance!',
     21206: 'Fale!',
 
-    # Phrases for April Toon's week 2009  
-#    30100 : "Feliz Dia da Mentira do Toon!",
-#    30101 : "Feliz Dia da Semana da mentira do Toon!",
-#    30102 : "Bem-vindo à minha festa do dia da mentira dos Toons!",
-#    30103 : "Bem-vindo à minha festa da Semana da mentira dos Toons!",
-#    30110 : "Veja como longe eu posso pular..",
-#    30111 : "Uau, você pulou muito longe!",
-#    30112 : "Ei, Rabiscos podem, falar!",
-#    30113 : "Seu Rabisco acabou de falar?",
-#    30120 : "Onde está o Mickey?",
-#    30121 : "Onde está a Minnie?",
-#    30122 : "Onde está o Pluto?",
-#    30123 : "Onde está o Donald?",
-#    30124 : "Onde está o Pateta?",
-#    30125 : "Onde está a Margarida?",
-#    30130 : "Nos Jardins da Margarida.",
-#    30131 : "No Centro de Toontown.",
-#    30132 : "Em O Brrrgh.",
-#    30133 : "Na Melodilândia da Minnie.",
-#    30134 : "No Autódromo do Pateta.",
-#    30135 : "Na Sonholândia do Donald.",
-#    31040 : "Uau, olha onde aquele kart pousou!",
-
     # Phrases for April Toon's week
     30100: "Feliz Dia da Semana da mentira do Toons!",
     30101: "Bem-vindo à minha festa da Semana da mentira dos Toons!",
@@ -2163,10 +2136,10 @@ SpeedChatStaticTextToontown = {
     30175: "Pule quando o sênior VP pular!",
 
     # Phrases for Jellybean Jam
-    30180: "Tenho balinhas duplas no carrinho!",
-    30181: "Ganhei balinhas duplas na pesca!",
-    30182: "Ganhei Balinhas duplas em uma festa!",
-    30183: "Balinhas  balinhas balinhas!",
+    30180: "Tenho balinhas duplas no bondinho!",
+    30181: "Tenho balinhas duplas na pesca!",
+    30182: "Tenho Balinhas duplas em uma festa!",
+    30183: "Balinhas balinhas balinhas!",
     30184: "Estou com muita vontade de ganhar uma bala!",
     30185: "Não seja fedorento, pegue balinha!",
     30186: "Vou adotar um Rasbico com todas essas balinhas!",
@@ -2281,7 +2254,9 @@ SpeedChatStaticTextToontown = {
     30450: "É fácil ser verde!",
     30451: "Visite Jeans Feijão Verde e você também pode ser verde!",
     30452: "Fica na Rua dos Carvalhos em Jardins da Margarida.",
-}
+   
+    }
+
 SpeedChatStaticTextPirates = {
     # PIRATES ROOT - TOP LEVEL
     50001 : 'Sim',
@@ -2452,190 +2427,75 @@ SpeedChatStaticTextPirates = {
     52600 : "Me dá uma carta.",
     52601 : "Posso chamar outro dealer?",
 
-   # Minijogos
-   # Minijogos - Pesca
-   53101 : "Peguei um peixe!",
-53102 : "Vi um Lendário Peixe!",
-53103 : "O que você pescou?",
-53104 : "Isso vai virar história de baleia!",
-53105 : "Que beleza!",
-53106 : "Arr, o mar está traiçoeiro hoje.",
-53107: "Que farta pescaria!",
-53110: "Você tem a Isca Lendária?",
-53111: "Você já pescou um Peixe Lendário?",
-53112: "Você sabe velejar em um barco de pesca?",
-53113: "Onde está o Mestre da Pesca?",
-53114: "Você completou sua coleção de peixes?",
-# Minijogos - Defesa de Canhão
-53120: "Atire no meu alvo!",
-53121: "Atire no navio mais próximo da costa!",
-53122: "Um navio está fugindo!",
-53123: "Atirem nos navios grandes!",
-53124: "Atirem nos navios pequenos!",
-53125: "Mais estão chegando!",
-53126: "Não vamos durar muito mais tempo!",
-53127: "Atirem nos barris!",
-53128: "Temos munição nova!",
-53129: "Defesa robusta, companheiros!",
-# Minijogos - Preparação de Poções
-53141: "Olha a poção que eu fiz!",
-53142: "Você completou sua coleção de poções?",
-53143: "Onde está a Cigana?",
-53144: "Que poção é essa?",
-53145: "Esta poção foi fácil Chega.",
-53146: "Esta poção estava dura, eu te digo!",
-# Minijogos - Conserto
-53160: "Precisamos de alguém para bombear o porão!",
-53161: "Precisamos de alguém para esfregar!",
-53162: "Precisamos de alguém para serrar!",
-53163: "Precisamos de alguém para escorar!",
-53164: "Precisamos de alguém para martelar!",
-53165: "Precisamos de alguém para remendar!",
-53166: "Eu faço isso!",
-53167: "Continue assim, este navio não se conserta sozinho!",
-53168: "Ótimo trabalho consertando o navio!",
+    # Minijogos
+    # Minijogos - Pesca
+    53101 : "Peguei um peixe!",
+    53102 : "Vi um Lendário Peixe!",
+    53103 : "O que você pescou?",
+    53104 : "Isso vai virar história de baleia!",
+    53105 : "Que beleza!",
+    53106 : "Arr, o mar está traiçoeiro hoje.",
+    53107 : "Que farta pescaria!",
+    53110 : "Você tem a Isca Lendária?",
+    53111 : "Você já pescou um Peixe Lendário?",
+    53112 : "Você sabe velejar em um barco de pesca?",
+    53113 : "Onde está o Mestre da Pesca?",
+    53114 : "Você completou sua coleção de peixes?",
 
-# Convites
-52100: "Quer formar um grupo?",
-52101: "Quer se juntar à minha tripulação?",
+    # Minijogos - Defesa de Canhão
+    53120 : "Atire no meu alvo!",
+    53121 : "Atire no navio mais próximo da costa!",
+    53122 : "Um navio está fugindo!",
+    53123 : "Atirem nos navios grandes!",
+    53124 : "Atirem nos navios pequenos!",
+    53125 : "Mais estão chegando!",
+    53126 : "Não vamos durar muito mais tempo!",
+    53127 : "Atirem nos barris!",
+    53128 : "Temos munição nova!",
+    53129 : "Defesa robusta, companheiros!",
 
-# Convites - Caça
-52200: "Lutar contra alguns esqueletos?",
-52201: "Lutar contra alguns caranguejos?",
+    # Minijogos - Preparação de Poções
+    53141 : "Olha a poção que eu fiz!",
+    53142 : "Você completou sua coleção de poções?",
+    53143 : "Onde está a Cigana?",
+    53144 : "Que poção é essa?",
+    53145 : "Esta poção foi fácil Chega.",
+    53146 : "Esta poção estava dura, eu te digo!",
 
-# Convites - Versus
-52300: "Que tal uma partida de Mayhem?",
-52301: "Junte-se a mim na partida de Mayhem.",
-52302: "Quer começar uma partida de Mayhem?",
-52303: "Quer começar uma partida de batalha em equipe?",
-52304: "Junte-se a mim na partida de batalha em equipe.",
+    # Minijogos - Conserto
+    53160 : "Precisamos de alguém para bombear o porão!",
+    53161 : "Precisamos de alguém para esfregar!",
+    53162 : "Precisamos de alguém para serrar!",
+    53163 : "Precisamos de alguém para escorar!",
+    53164 : "Precisamos de alguém para martelar!",
+    53165 : "Precisamos de alguém para remendar!",
+    53166 : "Eu faço isso!",
+    53167 : "Continue assim, este navio não se conserta sozinho!",
+    53168 : "Ótimo trabalho consertando o navio!",
 
-# Convites - Minijogos
-   52350: "Junte-se à minha Defesa de Canhão.",
-   52351: "Quer começar uma Defesa de Canhão?",
-   52352: "Você pode me ajudar com o Reparo?",
-   52353: "Precisamos consertar o navio agora!",
-   52354: "Quer pescar?",
-   52355: "Quer ir pescar comigo?",
-   52356: "Quer se juntar à minha tripulação para pescar?",
-   52357 : "Hora de preparar algumas poções!",
-   52358 : "Você deveria tentar preparar poções.",
+    # Convites
+    52100 : "Quer formar um grupo?",
+    52101 : "Quer se juntar à minha tripulação?",
 
-    # Adventures
-    50500 : "Vamos içar velas!",
-    50501 : "Suba a bordo! Estamos zarpando!",
-    50502 : "Vamos saquear!",
-    50503 : "Vamos navegar até Bilgewater!",
-    50504 : "Vamos navegar até Port Royale.",
-    50505 : "Vamos usar um Mapa do Tesouro!",
-    50506 : "Vamos retornar ao Porto.",
+    # Convites - Caça
+    52200 : "Lutar contra alguns esqueletos?",
+    52201 : "Lutar contra alguns caranguejos?",
 
-    # Ships
-    50600 : "Bombordo! (esquerda)",
-    50601 : "Estibordo! (direita)",
-    50602 : "Chegando!",
-    50603 : "Costado! Protejam-se!",
-    50604 : "Armar canhões!",
-    50605 : "Disparar!",
-    50606 : "Cessar fogo!",
-    50607 : "Mire no mastro!",
-    50608 : "Mire no casco!",
-    50609 : "Preparar para abordar!",
-    50610 : "Ela está virando de lado!",
-    50611 : "Disparar a toda carga!",
-    50612 : "A toda vela!",
-    50613 : "Arrr! Estamos indo!",
-    50614 : "Está escapando!",
-    50615 : "Temos uma inundação!",
-    50616 : "Não podemos continuar!",
-    50617 : "Precisamos de reparos!",
-    50618 : "Recuar!",
-    50619 : "Homem ao mar!",
-    50620 : "Basta! Uma Esquadra Ligeira imunda!",
+    # Convites - Versus
+    52300 : "Que tal uma partida de Mayhem?",
+    52301 : "Junte-se a mim na partida de Mayhem.",
+    52302 : "Quer começar uma partida de Mayhem?",
+    52303 : "Quer começar uma partida de batalha em equipe?",
+    52304 : "Junte-se a mim na partida de batalha em equipe.",
 
-    # Card Games
-    52400 : "Que a sorte esteja minha dama.",
-    52401 : 'Acho que essas cartas estão marcadas!',
-    52402 : 'Caramba, trapaceiro!',
-
-   # Card Games - Poker
-    51900 : 'Isso é um fracasso terrível!',
-    51901 : 'Tentando comprar a mão, não é?',
-    51902 : 'Você está blefando.',
-    51903 : 'Acho que você não entendeu.',
-    51904 : 'Salvo pelo rio.',
-
-  # Card Games - Blackjack
-    52600 : 'Bata em mim.',
-    52601 : 'Posso contratar outro revendedor?',
-
-# Minigames
-    # Minigames - Fishing
-    53101 : 'Peguei um peixe!',
-    53102 : 'Vi um peixe lendário!',
-    53103 : 'O que você pescou?',
-    53104 : 'Isso vai virar uma história de baleia!',
-    53105 : 'Foi uma beleza!',
-    53106 : 'Arr, o mar está traiçoeiro hoje.',
-    53107 : 'Que farta pesca!', 
-    53110 : 'Você tem a isca lendária?',
-    53111 : 'Você já pescou um peixe lendário?',
-    53112 : 'Você sabe navegar em um barco de pesca?',
-    53113 : 'Onde está o Mestre da Pesca?',
-    53114 : 'Você completou sua coleção de peixes?',
-
-# Minigames - Cannon Defense
-    53120 : 'Atire no meu alvo!',
-    53121 : 'Atire no navio mais próximo da costa!',
-    53122 : 'Tem um navio fugindo!',
-    53123 : 'Atire nos navios grandes!',
-    53124 : 'Atire nos navios pequenos!',
-    53125 : 'Mais estão chegando!',
-    53126 : 'Não vamos durar muito mais!',
-    53127 : 'Atire nos barris!',
-    53128 : 'Temos munição nova!',
-    53129 : 'Defesa resistente, companheiros!',
-    # Minigames - Potion Brewing
-    53141 : 'Olhe a poção que eu fiz!',
-    53142 : 'Você completou sua coleção de poções?',
-    53143 : 'Onde está o cigano?',
-    53144 : 'Que poção é essa?',
-    53145 : 'Esta poção foi fácil o suficiente.',
-    53146 : 'Esta poção foi difícil de preparar, eu te digo!',
-   # Minigames - Repair
-    53160 : 'Precisamos de alguém para bombear o porão!',
-    53161 : 'Precisamos de alguém para esfregar!',
-    53162 : 'Precisamos de alguém para serrar!',
-    53163 : 'Precisamos de alguém para reforçar!',
-    53164 : 'Precisamos de alguém para martelar!',
-    53165 : 'Precisamos de alguém para remendar!',
-    53166 : 'Eu faço isso!',
-    53167 : 'Continue assim, este navio não vai se consertar sozinho!',
-    53168 : 'Ótimo trabalho consertando o navio!',
-
-  # Invitations
-    52100 : 'Quer se agrupar?',
-    52101 : 'Juntar-se à minha tripulação?',
-
-  # Invitations - Hunting
-    52200 : 'Lute contra alguns esqueletos?',
-    52201 : 'Lute contra alguns caranguejos?',
-
-   # Invitations - Versus
-    52300 : 'Que tal um jogo de Mayhem?',
-    52301 : 'Junte-se ao meu jogo Mayhem.',
-    52302 : 'Quer iniciar um jogo Mayhem?',
-    52303 : 'Quer iniciar um jogo de batalha em equipe?',
-    52304 : 'Junte-se ao meu jogo de batalha em equipe.',
-
-    # Invitations - Minigames
-    52350 : "Junte-se à minha defesa de canhão.",
-    52351 : "Quer iniciar uma Defesa de Canhão?",
+    # Convites - Minijogos
+    52350 : "Junte-se à minha Defesa de Canhão.",
+    52351 : "Quer começar uma Defesa de Canhão?",
     52352 : "Você pode me ajudar com o Reparo?",
     52353 : "Precisamos consertar o navio agora!",
-    52354 : "Quer pegar alguns peixes?",
-    52355 : "Quer pescar comigo?",
-    52356 : "Junte-se à minha tripulação para pescar?",
+    52354 : "Quer pescar?",
+    52355 : "Quer ir pescar comigo?",
+    52356 : "Quer se juntar à minha tripulação para pescar?",
     52357 : "Hora de preparar algumas poções!",
     52358 : "Você deveria tentar preparar poções.",
 
@@ -2760,15 +2620,7 @@ SpeedChatStaticTextPirates = {
     65001 : "Não",
 
     60909 : "Verificar Mão",
-    # Phrases for Singing
-##    9000 : 'Middle ' + 'G1',
-##    9001 : 'Middle ' + 'A',
-##    9002 : 'Middle ' + 'B',
-##    9003 : 'Middle ' + 'C',
-##    9004 : 'Middle ' + 'D',
-##    9005 : 'Middle ' + 'E',
-##    9006 : 'Middle ' + 'F',
-##    9007 : 'Middle ' + 'G2',
+
     }
 
 SpeedChatStaticText = SpeedChatStaticTextCommon
@@ -2789,11 +2641,11 @@ Emotes = (60505, 60506, 60509, 60510, 60511, 60516, 60519, 60520, 60521, 60522, 
           # Valentines Day Emote
           60676,
           # Yes/No
-          65000, 65001
+          65000, 65001,
           # Kneel
           60517,
           # New Years Emote
-          60678,
+          60678, 60909
           )
 
 # These indexes, defined above, will construct a submenu in the FACTORY menu
@@ -3201,7 +3053,7 @@ CustomSCStrings = {
     11017 : "Com \"nataleza\"!",
     11018 : "Até o Natal, tudo bem!",
     11019 : "Você vai se \"arrenapender\"!",
-    11020 : "Tenha um inverno maravilhoso!"
+    11020 : "Tenha um inverno maravilhoso!",
     11021 : 'As decorações da Festa de Natal estão Toontásticas!',
     11022 : 'Tropas de Toons estão promovendo as Festas de Natal!',
 
