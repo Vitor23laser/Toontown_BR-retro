@@ -84,8 +84,8 @@ WhisperToFormatName = 'Para %s'
 WhisperFromFormatName = '%s cochichos'
 ThoughtOhterFormatName = '%s pensa'
 ThoughtSelfFormatName = 'Você pensa'
-from pandac.PandaModules import TextProperties
-from pandac.PandaModules import TextPropertiesManager
+from panda3d.core import TextProperties
+from panda3d.core import TextPropertiesManager
 shadow = TextProperties()
 shadow.setShadow(-0.025, -0.025)
 shadow.setShadowColor(0, 0, 0, 1)
@@ -149,7 +149,7 @@ LeaveToEnableChatUKNo = lCancel
 ChatMoreInfoOK = lOK
 SecretChatDeactivated = 'O recurso "Amigos secretos" foi desativado.'
 RestrictedSecretChatActivated = 'O recurso "Amigos secretos restritos" foi ativado!'
-SecretChatActivated = 'O sistema "Amigos secretos irrestritos" foi ativado!\n\nSe você mudar de idéia e decidir desativar este recurso mais tarde, clique em "Opções da conta" na página da web de Toontown.'
+SecretChatActivated = 'O recurso "Amigos secretos irrestritos" foi ativado!\n\nSe você mudar de idéia e decidir desativar este recurso mais tarde, clique em "Opções da conta" na página da web de Toontown.'
 SecretChatActivatedOK = lOK
 SecretChatActivatedChange = 'Alterar Opções'
 ProblemActivatingChat = 'Ops! Não foi possível ativar o recurso de chat "Amigos secretos".\n\n%s\n\nTente novamente mais tarde.'
@@ -270,7 +270,7 @@ SCMenuBattleTaunts = 'PROVOCAÇÕES'
 SCMenuBattleStrategy = 'ESTRATÉGIA'
 SCMenuBoardingGroup = 'ABORDAGEM'
 SCMenuParties = 'FESTAS'
-SCMenuAprilToons = 'DIA DA MENTIRA TOONS'
+SCMenuAprilToons = 'TOONS DE ABRIL'
 SCMenuSingingGroup = 'CANTANDO'
 SCMenuCarol = 'CANÇÕES NATALINAS'
 SCMenuSillyHoliday = 'Medidor de bobagens'
@@ -412,7 +412,7 @@ FriendInviterDown = 'Não foi possível fazer amizade agora.'
 TalkGuild = 'G'
 TalkParty = 'P'
 TalkPVP = 'PVP'
-AntiSpamInChat = '***Spamming***'
+AntiSpamInChat = '***Envio de Spam***'
 IgnoreConfirmOK = lOK
 IgnoreConfirmCancel = lCancel
 IgnoreConfirmYes = lYes
@@ -987,13 +987,13 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
  1102: 'Vamos lutar com %s!' % Cogs,
  1103: 'Vamos tomar um edifício %s!' % Cog,
  1104: 'Vamos entrar no elevador!',
- 1105: 'Vamos para o Centro de Toontown!',
- 1106: 'Vamos para o Porto do Donald!',
- 1107: 'Vamos para a Melodilândia da Minnie!',
- 1108: 'Vamos para os Jardins da Margarida!',
- 1109: 'Vamos para O Brrrgh!',
- 1110: 'Vamos para a Sonholândia do Donald!',
- 1111: 'Vamos para o Autódromo do Pateta',
+ 1105: 'Vamos para o %s!' % lToontownCentral,
+ 1106: 'Vamos para o %s!' % lDonaldsDock,
+ 1107: 'Vamos para a %s!' % lMinniesMelodyland,
+ 1108: 'Vamos para os %s!' % lDaisyGardens,
+ 1109: 'Vamos para %s!' % lTheBrrrgh,
+ 1110: 'Vamos para a %s' %lDonaldsDreamland,
+ 1111: 'Vamos para o %s' %lGoofySpeedway,
  1112: 'Vamos para a minha casa!',
  1113: 'Vamos para a sua casa!',
  1114: 'Vamos para o Quartel do Robô Vendedor!',
@@ -1905,7 +1905,7 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
  30417: 'A saída está aberta!',
  30418: 'É o chefe!',
  30450: 'É fácil ser verde!',
- 30451: 'Visite Jeans Feijão Verde e você também pode ser verde!',
+ 30451: 'Visite as Balinhas Verdes e você também pode ser verde!',
  30452: 'Fica na Rua dos Carvalhos nos Jardins da Margarida.'}
 SpeedChatStaticTextPirates = {50001: 'Sim',
  50002: 'Não',
@@ -2174,9 +2174,6 @@ SpeedChatStaticTextPirates = {50001: 'Sim',
  65001: 'Não',
  60909: 'Verifique a mão'}
 SpeedChatStaticText = SpeedChatStaticTextCommon
-SpeedChatStaticText = SpeedChatStaticTextToontown.copy()
-for key in SpeedChatStaticTextCommon.iterkeys():
-    SpeedChatStaticText[key] = SpeedChatStaticTextCommon[key]
 Emotes_Root = 'EMOÇÕES'
 Emotes_Dances = 'Danças'
 Emotes_General = 'Geral'
@@ -2634,14 +2631,14 @@ CustomSCStrings = {10: 'Bom...',
  11009: 'Um bom feriado para você!',
  11010: 'Feliz Dia do Peru!',
  11011: 'Ho! Ho! Ho!',
- 11012: '\'Noel\' problema.',
- 11013: '\'Noel\' surpresa nenhuma.',
+ 11012: "'Noel' problema.",
+ 11013: "'Noel' surpresa nenhuma.",
  11014: 'Deixa bater o sino, pequenino!',
  11015: 'Raspa o tacho.',
  11016: 'Feliz Natal!',
- 11017: 'Com \'nataleza\'!',
+ 11017: "Com 'nataleza'!",
  11018: 'Até o Natal, tudo bem!',
- 11019: 'Você vai se \'arrenapender\'!',
+ 11019: "Você vai se 'arrenapender'!",
  11020: 'Tenha um inverno maravilhoso!',
  11021: 'As decorações da Festa de Natal são Toontastico!',
  11022: 'Soldados Toons estão organizando festas de fim de ano!',
@@ -2730,8 +2727,8 @@ PSCMenuSorry = 'DESCULPA'
 PSCMenuCombat = 'COMBATE'
 PSCMenuSeaCombat = 'COMBATE NO MAR'
 PSCMenuPlaces = 'LUGARES'
-PSCMenuLetsSail = 'VAMOS\\NAVEGAR...'
-PSCMenuLetsHeadTo = 'VAMOS\\PARA...'
+PSCMenuLetsSail = 'VAMOSNAVEGAR...'
+PSCMenuLetsHeadTo = 'VAMOS\  PARA...'
 PSCMenuHeadToPortRoyal = 'PORT ROYAL'
 PSCMenuWhereIs = 'ONDE ESTÁ ..?'
 PSCMenuWhereIsPortRoyal = 'PORT ROYAL'
