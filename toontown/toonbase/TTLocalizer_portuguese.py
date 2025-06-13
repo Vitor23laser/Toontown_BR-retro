@@ -1,5 +1,6 @@
 import string
 import time
+from dumped.toontown.toonbase.TTLocalizerEnglish import ClosetShirt, ClosetSkirt
 from toontown.toonbase.TTLocalizer_portuguese_Property import *
 from toontown.catalog import CatalogAccessoryItemGlobals
 ExtraKeySanityCheck = 'Ignore-me'
@@ -6654,13 +6655,13 @@ MouldingNames = {1000: 'Nós',
  1020: 'Dental',
  1030: 'Flores',
  1040: 'Flores',
- 1050: 'Joaninha'
+ 1050: 'Joaninha',
  1060: 'Toons dos Namorados',
  1070: 'Praia',
  1080: 'Luzes de Inverno 1',
  1085: 'Luzes de Inverno 2',
  1090: 'Luzes de Inverno 3',
- 1100: 'Cupido dos Toons dos Namorados'
+ 1100: 'Cupido dos Toons dos Namorados',
  1110: 'Corações dos Toons dos Namorados 1',
  1120: 'Corações dos Toons dos Namorados 2'}
 WainscotingNames = {1000: 'Pintado',
@@ -8065,12 +8066,12 @@ ClosetAreYouSureMessage = 'Você excluiu algumas roupas. Deseja mesmo excluí-la
 ClosetYes = lYes
 ClosetNo = lNo
 ClosetVerifyDelete = 'Excluir mesmo %s?'
-ClosetCamisa = 'esta camisa'
+ClosetShirt = 'esta camisa'
 ClosetShorts = 'este short'
-ClosetSaia = 'esta saia'
-ClosetDeleteCamisa = 'Excluir\ncamisa'
+ClosetSkirt = 'esta saia'
+ClosetDeleteShirt = 'Excluir\ncamisa'
 ClosetDeleteShorts = 'Excluir\nshort'
-ClosetDeleteSaia = 'Excluir\nsaia'
+ClosetDeleteSkirt = 'Excluir\nsaia'
 TrunkNotOwnerMessage = "Este não é o seu baú, mas você pode experimentar os acessórios."
 TrunkNotPaidMessage = 'Somente membros pagos podem usar acessórios, mas você pode experimentá-los.'
 TrunkAreYouSureMessage = 'Você excluiu alguns acessórios. Deseja mesmo excluí-los?'
@@ -8102,11 +8103,13 @@ FlowerGuiOk = 'Vender Tudo'
 FlowerBasketValue = '%(name)s, você tem %(num)s flores no seu cesto que valem um total de %(value)s balinhas. Você quer vender todas?'
 
 def GetPossesive(name):
-    if name[-1:] == 'de':
-        possesive = name + ''
+    if name[-1:] == 's':
+        possesive = name + "'"
     else:
-        possesive = name + ''
+        possesive = name + "'s"
     return possesive
+
+
 PetTrait2descriptions = {'hungerThreshold': ('Sempre faminto', 
                      'Muito faminto',
                      'Às vezes faminto', 
@@ -8161,14 +8164,8 @@ PetTrait2descriptions = {'hungerThreshold': ('Sempre faminto',
                         'Sempre carinhoso')}
 FireworksInstructions = lToonHQ+': Pressione a tecla "Page Up" para ver melhor.'
 startFireworksResponse = "Usando: startFireworksShow ['num']\n                                         'num' = %s - Ano Novos\n                                         %s - Festa de Verão \n                                         %s - 4 de Julho"
-FireworksValentinesBeginning = lToonHQ + ': Feliz Dia dos Toons dos Namorados para todos os apaixonados!'
-FireworksValentinesEnding = lToonHQ + ': Espero que tenha gostado do show!'
 FireworksJuly4Beginning = lToonHQ + ': Bem-vindo à queima de fogos de verão! Divirta-se com o show!'
 FireworksJuly4Ending = lToonHQ + ': Espero que tenha gostado do show! Um ótimo verão para você!'
-FireworksJuly14Beginning = lToonHQ + ': Fogos de artifício de 14 de julho! Espero que tenha gostado do show!'
-FireworksJuly14Ending = lToonHQ + ': Espero que tenha gostado do show!'
-FireworksOctober31Beginng = lToonHQ + ': Feliz Halloween!'
-FireworksOctober31Ending = lToonHQ + ': Espero que tenha gostado do show!'
 FireworksNewYearsEveBeginning = lToonHQ + ': Feliz Ano Novo! Aproveite o show de fogos de artifício!'
 FireworksNewYearsEveEnding = lToonHQ + ': Espero que tenha gostado do show! Feliz Ano Novo!'
 FireworksComboBeginning = lToonHQ + ': Aproveite muitas risadas com os fogos de artifício do Toon!'
@@ -8993,7 +8990,7 @@ GardeningPlantFlower = 'Plantar\nFlor'
 GardeningPlantTree = 'Plantar\nÁrvore'
 GardeningPlantItem = 'Plantar\nItem'
 PlantingGuiOk = 'Plantar'
-PlantingGuiCancel = lCancel
+PlantingGuiCancel = 'Cancelar'
 PlantingGuiReset = 'Restaurar'
 GardeningChooseBeans = 'Escolha as balinhas que deseja plantar.'
 GardeningChooseBeansItem  = 'Escolha as balinhas / item que deseja plantar.'
@@ -9038,7 +9035,7 @@ ConfirmRemoveStatuary = 'Tem certeza de que quer apagar para sempre %(item)s?'
 ResultPlantedSomething  = 'Parabéns! Você acaba de plantar %s.'
 ResultPlantedSomethingAn  = 'Parabéns! Você acaba de plantar %s.'
 ResultPlantedNothing = 'Isso não funcionou.  Por favor, tente uma combinação diferente de balinhas.'
-GardenGagTree = '\xc3\xa81 de piada '
+GardenGagTree = 'Àrvore de piada '
 GardenUberGag = 'Uber de Piada'
 
 def getRecipeBeanText(beanTuple):
@@ -9070,6 +9067,7 @@ def getRecipeBeanText(beanTuple):
 
     return retval
     
+
 GardenTextMagicBeans = 'Balas Mágicas'
 GardenTextMagicBeansB = 'Outras Balas'
 GardenSpecialDiscription = 'Este texto deveria explicar como usar certo especial do jardim'
@@ -9104,7 +9102,6 @@ def getResultPlantedSomethingSentence(flowerName):
         retval = ResultPlantedSomethingAn % flowerName
     else:
         retval = ResultPlantedSomething % flowerName
-
     return retval
 
 
@@ -9257,9 +9254,7 @@ GolfTrophyDescriptions = [str(GolfGlobals.TrophyRequirements[GolfGlobals.Courses
  str(GolfGlobals.TrophyRequirements[GolfGlobals.CourseTwoWins][0]) + ' ' + CourseTwoWins,
  str(GolfGlobals.TrophyRequirements[GolfGlobals.CourseTwoWins][1]) + ' ' + CourseTwoWins,
  str(GolfGlobals.TrophyRequirements[GolfGlobals.CourseTwoWins][2]) + ' ' + CourseTwoWins]
-GolfCupDescriptions = [str(GolfGlobals.TrophiesPerCup) + ' Troféus ganhos',
- str(GolfGlobals.TrophiesPerCup * 2) + ' Troféus ganhos',
- str(GolfGlobals.TrophiesPerCup * 3) + ' Troféus ganhos']
+GolfCupDescriptions = [str(GolfGlobals.TrophiesPerCup) + ' Troféus ganhos', str(GolfGlobals.TrophiesPerCup * 2) + ' Troféus ganhos', str(GolfGlobals.TrophiesPerCup * 3) + ' Troféus ganhos']
 GolfAvReceivesHoleBest = '%(name)s marcou um novo recorde de tacadas em %(hole)s!'
 GolfAvReceivesCourseBest = '%(name)s marcou um novo recorde de percurso em %(course)s!!'
 GolfAvReceivesCup = '%(name)s ganhou a taça %(cup)s!!  Bônus em pontos de risada!'
