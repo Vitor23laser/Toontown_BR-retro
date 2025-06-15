@@ -6632,6 +6632,11 @@ ClothingTypeNames = {1001: 'Camisa do Fantasma',
  1774: 'Shorts de Tartaruga',
  1775: 'Shorts de Tartaruga',
  1776: 'Camisa de Fique conectado ao Agitador',
+ 1777: 'Camisa de Esmagador de Robô da Lei',
+ 1778: 'Camisa de Maioria de C.J.s Derrotados',
+ 1779: 'Camisa Esmagadora de Robô da Lei',
+ 1780: 'Shorts Esmagador de Robô da Lei',
+ 1781: 'Shorts Esmagador de Robô da Lei',
  1782: 'Camisa de Corrida 3',
  1783: 'Shorts de Corrida 1',
  1784: 'Saia de Corrida 1',
@@ -6810,6 +6815,7 @@ CatalogHangUp = 'Desligar'
 CatalogNew = 'NOVA'
 CatalogBackorder = 'ENCOMENDA'
 CatalogLoyalty = 'ESPECIAL'
+CatalogEmblem = 'EMBLEMA'
 CatalogPagePrefix = 'Página'
 CatalogGreeting = 'Oi! Agradecemos sua ligação para o Catálogo da Clarabela. Posso ajudar?'
 CatalogGoodbyeList = ['Agora tchau!', 
@@ -6849,6 +6855,7 @@ CatalogAcceptChat = 'Você ganhou uma nova frase de Chat rápido!'
 CatalogAcceptEmote = 'Você ganhou uma nova Emoção!'
 CatalogAcceptBeans = 'Você recebeu algumas balinhas!'
 CatalogAcceptRATBeans = 'A sua recompensa de recruta Toon chegou!'
+CatalogAcceptPartyRefund = 'Sua festa nunca começou. Aqui está seu reembolso!'
 CatalogAcceptNametag = 'Seu novo crachá chegou!'
 CatalogAcceptGarden = 'Os seus materiais de jardim chegaram!'
 CatalogAcceptPet = 'Você ganhou um novo Truque de Rabisco!'
@@ -6871,6 +6878,7 @@ CatalogAcceptRoomError = 'Você não tem espaço para isto. Você vai ter que se
 CatalogAcceptLimitError = 'Você já tem o número máximo possível disto. Você vai ter que se livrar de alguma coisa.'
 CatalogAcceptFitError = 'Isto não serve em você! Você o doa para Toons que precisam.'
 CatalogAcceptInvalidError = 'Este item saiu da moda! Você o doa para Toons que precisam.'
+CatalogAcceptClosetError = 'Você já tem um armário maior!'
 MailboxOverflowButtonDicard = 'Remover'
 MailboxOverflowButtonLeave = 'Sair'
 HDMoveFurnitureButton = 'Mover\nmobília'
@@ -6919,6 +6927,7 @@ CatalogRentText = 'Alugar'
 CatalogGiftText = 'Presente'
 CatalogOnOrderText = 'Encomendado'
 CatalogPurchasedText = 'Já\ncomprado'
+CatalogCurrent = 'Atual'
 CatalogGiftedText = 'Presenteado\nPara Você'
 CatalogPurchasedGiftText = 'Já\nRecebido'
 CatalogMailboxFull = 'Sem Espaço'
@@ -6963,7 +6972,10 @@ NPCToonNames = {20000: 'Tom Tutorial',
  2014: 'Vendedora Elétrica',
  2015: 'Vendedor Molenga',
  2016: 'Planejador de Festa Abóbora', 
- 2017: 'Planejadora de Festa Polly', 
+ 2017: 'Planejadora de Festa Polly',
+ 2018: 'Doutor Surlee',
+ 2019: 'Doutor Dimm',
+ 2020: 'Professor Prepostera',
  2101: 'Dentista Daniel',
  2102: 'Delegada Délis',
  2103: 'Gatinho Funga-funga',
@@ -7027,7 +7039,6 @@ NPCToonNames = {20000: 'Tom Tutorial',
  2221: 'Flora Canudinho',
  2222: 'Fusível Mirim',
  2223: 'Gláucia Gargalhada',
- 2224: 'Fábio Fumacinha',
  2224: 'Fábio Fumacinha',
  2225: 'Corcunda Pescador',
  2301: 'Dr. Puxaperna',
@@ -8432,7 +8443,6 @@ TIP_ESTATE: ('Os Rabiscos entendem algumas frases do Chat rápido. Experimente!'
              'O armário da casa tem mais roupas.',
              'Vá até a casa do seu amigo e experimente as roupas dele.',
              'Compre varas de pescar melhores no Catálogo da Clarabela.',
-             'Compre bancos maiores no Gadálogo da Clarabela.',
              'Ligue para a Clarabela usando o telefone da casa.',
              'A Clarabela vende um armário maior em que cabem mais roupas.',
              'Reserve espaço no seu armário antes de usar o bilhete de roupas.',
@@ -8984,7 +8994,7 @@ StatuaryToonCrossedArms = 'Estátua da Autoridade Toon'
 StatuaryToonThinking = 'Estátua do Abraço Toon'
 StatuaryMeltingSnowman =' Boneco de neve Derretendo' 
 StatuaryGardenAccelerator = 'Fertilizante Instantâneo'
-AnimatedStatuaryFlappyCog = 'Cog abano'
+AnimatedStatuaryFlappyCog = 'Cog Inflável'
 FlowerColorStrings = ['Vermelha',
  'Laranja',
  'Violeta',
@@ -9040,6 +9050,7 @@ FlowerFunnyNames = {49: ('Margarida Lida',
       'Rosa Aindarrosa')}
 FlowerVarietyNameFormat = '%s %s'
 FlowerUnknown = '????'
+FloweringNewEntry = 'Nova Entrada'
 ShovelNameDict = {0: 'Latão',
  1: 'Bronze',
  2: 'Prata',
@@ -9189,13 +9200,14 @@ TravelGameVoteWithExclamation = 'Vote!'
 TravelGameWaitingChoices = 'Aguardando que outros jogadores votem...'
 TravelGameDirections = ['PARA CIMA', 'PARA BAIXO']
 TravelGameTotals = 'Totais '
-TravelGameReasonVotesPlural = 'O bonde está indo para %(dir)s, vencendo por %(numVotes)de votos.'
-TravelGameReasonVotesSingular = 'O bonde está indo para %(dir)s, vencendo por %(numVotes)de voto.'
-TravelGameReasonPlace = '%(name)s desempatou. O bonde está indo para %(dir)s.'
-TravelGameReasonRandom = 'O bonde está indo aleatoriamente para %(dir)s.'
+TravelGameReasonVotes = 'O bondinho está indo para %(dir)s, vencendo por %(numVotes)de votos.'
+TravelGameReasonVotesPlural = 'Os bondinhos estam indo para %(dir)s, vencendo por %(numVotes)de votos.'
+TravelGameReasonVotesSingular = 'Um bondinho está indo para %(dir)s, vencendo por %(numVotes)de voto.'
+TravelGameReasonPlace = '%(name)s desempatou. O bondinho está indo para %(dir)s.'
+TravelGameReasonRandom = 'O bondinho está indo aleatoriamente para %(dir)s.'
 TravelGameOneToonVote ='%(name)s usou %(numVotes)s votos para ir para %(dir)s\n'
 TravelGameBonusBeans = '%(numBeans)de Balinhas'
-TravelGamePlaying = 'A seguir, o jogo do bonde de %(game)s.'
+TravelGamePlaying = 'A seguir, o jogo do bondinho de %(game)s.'
 TravelGameGotBonus = '%(name)s ganhou um bônus de %(numBeans)s balinhas!'
 TravelGameNoOneGotBonus = 'Ninguém chegou ao seu objetivo secreto.  Todos ganham 1 balinha.'
 TravelGameConvertingVotesToBeans = 'Convertendo alguns votos em balinhas...'
@@ -9504,7 +9516,6 @@ BossbotRTMaxed = '\x07Vejo que você tem uma Roupa de Cog de nível %s. Impressi
 GolfAreaAttackTaunt = 'Bola!'
 OvertimeAttackTaunts = ['É hora de reorganizar.', 'Temos gente para demitir.']
 ElevatorBossBotBoss = 'Batalha do Presidente.'
-ElevatorBossBotCourse = 'Campo de Golfe Cog'
 ElevatorBossBotCourse0 = 'O Front Three (Três da Frente)'
 ElevatorBossBotCourse1 = 'O Middle Six (Seis do Meio)'
 ElevatorBossBotCourse2 = 'O Back Nine (Nove dos Fundos)'
@@ -9633,6 +9644,7 @@ HolidayNamesInCalendar = {1: ('Fogos de Artifício de Verão', 'Comemore o Verã
  24: ('Idos de Março', 'Cuidado com os Idos de Março! Impeça que os Cogs Golpe Sujo invadam Toontown!'),
  26: ('Decoração de Halloween', 'Comemore o Halloween deixando as árvores e  postes de iluminação de Toontown assustadores!'),
  28: ('Invasão de Inverno', 'Os robôs vendedores estão à solta espalhando suas táticas de vendas frias!'),
+ 29: ('Semana dos Toons de Abril', 'Celebre a semana dos Toons de Abril - um  feriado construido por Toons para Toons!'),
  33: ('Surpresa de Robô Vendedor 1', 'Surpresa de Robô Vendedor! Impeça que os Cogs Reis da Incerta invadam Toontown!'),
  34: ('Surpresa de Robô Vendedor 2', 'Surpresa de Robô Vendedor! Impeça que os Cogs Sabe-com-quem-está-falando invadam Toontown!'),
  35: ('Surpresa de Robô Vendedor 3', 'Surpresa de Robô Vendedor! Impeça que os Cogs Amigos da Onça invadam Toontown!'),
