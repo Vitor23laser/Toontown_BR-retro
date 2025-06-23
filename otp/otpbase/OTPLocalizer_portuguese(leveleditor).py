@@ -273,6 +273,7 @@ CRBootedReasons = {
     100: "Você foi desconectado porque outra pessoa acabou de fazer login usando a sua conta em outro computador.",
     120: "Você foi desconectado porque houve um problema com sua autorização para usar o chat.",
     122: "Houve um problema inesperado quando você fez login em Toontown. Entre em contato com o Suporte ao Cliente de Toontown.",
+    124: "Os arquivos de Toontown que você tem instalados parecem ser inválidos. Use o botão Jogar, no site oficial de Toontown na web, para executar Toontown.",
     125: "Os arquivos de Toontown que você tem instalados parecem ser inválidos. Use o botão Jogar, no site oficial de Toontown na web, para executar Toontown.",
     126: "Você não está autorizado a usar privilégios administrativos.",
     127: "Ocorreu um problema com seu Toon. Entre em contato com o Atendimento aos Membros por telefone ou e-mail e indique o Código de Erro 127. Obrigado.",      
@@ -410,7 +411,7 @@ FriendSecretGotSecret = "Este é o seu novo Código de Amigo Verdadeiros. Não d
 FriendSecretTooMany = "Sinto muito, você não pode ter mais Código de Amigo Verdadeiros hoje. Você já obteve mais do que a parte que lhe cabia!\n\nTente novamente amanhã."
 FriendSecretTryingSecret = "Tentando usar Código de Amigo Verdadeiros. . ."
 FriendSecretEnteredSecretSuccess = "Agora, você é Amigo verdadeiro de %s!"
-FriendSecretTimeOut = "Sinto muito, o secreto não estão funcionando agora."
+FriendSecretTimeOut = "Sinto muito, os segredos não estão funcionando agora."
 FriendSecretEnteredSecretUnknown = "Este Código de Amigo Verdadeiros não existe. Tem certeza de que digitou certo?\n\nSe você tiver digitado certo, ele pode ter expirado. Peça ao seu amigo para pegar outro Código de Amigo Verdadeiros para você (ou pegue um novo você mesmo e dê ao seu amigo)."
 FriendSecretEnteredSecretFull = "Você não pode fazer amizade com %s porque um de vocês dois possui amigos demais na lista."
 FriendSecretEnteredSecretFullNoName = "Vocês não podem fazer amizade porque um de vocês dois possui amigos demais na lista."
@@ -535,7 +536,7 @@ TalkParty = "P"
 TalkPVP = "PVP"
 
 #Spam Blocked Message
-AntiSpamInChat = '***Envio de Spam***'
+AntiSpamInChat = '***Spam***'
 
 #IgnoreConfirm.py
 IgnoreConfirmOK = lOK
@@ -2082,8 +2083,8 @@ SpeedChatStaticTextToontown = {
     21206: 'Fale!',
 
     # Phrases for April Toon's week
-    30100: "Feliz Dia da Semana da mentira do Toons!",
-    30101: "Bem-vindo à minha festa da Semana da mentira dos Toons!",
+    30100: "Feliz Dia da Semana dos Toons de Abril!",
+    30101: "Bem-vindo à minha festa da Semana dos Toons de Abril!",
     30102: "O Medidor de Bobagem está de volta ao Prefeitoona!",
     30110: "Mickey está no Jardim da Margarida.",
     30111: "Margarida está em Centro de Toontown.",
@@ -2261,8 +2262,8 @@ SpeedChatStaticTextPirates = {
     # PIRATES ROOT - TOP LEVEL
     50001 : 'Sim',
     50002 : 'Não',
-    50003 : 'Sim',
-    50004 : 'Não',
+    50003 : 'Arrr!',
+    50004 : 'Sim, sim, Capitão!',
     50005 : 'Ok',
 
     # EXPRESSIONS
@@ -3060,7 +3061,7 @@ CustomSCStrings = {
     # Valentines
     12000 : "Fica comigo!",
     12001 : "Vem ser meu amorzinho!",
-    12002 : "Feliz Dia dos Namorados!",
+    12002 : "Feliz Dia dos Toons dos Namorados!",
     12003 : "Ahhh, que bonitinho.",
     12004 : "Estou apaixonado por você.",
     12005 : "Amor de pombinhos.",
@@ -3079,7 +3080,7 @@ CustomSCStrings = {
     12051 : "Você é um estouro!",
     12052 : "Só tenho olhos para você!",
     12053 : "Você é mais doce do que uma bala!",
-    12054 : "Eu ADORARIA ter você em minha Festa Dia dos namorados!",
+    12054 : "Eu ADORARIA ter você em minha Festa Dia dos Toons dos Namorados!",
 
     # St. Patricks Day
     13000 : "Tenho você no coração!",
@@ -3252,11 +3253,15 @@ NCBadCharacter = "O seu nome não pode conter o caractere '%s'"
 NCRepeatedChar = "Seu nome tem muitos caracteres '%s'"
 NCGeneric = 'Sinto muito, este nome não vai funcionar.'
 NCTooManyWords = 'O seu nome não pode ter mais de quatro palavras.'
-NCDashUsage = ("Hifens podem ser usados apenas para ligar duas palavras (como em 'Bu-Bu').")
+NCDashUsage = ("Hifens podem ser usados apenas para ligar duas palavras" 
+               "(como em 'Bu-Bu').")
 NCCommaEdge = "O seu nome não pode começar ou terminar com vírgula."
 NCCommaAfterWord = "Você não pode começar uma palavra com vírgula."
-NCCommaUsage = ('Este nome não usa vírgulas corretamente. As vírgulas devemintercalar duas palavras, como no nome "Dr. Quack, MD".As vírgulas devem também ser seguidas por um espaço.')
-NCPeriodUsage = ('Este nome não usa pontos corretamente. Os pontos são permitidos somente em palavras como "Sr.", "Sra.", "J.P." etc.')
+NCCommaUsage = ('Este nome não usa vírgulas corretamente. As vírgulas devem' 
+                'juntar duas palavras, como no nome "Dr. Quack, MD".'
+                'As vírgulas devem também ser seguidas por um espaço.')
+NCPeriodUsage = ('Este nome não usa pontos corretamente. Os pontos são permitidos' 
+                 'somente em palavras como "Sr.", "Sra.", "J.P." etc.')
 NCApostrophes = 'Este nome tem muitos apóstrofos.'
 
 # AvatarDetailPanel.py
