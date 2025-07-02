@@ -2229,7 +2229,8 @@ ToonHealJokes = [['O que faz TIQUE-TIQUE-TIQUE-AU?', 'Um cãonômetro!'],
  ['Qual é o fim da picada?', 'Quando o mosquito vai embora.'],
  ['O que o paraquedas disse para o paraquedista?', 'Tô contigo e não abro.'],
  ['Qual é a cor mais barulhenta?', 'A corneta.'],
- ['O que é um pontinho amarelo no céu?', 'Um amarelocóptero.']]
+ ['O que é um pontinho amarelo no céu?', 'Um amarelocóptero.'],
+ ['O que o ' + MickeyMouse + 'foi fazer no espaço?', 'Ele foi procurar o ' + Pluto + '.']]
 MovieHealLaughterMisses = ('hmm', 
  'heh', 
  'ha', 
