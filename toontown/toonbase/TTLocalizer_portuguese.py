@@ -1,6 +1,12 @@
 import string
 import time
 from toontown.toonbase.TTLocalizer_portuguese_Property import *
+from toontown.catalog import CatalogAccessoryItemGlobals
+from otp.otpbase import OTPLocalizer as OL
+OL.SpeedChatStaticText = OL.SpeedChatStaticTextToontown.copy()
+for key in OL.SpeedChatStaticTextCommon.iterkeys():
+    OL.SpeedChatStaticText[key] = OL.SpeedChatStaticTextCommon[key]
+
 ExtraKeySanityCheck = 'Ignore-me'
 commitmanString = 'bugfix! I changed this'
 commitmanSting2 = 'another string!'
@@ -41,9 +47,10 @@ NametagFontNames = ('Usuário',
  'Ocidental')
 NametagLabel = 'Nome'
 UnpaidNameTag = 'Basico'
-GM_1 = 'CONSELHO TOON' 
-GM_2 = 'TROPA TOONS'
-GM_3 = 'TOON DA RESISTÊNCIA'
+GM_NAMES = ('CONSELHO TOON', 
+ 'TROPA TOONS',
+ 'TOON DA RESISTÊNCIA',
+ 'GC')
 BuildingNametagFont = 'phase_3/models/fonts/MickeyFont'
 BuildingNametagShadow = None
 ProductPrefix = 'TT'
@@ -262,6 +269,7 @@ def getLocalNum(num):
          return str(num) + ''
     else:
 	    return str(num)
+
 
 QuestsItemNameAndNum = '%(num)s %(name)s'
 QuestsCogQuestProgress = '%(progress)s de %(numCogs)s derrotados'
@@ -2223,7 +2231,8 @@ ToonHealJokes = [['O que faz TIQUE-TIQUE-TIQUE-AU?', 'Um cãonômetro!'],
  ['Qual é o fim da picada?', 'Quando o mosquito vai embora.'],
  ['O que o paraquedas disse para o paraquedista?', 'Tô contigo e não abro.'],
  ['Qual é a cor mais barulhenta?', 'A corneta.'],
- ['O que é um pontinho amarelo no céu?', 'Um amarelocóptero.']]
+ ['O que é um pontinho amarelo no céu?', 'Um amarelocóptero.'],
+ ['O que o '+ MickeyMouse + ' foi fazer no espaço?', 'Ele foi encontrar o ' + Pluto + '.']]
 MovieHealLaughterMisses = ('hmm', 
  'heh', 
  'ha', 
@@ -3105,9 +3114,9 @@ FADoorCodes_DEFEAT_FLUNKY_TOM = 'Ande até o Puxa-saco para lutar com ele!'
 FADoorCodes_TALK_TO_HQ_TOM = 'Vá pegar a sua recompensa no Quartel dos Toons!'
 FADoorCodes_SUIT_APPROACHING = None
 FADoorCodes_BUILDING_TAKEOVER = 'Cuidado! Tem um COG lá dentro!'
-FADoorCodes_SB_DISGUISE_INCOMPLETE = 'Você vai ser pego se entrar lá como um Toon! Você precisa completar o seu Disfarce de Cog primeiro!\n\nMonte o seu Disfarce de Cog com pedaços da Fábrica.'
+FADoorCodes_SB_DISGUISE_INCOMPLETE = 'Você vai ser pego se entrar lá como um Toon! Você precisa completar o seu Disfarce de Robô Vendedor primeiro!\n\nMonte o seu Disfarce de Robô Vendedor com pedaços da Fábrica.'
 FADoorCodes_CB_DISGUISE_INCOMPLETE = 'Você vai ser pego se entrar lá como um Toon! Você precisa completar o seu Disfarce de Robô Mercenário primeiro!\n\nMonte o seu Disfarce de Robô Mercenário executando Tarefas Toon na Sonholândia.'
-FADoorCodes_LB_DISGUISE_INCOMPLETE = 'Você vai ser pego se entrar lá como um Toon! Você precisa completar o seu Disfarce de Cog primeiro!\n\nMonte o seu Disfarce de Cog com pedaços da Fábrica.'
+FADoorCodes_LB_DISGUISE_INCOMPLETE = 'Você vai ser pego se entrar lá como um Toon! Você precisa completar o seu Disfarce de Robô da Lei primeiro!\n\nMonte o seu Disfarce de Robô da Lei com pedaços da Fábrica.'
 FADoorCodes_BB_DISGUISE_INCOMPLETE = 'Você vai ser pego se entrar lá como Toon! Primeiramente, você precisa concluir seu Disfarce de Robô Chefe!\n\nConstrua seu Disfarce de Robô Chefe cumprindo as TarefasToon depois da Sonholândia do Donald.'
 KnockKnockContestJokes = {2100: ['Wally', 'Wally não está olhando, joga torta nele!'],
  2200: {28:['Biscoito', 'Biscoitos me mordam, os Cogs vêm aí!'], 
@@ -3368,6 +3377,7 @@ VampireMickeyChatter = (['Bem-vindo ao '+lToontownCentral+'.',
   'Vou assustar outro Toon!  Shhh!',
   'Vou brincar de doces ou travessuras!',
   'Shhh, vem comigo.'])
+FieldOfficeMickeyChatter = ['Você já ouviu falar sobre os novos escritórios de campo dos Agitadores?']
 MinnieChatter = (['Bem-vindo à Melodilândia.', 'Oi, meu nome é '+ Minnie +'. Qual é o seu?'], ['As colinas ganham vida com o som da música!',
   'Sua roupa é legal, %.',
   'Ei, você viu o '+ Mickey +'?',
@@ -3441,6 +3451,7 @@ WitchMinnieChatter = (['Bem-vindo a Magicalândia... quero dizer, Melodilândia!
   'Cuidado com as aranhas musicais!',
   'Ouvi dizer que Tábata tem doces para a Realmente Felinos Felizes que pode pregar travessuras!',
   'Espero que você esteja gostando da nossa diversão de Halloween!'], ['Vou desaparecer agora!', 'Hora de eu sumir!', 'Mickey vai me levar para dizer doces-ou-travessuras!'])
+FieldOfficeMinnieChatter = ['Todo mundo está falando sobre os novos escritórios de campo do Agitadores!']
 DaisyChatter = (['Bem-vindo(a) ao meu Jardim!', 'Olá, meu nome é '+Daisy+'. Qual o seu nome?', 'É muito bom ver você, %!'], ['Minha flor premiada está no centro do labirinto do jardim.',
   'Eu adoro andar pelo labirinto.',
   'Eu não ví o '+Goofy+' hoje.',
@@ -3516,6 +3527,7 @@ HalloweenDaisyChatter = (['Bem-vindo ao Fantasmas da Margarida... Quero dizer, J
   'Coruja, aposto que você não notou as lâmpadas assustadoras!',
   'Visite meu amigo J. Jardim se você tiver uma travessura e aproveite os doces na Pousada Pá de Coisa!',
   'Espero que você esteja gostando da nossa diversão de Halloween!'], ['Donald vai me levar para pedir doces-ou-travessuras!', 'Eu vou para conferir as divertidas decorações de Halloween.'])
+FieldOfficeDaisyChatter = ['Esses escritórios de campo dos agitadores estão surgindo como ervas daninhas!']
 ChipChatter = (['Boas-vindas a %s!' % lOutdoorZone,
   'Olá, sou ' + Chip + '. Qual é o seu nome?',
   'Não, eu sou ' + Chip + '.',
@@ -3693,6 +3705,7 @@ ValentinesDreamlandChatter = (['Oi, eu sou (bocejo) o Donald!', 'Feliz Dia dos T
   'Mostre aos Cogs, com uma torta na cara, que você os ama!',
   'Eu não poderia sonhar com um feriado melhor do que o Dia dos Toons dos Namorados!',
   'Eu amo dormir!'], ['Boa-noite!','Acorde-me no Dia dos Toons dos Namorados!'])
+FieldOfficeDreamlandChatter = ['Sonhei com algo chamando Escritório de Campo...']
 HalloweenDonaldChatter = (['Bem-vindo ao meu porto do Halloween!',
   'Se você tiver doces, poderá subir a bordo!',
   'Feliz Halloween!',
@@ -3951,17 +3964,26 @@ EmceeDialoguePhase3_5Topic = 'EmceeDialoguePhase3.5'
 EmceeDialoguePhase4Topic = 'EmceeDialoguePhase4'
 EmceeDialoguePhase5Topic = 'EmceeDialoguePhase5'
 EmceeDialoguePhase6Topic = 'EmceeDialoguePhase6'
+AprilToonsPhasePreTopTopic = 'AprilToonsPhasePreTopTopic'
+AprilToonsPhaseTopTopic = 'AprilToonsPhaseTopTopic'
+AprilToonsExtPhaseTopTopic = 'AprilToonsExtPhaseTopTopic'
+AprilToonsPhasePostTopTopic = 'AprilToonsPhasePostTopTopic'
 toontownDialogues = {BoringTopic: {(1, 2018): ['Oi Albert', 'Parece que o nível de bobagem está subindo', 'Sim, e se não esqueça dos Toons de Abril!'],
                (2, 2019): ['Oi Newton', 'Gostaria de saber o quanto os grupos contribuíram para isso '],
-               (3, 2020): ['Para que cumprimentar Albert e Newton', 'O Halloween foi bem bobinho também!']},     
- EmceeDialoguePhase1Topic: {(1, 2020): ['Amigos Toons, este é o Medidor de Bobagens!',
-                                        'Ele registra a variação do nível de bobagem de Toontown...',
-                                        'Que está causando a animação dos objetos da rua!',
-                                        'E VOCÊ pode ajudar a aumentar esses níveis!',
-                                        'Lute com os Cogs para causar Ondas de Bobagem...',
-                                        'Deixe Toontown mais bobinha do que nunca...',
-                                        'E vamos observar o mundo ganhando vida!',
-                                        'Agora vou repetir o que disse, só mais uma vez.']},
+               (3, 2020): ['Para que cumprimentar Albert e Newton', 'O Halloween foi bem bobinho também!']}     
+AprilToonsPhasePreTopTopic: {(1, 2020): ['Gadzooks! O Medidor de Bobagens voltou à vida!',
+                                         'Está subindo a cada dia e chegará ao topo em breve!',
+                                         'Quando isso acontecer, algo bobo certamente acontecerá!',
+                                         'Então prepare-se para ficar ridículo!']},
+AprilToonsPhaseTopTopic: {(1, 2020): ['O Medidor de Bobagens chegou ao topo!',
+                                      'Os Rabiscos estão falando, as Propriedades estão saltitantes!',
+                                      'Só há uma coisa a dizer\xe2\x80\xa6',
+                                      'FELIZ TOONS DE ABRIL!']},
+AprilToonsExtPhaseTopTopic: {(1, 2020): ['O Medidor de Bobagens chegou ao topo!', 'Os Rabiscos estão falando, as Propriedades estão saltitantes!']},
+AprilToonsPhasePostTopTopic: {(1, 2020): ['Os Toons de Abril acabaram!',
+                                          'É hora de para retornarmos ao nosso laboratório.',
+                                          'Mas quando as coisas ficarem REALMENTE loucas de novo\xe2\x80\xa6',
+                                          'O Medidor de Bobagens retornará!']},
  EmceeDialoguePhase2Topic: {(1, 2020): ['Bom trabalho, Toons!',
                                         'Vocês mantiveram aqueles níveis em alta...',
                                         'E Toontown fica mais bobinha a cada dia que passa!',
