@@ -3252,34 +3252,34 @@ SharedChatterGreetings = ['Oi, %!',
  'Estou feliz que você esteja aqui hoje!',
  'Bom, oi pessoal, %.']
 SharedChatterComments = ['Que nome legal, %.',
-  'Gosto do seu nome.',
-  'Cuidado com os ' + Cogs + '.'
-  'Parece que o bondinho está chegando!',
-  'Preciso jogar um jogo no bondinho para ganhar algumas tortas!',
-  'Às vezes, eu me divirto com os jogos no bondinho só para comer a torta de frutas!',
-  'Puxa, acabei de deter um bando de ' + Cogs + '. Preciso de descanso!',
-  'Puxa vida, alguns desses ' + Cogs + ' são grandalhões!',
-  'Você parece estar se divertindo.',
-  'Nossa, que dia legal!',
-  'Gostei da sua roupa.',
-  'Acho que vou pescar esta tarde.',
-  'Divirta-se no meu bairro.',
-  'Espero que você esteja aproveitando sua estada em Toontown!',
-  'Ouvi falar que está nevando no Brrrgh.',
-  'Você pegou o bondinho hoje?',
-  'Gosto de conhecer pessoas novas.',
-  'Uau, há vários  '+ Cogs +' no Brrrgh.'
-  'Eu adoro brincar de pique. E você?',
-  'Os jogos no bondinho são divertidos.',
-  'Adoro fazer as pessoas rirem.',
-  'É divertido ajudar meus amigos.',
-  'Hum-hum, você está perdido? Não se esqueça de que você tem um mapa no Álbum Toon.',
-  'Procure não ficar atolado na Burocracia dos ' + Cogs + "'.",
-  'Ouvi falar que a ' + Daisy + ' plantou novas flores no jardim.',
-  'Se você pressionar a tecla Page Up, poderá ver acima!',
-  'Se você ajudar a tomar os edifícios dos Cogs, poderá ganhar uma estrela de bronze!',
-  'Se você pressionar a tecla Tab, poderá ver os arredores sob diversos ângulos!',
-  'Se você pressionar a tecla Ctrl, poderá descer!']
+ 'Gosto do seu nome.',
+ 'Cuidado com os ' + Cogs + '.'
+ 'Parece que o bondinho está chegando!',
+ 'Preciso jogar um jogo no bondinho para ganhar algumas tortas!',
+ 'Às vezes, eu me divirto com os jogos no bondinho só para comer a torta de frutas!',
+ 'Puxa, acabei de deter um bando de ' + Cogs + '. Preciso de descanso!',
+ 'Puxa vida, alguns desses ' + Cogs + ' são grandalhões!',
+ 'Você parece estar se divertindo.',
+ 'Nossa, que dia legal!',
+ 'Gostei da sua roupa.',
+ 'Acho que vou pescar esta tarde.',
+ 'Divirta-se no meu bairro.',
+ 'Espero que você esteja aproveitando sua estada em Toontown!',
+ 'Ouvi falar que está nevando no Brrrgh.',
+ 'Você pegou o bondinho hoje?',
+ 'Gosto de conhecer pessoas novas.',
+ 'Uau, há vários  '+ Cogs +' no Brrrgh.'
+ 'Eu adoro brincar de pique. E você?',
+ 'Os jogos no bondinho são divertidos.',
+ 'Adoro fazer as pessoas rirem.',
+ 'É divertido ajudar meus amigos.',
+ 'Hum-hum, você está perdido? Não se esqueça de que você tem um mapa no Álbum Toon.',
+ 'Procure não ficar atolado na Burocracia dos ' + Cogs + "'.",
+ 'Ouvi falar que a ' + Daisy + ' plantou novas flores no jardim.',
+ 'Se você pressionar a tecla Page Up, poderá ver acima!',
+ 'Se você ajudar a tomar os edifícios dos Cogs, poderá ganhar uma estrela de bronze!',
+ 'Se você pressionar a tecla Tab, poderá ver os arredores sob diversos ângulos!',
+ 'Se você pressionar a tecla Ctrl, poderá descer!']
 SharedChatterGoodbyes = ['Tenho que ir agora, tchau!',
  'Acho que vou jogar no bondinho.',
  'Bom, até mais. Vejo você por aí, %!',
@@ -3533,7 +3533,8 @@ ChipChatter = (['Boas-vindas a %s!' % lOutdoorZone,
   'Não, eu sou ' + Chip + '.',
   'É tão bom ver você, %!',
   'Somos Tico e Teco!'], ['Gosto de golfe.', 'Temos as melhores bolotas de Toontown.', 'Os buracos de golfe com vulcões são os mais desafiadores para mim.'], ['Vamos até ' + lTheBrrrgh +' brincar com %s.' % Pluto, 
-  'Vamos visitar %s e dar um jeito nele.' % Donald, 'Acho que vou nadar no ' + lDonaldsDock + '.',
+  'Vamos visitar %s e dar um jeito nele.' % Donald, 
+  'Acho que vou nadar no ' + lDonaldsDock + '.',
   'Oh, estou com sono. Acho que vou até a Sonholândia.'])
 ValentinesChipChatter = (['Eu sou o Tico!', 'Feliz Dia dos Toons dos Namorados!', 'Feliz Dia dos Toons dos Namorados, %!'], ['O que você trouxe para mim no Dia dos Toons dos Namorados, Teco?',
   'Aqueles corações são bons para melhorar a Risada!',
@@ -4087,8 +4088,6 @@ TeaserMinigames = TeaserOtherHoods
 TeaserQuests = TeaserOtherHoods
 TeaserOtherGags = TeaserOtherHoods
 TeaserTricks = TeaserOtherHoods
-DownloadWatcherUpdate = 'Fazendo download %s'
-DownloadWatcherInitializing = 'Iniciando Download...'
 LauncherPhaseNames = {0: 'Inicialização',
  1: 'Panda',
  2: 'Engine',
@@ -4514,7 +4513,9 @@ PartyDecorationNameDict = {0: {'editor': 'Bigorna de Balões',
  25: {'editor': 'Boneco de neve',
       'description': 'Tão legal, ele está com calor!'},
  26: {'editor': 'Rabisco de neve',
-      'description': 'Seu único truque é estar frio!'}}
+      'description': 'Seu único truque é estar frio!'},
+ 27: {'editor': 'Birgona do Toons dos Namorados',
+      'description': 'Temos seu coração em punho!'}}
 ActivityLabel = 'Custo - Nome da Atividade'
 PartyDoYouWantToPlan = 'Deseja planejar uma nova festa agora?'
 PartyPlannerOnYourWay = 'Divirta-se planejando a sua festa!'
@@ -4653,11 +4654,6 @@ CalendarPartyFinished = 'Acabou...'
 CalendarPartyCancelled = 'Cancelado.'
 CalendarPartyNeverStarted = 'Nunca Aconteceu.'
 NPCFriendPanelRemaining = 'Restantes %s'
-PartiesPageTitle = ''
-PartiesPageHostTab = ''
-PartiesPageInvitedTab = ''
-PartiesPageTitleHost = ''
-PartiesPageTitleInvited = ''
 MapPageTitle = 'Mapa'
 MapPageBackToPlayground = 'Voltar para o pátio'
 MapPageBackToCogHQ = 'Voltar para o Quartel de Cogs'
