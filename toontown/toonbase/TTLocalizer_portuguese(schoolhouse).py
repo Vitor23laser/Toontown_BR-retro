@@ -1,5 +1,3 @@
-import string
-import time
 from toontown.toonbase.TTLocalizer_portuguese_Property import *
 from toontown.catalog import CatalogAccessoryItemGlobals
 from otp.otpbase import OTPLocalizer as OL
@@ -7,9 +5,6 @@ OL.SpeedChatStaticText = OL.SpeedChatStaticTextToontown.copy()
 for key in OL.SpeedChatStaticTextCommon.iterkeys():
     OL.SpeedChatStaticText[key] = OL.SpeedChatStaticTextCommon[key]
 
-ExtraKeySanityCheck = 'Ignore-me'
-commitmanString = 'bugfix! I changed this'
-commitmanSting2 = 'another string!'
 commitmantst = 'kptmptest - removable'
 InterfaceFont = 'phase_3/models/fonts/ImpressBT.ttf'
 ToonFont = 'phase_3/models/fonts/ImpressBT.ttf'
@@ -269,10 +264,7 @@ QuestsDefaultVisitQuestDialog = ('Ouvi falar que _toNpcName_ est\xc3\xa1 procura
 QuestsLocationArticle = ''
 
 def getLocalNum(num):
-    if (num <=9):
-         return str(num) + ''
-    else:
-	    return str(num)
+	return str(num)
 
 
 QuestsItemNameAndNum = '%(num)s %(name)s'
@@ -8237,7 +8229,7 @@ FlowerGuiOk = 'Vender Tudo'
 FlowerBasketValue = '%(name)s, voc\xc3\xaa tem %(num)s flores no seu cesto que valem um total de %(value)s balinhas. Voc\xc3\xaa quer vender todas?'
 
 def GetPossesive(name):
-    if name[-1:] == 'de':
+    if name[-1:] == 's':
         possesive = name + "'"
     else:
         possesive = name + "'"
