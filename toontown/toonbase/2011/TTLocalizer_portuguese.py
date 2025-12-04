@@ -9698,7 +9698,7 @@ HolidayNamesInCalendar = {1: ('Fogos de Artifício de Verão', 'Comemore o Verã
  98: ('Dia das Balinhas em Dobro - Pescaria', ''),
  99: ('Semana das Balinhas', 'Comemore a semana das balinhas com balinhas em dobro como recompensas!'),
  101: ('Dia da Maratona de Ano-Novo dos Top Toons', 'Chances para vencer a toda hora! Veja o que é de Novo no Blog para mais detalhes!'),
- 105: ('Toons agora Verde!', 'Toons façam um cena Verde com balinhas verdes na Rua dos Carnavlhos nos Jardins da Margarida')}
+ 105: ('Ido de Março', 'Os Idos de Março estão aqui')}
 UnknownHoliday = 'Feriado Desconhecido %d'
 HolidayFormat = '%m/%d '
 TimeZone = 'Brazil/West'
