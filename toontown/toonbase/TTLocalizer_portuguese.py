@@ -8,8 +8,6 @@ for key in OL.SpeedChatStaticTextCommon.iterkeys():
     OL.SpeedChatStaticText[key] = OL.SpeedChatStaticTextCommon[key]
 
 ExtraKeySanityCheck = 'Ignore-me'
-commitmanString = 'bugfix! I changed this'
-commitmanSting2 = 'another string!'
 commitmantst = 'kptmptest - removable'
 InterfaceFont = 'phase_3/models/fonts/ImpressBT.ttf'
 ToonFont = 'phase_3/models/fonts/ImpressBT.ttf'
@@ -133,7 +131,7 @@ GlobalStreetNames = {20000: ('para o', 'no', 'Terraço do Tutorial'),
 DonaldsDock = ('para o', 'no', lDonaldsDock)
 ToontownCentral = ('para o', 'no', lToontownCentral)
 TheBrrrgh = ('para', 'em', lTheBrrrgh)
-MinniesMelodyland = ('para a',  'na', lMinniesMelodyland)
+MinniesMelodyland = ('para a', 'na', lMinniesMelodyland)
 DaisyGardens = ('para os', 'nos', lDaisyGardens)
 OutdoorZone = ('para a', 'na', lOutdoorZone)
 FunnyFarm  = ('para a', 'na', 'Fazenda Divertida')
@@ -850,7 +848,7 @@ QuestDialogDict = {160: {GREETING: '',
  3207: {QUEST: 'Oi, _avName_! Obrigado por vir!\x07Um monte de Duplos Sentidos invadiu minha loja e roubou uma pilha de cartões-postais de meu balcão.\x07Vá e derrote todos os Duplos Sentidos e recupere meus cartões-postais!',
         INCOMPLETE_PROGRESS: 'Não há cartões-postais suficientes! Continue procurando!',
         COMPLETE: 'Ah, valeu! Agora eu posso entregar a correspondência na hora certa! Aqui está a sua recompensa...'},
- 3208: {QUEST: "Ultimamente temos recebido reclamações dos moradores sobre os Reis da Incerta.\x07Veja se consegue derrotar 10 Reis da Incerta para ajudar nossos colegas Toons nos r" + lDaisyGadens + '.'},
+ 3208: {QUEST: "Ultimamente temos recebido reclamações dos moradores sobre os Reis da Incerta.\x07Veja se consegue derrotar 10 Reis da Incerta para ajudar nossos colegas Toons nos " + lDaisyGardens + '.'},
  3209: {QUEST: 'Valeu mesmo por derrotar os Reis da Incerta!\x07Mas agora os Operadores de Telemarketing ficaram fora de controle.\x07Derrote 10 Operadores de Telemarketing nos Jardins da Margarida e volte aqui para pegar sua recompensa.'},
  3247: {QUEST: 'Ultimamente, temos recebido reclamações dos moradores sobre os Sanguessugas.\x07Veja se consegue derrotar 20 Sanguessugas para ajudar nossos colegas Toons nos Jardins da Margarida.'},
  3210: {QUEST: 'Oh, não, a Seivas Florais da Rua das Amendoeiras está sem flores!\x07Para ajudar, leve dez de suas flores com esguicho.\x07Mas veja primeiramente se tem realmente 10 flores com esguicho em seu estoque.',
@@ -2055,7 +2053,7 @@ StageBossBattleTaunt = 'Eu estou acima da Lei'
 CountryClubBossTaunt = 'Sou o Presidente do Clube.'
 CountryClubBossBattleTaunt = 'Você precisa falar com o Presidente do Clube.'
 ForcedLeaveCountryClubAckMsg = 'O Presidente do Clube foi derrotado antes que você pudesse chegar a ele. Você não recuperou nenhuma Ação.'
-ToonHealJokes = [['O que faz TIQUE-TIQUE-TIQUE-AU?', 'Um cãonômetro!'],
+ToonHealJokes = [['O que faz TIQUE-TIQUE-TIQUE-AU?','Um cãonômetro!'],
  ['Por que o louco toma banho com o chuveiro desligado?', 'Porque ele comprou xampú para cabelos secos!'],
  ['Por que é difícil para o fantasma contar mentiras?', 'Porque seus pensamentos são transparentes.'],
  ['Do que a bailarina é chamada quando machuca o pé e se recusa a dançar?', 'Pé-nóstica!'],
@@ -2067,7 +2065,7 @@ ToonHealJokes = [['O que faz TIQUE-TIQUE-TIQUE-AU?', 'Um cãonômetro!'],
  ['Qual é a maior injustiça do Natal?', 'O peru morre e a missa é do galo.'],
  ['Qual é o cúmulo dos trabalhos manuais?', 'Tricotar com a linha do trem.'],
  ['O que é um vulcão?', 'Uma montanha com soluço.'],
- ['O que é um pontinho vermelho, um azul e um rosa em cima de uma árvore?', 'Um morangotango com urublue num rosaenick.'],
+ ['O que é um pontinho vermelho, um azul e um rosa em cima de uma árvore?', 'Um morangotango com urublue num pinkenick.'],
  ['Por que o elefante não consegue tirar carteira de motorista?', 'Porque ele só dá trombada.'],
  ['O que um tijolo disse para o outro?', 'Existe um "ciumento" entre nós.'],
  ['O que a porta disse para a chave?', 'Vamos dar uma voltinha.'],
@@ -2081,7 +2079,7 @@ ToonHealJokes = [['O que faz TIQUE-TIQUE-TIQUE-AU?', 'Um cãonômetro!'],
  ['Quem é a mãe do mingau?', 'Mãe Zena.'],
  ['O que o Batman disse para o Robin na hora em que entraram no carro?', 'BAT a porta!'],
  ['O que é um pontinho amarelo tomando sol?', 'É um fandango querendo virar baconzito.'],
- ['O que é um pontinho rosa no armário?', 'É um curosa.'],
+ ['O que é um pontinho rosa no armário?', 'É um cupink.'],
  ['Quem é o tio da construção?', 'Tio Jolo.'],
  ['O que dá um cruzamento de um dálmata com um canário?', 'Uma onça pintada da Amazônia.'],
  ['O que é uma porção de letras voando?', 'Um bando de borboletras.'],
@@ -2118,7 +2116,7 @@ ToonHealJokes = [['O que faz TIQUE-TIQUE-TIQUE-AU?', 'Um cãonômetro!'],
  ['O que acontece se você alimentar uma vaca com flores?', 'Ela dará leite de rosas.'],
  ['O que é que tem seis olhos, mas não pode ver?', 'Três ratinhos cegos.'],
  ['Afinal, o que é que sempre encontramos no final do túnel?', 'A letra L.'],
- ['Qual a palavra que tem duas letras e três sílabas?','Arara!'],
+ ['Qual a palavra que tem duas letras e três sílabas?', 'Arara!'],
  ['Por que os elefantes são encontrados na África?', 'Porque eles são muito grandes para se esconderem.'],
  ['Onde estavam todos os moradores da cidade durante o último apagão?', 'No escuro.'],
  ['Quando é que o cliente fica preso no banco?', 'Quando fecha a conta-corrente.'],
@@ -2167,10 +2165,10 @@ ToonHealJokes = [['O que faz TIQUE-TIQUE-TIQUE-AU?', 'Um cãonômetro!'],
  ['O que é que a banana suicida falou?', 'Macacos me mordam!!!'],
  ['Qual o tipo de alimento de que o político mais gosta?', 'As massas.'],
  ['O que a chaminé grande falou para a chaminé pequena?', 'Você é muito jovem para fumar.'],
- ['O que é um pontinho vermelho no pântano?', 'É um jacared.'],
+ ['O que é um pontinho vermelho no pântano?', 'É um jacaré.'],
  ['O que é um pontinho azul no gramado?', 'Uma formiguinha de calça jeans.'],
  ['O que é um ponto brilhante no gramado?', 'Uma formiguinha de aparelho nos dentes.'],
- ['O que é um pontinho marrom na pré-história?', 'Um browntossauro.'],
+ ['O que é um pontinho marrom na pré-história?', 'Um marromtossauro.'],
  ['Como se chama um dinossauro que nunca se atrasa?', 'Prontossauro.'],
  ['O que é um pontinho vermelho num pedacinho de neve?', 'Uma miniatura da bandeira do Japão.'],
  ['O que é um pontinho dourado no gramado?', 'É uma formiguinha brincando de Jaspion.'],
@@ -2221,7 +2219,7 @@ ToonHealJokes = [['O que faz TIQUE-TIQUE-TIQUE-AU?', 'Um cãonômetro!'],
  ['Sabe por que o italiano não come churrasco?', 'Porque o macarrão não cabe no espeto.'],
  ['Qual é o cúmulo da rapidez?', 'Ir ao enterro de um parente e ainda encontrá-lo vivo.'],
  ['Qual é o cúmulo do azar?', 'Ser atropelado por um carro funerário.'],
- ['Por que o jacaré tomou o cartão de crédito do jacarezinho?', 'Porque o jacarezinho gastou muito e mandou o jacarepaguá.'],
+ ['Por que o jacaré tomou o cartão de crédito do jacarezinho?','Porque o jacarezinho gastou muito e mandou o jacarepaguá.'],
  ['Qual é o cúmulo da burrice?', 'Olhar pelo buraco da fechadura numa porta de vidro.'],
  ['Qual é o cúmulo da confiança?', 'Jogar par-ou-ímpar pelo telefone?'],
  ['Qual é o cúmulo da paciência?', 'Esvaziar uma piscina com conta-gotas.'],
@@ -2232,8 +2230,7 @@ ToonHealJokes = [['O que faz TIQUE-TIQUE-TIQUE-AU?', 'Um cãonômetro!'],
  ['Qual é o fim da picada?', 'Quando o mosquito vai embora.'],
  ['O que o paraquedas disse para o paraquedista?', 'Tô contigo e não abro.'],
  ['Qual é a cor mais barulhenta?', 'A corneta.'],
- ['O que é um pontinho amarelo no céu?', 'Um amarelocóptero.'],
- ['O que o '+ MickeyMouse + ' foi fazer no espaço?', 'Ele foi encontrar o ' + Pluto + '.']]
+ ['O que é um pontinho amarelo no céu?', 'Um amarelocóptero.']]
 MovieHealLaughterMisses = ('hmm', 
  'heh', 
  'ha', 
@@ -2627,7 +2624,7 @@ SuitAttackTaunts = {'Audit': ['Seus livros não têm balanço.',
                'Não me faça ir até aí.',
                'Já cansei de repetir.',
                'Fim de papo, eu já falei.',
-               'Você não tem respeito por nós,  '+ Cogs +'.'
+               'Você não tem respeito por nós, '+ Cogs +'.'
                'Acho que está na hora de você prestar atenção.',
                'Blá, Blá, Blá, Blá, Blá.',
                'Não me obrigue a interromper a reunião.',
@@ -3099,7 +3096,7 @@ KartMinLaff = 'Você precisa de %s pontos de risada para poder andar neste carte
 CogsIncExt = ', Ltda.'
 CogsIncModifier = '%s' + CogsIncExt
 CogsInc = Cogs.upper() + CogsIncExt
-CogdominiumsExt = ' Cogdomínios'
+CogdominiumsExt = ' Escritório de Campo'
 Cogdominiums = Cog.upper() + CogdominiumsExt
 DoorKnockKnock = 'Toc, toc.'
 DoorWhosThere = 'Quem é?'
@@ -3117,8 +3114,8 @@ FADoorCodes_SUIT_APPROACHING = None
 FADoorCodes_BUILDING_TAKEOVER = 'Cuidado! Tem um COG lá dentro!'
 FADoorCodes_SB_DISGUISE_INCOMPLETE = 'Você vai ser pego se entrar lá como um Toon! Você precisa completar o seu Disfarce de Robô Vendedor primeiro!\n\nMonte o seu Disfarce de Robô Vendedor com pedaços da Fábrica.'
 FADoorCodes_CB_DISGUISE_INCOMPLETE = 'Você vai ser pego se entrar lá como um Toon! Você precisa completar o seu Disfarce de Robô Mercenário primeiro!\n\nMonte o seu Disfarce de Robô Mercenário executando Tarefas Toon na Sonholândia.'
-FADoorCodes_LB_DISGUISE_INCOMPLETE = 'Você vai ser pego se entrar lá como um Toon! Você precisa completar o seu Disfarce de Robô da Lei primeiro!\n\nMonte o seu Disfarce de Robô da Lei com pedaços da Fábrica.'
-FADoorCodes_BB_DISGUISE_INCOMPLETE = 'Você vai ser pego se entrar lá como Toon! Primeiramente, você precisa concluir seu Disfarce de Robô Chefe!\n\nConstrua seu Disfarce de Robô Chefe cumprindo as TarefasToon depois da Sonholândia do Donald.'
+FADoorCodes_LB_DISGUISE_INCOMPLETE = 'Você vai ser pego se entrar lá como um Toon! Você precisa completar o seu Disfarce de Robô da Lei primeiro!\n\nMonte o seu Disfarce de Robô da Lei cumprindo as Tarefas Toon depois da Sonholândia do Donald.'
+FADoorCodes_BB_DISGUISE_INCOMPLETE = 'Você vai ser pego se entrar lá como Toon! Primeiramente, você precisa concluir seu Disfarce de Robô Chefe!\n\nConstrua seu Disfarce de Robô Chefe cumprindo as Tarefas Toon depois da Sonholândia do Donald.'
 KnockKnockContestJokes = {2100: ['Wally', 'Wally não está olhando, joga torta nele!'],
  2200: {28:['Biscoito', 'Biscoitos me mordam, os Cogs vêm aí!'], 
         41:['Dewey', 'Dewemos ir detonar mais alguns Cogs?'],
@@ -3303,8 +3300,8 @@ MickeyChatter = (['Bem-vindo ao '+lToontownCentral+'.', 'Oi, meu nome é ' + Mic
   'É hora de tirar um cochilo. Vou para a Sonholândia.'])
 WinterMickeyCChatter = (['Oi, eu sou o Mickey Natalino!',
   'Bem-vindo ao Tinseltown... Quero dizer, Toontown!',
-  'Feliz Feriado de Inverno!',
-  'Feliz Feriado de Inverno, %'], ['Cante sua alegria sazonal nas Campainhas Ding-dong para o Mundo e a Felícia certamente retribuirá o favor!',
+  'Feliz Natal!',
+  'Feliz Natal, %'], ['Cante sua alegria sazonal nas Campainhas Ding-dong para o Mundo e a Felícia certamente retribuirá o favor!',
   'Caramba, esses corredores com certeza estão enfeitados!',
   'Cante sua alegria sazonal nas Campainhas Ding-dong para o Mundo e a Felícia certamente retribuirá o favor!',
   'Basta olhar para aquelas luzes das árvores! Que Visão!',
@@ -3319,7 +3316,7 @@ WinterMickeyCChatter = (['Oi, eu sou o Mickey Natalino!',
   'Cante sua alegria sazonal nas Campainhas Ding-dong para o Mundo e a Felícia certamente retribuirá o favor!',
   'Oh puxa vida! Eu amo Feriado de Inverno!',
   'Cante sua alegria sazonal nas Campainhas Ding-dong para o Mundo e a Felícia certamente retribuirá o favor!',
-  'Acho que troco minhas luvas por luvas de Inverno'], ['Tenha um Feliz Feriado de Inverno!',
+  'Acho que troco minhas luvas por luvas de Inverno'], ['Tenha um Feliz Natal!',
   'Desejos calorosos para você!',
   'Caramba, Sinto muito, você tem que ir. Até mais!',
   'Vou cantar com a Minnie!'])
@@ -3336,15 +3333,15 @@ ValentinesMickeyChatter = (['Oi, eu sou o Mickey!',
   'A Minnie vai querer chocolates ou flores?'], ['Adorei sua visita!', 'Diga a Minnie que eu vou buscá-la em breve!'])
 WinterMickeyDChatter = (['Oi, eu sou o Mickey Natalino!',  
   'Bem-vindo ao Cidade do Ouropel... Quero dizer, Toontown!',
-  'Feliz Feriado de Inverno!',
-  'Feliz Feriado de Inverno, %'], ['Caramba, esses corredores com certeza estão enfeitados!',
+  'Feliz Natal!',
+  'Feliz Natal, %'], ['Caramba, esses corredores com certeza estão enfeitados!',
   'Basta olhar para aquelas luzes das árvores! Que Visão!',
   'Nenhuma criatura está se mexendo, exceto este rato aqui!',
   'Eu amo essa época do ano!',
   'Estou me sentindo alegria, e você?',
   'Conhece todas as canções natalinas?',
   'Oh puxa vida! Eu amo Feriado de Inverno!',
-  'Acho que está na hora de colocar luvas mais quentinhas!'], ['Tenha um Feliz Feriado de Inverno!',
+  'Acho que está na hora de colocar luvas mais quentinhas!'], ['Tenha um Feliz Natal!',
   'Desejos calorosos para você!',
   'Caramba, Sinto muito, você tem que ir. Até mais!',
   'Vou cantar com a Minnie!'])
@@ -3542,7 +3539,7 @@ ValentinesChipChatter = (['Eu sou o Tico!', 'Feliz Dia dos Toons dos Namorados!'
   'Você será meu Toon Namorado, Teco?', 
   'O que você pegou para os Cogs para o Dia dos Toons dos Namorados, Teco?',
   'Eu amo o Dia dos Toons dos Namorados!'], ['Volte quando quiser!'])
-WinterChipChatter = (['Feliz Feriado de Inverno!', 'Vestidos como esquilos!', 'Feliz Feriado de Inverno, %!'], ['Feliz Feriado de Inverno, Teco!',
+WinterChipChatter = (['Feliz Natal!', 'Vestidos como esquilos!', 'Feliz Natal, %!'], ['Feliz Natal, Teco!',
   'Toda essa água pode congelar a qualquer momento!',
   'Devíamos trocar as bolas de golfe por bolas de neve!',
   'Se ao menos os esquilos soubessem cantar!',
@@ -3571,8 +3568,8 @@ ValentinesDaleChatter = (["Eu sou o Teco!", "Feliz Dia dos Toons dos Namorados!"
   "Sim, está tudo bem."], ["Volte Sempre!"])
 WinterDaleChatter = (["Esquilos Natalinos!", 
   "Olá, somos dois elfos do papai noel!", 
-  "Feliz Feriado de Inverno!", 
-  "Feliz Feriado de Inverno, %!"], ["Feliz Feriado de Inverno, Tico!",
+  "Feliz Natal!", 
+  "Feliz Natal, %!"], ["Feliz Natal, Tico!",
   "Melhor não estar no gêiser quando isso acontecer!",
   "E os tacos de golfe com pingentes de gelo!",
   "Quem já ouviu falar de esquilos cantores?",
@@ -3662,8 +3659,8 @@ DonaldChatter = (['Bem-vindo à Sonholândia.', 'Oi, meu nome é '+ Donald +'. Q
   'Acho que vou levar meu barco para um giro no meu cais.'])
 WinterDreamlandCChatter = (['Oi, eu sou o Donald Sonolento!', 
   'Bem-vindo ao feriado da Sonholândia!',
-  'Feliz Feriado de Inverno!',
-  'Feliz Feriado de Inverno, %!'], ['Samuel diz que aprender um pequeno treinamento dormindo é um verdadeiro presente, cante uma melodia para ela e descubra o porquê! ',
+  'Feliz Natal!',
+  'Feliz Natal, %!'], ['Samuel diz que aprender um pequeno treinamento dormindo é um verdadeiro presente, cante uma melodia para ela e descubra o porquê! ',
   'Gostaria de estar aconchegado na minha cama!',
   'Samuel diz que aprender um pequeno treinamento dormindo é um verdadeiro presente, cante uma melodia para ela e descubra o porquê!',
   'Estou sonhando com uma Toontown branca!',
@@ -3679,8 +3676,8 @@ WinterDreamlandCChatter = (['Oi, eu sou o Donald Sonolento!',
   'As árvores nas ruas estão cobertas de luzes!'], ['Uma boa-noite para todos!', 'Doces sonhos!', 'Quando eu acordar, vou cantar canções de Natal!'])
 WinterDreamlandDChatter = (['Oi, eu sou o Donald Sonolento!',
   'Bem-vindo ao feriado da Sonholândia!', 
-  'Feliz Feriado de Inverno!', 
-  'Feliz Feriado de Inverno, %!'], ['Gostaria de estar aconchegado na minha cama!',
+  'Feliz Natal!', 
+  'Feliz Natal, %!'], ['Gostaria de estar aconchegado na minha cama!',
   'Estou sonhando com uma Toontown branca!',
   'Eu pretendia deixar de fora leite e biscoitos!',
   'Quando eu acordar, é melhor eu ver muitos presentes!',
@@ -3738,8 +3735,8 @@ ValentinesDonaldChatter = (['Oi, eu sou o Donald!', 'Feliz Dia dos Toons dos Nam
   'Eu preciso pegar um Enguia Amore para a Margarida!'], ['Aloha!', 'Mande minhas lembranças aos Cogs!'])
 WinterDonaldCChatter = (['Bem-vindo à Parada de Barcos e Trenós do Donald!',
   'Todos a bordo para o cruzeiro do Feriado de Inverno!', 
-  'Feliz Feriado de Inverno!', 
-  'Feliz Feriado de Inverno, %!'], ['Ouvi dizer que Bob Botinho, da Presentes Golfinho Fofinho, dá um presente para aquele que tiver uma canção!',
+  'Feliz Natal!', 
+  'Feliz Natal, %!'], ['Ouvi dizer que Bob Botinho, da Presentes Golfinho Fofinho, dá um presente para aquele que tiver uma canção!',
   'Você gostou da decoração de patinhos?',
   'Ouvi dizer que Bob Botinho, da Presentes Golfinho Fofinho, dá um presente para aquele que tiver uma canção!',
   'Por que há neve nos postes?',
@@ -3760,8 +3757,8 @@ WinterDonaldCChatter = (['Bem-vindo à Parada de Barcos e Trenós do Donald!',
   'Ouvi dizer que Bob Botinho, da Presentes Golfinho Fofinho, dá um presente para aquele que tiver uma canção!'], ['Todos em terra para diversão no feriado!', 'Lembre-se de dar gorjeta ao seu motorista do barco na saída!', 'Aproveite o Feriado!'])
 WinterDonaldDChatter = (['Bem-vindo à Parada de Barcos e Trenós do Donald!',
   'Todos a bordo para o cruzeiro das Feriado de Inverno!',
-  'Feliz Feriado de Inverno!',
-  'Feliz Feriado de Inverno, %!'], ['Você gostou da decoração de patinhos?',
+  'Feliz Natal!',
+  'Feliz Natal, %!'], ['Você gostou da decoração de patinhos?',
   'Por que há neve nos postes?',
   'É bom que esta água não congele!',
   'Como eles acenderam as luzes nessas árvores?',
@@ -3786,8 +3783,8 @@ WesternPlutoChatter = (['Bu! Não se assuste, sou eu... Pluto!',
   'Gosto de perseguir gatos pretos!'], ['Agora vou desenterrar um doce!', 'Vou procurar Mickey e ver se ele tem algum doce!', 'Vou assustar o Donald!'])
 WinterPlutoCChatter = (['Oi, eu sou o Pluto!', 
   'Bem-vindo ao Brrrgh. Aqui é frio o ano inteiro!',
-  'Feliz Feriado de Inverno!', 
-  'Feliz Feriado de Inverno, %'], ['Abrão o Abominável adoraria uma canção, pois a Terra do Homem de Neve é um lugar solitário para um pé-grande.',
+  'Feliz Natal!', 
+  'Feliz Natal, %'], ['Abrão o Abominável adoraria uma canção, pois a Terra do Homem de Neve é um lugar solitário para um pé-grande.',
   'Eu mordi um picolé e fiquei com dor de cabeça!',
   'Abrão o Abominável adoraria uma canção, pois a Terra do Homem de Neve é um lugar solitário para um pé-grande.',
   'É como viver em um globo de neve!',
@@ -3799,8 +3796,8 @@ WinterPlutoCChatter = (['Oi, eu sou o Pluto!',
   'Pelo menos meu focinho não está vermelho e brilhando!'], ['Divirta-se muito durante as Feriado de Inverno!', 'Volte sempre que você quiser ver neve!', 'Mickey vai me levar para cantar canções de natal!'])
 WinterPlutoDChatter = (['Oi, eu sou o Pluto!',
   'Bem-vindo ao Brrrgh. Aqui é frio o ano inteiro!', 
-  'Feliz Feriado de Inverno!', 
-  'Feliz Feriado de Inverno, %'], ['Eu mordi um picolé e fiquei com dor de cabeça!',
+  'Feliz Natal!', 
+  'Feliz Natal, %'], ['Eu mordi um picolé e fiquei com dor de cabeça!',
   'É como viver em um globo de neve!',
   'Queria estar ao lado de uma boa fogueira!',
   'Au! Au! Eu preciso de um cachecol!',
@@ -3972,7 +3969,7 @@ AprilToonsExtPhaseTopTopic = 'AprilToonsExtPhaseTopTopic'
 AprilToonsPhasePostTopTopic = 'AprilToonsPhasePostTopTopic'
 toontownDialogues = {BoringTopic: {(1, 2018): ['Oi Albert', 'Parece que o nível de bobagem está subindo', 'Sim, e se não esqueça dos Toons de Abril!'],
                (2, 2019): ['Oi Newton', 'Gostaria de saber o quanto os grupos contribuíram para isso '],
-               (3, 2020): ['Para que cumprimentar Albert e Newton', 'O Halloween foi bem bobinho também!']}     
+               (3, 2020): ['Para que cumprimentar Albert e Newton', 'O Halloween foi bem bobinho também!']},  
  AprilToonsPhasePreTopTopic: {(1, 2020): ['Gadzooks! O Medidor de Bobagens voltou à vida!',
                                           'Está subindo a cada dia e chegará ao topo em breve!',
                                           'Quando isso acontecer, algo bobo certamente acontecerá!',
@@ -5938,9 +5935,9 @@ for accessoryId in list(CatalogAccessoryItemGlobals.AccessoryTypes.keys()):
     elif accessoryInfo[0] % 4 == 1:
         accessoryStyleDescription = GlassesStylesDescriptions
     elif accessoryInfo[0] % 4 == 2:
-        accessoryStyleDescription = MochilasStylesDescriptions
+        accessoryStyleDescription = BackpackStylesDescriptions
     else:
-        accessoryStyleDescription = SapatosStylesDescriptions
+        accessoryStyleDescription = ShoesStylesDescriptions
     if accessoryInfo[3]:
         AwardManagerAccessoryNames[accessoryId] = AccessoryNamePrefix[accessoryInfo[0]] + accessoryStyleDescription[accessoryInfo[1]]
     AccessoryTypeNames[accessoryId] = accessoryStyleDescription[accessoryInfo[1]]
