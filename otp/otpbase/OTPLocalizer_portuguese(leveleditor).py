@@ -2397,8 +2397,8 @@ SpeedChatStaticTextPirates = {
     50203 : "Patife!",
     50204 : "Marujo de terra firme!",
     50205 : "Tolo confuso!",
-    50206 : "Você precisa de uma espada afiada e inteligência mais afiada."
-    50207 : "Você está a um dobrão de um companheiro de casco completo!"
+    50206 : "Você precisa de uma espada afiada e inteligência mais afiada.",
+    50207 : "Você está a um dobrão de um companheiro de casco completo!",
     50208 : "Cuidado com sua língua ou vou conservá-la com sal marinho!",
     50209 : "Toca-me e saqueie e você ganha a bota!",
     50210 : "O horizonte está tão vazio quanto sua cabeça.",
