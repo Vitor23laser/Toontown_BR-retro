@@ -62,7 +62,7 @@ TCMpayButtonPos = (0.0, 0.0, -0.10)
 TCMopenChatWarning = 0.05
 TCMactivateChatGui = 0.05
 TCMsecretchatActivated = 0.05
-TCMdirectButtonTextPos = (0.0, 0.0, (-0.25)
+TCMdirectButtonTextPos = (0.0, 0.0, (-0.25))
 
 #coghq/LawbotCogHQLoader.py
 LCHQLfdText = 0.075      # the scale of the gate name
@@ -168,7 +168,7 @@ MRPplayButton = 0.040
 MRPInstructionsTextWordwrap = 32
 MRPInstructionsTextPos = (-0.12, 0.05, 0)
 
-#cogdominium/CogdoGqameRulesPanel.py
+#cogdominium/CogdoGameRulesPanel.py
 CRPgameTitleText = 0.088
 CRPgameTitleTextPos = (-0.046, 0.2, 0.13)
 
