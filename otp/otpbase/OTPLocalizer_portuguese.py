@@ -53,7 +53,7 @@ ChatManagerWhisperTo = 'Cochichar com:'
 ChatManagerWhisperToName = 'Cochichar com:\n%s'
 ChatManagerCancel = lCancel
 ChatManagerWhisperOffline = '%s está off-line.'
-OpenChatWarning = 'Para se tornar Amigo secreto de alguém, clique na pessoa e selecione "Secretos" no painel de detalhes.\n\nO recurso Chat rápido Plus pode ser ativado por permitir que os usuários conversem por digitar palavras encontradas no Dicionário Disney do Chat rápido Plus.\n\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em 'Opções da conta' na página da web de Toontown.\n\nSe você é menor de 18 anos, você precisa pedir aos seus pais ou responsáveis para usar a conta de pais para ativar esses recursos.'
+OpenChatWarning = 'Para se tornar Amigo secreto de alguém, clique na pessoa e selecione "Secretos" no painel de detalhes.\n\nO recurso Chat rápido Plus pode ser ativado por permitir que os usuários conversem por digitar palavras encontradas no Dicionário Disney do Chat rápido Plus.\n\nPara ativar este recurso ou para aprender mais sobre ele, saia de Toontown e clique em "Opções da conta" na página da web de Toontown.\n\nSe você é menor de 18 anos, você precisa pedir aos seus pais ou responsáveis para usar a conta de pais para ativar esses recursos.'
 OpenChatWarningOK = lOK
 UnpaidChatWarning = 'Depois que você assinar o serviço, poderá ativar este botão para conversar com seus amigos usando o teclado. Até lá, você deve conversar com os outros Toons usando o Chat rápido.'
 UnpaidChatWarningPay = 'Assine já!'
@@ -137,7 +137,7 @@ SecretFriendsInfoPanelText = ['\nO recurso Abrir Chat de Amigos secretos\n\nO re
  '\nse tornem Amigas secretas, uma delas terá que solicitar um novo código secreto ao Serviço e comunicar à outra.\n\nOs Amigos secretos se comunicam entre si por meio de uma conversa interativa em formato livre. O conteúdo da conversa é inserido diretamente pelo membro participante e é processado pelo Serviço, cuja operação é realizada pelo Walt Disney Internet Group ("WDIG"), 506 2nd Avenue, Suite 2100, Seattle, WA 98104, EUA (telefone +1 (509) 742-4698; e-mail ms_support@help.go.com). Apesar de recomendarmos aos membros não trocarem com outros membros informações pessoais como nome e sobrenome, e-mails, endereço postal ou números de telefone ao usarem o recurso Abrir Chat de Amigos secretos, não podemos garantir que os membros seguirão a recomendação e que tais informações sejam preservadas. Embora o chat de Amigos secretos seja automaticamente filtrado para evitar o uso da maioria dos palavrões, Abrir Chat de Amigos Secretos não há moderação, e Disney reserva o direito para moderar toda parte no Serviço que a Disney,\n',
  '\nem sua exclusiva e discrição absoleta, considere necessário. No entanto, porque o recurso Abrir Chat de Amigos Secretos nem sempre será moderado, se os pais deixarem seus filhos usarem a conta com o recurso Amigos secretos ativado, aconselhamos que eles mesmos supervisionem os filhos durante a brincadeira no Serviço. Ao ativar o recurso Abrir Chat de Amigos secretos, a conta de pais reconhece que há alguns riscos inerentes ao recurso abrir chat de amigos secretos, e a conta de pais que foi informada de todos os riscos mencionados aqui, concordando em aceitá-los, se previsível ou de outra forma. \n\nO WDIG não usa o conteúdo do chat de Amigos secretos para nenhum fim que não seja a comunicação do conteúdo ao amigo secreto do membro, e não revela tal conteúdo a terceiros, exceto: (1) se exigido por lei; por exemplo, para cumprir uma ordem ou intimação judicial; (2) para fazer com que os Termos de Uso\n',
  "\naplicáveis ao Serviço (que podem ser acessados na página principal do Serviço) sejam respeitados; ou (3) para proteger a segurança dos Membros do Serviço e o Serviço propriamente dito. Obedecendo à Children's Online Privacy Protection Act, uma lei americana de proteção à privacidade on-line para as crianças, estamos proibidos de condicionar a participação da criança em qualquer tipo de atividade (inclusive o recurso Abrir chat de Amigos secretos) ao fornecimento, por parte da criança, de mais informações pessoais do que o estritamente necessário para que ela participe de tais atividades.\n\nAlém disso, conforme observado acima, reconhecemos o direito do responsável pela criança de não permitir que continuemos a deixar que a criança use o recurso Amigos secretos. Ao ativar o recurso Abrir Chat de Amigos secretos, você reconhece que há alguns riscos inerentes ao chat, no qual os membros podem conversar uns com os outros usando o recurso Abrir Chat de Amigos secretos, sendo que você foi informado de todos os riscos mencionados aqui, concordando em aceitá-los, se previsível ou de outra forma.\n"]
-LeaveToPay = 'Clica Comprar e você vai sair do jogo e vai para o site Toontown.com.br para comprar sua assinatura de Seja um Super Toon."
+LeaveToPay = "Clica Comprar e você vai sair do jogo e vai para o site Toontown.com.br para comprar sua assinatura de Seja um Super Toon."
 LeaveToPayYes = 'Comprar'
 LeaveToPayNo = lCancel
 LeaveToSetParentPassword = 'Para configurar a Senha de pais, o jogo sairá para Toontown.com.br'
@@ -188,7 +188,7 @@ TCRBootedReasons = {1: 'Houve um problema inesperado. A conexão falhou, mas voc
  126: 'Você não está autorizado a usar privilégios administrativos.',
  127: 'Um problema está ocorrendo com seu Toon. Entre em contato com o Serviço de Associado via telefone, e-mail ou chat ao vivo e o erro de referência no código de erro 127. Obrigado.',
  151: 'O administrador responsável pelos servidores de Toontown fez logout na sua conta.',
- 152: 'Foi relatada uma violação dos nossos termos de uso, com relação a '%(name)s'. Por segurança, colocamos uma restrição temporária na conta. Para obter mais detalhes, leia a mensagem enviada ao endereço de e-mail associado a '%(name)s'.',
+ 152: "Foi relatada uma violação dos nossos termos de uso, com relação a '%(name)s'. Por segurança, colocamos uma restrição temporária na conta. Para obter mais detalhes, leia a mensagem enviada ao endereço de e-mail associado a '%(name)s'.",
  153: 'A região de Toontown em que você estava jogando foi reiniciada. Todas as pessoas que estavam jogando nesta região foram desconectadas. Entretanto, você poderá conectar-se novamente e voltar direto ao jogo.',
  154: 'Toontown está fechado para manutenção. Todo mundo precisam descontectar',
  288: 'Sinto muito, mas você usou todos os seus minutos disponíveis deste mês na Toontown.',
@@ -302,12 +302,12 @@ FriendSecretGotSecret = 'Este é o seu novo Código Secreto. Não deixe de anot�
 FriendSecretTooMany = 'Sinto muito, você não pode ter mais Código Secreto hoje. Você já obteve mais do que a parte que lhe cabia!\n\nTente novamente amanhã.'
 FriendSecretTryingSecret = 'Tentando usar Código Secreto. . .'
 FriendSecretEnteredSecretSuccess = 'Agora, você é Amigo secreto de %s!'
-FriendSecretTimeOut = 'Sinto muitos, segredos não estão funcionando agora.'
+FriendSecretTimeOut = 'Sinto muito, segredos não estão funcionando agora.'
 FriendSecretEnteredSecretUnknown = 'Este Código Secreto não existe. Tem certeza de que digitou certo?\n\nSe você tiver digitado certo, ele pode ter expirado. Peça ao seu amigo para pegar outro Código Secreto para você (ou pegue um novo você mesmo e dê ao seu amigo).'
 FriendSecretEnteredSecretFull = 'Você não pode fazer amizade com %s porque um de vocês dois possui amigos demais na lista.'
 FriendSecretEnteredSecretFullNoName = 'Vocês não podem fazer amizade porque um de vocês dois possui amigos demais na lista.'
 FriendSecretEnteredSecretSelf = 'Você acabou de digitar seu próprio Código Secreto! Agora, ninguém mais poderá usar este Código Secreto.'
-FriendSecretEnteredSecretWrongProduct = 'Você digitou o tipo errado de Código Secreto.\nEste jogo utiliza códigos que começam com '%s'.'
+FriendSecretEnteredSecretWrongProduct = "Você digitou o tipo errado de Código Secreto.\nEste jogo utiliza códigos que começam com '%s'."
 FriendSecretNowFriends = 'Agora, você é Amigo Secreto de %s!'
 FriendSecretNowFriendsNoName = 'Agora, vocês são Amigos secretos!'
 FriendSecretDetermineSecret = 'Que tipo de Amigo Secreto você quer ter?'
@@ -519,8 +519,8 @@ SuitBrushOffs = {'f': ['Estou atrasado para uma reunião.'],
 SuitFaceoffTaunts = {'b': ['Você tem uma doação para mim?',
        'Você vai detestar perder a parada.',
        'Você não vai ter salvação.',
-       'Sou 'A Positivo', portanto, vou ganhar.',
-       ''O' não seja tão 'Negativo'.',
+       "Sou 'A Positivo', portanto, vou ganhar.",
+       "'O' não seja tão 'Negativo'.",
        'É uma surpresa você ter me achado; não tenho parada.',
        'Vou precisar fazer uma rápida contagem em você.',
        'Em breve, você vai precisar comer biscoito e tomar um suco.',
@@ -1302,9 +1302,9 @@ SpeedChatStaticTextToontown = {100: 'Oi!',
  4000: 'Vamos jogar minigolfe!',
  4001: 'Vamos jogar de novo!',
  4002: 'Quer jogar golfe?',
- 4100: 'Vamos jogar no 'Tacada e Caminhada'.',
- 4101: 'Vamos jogar no 'Tacadas Divertidas'.',
- 4102: 'Vamos jogar no 'Todas as Tacadas'.',
+ 4100: "Vamos jogar no 'Tacada e Caminhada'.",
+ 4101: "Vamos jogar no 'Tacadas Divertidas'.",
+ 4102: "Vamos jogar no 'Todas as Tacadas'.",
  4103: 'Esse percurso é fácil demais.',
  4104: 'Esse percurso é difícil demais.',
  4105: 'Esse percurso está ótimo.',
@@ -1977,7 +1977,7 @@ SpeedChatStaticTextPirates = {50001: 'Sim',
  51500: 'Vamos navegar para Port Royal.',
  51501: 'Vamos navegar para Tortuga.',
  51502: 'Vamos navegar para Padres Del Fuego.',
- 51503: 'Vamos navegar para Devil's Anvil.',
+ 51503: "Vamos navegar para Devil's Anvil.",
  51504: 'Vamos navegar para Kingshead.',
  51505: 'Vamos navegar para Isla Perdida.',
  51506: 'Vamos navegar para Cuba.',
@@ -1985,7 +1985,7 @@ SpeedChatStaticTextPirates = {50001: 'Sim',
  51508: 'Vamos navegar para Outcast Isle.',
  51509: 'Vamos navegar para Driftwood.',
  51510: 'Vamos navegar para Cutthroat.',
- 51511: 'Vamos navegar para Rumrunner's Isle.',
+ 51511: "Vamos navegar para Rumrunner's Isle.",
  51512: 'Vamos navegar para Isla Cangrejos.',
  51600: 'Vamos para a cidade.',
  51601: 'Vamos para as docas.',
@@ -2281,7 +2281,7 @@ CustomSCStrings = {10: 'Bom...',
  180: 'Vejo você amanhã.',
  190: 'Até a próxima.',
  200: 'Tchau-tchau, pica-pau.',
- 210: 'Até outra hora, galinha d'angola.',
+ 210: "Até outra hora, galinha d'angola.",
  220: 'Vou precisar ir daqui a pouco.',
  230: 'Não conheço isso!',
  240: 'Você está fora daqui!',
@@ -2633,14 +2633,14 @@ CustomSCStrings = {10: 'Bom...',
  11009: 'Um bom feriado para você!',
  11010: 'Feliz Dia do Peru!',
  11011: 'Ho! Ho! Ho!',
- 11012: ''Noel' problema.',
- 11013: ''Noel' surpresa nenhuma.',
+ 11012: "'Noel' problema.",
+ 11013: "'Noel' surpresa nenhuma.",
  11014: 'Deixa bater o sino, pequenino!',
  11015: 'Raspa o tacho.',
  11016: 'Feliz Natal!',
- 11017: 'Com 'nataleza'!',
+ 11017: "Com 'nataleza'!",
  11018: 'Até o Natal, tudo bem!',
- 11019: 'Você vai se 'arrenapender'!',
+ 11019: "Você vai se 'arrenapender'!",
  11020: 'Tenha um inverno maravilhoso!',
  11021: 'As decorações da Festa de Natal são Toontastico!',
  11022: 'Soldados Toons estão organizando festas de fim de ano!',
