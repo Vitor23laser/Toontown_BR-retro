@@ -183,14 +183,12 @@ TCRBootedReasons = {1: 'Houve um problema inesperado. A conexão falhou, mas voc
  100: 'Você foi desconectado porque outra pessoa acabou de fazer login usando a sua conta em outro computador.',
  120: 'Você foi desconectado porque houve um problema com sua autorização para usar o chat de teclado.',
  122: 'Houve um problema inesperado quando você fez login na Toontown. Entre em contato com o Suporte ao Cliente da Toontown.',
- 124: 'Os arquivos que você tem instalados parecem ser inválidos. Use o botão Jogar, no site da web oficial do Toontown, para executar o Toontown.',
  125: 'Os arquivos que você tem instalados parecem ser inválidos. Use o botão Jogar, no site da web oficial do Toontown, para executar o Toontown.',
  126: 'Você não está autorizado a usar privilégios administrativos.',
  127: 'Um problema está ocorrendo com seu Toon. Entre em contato com o Serviço de Associado via telefone, e-mail ou chat ao vivo e o erro de referência no código de erro 127. Obrigado.',
  151: 'O administrador responsável pelos servidores de Toontown fez logout na sua conta.',
  152: "Foi relatada uma violação dos nossos termos de uso, com relação a '%(name)s'. Por segurança, colocamos uma restrição temporária na conta. Para obter mais detalhes, leia a mensagem enviada ao endereço de e-mail associado a '%(name)s'.",
  153: 'A região de Toontown em que você estava jogando foi reiniciada. Todas as pessoas que estavam jogando nesta região foram desconectadas. Entretanto, você poderá conectar-se novamente e voltar direto ao jogo.',
- 154: 'Toontown está fechado para manutenção. Todo mundo precisam descontectar',
  288: 'Sinto muito, mas você usou todos os seus minutos disponíveis deste mês na Toontown.',
  349: 'Sinto muito, mas você usou todos os seus minutos disponíveis deste mês na Toontown.'}
 CRBootedReasonUnknownCode = 'Houve um problema inesperado (código de erro %s). A conexão falhou, mas você ainda deve conseguir conectar-se novamente para voltar ao jogo.'
@@ -2893,4 +2891,4 @@ def timeElapsedString(timeDelta):
         return '1 minuto atrás'
     else:
         return '%s minutos atrás' % (timeDelta.seconds / 60)
-        
+     
