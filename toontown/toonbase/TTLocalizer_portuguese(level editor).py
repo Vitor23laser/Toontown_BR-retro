@@ -47,9 +47,18 @@ NametagLabel = "Nome"
 
 UnpaidNameTag = "Basico"
 
-# GM nametags
+# GM nametags 2011
 GM_1 = "CONSELHO DOS TOONS"
 GM_2 = "TROPA DE TOONS"
+GM_3 = "PATRULHEIRO DA RESITÊNCIA"
+GM_4 = "GC"
+
+# GM nametags
+GM_NAMES = ("CONSELHO TOON",
+            "TROPA TOON",
+            "PATRULHEIRO DA RESISTÊNCIA",
+            "GC",
+            )
 
 BuildingNametagFont = 'phase_3/models/fonts/MickeyFont'
 BuildingNametagShadow = None
@@ -72,6 +81,8 @@ WesternPluto = "WesternPluto"
 Flippy = "Flippy"
 Chip   = "Tico"
 Dale   = "Teco"
+JailbirdDale = "JailbirdDale"
+PoliceChip = "PoliceChip"
 
 # common locations
 lTheBrrrgh = 'O Brrrgh'
@@ -325,7 +336,10 @@ QuestsDefaultVisitQuestDialog = ("Ouvi falar que _toNpcName_ está procurando po
 # Quest dialog
 QuestsLocationArticle = ""
 def getLocalNum(num):
-    return str(num)
+	if (num <=9):
+		return str(num) + ""
+	else:
+		return str(num)
 QuestsItemNameAndNum = "%(num)s %(name)s"
 
 QuestsCogQuestProgress = "%(progress)s de %(numCogs)s derrotados"
